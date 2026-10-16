@@ -12,7 +12,7 @@ DATA_DIR = ROOT / "data"
 SOURCES_DIR = ROOT / "sources"
 SITE_FILE = ROOT / "site" / "index.html"
 
-CATEGORIES = ["супи", "основні", "салати", "випічка", "десерти", "сніданки", "соуси", "заготовки", "напої"]
+CATEGORIES = ["сніданки", "супи", "основні", "салати", "випічка", "десерти", "соуси", "заготовки", "напої", "складові"]
 SOURCE_TYPES = ["book", "pdf", "video", "link", "telegram", "own"]
 STATUSES = ["спробувати", "приготовано", "улюблене", "не-сподобалось"]
 NUTRITION_STATUSES = ["повний", "частковий", "немає"]

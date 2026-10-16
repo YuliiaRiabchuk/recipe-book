@@ -5,7 +5,7 @@ source:
   type: telegram
   name: Чизкейк Інтенсив (homebake_courses)
   ref: "повідомлення 110, 111; техкарта «Нью-Йорк»"
-category: випічка
+category: складові
 tags: [основа, чизкейк, в-духовці, бюджетне]
 servings: 1
 time: { prep: 15, cook: 15 }

@@ -5,7 +5,7 @@ source:
   type: telegram
   name: Чизкейк Інтенсив (homebake_courses)
   ref: "повідомлення 76, 77, 92, 93, 100, 104, 110–112"
-category: випічка
+category: складові
 tags: [основа, чизкейк, без-випікання, швидко, бюджетне]
 servings: 1
 time: { prep: 15, cook: 0 }

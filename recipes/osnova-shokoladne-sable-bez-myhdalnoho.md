@@ -5,7 +5,7 @@ source:
   type: telegram
   name: Чизкейк Інтенсив (homebake_courses)
   ref: "повідомлення 64, 69; техкарти «Орео» і «Снікерс»"
-category: випічка
+category: складові
 tags: [основа, чизкейк, в-духовці]
 servings: 1
 time: { prep: 15, cook: 15 }
