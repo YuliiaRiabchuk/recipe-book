@@ -8,15 +8,17 @@ import re
 import sys
 
 from recipe_lib import (
-    CATEGORIES, DATA_DIR, NUTRIENT_KEYS, NUTRITION_STATUSES, SITE_FILE, SOURCE_TYPES,
+    CATEGORIES, DATA_DIR, ROOT, NUTRIENT_KEYS, NUTRITION_STATUSES, SITE_FILE, SOURCE_TYPES,
     STATUSES, UNITS, parse_steps, read_recipe, recipe_files, sections, utf8_stdout,
 )
 
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 TAG_RE = re.compile(r"^[a-zа-яіїєґʼ'0-9]+(-[a-zа-яіїєґʼ'0-9]+)*$")
 MARKER_RE = re.compile(r"(<!-- DATA:START -->)(.*?)(<!-- DATA:END -->)", re.S)
+WARNINGS = []
 REQUIRED = ["id", "title", "source", "category", "tags", "servings", "time", "ingredients",
             "nutrition_per_serving", "nutrition_status", "status", "rating", "added"]
+OPTIONAL = ["photo", "videos", "related", "form_cm"]
 
 
 def is_num(v):
@@ -28,7 +30,7 @@ def validate(meta, body, stem):
     for key in REQUIRED:
         if key not in meta:
             errs.append(f"бракує поля '{key}'")
-    unknown = set(meta) - set(REQUIRED)
+    unknown = set(meta) - set(REQUIRED) - set(OPTIONAL)
     if unknown:
         errs.append(f"невідомі поля: {', '.join(sorted(unknown))}")
     if errs:
@@ -136,6 +138,8 @@ def validate(meta, body, stem):
         except ValueError:
             errs.append(f"added '{added}': дата у форматі YYYY-MM-DD")
 
+    errs += validate_optional(meta)
+
     secs = sections(body)
     if "Кроки" not in secs:
         errs.append("у тілі немає розділу '## Кроки'")
@@ -146,11 +150,37 @@ def validate(meta, body, stem):
     return errs
 
 
+def validate_optional(meta):
+    errs = []
+    photo = meta.get("photo")
+    if photo is not None:
+        if not isinstance(photo, str) or not (SITE_FILE.parent / photo).is_file():
+            errs.append(f"photo '{photo}': файлу немає в site/ (шлях відносно site/, напр. img/{meta['id']}.jpg)")
+    videos = meta.get("videos")
+    if videos is not None:
+        if not isinstance(videos, list):
+            errs.append("videos: список { title, file }")
+        else:
+            for v in videos:
+                if not isinstance(v, dict) or set(v) != {"title", "file"} or not all(isinstance(x, str) for x in v.values()):
+                    errs.append(f"videos: елемент {v} має бути {{ title, file }}")
+                elif not (ROOT / v["file"]).is_file():
+                    WARNINGS.append(f"recipes/{meta['id']}.md: відео '{v['file']}' немає на цьому компʼютері")
+    related = meta.get("related")
+    if related is not None and (not isinstance(related, list) or not all(isinstance(r, str) for r in related)):
+        errs.append("related: список id рецептів")
+    form = meta.get("form_cm")
+    if form is not None and (not is_num(form) or form <= 0):
+        errs.append("form_cm: діаметр форми в см, додатне число")
+    return errs
+
+
 def to_record(meta, body):
     secs = sections(body)
     rec = dict(meta)
     rec["added"] = str(meta["added"])
     rec["steps"] = parse_steps(secs.get("Кроки", ""))
+    rec["tips"] = secs.get("Поради", "")
     rec["notes"] = secs.get("Мої нотатки", "")
     return rec
 
@@ -176,6 +206,12 @@ def main():
         seen[key] = path.name
         records.append(to_record(meta, body))
 
+    ids = {r["id"] for r in records}
+    for r in records:
+        missing = [x for x in r.get("related") or [] if x not in ids]
+        if missing:
+            problems[r["id"] + ".md"] = [f"related: немає рецептів {', '.join(missing)}"]
+
     if problems:
         print(f"Помилки валідації ({len(problems)} з {len(files)} файлів):")
         for name, errs in problems.items():
@@ -185,6 +221,8 @@ def main():
         print("\nНічого не записано. Виправ і запусти ще раз.")
         sys.exit(1)
 
+    for w in WARNINGS:
+        print(f"Увага: {w}")
     records.sort(key=lambda r: r["title"])
     print(f"Валідація пройдена, рецептів: {len(records)}.")
     if check_only:
