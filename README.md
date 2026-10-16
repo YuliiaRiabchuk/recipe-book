@@ -40,6 +40,7 @@ python scripts/nutrition.py confirm "щавель" 168465
 python scripts/nutrition.py ignore "вода"
 python scripts/telegram_extract.py               # кандидати з sources/telegram/*/result.json
 python scripts/video_transcript.py <URL>         # субтитри без завантаження відео
+python scripts/pdf_extract.py text <pdf> <out>   # текст PDF по сторінках (також: images, sheet, cover)
 ```
 
 Схема рецепта і правила: [CLAUDE.md](CLAUDE.md).
