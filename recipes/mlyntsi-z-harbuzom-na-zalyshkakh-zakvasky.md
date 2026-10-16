@@ -21,7 +21,7 @@ ingredients:
   - { name: сіль, qty: 0.5, unit: ч.л., note: "" }
   - { name: олія соняшникова, qty: 5, unit: ст.л., note: "рослинна; ще для змащування сковороди" }
 photo: img/mlyntsi-z-harbuzom-na-zalyshkakh-zakvasky.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, zberihannia-zakvasky]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

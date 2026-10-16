@@ -8,6 +8,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 RECIPES_DIR = ROOT / "recipes"
+GUIDES_DIR = ROOT / "guides"
 DATA_DIR = ROOT / "data"
 SOURCES_DIR = ROOT / "sources"
 SITE_FILE = ROOT / "site" / "index.html"

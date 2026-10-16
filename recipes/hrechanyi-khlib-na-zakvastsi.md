@@ -23,7 +23,7 @@ ingredients:
   - { name: оливкова олія, qty: 1, unit: ст.л., note: "" }
   - { name: вода, qty: 20, unit: г, note: "20–50 г або кубики льоду, для пари" }
 photo: img/hrechanyi-khlib-na-zakvastsi.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, boroshno, dodatkovi-inhredienty, hidratatsiia]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

@@ -20,7 +20,7 @@ ingredients:
   - { name: вода, qty: 25, unit: г, note: "для розчинення солі" }
   - { name: лід, qty: null, unit: "", note: "кілька кубиків, для пари" }
 photo: img/tsilnozernovyi-khlib-na-zakvastsi.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, hoduvannia-zakvasky-i-leven, boroshno]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

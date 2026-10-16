@@ -19,7 +19,7 @@ ingredients:
   - { name: вершкове масло, qty: 25, unit: г, note: "кімнатної температури" }
   - { name: вода, qty: 20, unit: мл, note: "20–50 мл, для пари" }
 photo: img/frantsuzka-bulka.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, tekhniky-roboty-z-tistom, dodatkovi-inhredienty]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

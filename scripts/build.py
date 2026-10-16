@@ -8,7 +8,7 @@ import re
 import sys
 
 from recipe_lib import (
-    CATEGORIES, DATA_DIR, ROOT, NUTRIENT_KEYS, NUTRITION_STATUSES, SITE_FILE, SOURCE_TYPES,
+    CATEGORIES, DATA_DIR, GUIDES_DIR, ROOT, NUTRIENT_KEYS, NUTRITION_STATUSES, SITE_FILE, SOURCE_TYPES,
     STATUSES, UNITS, parse_steps, read_recipe, recipe_files, sections, utf8_stdout,
 )
 
@@ -185,6 +185,40 @@ def to_record(meta, body):
     return rec
 
 
+GUIDE_FIELDS = {"id", "title", "section", "order", "source", "related"}
+
+
+def load_guides(problems):
+    """guides/*.md: довідкові статті (теорія), окремо від рецептів."""
+    guides = []
+    for path in sorted(GUIDES_DIR.glob("*.md")):
+        key = f"guides/{path.name}"
+        try:
+            meta, body = read_recipe(path)
+        except ValueError as e:
+            problems[key] = [str(e)]
+            continue
+        errs = []
+        missing = {"id", "title", "section", "order", "source"} - set(meta)
+        if missing:
+            errs.append(f"бракує полів: {', '.join(sorted(missing))}")
+        extra = set(meta) - GUIDE_FIELDS
+        if extra:
+            errs.append(f"невідомі поля: {', '.join(sorted(extra))}")
+        if meta.get("id") != path.stem:
+            errs.append(f"id '{meta.get('id')}' не збігається з назвою файлу")
+        if not isinstance(meta.get("order"), int):
+            errs.append("order: ціле число")
+        if not body.strip():
+            errs.append("порожній текст")
+        if errs:
+            problems[key] = errs
+            continue
+        guides.append({"id": meta["id"], "title": meta["title"], "section": meta["section"], "order": meta["order"],
+                       "source": meta["source"], "related": meta.get("related") or [], "body": body.strip()})
+    return sorted(guides, key=lambda g: (g["section"], g["order"]))
+
+
 def main():
     utf8_stdout()
     check_only = "--check" in sys.argv
@@ -206,16 +240,20 @@ def main():
         seen[key] = path.name
         records.append(to_record(meta, body))
 
-    ids = {r["id"] for r in records}
-    for r in records:
-        missing = [x for x in r.get("related") or [] if x not in ids]
+    guides = load_guides(problems)
+    recipe_ids, guide_ids = {r["id"] for r in records}, {g["id"] for g in guides}
+    for c in recipe_ids & guide_ids:
+        problems[f"guides/{c}.md"] = ["id збігається з id рецепта"]
+    ids = recipe_ids | guide_ids
+    for item, prefix in [(r, "") for r in records] + [(g, "guides/") for g in guides]:
+        missing = [x for x in item.get("related") or [] if x not in ids]
         if missing:
-            problems[r["id"] + ".md"] = [f"related: немає рецептів {', '.join(missing)}"]
+            problems[prefix + item["id"] + ".md"] = [f"related: немає рецептів чи статей {', '.join(missing)}"]
 
     if problems:
         print(f"Помилки валідації ({len(problems)} з {len(files)} файлів):")
         for name, errs in problems.items():
-            print(f"\n  recipes/{name}")
+            print(f"\n  {name if name.startswith('guides/') else 'recipes/' + name}")
             for e in errs:
                 print(f"    - {e}")
         print("\nНічого не записано. Виправ і запусти ще раз.")
@@ -224,22 +262,25 @@ def main():
     for w in WARNINGS:
         print(f"Увага: {w}")
     records.sort(key=lambda r: r["title"])
-    print(f"Валідація пройдена, рецептів: {len(records)}.")
+    print(f"Валідація пройдена, рецептів: {len(records)}, статей довідника: {len(guides)}.")
     if check_only:
         return
 
     payload = json.dumps(records, ensure_ascii=False, indent=2)
     (DATA_DIR / "recipes.json").write_text(payload + "\n", encoding="utf-8")
+    (DATA_DIR / "guides.json").write_text(json.dumps(guides, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     html = SITE_FILE.read_text(encoding="utf-8")
     if not MARKER_RE.search(html):
         print(f"У {SITE_FILE} немає маркерів <!-- DATA:START --> / <!-- DATA:END -->")
         sys.exit(1)
     inline = json.dumps(records, ensure_ascii=False).replace("</", "<\\/")
-    block = f'\n<script id="recipes-data" type="application/json">{inline}</script>\n'
+    inline_g = json.dumps(guides, ensure_ascii=False).replace("</", "<\\/")
+    block = (f'\n<script id="recipes-data" type="application/json">{inline}</script>\n'
+             f'<script id="guides-data" type="application/json">{inline_g}</script>\n')
     html = MARKER_RE.sub(lambda m: m.group(1) + block + m.group(3), html, count=1)
     SITE_FILE.write_text(html, encoding="utf-8", newline="\n")
-    print("Записано data/recipes.json і site/index.html")
+    print("Записано data/recipes.json, data/guides.json і site/index.html")
 
 
 if __name__ == "__main__":

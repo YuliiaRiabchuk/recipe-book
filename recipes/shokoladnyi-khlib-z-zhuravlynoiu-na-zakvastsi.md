@@ -20,7 +20,7 @@ ingredients:
   - { name: журавлина, qty: 50, unit: г, note: "50–100 г" }
   - { name: вода, qty: 20, unit: мл, note: "20–50 мл або лід, для пари" }
 photo: img/shokoladnyi-khlib-z-zhuravlynoiu-na-zakvastsi.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, dodatkovi-inhredienty, fermentatsiia]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

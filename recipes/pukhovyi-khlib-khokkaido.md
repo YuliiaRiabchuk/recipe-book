@@ -22,7 +22,7 @@ ingredients:
   - { name: яйця, qty: 1, unit: шт, note: "для змащування" }
   - { name: молоко, qty: 2, unit: ст.л., note: "для змащування" }
 photo: img/pukhovyi-khlib-khokkaido.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, dodatkovi-inhredienty, formuvannia-i-nadrizy, fermentatsiia]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

@@ -17,7 +17,7 @@ ingredients:
   - { name: картопляне пюре, qty: 220, unit: г, note: "рідке: 100 г картоплі на 87 г картопляного відвару, охолоджене" }
   - { name: вода, qty: 20, unit: мл, note: "або лід, для пари" }
 photo: img/kartoplianyi-khlib.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, metody-vypikannia, tekhniky-roboty-z-tistom, fermentatsiia]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

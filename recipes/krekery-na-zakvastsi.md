@@ -19,7 +19,7 @@ ingredients:
   - { name: сушені трави, qty: 3, unit: г, note: "на вибір" }
   - { name: сіль пластівцями, qty: null, unit: "", note: "для посипання, за бажанням" }
 photo: img/krekery-na-zakvastsi.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, zberihannia-zakvasky]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

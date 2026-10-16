@@ -20,7 +20,7 @@ ingredients:
   - { name: манна крупа, qty: null, unit: "", note: "або кукурудзяне чи рисове борошно, для підпилу" }
   - { name: начинка, qty: null, unit: "", note: "за смаком" }
 photo: img/povitriana-pitsa-na-zakvastsi.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, fermentatsiia, boroshno]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

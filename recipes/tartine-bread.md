@@ -19,7 +19,7 @@ ingredients:
   - { name: закваска, qty: 100, unit: г, note: "на піку дозрівання" }
   - { name: вода, qty: 20, unit: мл, note: "20–50 мл або лід, для пари" }
 photo: img/tartine-bread.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, fermentatsiia, metody-vypikannia, hidratatsiia]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

@@ -18,7 +18,7 @@ ingredients:
   - { name: сіль, qty: 12, unit: г, note: "" }
   - { name: начинка, qty: null, unit: "", note: "за смаком: томати, оливки, цибуля, сир, трави" }
 photo: img/italiiska-fokacha.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, hidratatsiia, fermentatsiia]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

@@ -21,7 +21,7 @@ ingredients:
   - { name: вода, qty: 25, unit: мл, note: "для розведення солі" }
   - { name: вода, qty: 20, unit: мл, note: "20–50 мл або кубики льоду, для пари" }
 photo: img/zhytnii-khlib-z-zhuravlynoiu-ta-nasinniam.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, boroshno, tekhniky-roboty-z-tistom, problemy-tista-i-khliba]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

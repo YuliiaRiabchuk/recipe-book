@@ -19,7 +19,7 @@ ingredients:
   - { name: оливкова олія, qty: 20, unit: г, note: "" }
   - { name: лід, qty: null, unit: "", note: "кілька кубиків, для пари" }
 photo: img/chiabata.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, hidratatsiia, tekhniky-roboty-z-tistom, formuvannia-i-nadrizy]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

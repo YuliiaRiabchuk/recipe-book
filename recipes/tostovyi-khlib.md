@@ -20,7 +20,7 @@ ingredients:
   - { name: вода, qty: 25, unit: г, note: "25–50 г, для розчинення солі" }
   - { name: вода, qty: null, unit: "", note: "для пари" }
 photo: img/tostovyi-khlib.jpg
-related: [pshenychna-zakvaska-100-volohosti]
+related: [pshenychna-zakvaska-100-volohosti, metody-vypikannia, dodatkovi-inhredienty, hidratatsiia]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

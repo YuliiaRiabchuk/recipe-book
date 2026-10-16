@@ -71,7 +71,10 @@
     ],
     "photo": "img/tartine-bread.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "fermentatsiia",
+      "metody-vypikannia",
+      "hidratatsiia"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -165,7 +168,9 @@
     ],
     "photo": "img/italiiska-fokacha.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "hidratatsiia",
+      "fermentatsiia"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -1259,7 +1264,9 @@
     ],
     "photo": "img/harbuzovyi-khlib.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "dodatkovi-inhredienty",
+      "metody-vypikannia"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -1615,7 +1622,10 @@
     ],
     "photo": "img/hrechanyi-khlib-na-zakvastsi.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "boroshno",
+      "dodatkovi-inhredienty",
+      "hidratatsiia"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -1925,7 +1935,10 @@
     ],
     "photo": "img/zhytnii-khlib-z-zhuravlynoiu-ta-nasinniam.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "boroshno",
+      "tekhniky-roboty-z-tistom",
+      "problemy-tista-i-khliba"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -2770,7 +2783,10 @@
     ],
     "photo": "img/kartoplianyi-khlib.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "metody-vypikannia",
+      "tekhniky-roboty-z-tistom",
+      "fermentatsiia"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -3577,7 +3593,8 @@
     ],
     "photo": "img/krekery-na-zakvastsi.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "zberihannia-zakvasky"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -4759,7 +4776,8 @@
     ],
     "photo": "img/mlyntsi-z-harbuzom-na-zalyshkakh-zakvasky.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "zberihannia-zakvasky"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -4847,7 +4865,8 @@
     ],
     "photo": "img/mlyntsi-zvychaini-na-zalyshkakh-zakvasky.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "zberihannia-zakvasky"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -5633,7 +5652,8 @@
     ],
     "photo": "img/oladky-na-zalyshkakh-zakvasky.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "zberihannia-zakvasky"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -7090,7 +7110,9 @@
     ],
     "photo": "img/povitriana-pitsa-na-zakvastsi.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "fermentatsiia",
+      "boroshno"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -7207,7 +7229,10 @@
     ],
     "photo": "img/pukhovyi-khlib-khokkaido.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "dodatkovi-inhredienty",
+      "formuvannia-i-nadrizy",
+      "fermentatsiia"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -7292,6 +7317,11 @@
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
+    "related": [
+      "vyvedennia-zakvasky",
+      "hoduvannia-zakvasky-i-leven",
+      "problemy-zakvasky"
+    ],
     "steps": [
       "День 1: змішай у банці 25 г борошна і 25 г води до однорідності. Накрий кришкою, не закручуючи, і залиш на 24 години в теплі (24–28 °C).",
       "День 2: відбери 25 г закваски в чисту банку, решту відклади (це залишки). Додай 50 г води і 50 г борошна (1:2:2), ретельно перемішай до консистенції йогурту або тіста для млинців. Накрий і залиш на 24 години в теплі.",
@@ -11587,7 +11617,10 @@
     ],
     "photo": "img/tostovyi-khlib.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "metody-vypikannia",
+      "dodatkovi-inhredienty",
+      "hidratatsiia"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -11797,7 +11830,9 @@
     ],
     "photo": "img/frantsuzka-bulka.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "tekhniky-roboty-z-tistom",
+      "dodatkovi-inhredienty"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -11898,7 +11933,10 @@
     ],
     "photo": "img/frantsuzkyi-bahet-na-zakvastsi.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "formuvannia-i-nadrizy",
+      "dodatkovi-inhredienty",
+      "metody-vypikannia"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -12596,7 +12634,9 @@
     ],
     "photo": "img/tsilnozernovyi-khlib-na-zakvastsi.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "hoduvannia-zakvasky-i-leven",
+      "boroshno"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -14032,7 +14072,10 @@
     ],
     "photo": "img/chiabata.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "hidratatsiia",
+      "tekhniky-roboty-z-tistom",
+      "formuvannia-i-nadrizy"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -14695,7 +14738,9 @@
     ],
     "photo": "img/shokoladnyi-khlib-z-zhuravlynoiu-na-zakvastsi.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "dodatkovi-inhredienty",
+      "fermentatsiia"
     ],
     "nutrition_per_serving": {
       "kcal": null,
@@ -14799,7 +14844,9 @@
     ],
     "photo": "img/shpynatnyi-khlib-na-zakvastsi.jpg",
     "related": [
-      "pshenychna-zakvaska-100-volohosti"
+      "pshenychna-zakvaska-100-volohosti",
+      "problemy-tista-i-khliba",
+      "hidratatsiia"
     ],
     "nutrition_per_serving": {
       "kcal": null,

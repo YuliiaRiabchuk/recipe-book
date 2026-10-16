@@ -19,6 +19,7 @@ nutrition_status: немає
 status: спробувати
 rating: null
 added: 2026-10-16
+related: [vyvedennia-zakvasky, hoduvannia-zakvasky-i-leven, problemy-zakvasky]
 ---
 ## Кроки
 1. День 1: змішай у банці 25 г борошна і 25 г води до однорідності. Накрий кришкою, не закручуючи, і залиш на 24 години в теплі (24–28 °C).
