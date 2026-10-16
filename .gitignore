@@ -1,0 +1,34 @@
+# Джерела з авторським контентом не комітимо
+sources/books/*
+!sources/books/.gitkeep
+sources/pdf/*
+!sources/pdf/.gitkeep
+sources/telegram/*
+!sources/telegram/.gitkeep
+sources/transcripts/*
+!sources/transcripts/.gitkeep
+
+# Відео та аудіо
+*.mp4
+*.mkv
+*.webm
+*.mov
+*.avi
+*.m4a
+*.mp3
+*.wav
+*.ogg
+*.opus
+*.flac
+
+# Секрети і кеш
+.env
+data/fdc_cache/
+
+# Службове
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db

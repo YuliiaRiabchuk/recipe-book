@@ -1,0 +1,208 @@
+"""Валідує recipes/*.md, генерує data/recipes.json і вбудовує дані в site/index.html.
+
+Запуск: python scripts/build.py [--check]   (--check: тільки валідація, без запису)
+"""
+import datetime as dt
+import json
+import re
+import sys
+
+from recipe_lib import (
+    CATEGORIES, DATA_DIR, NUTRIENT_KEYS, NUTRITION_STATUSES, SITE_FILE, SOURCE_TYPES,
+    STATUSES, UNITS, parse_steps, read_recipe, recipe_files, sections, utf8_stdout,
+)
+
+ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
+TAG_RE = re.compile(r"^[a-zа-яіїєґʼ'0-9]+(-[a-zа-яіїєґʼ'0-9]+)*$")
+MARKER_RE = re.compile(r"(<!-- DATA:START -->)(.*?)(<!-- DATA:END -->)", re.S)
+REQUIRED = ["id", "title", "source", "category", "tags", "servings", "time", "ingredients",
+            "nutrition_per_serving", "nutrition_status", "status", "rating", "added"]
+
+
+def is_num(v):
+    return isinstance(v, (int, float)) and not isinstance(v, bool)
+
+
+def validate(meta, body, stem):
+    errs = []
+    for key in REQUIRED:
+        if key not in meta:
+            errs.append(f"бракує поля '{key}'")
+    unknown = set(meta) - set(REQUIRED)
+    if unknown:
+        errs.append(f"невідомі поля: {', '.join(sorted(unknown))}")
+    if errs:
+        return errs
+
+    if meta["id"] != stem:
+        errs.append(f"id '{meta['id']}' не збігається з назвою файлу '{stem}.md'")
+    if not isinstance(meta["id"], str) or not ID_RE.match(meta["id"]):
+        errs.append("id: тільки латиниця в нижньому регістрі, цифри й дефіси (kebab-case)")
+    if not isinstance(meta["title"], str) or not meta["title"].strip():
+        errs.append("title: порожня назва")
+
+    src = meta["source"]
+    if not isinstance(src, dict):
+        errs.append("source: має містити type, name, ref")
+    else:
+        if src.get("type") not in SOURCE_TYPES:
+            errs.append(f"source.type '{src.get('type')}': дозволено {', '.join(SOURCE_TYPES)}")
+        for k in ("name", "ref"):
+            if k not in src:
+                errs.append(f"source.{k}: поле відсутнє (може бути порожнім рядком)")
+        extra = set(src) - {"type", "name", "ref"}
+        if extra:
+            errs.append(f"source: невідомі поля {', '.join(sorted(extra))}")
+
+    if meta["category"] not in CATEGORIES:
+        errs.append(f"category '{meta['category']}': дозволено {', '.join(CATEGORIES)}")
+
+    tags = meta["tags"]
+    if not isinstance(tags, list):
+        errs.append("tags: має бути списком, наприклад [швидко, на-вихідні]")
+    else:
+        for t in tags:
+            if not isinstance(t, str) or not TAG_RE.match(t):
+                errs.append(f"tags: '{t}' — малими літерами, слова через дефіс")
+
+    if not isinstance(meta["servings"], int) or isinstance(meta["servings"], bool) or meta["servings"] < 1:
+        errs.append("servings: ціле число від 1")
+
+    time = meta["time"]
+    if not isinstance(time, dict) or set(time) != {"prep", "cook"}:
+        errs.append("time: має бути { prep: хв, cook: хв }")
+    else:
+        for k in ("prep", "cook"):
+            if time[k] is not None and (not isinstance(time[k], int) or time[k] < 0):
+                errs.append(f"time.{k}: ціле число хвилин або null")
+
+    ings = meta["ingredients"]
+    if not isinstance(ings, list) or not ings:
+        errs.append("ingredients: непорожній список")
+    else:
+        for i, ing in enumerate(ings, 1):
+            where = f"ingredients[{i}]"
+            if not isinstance(ing, dict):
+                errs.append(f"{where}: має бути {{ name, qty, unit, note }}")
+                continue
+            missing = {"name", "qty", "unit", "note"} - set(ing)
+            if missing:
+                errs.append(f"{where}: бракує {', '.join(sorted(missing))}")
+                continue
+            extra = set(ing) - {"name", "qty", "unit", "note"}
+            if extra:
+                errs.append(f"{where}: невідомі поля {', '.join(sorted(extra))}")
+            name = ing["name"]
+            if not isinstance(name, str) or not name.strip():
+                errs.append(f"{where}: порожня назва")
+                continue
+            where = f"інгредієнт '{name}'"
+            if ing["qty"] is not None and (not is_num(ing["qty"]) or ing["qty"] <= 0):
+                errs.append(f"{where}: qty має бути додатним числом або null")
+            if ing["qty"] is None:
+                if ing["unit"] not in ("", None) and ing["unit"] not in UNITS:
+                    errs.append(f"{where}: невідома одиниця '{ing['unit']}'")
+            elif ing["unit"] not in UNITS:
+                errs.append(f"{where}: одиниця '{ing['unit']}' не з дозволених: {', '.join(UNITS)}")
+            if not isinstance(ing["note"], str):
+                errs.append(f"{where}: note має бути рядком (\"\", якщо нотатки немає)")
+
+    nut = meta["nutrition_per_serving"]
+    if not isinstance(nut, dict) or set(nut) != set(NUTRIENT_KEYS):
+        errs.append("nutrition_per_serving: має бути { kcal, protein, fat, carbs }")
+    else:
+        for k in NUTRIENT_KEYS:
+            if nut[k] is not None and (not is_num(nut[k]) or nut[k] < 0):
+                errs.append(f"nutrition_per_serving.{k}: невідʼємне число або null")
+    if meta["nutrition_status"] not in NUTRITION_STATUSES:
+        errs.append(f"nutrition_status '{meta['nutrition_status']}': дозволено {', '.join(NUTRITION_STATUSES)}")
+    elif isinstance(nut, dict):
+        filled = [nut.get(k) is not None for k in NUTRIENT_KEYS]
+        if meta["nutrition_status"] == "немає" and any(filled):
+            errs.append("nutrition_status 'немає', але КБЖВ заповнено")
+        if meta["nutrition_status"] != "немає" and not all(filled):
+            errs.append(f"nutrition_status '{meta['nutrition_status']}', але КБЖВ порожнє")
+
+    if meta["status"] not in STATUSES:
+        errs.append(f"status '{meta['status']}': дозволено {', '.join(STATUSES)}")
+    r = meta["rating"]
+    if r is not None and (not isinstance(r, int) or not 1 <= r <= 5):
+        errs.append("rating: ціле від 1 до 5 або null")
+
+    added = meta["added"]
+    if not isinstance(added, dt.date):
+        try:
+            dt.date.fromisoformat(str(added))
+        except ValueError:
+            errs.append(f"added '{added}': дата у форматі YYYY-MM-DD")
+
+    secs = sections(body)
+    if "Кроки" not in secs:
+        errs.append("у тілі немає розділу '## Кроки'")
+    elif not parse_steps(secs["Кроки"]):
+        errs.append("розділ '## Кроки' порожній: кроки нумерованим списком 1. 2. 3.")
+    if "Мої нотатки" not in secs:
+        errs.append("у тілі немає розділу '## Мої нотатки'")
+    return errs
+
+
+def to_record(meta, body):
+    secs = sections(body)
+    rec = dict(meta)
+    rec["added"] = str(meta["added"])
+    rec["steps"] = parse_steps(secs.get("Кроки", ""))
+    rec["notes"] = secs.get("Мої нотатки", "")
+    return rec
+
+
+def main():
+    utf8_stdout()
+    check_only = "--check" in sys.argv
+    files = recipe_files()
+    records, problems, seen = [], {}, {}
+    for path in files:
+        try:
+            meta, body = read_recipe(path)
+            errs = validate(meta, body, path.stem)
+        except ValueError as e:
+            errs = [str(e)]
+        if errs:
+            problems[path.name] = errs
+            continue
+        key = meta["title"].strip().lower()
+        if key in seen:
+            problems[path.name] = [f"така сама назва, як у {seen[key]}"]
+            continue
+        seen[key] = path.name
+        records.append(to_record(meta, body))
+
+    if problems:
+        print(f"Помилки валідації ({len(problems)} з {len(files)} файлів):")
+        for name, errs in problems.items():
+            print(f"\n  recipes/{name}")
+            for e in errs:
+                print(f"    - {e}")
+        print("\nНічого не записано. Виправ і запусти ще раз.")
+        sys.exit(1)
+
+    records.sort(key=lambda r: r["title"])
+    print(f"Валідація пройдена, рецептів: {len(records)}.")
+    if check_only:
+        return
+
+    payload = json.dumps(records, ensure_ascii=False, indent=2)
+    (DATA_DIR / "recipes.json").write_text(payload + "\n", encoding="utf-8")
+
+    html = SITE_FILE.read_text(encoding="utf-8")
+    if not MARKER_RE.search(html):
+        print(f"У {SITE_FILE} немає маркерів <!-- DATA:START --> / <!-- DATA:END -->")
+        sys.exit(1)
+    inline = json.dumps(records, ensure_ascii=False).replace("</", "<\\/")
+    block = f'\n<script id="recipes-data" type="application/json">{inline}</script>\n'
+    html = MARKER_RE.sub(lambda m: m.group(1) + block + m.group(3), html, count=1)
+    SITE_FILE.write_text(html, encoding="utf-8", newline="\n")
+    print("Записано data/recipes.json і site/index.html")
+
+
+if __name__ == "__main__":
+    main()
