@@ -5,7 +5,8 @@ source:
   type: pdf
   name: "Як народжується закваска і хліб. Магія хліба (Анастасія Литвиненко)"
   ref: "с. 10–18"
-category: складові
+category: випічка
+subcategory: закваска
 tags: [закваска, хліб, бюджетне]
 servings: 1
 time: { prep: null, cook: null }
