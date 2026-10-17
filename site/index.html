@@ -174,7 +174,37 @@ ol.steps li { margin-bottom: 14px; padding-left: 4px; }
 ol.steps li::marker { color: var(--accent); font-weight: 600; font-variant-numeric: tabular-nums; }
 .hero { width: 100%; max-height: 420px; object-fit: cover; border-radius: var(--radius); display: block; margin-bottom: 12px; background: var(--surface-2); }
 .card .thumb { width: calc(100% + 28px); margin: -14px -14px 4px; height: 160px; object-fit: cover; border-radius: var(--radius) var(--radius) 0 0; display: block; background: var(--surface-2); }
-.card { overflow: hidden; }
+.card { overflow: hidden; position: relative; }
+/* уся картка відкриває рецепт, кнопки дій лежать поверх */
+.card-open { background: none; border: 0; padding: 0; margin: 0; font: inherit; color: inherit; text-align: left; cursor: pointer; }
+.card-open::after { content: ''; position: absolute; inset: 0; border-radius: var(--radius); }
+.card-open:focus-visible { outline: none; }
+.card:has(.card-open:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
+.card-acts { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 6px; position: relative; z-index: 1; }
+.card-acts .chip { background: var(--surface); }
+.card-acts .chip[aria-pressed="true"] { background: var(--accent-soft); }
+.card-acts .chip:hover { border-color: var(--accent); }
+
+/* Швидкий перегляд */
+.qv { position: fixed; inset: 0; z-index: 45; background: rgba(20, 15, 10, .5); display: flex; align-items: flex-end; justify-content: center; }
+.qv[hidden] { display: none; }
+.qv-box {
+  background: var(--bg); color: var(--text); width: 100%; max-width: 600px; max-height: 88vh; display: flex; flex-direction: column;
+  border-radius: var(--radius) var(--radius) 0 0; box-shadow: 0 -4px 24px rgba(0, 0, 0, .18); padding-bottom: env(safe-area-inset-bottom);
+}
+.qv-head { display: flex; gap: 10px; align-items: flex-start; padding: 14px 12px 10px 16px; border-bottom: 1px solid var(--line); }
+.qv-head h3 { flex: 1; min-width: 0; margin: 10px 0 0; font-size: 20px; line-height: 1.25; }
+.qv-body { overflow-y: auto; padding: 14px 16px 6px; -webkit-overflow-scrolling: touch; }
+.qv-body .qv-img { width: 100%; height: 180px; object-fit: cover; border-radius: 12px; display: block; margin-bottom: 12px; background: var(--surface-2); }
+.qv-body .section { margin-top: 16px; }
+.qv-body .section:first-of-type { margin-top: 12px; }
+.qv-foot { display: flex; gap: 8px; padding: 12px 16px 14px; border-top: 1px solid var(--line); }
+.qv-foot .primary { flex: 1; }
+.qv-foot .icon-btn[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+@media (min-width: 720px) {
+  .qv { align-items: center; padding: 24px; }
+  .qv-box { border-radius: var(--radius); max-height: 84vh; }
+}
 ul.tips { margin: 0; padding-left: 20px; }
 ul.tips li { margin-bottom: 6px; }
 ul.videos { list-style: none; padding: 0; margin: 0; }
@@ -669,10 +699,11 @@ ul.ings li > span:first-child { min-width: 0; }
       var match = s ? '<div class="match"><b>є ' + s.got.length + ' з ' + (s.got.length + s.miss.length) + '</b>' +
         (s.miss.length ? ' · бракує: ' + esc(s.miss.slice(0, 4).join(', ')) + (s.miss.length > 4 ? '…' : '') : '') + '</div>' : '';
       var img = r.photo ? '<img class="thumb" loading="lazy" alt="" src="' + esc(r.photo) + '">' : '';
-      var inCart = cartEntry(r.id) ? ' <span class="badge cart">🛒 у кошику</span>' : '';
       var cooked = (cookLog[r.id] || []).length ? ' <span class="badge">готувала ' + cookLog[r.id].length + '×</span>' : '';
-      return '<button class="card" data-id="' + esc(r.id) + '">' + img + '<h3>' + esc(r.title) + '</h3>' +
-        '<div class="meta">' + bits.join('<span>·</span>') + '</div>' + match + '<div>' + status + cooked + inCart + '</div></button>';
+      return '<div class="card">' + img + '<h3><button type="button" class="card-open" data-id="' + esc(r.id) + '">' + esc(r.title) + '</button></h3>' +
+        '<div class="meta">' + bits.join('<span>·</span>') + '</div>' + match + '<div>' + status + cooked + '</div>' +
+        '<div class="card-acts">' + cartChip(r) +
+        '<button type="button" class="chip" data-qv="' + esc(r.id) + '" aria-label="Швидкий перегляд: ' + esc(r.title) + '">Швидкий перегляд</button></div></div>';
     };
     // у режимі холодильника — один список за збігом, інакше розділи в порядку CATEGORIES
     if (state.fridge && Object.keys(scores).length) {
@@ -768,8 +799,86 @@ ul.ings li > span:first-child { min-width: 0; }
     }
     var j = e.target.closest('.toc-jump');
     if (j) { var t = $(j.getAttribute('data-jump')); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
-    var c = e.target.closest('.card'); if (c) location.hash = encodeURIComponent(c.getAttribute('data-id'));
+    var b = e.target.closest('[data-cart]');
+    if (b) { toggleCart(b.getAttribute('data-cart')); syncCartChips(); return; }
+    var qv = e.target.closest('[data-qv]');
+    if (qv) { openQuick(qv.getAttribute('data-qv'), qv); return; }
+    var c = e.target.closest('.card-open'); if (c) location.hash = encodeURIComponent(c.getAttribute('data-id'));
   });
+
+  /* ---------- «у кошик» з картки і швидкий перегляд ---------- */
+  function cartChip(r) {
+    var on = !!cartEntry(r.id);
+    return '<button type="button" class="chip" data-cart="' + esc(r.id) + '" aria-pressed="' + on + '" aria-label="' +
+      (on ? 'Прибрати з кошика: ' : 'Додати в кошик: ') + esc(r.title) + '">' + (on ? '✓ У кошику' : '🛒 У кошик') + '</button>';
+  }
+  // з картки рецепт іде в кошик з порціями й формою з рецепта; повторний дотик прибирає
+  function toggleCart(id) {
+    var r = BY_ID[id]; if (!r) return;
+    if (cartEntry(id)) cartRemove(id); else cartPut(id, baseServ(r), r.form_cm > 0 ? r.form_cm : null);
+  }
+  // кнопки оновлюються на місці, без перемальовування списку: фокус і прокрутка лишаються
+  function syncCartChips() {
+    Array.prototype.forEach.call(document.querySelectorAll('[data-cart]'), function (b) {
+      var r = BY_ID[b.getAttribute('data-cart')]; if (!r) return;
+      var tmp = document.createElement('div'); tmp.innerHTML = cartChip(r);
+      var n = tmp.firstChild;
+      b.setAttribute('aria-pressed', n.getAttribute('aria-pressed'));
+      b.setAttribute('aria-label', n.getAttribute('aria-label'));
+      b.textContent = n.textContent;
+    });
+  }
+  var qvReturn = null;
+  function quickHtml(r) {
+    var n = r.nutrition_per_serving || {}, t = r.time || {}, bits = [];
+    if (t.prep) bits.push('підготовка ' + fmtTime(t.prep));
+    if (t.cook) bits.push('готування ' + fmtTime(t.cook));
+    bits.push(r.form_cm > 0 ? 'форма ' + r.form_cm + ' см' : baseServ(r) + ' ' + plural(baseServ(r), 'порція', 'порції', 'порцій'));
+    var kc = typeof n.kcal === 'number' ? n.kcal + ' ккал на порцію' + (r.nutrition_status === 'частковий' ? ' (неповне)' : '') : 'КБЖВ не пораховано';
+    var steps = (r.steps || []).length;
+    return (r.photo ? '<img class="qv-img" alt="" src="' + esc(r.photo) + '">' : '') +
+      '<div class="meta">' + esc(r.category) + '<span>·</span>' + bits.join('<span>·</span>') + '</div>' +
+      '<div class="meta" style="margin-top:4px">' + kc + '<span>·</span>' + (steps ? steps + ' ' + plural(steps, 'крок', 'кроки', 'кроків') : 'без кроків') + '</div>' +
+      '<div class="section"><h4>Інгредієнти</h4>' + ((r.ingredients || []).length ? '<ul class="ings">' + ingRows(r, 1) + '</ul>' : '<p class="meta">Інгредієнтів у рецепті немає.</p>') + '</div>';
+  }
+  function openQuick(id, trigger) {
+    var r = BY_ID[id]; if (!r) return;
+    var p = $('qv');
+    if (!p) {
+      p = document.createElement('div'); p.id = 'qv'; p.className = 'qv'; p.hidden = true;
+      p.setAttribute('role', 'dialog'); p.setAttribute('aria-modal', 'true'); p.setAttribute('aria-labelledby', 'qvTitle');
+      document.body.appendChild(p);
+      p.addEventListener('click', function (e) {
+        if (e.target === p || e.target.closest('#qvClose')) { closeQuick(true); return; }
+        var b = e.target.closest('#qvCart');
+        if (b) { toggleCart(p.getAttribute('data-id')); syncCartChips(); fillQuickCart(); return; }
+        if (e.target.closest('#qvOpen')) { var rid = p.getAttribute('data-id'); closeQuick(true); location.hash = encodeURIComponent(rid); }
+      });
+    }
+    qvReturn = trigger || document.activeElement;
+    p.setAttribute('data-id', id);
+    p.innerHTML = '<div class="qv-box"><div class="qv-head"><h3 id="qvTitle">' + esc(r.title) + '</h3>' +
+      '<button type="button" class="icon-btn" id="qvClose" aria-label="Закрити швидкий перегляд">✕</button></div>' +
+      '<div class="qv-body">' + quickHtml(r) + '</div>' +
+      '<div class="qv-foot"><button type="button" class="icon-btn" id="qvCart"></button><button type="button" class="primary" id="qvOpen">Відкрити рецепт</button></div></div>';
+    fillQuickCart();
+    p.hidden = false;
+    document.body.style.overflow = 'hidden';
+    document.querySelector('header.top').inert = true; document.querySelector('main').inert = true; document.querySelector('.tabbar').inert = true;
+    $('qvOpen').focus({ preventScroll: true });
+  }
+  function fillQuickCart() {
+    var b = $('qvCart'), on = !!cartEntry($('qv').getAttribute('data-id'));
+    b.setAttribute('aria-pressed', on); b.textContent = on ? '✓ У кошику' : '🛒 У кошик';
+  }
+  function closeQuick(restore) {
+    var p = $('qv'); if (!p || p.hidden) return;
+    p.hidden = true;
+    document.body.style.overflow = '';
+    document.querySelector('header.top').inert = false; document.querySelector('main').inert = false; document.querySelector('.tabbar').inert = false;
+    if (restore && qvReturn && document.contains(qvReturn)) qvReturn.focus({ preventScroll: true });
+    qvReturn = null;
+  }
 
   /* ---------- картка ---------- */
   var current = null, servings = 1, formD = null, gotIngs = {};
@@ -1743,7 +1852,13 @@ ul.ings li > span:first-child { min-width: 0; }
     var s = $('sheet');
     if (!s.classList.contains('open')) {
       lastFocus = document.activeElement;
-      lastFocusId = lastFocus && lastFocus.getAttribute ? lastFocus.getAttribute('data-id') : null;
+      // після перемальовування списку фокус шукається за атрибутом: відкриття, швидкий перегляд чи кошик
+      lastFocusId = null;
+      if (lastFocus && lastFocus.getAttribute) ['data-id', 'data-qv', 'data-cart'].some(function (a) {
+        var v = lastFocus.getAttribute(a);
+        if (v) lastFocusId = '#grid [' + a + '="' + CSS.escape(v) + '"]';
+        return !!v;
+      });
     }
     s.setAttribute('aria-label', label);
     s.classList.add('open'); s.scrollTop = 0;
@@ -1755,7 +1870,7 @@ ul.ings li > span:first-child { min-width: 0; }
     var s = $('sheet'); if (!s.classList.contains('open')) return;
     s.classList.remove('open'); document.body.style.overflow = '';
     document.querySelector('header.top').inert = false; document.querySelector('main').inert = false;
-    var el = lastFocusId ? document.querySelector('.card[data-id="' + CSS.escape(lastFocusId) + '"]') : lastFocus;
+    var el = lastFocusId ? document.querySelector(lastFocusId) : lastFocus;
     if (el && document.contains(el)) el.focus({ preventScroll: true });
     lastFocus = lastFocusId = null;
   }
@@ -1880,6 +1995,10 @@ ul.ings li > span:first-child { min-width: 0; }
     if (restore && $('cookBtn')) $('cookBtn').focus({ preventScroll: true });
   }
   document.addEventListener('keydown', function (e) {
+    if ($('qv') && !$('qv').hidden) {
+      if (e.key === 'Escape') closeQuick(true);
+      return;
+    }
     if ($('cook').classList.contains('open')) {
       if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); $('cookNext').click(); }
       else if (e.key === 'ArrowLeft') { $('cookPrev').click(); }
