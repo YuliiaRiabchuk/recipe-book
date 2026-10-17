@@ -25,9 +25,9 @@ ingredients:
 photo: img/chyzkeik-fistashka-malyna.jpg
 form_cm: 18
 videos:
-  - { title: "Урок 7. Основа з готового печива з сублімованою малиною", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9208.MP4" }
-  - { title: "Урок 8. Фісташкова сирна маса і малинове конфі", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9209.MP4" }
-  - { title: "Урок 9. Випікання. Декор", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9210.MP4" }
+  - { title: "Урок 7. Основа з готового печива з сублімованою малиною", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9208.MP4", url: "https://drive.google.com/file/d/1D7gh3w9sRNHSQg5nMVp_FzYNHhGWYmQX/view" }
+  - { title: "Урок 8. Фісташкова сирна маса і малинове конфі", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9209.MP4", url: "https://drive.google.com/file/d/1Pl_NlqqOzfHiAGVinODcS6ZDVPUe2-WF/view" }
+  - { title: "Урок 9. Випікання. Декор", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9210.MP4", url: "https://drive.google.com/file/d/1KSbkJ2qgV0l9NmE1gyjQsU2ssZyxiwNF/view" }
 related: [osnova-z-hotovoho-pechyva]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає

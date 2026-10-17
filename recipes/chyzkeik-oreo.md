@@ -24,9 +24,9 @@ ingredients:
 photo: img/chyzkeik-oreo.jpg
 form_cm: 20
 videos:
-  - { title: "Урок 1. Шоколадна основа", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9139.MP4" }
-  - { title: "Урок 2. Сирна маса: шоколадний шар і шар з орео. Випікання. Стабілізація", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9140.MP4" }
-  - { title: "Урок 3. Шоколадний крем для декору", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9141.MP4" }
+  - { title: "Урок 1. Шоколадна основа", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9139.MP4", url: "https://drive.google.com/file/d/1DM9KTpxcHIdsl1mZhpOrc3Bj45-GsKs8/view" }
+  - { title: "Урок 2. Сирна маса: шоколадний шар і шар з орео. Випікання. Стабілізація", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9140.MP4", url: "https://drive.google.com/file/d/1MaeICMhsBwgSk1AmNqQF9MECdtMAkL3M/view" }
+  - { title: "Урок 3. Шоколадний крем для декору", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9141.MP4", url: "https://drive.google.com/file/d/1Z_bSnyNP7HtN3Y1DR0GY_1lGdnRlE0BZ/view" }
 related: [osnova-shokoladne-sable-myhdalne, osnova-shokoladne-sable-bez-myhdalnoho, osnova-shokoladna-z-hotovoho-pechyva]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає

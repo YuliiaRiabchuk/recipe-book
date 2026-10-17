@@ -27,10 +27,10 @@ ingredients:
 photo: img/chyzkeik-banoffi.jpg
 form_cm: 18
 videos:
-  - { title: "Урок 17. Класична основа сабле", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9632.MOV" }
-  - { title: "Урок 18. Сирна маса", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9630.MOV" }
-  - { title: "Урок 19. Крем для декору", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9631.MOV" }
-  - { title: "Урок 20. Карамель", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9633.MP4" }
+  - { title: "Урок 17. Класична основа сабле", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9632.MOV", url: "https://drive.google.com/file/d/1E4FjlG3mfxG5-4KpAvX67VQjuHi5hCQE/view" }
+  - { title: "Урок 18. Сирна маса", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9630.MOV", url: "https://drive.google.com/file/d/1yv41h3uH9PourqE06DR9tKyLt4TtNCNo/view" }
+  - { title: "Урок 19. Крем для декору", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9631.MOV", url: "https://drive.google.com/file/d/1K446_uM4OGnIfP8scwqhPHvbi2s-2QHI/view" }
+  - { title: "Урок 20. Карамель", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9633.MP4", url: "https://drive.google.com/file/d/1ggBjXYecmwSC49XKLvIsyDlX8pYw4mKn/view" }
 related: [osnova-sable-myhdalne, osnova-z-hotovoho-pechyva]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає

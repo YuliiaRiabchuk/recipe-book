@@ -162,8 +162,11 @@ def validate_optional(meta):
             errs.append("videos: список { title, file }")
         else:
             for v in videos:
-                if not isinstance(v, dict) or set(v) != {"title", "file"} or not all(isinstance(x, str) for x in v.values()):
-                    errs.append(f"videos: елемент {v} має бути {{ title, file }}")
+                if (not isinstance(v, dict) or not {"title", "file"} <= set(v) <= {"title", "file", "url"}
+                        or not all(isinstance(x, str) for x in v.values())):
+                    errs.append(f"videos: елемент {v} має бути {{ title, file, url? }}")
+                elif "url" in v and not v["url"].startswith("https://"):
+                    errs.append(f"videos: url '{v['url']}' має починатися з https://")
                 elif not (ROOT / v["file"]).is_file():
                     WARNINGS.append(f"recipes/{meta['id']}.md: відео '{v['file']}' немає на цьому компʼютері")
     related = meta.get("related")

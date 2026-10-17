@@ -22,7 +22,7 @@ ingredients:
   - { name: вода, qty: 2, unit: ч.л., note: "для крохмалю" }
 photo: img/pana-kota-z-yahidnoiu-nachynkoiu.jpg
 videos:
-  - { title: "Бонус. Пана-кота з ягідною начинкою", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_0141.MOV" }
+  - { title: "Бонус. Пана-кота з ягідною начинкою", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_0141.MOV", url: "https://drive.google.com/file/d/1nnRjkHGJeHdB2Ve_JASN0DWpVmHkajod/view" }
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

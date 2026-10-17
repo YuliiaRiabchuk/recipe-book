@@ -19,8 +19,8 @@ ingredients:
 photo: img/chyzkeik-niu-iork.jpg
 form_cm: 18
 videos:
-  - { title: "Урок 23, перше відео. Основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_1136.MP4" }
-  - { title: "Урок 23, друге відео. Печиво для основи самостійно", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_1137.MP4" }
+  - { title: "Урок 23, перше відео. Основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_1136.MP4", url: "https://drive.google.com/file/d/1IS2XiOtRpPUPw7WNxov7awhmdD3Bb7y4/view" }
+  - { title: "Урок 23, друге відео. Печиво для основи самостійно", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_1137.MP4", url: "https://drive.google.com/file/d/1JaWOqME4Iu8u2H_tiP1AKFbR4pdQ14AW/view" }
 related: [osnova-sable-myhdalne, osnova-sable-bez-myhdalnoho, osnova-z-hotovoho-pechyva]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає

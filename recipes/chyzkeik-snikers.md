@@ -25,10 +25,10 @@ ingredients:
 photo: img/chyzkeik-snikers.jpg
 form_cm: 18
 videos:
-  - { title: "Урок 4. Шоколадна основа", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9139 (1).MP4" }
-  - { title: "Урок 5. Одношаровий чизкейк (арахісова маса)", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9154.MP4" }
-  - { title: "Урок 6. Карамель для декору", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9155.MP4" }
-  - { title: "Урок 7. Викладаємо карамель, ганаш на молочному шоколаді", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9156.MP4" }
+  - { title: "Урок 4. Шоколадна основа", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9139 (1).MP4", url: "https://drive.google.com/file/d/1AH1MH_DeY53SfmkfzH4FVcqaD7X3a5WN/view" }
+  - { title: "Урок 5. Одношаровий чизкейк (арахісова маса)", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9154.MP4", url: "https://drive.google.com/file/d/1mbSnvTDS_DasDlAOAj-eEnUM54R0mJpz/view" }
+  - { title: "Урок 6. Карамель для декору", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9155.MP4", url: "https://drive.google.com/file/d/1KXdXkJ4xdTLU2q6SSq4nl4f10Crdq6MW/view" }
+  - { title: "Урок 7. Викладаємо карамель, ганаш на молочному шоколаді", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9156.MP4", url: "https://drive.google.com/file/d/1JxwpGQwM8X39t5iSOUmPDAvnF13SYA13/view" }
 related: [osnova-shokoladne-sable-myhdalne, osnova-shokoladne-sable-bez-myhdalnoho, osnova-shokoladna-z-hotovoho-pechyva]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає

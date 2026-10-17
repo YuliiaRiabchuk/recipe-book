@@ -23,9 +23,9 @@ ingredients:
 photo: img/chyzkeik-polunytsia-vanil.jpg
 form_cm: 18
 videos:
-  - { title: "Урок 14. Пісочна основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9508.MP4" }
-  - { title: "Урок 15. Двошарова сирна маса: полунична і ванільна", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9509.MP4" }
-  - { title: "Урок 16. Декор кремом на вершках", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9510.MP4" }
+  - { title: "Урок 14. Пісочна основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9508.MP4", url: "https://drive.google.com/file/d/10ip20IoBMBRSIdPZVz2gLuTOOBKv8c8M/view" }
+  - { title: "Урок 15. Двошарова сирна маса: полунична і ванільна", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9509.MP4", url: "https://drive.google.com/file/d/19f_nRQBR-vdGxtwfKELbiGaD-fa-WK8F/view" }
+  - { title: "Урок 16. Декор кремом на вершках", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9510.MP4", url: "https://drive.google.com/file/d/1MOxkEarn_qdVD87LpsNh_s36Gp2Jksiw/view" }
 related: [osnova-z-hotovoho-pechyva]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає

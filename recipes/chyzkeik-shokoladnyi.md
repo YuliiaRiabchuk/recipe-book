@@ -21,9 +21,9 @@ ingredients:
 photo: img/chyzkeik-shokoladnyi.jpg
 form_cm: 18
 videos:
-  - { title: "Урок 10. Шоколадна основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9277.MP4" }
-  - { title: "Урок 11. Шоколадна сирна маса", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9278.MP4" }
-  - { title: "Урок 12. Шоколадний ганаш", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9435.MP4" }
+  - { title: "Урок 10. Шоколадна основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9277.MP4", url: "https://drive.google.com/file/d/1FZHrg8GoGAcnn94N252txrbJWIszDaFp/view" }
+  - { title: "Урок 11. Шоколадна сирна маса", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9278.MP4", url: "https://drive.google.com/file/d/1zf65GHaWzxlJQUM_gx7Lhe5R_F-0Dz7m/view" }
+  - { title: "Урок 12. Шоколадний ганаш", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9435.MP4", url: "https://drive.google.com/file/d/13OXaAPnMWeOAPTs6d602kNHGPiSyRFVL/view" }
 related: [osnova-shokoladna-z-hotovoho-pechyva]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає

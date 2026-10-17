@@ -19,9 +19,9 @@ ingredients:
   - { name: вершкове масло, qty: 70, unit: г, note: "72,5 %, дрібно нарізане, для тіста" }
   - { name: вершкове масло, qty: 25, unit: г, note: "20–30 г, мʼяке або розтоплене, для формування" }
 videos:
-  - { title: "Урок 17. Класична основа сабле (Баннофі)", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9632.MOV" }
-  - { title: "Урок 21. Основа з домашнього печива сабле на форму 20 см (Тірамісу)", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9632 (1).MOV" }
-  - { title: "Урок 23, друге відео. Печиво для основи самостійно (Нью-Йорк)", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_1137.MP4" }
+  - { title: "Урок 17. Класична основа сабле (Баннофі)", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9632.MOV", url: "https://drive.google.com/file/d/1E4FjlG3mfxG5-4KpAvX67VQjuHi5hCQE/view" }
+  - { title: "Урок 21. Основа з домашнього печива сабле на форму 20 см (Тірамісу)", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9632 (1).MOV", url: "https://drive.google.com/file/d/1o3vQWgRUR1runFX1k7IL826BoOCyP7Sa/view" }
+  - { title: "Урок 23, друге відео. Печиво для основи самостійно (Нью-Йорк)", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_1137.MP4", url: "https://drive.google.com/file/d/1JaWOqME4Iu8u2H_tiP1AKFbR4pdQ14AW/view" }
 related: [chyzkeik-banoffi, chyzkeik-tiramisu, chyzkeik-niu-iork, osnova-sable-bez-myhdalnoho, osnova-z-hotovoho-pechyva]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає

@@ -48,8 +48,8 @@ added: 2026-10-16
 # необовʼязкові поля:
 photo: img/borshch-zelenyi.jpg     # шлях відносно site/, файл у site/img/
 form_cm: 18                        # діаметр форми; на сторінці зʼявляється перерахунок на іншу форму
-videos:                            # відеоуроки, file відносно кореня репо (локальні файли в sources/ не комітяться)
-  - { title: "Урок 1. Основа", file: "sources/telegram/<канал>/video_files/IMG_0001.MP4" }
+videos:                            # відеоуроки: file відносно кореня репо (локально), url — посилання Google Drive для сторінки в інтернеті
+  - { title: "Урок 1. Основа", file: "sources/telegram/<канал>/video_files/IMG_0001.MP4", url: "https://drive.google.com/file/d/<id>/view" }
 related: [osnova-z-hotovoho-pechyva]   # id повʼязаних рецептів
 ---
 ## Кроки

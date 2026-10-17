@@ -23,9 +23,9 @@ ingredients:
 photo: img/chyzkeik-tiramisu.jpg
 form_cm: 20
 videos:
-  - { title: "Урок 21. Основа з домашнього печива сабле на форму 20 см", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9632 (1).MOV" }
-  - { title: "Урок 22. Кавова основа для чизкейку Тірамісу", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9634.MOV" }
-  - { title: "Урок 23. Крем для декору", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9635.MOV" }
+  - { title: "Урок 21. Основа з домашнього печива сабле на форму 20 см", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9632 (1).MOV", url: "https://drive.google.com/file/d/1o3vQWgRUR1runFX1k7IL826BoOCyP7Sa/view" }
+  - { title: "Урок 22. Кавова основа для чизкейку Тірамісу", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9634.MOV", url: "https://drive.google.com/file/d/1UPUfu7mdhsD__9YXq-TE6nOSQC0HR3sw/view" }
+  - { title: "Урок 23. Крем для декору", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9635.MOV", url: "https://drive.google.com/file/d/1JeX90j9i0y4YgeqvMD1LburCa2znvwPu/view" }
 related: [osnova-sable-myhdalne, osnova-z-hotovoho-pechyva]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає

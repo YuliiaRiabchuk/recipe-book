@@ -18,7 +18,7 @@ ingredients:
 photo: img/chyzkeik-san-sebastian.jpg
 form_cm: 18
 videos:
-  - { title: "Урок 13. Чизкейк Сан-Себастьян: золотава скоринка і ніжна текстура", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9440.MOV" }
+  - { title: "Урок 13. Чизкейк Сан-Себастьян: золотава скоринка і ніжна текстура", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9440.MOV", url: "https://drive.google.com/file/d/189tlfYK4vOHCDVrmwvN3N06GFACchH0R/view" }
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
 status: спробувати

@@ -14,9 +14,9 @@ ingredients:
   - { name: вершкове масло, qty: 120, unit: г, note: "100–120 г, мʼяке або розтоплене" }
   - { name: сублімована малина, qty: 1, unit: ст.л., note: "за бажанням" }
 videos:
-  - { title: "Урок 7. Основа з готового печива з сублімованою малиною", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9208.MP4" }
-  - { title: "Урок 14. Пісочна основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9508.MP4" }
-  - { title: "Урок 23, перше відео. Основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_1136.MP4" }
+  - { title: "Урок 7. Основа з готового печива з сублімованою малиною", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9208.MP4", url: "https://drive.google.com/file/d/1D7gh3w9sRNHSQg5nMVp_FzYNHhGWYmQX/view" }
+  - { title: "Урок 14. Пісочна основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9508.MP4", url: "https://drive.google.com/file/d/10ip20IoBMBRSIdPZVz2gLuTOOBKv8c8M/view" }
+  - { title: "Урок 23, перше відео. Основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_1136.MP4", url: "https://drive.google.com/file/d/1IS2XiOtRpPUPw7WNxov7awhmdD3Bb7y4/view" }
 related: [chyzkeik-fistashka-malyna, chyzkeik-polunytsia-vanil, chyzkeik-niu-iork, chyzkeik-banoffi, chyzkeik-tiramisu, osnova-sable-myhdalne]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає

@@ -20,8 +20,8 @@ ingredients:
   - { name: вершкове масло, qty: 70, unit: г, note: "холодне, для тіста" }
   - { name: вершкове масло, qty: 25, unit: г, note: "20–30 г, дуже мʼяке або розтоплене, для формування" }
 videos:
-  - { title: "Урок 1. Шоколадна основа (Орео)", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9139.MP4" }
-  - { title: "Урок 4. Шоколадна основа (Снікерс)", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9139 (1).MP4" }
+  - { title: "Урок 1. Шоколадна основа (Орео)", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9139.MP4", url: "https://drive.google.com/file/d/1DM9KTpxcHIdsl1mZhpOrc3Bj45-GsKs8/view" }
+  - { title: "Урок 4. Шоколадна основа (Снікерс)", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9139 (1).MP4", url: "https://drive.google.com/file/d/1AH1MH_DeY53SfmkfzH4FVcqaD7X3a5WN/view" }
 related: [chyzkeik-oreo, chyzkeik-snikers, osnova-shokoladne-sable-bez-myhdalnoho, osnova-shokoladna-z-hotovoho-pechyva]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає

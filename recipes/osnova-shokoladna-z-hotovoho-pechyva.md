@@ -14,7 +14,7 @@ ingredients:
   - { name: вершкове масло, qty: 120, unit: г, note: "120–140 г, розтоплене" }
   - { name: какао, qty: 2.5, unit: ст.л., note: "" }
 videos:
-  - { title: "Урок 10. Шоколадна основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9277.MP4" }
+  - { title: "Урок 10. Шоколадна основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9277.MP4", url: "https://drive.google.com/file/d/1FZHrg8GoGAcnn94N252txrbJWIszDaFp/view" }
 related: [chyzkeik-shokoladnyi, chyzkeik-oreo, chyzkeik-snikers, osnova-shokoladne-sable-myhdalne]
 nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
 nutrition_status: немає
