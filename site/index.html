@@ -78,6 +78,21 @@ h1 { font-size: 20px; margin: 0; flex: 1; letter-spacing: -.01em; }
 .group-title { font-size: 20px; margin: 18px 2px 10px; letter-spacing: -.01em; }
 .group-title span { color: var(--muted); font-weight: 400; font-size: 15px; margin-left: 4px; }
 .group-hint { color: var(--muted); font-size: 14px; margin: -6px 2px 10px; }
+.group { scroll-margin-top: 130px; }
+.toc { margin-bottom: 28px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 4px 14px 8px; }
+.toc .group-title { margin: 12px 0 6px; }
+.toc details { border-top: 1px solid var(--line); }
+.toc details:first-of-type { border-top: 0; }
+.toc summary { display: flex; align-items: center; gap: 12px; padding: 11px 2px; cursor: pointer; list-style: none; font-weight: 600; }
+.toc summary::-webkit-details-marker { display: none; }
+.toc summary::after { content: '›'; color: var(--muted); font-size: 20px; line-height: 1; transition: transform .15s; }
+.toc details[open] summary::after { transform: rotate(90deg); }
+.toc summary .n { margin-left: auto; color: var(--muted); font-weight: 400; font-variant-numeric: tabular-nums; }
+.toc-jump { background: none; border: 0; color: var(--accent); padding: 0 2px 6px; font-size: 14px; }
+.toc-dishes { margin: 0 0 12px; padding-left: 26px; columns: 2 260px; column-gap: 28px; }
+.toc-dishes li { padding: 3px 0; break-inside: avoid; }
+.toc-dishes a { color: var(--text); text-decoration: none; }
+.toc-dishes a:hover { color: var(--accent); text-decoration: underline; }
 .guide-list { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 .guide-link { display: flex; gap: 10px; align-items: baseline; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); color: var(--text); text-decoration: none; }
 .guide-link:hover { border-color: var(--accent); }
@@ -390,14 +405,40 @@ ul.videos li:first-child { border-top: 0; }
       $('grid').innerHTML = '<div class="grid">' + list.map(card).join('') + '</div>';
       return;
     }
-    $('grid').innerHTML = CATEGORIES.map(function (c) {
+    var filtered = q || state.category || state.status || state.time || state.kmin !== '' || state.kmax !== '' || state.tags.length;
+    $('grid').innerHTML = (filtered ? '' : tocHtml(list)) + CATEGORIES.map(function (c) {
       var items = list.filter(function (r) { return r.category === c; });
       if (!items.length) return '';
-      return '<section class="group"><h2 class="group-title">' + esc(c.charAt(0).toUpperCase() + c.slice(1)) +
+      return '<section class="group" id="sec-' + CATEGORIES.indexOf(c) + '"><h2 class="group-title">' + esc(c.charAt(0).toUpperCase() + c.slice(1)) +
         ' <span>' + items.length + '</span></h2>' +
         (CATEGORY_HINTS[c] ? '<p class="group-hint">' + CATEGORY_HINTS[c] + '</p>' : '') +
         '<div class="grid">' + items.map(card).join('') + '</div></section>';
     }).join('') + guidesListHtml(q);
+  }
+
+  // Зміст: розділи з кількістю, розгортаються в список страв; без пошуку й фільтрів
+  function tocHtml(list) {
+    var cap = function (s) { return s.charAt(0).toUpperCase() + s.slice(1); };
+    var rows = CATEGORIES.map(function (c) {
+      var items = list.filter(function (r) { return r.category === c; });
+      if (!items.length) return '';
+      return '<details><summary><span>' + esc(cap(c)) + '</span><span class="n">' + items.length + '</span></summary>' +
+        '<button type="button" class="toc-jump" data-jump="sec-' + CATEGORIES.indexOf(c) + '">До розділу з фото ↓</button>' +
+        '<ol class="toc-dishes">' + items.map(function (r) {
+          return '<li><a href="#' + esc(r.id) + '">' + esc(r.title) + '</a></li>';
+        }).join('') + '</ol></details>';
+    }).join('');
+    var sections = [];
+    GUIDES.forEach(function (g) { if (sections.indexOf(g.section) === -1) sections.push(g.section); });
+    rows += sections.map(function (s, i) {
+      var items = GUIDES.filter(function (g) { return g.section === s; });
+      return '<details><summary><span>Довідник: ' + esc(s) + '</span><span class="n">' + items.length + '</span></summary>' +
+        '<button type="button" class="toc-jump" data-jump="guides-' + i + '">До довідника ↓</button>' +
+        '<ol class="toc-dishes">' + items.map(function (g) {
+          return '<li><a href="#g/' + esc(g.id) + '">' + esc(g.title) + '</a></li>';
+        }).join('') + '</ol></details>';
+    }).join('');
+    return '<nav class="toc" aria-label="Зміст"><h2 class="group-title">Зміст</h2>' + rows + '</nav>';
   }
 
   // Довідник: статті з теорії, групами за section, нижче рецептів
@@ -411,7 +452,7 @@ ul.videos li:first-child { border-top: 0; }
     list.forEach(function (g) { if (sections.indexOf(g.section) === -1) sections.push(g.section); });
     return sections.map(function (s) {
       var items = list.filter(function (g) { return g.section === s; });
-      return '<section class="group"><h2 class="group-title">Довідник: ' + esc(s) + ' <span>' + items.length + '</span></h2>' +
+      return '<section class="group" id="guides-' + sections.indexOf(s) + '"><h2 class="group-title">Довідник: ' + esc(s) + ' <span>' + items.length + '</span></h2>' +
         '<p class="group-hint">Теорія і техніки. Рецепти, де це застосовується, — у кожній статті</p>' +
         '<div class="guide-list">' + items.map(function (g) {
           return '<a class="guide-link" href="#g/' + esc(g.id) + '"><span class="n">' + g.order + '</span>' + esc(g.title) + '</a>';
@@ -419,6 +460,8 @@ ul.videos li:first-child { border-top: 0; }
     }).join('');
   }
   $('grid').addEventListener('click', function (e) {
+    var j = e.target.closest('.toc-jump');
+    if (j) { var t = $(j.getAttribute('data-jump')); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     var c = e.target.closest('.card'); if (c) location.hash = encodeURIComponent(c.getAttribute('data-id'));
   });
 
