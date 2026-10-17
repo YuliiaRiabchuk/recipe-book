@@ -31,7 +31,7 @@ body {
   margin: 0; background: var(--bg); color: var(--text);
   font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-button, input, select { font: inherit; color: inherit; }
+button, input, select, textarea { font: inherit; color: inherit; }
 button { cursor: pointer; }
 a { color: var(--accent); }
 .wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
@@ -207,6 +207,119 @@ ul.shop li.done .what, ul.shop li.done .q { text-decoration: line-through; color
 .shop-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 .shop-actions .icon-btn { height: 44px; }
 @media (max-width: 420px) { .lbl { display: none; } }
+@media (max-width: 420px) {
+  h1 { font-size: 17px; white-space: nowrap; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  header.top .row { gap: 4px; }
+  header.top .icon-btn { min-width: 34px; padding: 0 6px; gap: 3px; }
+}
+.sheet .bar .icon-btn, .sheet .bar .primary { white-space: nowrap; }
+.shop-dept { padding: 12px 14px 4px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); background: var(--surface-2); }
+ul.shop li.shop-dept:first-child { border-radius: var(--radius) var(--radius) 0 0; }
+ul.shop li.row-x { display: flex; align-items: center; }
+ul.shop li.row-x label { flex: 1; min-width: 0; }
+ul.shop li.row-x .link-btn { margin-right: 8px; white-space: nowrap; }
+ul.shop.home .what { color: var(--muted); }
+.shop-add { display: flex; gap: 8px; margin-top: 10px; }
+.shop-add input {
+  flex: 1; min-width: 0; height: 44px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); padding: 0 14px; outline: none;
+}
+.shop-add input:focus { border-color: var(--accent); }
+.shop-add .icon-btn { height: 44px; }
+.manual { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.manual .chip { display: inline-flex; align-items: center; gap: 4px; padding-right: 4px; }
+.manual .chip button { border: 0; background: none; color: var(--muted); width: 24px; height: 24px; padding: 0; }
+.menu-row { display: flex; gap: 10px; align-items: center; }
+.add-menu { margin-top: 10px; }
+
+/* Відмітки «готувала» */
+.log-quick { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.log-quick > span { flex: 1 0 100%; color: var(--muted); font-size: 14px; }
+.log-btn, .seg button {
+  flex: 1; height: 48px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); font-weight: 600;
+}
+.log-btn:hover, .seg button:hover { border-color: var(--accent); }
+.seg { display: flex; gap: 8px; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.log-form { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px; display: grid; gap: 12px; box-shadow: var(--shadow); }
+.log-row { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; }
+.log-lbl { color: var(--muted); font-size: 13px; flex: 0 0 100%; }
+.star-input { display: flex; gap: 0; margin: -4px 0 -4px -6px; }
+.star-input button { width: 48px; height: 48px; border: 0; background: none; font-size: 30px; line-height: 1; padding: 0; color: var(--line); }
+.star-input button[aria-pressed="true"] { color: var(--accent); }
+.log-form .chip { height: 36px; }
+.log-form input[type="date"], .log-form input.tag-in {
+  height: 36px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); padding: 0 12px; font-size: 14px; min-width: 0;
+}
+.log-form input.tag-in { width: 140px; }
+.log-form textarea {
+  width: 100%; border: 1px solid var(--line); background: var(--bg); border-radius: 12px; padding: 10px 12px; resize: vertical; min-height: 64px; outline: none;
+}
+.log-form input:focus, .log-form textarea:focus { border-color: var(--accent); outline: none; }
+.log-save { display: flex; gap: 12px; align-items: center; }
+.log-save .primary { flex: 1; }
+ul.log { list-style: none; padding: 0; margin: 12px 0 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+ul.log li { padding: 10px 8px 10px 14px; border-top: 1px solid var(--line); }
+ul.log li:first-child { border-top: 0; }
+.log-head { display: flex; gap: 10px; align-items: center; font-variant-numeric: tabular-nums; }
+.log-head .link-btn { margin-left: auto; width: 36px; height: 36px; }
+.log-res.ok { color: var(--ok); font-weight: 600; }
+.log-res.bad { color: var(--warn); font-weight: 600; }
+.stars { color: var(--accent); letter-spacing: 1px; }
+.stars span { color: var(--line); }
+.log .chips { margin-top: 6px; }
+.log-comment { margin: 4px 0 0; font-size: 14px; white-space: pre-wrap; }
+.log-export { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; margin-top: 10px; }
+.log-export .link-btn { color: var(--accent); padding: 8px 0; }
+
+/* Меню на тиждень */
+.menu-tools { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-top: 14px; }
+.menu-tools .lbl2 { color: var(--muted); font-size: 14px; }
+.menu-note { color: var(--muted); font-size: 14px; margin: 10px 0 0; max-width: 68ch; }
+.menu-note.warn { background: var(--warn-soft); color: var(--text); padding: 10px 12px; border-radius: 12px; }
+.days { display: grid; gap: 18px 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); margin-top: 18px; }
+.day h3 { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 8px; margin: 0 2px 8px; font-size: 17px; }
+.day h3 .d { color: var(--muted); font-weight: 400; font-size: 14px; }
+.day h3 .k { margin-left: auto; font-weight: 400; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.day.today h3 > span:first-child { color: var(--accent); }
+ul.mday { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+ul.mday > li { display: grid; grid-template-columns: 70px minmax(0, 1fr) 40px; gap: 4px 8px; align-items: center; padding: 8px 4px 8px 14px; border-top: 1px solid var(--line); min-height: 60px; }
+ul.mday > li:first-child { border-top: 0; }
+ul.mday > li.open { background: var(--bg); }
+ul.mday > li:first-child.open { border-radius: var(--radius) var(--radius) 0 0; }
+ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
+.meal { color: var(--muted); font-size: 13px; }
+.mbody a { color: var(--text); text-decoration: none; font-weight: 600; line-height: 1.3; display: block; }
+.mbody a:hover { color: var(--accent); }
+.mbody .meta { margin-top: 2px; font-size: 12px; }
+.mempty { color: var(--muted); font-size: 14px; }
+.mmore { border: 0; background: none; width: 40px; height: 40px; border-radius: 10px; font-size: 20px; color: var(--muted); padding: 0; }
+.mmore[aria-expanded="true"] { background: var(--surface-2); color: var(--text); }
+.macts { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; padding: 6px 10px 4px 0; }
+.macts .icon-btn { height: 40px; font-size: 14px; }
+.macts .icon-btn[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+.macts .servings { padding: 2px; }
+.macts .servings button { width: 34px; height: 34px; }
+.macts .servings output { min-width: 70px; font-size: 14px; }
+.macts .days7 { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
+.macts .days7 .chip { min-width: 44px; height: 40px; }
+.macts .days7 .chip:disabled { opacity: .35; }
+.macts .mmsg { width: 100%; color: var(--warn); font-size: 13px; margin: 0; }
+.msearch { width: 100%; }
+.msearch input {
+  width: 100%; height: 42px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); padding: 0 12px; outline: none;
+}
+.msearch input:focus { border-color: var(--accent); }
+.mres { list-style: none; margin: 6px 0 0; padding: 0; }
+.mres button { display: block; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; margin-top: 6px; }
+.mres button:hover { border-color: var(--accent); }
+.mres .meta { font-size: 12px; }
+.badge.new { background: var(--accent-soft); color: var(--accent); }
+.tlong { color: var(--warn); }
+.nokcal { color: var(--warn); }
+.menu-empty { margin-top: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 16px; }
+.menu-empty .primary { margin-top: 12px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+::selection { background: var(--accent-soft); color: var(--text); }
 </style>
 </head>
 <body>
@@ -214,6 +327,7 @@ ul.shop li.done .what, ul.shop li.done .q { text-decoration: line-through; color
   <div class="wrap">
     <div class="row">
       <h1>Книга рецептів</h1>
+      <button class="icon-btn" id="menuBtn" title="Меню на тиждень">📅 <span class="lbl">Меню</span></button>
       <button class="icon-btn" id="cartBtn" title="Кошик і список покупок">🛒 <span class="lbl">Кошик</span> <span class="cart-n" id="cartN" hidden></span></button>
       <button class="icon-btn" id="fridgeBtn" aria-pressed="false" title="Що є в холодильнику">🧊 <span class="lbl">Холодильник</span></button>
       <button class="icon-btn" id="filterBtn" aria-pressed="false" title="Фільтри">⚙︎</button>
@@ -434,8 +548,9 @@ ul.shop li.done .what, ul.shop li.done .q { text-decoration: line-through; color
         (s.miss.length ? ' · бракує: ' + esc(s.miss.slice(0, 4).join(', ')) + (s.miss.length > 4 ? '…' : '') : '') + '</div>' : '';
       var img = r.photo ? '<img class="thumb" loading="lazy" alt="" src="' + esc(r.photo) + '">' : '';
       var inCart = cartEntry(r.id) ? ' <span class="badge cart">🛒 у кошику</span>' : '';
+      var cooked = (cookLog[r.id] || []).length ? ' <span class="badge">готувала ' + cookLog[r.id].length + '×</span>' : '';
       return '<button class="card" data-id="' + esc(r.id) + '">' + img + '<h3>' + esc(r.title) + '</h3>' +
-        '<div class="meta">' + bits.join('<span>·</span>') + '</div>' + match + '<div>' + status + inCart + '</div></button>';
+        '<div class="meta">' + bits.join('<span>·</span>') + '</div>' + match + '<div>' + status + cooked + inCart + '</div></button>';
     };
     // у режимі холодильника — один список за збігом, інакше розділи в порядку CATEGORIES
     if (state.fridge && Object.keys(scores).length) {
@@ -670,8 +785,10 @@ ul.shop li.done .what, ul.shop li.done .q { text-decoration: line-through; color
           : esc(v.title) + ' <span class="meta">· відео лише на компʼютері</span>') + '</li>'; }).join('') +
         '</ul></div>' : '') +
       (r.notes ? '<div class="section"><h4>Мої нотатки</h4><div class="notes">' + esc(r.notes) + '</div></div>' : '') +
+      logSectionHtml(r) +
       '<div class="section"><h4>Джерело</h4><div>' + sourceHtml(r.source) + '</div><div class="meta" style="margin-top:4px">додано ' + esc(r.added) + '</div></div>' +
       '</article>';
+    bindLog();
     $('backBtn').onclick = function () { history.length > 1 ? history.back() : (location.hash = ''); };
     // рецепт у кошику: зміна порцій чи форми одразу оновлює кількість у списку покупок
     var resize = function () { if (cartEntry(r.id)) cartPut(r.id, servings, formD); renderSheet(); };
@@ -688,13 +805,430 @@ ul.shop li.done .what, ul.shop li.done .q { text-decoration: line-through; color
     $('cookBtn').onclick = openCook;
   }
 
+  /* ---------- сховище й дати ---------- */
+  function loadJson(key, def) { try { var v = JSON.parse(store(key) || 'null'); return v || def; } catch (e) { return def; } }
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function isoDate(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+  function addDays(iso, n) { var p = iso.split('-'); return isoDate(new Date(+p[0], p[1] - 1, +p[2] + n)); }
+  function fmtDate(iso) { var p = String(iso).split('-'); return p.length === 3 ? p[2] + '.' + p[1] + '.' + p[0] : esc(iso); }
+  var MONTHS_GEN = ['січня', 'лютого', 'березня', 'квітня', 'травня', 'червня', 'липня', 'серпня', 'вересня', 'жовтня', 'листопада', 'грудня'];
+  function copyText(text, btn, okLabel) {
+    var old = btn.textContent;
+    var done = function () { btn.textContent = okLabel; setTimeout(function () { btn.textContent = old; }, 1600); };
+    var manual = function () { prompt('Скопіюй вручну:', text); };
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, manual);
+      else manual();
+    } catch (e) { manual(); }
+  }
+
+  /* ---------- відмітки «готувала» ---------- */
+  // { id рецепта: [{ ts, date: 'YYYY-MM-DD', result: 'вдався' | 'не вдався', rating: 1–5 | null, tags: [], comment }] }
+  var cookLog = loadJson('cookLog', {});
+  if (typeof cookLog !== 'object' || Array.isArray(cookLog)) cookLog = {};
+  var logDraft = null;  // відкрита форма нової відмітки для поточного рецепта
+  var cartDirty = false;  // список на головній треба перемалювати (бейджі кошика й відміток)
+  function saveLog() { store('cookLog', JSON.stringify(cookLog)); cartDirty = true; }
+  function logOf(id) {
+    return (Array.isArray(cookLog[id]) ? cookLog[id] : []).slice().sort(function (a, b) {
+      return a.date < b.date ? 1 : a.date > b.date ? -1 : (b.ts || 0) - (a.ts || 0);
+    });
+  }
+  // свої теги з усіх відміток, найчастіші першими
+  function knownLogTags() {
+    var n = {};
+    Object.keys(cookLog).forEach(function (id) { logOf(id).forEach(function (e) { (e.tags || []).forEach(function (t) { n[t] = (n[t] || 0) + 1; }); }); });
+    return Object.keys(n).sort(function (a, b) { return n[b] - n[a] || a.localeCompare(b, 'uk'); });
+  }
+  // статус для меню: явний з картки рецепта сильніший, інакше виводиться з відміток
+  function effStatus(r) {
+    if (r.status === 'улюблене' || r.status === 'не-сподобалось') return r.status;
+    var log = logOf(r.id);
+    if (!log.length) return r.status;
+    var rated = log.filter(function (e) { return e.rating; });
+    var avg = rated.length ? rated.reduce(function (s, e) { return s + e.rating; }, 0) / rated.length : null;
+    var wins = log.filter(function (e) { return e.result === 'вдався'; }).length;
+    if (avg != null ? avg < 2.5 : !wins) return 'не-сподобалось';
+    if (avg != null && (avg >= 4.5 || (avg >= 4 && wins >= 2))) return 'улюблене';
+    return 'приготовано';
+  }
+  function newDraft(result) {
+    return { date: isoDate(new Date()), result: result || 'вдався', rating: null, tags: [], comment: '' };
+  }
+  function openLogForm() {
+    if (!current) return;
+    if (!logDraft) logDraft = newDraft();
+    renderLog();
+    var s = $('logSec'); if (s) s.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function logSectionHtml(r) {
+    var log = logOf(r.id), d = logDraft, today = isoDate(new Date()), yest = addDays(today, -1);
+    var total = 0;
+    Object.keys(cookLog).forEach(function (id) { total += (cookLog[id] || []).length; });
+    var form;
+    if (!d) {
+      form = '<div class="log-quick"><span>' + (log.length ? 'Приготувала ще раз?' : 'Приготувала? Відміть, як вийшло') + '</span>' +
+        '<button type="button" class="log-btn" data-quick="вдався">👍 Вдався</button>' +
+        '<button type="button" class="log-btn" data-quick="не вдався">👎 Не вдався</button></div>';
+    } else {
+      var tags = knownLogTags();
+      d.tags.forEach(function (t) { if (tags.indexOf(t) === -1) tags.unshift(t); });
+      var chip = function (attr, val, label, on) {
+        return '<button type="button" class="chip" ' + attr + '="' + esc(val) + '" aria-pressed="' + (on ? 'true' : 'false') + '">' + label + '</button>';
+      };
+      form = '<div class="log-form">' +
+        '<div class="seg" role="group" aria-label="Результат">' +
+          '<button type="button" data-res="вдався" aria-pressed="' + (d.result === 'вдався') + '">👍 Вдався</button>' +
+          '<button type="button" data-res="не вдався" aria-pressed="' + (d.result === 'не вдався') + '">👎 Не вдався</button></div>' +
+        '<div class="log-row"><span class="log-lbl">Оцінка</span><div class="star-input" role="group" aria-label="Оцінка від 1 до 5">' +
+          [1, 2, 3, 4, 5].map(function (i) {
+            return '<button type="button" data-star="' + i + '" aria-pressed="' + (d.rating >= i) + '" aria-label="' + i + ' з 5">★</button>';
+          }).join('') + '</div></div>' +
+        '<div class="log-row"><span class="log-lbl">Коли</span>' +
+          chip('data-date', today, 'Сьогодні', d.date === today) + chip('data-date', yest, 'Вчора', d.date === yest) +
+          '<input type="date" id="logDate" aria-label="Інша дата" max="' + today + '" value="' + esc(d.date) + '"></div>' +
+        '<div class="log-row"><span class="log-lbl">Теги</span>' +
+          tags.slice(0, 10).map(function (t) { return chip('data-ltag', t, esc(t), d.tags.indexOf(t) !== -1); }).join('') +
+          '<input class="tag-in" id="logTag" placeholder="+ свій тег" enterkeyhint="done" autocomplete="off"></div>' +
+        '<textarea id="logComment" rows="2" placeholder="Коментар: що змінити наступного разу">' + esc(d.comment) + '</textarea>' +
+        '<div class="log-save"><button type="button" class="primary" id="logSave">Зберегти</button>' +
+          '<button type="button" class="link-btn" id="logCancel">Скасувати</button></div></div>';
+    }
+    var entries = log.map(function (e) {
+      return '<li><div class="log-head"><span>' + fmtDate(e.date) + '</span>' +
+        '<span class="log-res ' + (e.result === 'вдався' ? 'ok">вдався' : 'bad">не вдався') + '</span>' +
+        (e.rating ? '<span class="stars" aria-label="оцінка ' + e.rating + ' з 5">' + '★'.repeat(e.rating) + '<span>' + '★'.repeat(5 - e.rating) + '</span></span>' : '') +
+        '<button type="button" class="link-btn" data-logdel="' + esc(e.ts) + '" aria-label="Видалити відмітку">✕</button></div>' +
+        ((e.tags || []).length ? '<div class="chips">' + e.tags.map(function (t) { return '<span class="badge">' + esc(t) + '</span>'; }).join('') + '</div>' : '') +
+        (e.comment ? '<p class="log-comment">' + esc(e.comment) + '</p>' : '') + '</li>';
+    }).join('');
+    return '<div class="section" id="logSec"><h4>Готувала' + (log.length ? ' · ' + log.length : '') + '</h4>' + form +
+      (log.length ? '<ul class="log">' + entries + '</ul>' : '') +
+      (total ? '<div class="log-export"><button type="button" class="link-btn" id="logExport">Експортувати відмітки</button>' +
+        '<span class="meta">JSON усіх рецептів, ' + total + ' ' + plural(total, 'запис', 'записи', 'записів') + '</span></div>' : '') +
+      '</div>';
+  }
+  function renderLog() {
+    var s = $('logSec'); if (!s || !current) return;
+    s.outerHTML = logSectionHtml(current);
+    bindLog();
+  }
+  function bindLog() {
+    var s = $('logSec'); if (!s) return;
+    var r = current;
+    s.onclick = function (e) {
+      var b = e.target.closest('button'); if (!b) return;
+      var v;
+      if ((v = b.getAttribute('data-quick'))) { logDraft = newDraft(v); renderLog(); return; }
+      if ((v = b.getAttribute('data-res'))) { logDraft.result = v; renderLog(); return; }
+      if ((v = b.getAttribute('data-star'))) { logDraft.rating = logDraft.rating === +v ? null : +v; renderLog(); return; }
+      if ((v = b.getAttribute('data-date'))) { logDraft.date = v; renderLog(); return; }
+      if ((v = b.getAttribute('data-ltag'))) {
+        var i = logDraft.tags.indexOf(v);
+        if (i === -1) logDraft.tags.push(v); else logDraft.tags.splice(i, 1);
+        renderLog(); return;
+      }
+      if ((v = b.getAttribute('data-logdel'))) {
+        if (!confirm('Видалити цю відмітку?')) return;
+        cookLog[r.id] = (cookLog[r.id] || []).filter(function (x) { return String(x.ts) !== v; });
+        if (!cookLog[r.id].length) delete cookLog[r.id];
+        saveLog(); renderLog(); return;
+      }
+      if (b.id === 'logCancel') { logDraft = null; renderLog(); return; }
+      if (b.id === 'logSave') {
+        addPendingTag();
+        (cookLog[r.id] = cookLog[r.id] || []).push({
+          ts: Date.now(), date: logDraft.date || isoDate(new Date()), result: logDraft.result,
+          rating: logDraft.rating, tags: logDraft.tags.slice(), comment: logDraft.comment.trim()
+        });
+        logDraft = null; saveLog(); renderLog(); return;
+      }
+      if (b.id === 'logExport') exportLog(b);
+    };
+    var addPendingTag = function () {
+      var inp = $('logTag'); if (!inp || !logDraft) return;
+      inp.value.split(',').map(function (t) { return t.trim().toLowerCase().replace(/\s+/g, '-'); }).filter(Boolean).forEach(function (t) {
+        if (logDraft.tags.indexOf(t) === -1) logDraft.tags.push(t);
+      });
+      inp.value = '';
+    };
+    if ($('logComment')) $('logComment').oninput = function () { logDraft.comment = this.value; };
+    if ($('logDate')) $('logDate').onchange = function () { if (this.value) { logDraft.date = this.value; renderLog(); } };
+    if ($('logTag')) $('logTag').onkeydown = function (e) {
+      if (e.key === 'Enter' || e.key === ',') { e.preventDefault(); addPendingTag(); renderLog(); var t = $('logTag'); if (t) t.focus(); }
+    };
+  }
+  function exportLog(btn) {
+    var out = [];
+    Object.keys(cookLog).forEach(function (id) {
+      (cookLog[id] || []).forEach(function (e) {
+        out.push({ id: id, date: e.date, result: e.result, rating: e.rating == null ? null : e.rating, tags: e.tags || [], comment: e.comment || '' });
+      });
+    });
+    out.sort(function (a, b) { return a.date < b.date ? -1 : a.date > b.date ? 1 : 0; });
+    copyText(JSON.stringify(out, null, 2), btn, 'Скопійовано ✓');
+  }
+
+  /* ---------- меню на тиждень ---------- */
+  var DAYS = ['Понеділок', 'Вівторок', 'Середа', 'Четвер', 'Пʼятниця', 'Субота', 'Неділя'];
+  var DAYS_SHORT = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Нд'];
+  var MEALS = ['Сніданок', 'Обід', 'Вечеря'];
+  var MEAL_CATS = [['сніданки'], ['супи', 'основні', 'салати'], ['основні', 'салати', 'закуски']];
+  var WEEKDAY_MAX = 40;  // хв у будні; рецепти без указаного часу вважаються такими, що вкладаються
+  function mondayOf(d) {
+    var x = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+    x.setDate(x.getDate() - (x.getDay() + 6) % 7);
+    return isoDate(x);
+  }
+  function emptyCells() { return DAYS.map(function () { return [null, null, null]; }); }
+  var menu = loadJson('weekMenu', null);
+  if (!menu || !Array.isArray(menu.cells) || menu.cells.length !== 7) menu = { start: mondayOf(new Date()), people: 2, cells: emptyCells(), fallback: 0 };
+  menu.people = Math.max(1, +menu.people || 2);
+  menu.cells = menu.cells.map(function (day) {
+    return [0, 1, 2].map(function (m) {
+      var c = day && day[m];
+      return c && BY_ID[c.id] ? { id: c.id, servings: Math.max(1, +c.servings || menu.people), pinned: !!c.pinned } : null;
+    });
+  });
+  var menuUi = { open: null, mode: null, q: '', msg: '' };
+  function saveMenu() { store('weekMenu', JSON.stringify(menu)); }
+  function menuIds() {
+    var ids = [];
+    menu.cells.forEach(function (day) { day.forEach(function (c) { if (c) ids.push(c.id); }); });
+    return ids;
+  }
+  function isTry(r) { return effStatus(r) === 'спробувати'; }
+  function fitsSlot(r, d, m) {
+    return MEAL_CATS[m].indexOf(r.category) !== -1 && effStatus(r) !== 'не-сподобалось' &&
+      (d >= 5 || totalTime(r) <= WEEKDAY_MAX);
+  }
+  function randomOf(list) { return list[Math.floor(Math.random() * list.length)]; }
+  function pickWeighted(list) {  // улюблене втричі частіше
+    var w = list.map(function (r) { return effStatus(r) === 'улюблене' ? 3 : 1; });
+    var x = Math.random() * w.reduce(function (a, b) { return a + b; }, 0);
+    for (var i = 0; i < list.length; i++) { x -= w[i]; if (x < 0) return list[i]; }
+    return list[list.length - 1];
+  }
+  // перевірене (приготовано / улюблене) першим; нове — коли просимо або перевіреного бракує
+  function pickFor(d, m, used, wantTry) {
+    var pool = RECIPES.filter(function (r) { return used.indexOf(r.id) === -1 && fitsSlot(r, d, m); });
+    var known = pool.filter(function (r) { return !isTry(r); }), tries = pool.filter(isTry);
+    if (wantTry && tries.length) return randomOf(tries);
+    if (known.length) return pickWeighted(known);
+    return tries.length ? randomOf(tries) : null;
+  }
+  function shuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
+  }
+  function triesInMenu(skipD, skipM) {
+    var n = 0;
+    menu.cells.forEach(function (day, d) { day.forEach(function (c, m) { if (c && !(d === skipD && m === skipM) && isTry(BY_ID[c.id])) n++; }); });
+    return n;
+  }
+  function generateMenu() {
+    var used = [], weekday = [], weekend = [], tries = 0, fallback = 0;
+    menu.cells.forEach(function (day, d) {
+      day.forEach(function (c, m) {
+        if (c && c.pinned) { used.push(c.id); if (isTry(BY_ID[c.id])) tries++; }
+        else { day[m] = null; (d < 5 ? weekday : weekend).push([d, m]); }
+      });
+    });
+    // будні з обмеженням часу заповнюються першими, щоб їм вистачило коротких рецептів
+    var slots = shuffle(weekday).concat(shuffle(weekend));
+    var quota = Math.max(0, (Math.random() < 0.5 ? 1 : 2) - tries);
+    slots.forEach(function (s) {
+      var r = pickFor(s[0], s[1], used, quota > 0);
+      if (!r) return;
+      if (isTry(r)) { if (quota > 0) quota--; else fallback++; }
+      used.push(r.id);
+      menu.cells[s[0]][s[1]] = { id: r.id, servings: menu.people, pinned: false };
+    });
+    menu.fallback = fallback;
+    menu.start = mondayOf(new Date());
+    saveMenu();
+  }
+  function regenCell(d, m) {
+    var c = menu.cells[d][m], used = menuIds();
+    var r = pickFor(d, m, used, triesInMenu(d, m) < 1);
+    if (!r) { menuUi.msg = 'Більше немає рецептів, що підходять сюди. Спробуй «Знайти».'; return; }
+    menu.cells[d][m] = { id: r.id, servings: c ? c.servings : menu.people, pinned: false };
+    menuUi.msg = ''; saveMenu();
+  }
+  function dayKcal(day) {
+    var sum = 0, has = 0, miss = 0;
+    day.forEach(function (c) {
+      if (!c) return;
+      var n = BY_ID[c.id].nutrition_per_serving, k = n && n.kcal;
+      if (k != null) { sum += k; has++; } else miss++;
+    });
+    if (!has && !miss) return '';
+    if (!has) return '<span class="nokcal">без КБЖВ</span>';
+    return '≈ ' + Math.round(sum) + ' ккал на людину' + (miss ? ' · <span class="nokcal">' + miss + ' без КБЖВ</span>' : '');
+  }
+  function weekRange() {
+    var p = menu.start.split('-'), a = new Date(+p[0], p[1] - 1, +p[2]), b = new Date(+p[0], p[1] - 1, +p[2] + 6);
+    return a.getMonth() === b.getMonth()
+      ? a.getDate() + '–' + b.getDate() + ' ' + MONTHS_GEN[b.getMonth()]
+      : a.getDate() + ' ' + MONTHS_GEN[a.getMonth()] + ' – ' + b.getDate() + ' ' + MONTHS_GEN[b.getMonth()];
+  }
+  function searchResults(d, m) {
+    var q = norm(menuUi.q), used = menuIds();
+    var list = RECIPES.filter(function (r) {
+      if (used.indexOf(r.id) !== -1) return false;
+      if (!q) return fitsSlot(r, d, m);
+      return norm(r.title).indexOf(q) !== -1 || (r.ingredients || []).some(function (i) { return norm(i.name).indexOf(q) !== -1; });
+    });
+    list.sort(function (a, b) { return (fitsSlot(b, d, m) ? 1 : 0) - (fitsSlot(a, d, m) ? 1 : 0) || a.title.localeCompare(b.title, 'uk'); });
+    if (!list.length) return '<li class="meta">Нічого не знайдено</li>';
+    return list.slice(0, 8).map(function (r) {
+      return '<li><button type="button" data-pick="' + esc(r.id) + '">' + esc(r.title) +
+        '<span class="meta">' + esc(r.category) + (totalTime(r) ? ' · ⏱ ' + fmtTime(totalTime(r)) : '') + (isTry(r) ? ' · нове' : '') + '</span></button></li>';
+    }).join('');
+  }
+  function cellHtml(d, m) {
+    var c = menu.cells[d][m], key = d + '-' + m, open = menuUi.open === key, r = c && BY_ID[c.id];
+    var body;
+    if (r) {
+      var t = totalTime(r), bits = [];
+      if (t) bits.push('<span' + (d < 5 && t > WEEKDAY_MAX ? ' class="tlong" title="Довше за 40 хв для буднього дня"' : '') + '>⏱ ' + fmtTime(t) + '</span>');
+      bits.push(c.servings + ' ' + plural(c.servings, 'порція', 'порції', 'порцій'));
+      var k = r.nutrition_per_serving && r.nutrition_per_serving.kcal;
+      bits.push(k != null ? k + ' ккал' : '<span class="nokcal">без КБЖВ</span>');
+      if (isTry(r)) bits.push('<span class="badge new">нове</span>');
+      if (c.pinned) bits.push('📌');
+      body = '<a href="#' + esc(r.id) + '">' + esc(r.title) + '</a><div class="meta">' + bits.join('<span>·</span>') + '</div>';
+    } else body = '<span class="mempty">порожньо</span>';
+    var acts = '';
+    if (open) {
+      if (menuUi.mode === 'search') {
+        acts = '<div class="msearch"><input id="mSearch" type="search" placeholder="Назва або інгредієнт" autocomplete="off" value="' + esc(menuUi.q) + '">' +
+          '<ul class="mres" id="mRes">' + searchResults(d, m) + '</ul></div>' +
+          '<button type="button" class="link-btn" data-act="back">← Назад до дій</button>';
+      } else if (menuUi.mode === 'move') {
+        acts = '<p class="meta" style="margin:0;width:100%">Помінятися місцями з «' + MEALS[m].toLowerCase() + '» іншого дня:</p><div class="days7">' +
+          DAYS_SHORT.map(function (n, t) {
+            return '<button type="button" class="chip" data-move="' + t + '"' + (t === d ? ' disabled' : '') + ' aria-label="' + DAYS[t] + '">' + n + '</button>';
+          }).join('') + '</div><button type="button" class="link-btn" data-act="back">← Назад до дій</button>';
+      } else if (r) {
+        acts = '<button type="button" class="icon-btn" data-act="regen">↻ Інша страва</button>' +
+          '<button type="button" class="icon-btn" data-act="search">🔍 Знайти</button>' +
+          '<button type="button" class="icon-btn" data-act="move">⇄ Інший день</button>' +
+          '<button type="button" class="icon-btn" data-act="pin" aria-pressed="' + c.pinned + '">📌 ' + (c.pinned ? 'Закріплено' : 'Закріпити') + '</button>' +
+          '<span class="servings"><button type="button" data-act="minus" aria-label="Менше порцій">−</button><output>' + c.servings + ' ' + plural(c.servings, 'порція', 'порції', 'порцій') + '</output>' +
+          '<button type="button" data-act="plus" aria-label="Більше порцій">+</button></span>' +
+          '<button type="button" class="icon-btn" data-act="clear">✕ Очистити</button>';
+      } else {
+        acts = '<button type="button" class="icon-btn" data-act="regen">↻ Підібрати</button>' +
+          '<button type="button" class="icon-btn" data-act="search">🔍 Знайти</button>';
+      }
+      if (menuUi.msg) acts += '<p class="mmsg">' + esc(menuUi.msg) + '</p>';
+      acts = '<div class="macts">' + acts + '</div>';
+    }
+    return '<li class="' + (open ? 'open' : '') + '" data-cell="' + key + '"><span class="meal">' + MEALS[m] + '</span>' +
+      '<div class="mbody">' + body + '</div>' +
+      '<button type="button" class="mmore" data-act="toggle" aria-expanded="' + open + '" aria-label="Дії: ' + DAYS[d].toLowerCase() + ', ' + MEALS[m].toLowerCase() + '">⋯</button>' + acts + '</li>';
+  }
+  function renderMenu() {
+    var n = menuIds().length, today = isoDate(new Date());
+    var bar = '<div class="bar"><div class="wrap row"><button class="icon-btn" id="backBtn">← Назад</button><span style="flex:1"></span>' +
+      (n ? '<button class="icon-btn" id="menuShop" aria-pressed="' + cartMenu + '">' + (cartMenu ? '✓ У покупках' : '🛒 Покупки') + '</button>' : '') +
+      '<button class="primary" id="menuGen">' + (n ? 'Перескласти' : 'Скласти') + '</button></div></div>';
+    var html = '<article style="max-width:1100px"><h2>Меню на тиждень</h2>';
+    if (!n) {
+      html += '<div class="menu-empty"><p style="margin:0">Меню ще не складене. Страви підберуться з книги: сніданок, обід і вечеря на 7 днів.</p>' +
+        '<p class="menu-note">У будні тільки страви до 40 хв, улюблене трапляється частіше, «не сподобалось» не потрапляє зовсім, нових рецептів 1–2 на тиждень.</p>' +
+        '<button class="primary" id="menuGen2">Скласти меню</button></div>';
+    } else {
+      html += '<div class="meta">' + weekRange() + ' · ' + n + ' ' + plural(n, 'страва', 'страви', 'страв') + '</div>' +
+        '<div class="menu-tools"><span class="lbl2">Порцій на страву</span><div class="servings"><button id="pMinus" aria-label="Менше">−</button><output>' +
+        menu.people + ' ' + plural(menu.people, 'порція', 'порції', 'порцій') + '</output><button id="pPlus" aria-label="Більше">+</button></div></div>' +
+        '<p class="menu-note">«⋯» біля страви: інша страва, пошук, перенесення на інший день, порції. Закріплене 📌 лишається, коли меню перескладаєш.</p>' +
+        (menu.fallback ? '<p class="menu-note warn">Перевірених рецептів поки мало, тому нових у меню більше, ніж 1–2: ' +
+          triesInMenu(-1, -1) + ' з ' + n + '. Відмічай «готувала» під рецептами, і меню поступово складатиметься з перевіреного.</p>' : '') +
+        '<div class="days">' + DAYS.map(function (name, d) {
+          var date = addDays(menu.start, d), dp = date.split('-');
+          return '<section class="day' + (date === today ? ' today' : '') + '"><h3><span>' + name + '</span><span class="d">' + dp[2] + '.' + dp[1] +
+            (date === today ? ' · сьогодні' : '') + '</span><span class="k">' + dayKcal(menu.cells[d]) + '</span></h3>' +
+            '<ul class="mday">' + [0, 1, 2].map(function (m) { return cellHtml(d, m); }).join('') + '</ul></section>';
+        }).join('') + '</div>';
+    }
+    $('sheet').innerHTML = bar + html + '</article>';
+    $('backBtn').onclick = function () { history.length > 1 ? history.back() : (location.hash = ''); };
+    var gen = function () {
+      if (menuIds().length && !confirm('Перескласти меню? Закріплені 📌 страви лишаться.')) return;
+      generateMenu(); menuUi = { open: null, mode: null, q: '', msg: '' }; renderMenu();
+    };
+    $('menuGen').onclick = gen;
+    if ($('menuGen2')) $('menuGen2').onclick = gen;
+    if ($('menuShop')) $('menuShop').onclick = function () {
+      cartMenu = !cartMenu; saveCart();
+      if (cartMenu) location.hash = 'cart'; else renderMenu();
+    };
+    if (!n) return;
+    var people = function (dlt) {
+      var p = Math.max(1, menu.people + dlt);
+      menu.cells.forEach(function (day) { day.forEach(function (c) { if (c) c.servings = p; }); });
+      menu.people = p; saveMenu(); renderMenu();
+    };
+    $('pMinus').onclick = function () { people(-1); };
+    $('pPlus').onclick = function () { people(1); };
+    var days = $('sheet').querySelector('.days');
+    days.onclick = function (e) {
+      var b = e.target.closest('button'), li = e.target.closest('li[data-cell]');
+      if (!b || !li) return;
+      var dm = li.getAttribute('data-cell').split('-'), d = +dm[0], m = +dm[1], key = d + '-' + m, c = menu.cells[d][m];
+      var act = b.getAttribute('data-act'), v;
+      if ((v = b.getAttribute('data-pick'))) {
+        menu.cells[d][m] = { id: v, servings: c ? c.servings : menu.people, pinned: c ? c.pinned : false };
+        menuUi.mode = null; menuUi.q = ''; saveMenu(); renderMenu(); return;
+      }
+      if ((v = b.getAttribute('data-move')) != null && v !== '') {
+        var t = +v, tmp = menu.cells[t][m];
+        menu.cells[t][m] = c; menu.cells[d][m] = tmp;
+        menuUi = { open: t + '-' + m, mode: null, q: '', msg: '' }; saveMenu(); renderMenu();
+        var moved = $('sheet').querySelector('li[data-cell="' + t + '-' + m + '"]');
+        if (moved) moved.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        return;
+      }
+      if (act === 'toggle') { menuUi = { open: menuUi.open === key ? null : key, mode: null, q: '', msg: '' }; renderMenu(); return; }
+      if (act === 'back') { menuUi.mode = null; menuUi.q = ''; renderMenu(); return; }
+      if (act === 'search' || act === 'move') {
+        menuUi.mode = act; menuUi.msg = ''; renderMenu();
+        if (act === 'search' && $('mSearch')) $('mSearch').focus();
+        return;
+      }
+      if (act === 'regen') regenCell(d, m);
+      else if (act === 'pin' && c) { c.pinned = !c.pinned; saveMenu(); }
+      else if (act === 'minus' && c) { c.servings = Math.max(1, c.servings - 1); saveMenu(); }
+      else if (act === 'plus' && c) { c.servings++; saveMenu(); }
+      else if (act === 'clear') { menu.cells[d][m] = null; saveMenu(); }
+      else return;
+      renderMenu();
+    };
+    var s = $('mSearch');
+    if (s) s.oninput = function () {
+      menuUi.q = this.value;
+      var dm = menuUi.open.split('-');
+      $('mRes').innerHTML = searchResults(+dm[0], +dm[1]);
+    };
+  }
+  $('menuBtn').addEventListener('click', function () { location.hash = 'menu'; });
+
   /* ---------- кошик і список покупок ---------- */
   // кошик: [{ id, servings, formD }] у порядку додавання; відмічене куплене — { назва: true }
-  function loadJson(key, def) { try { var v = JSON.parse(store(key) || 'null'); return v || def; } catch (e) { return def; } }
-  var cart = loadJson('cart', []).filter(function (b) { return BY_ID[b.id]; });
+  // cartMenu — меню на тиждень теж іде в список; cartManual — додане вручну; cartNeed — «вже є вдома», яке все ж треба купити
+  var cart = loadJson('cart', []).filter(function (b) { return b && BY_ID[b.id]; });
   var bought = loadJson('cartBought', {});
-  var cartDirty = false;
-  function saveCart() { store('cart', JSON.stringify(cart)); store('cartBought', JSON.stringify(bought)); cartDirty = true; updateCartBtn(); }
+  var cartMenu = store('cartMenu') === '1';
+  var manual = loadJson('cartManual', []).filter(function (x) { return x && x.name; });
+  var need = loadJson('cartNeed', {});
+  function saveCart() {
+    store('cart', JSON.stringify(cart)); store('cartBought', JSON.stringify(bought));
+    store('cartMenu', cartMenu ? '1' : '0'); store('cartManual', JSON.stringify(manual)); store('cartNeed', JSON.stringify(need));
+    cartDirty = true; updateCartBtn();
+  }
   function cartEntry(id) { return cart.filter(function (b) { return b.id === id; })[0]; }
   function cartPut(id, s, d) {
     var b = cartEntry(id);
@@ -703,7 +1237,8 @@ ul.shop li.done .what, ul.shop li.done .q { text-decoration: line-through; color
   }
   function cartRemove(id) { cart = cart.filter(function (b) { return b.id !== id; }); saveCart(); }
   function updateCartBtn() {
-    $('cartN').textContent = cart.length; $('cartN').hidden = !cart.length;
+    var n = cart.length + (cartMenu && menuIds().length ? 1 : 0);
+    $('cartN').textContent = n; $('cartN').hidden = !n;
   }
   $('cartBtn').addEventListener('click', function () { location.hash = 'cart'; });
 
@@ -726,85 +1261,183 @@ ul.shop li.done .what, ul.shop li.done .q { text-decoration: line-through; color
     if (unit === 'шт' || unit === 'пучок' || unit === 'зубчик') v = Math.ceil(v - 0.05);  // купуються цілими
     return fmtNum(v) + (unit ? ' ' + unit : '');
   }
+  // сіль і спеції: одразу у «вже є вдома», навіть із кількістю
+  var SPICES = ['сіль', 'перець чорн', 'чорний перець', 'перець духм', 'білий перець', 'перець горош', 'спеці', 'орегано', 'паприка', 'кориця',
+    'куркума', 'кумин', 'лавров', 'мускатн', 'гвоздик', 'ванілін', 'каррі', 'чебрець', 'сушені трави', 'часниковий порошок', 'приправа',
+    'сода', 'розпушувач', 'ванільний цукор', 'ванільний екстракт', 'ванільна паста', 'закваск'];
+  // відділи магазину в порядку обходу; перший збіг виграє, тому вузькі правила стоять раніше
+  var DEPT_ORDER = ['Овочі, фрукти, зелень', 'Мʼясо й птиця', 'Риба й морепродукти', 'Молочне та яйця', 'Хліб', 'Бакалія',
+    'Горіхи, насіння, сухофрукти', 'Консерви й соуси', 'Олія та оцет', 'Заморожене', 'Інше'];
+  var DEPT_RULES = [
+    ['Заморожене', ['заморож']],
+    ['Олія та оцет', ['олія', 'оцет', 'бальзамік', 'бальзамічн']],
+    ['Риба й морепродукти', ['риб', 'лосос', 'тунець', 'оселед', 'сардин', 'креветк', 'морепродукт', 'крабов', 'анчоус', 'норі', 'водорост']],
+    ['Мʼясо й птиця', ['філе', 'фарш', 'куряч', 'курин', 'індич', 'телят', 'свин', 'яловичин', 'бекон', 'шинк', 'печінк', 'мʼяс']],
+    ['Консерви й соуси', ['консерв', 'маринован', 'соус', 'томатна паста', 'майонез', 'гірчиц', 'каперс', 'оливки', 'хумус', 'тахіні',
+      'кокосове молоко', 'згущ', 'песто', 'пюре ']],
+    ['Бакалія', ['борошн', 'крохмал', 'рис', 'гречк', 'гречан', 'кускус', 'вівсян', 'пластівц', 'крупа', 'сочевиц', 'нут', 'квасол', 'горох сух',
+      'макарон', 'спагеті', 'лапш', 'фунчоз', 'цукор', 'пудра', 'мед', 'сироп', 'какао', 'шоколад', 'желатин', 'пектин', 'солод', 'дріждж',
+      'кава', 'еспресо', 'печиво', 'хлібці', 'савоярді', 'барвник', 'псиліум', 'кульки']],
+    ['Хліб', ['хліб', 'лаваш', 'тортиль']],
+    ['Молочне та яйця', ['яйц', 'яєчн', 'жовт', 'молок', 'вершк', 'масло', 'сметан', 'йогурт', 'кефір', 'сир', 'маскарпоне', 'моцарел', 'пармезан', 'фета', 'тофу']],
+    ['Горіхи, насіння, сухофрукти', ['горіх', 'мигдал', 'кешʼю', 'арахіс', 'фундук', 'фісташ', 'насіння', 'кунжут', 'чіа', 'мак', 'журавлин',
+      'родзин', 'курага', 'чорнослив', 'фінік', 'сухофрукт', 'цукат', 'вʼялен', 'кокосова стружка']],
+    ['Овочі, фрукти, зелень', ['морк', 'цибул', 'часник', 'картопл', 'буряк', 'огір', 'помідор', 'томат', 'авокадо', 'лимон', 'лайм', 'яблук',
+      'банан', 'капуст', 'броколі', 'шпинат', 'рукол', 'салат', 'зелен', 'кріп', 'петруш', 'кінза', 'базилік', 'мʼят', 'гарбуз', 'шампіньйон',
+      'гриб', 'перець', 'кукурудз', 'апельсин', 'полуниц', 'малин', 'ягод', 'вишн', 'лохин', 'чорниц', 'манго', 'ківі', 'груш', 'ананас',
+      'хурм', 'айва', 'грейпфрут', 'обліпих', 'імбир', 'редис', 'спарж', 'селер', 'едамаме', 'горошок', 'овоч', 'мікрогрін', 'щавель', 'папая']]
+  ];
+  function isSpice(key) { return SPICES.some(function (s) { return key.indexOf(s) !== -1; }); }
+  function deptOf(key) {
+    var words = ' ' + key.replace(/-/g, ' ') + ' ';  // стем збігається з початком слова: «гриби» не «риба»
+    for (var i = 0; i < DEPT_RULES.length; i++) {
+      if (DEPT_RULES[i][1].some(function (s) { return words.indexOf(' ' + s) !== -1; })) return DEPT_RULES[i][0];
+    }
+    return 'Інше';
+  }
+  // «2 л молоко», «молоко 2 л», «серветки» → { name, qty, unit }
+  var MANUAL_UNITS = 'кг|г|мл|л|шт|уп|пучок|зубчик';
+  function parseManual(text) {
+    text = text.trim().replace(/\s+/g, ' ');
+    var m = text.match(new RegExp('^(.+?)\\s+(\\d+(?:[.,]\\d+)?)\\s*(' + MANUAL_UNITS + ')?\\.?$')) ||
+      text.match(new RegExp('^(\\d+(?:[.,]\\d+)?)\\s*(' + MANUAL_UNITS + ')?\\.?\\s+(.+)$'));
+    if (!m) return { name: text, qty: null, unit: '' };
+    var front = /^\d/.test(text);
+    return { name: front ? m[3] : m[1], qty: parseFloat((front ? m[1] : m[2]).replace(',', '.')), unit: (front ? m[2] : m[3]) || 'шт' };
+  }
+  // джерела списку: рецепти з кошика + меню на тиждень (кожна страва з її порціями)
+  function shopSources() {
+    var src = cart.slice();
+    if (cartMenu) menu.cells.forEach(function (day) {
+      day.forEach(function (c) { if (c) src.push({ id: c.id, servings: c.servings, formD: BY_ID[c.id].form_cm || null }); });
+    });
+    return src;
+  }
   function shoppingList() {
-    var buy = {}, check = {};
-    cart.forEach(function (b) {
+    var buy = {}, home = {};
+    var addBuy = function (key, name, from, qty, unit) {
+      var x = buy[key] || (buy[key] = { key: key, name: name, amounts: {}, from: [], dept: deptOf(key), fromHome: false });
+      if (qty != null) { var u = UNIT_BASE[unit] || [unit || '', 1]; x.amounts[u[0]] = (x.amounts[u[0]] || 0) + qty * u[1]; }
+      if (from && x.from.indexOf(from) === -1) x.from.push(from);
+      return x;
+    };
+    shopSources().forEach(function (b) {
       var r = BY_ID[b.id], f = cartFactor(b);
       (r.ingredients || []).forEach(function (i) {
         var key = norm(i.name);
         if (key === 'вода') return;
-        // без кількості чи сіль: тільки нагадування перевірити запаси
-        if (i.qty == null || PANTRY.indexOf(key) !== -1) {
-          var c = check[key] || (check[key] = { key: key, name: i.name, from: [] });
+        var atHome = i.qty == null || PANTRY.indexOf(key) !== -1 || isSpice(key);
+        if (atHome && !need[key]) {
+          var c = home[key] || (home[key] = { key: key, name: i.name, from: [] });
           if (c.from.indexOf(r.title) === -1) c.from.push(r.title);
           return;
         }
-        var u = UNIT_BASE[i.unit] || [i.unit || '', 1];
-        var x = buy[key] || (buy[key] = { key: key, name: i.name, amounts: {}, from: [] });
-        x.amounts[u[0]] = (x.amounts[u[0]] || 0) + i.qty * u[1] * f;
-        if (x.from.indexOf(r.title) === -1) x.from.push(r.title);
+        var x = addBuy(key, i.name, r.title, i.qty == null ? null : i.qty * f, i.unit);
+        if (atHome) x.fromHome = true;
       });
     });
-    Object.keys(check).forEach(function (k) { if (buy[k]) { delete check[k]; } });
+    manual.forEach(function (m) { addBuy(norm(m.name), m.name, 'додано вручну', m.qty, m.unit); });
+    // що треба купити хоч для одного рецепта, з «вже є вдома» прибирається
+    Object.keys(home).forEach(function (k) { if (buy[k]) delete home[k]; });
     var byName = function (a, b) { return a.name.localeCompare(b.name, 'uk'); };
     var toList = function (o) { return Object.keys(o).map(function (k) { return o[k]; }).sort(byName); };
     var items = toList(buy).map(function (x) {
-      x.qty = Object.keys(x.amounts).map(function (u) { return fmtAmount(u, x.amounts[u]); }).join(' + ');
+      x.qty = Object.keys(x.amounts).map(function (u) { return fmtAmount(u, x.amounts[u]); }).join(' + ') || (x.fromHome ? 'за смаком' : '');
       return x;
     });
-    return { buy: items, check: toList(check) };
+    return { buy: items, check: toList(home) };
   }
 
-  function shopRows(list, withQty) {
-    // куплене опускається вниз і закреслюється
-    var sorted = list.filter(function (x) { return !bought[x.key]; }).concat(list.filter(function (x) { return bought[x.key]; }));
-    return sorted.map(function (x) {
-      return '<li' + (bought[x.key] ? ' class="done"' : '') + '><label><input type="checkbox" data-key="' + esc(x.key) + '"' + (bought[x.key] ? ' checked' : '') + '>' +
-        '<span class="what">' + esc(x.name) + '<span class="from">' + esc(x.from.join(', ')) + '</span></span>' +
-        (withQty ? '<span class="q">' + esc(x.qty) + '</span>' : '') + '</label></li>';
+  function shopItem(x, withQty, extra) {
+    return '<li class="' + (bought[x.key] ? 'done ' : '') + (extra ? 'row-x' : '') + '"><label><input type="checkbox" data-key="' + esc(x.key) + '"' + (bought[x.key] ? ' checked' : '') + '>' +
+      '<span class="what">' + esc(x.name) + '<span class="from">' + esc(x.from.join(', ')) + '</span></span>' +
+      (withQty ? '<span class="q">' + esc(x.qty) + '</span>' : '') + '</label>' + (extra || '') + '</li>';
+  }
+  // групи за відділами; у кожній куплене опускається вниз і закреслюється
+  function shopRowsByDept(list) {
+    return DEPT_ORDER.map(function (dep) {
+      var items = list.filter(function (x) { return x.dept === dep; });
+      if (!items.length) return '';
+      items = items.filter(function (x) { return !bought[x.key]; }).concat(items.filter(function (x) { return bought[x.key]; }));
+      return '<li class="shop-dept">' + esc(dep) + '</li>' + items.map(function (x) {
+        return shopItem(x, true, x.fromHome ? '<button type="button" class="link-btn" data-unneed="' + esc(x.key) + '">є вдома</button>' : '');
+      }).join('');
     }).join('');
   }
 
   function shoppingText(list) {
     var lines = ['Список покупок'];
-    list.buy.filter(function (x) { return !bought[x.key]; }).forEach(function (x) { lines.push('• ' + x.name + ' — ' + x.qty); });
-    var chk = list.check.filter(function (x) { return !bought[x.key]; });
-    if (chk.length) { lines.push('', 'Перевірити вдома:'); chk.forEach(function (x) { lines.push('• ' + x.name); }); }
+    DEPT_ORDER.forEach(function (dep) {
+      var items = list.buy.filter(function (x) { return x.dept === dep && !bought[x.key]; });
+      if (!items.length) return;
+      lines.push('', dep + ':');
+      items.forEach(function (x) { lines.push('• ' + x.name + (x.qty ? ' — ' + x.qty : '')); });
+    });
     return lines.join('\n');
   }
 
   function renderCart() {
-    var list = shoppingList();
+    var list = shoppingList(), mn = cartMenu ? menuIds().length : 0, menuAvail = menuIds().length;
+    var any = cart.length || mn || manual.length;
     var back = '<div class="bar"><div class="wrap row"><button class="icon-btn" id="backBtn">← Назад</button><span style="flex:1"></span>' +
-      (cart.length ? '<button class="icon-btn" id="cartClear">Очистити</button>' : '') + '</div></div>';
-    if (!cart.length) {
-      $('sheet').innerHTML = back + '<article><h2>Кошик</h2><p class="meta">Кошик порожній. Відкрий рецепт і натисни «🛒 У кошик»: інгредієнти всіх рецептів зберуться в один список покупок.</p></article>';
+      (any ? '<button class="icon-btn" id="cartClear">Очистити</button>' : '') + '</div></div>';
+    var html = '<article><h2>Кошик</h2>';
+    if (!cart.length && !mn) {
+      html += '<p class="meta">Відкрий рецепт і натисни «🛒 У кошик» або додай <a href="#menu">меню на тиждень</a>: інгредієнти зберуться в один список покупок.</p>';
     } else {
-      var left = list.buy.filter(function (x) { return !bought[x.key]; }).length;
-      $('sheet').innerHTML = back + '<article><h2>Кошик</h2>' +
-        '<div class="section"><h4>Рецепти · ' + cart.length + '</h4><ul class="cart-list">' + cart.map(function (b) {
+      html += '<div class="section"><h4>Що готуємо · ' + (cart.length + mn) + ' ' + plural(cart.length + mn, 'страва', 'страви', 'страв') + '</h4><ul class="cart-list">' +
+        (mn ? '<li><a href="#menu">📅 Меню на тиждень</a><span class="meta">' + mn + ' ' + plural(mn, 'страва', 'страви', 'страв') + ', порції в меню</span>' +
+          '<button class="link-btn" id="menuOff" aria-label="Прибрати меню зі списку">✕</button></li>' : '') +
+        cart.map(function (b) {
           return '<li><a href="#' + esc(b.id) + '">' + esc(BY_ID[b.id].title) + '</a>' +
             '<span class="servings"><button data-dec="' + esc(b.id) + '" aria-label="Менше">−</button><output>' + esc(cartPortions(b)) + '</output>' +
             '<button data-inc="' + esc(b.id) + '" aria-label="Більше">+</button></span>' +
             '<button class="link-btn" data-del="' + esc(b.id) + '" aria-label="Прибрати з кошика">✕</button></li>';
-        }).join('') + '</ul></div>' +
-        '<div class="section"><h4>Купити · ' + (left ? 'лишилось ' + left + ' з ' + list.buy.length : 'усе куплено') + '</h4>' +
-        (list.buy.length ? '<ul class="shop">' + shopRows(list.buy, true) + '</ul>' : '<p class="meta">Немає інгредієнтів з кількістю.</p>') + '</div>' +
-        (list.check.length ? '<div class="section"><h4>Перевірити вдома</h4><ul class="shop">' + shopRows(list.check, false) + '</ul>' +
-          '<p class="meta" style="margin-top:6px">Сіль, спеції та все, що в рецепті «за смаком»</p></div>' : '') +
-        '<div class="shop-actions"><button class="primary" id="shopShare">' + (navigator.share ? 'Поділитися списком' : 'Скопіювати список') + '</button>' +
-        (Object.keys(bought).length ? '<button class="icon-btn" id="shopReset">Зняти всі позначки</button>' : '') + '</div>' +
-        '</article>';
+        }).join('') + '</ul></div>';
     }
+    if (!cartMenu && menuAvail) {
+      html += '<button class="icon-btn add-menu" id="menuOn">+ Додати меню на тиждень · ' + menuAvail + ' ' + plural(menuAvail, 'страва', 'страви', 'страв') + '</button>';
+    }
+    var left = list.buy.filter(function (x) { return !bought[x.key]; }).length;
+    html += '<div class="section"><h4>Купити' + (list.buy.length ? ' · ' + (left ? 'лишилось ' + left + ' з ' + list.buy.length : 'усе куплено') : '') + '</h4>' +
+      (list.buy.length ? '<ul class="shop">' + shopRowsByDept(list.buy) + '</ul>' : '') +
+      '<form class="shop-add" id="shopAdd" autocomplete="off"><input id="shopAddIn" placeholder="Додати своє: серветки, молоко 1 л" enterkeyhint="done" aria-label="Додати в список вручну">' +
+      '<button class="icon-btn" type="submit">Додати</button></form>' +
+      (manual.length ? '<div class="manual">' + manual.map(function (m, i) {
+        return '<span class="chip">' + esc(m.name) + (m.qty != null ? ' · ' + esc(fmtNum(m.qty) + ' ' + m.unit) : '') +
+          '<button type="button" data-mdel="' + i + '" aria-label="Прибрати «' + esc(m.name) + '»">✕</button></span>';
+      }).join('') + '</div>' : '') + '</div>';
+    if (list.check.length) {
+      html += '<div class="section"><h4>Вже є вдома · ' + list.check.length + '</h4><ul class="shop home">' + list.check.map(function (x) {
+        return '<li class="row-x"><label><span class="what">' + esc(x.name) + '<span class="from">' + esc(x.from.join(', ')) + '</span></span></label>' +
+          '<button type="button" class="link-btn" data-need="' + esc(x.key) + '">+ купити</button></li>';
+      }).join('') + '</ul><p class="meta" style="margin-top:6px">Сіль, спеції та все, що в рецепті «за смаком». Якщо чогось немає, натисни «+ купити».</p></div>';
+    }
+    if (list.buy.length) {
+      html += '<div class="shop-actions"><button class="primary" id="shopShare">' + (navigator.share ? 'Поділитися списком' : 'Скопіювати список') + '</button>' +
+        (Object.keys(bought).length ? '<button class="icon-btn" id="shopReset">Зняти всі позначки</button>' : '') + '</div>';
+    }
+    $('sheet').innerHTML = back + html + '</article>';
     $('backBtn').onclick = function () { history.length > 1 ? history.back() : (location.hash = ''); };
-    if (!cart.length) return;
-    $('cartClear').onclick = function () {
-      if (!confirm('Прибрати всі рецепти з кошика?')) return;
-      cart = []; bought = {}; saveCart(); renderCart(); render();
+    if ($('cartClear')) $('cartClear').onclick = function () {
+      if (!confirm('Очистити кошик? Рецепти, меню і додане вручну зникнуть зі списку покупок (саме меню лишиться).')) return;
+      cart = []; bought = {}; manual = []; need = {}; cartMenu = false; saveCart(); renderCart(); render();
+    };
+    if ($('menuOn')) $('menuOn').onclick = function () { cartMenu = true; saveCart(); renderCart(); };
+    if ($('menuOff')) $('menuOff').onclick = function () { cartMenu = false; saveCart(); renderCart(); };
+    $('shopAdd').onsubmit = function (e) {
+      e.preventDefault();
+      var v = $('shopAddIn').value.trim(); if (!v) return;
+      manual.push(parseManual(v)); saveCart(); renderCart();
+      if ($('shopAddIn')) $('shopAddIn').focus();
     };
     $('sheet').querySelector('article').onclick = function (e) {
-      var t = e.target, id;
+      var t = e.target.closest('button'); if (!t) return;
+      var id, v;
       if ((id = t.getAttribute('data-del'))) { cartRemove(id); renderCart(); render(); return; }
+      if ((v = t.getAttribute('data-mdel')) != null) { manual.splice(+v, 1); saveCart(); renderCart(); return; }
+      if ((v = t.getAttribute('data-need'))) { need[v] = true; saveCart(); renderCart(); return; }
+      if ((v = t.getAttribute('data-unneed'))) { delete need[v]; delete bought[v]; saveCart(); renderCart(); return; }
       var inc = t.getAttribute('data-inc'), dec = t.getAttribute('data-dec');
       if (inc || dec) {
         var b = cartEntry(inc || dec), r = BY_ID[b.id], d = inc ? 1 : -1;
@@ -819,17 +1452,22 @@ ul.shop li.done .what, ul.shop li.done .q { text-decoration: line-through; color
       saveCart(); renderCart();
     };
     if ($('shopReset')) $('shopReset').onclick = function () { bought = {}; saveCart(); renderCart(); };
-    $('shopShare').onclick = function () {
+    if ($('shopShare')) $('shopShare').onclick = function () {
       var text = shoppingText(list), btn = this;
       if (navigator.share) { navigator.share({ title: 'Список покупок', text: text }).catch(function () {}); return; }
-      var done = function () { btn.textContent = 'Скопійовано ✓'; setTimeout(function () { btn.textContent = 'Скопіювати список'; }, 1500); };
-      if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, function () { prompt('Скопіюй список:', text); });
-      else prompt('Скопіюй список:', text);
+      copyText(text, btn, 'Скопійовано ✓');
     };
   }
 
   function route() {
     var id = decodeURIComponent(location.hash.slice(1));
+    if (id === 'menu') {
+      closeCook(); current = null;
+      renderMenu();
+      $('sheet').classList.add('open'); $('sheet').scrollTop = 0;
+      document.body.style.overflow = 'hidden';
+      return;
+    }
     if (id === 'cart') {
       closeCook(); current = null;
       renderCart();
@@ -846,7 +1484,7 @@ ul.shop li.done .what, ul.shop li.done .q { text-decoration: line-through; color
     }
     var r = RECIPES.filter(function (x) { return x.id === id; })[0];
     if (r) {
-      if (!current || current.id !== r.id) { current = r; servings = r.servings; formD = r.form_cm || null; }
+      if (!current || current.id !== r.id) { current = r; servings = r.servings; formD = r.form_cm || null; logDraft = null; }
       renderSheet();
       $('sheet').classList.add('open'); $('sheet').scrollTop = 0;
       document.body.style.overflow = 'hidden';
@@ -892,7 +1530,8 @@ ul.shop li.done .what, ul.shop li.done .q { text-decoration: line-through; color
     $('cookPrev').onclick = function () { if (stepIdx > 0) { stepIdx--; renderCook(); } };
     $('cookNext').onclick = function () {
       if (showIngs) { showIngs = false; renderCook(); return; }
-      if (stepIdx < total - 1) { stepIdx++; renderCook(); } else closeCook();
+      // останній крок: одразу пропонуємо відмітку «готувала»
+      if (stepIdx < total - 1) { stepIdx++; renderCook(); } else { closeCook(); openLogForm(); }
     };
   }
   function openCook() {
