@@ -282,7 +282,7 @@ ul.shop.home .what { color: var(--muted); }
 .star-input button { width: 48px; height: 48px; border: 0; background: none; font-size: 30px; line-height: 1; padding: 0; color: var(--muted); }
 .star-input button[aria-pressed="true"] { color: var(--accent); }
 .log-form input[type="date"], .log-form input.tag-in {
-  height: 44px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); padding: 0 12px; font-size: 14px; min-width: 0;
+  height: 44px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); padding: 0 12px; font-size: 16px; min-width: 0;
 }
 .log-form input.tag-in { width: 140px; }
 .log-form textarea {
@@ -354,6 +354,33 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
 .menu-empty .primary { margin-top: 12px; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 ::selection { background: var(--accent-soft); color: var(--text); }
+/* Стійкість: довгі слова, повідомлення, ручне копіювання */
+button, a, input, select, textarea, .chip { touch-action: manipulation; }
+h2, h3, .card, .mbody, ul.ings li > span:first-child, ul.shop .what, .log-comment, .notes, ul.cart-list a, .mres button, .cook .step, .cook li > span:first-child { overflow-wrap: anywhere; }
+ul.ings li > span:first-child { min-width: 0; }
+.chip { max-width: 100%; }
+.manual .chip, .log-form .chip { white-space: normal; text-align: left; }
+.badge { overflow-wrap: anywhere; }
+.servings button:disabled { opacity: .35; cursor: default; }
+.empty p { margin: 0 0 12px; }
+.empty-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.gone { color: var(--warn); font-weight: 600; }
+.toast {
+  position: fixed; left: 16px; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom)); z-index: 40; max-width: 520px; margin: 0 auto;
+  display: flex; gap: 6px; align-items: center; background: var(--text); color: var(--bg); border-radius: 12px; padding: 4px 4px 4px 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .2); font-size: 14px; line-height: 1.4;
+}
+.toast[hidden] { display: none; }
+.toast span { flex: 1; padding: 8px 0; }
+.toast .link-btn { color: var(--bg); }
+.copy-panel { position: fixed; inset: 0; z-index: 50; background: rgba(20, 15, 10, .5); display: flex; align-items: flex-end; justify-content: center; padding: 16px; }
+.copy-panel[hidden] { display: none; }
+.copy-box { background: var(--bg); color: var(--text); border-radius: var(--radius); padding: 16px; width: 100%; max-width: 560px; display: grid; gap: 10px; max-height: 90vh; }
+.copy-box h3 { margin: 0; font-size: 18px; }
+.copy-box p { margin: 0; }
+.copy-box textarea { width: 100%; min-height: 160px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); padding: 10px 12px; font: 16px/1.45 ui-monospace, Consolas, monospace; resize: vertical; }
+@media (min-width: 720px) { .copy-panel { align-items: center; } }
+
 /* Нижня навігація на телефоні */
 .tabbar { display: none; }
 @media (max-width: 719px) {
@@ -372,6 +399,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   #menuBtn, #cartBtn { display: none; }
   body { padding-bottom: calc(56px + env(safe-area-inset-bottom)); }
   .sheet { bottom: calc(57px + env(safe-area-inset-bottom)); }
+  .toast { bottom: calc(68px + env(safe-area-inset-bottom)); }
 }
 </style>
 </head>
@@ -380,11 +408,11 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   <div class="wrap">
     <div class="row">
       <h1>Книга рецептів</h1>
-      <button class="icon-btn" id="menuBtn" title="Меню на тиждень">📅 <span class="lbl">Меню</span></button>
-      <button class="icon-btn" id="cartBtn" title="Кошик і список покупок">🛒 <span class="lbl">Кошик</span> <span class="cart-n" id="cartN" hidden></span></button>
-      <button class="icon-btn" id="fridgeBtn" aria-pressed="false" title="Що є в холодильнику">🧊 <span class="lbl">Холодильник</span></button>
-      <button class="icon-btn" id="filterBtn" aria-pressed="false" title="Фільтри" aria-label="Фільтри">⚙︎ <span class="cart-n" id="filterN" hidden></span></button>
-      <button class="icon-btn" id="themeBtn" title="Тема">◐</button>
+      <button class="icon-btn" id="menuBtn" title="Меню на тиждень" aria-label="Меню на тиждень">📅 <span class="lbl">Меню</span></button>
+      <button class="icon-btn" id="cartBtn" title="Кошик і список покупок" aria-label="Кошик">🛒 <span class="lbl">Кошик</span> <span class="cart-n" id="cartN" hidden></span></button>
+      <button class="icon-btn" id="fridgeBtn" aria-pressed="false" title="Що є в холодильнику" aria-label="Що є в холодильнику">🧊 <span class="lbl">Холодильник</span></button>
+      <button class="icon-btn" id="filterBtn" aria-pressed="false" aria-expanded="false" aria-controls="filters" title="Фільтри" aria-label="Фільтри">⚙︎ <span class="cart-n" id="filterN" hidden></span></button>
+      <button class="icon-btn" id="themeBtn" title="Тема" aria-label="Змінити тему">◐</button>
     </div>
     <div class="search">
       <input id="q" type="search" placeholder="Пошук за назвою або інгредієнтом" autocomplete="off">
@@ -453,7 +481,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
   }
-  function norm(s) { return String(s || '').toLowerCase().replace(/[’'`]/g, 'ʼ').replace(/ё/g, 'е').trim(); }
+  function norm(s) { return String(s || '').toLowerCase().replace(/[’‘'`ʹ′]/g, 'ʼ').replace(/ё/g, 'е').replace(/\s+/g, ' ').trim(); }
   function stem(w) { w = norm(w); return w.length > 5 ? w.slice(0, w.length - 2) : w.slice(0, Math.max(3, w.length - 1)); }
   function ingMatches(have, ingName) {
     var a = norm(have), b = norm(ingName);
@@ -461,10 +489,12 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
     return b.indexOf(stem(a)) !== -1 || a.indexOf(stem(b)) !== -1;
   }
   function totalTime(r) { return (r.time && (r.time.prep || 0) + (r.time.cook || 0)) || 0; }
+  // 0,25 ч.л. не стає «0», 12000 г — «12 000», NaN і нескінченність не показуються
   function fmtNum(n) {
-    if (n == null) return '';
-    var v = n >= 10 ? Math.round(n) : Math.round(n * 10) / 10;
-    return String(v).replace('.', ',');
+    if (n == null || typeof n !== 'number' || !isFinite(n)) return '';
+    var a = Math.abs(n), v = a >= 10 ? Math.round(n) : a >= 1 ? Math.round(n * 10) / 10 : Math.round(n * 100) / 100;
+    if (v === 0 && n !== 0) return '<0,01';
+    return v.toLocaleString('uk-UA', { maximumFractionDigits: 2 });
   }
   function fmtTime(min) {
     if (!min) return '';
@@ -480,7 +510,33 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   }
 
   /* ---------- тема ---------- */
-  function store(key, val) { try { if (val === undefined) return localStorage.getItem(key); localStorage.setItem(key, val); } catch (e) { return null; } }
+  // сховище може бути вимкнене (приватний режим) або повне: сторінка працює, зміни живуть до закриття вкладки
+  var storageOk = (function () { try { localStorage.setItem('__probe', '1'); localStorage.removeItem('__probe'); return true; } catch (e) { return false; } })();
+  var storeWarned = false;
+  function store(key, val) {
+    try {
+      if (val === undefined) return localStorage.getItem(key);
+      localStorage.setItem(key, val);
+    } catch (e) {
+      if (val !== undefined && storageOk && !storeWarned) {
+        storeWarned = true;
+        toast('Не вдалося зберегти: сховище браузера переповнене. Зміни діють, доки сторінка відкрита.');
+      }
+      return null;
+    }
+  }
+  function dropKey(key) { try { localStorage.removeItem(key); } catch (e) {} }
+  function toast(msg) {
+    var t = $('toast');
+    if (!t) {
+      t = document.createElement('div'); t.id = 'toast'; t.className = 'toast'; t.setAttribute('role', 'status');
+      document.body.appendChild(t);
+    }
+    t.innerHTML = '<span>' + esc(msg) + '</span><button type="button" class="link-btn" aria-label="Закрити повідомлення">✕</button>';
+    t.hidden = false;
+    t.querySelector('button').onclick = function () { t.hidden = true; };
+    clearTimeout(toast.timer); toast.timer = setTimeout(function () { t.hidden = true; }, 9000);
+  }
   function applyTheme(t) {
     if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
     else document.documentElement.removeAttribute('data-theme');
@@ -523,6 +579,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   $('filterBtn').addEventListener('click', function () {
     var open = $('filters').classList.toggle('open');
     this.setAttribute('aria-pressed', open ? 'true' : 'false');
+    this.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
   $('fridgeBtn').addEventListener('click', function () {
     state.fridge = !state.fridge;
@@ -567,6 +624,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
     // скільки фільтрів увімкнено: бейдж на кнопці, «Скинути» лише коли є що скидати
     var nf = ['category', 'status', 'time', 'kmin', 'kmax'].filter(function (k) { return state[k] !== ''; }).length + state.tags.length;
     $('filterN').textContent = nf; $('filterN').hidden = !nf; $('resetBtn').hidden = !nf;
+    $('filterBtn').setAttribute('aria-label', 'Фільтри' + (nf ? ', увімкнено ' + nf : ''));
     if (state.fridge) {
       var have = state.q.split(/[,;\n]+/).map(norm).filter(Boolean);
       if (have.length) {
@@ -592,7 +650,13 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       return;
     }
     if (!list.length) {
-      $('grid').innerHTML = '<div class="empty">Нічого не знайдено. Спробуй інший запит або скинь фільтри.</div>';
+      var typed = state.q.trim();
+      var msg = state.fridge
+        ? 'Немає рецептів із цими продуктами. Перевір написання або додай інші через кому.'
+        : 'Нічого не знайдено' + (typed ? ' за запитом «' + esc(typed) + '»' : '') + (nf ? ' з такими фільтрами' : '') + '.';
+      $('grid').innerHTML = '<div class="empty"><p>' + msg + '</p><div class="empty-actions">' +
+        (typed ? '<button type="button" class="icon-btn" data-empty="q">Очистити пошук</button>' : '') +
+        (nf ? '<button type="button" class="icon-btn" data-empty="f">Скинути фільтри</button>' : '') + '</div></div>';
       return;
     }
     var card = function (r) {
@@ -696,6 +760,12 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
     }).join('');
   }
   $('grid').addEventListener('click', function (e) {
+    var em = e.target.closest('[data-empty]');
+    if (em) {
+      if (em.getAttribute('data-empty') === 'q') { $('q').value = ''; state.q = ''; render(); $('q').focus(); }
+      else { $('resetBtn').click(); }
+      return;
+    }
     var j = e.target.closest('.toc-jump');
     if (j) { var t = $(j.getAttribute('data-jump')); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     var c = e.target.closest('.card'); if (c) location.hash = encodeURIComponent(c.getAttribute('data-id'));
@@ -760,15 +830,20 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
         return '<a class="chip" href="' + hrefFor(id) + '">' + esc(itemFor(id).title) + '</a>'; }).join('') + '</div></div>' : '') +
       '<div class="section"><h4>Джерело</h4><div>' + sourceHtml(g.source) + '</div></div>' +
       '</article>';
-    $('backBtn').onclick = function () { history.length > 1 ? history.back() : (location.hash = ''); };
+    $('backBtn').onclick = goBack;
   }
 
   // множник кількостей: від діаметра форми (площа) або від кількості порцій
+  // servings 0 чи відсутнє не дає NaN; межі порцій і форми
+  var SERV_MAX = 99;
+  function baseServ(r) { return r && r.servings > 0 ? r.servings : 1; }
+  function formMin(r) { return Math.min(10, r.form_cm); }
+  function formMax(r) { return Math.max(32, r.form_cm); }
   function scaleFactor(r) {
-    return r.form_cm && formD ? (formD * formD) / (r.form_cm * r.form_cm) : servings / r.servings;
+    return r.form_cm > 0 && formD ? (formD * formD) / (r.form_cm * r.form_cm) : servings / baseServ(r);
   }
   function portionsLabel(r) {
-    var n = Math.max(1, Math.round(r.servings * scaleFactor(r)));
+    var n = Math.max(1, Math.round(baseServ(r) * scaleFactor(r)));
     return (r.form_cm ? '≈ ' : '') + n + ' ' + plural(n, 'порція', 'порції', 'порцій');
   }
   function linkify(text) {
@@ -796,7 +871,10 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
     return label + (name ? ': ' + name : '') + (ref ? ' · ' + esc(ref) : '');
   }
 
-  function ingQty(i, factor) { return i.qty != null ? fmtNum(i.qty * factor) + ' ' + esc(i.unit || '') : ''; }
+  function ingQty(i, factor) {
+    var v = typeof i.qty === 'number' ? fmtNum(i.qty * factor) : '';
+    return v ? (esc(v) + ' ' + esc(i.unit || '')).trim() : '';
+  }
   // tick: рядки можна відмічати дотиком («вже відміряла»), стан живе, поки відкритий рецепт
   function ingRows(r, factor, tick) {
     return (r.ingredients || []).map(function (i, n) {
@@ -807,7 +885,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   }
 
   function renderSheet() {
-    var r = current, factor = scaleFactor(r), dish = r.servings * factor, n = r.nutrition_per_serving || {};
+    var r = current, factor = scaleFactor(r), dish = baseServ(r) * factor, n = r.nutrition_per_serving || {};
     var t = r.time || {};
     var nutHtml;
     if (r.nutrition_status === 'немає' || n.kcal == null) {
@@ -829,12 +907,12 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       '<div class="meta">' + (r.tags || []).map(function (x) { return '<span class="badge">' + esc(x) + '</span>'; }).join('') +
       '<span class="badge' + (r.status === 'улюблене' ? ' fav' : '') + '">' + esc(r.status) + (r.rating ? ' · ' + '★'.repeat(r.rating) : '') + '</span></div>' +
       (r.form_cm
-        ? '<div class="section"><h4>Форма</h4><div class="servings"><button id="sMinus" aria-label="Менша">−</button><output>' + formD + ' см</output><button id="sPlus" aria-label="Більша">+</button></div>' +
+        ? '<div class="section"><h4>Форма</h4><div class="servings"><button id="sMinus" aria-label="Менша форма"' + (formD <= formMin(r) ? ' disabled' : '') + '>−</button><output>' + formD + ' см</output><button id="sPlus" aria-label="Більша форма"' + (formD >= formMax(r) ? ' disabled' : '') + '>+</button></div>' +
           '<div class="meta" style="margin-top:6px">у рецепті ' + r.form_cm + ' см · коефіцієнт ' + factor.toFixed(2).replace('.', ',') + ' · ' + portionsLabel(r) + '</div></div>'
-        : '<div class="section"><h4>Порції</h4><div class="servings"><button id="sMinus" aria-label="Менше">−</button><output>' + portionsLabel(r) + '</output><button id="sPlus" aria-label="Більше">+</button></div></div>') +
-      '<div class="section"><h4>Інгредієнти</h4><ul class="ings tick" id="ingList">' + ingRows(r, factor, true) + '</ul></div>' +
+        : '<div class="section"><h4>Порції</h4><div class="servings"><button id="sMinus" aria-label="Менше порцій"' + (servings <= 1 ? ' disabled' : '') + '>−</button><output>' + portionsLabel(r) + '</output><button id="sPlus" aria-label="Більше порцій"' + (servings >= SERV_MAX ? ' disabled' : '') + '>+</button></div></div>') +
+      '<div class="section"><h4>Інгредієнти</h4>' + ((r.ingredients || []).length ? '<ul class="ings tick" id="ingList">' + ingRows(r, factor, true) + '</ul>' : '<p class="meta">Інгредієнтів у рецепті немає.</p>') + '</div>' +
       '<div class="section"><h4>КБЖВ</h4>' + nutHtml + '</div>' +
-      '<div class="section"><h4>Кроки</h4><ol class="steps">' + (r.steps || []).map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ol></div>' +
+      '<div class="section"><h4>Кроки</h4>' + ((r.steps || []).length ? '<ol class="steps">' + r.steps.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ol>' : '<p class="meta">Кроків у рецепті немає.</p>') + '</div>' +
       (r.tips ? '<div class="section"><h4>Поради</h4>' + tipsHtml(r.tips) + '</div>' : '') +
       ((r.related || []).filter(itemFor).length ? '<div class="section"><h4>Повʼязане</h4><div class="chips">' + r.related.filter(itemFor).map(function (id) {
         return '<a class="chip" href="' + hrefFor(id) + '">' + (GUIDE_BY_ID[id] && !BY_ID[id] ? '📖 ' : '') + esc(itemFor(id).title) + '</a>'; }).join('') + '</div></div>' : '') +
@@ -849,20 +927,20 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       '<div class="section"><h4>Джерело</h4><div>' + sourceHtml(r.source) + '</div><div class="meta" style="margin-top:4px">додано ' + esc(r.added) + '</div></div>' +
       '</article>';
     bindLog();
-    $('ingList').onclick = function (e) {
+    if ($('ingList')) $('ingList').onclick = function (e) {
       var li = e.target.closest('li[data-i]'); if (!li) return;
       var n = li.getAttribute('data-i');
       if (gotIngs[n]) delete gotIngs[n]; else gotIngs[n] = true;
       li.classList.toggle('got', !!gotIngs[n]);
     };
-    $('backBtn').onclick = function () { history.length > 1 ? history.back() : (location.hash = ''); };
+    $('backBtn').onclick = goBack;
     // рецепт у кошику: зміна порцій чи форми одразу оновлює кількість у списку покупок
     var resize = function () { if (cartEntry(r.id)) cartPut(r.id, servings, formD); renderSheet(); };
     $('sMinus').onclick = function () {
-      if (r.form_cm) { if (formD > 10) { formD -= 2; resize(); } } else if (servings > 1) { servings--; resize(); }
+      if (r.form_cm) { if (formD > formMin(r)) { formD = Math.max(formMin(r), formD - 2); resize(); } } else if (servings > 1) { servings--; resize(); }
     };
     $('sPlus').onclick = function () {
-      if (r.form_cm) { if (formD < 32) { formD += 2; resize(); } } else { servings++; resize(); }
+      if (r.form_cm) { if (formD < formMax(r)) { formD = Math.min(formMax(r), formD + 2); resize(); } } else if (servings < SERV_MAX) { servings++; resize(); }
     };
     $('toCartBtn').onclick = function () {
       if (cartEntry(r.id)) cartRemove(r.id); else cartPut(r.id, servings, formD);
@@ -872,16 +950,51 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   }
 
   /* ---------- сховище й дати ---------- */
-  function loadJson(key, def) { try { var v = JSON.parse(store(key) || 'null'); return v || def; } catch (e) { return def; } }
+  // зламаний або старий формат: прибирається тільки цей ключ, решта даних лишається
+  function loadKey(key, def, valid) {
+    var raw = store(key);
+    if (raw == null) return def;
+    try { var v = JSON.parse(raw); if (valid(v)) return v; } catch (e) {}
+    dropKey(key);
+    return def;
+  }
+  function isObj(v) { return !!v && typeof v === 'object' && !Array.isArray(v); }
+  function clampInt(v, lo, hi, def) { v = Math.round(+v); return isFinite(v) ? Math.min(hi, Math.max(lo, v)) : def; }
+  var ISO_RE = /^\d{4}-\d\d-\d\d$/;
+  // запасний варіант, коли буфер обміну недоступний: текст у панелі, виділити й скопіювати вручну
+  function showCopyPanel(text, title) {
+    var p = $('copyPanel'), prev = document.activeElement;
+    if (!p) {
+      p = document.createElement('div'); p.id = 'copyPanel'; p.className = 'copy-panel';
+      p.setAttribute('role', 'dialog'); p.setAttribute('aria-modal', 'true');
+      document.body.appendChild(p);
+    }
+    p.setAttribute('aria-label', title);
+    p.innerHTML = '<div class="copy-box"><h3>' + esc(title) + '</h3><p class="meta">Буфер обміну недоступний. Виділи текст і скопіюй вручну.</p>' +
+      '<textarea readonly rows="10" aria-label="' + esc(title) + '"></textarea>' +
+      '<div class="log-save"><button type="button" class="primary" id="copySel">Виділити все</button><button type="button" class="link-btn" id="copyClose">Закрити</button></div></div>';
+    var ta = p.querySelector('textarea');
+    ta.value = text; p.hidden = false;
+    var close = function () { p.hidden = true; if (prev && document.contains(prev)) prev.focus(); };
+    $('copyClose').onclick = close;
+    p.onclick = function (e) { if (e.target === p) close(); };
+    $('copySel').onclick = function () {
+      ta.focus(); ta.select();
+      var ok = false; try { ok = document.execCommand('copy'); } catch (e) {}
+      if (ok) this.textContent = 'Скопійовано ✓';
+    };
+    p.onkeydown = function (e) { if (e.key === 'Escape') { e.stopPropagation(); close(); } };
+    ta.focus(); ta.select();
+  }
   function pad(n) { return (n < 10 ? '0' : '') + n; }
   function isoDate(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
   function addDays(iso, n) { var p = iso.split('-'); return isoDate(new Date(+p[0], p[1] - 1, +p[2] + n)); }
   function fmtDate(iso) { var p = String(iso).split('-'); return p.length === 3 ? p[2] + '.' + p[1] + '.' + p[0] : esc(iso); }
   var MONTHS_GEN = ['січня', 'лютого', 'березня', 'квітня', 'травня', 'червня', 'липня', 'серпня', 'вересня', 'жовтня', 'листопада', 'грудня'];
-  function copyText(text, btn, okLabel) {
+  function copyText(text, btn, okLabel, title) {
     var old = btn.textContent;
     var done = function () { btn.textContent = okLabel; setTimeout(function () { btn.textContent = old; }, 1600); };
-    var manual = function () { prompt('Скопіюй вручну:', text); };
+    var manual = function () { showCopyPanel(text, title || 'Скопіюй вручну'); };
     try {
       if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, manual);
       else manual();
@@ -890,8 +1003,19 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
 
   /* ---------- відмітки «готувала» ---------- */
   // { id рецепта: [{ ts, date: 'YYYY-MM-DD', result: 'вдався' | 'не вдався', rating: 1–5 | null, tags: [], comment }] }
-  var cookLog = loadJson('cookLog', {});
-  if (typeof cookLog !== 'object' || Array.isArray(cookLog)) cookLog = {};
+  var cookLog = loadKey('cookLog', {}, isObj);
+  // старі чи пошкоджені записи нормалізуються; запис без коректної дати відкидається
+  Object.keys(cookLog).forEach(function (id) {
+    var list = Array.isArray(cookLog[id]) ? cookLog[id].filter(function (e) { return isObj(e) && ISO_RE.test(e.date); }).map(function (e, i) {
+      return {
+        ts: +e.ts || i + 1, date: e.date, result: e.result === 'не вдався' ? 'не вдався' : 'вдався',
+        rating: e.rating >= 1 && e.rating <= 5 ? Math.round(e.rating) : null,
+        tags: Array.isArray(e.tags) ? e.tags.filter(function (t) { return typeof t === 'string' && t.trim(); }) : [],
+        comment: typeof e.comment === 'string' ? e.comment : ''
+      };
+    }) : [];
+    if (list.length) cookLog[id] = list; else delete cookLog[id];
+  });
   var logDraft = null;  // відкрита форма нової відмітки для поточного рецепта
   var cartDirty = false;  // список на головній треба перемалювати (бейджі кошика й відміток)
   function saveLog() { store('cookLog', JSON.stringify(cookLog)); cartDirty = true; }
@@ -921,17 +1045,19 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   function newDraft(result) {
     return { date: isoDate(new Date()), result: result || 'вдався', rating: null, tags: [], comment: '' };
   }
+  var focusLog = false;
   function openLogForm() {
     if (!current) return;
     if (!logDraft) logDraft = newDraft();
+    focusLog = true;
     renderLog();
     var s = $('logSec'); if (s) s.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   function logSectionHtml(r) {
     var log = logOf(r.id), d = logDraft, today = isoDate(new Date()), yest = addDays(today, -1);
-    var total = 0;
-    Object.keys(cookLog).forEach(function (id) { total += (cookLog[id] || []).length; });
+    var total = 0, orphan = 0;
+    Object.keys(cookLog).forEach(function (id) { total += cookLog[id].length; if (!BY_ID[id]) orphan += cookLog[id].length; });
     var form;
     if (!d) {
       form = '<div class="log-quick"><span>' + (log.length ? 'Приготувала ще раз?' : 'Приготувала? Відміть, як вийшло') + '</span>' +
@@ -972,13 +1098,16 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
     return '<div class="section" id="logSec"><h4>Готувала' + (log.length ? ' · ' + log.length : '') + '</h4>' + form +
       (log.length ? '<ul class="log">' + entries + '</ul>' : '') +
       (total ? '<div class="log-export"><button type="button" class="link-btn" id="logExport">Експортувати відмітки</button>' +
-        '<span class="meta">JSON усіх рецептів, ' + total + ' ' + plural(total, 'запис', 'записи', 'записів') + '</span></div>' : '') +
+        '<span class="meta">JSON усіх рецептів, ' + total + ' ' + plural(total, 'запис', 'записи', 'записів') + '</span>' +
+        (orphan ? '<span class="meta"><span class="gone">' + orphan + ' — до видалених рецептів</span></span><button type="button" class="link-btn" id="logPrune">Прибрати їх</button>' : '') +
+        '</div>' : '') +
       '</div>';
   }
   function renderLog() {
     var s = $('logSec'); if (!s || !current) return;
+    var sig = focusSig();
     s.outerHTML = logSectionHtml(current);
-    bindLog();
+    bindLog(); refocus(sig);
   }
   function bindLog() {
     var s = $('logSec'); if (!s) return;
@@ -1011,6 +1140,11 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
         logDraft = null; saveLog(); renderLog(); return;
       }
       if (b.id === 'logExport') exportLog(b);
+      if (b.id === 'logPrune') {
+        if (!confirm('Прибрати відмітки рецептів, яких уже немає в книзі?')) return;
+        Object.keys(cookLog).forEach(function (id) { if (!BY_ID[id]) delete cookLog[id]; });
+        saveLog(); renderLog();
+      }
     };
     var addPendingTag = function () {
       var inp = $('logTag'); if (!inp || !logDraft) return;
@@ -1019,6 +1153,8 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       });
       inp.value = '';
     };
+    var f0 = s.querySelector('[data-res][aria-pressed="true"]');
+    if (focusLog && f0) { f0.focus({ preventScroll: true }); focusLog = false; }
     if ($('logComment')) $('logComment').oninput = function () { logDraft.comment = this.value; };
     if ($('logDate')) $('logDate').onchange = function () { if (this.value) { logDraft.date = this.value; renderLog(); } };
     if ($('logTag')) $('logTag').onkeydown = function (e) {
@@ -1033,7 +1169,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       });
     });
     out.sort(function (a, b) { return a.date < b.date ? -1 : a.date > b.date ? 1 : 0; });
-    copyText(JSON.stringify(out, null, 2), btn, 'Скопійовано ✓');
+    copyText(JSON.stringify(out, null, 2), btn, 'Скопійовано ✓', 'Відмітки «готувала», JSON');
   }
 
   /* ---------- меню на тиждень ---------- */
@@ -1048,21 +1184,29 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
     return isoDate(x);
   }
   function emptyCells() { return DAYS.map(function () { return [null, null, null]; }); }
-  var menu = loadJson('weekMenu', null);
-  if (!menu || !Array.isArray(menu.cells) || menu.cells.length !== 7) menu = { start: mondayOf(new Date()), people: 2, cells: emptyCells(), fallback: 0 };
-  menu.people = Math.max(1, +menu.people || 2);
+  var menu = loadKey('weekMenu', null, function (v) { return isObj(v) && Array.isArray(v.cells) && v.cells.length === 7; });
+  if (!menu) menu = { start: mondayOf(new Date()), people: 2, cells: emptyCells(), fallback: 0, short: 0 };
+  if (!ISO_RE.test(menu.start)) menu.start = mondayOf(new Date());
+  menu.people = clampInt(menu.people, 1, SERV_MAX, 2);
+  menu.fallback = clampInt(menu.fallback, 0, 21, 0); menu.short = clampInt(menu.short, 0, 21, 0);
+  // страви, яких уже немає в книзі, лишаються з позначкою «рецепт видалено», щоб їх можна було прибрати
   menu.cells = menu.cells.map(function (day) {
     return [0, 1, 2].map(function (m) {
-      var c = day && day[m];
-      return c && BY_ID[c.id] ? { id: c.id, servings: Math.max(1, +c.servings || menu.people), pinned: !!c.pinned } : null;
+      var c = Array.isArray(day) ? day[m] : null;
+      return isObj(c) && typeof c.id === 'string' ? { id: c.id, servings: clampInt(c.servings, 1, SERV_MAX, menu.people), pinned: !!c.pinned } : null;
     });
   });
   var menuUi = { open: null, mode: null, q: '', msg: '' };
   function saveMenu() { store('weekMenu', JSON.stringify(menu)); }
-  function menuIds() {
+  function menuIds() {  // тільки живі рецепти
     var ids = [];
-    menu.cells.forEach(function (day) { day.forEach(function (c) { if (c) ids.push(c.id); }); });
+    menu.cells.forEach(function (day) { day.forEach(function (c) { if (c && BY_ID[c.id]) ids.push(c.id); }); });
     return ids;
+  }
+  function menuFilled() {  // разом із видаленими
+    var n = 0;
+    menu.cells.forEach(function (day) { day.forEach(function (c) { if (c) n++; }); });
+    return n;
   }
   function isTry(r) { return effStatus(r) === 'спробувати'; }
   function fitsSlot(r, d, m) {
@@ -1090,28 +1234,29 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   }
   function triesInMenu(skipD, skipM) {
     var n = 0;
-    menu.cells.forEach(function (day, d) { day.forEach(function (c, m) { if (c && !(d === skipD && m === skipM) && isTry(BY_ID[c.id])) n++; }); });
+    menu.cells.forEach(function (day, d) { day.forEach(function (c, m) { if (c && BY_ID[c.id] && !(d === skipD && m === skipM) && isTry(BY_ID[c.id])) n++; }); });
     return n;
   }
   function generateMenu() {
     var used = [], weekday = [], weekend = [], tries = 0, fallback = 0;
     menu.cells.forEach(function (day, d) {
       day.forEach(function (c, m) {
-        if (c && c.pinned) { used.push(c.id); if (isTry(BY_ID[c.id])) tries++; }
+        if (c && c.pinned && BY_ID[c.id]) { used.push(c.id); if (isTry(BY_ID[c.id])) tries++; }
         else { day[m] = null; (d < 5 ? weekday : weekend).push([d, m]); }
       });
     });
     // будні з обмеженням часу заповнюються першими, щоб їм вистачило коротких рецептів
     var slots = shuffle(weekday).concat(shuffle(weekend));
-    var quota = Math.max(0, (Math.random() < 0.5 ? 1 : 2) - tries);
+    var quota = Math.max(0, (Math.random() < 0.5 ? 1 : 2) - tries), short = 0;
+    // кожен слот пробується один раз: рецептів замало — клітинка лишається порожньою, без повторів і без циклу
     slots.forEach(function (s) {
       var r = pickFor(s[0], s[1], used, quota > 0);
-      if (!r) return;
+      if (!r) { short++; return; }
       if (isTry(r)) { if (quota > 0) quota--; else fallback++; }
       used.push(r.id);
       menu.cells[s[0]][s[1]] = { id: r.id, servings: menu.people, pinned: false };
     });
-    menu.fallback = fallback;
+    menu.fallback = fallback; menu.short = short;
     menu.start = mondayOf(new Date());
     saveMenu();
   }
@@ -1122,16 +1267,20 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
     menu.cells[d][m] = { id: r.id, servings: c ? c.servings : menu.people, pinned: false };
     menuUi.msg = ''; saveMenu();
   }
+  // ккал дня: страви без КБЖВ не рахуються нулем, часткове КБЖВ позначається як неповне
   function dayKcal(day) {
-    var sum = 0, has = 0, miss = 0;
+    var sum = 0, has = 0, miss = 0, part = 0;
     day.forEach(function (c) {
-      if (!c) return;
-      var n = BY_ID[c.id].nutrition_per_serving, k = n && n.kcal;
-      if (k != null) { sum += k; has++; } else miss++;
+      var r = c && BY_ID[c.id]; if (!r) return;
+      var n = r.nutrition_per_serving, k = n && n.kcal;
+      if (typeof k === 'number' && isFinite(k)) { sum += k; has++; if (r.nutrition_status === 'частковий') part++; } else miss++;
     });
     if (!has && !miss) return '';
     if (!has) return '<span class="nokcal">без КБЖВ</span>';
-    return '≈ ' + Math.round(sum) + ' ккал на людину' + (miss ? ' · <span class="nokcal">' + miss + ' без КБЖВ</span>' : '');
+    var gaps = [];
+    if (miss) gaps.push(miss + ' без КБЖВ');
+    if (part) gaps.push(part + ' частково');
+    return (gaps.length ? 'від ' : '≈ ') + Math.round(sum) + ' ккал на людину' + (gaps.length ? ' · <span class="nokcal">неповне: ' + gaps.join(', ') + '</span>' : '');
   }
   function weekRange() {
     var p = menu.start.split('-'), a = new Date(+p[0], p[1] - 1, +p[2]), b = new Date(+p[0], p[1] - 1, +p[2] + 6);
@@ -1161,10 +1310,12 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       if (t) bits.push('<span' + (d < 5 && t > WEEKDAY_MAX ? ' class="tlong" title="Довше за 40 хв для буднього дня"' : '') + '>⏱ ' + fmtTime(t) + '</span>');
       bits.push(c.servings + ' ' + plural(c.servings, 'порція', 'порції', 'порцій'));
       var k = r.nutrition_per_serving && r.nutrition_per_serving.kcal;
-      bits.push(k != null ? k + ' ккал' : '<span class="nokcal">без КБЖВ</span>');
+      bits.push(typeof k === 'number' ? k + ' ккал' + (r.nutrition_status === 'частковий' ? '<span class="nokcal" title="КБЖВ неповне">*</span>' : '') : '<span class="nokcal">без КБЖВ</span>');
       if (isTry(r)) bits.push('<span class="badge new">нове</span>');
       if (c.pinned) bits.push('📌');
       body = '<a href="#' + esc(r.id) + '">' + esc(r.title) + '</a><div class="meta">' + bits.join('<span>·</span>') + '</div>';
+    } else if (c) {
+      body = '<span class="gone">Рецепт видалено</span><div class="meta">його вже немає в книзі · <button type="button" class="link-btn" data-act="clear" style="min-height:0;padding:0;color:var(--accent)">прибрати</button></div>';
     } else body = '<span class="mempty">порожньо</span>';
     var acts = '';
     if (open) {
@@ -1177,13 +1328,17 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
           DAYS_SHORT.map(function (n, t) {
             return '<button type="button" class="chip" data-move="' + t + '"' + (t === d ? ' disabled' : '') + ' aria-label="' + DAYS[t] + '">' + n + '</button>';
           }).join('') + '</div><button type="button" class="link-btn" data-act="back">← Назад до дій</button>';
+      } else if (c && !r) {
+        acts = '<button type="button" class="icon-btn" data-act="clear">✕ Прибрати</button>' +
+          '<button type="button" class="icon-btn" data-act="regen">↻ Підібрати іншу</button>' +
+          '<button type="button" class="icon-btn" data-act="search">🔍 Знайти</button>';
       } else if (r) {
         acts = '<button type="button" class="icon-btn" data-act="regen">↻ Інша страва</button>' +
           '<button type="button" class="icon-btn" data-act="search">🔍 Знайти</button>' +
           '<button type="button" class="icon-btn" data-act="move">⇄ Інший день</button>' +
           '<button type="button" class="icon-btn" data-act="pin" aria-pressed="' + c.pinned + '">📌 ' + (c.pinned ? 'Закріплено' : 'Закріпити') + '</button>' +
-          '<span class="servings"><button type="button" data-act="minus" aria-label="Менше порцій">−</button><output>' + c.servings + ' ' + plural(c.servings, 'порція', 'порції', 'порцій') + '</output>' +
-          '<button type="button" data-act="plus" aria-label="Більше порцій">+</button></span>' +
+          '<span class="servings"><button type="button" data-act="minus" aria-label="Менше порцій"' + (c.servings <= 1 ? ' disabled' : '') + '>−</button><output>' + c.servings + ' ' + plural(c.servings, 'порція', 'порції', 'порцій') + '</output>' +
+          '<button type="button" data-act="plus" aria-label="Більше порцій"' + (c.servings >= SERV_MAX ? ' disabled' : '') + '>+</button></span>' +
           '<button type="button" class="icon-btn" data-act="clear">✕ Очистити</button>';
       } else {
         acts = '<button type="button" class="icon-btn" data-act="regen">↻ Підібрати</button>' +
@@ -1197,22 +1352,26 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       '<button type="button" class="mmore" data-act="toggle" aria-expanded="' + open + '" aria-label="Дії: ' + DAYS[d].toLowerCase() + ', ' + MEALS[m].toLowerCase() + '">⋯</button>' + acts + '</li>';
   }
   function renderMenu() {
-    var n = menuIds().length, today = isoDate(new Date());
+    var n = menuIds().length, nAll = menuFilled(), today = isoDate(new Date()), sig = focusSig();
+    var empty = 21 - nAll;
     var bar = '<div class="bar"><div class="wrap row"><button class="icon-btn" id="backBtn">← Назад</button><span style="flex:1"></span>' +
       (n ? '<button class="icon-btn" id="menuShop" aria-pressed="' + cartMenu + '">' + (cartMenu ? '✓ У покупках' : '🛒 Покупки') + '</button>' : '') +
       '<button class="primary" id="menuGen">' + (n ? 'Перескласти' : 'Скласти') + '</button></div></div>';
     var html = '<article style="max-width:1100px"><h2>Меню на тиждень</h2>';
-    if (!n) {
+    if (!nAll) {
       html += '<div class="menu-empty"><p style="margin:0">Меню ще не складене. Страви підберуться з книги: сніданок, обід і вечеря на 7 днів.</p>' +
         '<p class="menu-note">У будні тільки страви до 40 хв, улюблене трапляється частіше, «не сподобалось» не потрапляє зовсім, нових рецептів 1–2 на тиждень.</p>' +
         '<button class="primary" id="menuGen2">Скласти меню</button></div>';
     } else {
       html += '<div class="meta">' + weekRange() + ' · ' + n + ' ' + plural(n, 'страва', 'страви', 'страв') + '</div>' +
-        '<div class="menu-tools"><span class="lbl2">Порцій на страву</span><div class="servings"><button id="pMinus" aria-label="Менше">−</button><output>' +
-        menu.people + ' ' + plural(menu.people, 'порція', 'порції', 'порцій') + '</output><button id="pPlus" aria-label="Більше">+</button></div></div>' +
+        '<div class="menu-tools"><span class="lbl2">Порцій на страву</span><div class="servings"><button id="pMinus" aria-label="Менше порцій на страву"' + (menu.people <= 1 ? ' disabled' : '') + '>−</button><output>' +
+        menu.people + ' ' + plural(menu.people, 'порція', 'порції', 'порцій') + '</output><button id="pPlus" aria-label="Більше порцій на страву"' + (menu.people >= SERV_MAX ? ' disabled' : '') + '>+</button></div></div>' +
         '<p class="menu-note">«⋯» біля страви: інша страва, пошук, перенесення на інший день, порції. Закріплене 📌 лишається, коли меню перескладаєш.</p>' +
         (menu.fallback ? '<p class="menu-note warn">Перевірених рецептів поки мало, тому нових у меню більше, ніж 1–2: ' +
           triesInMenu(-1, -1) + ' з ' + n + '. Відмічай «готувала» під рецептами, і меню поступово складатиметься з перевіреного.</p>' : '') +
+        (menu.short && empty ? '<p class="menu-note warn">' + menu.short + ' ' + plural(menu.short, 'клітинка лишилася', 'клітинки лишилися', 'клітинок лишилося') +
+          ' порожніми: у книзі бракує рецептів, що підходять (у будні до 40 хв, без повторів за тиждень). Додай страву вручну: «⋯» → «Знайти».</p>' : '') +
+        (nAll > n ? '<p class="menu-note warn">Страв, яких уже немає в книзі: ' + (nAll - n) + '. Вони позначені «Рецепт видалено»: прибери або заміни.</p>' : '') +
         '<div class="days">' + DAYS.map(function (name, d) {
           var date = addDays(menu.start, d), dp = date.split('-');
           return '<section class="day' + (date === today ? ' today' : '') + '"><h3><span>' + name + '</span><span class="d">' + dp[2] + '.' + dp[1] +
@@ -1221,8 +1380,12 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
         }).join('') + '</div>';
     }
     $('sheet').innerHTML = bar + html + '</article>';
-    $('backBtn').onclick = function () { history.length > 1 ? history.back() : (location.hash = ''); };
+    refocus(sig);
+    $('backBtn').onclick = goBack;
     var gen = function () {
+      var free = 0;
+      menu.cells.forEach(function (day) { day.forEach(function (c) { if (!c || !c.pinned || !BY_ID[c.id]) free++; }); });
+      if (!free) { toast('Усі страви закріплені, перескладати нічого. Зніми 📌 з тих, які хочеш замінити.'); return; }
       if (menuIds().length && !confirm('Перескласти меню? Закріплені 📌 страви лишаться.')) return;
       generateMenu(); menuUi = { open: null, mode: null, q: '', msg: '' }; renderMenu();
     };
@@ -1232,9 +1395,9 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       cartMenu = !cartMenu; saveCart();
       if (cartMenu) location.hash = 'cart'; else renderMenu();
     };
-    if (!n) return;
+    if (!nAll) return;
     var people = function (dlt) {
-      var p = Math.max(1, menu.people + dlt);
+      var p = clampInt(menu.people + dlt, 1, SERV_MAX, menu.people);
       menu.cells.forEach(function (day) { day.forEach(function (c) { if (c) c.servings = p; }); });
       menu.people = p; saveMenu(); renderMenu();
     };
@@ -1259,6 +1422,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
         return;
       }
       if (act === 'toggle') { menuUi = { open: menuUi.open === key ? null : key, mode: null, q: '', msg: '' }; renderMenu(); return; }
+      if (act === 'clear') { menu.cells[d][m] = null; saveMenu(); menuUi.mode = null; renderMenu(); var mm = $('sheet').querySelector('li[data-cell="' + key + '"] .mmore'); if (mm) mm.focus(); return; }
       if (act === 'back') { menuUi.mode = null; menuUi.q = ''; renderMenu(); return; }
       if (act === 'search' || act === 'move') {
         menuUi.mode = act; menuUi.msg = ''; renderMenu();
@@ -1268,7 +1432,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       if (act === 'regen') regenCell(d, m);
       else if (act === 'pin' && c) { c.pinned = !c.pinned; saveMenu(); }
       else if (act === 'minus' && c) { c.servings = Math.max(1, c.servings - 1); saveMenu(); }
-      else if (act === 'plus' && c) { c.servings++; saveMenu(); }
+      else if (act === 'plus' && c) { c.servings = Math.min(SERV_MAX, c.servings + 1); saveMenu(); }
       else if (act === 'clear') { menu.cells[d][m] = null; saveMenu(); }
       else return;
       renderMenu();
@@ -1285,11 +1449,16 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   /* ---------- кошик і список покупок ---------- */
   // кошик: [{ id, servings, formD }] у порядку додавання; відмічене куплене — { назва: true }
   // cartMenu — меню на тиждень теж іде в список; cartManual — додане вручну; cartNeed — «вже є вдома», яке все ж треба купити
-  var cart = loadJson('cart', []).filter(function (b) { return b && BY_ID[b.id]; });
-  var bought = loadJson('cartBought', {});
+  var cart = loadKey('cart', [], Array.isArray).filter(function (b) { return isObj(b) && typeof b.id === 'string'; }).map(function (b) {
+    var r = BY_ID[b.id];
+    return { id: b.id, servings: clampInt(b.servings, 1, SERV_MAX, r ? baseServ(r) : 1), formD: r && r.form_cm ? clampInt(b.formD, formMin(r), formMax(r), r.form_cm) : null };
+  });
+  var bought = loadKey('cartBought', {}, isObj);
   var cartMenu = store('cartMenu') === '1';
-  var manual = loadJson('cartManual', []).filter(function (x) { return x && x.name; });
-  var need = loadJson('cartNeed', {});
+  var manual = loadKey('cartManual', [], Array.isArray).filter(function (x) { return isObj(x) && typeof x.name === 'string' && x.name.trim(); }).map(function (x) {
+    return { name: x.name.trim(), qty: typeof x.qty === 'number' && isFinite(x.qty) && x.qty > 0 ? x.qty : null, unit: typeof x.unit === 'string' ? x.unit : '' };
+  });
+  var need = loadKey('cartNeed', {}, isObj);
   function saveCart() {
     store('cart', JSON.stringify(cart)); store('cartBought', JSON.stringify(bought));
     store('cartMenu', cartMenu ? '1' : '0'); store('cartManual', JSON.stringify(manual)); store('cartNeed', JSON.stringify(need));
@@ -1305,12 +1474,13 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   function updateCartBtn() {
     var n = cart.length + (cartMenu && menuIds().length ? 1 : 0);
     ['cartN', 'cartN2'].forEach(function (id) { $(id).textContent = n; $(id).hidden = !n; });
+    $('cartBtn').setAttribute('aria-label', 'Кошик' + (n ? ', ' + n : ''));
   }
   $('cartBtn').addEventListener('click', function () { location.hash = 'cart'; });
 
   function cartFactor(b) {
     var r = BY_ID[b.id];
-    return r.form_cm && b.formD ? (b.formD * b.formD) / (r.form_cm * r.form_cm) : b.servings / r.servings;
+    return r.form_cm > 0 && b.formD ? (b.formD * b.formD) / (r.form_cm * r.form_cm) : b.servings / baseServ(r);
   }
   function cartPortions(b) {
     var r = BY_ID[b.id];
@@ -1353,6 +1523,12 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       'гриб', 'перець', 'кукурудз', 'апельсин', 'полуниц', 'малин', 'ягод', 'вишн', 'лохин', 'чорниц', 'манго', 'ківі', 'груш', 'ананас',
       'хурм', 'айва', 'грейпфрут', 'обліпих', 'імбир', 'редис', 'спарж', 'селер', 'едамаме', 'горошок', 'овоч', 'мікрогрін', 'щавель', 'папая']]
   ];
+  // той самий продукт у різних написаннях: регістр, порядок слів, закінчення («помідор» і «помідори», «сир твердий» і «твердий сир»)
+  function productKey(name) {
+    return norm(name).replace(/[«»"().,;:]/g, ' ').split(' ').filter(Boolean).map(function (w) {
+      return w.length > 4 ? w.replace(/[аяиіїоуєь]$/, '') : w;
+    }).sort().join(' ');
+  }
   function isSpice(key) { return SPICES.some(function (s) { return key.indexOf(s) !== -1; }); }
   function deptOf(key) {
     var words = ' ' + key.replace(/-/g, ' ') + ' ';  // стем збігається з початком слова: «гриби» не «риба»
@@ -1373,42 +1549,54 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   }
   // джерела списку: рецепти з кошика + меню на тиждень (кожна страва з її порціями)
   function shopSources() {
-    var src = cart.slice();
+    var src = cart.filter(function (b) { return BY_ID[b.id]; });
     if (cartMenu) menu.cells.forEach(function (day) {
-      day.forEach(function (c) { if (c) src.push({ id: c.id, servings: c.servings, formD: BY_ID[c.id].form_cm || null }); });
+      day.forEach(function (c) { if (c && BY_ID[c.id]) src.push({ id: c.id, servings: c.servings, formD: BY_ID[c.id].form_cm || null }); });
     });
     return src;
   }
+  // рядок списку = продукт + одиниця: г і кг, мл і л сумуються, а шт і г того самого продукту йдуть окремими рядками
   function shoppingList() {
     var buy = {}, home = {};
-    var addBuy = function (key, name, from, qty, unit) {
-      var x = buy[key] || (buy[key] = { key: key, name: name, amounts: {}, from: [], dept: deptOf(key), fromHome: false });
-      if (qty != null) { var u = UNIT_BASE[unit] || [unit || '', 1]; x.amounts[u[0]] = (x.amounts[u[0]] || 0) + qty * u[1]; }
+    var addBuy = function (pk, nm, name, from, qty, unit) {
+      var base = typeof qty === 'number' && isFinite(qty) ? (UNIT_BASE[unit] || [unit || '', 1]) : null;
+      var key = pk + '|' + (base ? 'u:' + base[0] : '-');
+      var x = buy[key] || (buy[key] = { key: key, pk: pk, name: name, amount: 0, unit: base ? base[0] : null, from: [], dept: deptOf(nm), fromHome: false });
+      if (base) x.amount += qty * base[1];
       if (from && x.from.indexOf(from) === -1) x.from.push(from);
       return x;
     };
     shopSources().forEach(function (b) {
       var r = BY_ID[b.id], f = cartFactor(b);
       (r.ingredients || []).forEach(function (i) {
-        var key = norm(i.name);
-        if (key === 'вода') return;
-        var atHome = i.qty == null || PANTRY.indexOf(key) !== -1 || isSpice(key);
-        if (atHome && !need[key]) {
-          var c = home[key] || (home[key] = { key: key, name: i.name, from: [] });
+        if (!i || !i.name) return;
+        var nm = norm(i.name), pk = productKey(i.name);
+        if (nm === 'вода') return;
+        var atHome = typeof i.qty !== 'number' || PANTRY.indexOf(nm) !== -1 || isSpice(nm);
+        if (atHome && !need[pk]) {
+          var c = home[pk] || (home[pk] = { key: pk, name: i.name, from: [] });
           if (c.from.indexOf(r.title) === -1) c.from.push(r.title);
           return;
         }
-        var x = addBuy(key, i.name, r.title, i.qty == null ? null : i.qty * f, i.unit);
+        var x = addBuy(pk, nm, i.name, r.title, typeof i.qty === 'number' ? i.qty * f : null, i.unit);
         if (atHome) x.fromHome = true;
       });
     });
-    manual.forEach(function (m) { addBuy(norm(m.name), m.name, 'додано вручну', m.qty, m.unit); });
+    manual.forEach(function (m) { addBuy(productKey(m.name), norm(m.name), m.name, 'додано вручну', m.qty, m.unit); });
+    // рядок без кількості зливається з рядком того самого продукту, де кількість є
+    Object.keys(buy).forEach(function (k) {
+      var x = buy[k]; if (x.unit != null) return;
+      var twin = Object.keys(buy).filter(function (j) { return j !== k && buy[j].pk === x.pk && buy[j].unit != null; })[0];
+      if (twin) { x.from.forEach(function (s) { if (buy[twin].from.indexOf(s) === -1) buy[twin].from.push(s); }); delete buy[k]; }
+    });
     // що треба купити хоч для одного рецепта, з «вже є вдома» прибирається
-    Object.keys(home).forEach(function (k) { if (buy[k]) delete home[k]; });
-    var byName = function (a, b) { return a.name.localeCompare(b.name, 'uk'); };
+    var pks = {};
+    Object.keys(buy).forEach(function (k) { pks[buy[k].pk] = true; });
+    Object.keys(home).forEach(function (k) { if (pks[k]) delete home[k]; });
+    var byName = function (a, b) { return a.name.localeCompare(b.name, 'uk') || String(a.unit).localeCompare(String(b.unit)); };
     var toList = function (o) { return Object.keys(o).map(function (k) { return o[k]; }).sort(byName); };
     var items = toList(buy).map(function (x) {
-      x.qty = Object.keys(x.amounts).map(function (u) { return fmtAmount(u, x.amounts[u]); }).join(' + ') || (x.fromHome ? 'за смаком' : '');
+      x.qty = x.unit != null ? fmtAmount(x.unit, x.amount) : (x.fromHome ? 'за смаком' : '');
       return x;
     });
     return { buy: items, check: toList(home) };
@@ -1426,7 +1614,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       if (!items.length) return '';
       items = items.filter(function (x) { return !bought[x.key]; }).concat(items.filter(function (x) { return bought[x.key]; }));
       return '<li class="shop-dept">' + esc(dep) + '</li>' + items.map(function (x) {
-        return shopItem(x, true, x.fromHome ? '<button type="button" class="link-btn" data-unneed="' + esc(x.key) + '">є вдома</button>' : '');
+        return shopItem(x, true, x.fromHome ? '<button type="button" class="link-btn" data-unneed="' + esc(x.pk) + '">є вдома</button>' : '');
       }).join('');
     }).join('');
   }
@@ -1443,7 +1631,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   }
 
   function renderCart() {
-    var list = shoppingList(), mn = cartMenu ? menuIds().length : 0, menuAvail = menuIds().length;
+    var list = shoppingList(), mn = cartMenu ? menuIds().length : 0, menuAvail = menuIds().length, sig = focusSig();
     var any = cart.length || mn || manual.length;
     var back = '<div class="bar"><div class="wrap row"><button class="icon-btn" id="backBtn">← Назад</button><span style="flex:1"></span>' +
       (any ? '<button class="icon-btn" id="cartClear">Очистити</button>' : '') + '</div></div>';
@@ -1455,10 +1643,14 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
         (mn ? '<li><a href="#menu">📅 Меню на тиждень</a><span class="meta">' + mn + ' ' + plural(mn, 'страва', 'страви', 'страв') + ', порції в меню</span>' +
           '<button class="link-btn" id="menuOff" aria-label="Прибрати меню зі списку">✕</button></li>' : '') +
         cart.map(function (b) {
-          return '<li><a href="#' + esc(b.id) + '">' + esc(BY_ID[b.id].title) + '</a>' +
-            '<span class="servings"><button data-dec="' + esc(b.id) + '" aria-label="Менше">−</button><output>' + esc(cartPortions(b)) + '</output>' +
-            '<button data-inc="' + esc(b.id) + '" aria-label="Більше">+</button></span>' +
-            '<button class="link-btn" data-del="' + esc(b.id) + '" aria-label="Прибрати з кошика">✕</button></li>';
+          var r = BY_ID[b.id];
+          if (!r) return '<li><span class="gone" style="flex:1 1 180px">Рецепт видалено</span><span class="meta">його вже немає в книзі, у список покупок не йде</span>' +
+            '<button class="link-btn" data-del="' + esc(b.id) + '" aria-label="Прибрати видалений рецепт з кошика">✕</button></li>';
+          var lo = r.form_cm ? b.formD <= formMin(r) : b.servings <= 1, hi = r.form_cm ? b.formD >= formMax(r) : b.servings >= SERV_MAX;
+          return '<li><a href="#' + esc(b.id) + '">' + esc(r.title) + '</a>' +
+            '<span class="servings"><button data-dec="' + esc(b.id) + '" aria-label="Менше: ' + esc(r.title) + '"' + (lo ? ' disabled' : '') + '>−</button><output>' + esc(cartPortions(b)) + '</output>' +
+            '<button data-inc="' + esc(b.id) + '" aria-label="Більше: ' + esc(r.title) + '"' + (hi ? ' disabled' : '') + '>+</button></span>' +
+            '<button class="link-btn" data-del="' + esc(b.id) + '" aria-label="Прибрати з кошика: ' + esc(r.title) + '">✕</button></li>';
         }).join('') + '</ul></div>';
     }
     if (!cartMenu && menuAvail) {
@@ -1481,10 +1673,11 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
     }
     if (list.buy.length) {
       html += '<div class="shop-actions"><button class="primary" id="shopShare">' + (navigator.share ? 'Поділитися списком' : 'Скопіювати список') + '</button>' +
-        (Object.keys(bought).length ? '<button class="icon-btn" id="shopReset">Зняти всі позначки</button>' : '') + '</div>';
+        (list.buy.some(function (x) { return bought[x.key]; }) ? '<button class="icon-btn" id="shopReset">Зняти всі позначки</button>' : '') + '</div>';
     }
     $('sheet').innerHTML = back + html + '</article>';
-    $('backBtn').onclick = function () { history.length > 1 ? history.back() : (location.hash = ''); };
+    refocus(sig);
+    $('backBtn').onclick = goBack;
     if ($('cartClear')) $('cartClear').onclick = function () {
       if (!confirm('Очистити кошик? Рецепти, меню і додане вручну зникнуть зі списку покупок (саме меню лишиться).')) return;
       cart = []; bought = {}; manual = []; need = {}; cartMenu = false; saveCart(); renderCart(); render();
@@ -1493,8 +1686,11 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
     if ($('menuOff')) $('menuOff').onclick = function () { cartMenu = false; saveCart(); renderCart(); };
     $('shopAdd').onsubmit = function (e) {
       e.preventDefault();
-      var v = $('shopAddIn').value.trim(); if (!v) return;
-      manual.push(parseManual(v)); saveCart(); renderCart();
+      var v = $('shopAddIn').value.trim();
+      if (!v) { $('shopAddIn').value = ''; $('shopAddIn').focus(); return; }
+      var p = parseManual(v);
+      if (!p.name.trim()) p = { name: v, qty: null, unit: '' };
+      manual.push(p); saveCart(); renderCart();
       if ($('shopAddIn')) $('shopAddIn').focus();
     };
     $('sheet').querySelector('article').onclick = function (e) {
@@ -1506,9 +1702,10 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       if ((v = t.getAttribute('data-unneed'))) { delete need[v]; delete bought[v]; saveCart(); renderCart(); return; }
       var inc = t.getAttribute('data-inc'), dec = t.getAttribute('data-dec');
       if (inc || dec) {
-        var b = cartEntry(inc || dec), r = BY_ID[b.id], d = inc ? 1 : -1;
-        if (r.form_cm) b.formD = Math.min(32, Math.max(10, b.formD + 2 * d));
-        else b.servings = Math.max(1, b.servings + d);
+        var b = cartEntry(inc || dec), r = b && BY_ID[b.id], d = inc ? 1 : -1;
+        if (!r) return;
+        if (r.form_cm) b.formD = Math.min(formMax(r), Math.max(formMin(r), b.formD + 2 * d));
+        else b.servings = Math.min(SERV_MAX, Math.max(1, b.servings + d));
         saveCart(); renderCart();
       }
     };
@@ -1521,50 +1718,79 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
     if ($('shopShare')) $('shopShare').onclick = function () {
       var text = shoppingText(list), btn = this;
       if (navigator.share) { navigator.share({ title: 'Список покупок', text: text }).catch(function () {}); return; }
-      copyText(text, btn, 'Скопійовано ✓');
+      copyText(text, btn, 'Скопійовано ✓', 'Список покупок');
     };
   }
 
+  // «Назад» веде по історії лише всередині книги; відкрили посиланням ззовні — на головну, а не на чужий сайт
+  var navCount = 0, lastFocus = null, lastFocusId = null;
+  function goBack() { if (navCount > 0) history.back(); else location.hash = ''; }
+  function focusSig() {
+    var el = document.activeElement;
+    if (!el || !$('sheet').contains(el)) return null;
+    if (el.id) return '#' + CSS.escape(el.id);
+    var cell = el.closest('li[data-cell]'), pre = cell ? 'li[data-cell="' + cell.getAttribute('data-cell') + '"] ' : '';
+    var a = [].filter.call(el.attributes, function (x) { return x.name.indexOf('data-') === 0; })[0];
+    return a ? pre + el.tagName.toLowerCase() + '[' + a.name + '="' + CSS.escape(a.value) + '"]' : null;
+  }
+  function refocus(sig) {
+    if (!sig) return;
+    var el = $('sheet').querySelector(sig);
+    if (el && !el.disabled) el.focus({ preventScroll: true });
+  }
+  var LABELS = { menu: 'Меню на тиждень', cart: 'Кошик' };
+  function openSheet(label) {
+    var s = $('sheet');
+    if (!s.classList.contains('open')) {
+      lastFocus = document.activeElement;
+      lastFocusId = lastFocus && lastFocus.getAttribute ? lastFocus.getAttribute('data-id') : null;
+    }
+    s.setAttribute('aria-label', label);
+    s.classList.add('open'); s.scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+    document.querySelector('header.top').inert = true; document.querySelector('main').inert = true;
+    var b = $('backBtn'); if (b) b.focus({ preventScroll: true });
+  }
+  function closeSheet() {
+    var s = $('sheet'); if (!s.classList.contains('open')) return;
+    s.classList.remove('open'); document.body.style.overflow = '';
+    document.querySelector('header.top').inert = false; document.querySelector('main').inert = false;
+    var el = lastFocusId ? document.querySelector('.card[data-id="' + CSS.escape(lastFocusId) + '"]') : lastFocus;
+    if (el && document.contains(el)) el.focus({ preventScroll: true });
+    lastFocus = lastFocusId = null;
+  }
   function route() {
     var id = decodeURIComponent(location.hash.slice(1));
     var tab = id === 'menu' || id === 'cart' ? id : '';
     Array.prototype.forEach.call(document.querySelectorAll('.tab'), function (t) {
       if (t.getAttribute('data-tab') === tab) t.setAttribute('aria-current', 'page'); else t.removeAttribute('aria-current');
     });
-    if (id === 'menu') {
+    if (id === 'menu' || id === 'cart') {
       closeCook(); current = null;
-      renderMenu();
-      $('sheet').classList.add('open'); $('sheet').scrollTop = 0;
-      document.body.style.overflow = 'hidden';
-      return;
-    }
-    if (id === 'cart') {
-      closeCook(); current = null;
-      renderCart();
-      $('sheet').classList.add('open'); $('sheet').scrollTop = 0;
-      document.body.style.overflow = 'hidden';
+      if (id === 'menu') renderMenu(); else renderCart();
+      openSheet(LABELS[id]);
       return;
     }
     if (id.indexOf('g/') === 0 && GUIDE_BY_ID[id.slice(2)]) {
       closeCook(); current = null;
       renderGuide(GUIDE_BY_ID[id.slice(2)]);
-      $('sheet').classList.add('open'); $('sheet').scrollTop = 0;
-      document.body.style.overflow = 'hidden';
+      openSheet(GUIDE_BY_ID[id.slice(2)].title);
       return;
     }
-    var r = RECIPES.filter(function (x) { return x.id === id; })[0];
+    var r = BY_ID[id];
     if (r) {
-      if (!current || current.id !== r.id) { current = r; servings = r.servings; formD = r.form_cm || null; logDraft = null; gotIngs = {}; }
+      if (!current || current.id !== r.id) { current = r; servings = baseServ(r); formD = r.form_cm > 0 ? r.form_cm : null; logDraft = null; gotIngs = {}; }
+      closeCook();
       renderSheet();
-      $('sheet').classList.add('open'); $('sheet').scrollTop = 0;
-      document.body.style.overflow = 'hidden';
+      openSheet(r.title);
     } else {
       closeCook();
-      current = null; $('sheet').classList.remove('open'); document.body.style.overflow = '';
+      current = null;
       if (cartDirty) { cartDirty = false; render(); }  // бейджі «у кошику» на картках
+      closeSheet();
     }
   }
-  window.addEventListener('hashchange', route);
+  window.addEventListener('hashchange', function () { navCount++; route(); });
 
   /* ---------- режим «готую» ---------- */
   var stepIdx = 0, showIngs = false, wakeLock = null, wakeMsg = '';
@@ -1572,10 +1798,12 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   function requestWake() {
     if (!('wakeLock' in navigator)) { wakeMsg = 'екран може згаснути: браузер не вміє його втримати'; return; }
     navigator.wakeLock.request('screen').then(function (l) {
+      // режим закрили, поки браузер відповідав: одразу відпускаємо екран
+      if (!$('cook').classList.contains('open')) { l.release().catch(function () {}); return; }
       wakeLock = l; wakeMsg = 'екран не згасне';
       l.addEventListener('release', function () { wakeLock = null; });
       if ($('cook').classList.contains('open')) renderCook();
-    }).catch(function () { wakeMsg = 'екран може згаснути'; renderCook(); });
+    }).catch(function () { wakeMsg = 'екран може згаснути'; if ($('cook').classList.contains('open')) renderCook(); });
   }
   document.addEventListener('visibilitychange', function () {
     if (document.visibilityState === 'visible' && $('cook').classList.contains('open') && !wakeLock) requestWake();
@@ -1591,6 +1819,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   function renderCook() {
     var r = current; if (!r) return;
     var steps = r.steps || [], total = steps.length, factor = scaleFactor(r);
+    if (!total) showIngs = true;  // без кроків режим показує інгредієнти і «Готово»
     var hits = showIngs ? [] : stepIngs(r, steps[stepIdx] || '');
     var amount = r.form_cm ? 'форма ' + formD + ' см' : portionsLabel(r);
     var row = function (n) {
@@ -1606,20 +1835,21 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
         (hits.length ? '<div class="here"><h4>У цьому кроці</h4><ul>' + hits.map(row).join('') + '</ul></div>' : '') + '</div>';
     $('cook').innerHTML =
       '<div class="bar"><button class="icon-btn" id="cookClose" aria-label="Закрити режим «готую»">✕</button>' +
-      '<div class="progress">' + (showIngs ? 'Інгредієнти · ' + amount : 'Крок ' + (stepIdx + 1) + ' з ' + total) +
+      '<div class="progress">' + (!total ? 'Кроків немає · ' + amount : showIngs ? 'Інгредієнти · ' + amount : 'Крок ' + (stepIdx + 1) + ' з ' + total) +
       '<div class="wake' + (wakeLock ? ' on' : wakeMsg ? ' off' : '') + '" role="status">' + (wakeLock ? '☀ ' : '') + esc(wakeMsg) + '</div></div>' +
-      '<button class="icon-btn" id="cookIngs" aria-pressed="' + showIngs + '">Інгредієнти</button>' +
+      (total ? '<button class="icon-btn" id="cookIngs" aria-pressed="' + showIngs + '">Інгредієнти</button>' : '') +
       '<div class="track" aria-hidden="true"><span style="width:' + (total ? (stepIdx + 1) / total * 100 : 0) + '%"></span></div></div>' +
       '<div class="body" id="cookBody">' + aside + main + '</div>' +
       '<div class="nav"><button id="cookPrev"' + (stepIdx === 0 || showIngs ? ' disabled' : '') + '>← Назад</button>' +
-      '<button class="next" id="cookNext">' + (showIngs ? 'До кроків' : stepIdx >= total - 1 ? 'Готово' : 'Далі →') + '</button></div>';
-    $('cookClose').onclick = closeCook;
-    $('cookIngs').onclick = function () { showIngs = !showIngs; renderCook(); };
+      '<button class="next" id="cookNext">' + (!total ? 'Готово' : showIngs ? 'До кроків' : stepIdx >= total - 1 ? 'Готово' : 'Далі →') + '</button></div>';
+    $('cookClose').onclick = function () { closeCook(true); };
+    if ($('cookIngs')) $('cookIngs').onclick = function () { showIngs = !showIngs; renderCook(); };
     // браузер міг відмовити без жесту користувача: кожен дотик до кнопок пробує ще раз
     var rewake = function () { if (!wakeLock && 'wakeLock' in navigator) requestWake(); };
     $('cookPrev').onclick = function () { rewake(); if (stepIdx > 0) { stepIdx--; renderCook(); } };
     $('cookNext').onclick = function () {
       rewake();
+      if (!total) { closeCook(); openLogForm(); return; }
       if (showIngs) { showIngs = false; renderCook(); return; }
       // останній крок: одразу пропонуємо відмітку «готувала»
       if (stepIdx < total - 1) { stepIdx++; renderCook(); } else { closeCook(); openLogForm(); }
@@ -1638,23 +1868,53 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   function openCook() {
     stepIdx = 0; showIngs = false; wakeMsg = '';
     $('cook').classList.add('open'); renderCook(); requestWake();
+    $('sheet').inert = true; document.querySelector('.tabbar').inert = true;
+    $('cookNext').focus({ preventScroll: true });
   }
-  function closeCook() {
+  // restore: закрили кнопкою чи Esc — фокус повертається на «Готую»
+  function closeCook(restore) {
     if (!$('cook').classList.contains('open')) return;
     $('cook').classList.remove('open');
-    if (wakeLock) { wakeLock.release(); wakeLock = null; }
+    $('sheet').inert = false; document.querySelector('.tabbar').inert = false;
+    if (wakeLock) { wakeLock.release().catch(function () {}); wakeLock = null; }
+    if (restore && $('cookBtn')) $('cookBtn').focus({ preventScroll: true });
   }
   document.addEventListener('keydown', function (e) {
     if ($('cook').classList.contains('open')) {
       if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); $('cookNext').click(); }
       else if (e.key === 'ArrowLeft') { $('cookPrev').click(); }
-      else if (e.key === 'Escape') closeCook();
-    } else if (e.key === 'Escape' && $('sheet').classList.contains('open')) { location.hash = ''; }
+      else if (e.key === 'Escape') closeCook(true);
+      return;
+    }
+    if (e.key !== 'Escape') return;
+    if ($('sheet').classList.contains('open')) {
+      // спершу закривається відкрита панель дій у меню, потім уся панель
+      if (location.hash === '#menu' && menuUi.open) {
+        var key = menuUi.open; menuUi = { open: null, mode: null, q: '', msg: '' }; renderMenu();
+        var mm = $('sheet').querySelector('li[data-cell="' + key + '"] .mmore'); if (mm) mm.focus();
+        return;
+      }
+      location.hash = '';
+    } else if ($('filters').classList.contains('open')) {
+      $('filterBtn').click(); $('filterBtn').focus();
+    }
   });
+
+  // подвійний тап не повторює дію: та сама кнопка ігнорується 400 мс (крім кроків порцій, їх тиснуть поспіль)
+  var lastTapSig = '', lastTapAt = 0;
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b || b.closest('.servings')) return;
+    var sig = (b.id || '') + '|' + [].filter.call(b.attributes, function (x) { return x.name.indexOf('data-') === 0; }).map(function (x) { return x.name + '=' + x.value; }).join(',');
+    if (sig === '|') return;
+    var now = Date.now();
+    if (sig === lastTapSig && now - lastTapAt < 400) { e.stopPropagation(); e.preventDefault(); return; }
+    lastTapSig = sig; lastTapAt = now;
+  }, true);
 
   updateCartBtn();
   render();
   route();
+  if (!storageOk) toast('Браузер не дає зберігати дані (можливо, приватний режим). Меню, кошик і відмітки працюють, але зникнуть після закриття сторінки.');
 })();
 </script>
 </body>
