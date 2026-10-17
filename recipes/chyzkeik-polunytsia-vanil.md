@@ -6,6 +6,7 @@ source:
   name: Чизкейк Інтенсив (homebake_courses)
   ref: "повідомлення 92–95, 156; техкарта «Чизкейк Полуниця-ваніль»"
 category: десерти
+subcategory: чизкейки
 tags: [чизкейк, в-духовці, на-вихідні, святкове]
 servings: 12
 time: { prep: 45, cook: 85 }

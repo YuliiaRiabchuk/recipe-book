@@ -6,6 +6,7 @@ source:
   name: Чизкейк Інтенсив (homebake_courses)
   ref: "повідомлення 83–85, 89; техкарта «Чизкейк Шоколадний»"
 category: десерти
+subcategory: чизкейки
 tags: [чизкейк, в-духовці, на-вихідні]
 servings: 12
 time: { prep: 30, cook: 85 }

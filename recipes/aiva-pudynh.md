@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 2
   ref: "с. 24"
 category: десерти
+subcategory: пана-кота, пудинги, муси
 tags: [раціон-1550, перекус, без-випікання, вегетаріанське]
 servings: 1
 time: { prep: null, cook: null }

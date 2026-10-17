@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 1
   ref: "с. 12"
 category: десерти
+subcategory: швидкі перекуси
 tags: [раціон-1550, перекус, швидко, вегетаріанське]
 servings: 2
 time: { prep: null, cook: 3 }

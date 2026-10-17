@@ -6,6 +6,7 @@ source:
   name: Чизкейк Інтенсив (homebake_courses)
   ref: "повідомлення 105, 107–109; техкарта «Чизкейк Тірамісу»"
 category: десерти
+subcategory: чизкейки
 tags: [чизкейк, в-духовці, на-вихідні, святкове]
 servings: 16
 time: { prep: 45, cook: 85 }

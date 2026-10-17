@@ -6,6 +6,7 @@ source:
   name: Чизкейк Інтенсив (homebake_courses)
   ref: "повідомлення 110–113; техкарта «Чизкейк Нью-Йорк»"
 category: десерти
+subcategory: чизкейки
 tags: [чизкейк, в-духовці, на-вихідні]
 servings: 12
 time: { prep: 30, cook: 80 }

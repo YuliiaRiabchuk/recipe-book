@@ -6,6 +6,7 @@ source:
   name: Сирні паски (бонус, Магія хліба)
   ref: "с. 25–27"
 category: випічка
+subcategory: великодні паски
 tags: [великдень, святкове, без-випікання]
 servings: 1
 time: { prep: null, cook: null }

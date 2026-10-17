@@ -6,6 +6,7 @@ source:
   name: Чизкейк Інтенсив (homebake_courses)
   ref: "повідомлення 115; техкарта «Чизкейк Лісові ягоди» (бонус)"
 category: десерти
+subcategory: чизкейки
 tags: [чизкейк, без-випікання, на-вихідні, святкове]
 servings: 12
 time: { prep: 60, cook: 0 }

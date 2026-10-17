@@ -6,6 +6,7 @@ source:
   name: Чизкейк Інтенсив (homebake_courses)
   ref: "повідомлення 90, 91; техкарта «Чизкейк Сан-Себастьян»"
 category: десерти
+subcategory: чизкейки
 tags: [чизкейк, в-духовці, швидко]
 servings: 12
 time: { prep: 15, cook: 25 }

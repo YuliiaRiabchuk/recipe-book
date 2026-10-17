@@ -6,6 +6,7 @@ source:
   name: Чизкейк Інтенсив (homebake_courses)
   ref: "повідомлення 137, 138; техкарта «Пана-кота» (бонус)"
 category: десерти
+subcategory: пана-кота, пудинги, муси
 tags: [без-випікання, святкове]
 servings: 4
 time: { prep: 30, cook: 10 }

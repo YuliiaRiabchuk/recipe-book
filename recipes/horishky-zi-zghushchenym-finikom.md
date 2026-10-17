@@ -6,6 +6,7 @@ source:
   name: Святкові страви в хелзі виконанні (Андрій Маковецький)
   ref: "с. 33"
 category: десерти
+subcategory: кекси й печиво
 tags: [святкове, хелзі, в-духовці]
 servings: 1
 time: { prep: null, cook: null }

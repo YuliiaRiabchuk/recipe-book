@@ -6,6 +6,7 @@ source:
   name: Святкові страви в хелзі виконанні (Андрій Маковецький)
   ref: "с. 35"
 category: десерти
+subcategory: чизкейки
 tags: [святкове, хелзі, чизкейк, без-випікання]
 servings: 12
 time: { prep: null, cook: null }

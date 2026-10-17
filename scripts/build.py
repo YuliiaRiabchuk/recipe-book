@@ -9,7 +9,7 @@ import sys
 
 from recipe_lib import (
     CATEGORIES, DATA_DIR, GUIDES_DIR, ROOT, NUTRIENT_KEYS, NUTRITION_STATUSES, SITE_FILE, SOURCE_TYPES,
-    STATUSES, UNITS, parse_steps, read_recipe, recipe_files, sections, utf8_stdout,
+    STATUSES, SUBCATEGORIES, UNITS, parse_steps, read_recipe, recipe_files, sections, utf8_stdout,
 )
 
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -18,7 +18,7 @@ MARKER_RE = re.compile(r"(<!-- DATA:START -->)(.*?)(<!-- DATA:END -->)", re.S)
 WARNINGS = []
 REQUIRED = ["id", "title", "source", "category", "tags", "servings", "time", "ingredients",
             "nutrition_per_serving", "nutrition_status", "status", "rating", "added"]
-OPTIONAL = ["photo", "videos", "related", "form_cm"]
+OPTIONAL = ["subcategory", "photo", "videos", "related", "form_cm"]
 
 
 def is_num(v):
@@ -58,6 +58,12 @@ def validate(meta, body, stem):
 
     if meta["category"] not in CATEGORIES:
         errs.append(f"category '{meta['category']}': дозволено {', '.join(CATEGORIES)}")
+    subs = SUBCATEGORIES.get(meta["category"])
+    sub = meta.get("subcategory")
+    if subs and sub not in subs:
+        errs.append(f"subcategory '{sub}': для «{meta['category']}» обовʼязкове, дозволено: {'; '.join(subs)}")
+    elif not subs and sub is not None:
+        errs.append(f"subcategory: у «{meta['category']}» підрозділів немає, прибери поле")
 
     tags = meta["tags"]
     if not isinstance(tags, list):

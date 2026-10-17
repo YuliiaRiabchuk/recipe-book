@@ -6,6 +6,7 @@ source:
   name: Чизкейк Інтенсив (homebake_courses)
   ref: "повідомлення 64, 65, 67, 68; техкарта «Чизкейк Орео»"
 category: десерти
+subcategory: чизкейки
 tags: [чизкейк, в-духовці, на-вихідні, святкове]
 servings: 16
 time: { prep: 40, cook: 80 }
