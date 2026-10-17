@@ -8,9 +8,9 @@
 <meta name="theme-color" content="#1b1916" media="(prefers-color-scheme: dark)">
 <style>
 :root {
-  --bg: #f7f3ec; --surface: #fffdf9; --surface-2: #efe9df; --text: #2a2622; --muted: #6f675d;
-  --line: #e2d9cc; --accent: #b4532a; --accent-text: #fff; --accent-soft: #f5e1d5;
-  --ok: #3f7a4a; --warn: #9a6a0b; --warn-soft: #f8ecd0; --shadow: 0 1px 2px rgba(60,40,20,.06), 0 4px 16px rgba(60,40,20,.06);
+  --bg: #f7f3ec; --surface: #fffdf9; --surface-2: #efe9df; --text: #2a2622; --muted: #6c645b;
+  --line: #e2d9cc; --accent: #a34b26; --accent-text: #fff; --accent-soft: #f5e1d5;
+  --ok: #397044; --warn: #875d09; --warn-soft: #f8ecd0; --shadow: 0 1px 2px rgba(60,40,20,.06), 0 4px 16px rgba(60,40,20,.06);
   --radius: 14px; color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -34,6 +34,7 @@ body {
 button, input, select, textarea { font: inherit; color: inherit; }
 button { cursor: pointer; }
 a { color: var(--accent); }
+::placeholder { color: var(--muted); opacity: 1; }
 .wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
 
 header.top {
@@ -44,7 +45,7 @@ header.top {
 h1 { font-size: 20px; margin: 0; flex: 1; letter-spacing: -.01em; }
 .icon-btn {
   border: 1px solid var(--line); background: var(--surface); border-radius: 10px;
-  min-width: 40px; height: 40px; padding: 0 10px; display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  min-width: 44px; height: 44px; padding: 0 12px; white-space: nowrap; display: inline-flex; align-items: center; justify-content: center; gap: 6px;
 }
 .icon-btn[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
 .search { margin-top: 10px; }
@@ -57,21 +58,36 @@ h1 { font-size: 20px; margin: 0; flex: 1; letter-spacing: -.01em; }
 
 .filters {
   display: none; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
-  padding: 14px; margin-top: 10px; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  padding: 10px; margin-top: 10px; gap: 8px; grid-template-columns: repeat(2, minmax(0, 1fr));
 }
+@media (min-width: 720px) { .filters { grid-template-columns: repeat(4, minmax(0, 1fr)); padding: 12px; } }
 .filters.open { display: grid; }
-.filters label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
 .filters select, .filters input {
-  height: 38px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); padding: 0 8px; min-width: 0;
+  width: 100%; height: 44px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); padding: 0 8px; min-width: 0;
 }
 .kcal { display: flex; gap: 6px; }
 .kcal input { width: 100%; }
-.tagbox { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; }
-.chip {
-  border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 4px 11px; font-size: 14px;
+.tagbox { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; padding: 4px 0; }
+@media (max-width: 719px) {
+  .tagbox {
+    flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -10px; padding: 4px 10px;
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+  }
+  .tagbox::-webkit-scrollbar { display: none; }
+  .tagbox .chip { flex: none; }
 }
+.chip {
+  border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 4px 12px; font-size: 14px;
+  min-height: 36px; display: inline-flex; align-items: center; position: relative; white-space: nowrap;
+}
+.chip::after { content: ''; position: absolute; inset: -4px -2px; }
+a.chip { color: var(--text); }
 .chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
-.reset { grid-column: 1 / -1; justify-self: start; background: none; border: 0; color: var(--accent); padding: 0; }
+.reset { grid-column: 1 / -1; justify-self: start; background: none; border: 0; color: var(--accent); padding: 0 2px; min-height: 44px; }
+.reset[hidden] { display: none; }
+.icon-btn[aria-pressed="true"] .cart-n { background: var(--accent-text); color: var(--accent); }
+/* відкриті фільтри на телефоні прокручуються разом зі сторінкою, а не висять над списком */
+@media (max-width: 719px) { header.top:has(.filters.open) { position: relative; } }
 
 .count { color: var(--muted); font-size: 14px; margin: 14px 2px 8px; }
 .group { margin-bottom: 28px; }
@@ -94,10 +110,10 @@ h1 { font-size: 20px; margin: 0; flex: 1; letter-spacing: -.01em; }
 .toc-jump.toc-sub-title span { color: var(--muted); font-weight: 400; }
 .sub-title { font-size: 16px; margin: 18px 2px 10px; color: var(--muted); font-weight: 600; scroll-margin-top: 130px; }
 .sub-title span { font-weight: 400; font-size: 14px; margin-left: 2px; }
-.toc-jump { background: none; border: 0; color: var(--accent); padding: 0 2px 6px; font-size: 14px; }
+.toc-jump { background: none; border: 0; color: var(--accent); padding: 0 2px; font-size: 14px; min-height: 44px; display: inline-flex; align-items: center; }
 .toc-dishes { margin: 0 0 12px; padding-left: 26px; columns: 2 260px; column-gap: 28px; }
-.toc-dishes li { padding: 3px 0; break-inside: avoid; }
-.toc-dishes a { color: var(--text); text-decoration: none; }
+.toc-dishes li { break-inside: avoid; }
+.toc-dishes a { color: var(--text); text-decoration: none; display: block; padding: 10px 0; line-height: 1.35; }
 .toc-dishes a:hover { color: var(--accent); text-decoration: underline; }
 .guide-list { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 .guide-link { display: flex; gap: 10px; align-items: baseline; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); color: var(--text); text-decoration: none; }
@@ -139,7 +155,7 @@ h1 { font-size: 20px; margin: 0; flex: 1; letter-spacing: -.01em; }
 .section { margin-top: 22px; }
 .section h4 { margin: 0 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
 .servings { display: inline-flex; align-items: center; gap: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 4px; }
-.servings button { width: 36px; height: 36px; border-radius: 9px; border: 0; background: var(--surface-2); font-size: 20px; line-height: 1; }
+.servings button { width: 44px; height: 44px; border-radius: 9px; border: 0; background: var(--surface-2); font-size: 20px; line-height: 1; }
 .servings output { min-width: 84px; text-align: center; }
 .nut { display: grid; grid-template-columns: auto repeat(4, 1fr); gap: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; font-size: 14px; }
 .nut > div { padding: 8px 10px; border-top: 1px solid var(--line); text-align: right; }
@@ -147,12 +163,15 @@ h1 { font-size: 20px; margin: 0; flex: 1; letter-spacing: -.01em; }
 .nut > div:nth-child(5n+1) { text-align: left; color: var(--muted); }
 .nut-note { margin-top: 8px; font-size: 14px; }
 ul.ings { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
-ul.ings li { display: flex; gap: 12px; padding: 9px 14px; border-top: 1px solid var(--line); }
+ul.ings li { display: flex; gap: 12px; padding: 11px 14px; border-top: 1px solid var(--line); min-height: 44px; }
+ul.ings.tick li { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+ul.ings li.got > span { color: var(--muted); text-decoration: line-through; }
 ul.ings li:first-child { border-top: 0; }
 ul.ings .q { margin-left: auto; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
 ul.ings .n { color: var(--muted); font-size: 13px; }
-ol.steps { padding-left: 22px; margin: 0; }
-ol.steps li { margin-bottom: 10px; }
+ol.steps { padding-left: 24px; margin: 0; font-size: 17px; line-height: 1.6; }
+ol.steps li { margin-bottom: 14px; padding-left: 4px; }
+ol.steps li::marker { color: var(--accent); font-weight: 600; font-variant-numeric: tabular-nums; }
 .hero { width: 100%; max-height: 420px; object-fit: cover; border-radius: var(--radius); display: block; margin-bottom: 12px; background: var(--surface-2); }
 .card .thumb { width: calc(100% + 28px); margin: -14px -14px 4px; height: 160px; object-fit: cover; border-radius: var(--radius) var(--radius) 0 0; display: block; background: var(--surface-2); }
 .card { overflow: hidden; }
@@ -171,16 +190,38 @@ ul.videos li:first-child { border-top: 0; }
 /* Режим «готую» */
 .cook { position: fixed; inset: 0; z-index: 30; background: var(--bg); display: none; flex-direction: column; }
 .cook.open { display: flex; }
-.cook .bar { padding: 10px 16px; display: flex; gap: 8px; align-items: center; border-bottom: 1px solid var(--line); }
-.cook .progress { flex: 1; color: var(--muted); font-size: 14px; }
-.cook .body { flex: 1; overflow-y: auto; padding: 24px 20px; display: flex; align-items: center; justify-content: center; }
-.cook .step { font-size: clamp(24px, 5.5vw, 40px); line-height: 1.35; max-width: 900px; }
-.cook .ings-list { font-size: 22px; line-height: 1.6; max-width: 700px; width: 100%; }
+.cook .bar { padding: 10px 16px; display: flex; gap: 10px; align-items: center; border-bottom: 1px solid var(--line); position: relative; }
+.cook .progress { flex: 1; min-width: 0; font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.cook .track { position: absolute; left: 0; right: 0; bottom: -1px; height: 3px; }
+.cook .track span { display: block; height: 100%; background: var(--accent); transition: width .25s cubic-bezier(.2, .8, .2, 1); }
+.cook .body { flex: 1; overflow-y: auto; padding: 24px 20px; display: flex; align-items: center; justify-content: center; touch-action: pan-y; }
+.cook .main { max-width: 900px; width: 100%; }
+.cook .step { font-size: clamp(26px, 7.2vw, 44px); line-height: 1.35; font-weight: 500; letter-spacing: -.005em; text-wrap: pretty; }
+.cook .here { margin-top: 28px; }
+.cook .here h4, .cook aside h4 { margin: 0 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.cook .here ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.cook .here li { display: flex; gap: 12px; font-size: 20px; padding: 10px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.cook .here .q, .cook aside .q { margin-left: auto; white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 600; }
+.cook .ings-list { font-size: 20px; line-height: 1.5; max-width: 700px; width: 100%; }
+.cook aside { display: none; }
+@media (min-width: 900px) {
+  .cook .body { display: grid; grid-template-columns: minmax(260px, 340px) minmax(0, 1fr); gap: 40px; align-items: start; padding: 32px 40px; }
+  .cook aside { display: block; position: sticky; top: 0; max-height: calc(100dvh - 200px); overflow-y: auto; }
+  .cook aside ul { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+  .cook aside li { display: flex; gap: 10px; padding: 10px 14px; border-top: 1px solid var(--line); font-size: 17px; }
+  .cook aside li:first-child { border-top: 0; }
+  .cook aside li.hit { background: var(--accent-soft); }
+  .cook .main { align-self: center; }
+  .cook .here { display: none; }
+  #cookIngs { display: none; }
+}
 .cook .nav { display: flex; gap: 12px; padding: 12px 16px calc(12px + env(safe-area-inset-bottom)); }
 .cook .nav button { flex: 1; height: 64px; font-size: 20px; border-radius: 14px; border: 1px solid var(--line); background: var(--surface); }
 .cook .nav button.next { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
 .cook .nav button:disabled { opacity: .35; }
-.wake { font-size: 12px; color: var(--muted); }
+.wake { font-size: 13px; font-weight: 400; color: var(--muted); }
+.wake.on { color: var(--ok); }
+.wake.off { color: var(--warn); }
 
 /* Кошик і список покупок */
 .cart-n { background: var(--accent); color: var(--accent-text); border-radius: 999px; font-size: 12px; min-width: 20px; height: 20px; padding: 0 6px; display: inline-flex; align-items: center; justify-content: center; }
@@ -189,11 +230,11 @@ ul.videos li:first-child { border-top: 0; }
 ul.cart-list { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 ul.cart-list li { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 10px 14px; border-top: 1px solid var(--line); }
 ul.cart-list li:first-child { border-top: 0; }
-ul.cart-list a { flex: 1 1 180px; color: var(--text); text-decoration: none; font-weight: 600; }
+ul.cart-list a { flex: 1 1 180px; color: var(--text); text-decoration: none; font-weight: 600; padding: 10px 0; }
 ul.cart-list .servings { padding: 2px; }
-ul.cart-list .servings button { width: 32px; height: 32px; }
+ul.cart-list .servings button { width: 44px; height: 44px; }
 ul.cart-list .servings output { min-width: 76px; font-size: 14px; }
-.link-btn { background: none; border: 0; color: var(--muted); padding: 4px; font-size: 14px; }
+.link-btn { background: none; border: 0; color: var(--muted); padding: 0 8px; font-size: 14px; min-height: 44px; min-width: 44px; display: inline-flex; align-items: center; justify-content: center; }
 .link-btn:hover { color: var(--accent); }
 ul.shop { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 ul.shop li { border-top: 1px solid var(--line); }
@@ -205,13 +246,8 @@ ul.shop .from { display: block; color: var(--muted); font-size: 12px; }
 ul.shop .q { margin-left: auto; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
 ul.shop li.done .what, ul.shop li.done .q { text-decoration: line-through; color: var(--muted); }
 .shop-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-.shop-actions .icon-btn { height: 44px; }
 @media (max-width: 420px) { .lbl { display: none; } }
-@media (max-width: 420px) {
-  h1 { font-size: 17px; white-space: nowrap; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
-  header.top .row { gap: 4px; }
-  header.top .icon-btn { min-width: 34px; padding: 0 6px; gap: 3px; }
-}
+@media (max-width: 420px) { h1 { font-size: 19px; } }
 .sheet .bar .icon-btn, .sheet .bar .primary { white-space: nowrap; }
 .shop-dept { padding: 12px 14px 4px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); background: var(--surface-2); }
 ul.shop li.shop-dept:first-child { border-radius: var(--radius) var(--radius) 0 0; }
@@ -224,11 +260,10 @@ ul.shop.home .what { color: var(--muted); }
   flex: 1; min-width: 0; height: 44px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); padding: 0 14px; outline: none;
 }
 .shop-add input:focus { border-color: var(--accent); }
-.shop-add .icon-btn { height: 44px; }
 .manual { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
-.manual .chip { display: inline-flex; align-items: center; gap: 4px; padding-right: 4px; }
-.manual .chip button { border: 0; background: none; color: var(--muted); width: 24px; height: 24px; padding: 0; }
-.menu-row { display: flex; gap: 10px; align-items: center; }
+.manual .chip { gap: 2px; padding-right: 0; min-height: 44px; }
+.manual .chip::after { display: none; }
+.manual .chip button { border: 0; background: none; color: var(--muted); width: 40px; height: 40px; padding: 0; border-radius: 999px; }
 .add-menu { margin-top: 10px; }
 
 /* Відмітки «готувала» */
@@ -240,15 +275,14 @@ ul.shop.home .what { color: var(--muted); }
 .log-btn:hover, .seg button:hover { border-color: var(--accent); }
 .seg { display: flex; gap: 8px; }
 .seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
-.log-form { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px; display: grid; gap: 12px; box-shadow: var(--shadow); }
+.log-form { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px 14px; display: grid; gap: 14px; }
 .log-row { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; }
 .log-lbl { color: var(--muted); font-size: 13px; flex: 0 0 100%; }
 .star-input { display: flex; gap: 0; margin: -4px 0 -4px -6px; }
-.star-input button { width: 48px; height: 48px; border: 0; background: none; font-size: 30px; line-height: 1; padding: 0; color: var(--line); }
+.star-input button { width: 48px; height: 48px; border: 0; background: none; font-size: 30px; line-height: 1; padding: 0; color: var(--muted); }
 .star-input button[aria-pressed="true"] { color: var(--accent); }
-.log-form .chip { height: 36px; }
 .log-form input[type="date"], .log-form input.tag-in {
-  height: 36px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); padding: 0 12px; font-size: 14px; min-width: 0;
+  height: 44px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); padding: 0 12px; font-size: 14px; min-width: 0;
 }
 .log-form input.tag-in { width: 140px; }
 .log-form textarea {
@@ -261,15 +295,15 @@ ul.log { list-style: none; padding: 0; margin: 12px 0 0; background: var(--surfa
 ul.log li { padding: 10px 8px 10px 14px; border-top: 1px solid var(--line); }
 ul.log li:first-child { border-top: 0; }
 .log-head { display: flex; gap: 10px; align-items: center; font-variant-numeric: tabular-nums; }
-.log-head .link-btn { margin-left: auto; width: 36px; height: 36px; }
+.log-head .link-btn { margin: -8px 0 -8px auto; }
 .log-res.ok { color: var(--ok); font-weight: 600; }
 .log-res.bad { color: var(--warn); font-weight: 600; }
 .stars { color: var(--accent); letter-spacing: 1px; }
-.stars span { color: var(--line); }
+.stars span { color: var(--muted); }
 .log .chips { margin-top: 6px; }
 .log-comment { margin: 4px 0 0; font-size: 14px; white-space: pre-wrap; }
 .log-export { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; margin-top: 10px; }
-.log-export .link-btn { color: var(--accent); padding: 8px 0; }
+.log-export .link-btn { color: var(--accent); padding: 0; }
 
 /* Меню на тиждень */
 .menu-tools { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-top: 14px; }
@@ -282,35 +316,35 @@ ul.log li:first-child { border-top: 0; }
 .day h3 .k { margin-left: auto; font-weight: 400; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .day.today h3 > span:first-child { color: var(--accent); }
 ul.mday { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
-ul.mday > li { display: grid; grid-template-columns: 70px minmax(0, 1fr) 40px; gap: 4px 8px; align-items: center; padding: 8px 4px 8px 14px; border-top: 1px solid var(--line); min-height: 60px; }
+ul.mday > li { display: grid; grid-template-columns: 70px minmax(0, 1fr) 44px; gap: 4px 8px; align-items: center; padding: 8px 4px 8px 14px; border-top: 1px solid var(--line); min-height: 60px; }
 ul.mday > li:first-child { border-top: 0; }
 ul.mday > li.open { background: var(--bg); }
 ul.mday > li:first-child.open { border-radius: var(--radius) var(--radius) 0 0; }
 ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
 .meal { color: var(--muted); font-size: 13px; }
-.mbody a { color: var(--text); text-decoration: none; font-weight: 600; line-height: 1.3; display: block; }
+.mbody a { color: var(--text); text-decoration: none; font-weight: 600; line-height: 1.3; display: block; position: relative; }
+.mbody a::after { content: ''; position: absolute; inset: -12px 0; }
 .mbody a:hover { color: var(--accent); }
 .mbody .meta { margin-top: 2px; font-size: 12px; }
 .mempty { color: var(--muted); font-size: 14px; }
-.mmore { border: 0; background: none; width: 40px; height: 40px; border-radius: 10px; font-size: 20px; color: var(--muted); padding: 0; }
+.mmore { border: 0; background: none; width: 44px; height: 44px; border-radius: 10px; font-size: 20px; color: var(--muted); padding: 0; }
 .mmore[aria-expanded="true"] { background: var(--surface-2); color: var(--text); }
 .macts { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; padding: 6px 10px 4px 0; }
-.macts .icon-btn { height: 40px; font-size: 14px; }
+.macts .icon-btn { font-size: 14px; }
 .macts .icon-btn[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
 .macts .servings { padding: 2px; }
-.macts .servings button { width: 34px; height: 34px; }
 .macts .servings output { min-width: 70px; font-size: 14px; }
 .macts .days7 { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; }
-.macts .days7 .chip { min-width: 44px; height: 40px; }
+.macts .days7 .chip { min-width: 44px; min-height: 44px; justify-content: center; }
 .macts .days7 .chip:disabled { opacity: .35; }
 .macts .mmsg { width: 100%; color: var(--warn); font-size: 13px; margin: 0; }
 .msearch { width: 100%; }
 .msearch input {
-  width: 100%; height: 42px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); padding: 0 12px; outline: none;
+  width: 100%; height: 44px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); padding: 0 12px; outline: none;
 }
 .msearch input:focus { border-color: var(--accent); }
 .mres { list-style: none; margin: 6px 0 0; padding: 0; }
-.mres button { display: block; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; margin-top: 6px; }
+.mres button { display: block; width: 100%; min-height: 44px; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; margin-top: 6px; }
 .mres button:hover { border-color: var(--accent); }
 .mres .meta { font-size: 12px; }
 .badge.new { background: var(--accent-soft); color: var(--accent); }
@@ -320,6 +354,25 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
 .menu-empty .primary { margin-top: 12px; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 ::selection { background: var(--accent-soft); color: var(--text); }
+/* Нижня навігація на телефоні */
+.tabbar { display: none; }
+@media (max-width: 719px) {
+  .tabbar {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 25; display: grid; grid-template-columns: repeat(3, 1fr);
+    background: var(--surface); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom);
+  }
+  .tab {
+    position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+    min-height: 56px; color: var(--muted); text-decoration: none; font-size: 12px; -webkit-tap-highlight-color: transparent;
+  }
+  .tab .ico { font-size: 20px; line-height: 1; }
+  .tab[aria-current="page"] { color: var(--accent); font-weight: 600; }
+  .tab[aria-current="page"]::before { content: ''; position: absolute; top: 0; left: 32%; right: 32%; height: 3px; border-radius: 0 0 3px 3px; background: var(--accent); }
+  .tab .cart-n { position: absolute; top: 5px; left: calc(50% + 8px); }
+  #menuBtn, #cartBtn { display: none; }
+  body { padding-bottom: calc(56px + env(safe-area-inset-bottom)); }
+  .sheet { bottom: calc(57px + env(safe-area-inset-bottom)); }
+}
 </style>
 </head>
 <body>
@@ -330,7 +383,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       <button class="icon-btn" id="menuBtn" title="Меню на тиждень">📅 <span class="lbl">Меню</span></button>
       <button class="icon-btn" id="cartBtn" title="Кошик і список покупок">🛒 <span class="lbl">Кошик</span> <span class="cart-n" id="cartN" hidden></span></button>
       <button class="icon-btn" id="fridgeBtn" aria-pressed="false" title="Що є в холодильнику">🧊 <span class="lbl">Холодильник</span></button>
-      <button class="icon-btn" id="filterBtn" aria-pressed="false" title="Фільтри">⚙︎</button>
+      <button class="icon-btn" id="filterBtn" aria-pressed="false" title="Фільтри" aria-label="Фільтри">⚙︎ <span class="cart-n" id="filterN" hidden></span></button>
       <button class="icon-btn" id="themeBtn" title="Тема">◐</button>
     </div>
     <div class="search">
@@ -338,22 +391,18 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       <p class="hint" id="hint" hidden>Введи інгредієнти через кому: яйця, сир, борошно</p>
     </div>
     <div class="filters" id="filters">
-      <label>Категорія <select id="fCategory"></select></label>
-      <label>Статус <select id="fStatus"></select></label>
-      <label>Час, разом
-        <select id="fTime">
-          <option value="">будь-який</option>
-          <option value="15">до 15 хв</option>
-          <option value="30">до 30 хв</option>
-          <option value="60">до 1 год</option>
-          <option value="120">до 2 год</option>
-        </select>
-      </label>
-      <label>Ккал на порцію
-        <span class="kcal"><input id="fKmin" type="number" inputmode="numeric" placeholder="від" min="0"><input id="fKmax" type="number" inputmode="numeric" placeholder="до" min="0"></span>
-      </label>
-      <div class="tagbox" id="fTags"></div>
-      <button class="reset" id="resetBtn" type="button">Скинути фільтри</button>
+      <select id="fCategory" aria-label="Категорія"></select>
+      <select id="fStatus" aria-label="Статус"></select>
+      <select id="fTime" aria-label="Час, разом">
+        <option value="">Час: будь-який</option>
+        <option value="15">до 15 хв</option>
+        <option value="30">до 30 хв</option>
+        <option value="60">до 1 год</option>
+        <option value="120">до 2 год</option>
+      </select>
+      <span class="kcal"><input id="fKmin" type="number" inputmode="numeric" placeholder="ккал від" aria-label="Ккал на порцію, від" min="0"><input id="fKmax" type="number" inputmode="numeric" placeholder="до" aria-label="Ккал на порцію, до" min="0"></span>
+      <div class="tagbox" id="fTags" role="group" aria-label="Теги"></div>
+      <button class="reset" id="resetBtn" type="button" hidden>Скинути фільтри</button>
     </div>
   </div>
 </header>
@@ -362,6 +411,12 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   <p class="count" id="count"></p>
   <div id="grid"></div>
 </main>
+
+<nav class="tabbar" aria-label="Розділи">
+  <a class="tab" href="#" data-tab=""><span class="ico" aria-hidden="true">📖</span>Рецепти</a>
+  <a class="tab" href="#menu" data-tab="menu"><span class="ico" aria-hidden="true">📅</span>Меню</a>
+  <a class="tab" href="#cart" data-tab="cart"><span class="ico" aria-hidden="true">🛒</span>Кошик <span class="cart-n" id="cartN2" hidden></span></a>
+</nav>
 
 <div class="sheet" id="sheet" role="dialog" aria-modal="true"></div>
 <div class="cook" id="cook" role="dialog" aria-modal="true"></div>
@@ -445,8 +500,8 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       return '<option value="' + esc(v) + '">' + esc(v) + ' (' + n + ')</option>';
     }).join('');
   }
-  fillSelect($('fCategory'), CATEGORIES.filter(function (c) { return RECIPES.some(function (r) { return r.category === c; }); }), 'усі');
-  fillSelect($('fStatus'), STATUSES, 'усі');
+  fillSelect($('fCategory'), CATEGORIES.filter(function (c) { return RECIPES.some(function (r) { return r.category === c; }); }), 'Категорія: усі');
+  fillSelect($('fStatus'), STATUSES, 'Статус: усі');
 
   var allTags = {};
   RECIPES.forEach(function (r) { (r.tags || []).forEach(function (t) { allTags[t] = (allTags[t] || 0) + 1; }); });
@@ -509,6 +564,9 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   /* ---------- список ---------- */
   function render() {
     var list = RECIPES.filter(passesFilters), q = norm(state.q), scores = {};
+    // скільки фільтрів увімкнено: бейдж на кнопці, «Скинути» лише коли є що скидати
+    var nf = ['category', 'status', 'time', 'kmin', 'kmax'].filter(function (k) { return state[k] !== ''; }).length + state.tags.length;
+    $('filterN').textContent = nf; $('filterN').hidden = !nf; $('resetBtn').hidden = !nf;
     if (state.fridge) {
       var have = state.q.split(/[,;\n]+/).map(norm).filter(Boolean);
       if (have.length) {
@@ -644,7 +702,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   });
 
   /* ---------- картка ---------- */
-  var current = null, servings = 1, formD = null;
+  var current = null, servings = 1, formD = null, gotIngs = {};
   var BY_ID = {}, GUIDE_BY_ID = {};
   RECIPES.forEach(function (x) { BY_ID[x.id] = x; });
   GUIDES.forEach(function (x) { GUIDE_BY_ID[x.id] = x; });
@@ -738,10 +796,12 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
     return label + (name ? ': ' + name : '') + (ref ? ' · ' + esc(ref) : '');
   }
 
-  function ingRows(r, factor) {
-    return (r.ingredients || []).map(function (i) {
-      var q = i.qty != null ? fmtNum(i.qty * factor) + ' ' + esc(i.unit || '') : '';
-      return '<li><span>' + esc(i.name) + (i.note ? ' <span class="n">' + esc(i.note) + '</span>' : '') + '</span>' +
+  function ingQty(i, factor) { return i.qty != null ? fmtNum(i.qty * factor) + ' ' + esc(i.unit || '') : ''; }
+  // tick: рядки можна відмічати дотиком («вже відміряла»), стан живе, поки відкритий рецепт
+  function ingRows(r, factor, tick) {
+    return (r.ingredients || []).map(function (i, n) {
+      var q = ingQty(i, factor);
+      return '<li' + (tick ? ' data-i="' + n + '"' + (gotIngs[n] ? ' class="got"' : '') : '') + '><span>' + esc(i.name) + (i.note ? ' <span class="n">' + esc(i.note) + '</span>' : '') + '</span>' +
         '<span class="q">' + q + '</span></li>';
     }).join('');
   }
@@ -772,7 +832,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
         ? '<div class="section"><h4>Форма</h4><div class="servings"><button id="sMinus" aria-label="Менша">−</button><output>' + formD + ' см</output><button id="sPlus" aria-label="Більша">+</button></div>' +
           '<div class="meta" style="margin-top:6px">у рецепті ' + r.form_cm + ' см · коефіцієнт ' + factor.toFixed(2).replace('.', ',') + ' · ' + portionsLabel(r) + '</div></div>'
         : '<div class="section"><h4>Порції</h4><div class="servings"><button id="sMinus" aria-label="Менше">−</button><output>' + portionsLabel(r) + '</output><button id="sPlus" aria-label="Більше">+</button></div></div>') +
-      '<div class="section"><h4>Інгредієнти</h4><ul class="ings">' + ingRows(r, factor) + '</ul></div>' +
+      '<div class="section"><h4>Інгредієнти</h4><ul class="ings tick" id="ingList">' + ingRows(r, factor, true) + '</ul></div>' +
       '<div class="section"><h4>КБЖВ</h4>' + nutHtml + '</div>' +
       '<div class="section"><h4>Кроки</h4><ol class="steps">' + (r.steps || []).map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ol></div>' +
       (r.tips ? '<div class="section"><h4>Поради</h4>' + tipsHtml(r.tips) + '</div>' : '') +
@@ -789,6 +849,12 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
       '<div class="section"><h4>Джерело</h4><div>' + sourceHtml(r.source) + '</div><div class="meta" style="margin-top:4px">додано ' + esc(r.added) + '</div></div>' +
       '</article>';
     bindLog();
+    $('ingList').onclick = function (e) {
+      var li = e.target.closest('li[data-i]'); if (!li) return;
+      var n = li.getAttribute('data-i');
+      if (gotIngs[n]) delete gotIngs[n]; else gotIngs[n] = true;
+      li.classList.toggle('got', !!gotIngs[n]);
+    };
     $('backBtn').onclick = function () { history.length > 1 ? history.back() : (location.hash = ''); };
     // рецепт у кошику: зміна порцій чи форми одразу оновлює кількість у списку покупок
     var resize = function () { if (cartEntry(r.id)) cartPut(r.id, servings, formD); renderSheet(); };
@@ -1238,7 +1304,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   function cartRemove(id) { cart = cart.filter(function (b) { return b.id !== id; }); saveCart(); }
   function updateCartBtn() {
     var n = cart.length + (cartMenu && menuIds().length ? 1 : 0);
-    $('cartN').textContent = n; $('cartN').hidden = !n;
+    ['cartN', 'cartN2'].forEach(function (id) { $(id).textContent = n; $(id).hidden = !n; });
   }
   $('cartBtn').addEventListener('click', function () { location.hash = 'cart'; });
 
@@ -1461,6 +1527,10 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
 
   function route() {
     var id = decodeURIComponent(location.hash.slice(1));
+    var tab = id === 'menu' || id === 'cart' ? id : '';
+    Array.prototype.forEach.call(document.querySelectorAll('.tab'), function (t) {
+      if (t.getAttribute('data-tab') === tab) t.setAttribute('aria-current', 'page'); else t.removeAttribute('aria-current');
+    });
     if (id === 'menu') {
       closeCook(); current = null;
       renderMenu();
@@ -1484,7 +1554,7 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
     }
     var r = RECIPES.filter(function (x) { return x.id === id; })[0];
     if (r) {
-      if (!current || current.id !== r.id) { current = r; servings = r.servings; formD = r.form_cm || null; logDraft = null; }
+      if (!current || current.id !== r.id) { current = r; servings = r.servings; formD = r.form_cm || null; logDraft = null; gotIngs = {}; }
       renderSheet();
       $('sheet').classList.add('open'); $('sheet').scrollTop = 0;
       document.body.style.overflow = 'hidden';
@@ -1500,39 +1570,70 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
   var stepIdx = 0, showIngs = false, wakeLock = null, wakeMsg = '';
 
   function requestWake() {
-    if (!('wakeLock' in navigator)) { wakeMsg = 'екран може згаснути: браузер не підтримує Wake Lock'; return; }
+    if (!('wakeLock' in navigator)) { wakeMsg = 'екран може згаснути: браузер не вміє його втримати'; return; }
     navigator.wakeLock.request('screen').then(function (l) {
       wakeLock = l; wakeMsg = 'екран не згасне';
       l.addEventListener('release', function () { wakeLock = null; });
       if ($('cook').classList.contains('open')) renderCook();
-    }).catch(function () { wakeMsg = 'не вдалося втримати екран увімкненим'; renderCook(); });
+    }).catch(function () { wakeMsg = 'екран може згаснути'; renderCook(); });
   }
   document.addEventListener('visibilitychange', function () {
     if (document.visibilityState === 'visible' && $('cook').classList.contains('open') && !wakeLock) requestWake();
   });
 
+  // інгредієнти, згадані в тексті кроку: основа будь-якого слова назви від 4 літер
+  function stepIngs(r, text) {
+    var t = norm(text);
+    return (r.ingredients || []).map(function (i, n) { return n; }).filter(function (n) {
+      return norm(r.ingredients[n].name).split(/[\s,()-]+/).some(function (w) { return w.length >= 4 && t.indexOf(stem(w)) !== -1; });
+    });
+  }
   function renderCook() {
     var r = current; if (!r) return;
     var steps = r.steps || [], total = steps.length, factor = scaleFactor(r);
-    var body = showIngs
-      ? '<ul class="ings ings-list">' + ingRows(r, factor) + '</ul>'
-      : '<div class="step">' + esc(steps[stepIdx] || '') + '</div>';
+    var hits = showIngs ? [] : stepIngs(r, steps[stepIdx] || '');
+    var amount = r.form_cm ? 'форма ' + formD + ' см' : portionsLabel(r);
+    var row = function (n) {
+      var i = r.ingredients[n];
+      return '<li' + (hits.indexOf(n) !== -1 ? ' class="hit"' : '') + '><span>' + esc(i.name) + '</span><span class="q">' + ingQty(i, factor) + '</span></li>';
+    };
+    // на широкому екрані інгредієнти стоять поруч із кроком, на телефоні — ті, що потрібні саме зараз
+    var aside = '<aside aria-label="Інгредієнти"><h4>Інгредієнти · ' + amount + '</h4><ul>' +
+      (r.ingredients || []).map(function (i, n) { return row(n); }).join('') + '</ul></aside>';
+    var main = showIngs
+      ? '<div class="main"><ul class="ings ings-list">' + ingRows(r, factor) + '</ul></div>'
+      : '<div class="main"><div class="step">' + esc(steps[stepIdx] || '') + '</div>' +
+        (hits.length ? '<div class="here"><h4>У цьому кроці</h4><ul>' + hits.map(row).join('') + '</ul></div>' : '') + '</div>';
     $('cook').innerHTML =
-      '<div class="bar"><button class="icon-btn" id="cookClose">✕</button>' +
-      '<div class="progress">' + (showIngs ? 'Інгредієнти: ' + (r.form_cm ? 'форма ' + formD + ' см' : portionsLabel(r)) : 'Крок ' + (stepIdx + 1) + ' з ' + total) +
-      '<div class="wake">' + esc(wakeMsg) + '</div></div>' +
-      '<button class="icon-btn" id="cookIngs" aria-pressed="' + showIngs + '">Інгредієнти</button></div>' +
-      '<div class="body">' + body + '</div>' +
+      '<div class="bar"><button class="icon-btn" id="cookClose" aria-label="Закрити режим «готую»">✕</button>' +
+      '<div class="progress">' + (showIngs ? 'Інгредієнти · ' + amount : 'Крок ' + (stepIdx + 1) + ' з ' + total) +
+      '<div class="wake' + (wakeLock ? ' on' : wakeMsg ? ' off' : '') + '" role="status">' + (wakeLock ? '☀ ' : '') + esc(wakeMsg) + '</div></div>' +
+      '<button class="icon-btn" id="cookIngs" aria-pressed="' + showIngs + '">Інгредієнти</button>' +
+      '<div class="track" aria-hidden="true"><span style="width:' + (total ? (stepIdx + 1) / total * 100 : 0) + '%"></span></div></div>' +
+      '<div class="body" id="cookBody">' + aside + main + '</div>' +
       '<div class="nav"><button id="cookPrev"' + (stepIdx === 0 || showIngs ? ' disabled' : '') + '>← Назад</button>' +
-      '<button class="next" id="cookNext"' + (showIngs ? '' : '') + '>' + (showIngs ? 'До кроків' : stepIdx >= total - 1 ? 'Готово' : 'Далі →') + '</button></div>';
+      '<button class="next" id="cookNext">' + (showIngs ? 'До кроків' : stepIdx >= total - 1 ? 'Готово' : 'Далі →') + '</button></div>';
     $('cookClose').onclick = closeCook;
     $('cookIngs').onclick = function () { showIngs = !showIngs; renderCook(); };
-    $('cookPrev').onclick = function () { if (stepIdx > 0) { stepIdx--; renderCook(); } };
+    // браузер міг відмовити без жесту користувача: кожен дотик до кнопок пробує ще раз
+    var rewake = function () { if (!wakeLock && 'wakeLock' in navigator) requestWake(); };
+    $('cookPrev').onclick = function () { rewake(); if (stepIdx > 0) { stepIdx--; renderCook(); } };
     $('cookNext').onclick = function () {
+      rewake();
       if (showIngs) { showIngs = false; renderCook(); return; }
       // останній крок: одразу пропонуємо відмітку «готувала»
       if (stepIdx < total - 1) { stepIdx++; renderCook(); } else { closeCook(); openLogForm(); }
     };
+    // свайп мокрим пальцем: вліво — далі, вправо — назад; останній крок свайпом не закривається
+    var sx = null, sy = 0, body = $('cookBody');
+    body.addEventListener('touchstart', function (e) { sx = e.touches[0].clientX; sy = e.touches[0].clientY; }, { passive: true });
+    body.addEventListener('touchend', function (e) {
+      if (sx == null || showIngs) return;
+      var t = e.changedTouches[0], dx = t.clientX - sx, dy = t.clientY - sy; sx = null;
+      if (Math.abs(dx) < 60 || Math.abs(dy) > 50) return;
+      if (dx < 0 && stepIdx < total - 1) { stepIdx++; renderCook(); }
+      else if (dx > 0 && stepIdx > 0) { stepIdx--; renderCook(); }
+    });
   }
   function openCook() {
     stepIdx = 0; showIngs = false; wakeMsg = '';
