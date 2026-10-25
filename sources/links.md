@@ -5,3 +5,4 @@
 <!-- приклад:
 https://example.com/recipe/syrnyky — пишні сирники на манці
 -->
+https://www.instagram.com/p/Ddyoo3ZiHrs/ — маринована червона цибуля, карусель (Vika Korolivska)
