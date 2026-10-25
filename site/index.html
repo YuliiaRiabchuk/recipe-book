@@ -318,7 +318,6 @@ ul.shop li.shop-dept:first-child { border-radius: var(--radius) var(--radius) 0 
 ul.shop li.row-x { display: flex; align-items: center; }
 ul.shop li.row-x label { flex: 1; min-width: 0; }
 ul.shop li.row-x .link-btn { margin-right: 8px; white-space: nowrap; }
-ul.shop.home .what { color: var(--muted); }
 .shop-add { display: flex; gap: 8px; margin-top: 10px; }
 .shop-add input {
   flex: 1; min-width: 0; height: 44px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); padding: 0 14px; outline: none;
@@ -1850,7 +1849,7 @@ ul.ings li > span:first-child { min-width: 0; }
 
   /* ---------- кошик і список покупок ---------- */
   // кошик: [{ id, servings, formD }] у порядку додавання; відмічене куплене — { назва: true }
-  // cartMenu — меню на тиждень теж іде в список; cartManual — додане вручну; cartNeed — «вже є вдома», яке все ж треба купити
+  // cartMenu — меню на тиждень теж іде в список; cartManual — додане вручну
   var cart = loadKey('cart', [], Array.isArray).filter(function (b) { return isObj(b) && typeof b.id === 'string'; }).map(function (b) {
     var r = BY_ID[b.id];
     return { id: b.id, servings: clampInt(b.servings, 1, SERV_MAX, r ? baseServ(r) : 1), formD: r && r.form_cm ? clampInt(b.formD, formMin(r), formMax(r), r.form_cm) : null };
@@ -1860,10 +1859,9 @@ ul.ings li > span:first-child { min-width: 0; }
   var manual = loadKey('cartManual', [], Array.isArray).filter(function (x) { return isObj(x) && typeof x.name === 'string' && x.name.trim(); }).map(function (x) {
     return { name: x.name.trim(), qty: typeof x.qty === 'number' && isFinite(x.qty) && x.qty > 0 ? x.qty : null, unit: typeof x.unit === 'string' ? x.unit : '' };
   });
-  var need = loadKey('cartNeed', {}, isObj);
   function saveCart() {
     store('cart', JSON.stringify(cart)); store('cartBought', JSON.stringify(bought));
-    store('cartMenu', cartMenu ? '1' : '0'); store('cartManual', JSON.stringify(manual)); store('cartNeed', JSON.stringify(need));
+    store('cartMenu', cartMenu ? '1' : '0'); store('cartManual', JSON.stringify(manual));
     cartDirty = true; updateCartBtn();
   }
   function cartEntry(id) { return cart.filter(function (b) { return b.id === id; })[0]; }
@@ -1899,7 +1897,7 @@ ul.ings li > span:first-child { min-width: 0; }
     if (unit === 'шт' || unit === 'пучок' || unit === 'зубчик') v = Math.ceil(v - 0.05);  // купуються цілими
     return fmtNum(v) + (unit ? ' ' + unit : '');
   }
-  // сіль і спеції: одразу у «вже є вдома», навіть із кількістю
+  // сіль і спеції вважаються наявними вдома: у список покупок не йдуть, навіть із кількістю
   var SPICES = ['сіль', 'перець чорн', 'чорний перець', 'перець духм', 'білий перець', 'перець горош', 'спеці', 'орегано', 'паприка', 'кориця',
     'куркума', 'кумин', 'лавров', 'мускатн', 'гвоздик', 'ванілін', 'каррі', 'чебрець', 'сушені трави', 'часниковий порошок', 'приправа',
     'сода', 'розпушувач', 'ванільний цукор', 'ванільний екстракт', 'ванільна паста', 'закваск'];
@@ -1926,10 +1924,20 @@ ul.ings li > span:first-child { min-width: 0; }
       'хурм', 'айва', 'грейпфрут', 'обліпих', 'імбир', 'редис', 'спарж', 'селер', 'едамаме', 'горошок', 'овоч', 'мікрогрін', 'щавель', 'папая']]
   ];
   // той самий продукт у різних написаннях: регістр, порядок слів, закінчення («помідор» і «помідори», «сир твердий» і «твердий сир»)
+  // один продукт — один ключ: «яйце варене», «яйця», «яйця варені» → яйц; «оцет 6%» → оцет; «огірок»/«огірки» → огірк.
+  // Стан (варений, свіжий, тертий) на покупку не впливає; «маринований», «заморожений» — інший продукт, лишаються.
+  var STATE_WORDS = ['варен', 'відварен', 'приготован', 'свіж', 'нарізан', 'терт', 'охолоджен', 'очищен'];
   function productKey(name) {
-    return norm(name).replace(/[«»"().,;:]/g, ' ').split(' ').filter(Boolean).map(function (w) {
-      return w.length > 4 ? w.replace(/[аяиіїоуєь]$/, '') : w;
-    }).sort().join(' ');
+    var n = norm(name), ws = n.replace(/[«»"().,;:%0-9]/g, ' ').split(' ').filter(Boolean).map(function (w) {
+      if (w.length >= 4) w = w.replace(/[аяиіїоуєеюь]+$/, '') || w;
+      if (w.length > 4 && /[^аяиіїоуєею]ок$/.test(w)) w = w.slice(0, -2) + 'к';
+      return w;
+    });
+    if (n.indexOf('згущ') === -1) {  // варене згущене молоко — окремий продукт
+      var kept = ws.filter(function (w) { return STATE_WORDS.indexOf(w) === -1; });
+      if (kept.length) ws = kept;
+    }
+    return ws.sort().join(' ');
   }
   function isSpice(key) { return SPICES.some(function (s) { return key.indexOf(s) !== -1; }); }
   function deptOf(key) {
@@ -1959,11 +1967,12 @@ ul.ings li > span:first-child { min-width: 0; }
   }
   // рядок списку = продукт + одиниця: г і кг, мл і л сумуються, а шт і г того самого продукту йдуть окремими рядками
   function shoppingList() {
-    var buy = {}, home = {};
+    var buy = {};
     var addBuy = function (pk, nm, name, from, qty, unit) {
       var base = typeof qty === 'number' && isFinite(qty) ? (UNIT_BASE[unit] || [unit || '', 1]) : null;
       var key = pk + '|' + (base ? 'u:' + base[0] : '-');
-      var x = buy[key] || (buy[key] = { key: key, pk: pk, name: name, amount: 0, unit: base ? base[0] : null, from: [], dept: deptOf(nm), fromHome: false });
+      var x = buy[key] || (buy[key] = { key: key, pk: pk, name: name, amount: 0, unit: base ? base[0] : null, from: [], dept: deptOf(nm) });
+      if (name.length < x.name.length) x.name = name;  // з «яйця», «яйця варені» показуємо найкоротшу назву
       if (base) x.amount += qty * base[1];
       if (from && x.from.indexOf(from) === -1) x.from.push(from);
       return x;
@@ -1973,15 +1982,9 @@ ul.ings li > span:first-child { min-width: 0; }
       (r.ingredients || []).forEach(function (i) {
         if (!i || !i.name) return;
         var nm = norm(i.name), pk = productKey(i.name);
-        if (nm === 'вода') return;
-        var atHome = typeof i.qty !== 'number' || PANTRY.indexOf(nm) !== -1 || isSpice(nm);
-        if (atHome && !need[pk]) {
-          var c = home[pk] || (home[pk] = { key: pk, name: i.name, from: [] });
-          if (c.from.indexOf(r.title) === -1) c.from.push(r.title);
-          return;
-        }
-        var x = addBuy(pk, nm, i.name, r.title, typeof i.qty === 'number' ? i.qty * f : null, i.unit);
-        if (atHome) x.fromHome = true;
+        // вода, сіль і спеції вважаються наявними вдома й у список не йдуть
+        if (PANTRY.indexOf(nm) !== -1 || isSpice(nm)) return;
+        addBuy(pk, nm, i.name, r.title, typeof i.qty === 'number' ? i.qty * f : null, i.unit);
       });
     });
     manual.forEach(function (m) { addBuy(productKey(m.name), norm(m.name), m.name, 'додано вручну', m.qty, m.unit); });
@@ -1991,17 +1994,13 @@ ul.ings li > span:first-child { min-width: 0; }
       var twin = Object.keys(buy).filter(function (j) { return j !== k && buy[j].pk === x.pk && buy[j].unit != null; })[0];
       if (twin) { x.from.forEach(function (s) { if (buy[twin].from.indexOf(s) === -1) buy[twin].from.push(s); }); delete buy[k]; }
     });
-    // що треба купити хоч для одного рецепта, з «вже є вдома» прибирається
-    var pks = {};
-    Object.keys(buy).forEach(function (k) { pks[buy[k].pk] = true; });
-    Object.keys(home).forEach(function (k) { if (pks[k]) delete home[k]; });
     var byName = function (a, b) { return a.name.localeCompare(b.name, 'uk') || String(a.unit).localeCompare(String(b.unit)); };
     var toList = function (o) { return Object.keys(o).map(function (k) { return o[k]; }).sort(byName); };
     var items = toList(buy).map(function (x) {
-      x.qty = x.unit != null ? fmtAmount(x.unit, x.amount) : (x.fromHome ? 'за смаком' : '');
+      x.qty = x.unit != null ? fmtAmount(x.unit, x.amount) : '';
       return x;
     });
-    return { buy: items, check: toList(home) };
+    return { buy: items };
   }
 
   function shopItem(x, withQty, extra) {
@@ -2016,7 +2015,7 @@ ul.ings li > span:first-child { min-width: 0; }
       if (!items.length) return '';
       items = items.filter(function (x) { return !bought[x.key]; }).concat(items.filter(function (x) { return bought[x.key]; }));
       return '<li class="shop-dept">' + esc(dep) + '</li>' + items.map(function (x) {
-        return shopItem(x, true, x.fromHome ? '<button type="button" class="link-btn" data-unneed="' + esc(x.pk) + '">є вдома</button>' : '');
+        return shopItem(x, true);
       }).join('');
     }).join('');
   }
@@ -2068,12 +2067,6 @@ ul.ings li > span:first-child { min-width: 0; }
         return '<span class="chip">' + esc(m.name) + (m.qty != null ? ' · ' + esc(fmtNum(m.qty) + ' ' + m.unit) : '') +
           '<button type="button" data-mdel="' + i + '" aria-label="Прибрати «' + esc(m.name) + '»">✕</button></span>';
       }).join('') + '</div>' : '') + '</div>';
-    if (list.check.length) {
-      html += '<div class="section"><h4>Вже є вдома · ' + list.check.length + '</h4><ul class="shop home">' + list.check.map(function (x) {
-        return '<li class="row-x"><label><span class="what">' + esc(x.name) + '<span class="from">' + esc(x.from.join(', ')) + '</span></span></label>' +
-          '<button type="button" class="link-btn" data-need="' + esc(x.key) + '">+ купити</button></li>';
-      }).join('') + '</ul><p class="meta" style="margin-top:6px">Сіль, спеції та все, що в рецепті «за смаком». Якщо чогось немає, натисни «+ купити».</p></div>';
-    }
     if (list.buy.length) {
       html += '<div class="shop-actions"><button class="primary" id="shopShare">' + (navigator.share ? 'Поділитися списком' : 'Скопіювати список') + '</button>' +
         (list.buy.some(function (x) { return bought[x.key]; }) ? '<button class="icon-btn" id="shopReset">Зняти всі позначки</button>' : '') + '</div>';
@@ -2083,7 +2076,7 @@ ul.ings li > span:first-child { min-width: 0; }
     $('backBtn').onclick = goBack;
     if ($('cartClear')) $('cartClear').onclick = function () {
       if (!confirm('Очистити кошик? Рецепти, меню і додане вручну зникнуть зі списку покупок (саме меню лишиться).')) return;
-      cart = []; bought = {}; manual = []; need = {}; cartMenu = false; saveCart(); renderCart(); render();
+      cart = []; bought = {}; manual = []; cartMenu = false; saveCart(); renderCart(); render();
     };
     if ($('menuOn')) $('menuOn').onclick = function () { cartMenu = true; saveCart(); renderCart(); };
     if ($('menuOff')) $('menuOff').onclick = function () { cartMenu = false; saveCart(); renderCart(); };
@@ -2101,8 +2094,6 @@ ul.ings li > span:first-child { min-width: 0; }
       var id, v;
       if ((id = t.getAttribute('data-del'))) { cartRemove(id); renderCart(); render(); return; }
       if ((v = t.getAttribute('data-mdel')) != null) { manual.splice(+v, 1); saveCart(); renderCart(); return; }
-      if ((v = t.getAttribute('data-need'))) { need[v] = true; saveCart(); renderCart(); return; }
-      if ((v = t.getAttribute('data-unneed'))) { delete need[v]; delete bought[v]; saveCart(); renderCart(); return; }
       var inc = t.getAttribute('data-inc'), dec = t.getAttribute('data-dec');
       if (inc || dec) {
         var b = cartEntry(inc || dec), r = b && BY_ID[b.id], d = inc ? 1 : -1;
