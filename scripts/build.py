@@ -9,7 +9,7 @@ import sys
 
 from recipe_lib import (
     CATEGORIES, DATA_DIR, GUIDES_DIR, ROOT, NUTRIENT_KEYS, NUTRITION_STATUSES, SITE_FILE, SOURCE_TYPES,
-    STATUSES, SUBCATEGORIES, UNITS, parse_steps, read_recipe, recipe_files, sections, utf8_stdout,
+    STATUSES, SUBCATEGORIES, UNITS, parse_stages, parse_steps, read_recipe, recipe_files, sections, utf8_stdout,
 )
 
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -97,7 +97,7 @@ def validate(meta, body, stem):
             if missing:
                 errs.append(f"{where}: бракує {', '.join(sorted(missing))}")
                 continue
-            extra = set(ing) - {"name", "qty", "unit", "note"}
+            extra = set(ing) - {"name", "qty", "unit", "note", "part"}
             if extra:
                 errs.append(f"{where}: невідомі поля {', '.join(sorted(extra))}")
             name = ing["name"]
@@ -114,6 +114,9 @@ def validate(meta, body, stem):
                 errs.append(f"{where}: одиниця '{ing['unit']}' не з дозволених: {', '.join(UNITS)}")
             if not isinstance(ing["note"], str):
                 errs.append(f"{where}: note має бути рядком (\"\", якщо нотатки немає)")
+            part = ing.get("part")
+            if part is not None and (not isinstance(part, str) or not part.strip() or part != part.lower()):
+                errs.append(f"{where}: part — назва частини малими літерами, напр. «основа»")
 
     nut = meta["nutrition_per_serving"]
     if not isinstance(nut, dict) or set(nut) != set(NUTRIENT_KEYS):
@@ -151,8 +154,43 @@ def validate(meta, body, stem):
         errs.append("у тілі немає розділу '## Кроки'")
     elif not parse_steps(secs["Кроки"]):
         errs.append("розділ '## Кроки' порожній: кроки нумерованим списком 1. 2. 3.")
+    else:
+        errs += validate_stages(secs["Кроки"], ings if isinstance(ings, list) else [])
     if "Мої нотатки" not in secs:
         errs.append("у тілі немає розділу '## Мої нотатки'")
+    return errs
+
+
+QTY_MARK_RE = re.compile(r"\{([^}]*)\}")
+QTY_MARK_OK = re.compile(r"^\d+(?:[.,]\d+)?(?:\s+\S.*)?$")
+
+
+def validate_stages(text, ings):
+    """Частини й етапи: кожна part має етап «### Назва», кроки не губляться поза етапами, {кількість} у кроках коректна."""
+    errs = []
+    stages = parse_stages(text)
+    parts = []
+    for ing in ings:
+        p = isinstance(ing, dict) and ing.get("part")
+        if isinstance(p, str) and p not in parts:
+            parts.append(p)
+    for step in parse_steps(text):
+        for mark in QTY_MARK_RE.findall(step):
+            if not QTY_MARK_OK.match(mark.strip()):
+                errs.append(f"крок: «{{{mark}}}» — у фігурних дужках число й одиниця, напр. {{100 г}}")
+    if not stages:
+        if parts:
+            errs.append(f"інгредієнти поділено на частини ({', '.join(parts)}), а в «Кроках» немає етапів ### Назва")
+        return errs
+    if sum(len(s["steps"]) for s in stages) != len(parse_steps(text)):
+        errs.append("у «Кроках» є нумеровані кроки до першого етапу ###: перенеси їх в етап")
+    titles = [s["title"].lower() for s in stages]
+    for s in stages:
+        if not s["steps"]:
+            errs.append(f"етап «{s['title']}» без кроків")
+    for p in parts:
+        if p not in titles:
+            errs.append(f"частина «{p}» не має свого етапу: додай «### {p.capitalize()}» у «Кроки»")
     return errs
 
 
@@ -168,12 +206,13 @@ def validate_optional(meta):
             errs.append("videos: список { title, file }")
         else:
             for v in videos:
-                if (not isinstance(v, dict) or not {"title", "file"} <= set(v) <= {"title", "file", "url"}
-                        or not all(isinstance(x, str) for x in v.values())):
-                    errs.append(f"videos: елемент {v} має бути {{ title, file, url? }}")
+                # file — локальна копія, url — посилання (Drive, YouTube); потрібне хоча б одне
+                if (not isinstance(v, dict) or "title" not in v or not ({"file", "url"} & set(v))
+                        or not set(v) <= {"title", "file", "url"} or not all(isinstance(x, str) for x in v.values())):
+                    errs.append(f"videos: елемент {v} має бути {{ title, file?, url? }} і містити file або url")
                 elif "url" in v and not v["url"].startswith("https://"):
                     errs.append(f"videos: url '{v['url']}' має починатися з https://")
-                elif not (ROOT / v["file"]).is_file():
+                elif "file" in v and not (ROOT / v["file"]).is_file():
                     WARNINGS.append(f"recipes/{meta['id']}.md: відео '{v['file']}' немає на цьому компʼютері")
     related = meta.get("related")
     if related is not None and (not isinstance(related, list) or not all(isinstance(r, str) for r in related)):
@@ -189,6 +228,9 @@ def to_record(meta, body):
     rec = dict(meta)
     rec["added"] = str(meta["added"])
     rec["steps"] = parse_steps(secs.get("Кроки", ""))
+    stages = parse_stages(secs.get("Кроки", ""))
+    if stages:
+        rec["stages"] = stages
     rec["tips"] = secs.get("Поради", "")
     rec["notes"] = secs.get("Мої нотатки", "")
     return rec

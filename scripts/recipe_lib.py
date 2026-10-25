@@ -97,6 +97,31 @@ def sections(body):
     return result
 
 
+def parse_stages(text):
+    """Етапи розділу «Кроки»: підзаголовки ### «Назва · час», під ними необовʼязковий рядок «> коли» і нумеровані кроки.
+
+    Повертає [{title, time, when, steps}] або [], якщо підзаголовків немає (рецепт без етапів).
+    """
+    stages, cur = [], None
+    for line in (text or "").splitlines():
+        m = re.match(r"^###\s+(.+?)\s*$", line)
+        if m:
+            title, _, time = m.group(1).partition(" · ")
+            cur = {"title": title.strip(), "time": time.strip(), "when": "", "body": []}
+            stages.append(cur)
+            continue
+        if cur is None:
+            continue
+        w = re.match(r"^\s*>\s?(.*)$", line)
+        if w and not cur["body"]:
+            cur["when"] = (cur["when"] + " " + w.group(1)).strip()
+        else:
+            cur["body"].append(line)
+    for s in stages:
+        s["steps"] = parse_steps("\n".join(s.pop("body")))
+    return stages
+
+
 def parse_steps(text):
     steps, cur = [], None
     for line in (text or "").splitlines():
