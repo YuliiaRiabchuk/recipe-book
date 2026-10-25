@@ -360,8 +360,8 @@ ul.shop.home .what { color: var(--muted); }
 .notes-edit textarea { resize: vertical; min-height: 140px; line-height: 1.5; }
 .notes-edit input { height: 44px; }
 .notes-edit textarea:focus, .notes-edit input:focus { border-color: var(--accent); }
-.gh-steps { margin: 0; padding-left: 20px; }
-.gh-steps li { margin: 2px 0; }
+.gh-steps { margin: 0; padding-left: 22px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+.gh-steps li { margin: 4px 0; }
 #notesSec .log-save { margin-top: 10px; }
 .notes-msg { margin-top: 8px; }
 .notes-msg.err { color: var(--warn); }
@@ -1306,6 +1306,12 @@ ul.ings li > span:first-child { min-width: 0; }
   // Після коміту GitHub Action перезбирає сторінку; доки нова версія не опублікована, показуємо збережений текст із notesPending.
   var GH = { owner: 'YuliiaRiabchuk', repo: 'recipe-book', branch: 'main' };
   var GH_API = 'https://api.github.com/repos/' + GH.owner + '/' + GH.repo;
+  // шаблон fine-grained токена: GitHub підставляє назву, власника й право Contents: write; репозиторій обирають вручну
+  var GH_TOKEN_URL = 'https://github.com/settings/personal-access-tokens/new?' + [
+    'name=' + encodeURIComponent('Книга рецептів: нотатки'),
+    'description=' + encodeURIComponent('Збереження «Моїх нотаток» зі сторінки книги в репозиторій recipe-book'),
+    'target_name=' + GH.owner, 'contents=write'
+  ].join('&');
   var notesUi = { editing: false, connecting: false, busy: false, msg: '', err: false };
   var notesPending = {};
   try { notesPending = JSON.parse(store('notesPending') || '{}') || {}; } catch (e) { notesPending = {}; }
@@ -1382,10 +1388,9 @@ ul.ings li > span:first-child { min-width: 0; }
     if (u.connecting) {
       body = '<div class="notes-edit">' +
         '<p class="meta">Щоб нотатки зберігалися в книзі й були на всіх пристроях, підключи GitHub один раз на цьому пристрої:</p>' +
-        '<ol class="meta gh-steps"><li>Відкрий <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">створення токена</a>.</li>' +
-        '<li>Repository access → Only select repositories → <b>recipe-book</b>.</li>' +
-        '<li>Permissions → Contents → <b>Read and write</b>. Термін дії — на свій вибір.</li>' +
-        '<li>Згенеруй токен і встав його сюди.</li></ol>' +
+        '<ol class="gh-steps"><li>Відкрий <a href="' + GH_TOKEN_URL + '" target="_blank" rel="noopener">створення токена</a>: назва й право <b>Contents: Read and write</b> уже заповнені.</li>' +
+        '<li>Repository access → Only select repositories → <b>recipe-book</b>. За бажанням зміни термін дії (за замовчуванням 30 днів).</li>' +
+        '<li>Натисни <b>Generate token</b>, скопіюй токен і встав його сюди.</li></ol>' +
         '<input type="password" id="ghTokenIn" placeholder="github_pat_…" autocomplete="off" spellcheck="false">' +
         '<p class="meta">Токен зберігається лише в цьому браузері. Не підключай GitHub на чужому пристрої.</p>' +
         '<div class="log-save"><button type="button" class="primary" id="ghConnect"' + (u.busy ? ' disabled' : '') + '>' + (u.busy ? 'Перевіряю…' : 'Підключити') + '</button>' +
