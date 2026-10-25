@@ -7,3 +7,4 @@ https://www.youtube.com/watch?v=XXXXXXXXXXX — борщ від бабусі, д
 -->
 
 https://www.youtube.com/watch?v=Sp9awQGnr2s — швидке тісто для піци (Kateryna Tarasenko)
+https://www.instagram.com/p/De10yLvI9_t/ — картопляний салат з оселедцем (Vika Korolivska)
