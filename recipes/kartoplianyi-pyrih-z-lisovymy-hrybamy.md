@@ -5,8 +5,7 @@ source:
   type: video
   name: Валерія Матрохіна, valeria.matrokhina (Instagram)
   ref: "https://www.instagram.com/p/DdvkPfgsfcW/"
-category: випічка
-subcategory: пироги, кекси, крекери
+category: основні
 tags: [вегетаріанське, в-духовці, на-вихідні]
 servings: 8
 time: { prep: null, cook: 45 }
