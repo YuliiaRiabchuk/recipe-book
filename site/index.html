@@ -2056,7 +2056,8 @@ ul.ings li > span:first-child { min-width: 0; }
         }).join('') + '</ul></div>';
     }
     if (!cartMenu && menuAvail) {
-      html += '<button class="icon-btn add-menu" id="menuOn">+ Додати меню на тиждень · ' + menuAvail + ' ' + plural(menuAvail, 'страва', 'страви', 'страв') + '</button>';
+      // число — страви з вкладки «Меню», а не з кошика
+      html += '<button class="icon-btn add-menu" id="menuOn">+ Додати страви з меню на тиждень (' + menuAvail + ') у покупки</button>';
     }
     var left = list.buy.filter(function (x) { return !bought[x.key]; }).length;
     html += '<div class="section"><h4>Купити' + (list.buy.length ? ' · ' + (left ? 'лишилось ' + left + ' з ' + list.buy.length : 'усе куплено') : '') + '</h4>' +
