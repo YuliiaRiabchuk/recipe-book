@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 4
   ref: "с. 21"
 category: сніданки
+subcategory: поживні
 tags: [раціон-1550, з-рибою, швидко]
 servings: 1
 time: { prep: null, cook: null }

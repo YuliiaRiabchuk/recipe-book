@@ -6,6 +6,7 @@ source:
   name: ArtDiet, раціон дні 11–14 (картки)
   ref: "Сніданок 11–12 д"
 category: сніданки
+subcategory: солодкі
 tags: [раціон-artdiet, без-випікання, вегетаріанське, високобілкове]
 servings: 2
 time: { prep: 20, cook: null }

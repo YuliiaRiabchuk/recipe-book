@@ -6,6 +6,7 @@ source:
   name: ArtDiet, раціон дні 11–14 (картки)
   ref: "Сніданок 13–14 д"
 category: сніданки
+subcategory: поживні
 tags: [раціон-artdiet, вегетаріанське, в-духовці, високобілкове]
 servings: 2
 time: { prep: 10, cook: 30 }

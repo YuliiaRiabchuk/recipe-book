@@ -6,6 +6,7 @@ source:
   name: "Як народжується закваска і хліб. Магія хліба (Анастасія Литвиненко)"
   ref: "с. 144–145"
 category: сніданки
+subcategory: солодкі
 tags: [закваска, на-сковороді, бюджетне]
 servings: 1
 time: { prep: null, cook: null }

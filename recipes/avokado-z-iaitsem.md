@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 2
   ref: "с. 12"
 category: сніданки
+subcategory: поживні
 tags: [раціон-1550, вегетаріанське, в-духовці, без-глютену]
 servings: 1
 time: { prep: null, cook: null }

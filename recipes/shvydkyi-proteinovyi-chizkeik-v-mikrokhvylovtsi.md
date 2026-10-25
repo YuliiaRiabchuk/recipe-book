@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 2
   ref: "с. 17"
 category: сніданки
+subcategory: солодкі
 tags: [раціон-1550, високобілкове, швидко, вегетаріанське]
 servings: 1
 time: { prep: null, cook: 2 }

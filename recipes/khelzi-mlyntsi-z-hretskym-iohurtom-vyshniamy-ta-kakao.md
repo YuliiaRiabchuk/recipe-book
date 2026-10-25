@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 1
   ref: "с. 20"
 category: сніданки
+subcategory: солодкі
 tags: [раціон-1550, хелзі, вегетаріанське, на-сковороді, святкове]
 servings: 1
 time: { prep: null, cook: null }

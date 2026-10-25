@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 4
   ref: "с. 26"
 category: сніданки
+subcategory: солодкі
 tags: [раціон-1550, вегетаріанське]
 servings: 1
 time: { prep: null, cook: null }
