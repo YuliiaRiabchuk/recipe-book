@@ -95,26 +95,34 @@ a.chip { color: var(--text); }
 .group-title span { color: var(--muted); font-weight: 400; font-size: 15px; margin-left: 4px; }
 .group-hint { color: var(--muted); font-size: 14px; margin: -6px 2px 10px; }
 .group { scroll-margin-top: 130px; }
-.toc { margin-bottom: 28px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 4px 14px 8px; }
-.toc .group-title { margin: 12px 0 6px; }
-.toc details { border-top: 1px solid var(--line); }
-.toc details:first-of-type { border-top: 0; }
-.toc summary { display: flex; align-items: center; gap: 12px; padding: 11px 2px; cursor: pointer; list-style: none; font-weight: 600; }
-.toc summary::-webkit-details-marker { display: none; }
-.toc summary::after { content: '›'; color: var(--muted); font-size: 20px; line-height: 1; transition: transform .15s; }
-.toc details[open] summary::after { transform: rotate(90deg); }
-.toc summary .n { margin-left: auto; color: var(--muted); font-weight: 400; font-variant-numeric: tabular-nums; }
-.toc summary .subs { color: var(--muted); font-weight: 400; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
-.toc-sub { margin: 2px 0 4px; }
-.toc-jump.toc-sub-title { display: block; color: var(--text); font-weight: 600; font-size: 15px; padding: 6px 2px 2px; }
-.toc-jump.toc-sub-title span { color: var(--muted); font-weight: 400; }
+.toc { margin-bottom: 32px; }
+.toc .group-title { margin: 12px 2px 12px; }
+.toc-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+.toc-card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); transition: border-color .15s; }
+.toc-card:hover { border-color: var(--accent); }
+.toc-cover { display: flex; align-items: center; justify-content: center; width: 100%; aspect-ratio: 16 / 10; padding: 0; border: 0; background: var(--surface-2); overflow: hidden; cursor: pointer; }
+.toc-cover img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .35s ease; }
+.toc-card:hover .toc-cover img { transform: scale(1.04); }
+.toc-emoji { font-size: 44px; line-height: 1; }
+.toc-body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 8px; }
+.toc-title { display: flex; align-items: baseline; gap: 8px; background: none; border: 0; padding: 0; text-align: left; font-size: 18px; font-weight: 700; letter-spacing: -.01em; color: var(--text); cursor: pointer; }
+.toc-title .n { color: var(--accent); font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.toc-subs { display: flex; flex-wrap: wrap; gap: 6px; }
+.toc-sub-chip { border: 1px solid var(--line); background: var(--bg); color: var(--text); border-radius: 999px; padding: 4px 10px; font-size: 13px; min-height: 32px; cursor: pointer; }
+.toc-sub-chip span { color: var(--muted); }
+.toc-sub-chip:hover { border-color: var(--accent); color: var(--accent); }
+.toc-ex { margin: 0; font-size: 13px; line-height: 1.45; color: var(--muted); }
+.toc-ex a { color: var(--muted); text-decoration: none; }
+.toc-ex a:hover { color: var(--accent); text-decoration: underline; }
+@media (max-width: 520px) {
+  .toc-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .toc-body { padding: 10px 10px 12px; gap: 6px; }
+  .toc-title { font-size: 16px; }
+  .toc-sub-chip { font-size: 12px; padding: 3px 8px; min-height: 30px; }
+  .toc-ex { display: none; }
+}
 .sub-title { font-size: 16px; margin: 18px 2px 10px; color: var(--muted); font-weight: 600; scroll-margin-top: 130px; }
 .sub-title span { font-weight: 400; font-size: 14px; margin-left: 2px; }
-.toc-jump { background: none; border: 0; color: var(--accent); padding: 0 2px; font-size: 14px; min-height: 44px; display: inline-flex; align-items: center; }
-.toc-dishes { margin: 0 0 12px; padding-left: 26px; columns: 2 260px; column-gap: 28px; }
-.toc-dishes li { break-inside: avoid; }
-.toc-dishes a { color: var(--text); text-decoration: none; display: block; padding: 10px 0; line-height: 1.35; }
-.toc-dishes a:hover { color: var(--accent); text-decoration: underline; }
 .guide-list { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 .guide-link { display: flex; gap: 10px; align-items: baseline; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); color: var(--text); text-decoration: none; }
 .guide-link:hover { border-color: var(--accent); }
@@ -785,37 +793,57 @@ ul.ings li > span:first-child { min-width: 0; }
     }).filter(function (g) { return g.items.length; });
   }
 
-  // Зміст: розділи з кількістю, розгортаються в список страв; без пошуку й фільтрів
+  // Зміст: картка на розділ — фото страви з розділу, підрозділи, три приклади; без пошуку й фільтрів
+  var TOC_EMOJI = { 'сніданки': '🍳', 'супи': '🍲', 'салати': '🥗', 'закуски': '🧀', 'основні': '🍽️', 'соуси': '🥣',
+    'випічка': '🥖', 'десерти': '🍰', 'напої': '🥤', 'заготовки': '🫙', 'складові': '🥄' };
+  var DAY_NO = Math.floor(Date.now() / 864e5);  // фото розділу змінюється раз на день
+  function tocCard(o) {
+    var cover = o.photo
+      ? '<img src="' + esc(o.photo) + '" alt="" loading="lazy">'
+      : '<span class="toc-emoji" aria-hidden="true">' + o.emoji + '</span>';
+    return '<article class="toc-card">' +
+      '<button type="button" class="toc-cover" data-jump="' + o.jump + '" aria-label="До розділу «' + esc(o.title) + '»">' + cover + '</button>' +
+      '<div class="toc-body">' +
+        '<button type="button" class="toc-title" data-jump="' + o.jump + '">' + esc(o.title) + ' <span class="n">' + o.count + '</span></button>' +
+        (o.subs.length ? '<div class="toc-subs">' + o.subs.map(function (s) {
+          return '<button type="button" class="toc-sub-chip" data-jump="' + s.jump + '">' + esc(s.name) + ' <span>' + s.count + '</span></button>';
+        }).join('') + '</div>' : '') +
+        (o.examples.length ? '<p class="toc-ex">' + o.examples.map(function (x) {
+          return '<a href="' + x.href + '">' + esc(x.title) + '</a>';
+        }).join(', ') + (o.count > o.examples.length ? '…' : '') + '</p>' : '') +
+      '</div></article>';
+  }
   function tocHtml(list) {
-    var dishes = function (items) {
-      return '<ol class="toc-dishes">' + items.map(function (r) {
-        return '<li><a href="#' + esc(r.id) + '">' + esc(r.title) + '</a></li>';
-      }).join('') + '</ol>';
-    };
-    var rows = CATEGORIES.map(function (c) {
+    var cards = CATEGORIES.map(function (c) {
       var items = list.filter(function (r) { return r.category === c; });
       if (!items.length) return '';
-      var groups = subGroups(c, items);
-      return '<details><summary><span>' + esc(cap(c)) + '</span>' +
-        (groups[0].name ? '<span class="subs">' + groups.map(function (g) { return esc(g.name); }).join(' · ') + '</span>' : '') +
-        '<span class="n">' + items.length + '</span></summary>' +
-        '<button type="button" class="toc-jump" data-jump="sec-' + CATEGORIES.indexOf(c) + '">До розділу з фото ↓</button>' +
-        (groups[0].name ? groups.map(function (g) {
-          return '<div class="toc-sub"><button type="button" class="toc-jump toc-sub-title" data-jump="' + g.anchor + '">' +
-            esc(cap(g.name)) + ' <span>' + g.items.length + '</span></button>' + dishes(g.items) + '</div>';
-        }).join('') : dishes(items)) + '</details>';
+      var groups = subGroups(c, items), withPhoto = items.filter(function (r) { return r.photo; });
+      var cover = withPhoto.length ? withPhoto[DAY_NO % withPhoto.length] : null;
+      // приклади: по одній страві з кожного підрозділу по черзі, обкладинка першою
+      var pool = groups.map(function (g) { return g.items.slice(); }), ex = cover ? [cover] : [];
+      for (var k = 0; ex.length < 3 && pool.some(function (p) { return p.length; }); k++) {
+        var p = pool[k % pool.length], r = p.shift();
+        if (r && ex.indexOf(r) === -1) ex.push(r);
+      }
+      return tocCard({
+        title: cap(c), count: items.length, jump: 'sec-' + CATEGORIES.indexOf(c), emoji: TOC_EMOJI[c] || '🍴',
+        photo: cover && cover.photo,
+        subs: groups[0].name ? groups.map(function (g) { return { name: g.name, count: g.items.length, jump: g.anchor }; }) : [],
+        examples: ex.map(function (r) { return { title: r.title, href: '#' + r.id }; })
+      });
     }).join('');
     var sections = [];
     GUIDES.forEach(function (g) { if (sections.indexOf(g.section) === -1) sections.push(g.section); });
-    rows += sections.map(function (s, i) {
+    cards += sections.map(function (s, i) {
       var items = GUIDES.filter(function (g) { return g.section === s; });
-      return '<details><summary><span>Довідник: ' + esc(s) + '</span><span class="n">' + items.length + '</span></summary>' +
-        '<button type="button" class="toc-jump" data-jump="guides-' + i + '">До довідника ↓</button>' +
-        '<ol class="toc-dishes">' + items.map(function (g) {
-          return '<li><a href="#g/' + esc(g.id) + '">' + esc(g.title) + '</a></li>';
-        }).join('') + '</ol></details>';
+      var pic = null;  // обкладинка довідника — фото рецепта, на який посилаються статті
+      items.some(function (g) { return (g.related || []).some(function (id) { if (BY_ID[id] && BY_ID[id].photo) { pic = BY_ID[id].photo; return true; } }); });
+      return tocCard({
+        title: 'Довідник: ' + s, count: items.length, jump: 'guides-' + i, emoji: '📖', photo: pic, subs: [],
+        examples: items.slice(0, 3).map(function (g) { return { title: g.title, href: '#g/' + g.id }; })
+      });
     }).join('');
-    return '<nav class="toc" aria-label="Зміст"><h2 class="group-title">Зміст</h2>' + rows + '</nav>';
+    return '<nav class="toc" aria-label="Зміст"><h2 class="group-title">Зміст</h2><div class="toc-grid">' + cards + '</div></nav>';
   }
 
   // Довідник: статті з теорії, групами за section, нижче рецептів
@@ -843,7 +871,7 @@ ul.ings li > span:first-child { min-width: 0; }
       else { $('resetBtn').click(); }
       return;
     }
-    var j = e.target.closest('.toc-jump');
+    var j = e.target.closest('[data-jump]');
     if (j) { var t = $(j.getAttribute('data-jump')); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
     var b = e.target.closest('[data-cart]');
     if (b) { toggleCart(b.getAttribute('data-cart')); syncCartChips(); return; }
