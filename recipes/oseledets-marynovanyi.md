@@ -6,6 +6,7 @@ source:
   name: Святкові страви в хелзі виконанні (Андрій Маковецький)
   ref: "с. 24"
 category: закуски
+subcategory: мариновані
 tags: [святкове, хелзі, з-рибою]
 servings: 1
 time: { prep: null, cook: null }

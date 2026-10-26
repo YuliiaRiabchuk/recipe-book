@@ -5,7 +5,8 @@ source:
   type: link
   name: Vika Korolivska, korolivska1 (Instagram, карусель)
   ref: "https://www.instagram.com/p/Ddyoo3ZiHrs/"
-category: заготовки
+category: закуски
+subcategory: мариновані
 tags: [веганське, пісне, бюджетне]
 servings: 2
 time: { prep: 20, cook: null }

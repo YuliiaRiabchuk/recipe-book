@@ -6,6 +6,7 @@ source:
   name: Святкові страви в хелзі виконанні (Андрій Маковецький)
   ref: "с. 30"
 category: закуски
+subcategory: хумуси й намазки
 tags: [святкове, хелзі, веганське, пісне]
 servings: 1
 time: { prep: null, cook: null }

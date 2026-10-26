@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 3
   ref: "с. 13"
 category: закуски
+subcategory: хумуси й намазки
 tags: [раціон-1550, перекус, веганське, швидко]
 servings: 1
 time: { prep: null, cook: null }

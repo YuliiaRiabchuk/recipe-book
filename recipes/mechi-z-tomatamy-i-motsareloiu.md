@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 4
   ref: "с. 18"
 category: закуски
+subcategory: бутерброди й канапки
 tags: [раціон-1550, перекус, вегетаріанське, швидко]
 servings: 1
 time: { prep: null, cook: null }

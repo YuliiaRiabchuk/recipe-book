@@ -5,7 +5,8 @@ source:
   type: own
   name: мама
   ref: ""
-category: заготовки
+category: закуски
+subcategory: мариновані
 tags: [пісне, веганське]
 servings: 1
 time: { prep: 10, cook: 10 }

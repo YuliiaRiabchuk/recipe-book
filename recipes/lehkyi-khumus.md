@@ -6,6 +6,7 @@ source:
   name: Соуси до раціонів
   ref: "с. 6"
 category: закуски
+subcategory: хумуси й намазки
 tags: [швидко, веганське, пісне, без-глютену]
 servings: 1
 time: { prep: null, cook: null }
