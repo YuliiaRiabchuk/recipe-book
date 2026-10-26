@@ -6,6 +6,7 @@ source:
   name: Святкові страви в хелзі виконанні (Андрій Маковецький)
   ref: "с. 22"
 category: основні
+subcategory: риба й морепродукти
 tags: [святкове, хелзі, з-рибою]
 servings: 1
 time: { prep: null, cook: 30 }

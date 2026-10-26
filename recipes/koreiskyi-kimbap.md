@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 4
   ref: "с. 27"
 category: основні
+subcategory: крупи, рис і боули
 tags: [раціон-1550, з-рибою]
 servings: 1
 time: { prep: null, cook: null }

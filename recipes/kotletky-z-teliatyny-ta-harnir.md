@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 1
   ref: "с. 18"
 category: основні
+subcategory: котлети, фарш і запіканки
 tags: [раціон-1550, з-мʼясом, на-сковороді, високобілкове]
 servings: 1
 time: { prep: null, cook: null }

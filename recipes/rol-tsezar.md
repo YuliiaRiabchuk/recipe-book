@@ -6,6 +6,7 @@ source:
   name: ArtDiet, раціон дні 11–14 (картки)
   ref: "Обід 13–14 день"
 category: основні
+subcategory: млинці й роли
 tags: [раціон-artdiet, з-птицею, на-сковороді]
 servings: 2
 time: { prep: 10, cook: 20 }

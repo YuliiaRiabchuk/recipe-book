@@ -6,6 +6,7 @@ source:
   name: Святкові страви в хелзі виконанні (Андрій Маковецький)
   ref: "с. 20"
 category: основні
+subcategory: котлети, фарш і запіканки
 tags: [святкове, хелзі, з-рибою]
 servings: 2
 time: { prep: null, cook: null }

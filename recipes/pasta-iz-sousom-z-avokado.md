@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 3
   ref: "с. 17"
 category: основні
+subcategory: паста й локшина
 tags: [раціон-1550, з-рибою, на-сковороді]
 servings: 1
 time: { prep: null, cook: null }

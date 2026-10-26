@@ -6,6 +6,7 @@ source:
   name: Валерія Матрохіна, valeria.matrokhina (Instagram)
   ref: "https://www.instagram.com/p/DdvkPfgsfcW/"
 category: основні
+subcategory: котлети, фарш і запіканки
 tags: [вегетаріанське, в-духовці, на-вихідні]
 servings: 8
 time: { prep: null, cook: 45 }

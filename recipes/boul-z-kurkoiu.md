@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 1
   ref: "с. 21"
 category: основні
+subcategory: крупи, рис і боули
 tags: [раціон-1550, з-птицею, в-духовці]
 servings: 1
 time: { prep: null, cook: null }

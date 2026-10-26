@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 4
   ref: "с. 29"
 category: основні
+subcategory: мʼясо й птиця
 tags: [раціон-1550, з-мʼясом, гриль, високобілкове]
 servings: 1
 time: { prep: null, cook: null }

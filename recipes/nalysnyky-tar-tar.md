@@ -6,6 +6,7 @@ source:
   name: Святкові страви в хелзі виконанні (Андрій Маковецький)
   ref: "с. 28"
 category: основні
+subcategory: млинці й роли
 tags: [святкове, хелзі, з-рибою, на-сковороді]
 servings: 1
 time: { prep: null, cook: null }

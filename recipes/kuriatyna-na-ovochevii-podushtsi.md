@@ -6,6 +6,7 @@ source:
   name: ArtDiet, раціон дні 11–14 (картки)
   ref: "Вечеря 13–14 день"
 category: основні
+subcategory: мʼясо й птиця
 tags: [раціон-artdiet, з-птицею, в-духовці, високобілкове]
 servings: 3
 time: { prep: 15, cook: 30 }

@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 2
   ref: "с. 13"
 category: основні
+subcategory: крупи, рис і боули
 tags: [раціон-1550, з-мʼясом, на-сковороді, високобілкове]
 servings: 1
 time: { prep: null, cook: null }

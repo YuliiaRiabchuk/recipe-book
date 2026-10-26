@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 3
   ref: "с. 22"
 category: основні
+subcategory: крупи, рис і боули
 tags: [раціон-1550, з-рибою, високобілкове, на-сковороді]
 servings: 1
 time: { prep: null, cook: null }

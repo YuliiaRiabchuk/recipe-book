@@ -6,6 +6,7 @@ source:
   name: Святкові страви в хелзі виконанні (Андрій Маковецький)
   ref: "с. 16"
 category: основні
+subcategory: мʼясо й птиця
 tags: [святкове, хелзі, з-птицею, в-духовці]
 servings: 1
 time: { prep: null, cook: 25 }
