@@ -17,3 +17,4 @@
 | 2026-10-25 | video | Instagram, valeria.matrokhina, https://www.instagram.com/p/DdvkPfgsfcW/ | 1 | kartoplianyi-pyrih-z-lisovymy-hrybamy | Рецепт з опису поста, оформлено частинами й етапами. Фото — кадр без напису. Порції оцінені (8). |
 | 2026-10-25 | video | Instagram, vasyl_lukianov_, https://www.instagram.com/p/DX4vJTLMl-p/ | 1 | manho-tiramisu | Рецепт з опису поста; спосіб приготування крему не описаний (позначено в Порадах). Порції оцінені (6). |
 | 2026-10-25 | video | Instagram, vasilymishlen, https://www.instagram.com/p/C0i7LHEgGUg/ | 1 | pyrih-z-hrusheiu-kamamberom-i-dor-bliu | В описі лише склад і режим (30 хв, 200 °C); кроки відновлені зі складу й фото за згодою користувачки, позначено в Порадах. Опис російською, перекладено. |
+| 2026-10-26 | own | Мама (фото записки + текст у чаті) | 1 | marynovani-lisovi-hryby | Кількість грибів і вид оцту не вказані. Фото з Wikimedia Commons (Off-shell, CC BY-SA 4.0), авторство в Порадах. |
