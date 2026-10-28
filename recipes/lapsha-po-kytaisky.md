@@ -22,8 +22,10 @@ ingredients:
   - { name: соус теріякі, qty: 1, unit: ст.л., note: "наприкінці, за бажанням" }
   - { name: вода, qty: null, unit: "", note: "трішки, за потреби" }
 related: [sous-tsezar]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 530, protein: 28.7, fat: 28.3, carbs: 49.3 }
+nutrition_per_100g: { kcal: 124, protein: 6.7, fat: 6.6, carbs: 11.6 }
+cooked_g_est: 426
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

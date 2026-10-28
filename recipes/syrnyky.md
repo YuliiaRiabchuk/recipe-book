@@ -17,8 +17,10 @@ ingredients:
   - { name: борошно пшеничне, qty: 60, unit: г, note: "плюс для обвалювання" }
   - { name: олія соняшникова, qty: 2, unit: ст.л., note: "для смаження" }
   - { name: сіль, qty: null, unit: "", note: "дрібка" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 373, protein: 22.7, fat: 18.3, carbs: 29.0 }
+nutrition_per_100g: { kcal: 169, protein: 10.3, fat: 8.3, carbs: 13.1 }
+cooked_g_est: 662
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

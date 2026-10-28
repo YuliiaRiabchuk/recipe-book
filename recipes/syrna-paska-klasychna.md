@@ -25,8 +25,10 @@ ingredients:
   - { name: журавлина сушена, qty: 25, unit: г, note: "вʼялена, разом із вишнею 50 г" }
   - { name: олія соняшникова, qty: 0.5, unit: ч.л., note: "без запаху, для змащування форми" }
 photo: img/syrna-paska-klasychna.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2021, protein: 56.8, fat: 110.3, carbs: 207.8 }
+nutrition_per_100g: { kcal: 245, protein: 6.9, fat: 13.4, carbs: 25.2 }
+cooked_g_est: 824
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -9,6 +9,7 @@ category: закуски
 subcategory: мʼясні й рибні
 tags: [святкове, хелзі, з-рибою]
 servings: 1
+cooked_g: 510
 time: { prep: null, cook: null }
 ingredients:
   - { name: лосось, qty: 500, unit: г, note: "філе" }
@@ -18,8 +19,9 @@ ingredients:
   - { name: апельсин, qty: 1, unit: шт, note: "тільки натерта цедра" }
   - { name: кріп, qty: 1, unit: пучок, note: "" }
 photo: img/losos-slabosolonyi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1196, protein: 105.0, fat: 67.8, carbs: 39.0 }
+nutrition_per_100g: { kcal: 235, protein: 20.6, fat: 13.3, carbs: 7.7 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -19,8 +19,11 @@ ingredients:
   - { name: часник, qty: 2, unit: зубчик, note: "" }
   - { name: перець чорний горошком, qty: null, unit: "", note: "до смаку" }
 photo: img/marynovana-chervona-tsybulia.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 131, protein: 2.8, fat: 0.3, carbs: 29.8 }
+nutrition_per_100g: { kcal: 27, protein: 0.6, fat: 0.1, carbs: 6.2 }
+cooked_g_est: 959
+nutrition_status: повний
+nutrition_notes: ["цукор: у розсолі, враховано 25 %"]
 status: спробувати
 rating: null
 added: 2026-10-25

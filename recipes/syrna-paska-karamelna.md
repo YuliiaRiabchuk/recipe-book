@@ -19,8 +19,10 @@ ingredients:
   - { name: курага, qty: 70, unit: г, note: "" }
   - { name: чорнослив, qty: 70, unit: г, note: "" }
 photo: img/syrna-paska-karamelna.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2758, protein: 92.1, fat: 157.8, carbs: 262.0 }
+nutrition_per_100g: { kcal: 234, protein: 7.8, fat: 13.4, carbs: 22.2 }
+cooked_g_est: 1180
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

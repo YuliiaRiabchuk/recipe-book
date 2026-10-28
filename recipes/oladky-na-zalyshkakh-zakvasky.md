@@ -20,8 +20,10 @@ ingredients:
   - { name: оливкова олія, qty: null, unit: "", note: "для смаження" }
 photo: img/oladky-na-zalyshkakh-zakvasky.jpg
 related: [pshenychna-zakvaska-100-volohosti, zberihannia-zakvasky]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1704, protein: 65.0, fat: 16.7, carbs: 314.1 }
+nutrition_per_100g: { kcal: 200, protein: 7.6, fat: 2.0, carbs: 37.0 }
+cooked_g_est: 850
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

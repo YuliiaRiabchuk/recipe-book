@@ -25,8 +25,10 @@ ingredients:
   - { name: часник, qty: null, unit: "", part: соус, note: "за смаком" }
   - { name: лимонний сік, qty: 1, unit: ч.л., part: соус, note: "" }
 photo: img/kabachkovi-oladky-z-sousom-z-ohirka-i-avokado.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 176, protein: 11.6, fat: 8.8, carbs: 14.6 }
+nutrition_per_100g: { kcal: 85, protein: 5.6, fat: 4.3, carbs: 7.1 }
+cooked_g_est: 824
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

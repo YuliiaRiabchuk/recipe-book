@@ -22,8 +22,10 @@ ingredients:
   - { name: авокадо, qty: 120, unit: г, part: соус, note: "1 шт" }
   - { name: лимон, qty: null, unit: "", part: стейк, note: "сік" }
   - { name: спеції, qty: null, unit: "", part: стейк, note: "" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 528, protein: 36.1, fat: 32.4, carbs: 28.2 }
+nutrition_per_100g: { kcal: 154, protein: 10.5, fat: 9.5, carbs: 8.2 }
+cooked_g_est: 343
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

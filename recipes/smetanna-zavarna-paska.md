@@ -19,8 +19,10 @@ ingredients:
   - { name: вершкове масло, qty: 70, unit: г, note: "82,5 %" }
   - { name: цукати, qty: 150, unit: г, note: "лимонні або апельсинові" }
 photo: img/smetanna-zavarna-paska.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 3394, protein: 52.4, fat: 203.0, carbs: 355.1 }
+nutrition_per_100g: { kcal: 225, protein: 3.5, fat: 13.5, carbs: 23.6 }
+cooked_g_est: 1505
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -20,8 +20,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "на смак" }
   - { name: перець чорний, qty: null, unit: "", note: "на смак" }
   - { name: орегано, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 397, protein: 18.5, fat: 20.4, carbs: 35.5 }
+nutrition_per_100g: { kcal: 109, protein: 5.1, fat: 5.6, carbs: 9.7 }
+cooked_g_est: 366
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

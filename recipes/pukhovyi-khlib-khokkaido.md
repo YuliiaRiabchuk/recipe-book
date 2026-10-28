@@ -24,8 +24,10 @@ ingredients:
   - { name: молоко, qty: 2, unit: ст.л., part: випікання, note: "для змащування" }
 photo: img/pukhovyi-khlib-khokkaido.jpg
 related: [pshenychna-zakvaska-100-volohosti, dodatkovi-inhredienty, formuvannia-i-nadrizy, fermentatsiia]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1911, protein: 65.4, fat: 40.5, carbs: 314.7 }
+nutrition_per_100g: { kcal: 256, protein: 8.8, fat: 5.4, carbs: 42.1 }
+cooked_g_est: 747
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

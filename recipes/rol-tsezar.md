@@ -27,8 +27,10 @@ ingredients:
   - { name: олія, qty: null, unit: "", note: "для смаження" }
 photo: img/rol-tsezar.jpg
 related: [shaurma-tsezaro]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 551, protein: 48.6, fat: 20.8, carbs: 40.7 }
+nutrition_per_100g: { kcal: 172, protein: 15.2, fat: 6.5, carbs: 12.7 }
+cooked_g_est: 639
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

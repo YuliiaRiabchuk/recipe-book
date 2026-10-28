@@ -21,8 +21,10 @@ ingredients:
   - { name: вода, qty: 20, unit: мл, note: "20–50 мл гарячої, для пари" }
 photo: img/frantsuzkyi-bahet-na-zakvastsi.jpg
 related: [pshenychna-zakvaska-100-volohosti, formuvannia-i-nadrizy, dodatkovi-inhredienty, metody-vypikannia]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 476, protein: 14.8, fat: 1.8, carbs: 97.4 }
+nutrition_per_100g: { kcal: 222, protein: 6.9, fat: 0.8, carbs: 45.4 }
+cooked_g_est: 858
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

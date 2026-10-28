@@ -18,8 +18,10 @@ ingredients:
   - { name: салат айсберг, qty: 15, unit: г, note: "15–50 г; овочів і зелені можна більше" }
   - { name: соус тартар, qty: 15, unit: г, note: "або майонез" }
 related: [sous-tartar]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 353, protein: 32.2, fat: 11.0, carbs: 33.0 }
+nutrition_per_100g: { kcal: 120, protein: 10.9, fat: 3.7, carbs: 11.2 }
+cooked_g_est: 295
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -19,8 +19,10 @@ ingredients:
   - { name: кешʼю, qty: 50, unit: г, note: "" }
   - { name: молочний шоколад, qty: 50, unit: г, note: "" }
 photo: img/zavarna-syrna-paska-z-shokoladom-i-keshiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2473, protein: 90.8, fat: 167.1, carbs: 161.0 }
+nutrition_per_100g: { kcal: 239, protein: 8.8, fat: 16.1, carbs: 15.6 }
+cooked_g_est: 1035
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

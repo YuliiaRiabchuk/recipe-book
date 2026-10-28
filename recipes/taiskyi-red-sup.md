@@ -22,8 +22,10 @@ ingredients:
   - { name: перець чорний, qty: null, unit: "", note: "на смак, або гострий соус" }
   - { name: орегано, qty: null, unit: "", note: "" }
   - { name: лайм, qty: 0.25, unit: шт, note: "сік" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 458, protein: 30.3, fat: 12.7, carbs: 54.5 }
+nutrition_per_100g: { kcal: 165, protein: 10.9, fat: 4.6, carbs: 19.6 }
+cooked_g_est: 278
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

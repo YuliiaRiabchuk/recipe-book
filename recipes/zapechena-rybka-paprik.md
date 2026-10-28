@@ -9,6 +9,7 @@ category: основні
 subcategory: риба й морепродукти
 tags: [святкове, хелзі, з-рибою, в-духовці]
 servings: 2
+cooked_g: 880
 time: { prep: null, cook: 20 }
 ingredients:
   - { name: лосось, qty: 300, unit: г, note: "філе" }
@@ -20,8 +21,9 @@ ingredients:
   - { name: орегано, qty: null, unit: "", note: "за смаком" }
   - { name: соус цезар, qty: 50, unit: г, note: "" }
 photo: img/zapechena-rybka-paprik.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 587, protein: 34.5, fat: 41.2, carbs: 20.2 }
+nutrition_per_100g: { kcal: 133, protein: 7.8, fat: 9.4, carbs: 4.6 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -19,8 +19,10 @@ ingredients:
   - { name: зелень, qty: null, unit: "", note: "жменька" }
   - { name: мʼята, qty: null, unit: "", note: "трохи" }
 photo: img/kartoplianyi-salat-z-horoshkom-i-sparzheiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 309, protein: 8.3, fat: 10.7, carbs: 47.7 }
+nutrition_per_100g: { kcal: 93, protein: 2.5, fat: 3.2, carbs: 14.4 }
+cooked_g_est: 1326
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "на смак" }
   - { name: перець духмяний, qty: null, unit: "", note: "на смак" }
   - { name: орегано, qty: null, unit: "", note: "та інші спеції, на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 514, protein: 52.3, fat: 23.8, carbs: 24.2 }
+nutrition_per_100g: { kcal: 100, protein: 10.2, fat: 4.6, carbs: 4.7 }
+cooked_g_est: 514
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

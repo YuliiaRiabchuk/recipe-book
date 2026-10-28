@@ -21,6 +21,8 @@ from recipe_lib import (
     DATA_DIR, RECIPES_DIR, find_recipe, load_env, read_recipe, recipe_files,
     split_frontmatter, utf8_stdout,
 )
+import cooking
+import usda_local
 
 API = "https://api.nal.usda.gov/fdc/v1"
 DATA_TYPES = ["Foundation", "SR Legacy"]
@@ -76,7 +78,12 @@ def save_json(path, data):
 
 # ---------- API ----------
 
+LOCAL = "local"  # замість ключа: працюємо з локальною копією USDA (scripts/usda_local.py)
+
+
 def api_key():
+    if usda_local.available():
+        return LOCAL
     load_env()
     key = os.environ.get("FDC_API_KEY", "").strip()
     if not key:
@@ -117,6 +124,8 @@ def request(url, body=None):
 
 
 def search(query, key):
+    if key == LOCAL:
+        return usda_local.search(query, 3)
     h = hashlib.sha1(query.lower().encode()).hexdigest()[:16]
     return cached(f"search_{h}.json", lambda: request(
         f"{API}/foods/search?api_key={key}",
@@ -125,6 +134,11 @@ def search(query, key):
 
 
 def food(fdc_id, key):
+    if key == LOCAL:
+        try:
+            return usda_local.food(fdc_id)
+        except KeyError as e:
+            raise FdcError(str(e)) from None
     return cached(f"food_{fdc_id}.json", lambda: request(f"{API}/food/{int(fdc_id)}?api_key={key}"))
 
 
@@ -208,13 +222,27 @@ def is_skipped(ing, mapping):
     return False
 
 
+WEIGHT_ONLY_UNITS = {"г": 1, "кг": 1000, "мл": 1, "л": 1000, "склянка": 250}
+
+
+def rounded(totals, div):
+    out = {k: round(v / div, 1) for k, v in totals.items()}
+    out["kcal"] = int(round(totals["kcal"] / div))
+    return out
+
+
 def compute(meta, mapping, key, pending):
-    totals = dict.fromkeys(NUTRIENT_NUMBERS, 0.0)
-    counted, missing = 0, []
+    """→ (на порцію, статус, чого бракує, на 100 г, оцінена вага готової страви або None, поправки)."""
+    rows, missing = [], []
+    zero = dict.fromkeys(NUTRIENT_NUMBERS, 0.0)
     for ing in meta["ingredients"]:
-        if is_skipped(ing, mapping):
-            continue
         name = norm(ing["name"])
+        if is_skipped(ing, mapping):
+            # вода, сіль тощо: калорій немає, але в супах і кашах вони дають вагу готової страви
+            if ing["qty"] is not None and ing["unit"] in WEIGHT_ONLY_UNITS:
+                rows.append({"name": ing["name"], "note": ing.get("note") or "", "desc": "water" if name == "вода" else name,
+                             "grams": ing["qty"] * WEIGHT_ONLY_UNITS[ing["unit"]], "values": zero})
+            continue
         entry = mapping.get(name)
         if not entry:
             pending.setdefault(name, set()).add(meta["id"])
@@ -226,32 +254,51 @@ def compute(meta, mapping, key, pending):
             missing.append(f"{ing['name']} ({reason})")
             continue
         values = per_100g(food_data)
+        # share: яка частка інгредієнта — цей продукт (закваска 100 % = половина борошна, решта вода)
+        share = entry.get("share") or 1
+        values = {k: (v * share if v is not None else None) for k, v in values.items()}
         if any(v is None for v in values.values()):
             gaps = ", ".join(k for k, v in values.items() if v is None)
             missing.append(f"{ing['name']} (у USDA немає: {gaps})")
             continue
-        for k, v in values.items():
-            totals[k] += v * grams / 100
-        counted += 1
+        rows.append({"name": ing["name"], "note": ing.get("note") or "", "desc": food_data.get("description", ""),
+                     "grams": grams, "values": values})
 
-    servings = meta["servings"]
-    if counted == 0:
-        return {k: None for k in totals}, "немає", missing
-    per = {k: round(v / servings, 1) for k, v in totals.items()}
-    per["kcal"] = int(round(totals["kcal"] / servings))
-    return per, ("частковий" if missing else "повний"), missing
+    if not any(r["values"] is not zero for r in rows):
+        return {k: None for k in NUTRIENT_NUMBERS}, "немає", missing, {k: None for k in NUTRIENT_NUMBERS}, None, []
+    totals, weight_est, notes = cooking.adjust(meta, rows)
+    weight = meta.get("cooked_g") or weight_est
+    per = rounded(totals, meta["servings"])
+    per100 = rounded(totals, weight / 100) if weight else {k: None for k in NUTRIENT_NUMBERS}
+    return per, ("частковий" if missing else "повний"), missing, per100, (None if meta.get("cooked_g") else weight_est), notes
 
 
 def yaml_num(v):
     return "null" if v is None else str(v)
 
 
-def write_back(path, per, status, missing):
+def set_line(fm, key, line, after):
+    """Замінює рядок `key: ...` або вставляє його після рядка `after: ...`; line=None прибирає."""
+    pat = re.compile(rf"^{key}:.*\n?", re.M)
+    if line is None:
+        return pat.sub("", fm)
+    if pat.search(fm):
+        return pat.sub(line + "\n", fm, count=1).rstrip("\n")
+    return re.sub(rf"^({after}:.*)$", lambda m: m.group(1) + "\n" + line, fm, count=1, flags=re.M)
+
+
+def write_back(path, per, status, missing, per100=None, weight_est=None, notes=()):
     text = path.read_text(encoding="utf-8")
     fm, body = split_frontmatter(text)
     nut = "nutrition_per_serving: { " + ", ".join(f"{k}: {yaml_num(per[k])}" for k in NUTRIENT_NUMBERS) + " }"
     fm = re.sub(r"^nutrition_per_serving:.*$", nut, fm, count=1, flags=re.M)
     fm = re.sub(r"^nutrition_status:.*$", f"nutrition_status: {status}", fm, count=1, flags=re.M)
+    has100 = per100 and per100.get("kcal") is not None
+    fm = set_line(fm, "nutrition_per_100g", ("nutrition_per_100g: { " + ", ".join(
+        f"{k}: {yaml_num(per100[k])}" for k in NUTRIENT_NUMBERS) + " }") if has100 else None, "nutrition_per_serving")
+    fm = set_line(fm, "cooked_g_est", f"cooked_g_est: {weight_est}" if has100 and weight_est else None, "nutrition_per_100g")
+    fm = set_line(fm, "nutrition_notes", ("nutrition_notes: [" + ", ".join(json.dumps(n, ensure_ascii=False) for n in notes) + "]")
+                  if has100 and notes else None, "nutrition_status")
 
     lines = [l for l in body.rstrip("\n").split("\n") if not l.startswith(NOTE_PREFIX)]
     body = "\n".join(lines).rstrip("\n") + "\n"
@@ -328,9 +375,9 @@ def cmd_compute(refs, compute_all):
     try:
         for path in paths:
             meta, _ = read_recipe(path)
-            per, status, missing = compute(meta, mapping, key, pending)
-            write_back(path, per, status, missing)
-            summary.append((path.stem, status, per, missing))
+            per, status, missing, per100, weight_est, notes = compute(meta, mapping, key, pending)
+            write_back(path, per, status, missing, per100, weight_est, notes)
+            summary.append((path.stem, status, per100, missing))
         blocks = read_unmatched()
         for name in list(blocks):
             if name in mapping:
@@ -343,7 +390,7 @@ def cmd_compute(refs, compute_all):
         sys.exit(3)
 
     for stem, status, per, missing in summary:
-        nut = "—" if per["kcal"] is None else f"{per['kcal']} ккал, Б {per['protein']}, Ж {per['fat']}, В {per['carbs']}"
+        nut = "—" if per["kcal"] is None else f"на 100 г: {per['kcal']} ккал, Б {per['protein']}, Ж {per['fat']}, В {per['carbs']}"
         print(f"{stem}: {status} ({nut})")
         for m in missing:
             print(f"   · {m}")

@@ -21,8 +21,10 @@ ingredients:
   - { name: лід, qty: null, unit: "", note: "кілька кубиків, для пари" }
 photo: img/chiabata.jpg
 related: [pshenychna-zakvaska-100-volohosti, hidratatsiia, tekhniky-roboty-z-tistom, formuvannia-i-nadrizy]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 535, protein: 17.1, fat: 7.5, carbs: 99.1 }
+nutrition_per_100g: { kcal: 226, protein: 7.2, fat: 3.2, carbs: 41.9 }
+cooked_g_est: 947
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

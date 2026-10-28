@@ -16,8 +16,10 @@ ingredients:
   - { name: ягоди, qty: 400, unit: г, note: "за сезоном" }
 photo: img/riazhanka-z-chia-ta-yahodamy.jpg
 related: [kefirno-miasnyi-sup, chia-pudynh]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 285, protein: 12.0, fat: 13.8, carbs: 30.9 }
+nutrition_per_100g: { kcal: 76, protein: 3.2, fat: 3.7, carbs: 8.3 }
+cooked_g_est: 1496
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

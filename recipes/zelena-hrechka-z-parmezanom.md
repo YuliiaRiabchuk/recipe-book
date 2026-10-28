@@ -20,8 +20,10 @@ ingredients:
   - { name: цедра лимона, qty: null, unit: "", note: "на смак, або цедра лайма" }
   - { name: сіль, qty: null, unit: "", note: "на смак" }
   - { name: орегано, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 447, protein: 35.1, fat: 17.9, carbs: 42.2 }
+nutrition_per_100g: { kcal: 166, protein: 13.0, fat: 6.6, carbs: 15.6 }
+cooked_g_est: 270
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -9,6 +9,7 @@ category: десерти
 subcategory: пана-кота, пудинги, муси
 tags: [без-випікання, святкове]
 servings: 4
+cooked_g: 800
 time: { prep: 30, cook: 10 }
 ingredients:
   - { name: вершки, qty: 560, unit: г, part: пана-кота, note: "33 %" }
@@ -24,8 +25,9 @@ ingredients:
 photo: img/pana-kota-z-yahidnoiu-nachynkoiu.jpg
 videos:
   - { title: "Бонус. Пана-кота з ягідною начинкою", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_0141.MOV", url: "https://drive.google.com/file/d/1nnRjkHGJeHdB2Ve_JASN0DWpVmHkajod/view" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 333, protein: 6.2, fat: 16.3, carbs: 41.4 }
+nutrition_per_100g: { kcal: 167, protein: 3.1, fat: 8.1, carbs: 20.7 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

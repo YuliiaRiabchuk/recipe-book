@@ -28,8 +28,10 @@ ingredients:
   - { name: олія без запаху, qty: 20, unit: мл, part: глазур, note: "" }
 photo: img/sviatkovyi-makovyi-keks.jpg
 related: [pshenychna-zakvaska-100-volohosti]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 5487, protein: 112.0, fat: 325.7, carbs: 555.9 }
+nutrition_per_100g: { kcal: 426, protein: 8.7, fat: 25.3, carbs: 43.2 }
+cooked_g_est: 1287
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

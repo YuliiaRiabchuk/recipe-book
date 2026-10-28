@@ -9,6 +9,7 @@ category: десерти
 subcategory: кекси й печиво
 tags: [святкове, хелзі, в-духовці]
 servings: 1
+cooked_g: 640
 time: { prep: null, cook: null }
 ingredients:
   - { name: цільнозернове борошно, qty: 200, unit: г, part: тісто, note: "" }
@@ -25,8 +26,9 @@ ingredients:
   - { name: волоські горіхи, qty: 40, unit: г, part: начинка, note: "сушені" }
   - { name: какао, qty: 5, unit: г, part: начинка, note: "" }
 photo: img/horishky-zi-zghushchenym-finikom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2302, protein: 62.3, fat: 122.3, carbs: 266.1 }
+nutrition_per_100g: { kcal: 360, protein: 9.7, fat: 19.1, carbs: 41.6 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

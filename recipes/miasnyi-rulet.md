@@ -9,6 +9,7 @@ category: основні
 subcategory: котлети, фарш і запіканки
 tags: [святкове, хелзі, з-птицею, в-духовці]
 servings: 1
+cooked_g: 510
 time: { prep: null, cook: 40 }
 ingredients:
   - { name: курячий фарш, qty: 400, unit: г, note: "" }
@@ -20,8 +21,9 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: спеції, qty: null, unit: "", note: "за смаком" }
 photo: img/miasnyi-rulet.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 770, protein: 115.8, fat: 24.3, carbs: 25.9 }
+nutrition_per_100g: { kcal: 151, protein: 22.7, fat: 4.8, carbs: 5.1 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

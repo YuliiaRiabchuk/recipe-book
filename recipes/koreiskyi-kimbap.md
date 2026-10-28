@@ -24,8 +24,10 @@ ingredients:
   - { name: соус цезар, qty: 2, unit: ст.л., note: "для соусу" }
   - { name: кунжут, qty: 0.5, unit: ч.л., note: "для соусу" }
 related: [sous-tsezar]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 536, protein: 25.3, fat: 29.2, carbs: 44.0 }
+nutrition_per_100g: { kcal: 136, protein: 6.4, fat: 7.4, carbs: 11.1 }
+cooked_g_est: 395
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

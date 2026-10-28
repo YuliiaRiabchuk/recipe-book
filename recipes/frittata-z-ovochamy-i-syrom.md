@@ -22,8 +22,10 @@ ingredients:
   - { name: спеції, qty: null, unit: "", note: "за смаком" }
 photo: img/frittata-z-ovochamy-i-syrom.jpg
 related: [klasychna-frittata]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 459, protein: 29.1, fat: 31.3, carbs: 15.6 }
+nutrition_per_100g: { kcal: 170, protein: 10.8, fat: 11.6, carbs: 5.8 }
+cooked_g_est: 540
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

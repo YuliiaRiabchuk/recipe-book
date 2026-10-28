@@ -22,8 +22,11 @@ ingredients:
   - { name: спаржа, qty: 100, unit: г, note: "або стручкова квасоля" }
   - { name: зелень, qty: null, unit: "", note: "будь-яка, для подачі" }
   - { name: сік лимона, qty: null, unit: "", note: "за бажанням" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 502, protein: 41.9, fat: 33.2, carbs: 8.1 }
+nutrition_per_100g: { kcal: 147, protein: 12.2, fat: 9.7, carbs: 2.4 }
+cooked_g_est: 342
+nutrition_status: повний
+nutrition_notes: ["фарш телятини: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-10-16

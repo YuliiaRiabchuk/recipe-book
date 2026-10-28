@@ -17,8 +17,10 @@ ingredients:
   - { name: мед, qty: 15, unit: г, note: "" }
   - { name: мигдалеві пластівці, qty: 5, unit: г, note: "або волоський горіх" }
   - { name: насіння чіа, qty: 5, unit: г, note: "можна мак або льон" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 272, protein: 10.1, fat: 8.3, carbs: 43.6 }
+nutrition_per_100g: { kcal: 121, protein: 4.5, fat: 3.7, carbs: 19.4 }
+cooked_g_est: 225
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

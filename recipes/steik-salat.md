@@ -22,8 +22,10 @@ ingredients:
   - { name: перець духмяний, qty: null, unit: "", note: "на смак" }
   - { name: спеції, qty: null, unit: "", note: "на смак" }
   - { name: зелена цибуля, qty: null, unit: "", note: "або інша зелень, за бажанням" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 333, protein: 40.0, fat: 12.1, carbs: 16.7 }
+nutrition_per_100g: { kcal: 69, protein: 8.3, fat: 2.5, carbs: 3.5 }
+cooked_g_est: 480
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

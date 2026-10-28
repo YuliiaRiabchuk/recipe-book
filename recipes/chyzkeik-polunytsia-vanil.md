@@ -9,6 +9,7 @@ category: десерти
 subcategory: чизкейки
 tags: [чизкейк, в-духовці, на-вихідні, святкове]
 servings: 12
+cooked_g: 1525
 time: { prep: 45, cook: 85 }
 ingredients:
   - { name: пісочне печиво, qty: 300, unit: г, part: основа, note: "300–350 г" }
@@ -29,8 +30,9 @@ videos:
   - { title: "Урок 14. Пісочна основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9508.MP4", url: "https://drive.google.com/file/d/10ip20IoBMBRSIdPZVz2gLuTOOBKv8c8M/view" }
   - { title: "Урок 15. Двошарова сирна маса: полунична і ванільна", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9509.MP4", url: "https://drive.google.com/file/d/19f_nRQBR-vdGxtwfKELbiGaD-fa-WK8F/view" }
   - { title: "Урок 16. Декор кремом на вершках", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9510.MP4", url: "https://drive.google.com/file/d/1MOxkEarn_qdVD87LpsNh_s36Gp2Jksiw/view" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 389, protein: 5.5, fat: 26.6, carbs: 33.4 }
+nutrition_per_100g: { kcal: 306, protein: 4.4, fat: 21.0, carbs: 26.3 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

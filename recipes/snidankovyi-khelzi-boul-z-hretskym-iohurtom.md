@@ -16,8 +16,10 @@ ingredients:
   - { name: лохина, qty: 60, unit: г, note: "свіжа або заморожена; можна інші ягоди" }
   - { name: мед, qty: 10, unit: г, note: "" }
   - { name: мʼята, qty: null, unit: "", note: "для прикраси" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 389, protein: 21.5, fat: 23.2, carbs: 27.6 }
+nutrition_per_100g: { kcal: 134, protein: 7.4, fat: 8.0, carbs: 9.5 }
+cooked_g_est: 290
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

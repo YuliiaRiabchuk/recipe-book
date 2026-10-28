@@ -20,8 +20,10 @@ ingredients:
   - { name: еспресо, qty: 40, unit: мл, note: "або розчинна кава" }
   - { name: арахісова паста, qty: 15, unit: г, note: "" }
   - { name: малина, qty: 50, unit: г, note: "або інші ягоди, для смаку й прикраси" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 530, protein: 19.3, fat: 16.4, carbs: 84.9 }
+nutrition_per_100g: { kcal: 114, protein: 4.1, fat: 3.5, carbs: 18.2 }
+cooked_g_est: 467
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

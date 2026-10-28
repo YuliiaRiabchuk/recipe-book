@@ -22,8 +22,10 @@ ingredients:
   - { name: вода, qty: 20, unit: мл, note: "20–50 мл або лід, для пари" }
 photo: img/shokoladnyi-khlib-z-zhuravlynoiu-na-zakvastsi.jpg
 related: [pshenychna-zakvaska-100-volohosti, dodatkovi-inhredienty, fermentatsiia]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1152, protein: 34.0, fat: 7.4, carbs: 247.3 }
+nutrition_per_100g: { kcal: 230, protein: 6.8, fat: 1.5, carbs: 49.3 }
+cooked_g_est: 502
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

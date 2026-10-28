@@ -23,8 +23,10 @@ ingredients:
   - { name: бальзамічний крем, qty: 1, unit: ч.л., note: "" }
   - { name: сіль, qty: null, unit: "", note: "на смак" }
   - { name: спеції, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 448, protein: 27.6, fat: 34.6, carbs: 11.1 }
+nutrition_per_100g: { kcal: 184, protein: 11.3, fat: 14.2, carbs: 4.5 }
+cooked_g_est: 244
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -19,8 +19,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: спеції, qty: null, unit: "", note: "за смаком" }
 photo: img/ryba-zapechena-z-pomidoramy-i-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 583, protein: 76.9, fat: 26.1, carbs: 10.4 }
+nutrition_per_100g: { kcal: 121, protein: 16.0, fat: 5.4, carbs: 2.2 }
+cooked_g_est: 964
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

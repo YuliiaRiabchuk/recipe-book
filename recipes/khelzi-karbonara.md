@@ -19,8 +19,10 @@ ingredients:
   - { name: пармезан, qty: 7, unit: г, note: "" }
   - { name: сіль, qty: null, unit: "", note: "на смак" }
   - { name: перець чорний, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 615, protein: 35.9, fat: 32.7, carbs: 42.1 }
+nutrition_per_100g: { kcal: 214, protein: 12.5, fat: 11.3, carbs: 14.6 }
+cooked_g_est: 288
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

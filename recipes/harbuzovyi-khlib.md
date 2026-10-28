@@ -22,8 +22,10 @@ ingredients:
   - { name: вода, qty: 20, unit: мл, note: "20–50 мл, для пари" }
 photo: img/harbuzovyi-khlib.jpg
 related: [pshenychna-zakvaska-100-volohosti, dodatkovi-inhredienty, metody-vypikannia]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1464, protein: 38.1, fat: 21.2, carbs: 275.4 }
+nutrition_per_100g: { kcal: 246, protein: 6.4, fat: 3.6, carbs: 46.3 }
+cooked_g_est: 1190
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

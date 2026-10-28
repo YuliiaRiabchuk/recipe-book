@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "на смак" }
   - { name: спеції, qty: null, unit: "", note: "на смак" }
 related: [sous-tsezar]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 389, protein: 30.3, fat: 20.8, carbs: 21.4 }
+nutrition_per_100g: { kcal: 105, protein: 8.2, fat: 5.6, carbs: 5.8 }
+cooked_g_est: 370
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

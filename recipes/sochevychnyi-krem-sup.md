@@ -21,8 +21,10 @@ ingredients:
   - { name: орегано, qty: null, unit: "", note: "на смак" }
   - { name: паприка, qty: null, unit: "", note: "на смак" }
   - { name: сіль, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 540, protein: 44.6, fat: 19.7, carbs: 47.2 }
+nutrition_per_100g: { kcal: 110, protein: 9.1, fat: 4.0, carbs: 9.6 }
+cooked_g_est: 491
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

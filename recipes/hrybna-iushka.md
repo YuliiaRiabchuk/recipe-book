@@ -8,6 +8,7 @@ source:
 category: супи
 tags: [святкове, хелзі, пісне]
 servings: 1
+cooked_g: 590
 time: { prep: null, cook: 20 }
 ingredients:
   - { name: шампіньйони, qty: 500, unit: г, note: "або 150 г сушених білих грибів" }
@@ -25,8 +26,9 @@ ingredients:
   - { name: цибуля, qty: null, unit: "", note: "є в кроках, кількість не вказана" }
   - { name: вода, qty: null, unit: "", note: "є в кроках, кількість не вказана" }
 photo: img/hrybna-iushka.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 310, protein: 16.5, fat: 21.9, carbs: 21.7 }
+nutrition_per_100g: { kcal: 53, protein: 2.8, fat: 3.7, carbs: 3.7 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

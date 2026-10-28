@@ -9,6 +9,7 @@ category: випічка
 subcategory: хліб
 tags: [святкове, хелзі, хліб, веганське, в-духовці]
 servings: 1
+cooked_g: 400
 time: { prep: 360, cook: 40 }
 ingredients:
   - { name: сочевиця, qty: 200, unit: г, note: "червона або зелена" }
@@ -19,8 +20,9 @@ ingredients:
   - { name: спеції, qty: 0.5, unit: ч.л., note: "за бажанням: паприка, кумин, сушений часник, чебрець, по 0,5 ч.л. кожної" }
   - { name: насіння, qty: 1, unit: ст.л., note: "1–2 ст.л., льон, кунжут чи соняшник, для декору" }
 photo: img/sochevychnyi-khlib-variant-1.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1001, protein: 51.1, fat: 33.9, carbs: 129.6 }
+nutrition_per_100g: { kcal: 250, protein: 12.8, fat: 8.5, carbs: 32.4 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

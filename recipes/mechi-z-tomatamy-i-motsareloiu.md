@@ -15,8 +15,10 @@ ingredients:
   - { name: моцарела, qty: 40, unit: г, note: "" }
   - { name: оливки без кісточки, qty: 30, unit: г, note: "" }
   - { name: огірок, qty: 75, unit: г, note: "" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 198, protein: 10.6, fat: 13.0, carbs: 12.1 }
+nutrition_per_100g: { kcal: 75, protein: 4.0, fat: 4.9, carbs: 4.6 }
+cooked_g_est: 265
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -16,8 +16,10 @@ ingredients:
   - { name: арахісова паста, qty: 10, unit: г, note: "" }
   - { name: насіння чіа, qty: 5, unit: г, note: "" }
   - { name: мед, qty: 10, unit: г, note: "" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 192, protein: 6.5, fat: 8.1, carbs: 25.8 }
+nutrition_per_100g: { kcal: 350, protein: 11.7, fat: 14.6, carbs: 47.0 }
+cooked_g_est: 55
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

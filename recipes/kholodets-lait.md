@@ -9,6 +9,7 @@ category: закуски
 subcategory: мʼясні й рибні
 tags: [святкове, хелзі, з-мʼясом]
 servings: 1
+cooked_g: 1200
 time: { prep: null, cook: 90 }
 ingredients:
   - { name: свинина, qty: 350, unit: г, note: "філе або ошийок" }
@@ -22,8 +23,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: ч.л., note: "або більше за смаком" }
   - { name: перець чорний горошком, qty: 3, unit: шт, note: "" }
 photo: img/kholodets-lait.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 492, protein: 82.5, fat: 10.2, carbs: 14.2 }
+nutrition_per_100g: { kcal: 41, protein: 6.9, fat: 0.8, carbs: 1.2 }
+nutrition_status: повний
+nutrition_notes: ["свинина: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-10-16

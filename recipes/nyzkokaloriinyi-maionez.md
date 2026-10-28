@@ -18,8 +18,10 @@ ingredients:
   - { name: чорний перець мелений, qty: null, unit: "", note: "на смак" }
   - { name: гірчиця, qty: 1, unit: ч.л., note: "з верхом, за бажанням" }
 photo: img/nyzkokaloriinyi-maionez.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 624, protein: 19.0, fat: 60.4, carbs: 1.4 }
+nutrition_per_100g: { kcal: 222, protein: 6.8, fat: 21.5, carbs: 0.5 }
+cooked_g_est: 281
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

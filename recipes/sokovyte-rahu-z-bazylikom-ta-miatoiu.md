@@ -24,8 +24,10 @@ ingredients:
   - { name: сметана, qty: 25, unit: г, note: "15 %, для салату" }
   - { name: сіль, qty: null, unit: "", note: "для салату, на смак" }
   - { name: петрушка, qty: null, unit: "", note: "для салату, на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 358, protein: 34.7, fat: 12.8, carbs: 26.1 }
+nutrition_per_100g: { kcal: 81, protein: 7.8, fat: 2.9, carbs: 5.9 }
+cooked_g_est: 442
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

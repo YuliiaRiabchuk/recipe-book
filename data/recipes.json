@@ -78,12 +78,19 @@
       "hidratatsiia"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2232,
+      "protein": 71.5,
+      "fat": 9.4,
+      "carbs": 457.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 230,
+      "protein": 7.4,
+      "fat": 1.0,
+      "carbs": 47.2
+    },
+    "cooked_g_est": 969,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -175,12 +182,19 @@
       "fermentatsiia"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2313,
+      "protein": 67.4,
+      "fat": 28.4,
+      "carbs": 435.5
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 242,
+      "protein": 7.0,
+      "fat": 3.0,
+      "carbs": 45.6
+    },
+    "cooked_g_est": 956,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -258,12 +272,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 433,
+      "protein": 18.9,
+      "fat": 29.5,
+      "carbs": 25.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 168,
+      "protein": 7.3,
+      "fat": 11.4,
+      "carbs": 10.0
+    },
+    "cooked_g_est": 258,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -344,12 +365,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 206,
+      "protein": 8.6,
+      "fat": 11.1,
+      "carbs": 18.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 183,
+      "protein": 7.6,
+      "fat": 9.9,
+      "carbs": 16.6
+    },
+    "cooked_g_est": 113,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -424,12 +452,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 209,
+      "protein": 2.9,
+      "fat": 1.7,
+      "carbs": 55.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 74,
+      "protein": 1.0,
+      "fat": 0.6,
+      "carbs": 19.8
+    },
+    "cooked_g_est": 282,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -530,12 +565,19 @@
       "pshenychna-zakvaska-100-volohosti"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1803,
+      "protein": 58.1,
+      "fat": 21.8,
+      "carbs": 336.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 226,
+      "protein": 7.3,
+      "fat": 2.7,
+      "carbs": 42.2
+    },
+    "cooked_g_est": 797,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -638,12 +680,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 587,
+      "protein": 33.2,
+      "fat": 28.6,
+      "carbs": 50.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 139,
+      "protein": 7.9,
+      "fat": 6.8,
+      "carbs": 12.1
+    },
+    "cooked_g_est": 421,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -676,6 +725,7 @@
       "в-духовці"
     ],
     "servings": 1,
+    "cooked_g": 1060,
     "time": {
       "prep": 60,
       "cook": 75
@@ -738,12 +788,21 @@
     ],
     "photo": "img/buzhenyna-ne-zhyrna.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1475,
+      "protein": 217.2,
+      "fat": 56.5,
+      "carbs": 34.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 139,
+      "protein": 20.5,
+      "fat": 5.3,
+      "carbs": 3.3
+    },
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "свиняча вирізка: −20 % жиру (стікає)"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -855,12 +914,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 407,
+      "protein": 40.8,
+      "fat": 18.8,
+      "carbs": 20.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 95,
+      "protein": 9.5,
+      "fat": 4.4,
+      "carbs": 4.7
+    },
+    "cooked_g_est": 428,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -953,12 +1019,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 530,
+      "protein": 19.3,
+      "fat": 16.4,
+      "carbs": 84.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 114,
+      "protein": 4.1,
+      "fat": 3.5,
+      "carbs": 18.2
+    },
+    "cooked_g_est": 467,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -992,6 +1065,7 @@
       "пісне"
     ],
     "servings": 1,
+    "cooked_g": 500,
     "time": {
       "prep": null,
       "cook": null
@@ -1048,12 +1122,18 @@
     ],
     "photo": "img/vinehret-edamame.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 387,
+      "protein": 17.0,
+      "fat": 15.5,
+      "carbs": 50.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 77,
+      "protein": 3.4,
+      "fat": 3.1,
+      "carbs": 10.2
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -1144,12 +1224,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 188,
+      "protein": 6.2,
+      "fat": 2.3,
+      "carbs": 36.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 70,
+      "protein": 2.3,
+      "fat": 0.8,
+      "carbs": 13.7
+    },
+    "cooked_g_est": 1078,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-25",
@@ -1178,6 +1265,7 @@
       "хелзі"
     ],
     "servings": 1,
+    "cooked_g": 590,
     "time": {
       "prep": null,
       "cook": null
@@ -1269,12 +1357,18 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 303,
+      "protein": 7.1,
+      "fat": 16.8,
+      "carbs": 35.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 51,
+      "protein": 1.2,
+      "fat": 2.8,
+      "carbs": 6.0
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -1375,12 +1469,19 @@
       "metody-vypikannia"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1464,
+      "protein": 38.1,
+      "fat": 21.2,
+      "carbs": 275.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 246,
+      "protein": 6.4,
+      "fat": 3.6,
+      "carbs": 46.3
+    },
+    "cooked_g_est": 1190,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -1415,6 +1516,7 @@
       "з-птицею"
     ],
     "servings": 1,
+    "cooked_g": 900,
     "time": {
       "prep": null,
       "cook": 30
@@ -1489,12 +1591,18 @@
     ],
     "photo": "img/holubtsi-v-khelzi-styli.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 735,
+      "protein": 81.8,
+      "fat": 20.0,
+      "carbs": 63.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 82,
+      "protein": 9.1,
+      "fat": 2.2,
+      "carbs": 7.1
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -1525,6 +1633,7 @@
       "в-духовці"
     ],
     "servings": 1,
+    "cooked_g": 640,
     "time": {
       "prep": null,
       "cook": null
@@ -1624,12 +1733,18 @@
     ],
     "photo": "img/horishky-zi-zghushchenym-finikom.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2302,
+      "protein": 62.3,
+      "fat": 122.3,
+      "carbs": 266.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 360,
+      "protein": 9.7,
+      "fat": 19.1,
+      "carbs": 41.6
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -1782,12 +1897,19 @@
       "hidratatsiia"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2353,
+      "protein": 71.4,
+      "fat": 24.2,
+      "carbs": 462.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 216,
+      "protein": 6.6,
+      "fat": 2.2,
+      "carbs": 42.5
+    },
+    "cooked_g_est": 1088,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -1822,6 +1944,7 @@
       "пісне"
     ],
     "servings": 1,
+    "cooked_g": 590,
     "time": {
       "prep": null,
       "cook": 20
@@ -1914,12 +2037,18 @@
     ],
     "photo": "img/hrybna-iushka.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 310,
+      "protein": 16.5,
+      "fat": 21.9,
+      "carbs": 21.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 53,
+      "protein": 2.8,
+      "fat": 3.7,
+      "carbs": 3.7
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -1988,12 +2117,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 192,
+      "protein": 6.5,
+      "fat": 8.1,
+      "carbs": 25.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 350,
+      "protein": 11.7,
+      "fat": 14.6,
+      "carbs": 47.0
+    },
+    "cooked_g_est": 55,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -2097,12 +2233,19 @@
       "problemy-tista-i-khliba"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2770,
+      "protein": 83.0,
+      "fat": 60.9,
+      "carbs": 477.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 260,
+      "protein": 7.8,
+      "fat": 5.7,
+      "carbs": 44.9
+    },
+    "cooked_g_est": 1064,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -2190,12 +2333,19 @@
     ],
     "photo": "img/zavarna-syrna-paska-z-shokoladom-i-keshiu.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2473,
+      "protein": 90.8,
+      "fat": 167.1,
+      "carbs": 161.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 239,
+      "protein": 8.8,
+      "fat": 16.1,
+      "carbs": 15.6
+    },
+    "cooked_g_est": 1035,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -2291,12 +2441,22 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 604,
+      "protein": 41.1,
+      "fat": 26.8,
+      "carbs": 53.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 125,
+      "protein": 8.5,
+      "fat": 5.5,
+      "carbs": 11.1
+    },
+    "cooked_g_est": 483,
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "фарш телятини: −20 % жиру (стікає)"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -2328,6 +2488,7 @@
       "в-духовці"
     ],
     "servings": 2,
+    "cooked_g": 880,
     "time": {
       "prep": null,
       "cook": 20
@@ -2384,12 +2545,18 @@
     ],
     "photo": "img/zapechena-rybka-paprik.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 587,
+      "protein": 34.5,
+      "fat": 41.2,
+      "carbs": 20.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 133,
+      "protein": 7.8,
+      "fat": 9.4,
+      "carbs": 4.6
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -2480,12 +2647,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 447,
+      "protein": 35.1,
+      "fat": 17.9,
+      "carbs": 42.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 166,
+      "protein": 13.0,
+      "fat": 6.6,
+      "carbs": 15.6
+    },
+    "cooked_g_est": 270,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -2581,12 +2755,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 242,
+      "protein": 10.0,
+      "fat": 12.3,
+      "carbs": 24.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 35,
+      "protein": 1.4,
+      "fat": 1.8,
+      "carbs": 3.4
+    },
+    "cooked_g_est": 2800,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -2700,12 +2881,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 297,
+      "protein": 25.8,
+      "fat": 13.4,
+      "carbs": 20.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 85,
+      "protein": 7.4,
+      "fat": 3.8,
+      "carbs": 6.0
+    },
+    "cooked_g_est": 351,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -2775,12 +2963,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 177,
+      "protein": 11.1,
+      "fat": 9.1,
+      "carbs": 16.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 107,
+      "protein": 6.7,
+      "fat": 5.5,
+      "carbs": 10.2
+    },
+    "cooked_g_est": 165,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -2908,12 +3103,19 @@
     ],
     "photo": "img/kabachkovi-oladky-z-sousom-z-ohirka-i-avokado.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 176,
+      "protein": 11.6,
+      "fat": 8.8,
+      "carbs": 14.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 85,
+      "protein": 5.6,
+      "fat": 4.3,
+      "carbs": 7.1
+    },
+    "cooked_g_est": 824,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -3018,12 +3220,22 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 626,
+      "protein": 40.3,
+      "fat": 30.7,
+      "carbs": 52.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 130,
+      "protein": 8.4,
+      "fat": 6.4,
+      "carbs": 10.8
+    },
+    "cooked_g_est": 482,
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "фарш телятини: −20 % жиру (стікає)"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -3203,12 +3415,19 @@
       "hrybna-iushka"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 276,
+      "protein": 8.5,
+      "fat": 17.3,
+      "carbs": 24.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 124,
+      "protein": 3.8,
+      "fat": 7.7,
+      "carbs": 10.9
+    },
+    "cooked_g_est": 1785,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-25",
@@ -3342,12 +3561,19 @@
     ],
     "photo": "img/kartoplianyi-salat-z-horoshkom-i-sparzheiu.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 309,
+      "protein": 8.3,
+      "fat": 10.7,
+      "carbs": 47.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 93,
+      "protein": 2.5,
+      "fat": 3.2,
+      "carbs": 14.4
+    },
+    "cooked_g_est": 1326,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -3471,12 +3697,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 384,
+      "protein": 24.5,
+      "fat": 18.5,
+      "carbs": 30.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 77,
+      "protein": 4.9,
+      "fat": 3.7,
+      "carbs": 6.1
+    },
+    "cooked_g_est": 996,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-25",
@@ -3557,12 +3790,19 @@
       "fermentatsiia"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1148,
+      "protein": 34.0,
+      "fat": 14.3,
+      "carbs": 217.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 225,
+      "protein": 6.7,
+      "fat": 2.8,
+      "carbs": 42.6
+    },
+    "cooked_g_est": 510,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -3648,12 +3888,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 188,
+      "protein": 8.6,
+      "fat": 7.6,
+      "carbs": 24.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 229,
+      "protein": 10.5,
+      "fat": 9.3,
+      "carbs": 29.8
+    },
+    "cooked_g_est": 164,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -3754,12 +4001,19 @@
       "pshenychna-zakvaska-100-volohosti"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2497,
+      "protein": 48.1,
+      "fat": 116.3,
+      "carbs": 310.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 358,
+      "protein": 6.9,
+      "fat": 16.7,
+      "carbs": 44.5
+    },
+    "cooked_g_est": 697,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -3821,12 +4075,19 @@
       "riazhanka-z-chia-ta-yahodamy"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 231,
+      "protein": 32.7,
+      "fat": 5.2,
+      "carbs": 11.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 71,
+      "protein": 10.1,
+      "fat": 1.6,
+      "carbs": 3.7
+    },
+    "cooked_g_est": 1300,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -3907,12 +4168,19 @@
       "frittata-z-ovochamy-i-syrom"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 334,
+      "protein": 25.8,
+      "fat": 21.4,
+      "carbs": 9.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 113,
+      "protein": 8.8,
+      "fat": 7.3,
+      "carbs": 3.2
+    },
+    "cooked_g_est": 590,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -3997,12 +4265,19 @@
     ],
     "photo": "img/klasychnyi-maionez.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1469,
+      "protein": 13.7,
+      "fat": 157.4,
+      "carbs": 5.5
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 487,
+      "protein": 4.5,
+      "fat": 52.1,
+      "carbs": 1.8
+    },
+    "cooked_g_est": 302,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -4111,12 +4386,19 @@
       "sous-tsezar"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 536,
+      "protein": 25.3,
+      "fat": 29.2,
+      "carbs": 44.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 136,
+      "protein": 6.4,
+      "fat": 7.4,
+      "carbs": 11.1
+    },
+    "cooked_g_est": 395,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -4149,6 +4431,7 @@
       "на-сковороді"
     ],
     "servings": 1,
+    "cooked_g": 600,
     "time": {
       "prep": null,
       "cook": 16
@@ -4217,12 +4500,21 @@
     ],
     "photo": "img/kotlety-teriiaki.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1011,
+      "protein": 87.9,
+      "fat": 58.2,
+      "carbs": 30.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 168,
+      "protein": 14.7,
+      "fat": 9.7,
+      "carbs": 5.1
+    },
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "телячий фарш: −20 % жиру (стікає)"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -4325,12 +4617,22 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 502,
+      "protein": 41.9,
+      "fat": 33.2,
+      "carbs": 8.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 147,
+      "protein": 12.2,
+      "fat": 9.7,
+      "carbs": 2.4
+    },
+    "cooked_g_est": 342,
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "фарш телятини: −20 % жиру (стікає)"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -4361,6 +4663,7 @@
       "швидко"
     ],
     "servings": 1,
+    "cooked_g": 900,
     "time": {
       "prep": null,
       "cook": null
@@ -4423,12 +4726,18 @@
     ],
     "photo": "img/krabovyi-salat.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 671,
+      "protein": 43.9,
+      "fat": 24.3,
+      "carbs": 74.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 75,
+      "protein": 4.9,
+      "fat": 2.7,
+      "carbs": 8.3
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -4527,12 +4836,19 @@
     ],
     "photo": "img/krevetochnyi-sup.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 256,
+      "protein": 29.7,
+      "fat": 3.7,
+      "carbs": 26.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 61,
+      "protein": 7.1,
+      "fat": 0.9,
+      "carbs": 6.2
+    },
+    "cooked_g_est": 1263,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -4622,12 +4938,19 @@
       "zberihannia-zakvasky"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 647,
+      "protein": 15.1,
+      "fat": 22.0,
+      "carbs": 95.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 279,
+      "protein": 6.5,
+      "fat": 9.5,
+      "carbs": 41.1
+    },
+    "cooked_g_est": 232,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -4766,12 +5089,19 @@
     ],
     "photo": "img/kurochka-po-koreisky-z-rysom.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 491,
+      "protein": 43.9,
+      "fat": 12.0,
+      "carbs": 48.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 177,
+      "protein": 15.8,
+      "fat": 4.3,
+      "carbs": 17.3
+    },
+    "cooked_g_est": 555,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -4879,12 +5209,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 328,
+      "protein": 36.6,
+      "fat": 11.5,
+      "carbs": 20.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 101,
+      "protein": 11.3,
+      "fat": 3.5,
+      "carbs": 6.5
+    },
+    "cooked_g_est": 324,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -4983,12 +5320,19 @@
     ],
     "photo": "img/kuriatyna-na-ovochevii-podushtsi.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 328,
+      "protein": 40.0,
+      "fat": 13.9,
+      "carbs": 10.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 103,
+      "protein": 12.6,
+      "fat": 4.4,
+      "carbs": 3.4
+    },
+    "cooked_g_est": 952,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -5068,12 +5412,19 @@
     ],
     "photo": "img/lavash-z-syrom-zelenniu-i-yaitsem.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 388,
+      "protein": 29.0,
+      "fat": 20.2,
+      "carbs": 21.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 185,
+      "protein": 13.8,
+      "fat": 9.6,
+      "carbs": 10.1
+    },
+    "cooked_g_est": 210,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -5103,6 +5454,7 @@
       "в-духовці"
     ],
     "servings": 1,
+    "cooked_g": 1200,
     "time": {
       "prep": null,
       "cook": 35
@@ -5171,12 +5523,21 @@
     ],
     "photo": "img/lazania-bez-tista.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1430,
+      "protein": 132.7,
+      "fat": 74.0,
+      "carbs": 64.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 119,
+      "protein": 11.1,
+      "fat": 6.2,
+      "carbs": 5.4
+    },
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "яловичий фарш: −20 % жиру (стікає)"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -5278,12 +5639,19 @@
       "sous-tsezar"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 530,
+      "protein": 28.7,
+      "fat": 28.3,
+      "carbs": 49.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 124,
+      "protein": 6.7,
+      "fat": 6.6,
+      "carbs": 11.6
+    },
+    "cooked_g_est": 426,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -5383,12 +5751,19 @@
     ],
     "photo": "img/lehkyi-khumus.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 756,
+      "protein": 23.1,
+      "fat": 48.4,
+      "carbs": 64.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 261,
+      "protein": 8.0,
+      "fat": 16.7,
+      "carbs": 22.2
+    },
+    "cooked_g_est": 290,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -5417,6 +5792,7 @@
       "з-рибою"
     ],
     "servings": 1,
+    "cooked_g": 510,
     "time": {
       "prep": null,
       "cook": null
@@ -5461,12 +5837,18 @@
     ],
     "photo": "img/losos-slabosolonyi.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1196,
+      "protein": 105.0,
+      "fat": 67.8,
+      "carbs": 39.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 235,
+      "protein": 20.6,
+      "fat": 13.3,
+      "carbs": 7.7
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -5497,6 +5879,7 @@
       "високобілкове"
     ],
     "servings": 1,
+    "cooked_g": 1032,
     "time": {
       "prep": null,
       "cook": 40
@@ -5565,12 +5948,18 @@
     ],
     "photo": "img/likarska-kovbasa.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1233,
+      "protein": 191.9,
+      "fat": 38.3,
+      "carbs": 17.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 119,
+      "protein": 18.6,
+      "fat": 3.7,
+      "carbs": 1.7
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -5663,12 +6052,19 @@
     ],
     "photo": "img/miasnyi-konvert-z-ovochamy.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 605,
+      "protein": 70.3,
+      "fat": 32.7,
+      "carbs": 9.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 157,
+      "protein": 18.2,
+      "fat": 8.5,
+      "carbs": 2.5
+    },
+    "cooked_g_est": 386,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -5699,6 +6095,7 @@
       "в-духовці"
     ],
     "servings": 1,
+    "cooked_g": 510,
     "time": {
       "prep": null,
       "cook": 40
@@ -5755,12 +6152,18 @@
     ],
     "photo": "img/miasnyi-rulet.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 770,
+      "protein": 115.8,
+      "fat": 24.3,
+      "carbs": 25.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 151,
+      "protein": 22.7,
+      "fat": 4.8,
+      "carbs": 5.1
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -5790,6 +6193,7 @@
       "в-духовці"
     ],
     "servings": 1,
+    "cooked_g": 900,
     "time": {
       "prep": null,
       "cook": 25
@@ -5852,12 +6256,18 @@
     ],
     "photo": "img/miaso-po-frantsuzky.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1276,
+      "protein": 159.2,
+      "fat": 53.6,
+      "carbs": 37.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 142,
+      "protein": 17.7,
+      "fat": 6.0,
+      "carbs": 4.1
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -5991,12 +6401,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 495,
+      "protein": 10.8,
+      "fat": 31.2,
+      "carbs": 45.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 211,
+      "protein": 4.6,
+      "fat": 13.3,
+      "carbs": 19.3
+    },
+    "cooked_g_est": 1409,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-25",
@@ -6114,12 +6531,22 @@
     ],
     "photo": "img/marynovana-chervona-tsybulia.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 131,
+      "protein": 2.8,
+      "fat": 0.3,
+      "carbs": 29.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 27,
+      "protein": 0.6,
+      "fat": 0.1,
+      "carbs": 6.2
+    },
+    "cooked_g_est": 959,
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "цукор: у розсолі, враховано 25 %"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-25",
@@ -6214,12 +6641,22 @@
       "marynovani-shampinony"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 23,
+      "protein": 0.0,
+      "fat": 0.0,
+      "carbs": 6.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 7,
+      "protein": 0.0,
+      "fat": 0.0,
+      "carbs": 1.9
+    },
+    "cooked_g_est": 321,
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "цукор: у розсолі, враховано 25 %"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-26",
@@ -6308,12 +6745,23 @@
       "rublena-kuriacha-kotleta-z-brokoli"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 80,
+      "protein": 2.0,
+      "fat": 4.3,
+      "carbs": 10.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 38,
+      "protein": 1.0,
+      "fat": 2.1,
+      "carbs": 5.0
+    },
+    "cooked_g_est": 414,
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "олія: у розсолі, враховано 25 %",
+      "цукор: у розсолі, враховано 25 %"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -6405,12 +6853,22 @@
     ],
     "photo": "img/marynovani-shampinony.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 178,
+      "protein": 16.5,
+      "fat": 6.9,
+      "carbs": 21.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 36,
+      "protein": 3.3,
+      "fat": 1.4,
+      "carbs": 4.4
+    },
+    "cooked_g_est": 498,
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "оливкова олія: у розсолі, враховано 25 %"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -6483,12 +6941,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 272,
+      "protein": 10.1,
+      "fat": 8.3,
+      "carbs": 43.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 121,
+      "protein": 4.5,
+      "fat": 3.7,
+      "carbs": 19.4
+    },
+    "cooked_g_est": 225,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -6553,12 +7018,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 274,
+      "protein": 14.6,
+      "fat": 10.4,
+      "carbs": 30.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 228,
+      "protein": 12.2,
+      "fat": 8.7,
+      "carbs": 25.5
+    },
+    "cooked_g_est": 120,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -6620,12 +7092,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 198,
+      "protein": 10.6,
+      "fat": 13.0,
+      "carbs": 12.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 75,
+      "protein": 4.0,
+      "fat": 4.9,
+      "carbs": 4.6
+    },
+    "cooked_g_est": 265,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -6726,12 +7205,22 @@
       "zberihannia-zakvasky"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2115,
+      "protein": 57.3,
+      "fat": 79.4,
+      "carbs": 289.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 213,
+      "protein": 5.8,
+      "fat": 8.0,
+      "carbs": 29.2
+    },
+    "cooked_g_est": 991,
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "олія для смаження: враховано 61 г із 70 г"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -6816,12 +7305,19 @@
       "zberihannia-zakvasky"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1494,
+      "protein": 46.7,
+      "fat": 78.7,
+      "carbs": 148.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 202,
+      "protein": 6.3,
+      "fat": 10.6,
+      "carbs": 20.0
+    },
+    "cooked_g_est": 740,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -6918,12 +7414,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 299,
+      "protein": 23.4,
+      "fat": 12.3,
+      "carbs": 26.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 63,
+      "protein": 4.9,
+      "fat": 2.6,
+      "carbs": 5.5
+    },
+    "cooked_g_est": 475,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -6982,12 +7485,19 @@
       "lehkyi-khumus"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 112,
+      "protein": 3.3,
+      "fat": 5.6,
+      "carbs": 14.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 86,
+      "protein": 2.5,
+      "fat": 4.3,
+      "carbs": 10.8
+    },
+    "cooked_g_est": 130,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -7061,12 +7571,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 254,
+      "protein": 7.1,
+      "fat": 7.5,
+      "carbs": 46.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 118,
+      "protein": 3.3,
+      "fat": 3.5,
+      "carbs": 21.8
+    },
+    "cooked_g_est": 215,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -7096,6 +7613,7 @@
       "високобілкове"
     ],
     "servings": 1,
+    "cooked_g": 1000,
     "time": {
       "prep": null,
       "cook": null
@@ -7158,12 +7676,18 @@
     ],
     "photo": "img/mimoza-vysokobilkova.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2476,
+      "protein": 96.8,
+      "fat": 199.2,
+      "carbs": 72.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 248,
+      "protein": 9.7,
+      "fat": 19.9,
+      "carbs": 7.2
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -7194,6 +7718,7 @@
       "на-сковороді"
     ],
     "servings": 1,
+    "cooked_g": 574,
     "time": {
       "prep": null,
       "cook": null
@@ -7258,12 +7783,18 @@
     ],
     "photo": "img/nalysnyky-tar-tar.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1013,
+      "protein": 75.9,
+      "fat": 35.5,
+      "carbs": 94.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 176,
+      "protein": 13.2,
+      "fat": 6.2,
+      "carbs": 16.5
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -7364,12 +7895,19 @@
     ],
     "photo": "img/nyzkokaloriinyi-maionez.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 624,
+      "protein": 19.0,
+      "fat": 60.4,
+      "carbs": 1.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 222,
+      "protein": 6.8,
+      "fat": 21.5,
+      "carbs": 0.5
+    },
+    "cooked_g_est": 281,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -7448,12 +7986,19 @@
       "sous-tsezar"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 389,
+      "protein": 30.3,
+      "fat": 20.8,
+      "carbs": 21.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 105,
+      "protein": 8.2,
+      "fat": 5.6,
+      "carbs": 5.8
+    },
+    "cooked_g_est": 370,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -7555,12 +8100,19 @@
     ],
     "photo": "img/oblipykhova-syrna-paska-z-zhuravlynoiu.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1893,
+      "protein": 71.3,
+      "fat": 85.2,
+      "carbs": 223.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 171,
+      "protein": 6.4,
+      "fat": 7.7,
+      "carbs": 20.3
+    },
+    "cooked_g_est": 1105,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -7694,12 +8246,19 @@
       "zberihannia-zakvasky"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1704,
+      "protein": 65.0,
+      "fat": 16.7,
+      "carbs": 314.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 200,
+      "protein": 7.6,
+      "fat": 2.0,
+      "carbs": 37.0
+    },
+    "cooked_g_est": 850,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -7728,6 +8287,7 @@
       "з-рибою"
     ],
     "servings": 2,
+    "cooked_g": 750,
     "time": {
       "prep": null,
       "cook": null
@@ -7790,12 +8350,18 @@
     ],
     "photo": "img/oseledets-v-shubi.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 351,
+      "protein": 28.8,
+      "fat": 15.3,
+      "carbs": 24.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 93,
+      "protein": 7.7,
+      "fat": 4.1,
+      "carbs": 6.6
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -7894,12 +8460,23 @@
     ],
     "photo": "img/oseledets-marynovanyi.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1152,
+      "protein": 109.6,
+      "fat": 65.9,
+      "carbs": 23.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 103,
+      "protein": 9.8,
+      "fat": 5.9,
+      "carbs": 2.1
+    },
+    "cooked_g_est": 1115,
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "олія соняшникова: у розсолі, враховано 25 %",
+      "цукор: у розсолі, враховано 25 %"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -7930,6 +8507,7 @@
       "святкове"
     ],
     "servings": 4,
+    "cooked_g": 800,
     "time": {
       "prep": 30,
       "cook": 10
@@ -8015,12 +8593,18 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 333,
+      "protein": 6.2,
+      "fat": 16.3,
+      "carbs": 41.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 167,
+      "protein": 3.1,
+      "fat": 8.1,
+      "carbs": 20.7
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -8174,12 +8758,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 608,
+      "protein": 34.5,
+      "fat": 31.2,
+      "carbs": 52.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 146,
+      "protein": 8.3,
+      "fat": 7.5,
+      "carbs": 12.7
+    },
+    "cooked_g_est": 417,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -8271,12 +8862,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 548,
+      "protein": 36.2,
+      "fat": 21.8,
+      "carbs": 49.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 138,
+      "protein": 9.1,
+      "fat": 5.5,
+      "carbs": 12.5
+    },
+    "cooked_g_est": 398,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -8413,12 +9011,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 603,
+      "protein": 40.3,
+      "fat": 28.6,
+      "carbs": 49.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 154,
+      "protein": 10.3,
+      "fat": 7.3,
+      "carbs": 12.8
+    },
+    "cooked_g_est": 391,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -8539,12 +9144,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 542,
+      "protein": 40.6,
+      "fat": 25.5,
+      "carbs": 37.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 167,
+      "protein": 12.5,
+      "fat": 7.9,
+      "carbs": 11.7
+    },
+    "cooked_g_est": 324,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -8578,6 +9190,7 @@
       "в-духовці"
     ],
     "servings": 1,
+    "cooked_g": 810,
     "time": {
       "prep": null,
       "cook": 35
@@ -8684,12 +9297,18 @@
     ],
     "photo": "img/pyrih-harbuz-losos.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2118,
+      "protein": 107.7,
+      "fat": 115.3,
+      "carbs": 166.5
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 262,
+      "protein": 13.3,
+      "fat": 14.2,
+      "carbs": 20.6
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -8810,12 +9429,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 449,
+      "protein": 11.1,
+      "fat": 31.3,
+      "carbs": 32.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 368,
+      "protein": 9.1,
+      "fat": 25.6,
+      "carbs": 26.8
+    },
+    "cooked_g_est": 976,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-25",
@@ -8912,12 +9538,19 @@
     ],
     "photo": "img/plov-z-kurkoiu.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 369,
+      "protein": 29.1,
+      "fat": 13.5,
+      "carbs": 31.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 157,
+      "protein": 12.4,
+      "fat": 5.7,
+      "carbs": 13.1
+    },
+    "cooked_g_est": 707,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -9015,12 +9648,19 @@
       "boroshno"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 813,
+      "protein": 23.3,
+      "fat": 11.5,
+      "carbs": 154.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 248,
+      "protein": 7.1,
+      "fat": 3.5,
+      "carbs": 47.0
+    },
+    "cooked_g_est": 985,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -9147,12 +9787,19 @@
       "fermentatsiia"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1911,
+      "protein": 65.4,
+      "fat": 40.5,
+      "carbs": 314.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 256,
+      "protein": 8.8,
+      "fat": 5.4,
+      "carbs": 42.1
+    },
+    "cooked_g_est": 747,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -9278,12 +9925,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 271,
+      "protein": 9.0,
+      "fat": 1.2,
+      "carbs": 54.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 180,
+      "protein": 6.0,
+      "fat": 0.8,
+      "carbs": 36.3
+    },
+    "cooked_g_est": 150,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -9352,12 +10006,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 150,
+      "protein": 2.9,
+      "fat": 0.8,
+      "carbs": 37.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 38,
+      "protein": 0.7,
+      "fat": 0.2,
+      "carbs": 9.3
+    },
+    "cooked_g_est": 396,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -9478,12 +10139,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 386,
+      "protein": 28.6,
+      "fat": 13.2,
+      "carbs": 41.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 124,
+      "protein": 9.2,
+      "fat": 4.2,
+      "carbs": 13.2
+    },
+    "cooked_g_est": 311,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -9567,12 +10235,19 @@
     ],
     "photo": "img/ryba-zapechena-z-pomidoramy-i-syrom.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 583,
+      "protein": 76.9,
+      "fat": 26.1,
+      "carbs": 10.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 121,
+      "protein": 16.0,
+      "fat": 5.4,
+      "carbs": 2.2
+    },
+    "cooked_g_est": 964,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -9687,12 +10362,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 458,
+      "protein": 34.2,
+      "fat": 10.7,
+      "carbs": 55.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 110,
+      "protein": 8.2,
+      "fat": 2.6,
+      "carbs": 13.3
+    },
+    "cooked_g_est": 415,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -9778,12 +10460,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 498,
+      "protein": 20.7,
+      "fat": 30.8,
+      "carbs": 35.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 242,
+      "protein": 10.0,
+      "fat": 14.9,
+      "carbs": 17.1
+    },
+    "cooked_g_est": 206,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -9909,12 +10598,19 @@
       "shaurma-tsezaro"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 551,
+      "protein": 48.6,
+      "fat": 20.8,
+      "carbs": 40.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 172,
+      "protein": 15.2,
+      "fat": 6.5,
+      "carbs": 12.7
+    },
+    "cooked_g_est": 639,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -10014,12 +10710,19 @@
       "marynovani-ohirky-i-pomidory"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 224,
+      "protein": 27.7,
+      "fat": 8.7,
+      "carbs": 8.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 166,
+      "protein": 20.5,
+      "fat": 6.4,
+      "carbs": 5.9
+    },
+    "cooked_g_est": 676,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -10078,12 +10781,19 @@
       "chia-pudynh"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 285,
+      "protein": 12.0,
+      "fat": 13.8,
+      "carbs": 30.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 76,
+      "protein": 3.2,
+      "fat": 3.7,
+      "carbs": 8.3
+    },
+    "cooked_g_est": 1496,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -10183,12 +10893,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 537,
+      "protein": 25.9,
+      "fat": 25.7,
+      "carbs": 49.5
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 149,
+      "protein": 7.2,
+      "fat": 7.2,
+      "carbs": 13.7
+    },
+    "cooked_g_est": 360,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -10303,12 +11020,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 448,
+      "protein": 27.6,
+      "fat": 34.6,
+      "carbs": 11.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 184,
+      "protein": 11.3,
+      "fat": 14.2,
+      "carbs": 4.5
+    },
+    "cooked_g_est": 244,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -10406,12 +11130,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 361,
+      "protein": 28.9,
+      "fat": 20.0,
+      "carbs": 20.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 102,
+      "protein": 8.1,
+      "fat": 5.6,
+      "carbs": 5.9
+    },
+    "cooked_g_est": 355,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -10507,12 +11238,19 @@
       "sous-tsezar"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 369,
+      "protein": 18.8,
+      "fat": 17.6,
+      "carbs": 32.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 142,
+      "protein": 7.2,
+      "fat": 6.8,
+      "carbs": 12.6
+    },
+    "cooked_g_est": 260,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -10543,6 +11281,7 @@
       "з-рибою"
     ],
     "servings": 1,
+    "cooked_g": 680,
     "time": {
       "prep": null,
       "cook": null
@@ -10611,12 +11350,18 @@
     ],
     "photo": "img/salat-z-buriakom-i-tuntsem.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 982,
+      "protein": 39.5,
+      "fat": 53.5,
+      "carbs": 103.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 144,
+      "protein": 5.8,
+      "fat": 7.9,
+      "carbs": 15.3
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -10723,12 +11468,19 @@
       "lehkyi-khumus"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 399,
+      "protein": 14.3,
+      "fat": 19.0,
+      "carbs": 49.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 109,
+      "protein": 3.9,
+      "fat": 5.2,
+      "carbs": 13.5
+    },
+    "cooked_g_est": 365,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -10760,6 +11512,7 @@
       "з-рибою"
     ],
     "servings": 4,
+    "cooked_g": 740,
     "time": {
       "prep": null,
       "cook": null
@@ -10866,12 +11619,18 @@
     ],
     "photo": "img/salat-iaskravi-mrii.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 224,
+      "protein": 11.7,
+      "fat": 14.1,
+      "carbs": 13.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 121,
+      "protein": 6.3,
+      "fat": 7.6,
+      "carbs": 7.4
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -10997,12 +11756,19 @@
     ],
     "photo": "img/salat-z-shynkoiu-iaitsem-i-kukurudzoiu.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 322,
+      "protein": 29.3,
+      "fat": 16.0,
+      "carbs": 17.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 80,
+      "protein": 7.3,
+      "fat": 4.0,
+      "carbs": 4.4
+    },
+    "cooked_g_est": 404,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -11102,12 +11868,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 326,
+      "protein": 26.0,
+      "fat": 13.5,
+      "carbs": 27.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 86,
+      "protein": 6.9,
+      "fat": 3.6,
+      "carbs": 7.2
+    },
+    "cooked_g_est": 379,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -11254,12 +12027,19 @@
       "pshenychna-zakvaska-100-volohosti"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 5487,
+      "protein": 112.0,
+      "fat": 325.7,
+      "carbs": 555.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 426,
+      "protein": 8.7,
+      "fat": 25.3,
+      "carbs": 43.2
+    },
+    "cooked_g_est": 1287,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -11329,6 +12109,7 @@
       "з-рибою"
     ],
     "servings": 2,
+    "cooked_g": 560,
     "time": {
       "prep": null,
       "cook": null
@@ -11409,12 +12190,18 @@
     ],
     "photo": "img/sviatkovi-kotlety.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 371,
+      "protein": 25.9,
+      "fat": 11.1,
+      "carbs": 44.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 132,
+      "protein": 9.3,
+      "fat": 4.0,
+      "carbs": 15.9
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -11482,12 +12269,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 429,
+      "protein": 23.4,
+      "fat": 23.1,
+      "carbs": 31.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 245,
+      "protein": 13.4,
+      "fat": 13.2,
+      "carbs": 17.7
+    },
+    "cooked_g_est": 175,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -11565,12 +12359,19 @@
       "sous-tartar"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 353,
+      "protein": 32.2,
+      "fat": 11.0,
+      "carbs": 33.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 120,
+      "protein": 10.9,
+      "fat": 3.7,
+      "carbs": 11.2
+    },
+    "cooked_g_est": 295,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -11644,12 +12445,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 352,
+      "protein": 25.7,
+      "fat": 13.0,
+      "carbs": 33.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 137,
+      "protein": 10.0,
+      "fat": 5.1,
+      "carbs": 12.9
+    },
+    "cooked_g_est": 258,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -11731,12 +12539,19 @@
     ],
     "photo": "img/syrna-paska-karamelna.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2758,
+      "protein": 92.1,
+      "fat": 157.8,
+      "carbs": 262.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 234,
+      "protein": 7.8,
+      "fat": 13.4,
+      "carbs": 22.2
+    },
+    "cooked_g_est": 1180,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -11854,12 +12669,19 @@
     ],
     "photo": "img/syrna-paska-klasychna.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2021,
+      "protein": 56.8,
+      "fat": 110.3,
+      "carbs": 207.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 245,
+      "protein": 6.9,
+      "fat": 13.4,
+      "carbs": 25.2
+    },
+    "cooked_g_est": 824,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -11987,12 +12809,19 @@
     ],
     "photo": "img/syrna-paska-lymon-mak-chervonyi-apelsyn.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1208,
+      "protein": 42.1,
+      "fat": 66.5,
+      "carbs": 115.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 205,
+      "protein": 7.1,
+      "fat": 11.3,
+      "carbs": 19.5
+    },
+    "cooked_g_est": 590,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -12183,12 +13012,19 @@
     ],
     "photo": "img/syrna-paska-manho-marakuia.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2372,
+      "protein": 73.0,
+      "fat": 162.6,
+      "carbs": 158.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 226,
+      "protein": 7.0,
+      "fat": 15.5,
+      "carbs": 15.2
+    },
+    "cooked_g_est": 1048,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -12319,12 +13155,19 @@
     ],
     "photo": "img/syrna-paska-marmurova-smorodyna.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2098,
+      "protein": 62.0,
+      "fat": 143.0,
+      "carbs": 151.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 238,
+      "protein": 7.0,
+      "fat": 16.2,
+      "carbs": 17.1
+    },
+    "cooked_g_est": 882,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -12437,12 +13280,19 @@
     ],
     "photo": "img/syrna-paska-try-shokolady.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2262,
+      "protein": 78.8,
+      "fat": 132.6,
+      "carbs": 191.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 237,
+      "protein": 8.3,
+      "fat": 13.9,
+      "carbs": 20.1
+    },
+    "cooked_g_est": 954,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -12597,12 +13447,19 @@
     ],
     "photo": "img/syrna-paska-iahidna.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1824,
+      "protein": 68.0,
+      "fat": 86.0,
+      "carbs": 206.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 171,
+      "protein": 6.4,
+      "fat": 8.0,
+      "carbs": 19.3
+    },
+    "cooked_g_est": 1070,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -12679,12 +13536,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 373,
+      "protein": 22.7,
+      "fat": 18.3,
+      "carbs": 29.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 169,
+      "protein": 10.3,
+      "fat": 8.3,
+      "carbs": 13.1
+    },
+    "cooked_g_est": 662,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -12770,12 +13634,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 448,
+      "protein": 25.9,
+      "fat": 23.8,
+      "carbs": 33.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 152,
+      "protein": 8.8,
+      "fat": 8.1,
+      "carbs": 11.4
+    },
+    "cooked_g_est": 294,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -12857,12 +13728,19 @@
     ],
     "photo": "img/smetanna-zavarna-paska.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 3394,
+      "protein": 52.4,
+      "fat": 203.0,
+      "carbs": 355.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 225,
+      "protein": 3.5,
+      "fat": 13.5,
+      "carbs": 23.6
+    },
+    "cooked_g_est": 1505,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -12936,12 +13814,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 389,
+      "protein": 21.5,
+      "fat": 23.2,
+      "carbs": 27.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 134,
+      "protein": 7.4,
+      "fat": 8.0,
+      "carbs": 9.5
+    },
+    "cooked_g_est": 290,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -13055,12 +13940,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 358,
+      "protein": 34.7,
+      "fat": 12.8,
+      "carbs": 26.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 81,
+      "protein": 7.8,
+      "fat": 2.9,
+      "carbs": 5.9
+    },
+    "cooked_g_est": 442,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -13156,12 +14048,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 554,
+      "protein": 5.9,
+      "fat": 20.9,
+      "carbs": 97.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 167,
+      "protein": 1.8,
+      "fat": 6.3,
+      "carbs": 29.3
+    },
+    "cooked_g_est": 332,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -13259,12 +14158,19 @@
     ],
     "photo": "img/sous-tsezar.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1252,
+      "protein": 17.8,
+      "fat": 129.2,
+      "carbs": 8.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 582,
+      "protein": 8.3,
+      "fat": 60.1,
+      "carbs": 4.1
+    },
+    "cooked_g_est": 215,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -13365,12 +14271,19 @@
       "nyzkokaloriinyi-maionez"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1059,
+      "protein": 3.4,
+      "fat": 113.0,
+      "carbs": 9.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 368,
+      "protein": 1.2,
+      "fat": 39.2,
+      "carbs": 3.2
+    },
+    "cooked_g_est": 288,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -13484,12 +14397,19 @@
       "sous-tsezar"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 434,
+      "protein": 41.0,
+      "fat": 10.9,
+      "carbs": 44.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 130,
+      "protein": 12.3,
+      "fat": 3.3,
+      "carbs": 13.3
+    },
+    "cooked_g_est": 333,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -13594,12 +14514,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 540,
+      "protein": 44.6,
+      "fat": 19.7,
+      "carbs": 47.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 110,
+      "protein": 9.1,
+      "fat": 4.0,
+      "carbs": 9.6
+    },
+    "cooked_g_est": 491,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -13634,6 +14561,7 @@
       "в-духовці"
     ],
     "servings": 1,
+    "cooked_g": 400,
     "time": {
       "prep": 360,
       "cook": 40
@@ -13684,12 +14612,18 @@
     ],
     "photo": "img/sochevychnyi-khlib-variant-1.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1001,
+      "protein": 51.1,
+      "fat": 33.9,
+      "carbs": 129.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 250,
+      "protein": 12.8,
+      "fat": 8.5,
+      "carbs": 32.4
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -13723,6 +14657,7 @@
       "в-духовці"
     ],
     "servings": 1,
+    "cooked_g": 750,
     "time": {
       "prep": 360,
       "cook": 40
@@ -13785,12 +14720,18 @@
     ],
     "photo": "img/sochevychnyi-khlib-variant-2.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1483,
+      "protein": 89.1,
+      "fat": 66.1,
+      "carbs": 138.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 198,
+      "protein": 11.9,
+      "fat": 8.8,
+      "carbs": 18.4
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -13884,12 +14825,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 391,
+      "protein": 37.5,
+      "fat": 17.1,
+      "carbs": 26.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 76,
+      "protein": 7.3,
+      "fat": 3.3,
+      "carbs": 5.2
+    },
+    "cooked_g_est": 512,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -14003,12 +14951,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 528,
+      "protein": 36.1,
+      "fat": 32.4,
+      "carbs": 28.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 154,
+      "protein": 10.5,
+      "fat": 9.5,
+      "carbs": 8.2
+    },
+    "cooked_g_est": 343,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -14149,12 +15104,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 333,
+      "protein": 40.0,
+      "fat": 12.1,
+      "carbs": 16.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 69,
+      "protein": 8.3,
+      "fat": 2.5,
+      "carbs": 3.5
+    },
+    "cooked_g_est": 480,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -14199,12 +15161,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 224,
+      "protein": 2.5,
+      "fat": 0.2,
+      "carbs": 59.5
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 299,
+      "protein": 3.3,
+      "fat": 0.2,
+      "carbs": 79.3
+    },
+    "cooked_g_est": 75,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -14308,12 +15277,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 458,
+      "protein": 30.3,
+      "fat": 12.7,
+      "carbs": 54.5
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 165,
+      "protein": 10.9,
+      "fat": 4.6,
+      "carbs": 19.6
+    },
+    "cooked_g_est": 278,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -14427,12 +15403,19 @@
     ],
     "photo": "img/tvorozhna-zapikanka-zi-shpynatom.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 313,
+      "protein": 26.1,
+      "fat": 16.6,
+      "carbs": 15.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 114,
+      "protein": 9.6,
+      "fat": 6.1,
+      "carbs": 5.5
+    },
+    "cooked_g_est": 820,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -14513,12 +15496,19 @@
     ],
     "photo": "img/tvorozhnyi-mus-z-yahodamy.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 224,
+      "protein": 21.4,
+      "fat": 7.3,
+      "carbs": 19.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 86,
+      "protein": 8.2,
+      "fat": 2.8,
+      "carbs": 7.4
+    },
+    "cooked_g_est": 522,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -14617,12 +15607,19 @@
       "hidratatsiia"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2176,
+      "protein": 71.9,
+      "fat": 10.2,
+      "carbs": 448.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 243,
+      "protein": 8.0,
+      "fat": 1.1,
+      "carbs": 50.1
+    },
+    "cooked_g_est": 896,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -14658,6 +15655,7 @@
       "з-рибою"
     ],
     "servings": 1,
+    "cooked_g": 800,
     "time": {
       "prep": null,
       "cook": 30
@@ -14732,12 +15730,18 @@
     ],
     "photo": "img/tushkovana-rybka.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1299,
+      "protein": 136.7,
+      "fat": 70.3,
+      "carbs": 23.5
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 162,
+      "protein": 17.1,
+      "fat": 8.8,
+      "carbs": 2.9
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -14831,12 +15835,19 @@
       "dodatkovi-inhredienty"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1306,
+      "protein": 36.5,
+      "fat": 14.6,
+      "carbs": 251.5
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 251,
+      "protein": 7.0,
+      "fat": 2.8,
+      "carbs": 48.4
+    },
+    "cooked_g_est": 1040,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -14936,12 +15947,19 @@
       "metody-vypikannia"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 476,
+      "protein": 14.8,
+      "fat": 1.8,
+      "carbs": 97.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 222,
+      "protein": 6.9,
+      "fat": 0.8,
+      "carbs": 45.4
+    },
+    "cooked_g_est": 858,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -15009,12 +16027,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 237,
+      "protein": 10.9,
+      "fat": 2.6,
+      "carbs": 44.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 228,
+      "protein": 10.4,
+      "fat": 2.5,
+      "carbs": 42.5
+    },
+    "cooked_g_est": 104,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -15111,12 +16136,19 @@
       "klasychna-frittata"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 459,
+      "protein": 29.1,
+      "fat": 31.3,
+      "carbs": 15.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 170,
+      "protein": 10.8,
+      "fat": 11.6,
+      "carbs": 5.8
+    },
+    "cooked_g_est": 540,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-17",
@@ -15144,6 +16176,7 @@
       "з-птицею"
     ],
     "servings": 2,
+    "cooked_g": 800,
     "time": {
       "prep": null,
       "cook": null
@@ -15227,12 +16260,18 @@
       "likarska-kovbasa"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 309,
+      "protein": 28.1,
+      "fat": 10.2,
+      "carbs": 26.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 77,
+      "protein": 7.0,
+      "fat": 2.5,
+      "carbs": 6.6
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -15320,12 +16359,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 615,
+      "protein": 35.9,
+      "fat": 32.7,
+      "carbs": 42.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 214,
+      "protein": 12.5,
+      "fat": 11.3,
+      "carbs": 14.6
+    },
+    "cooked_g_est": 288,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -15359,6 +16405,7 @@
       "святкове"
     ],
     "servings": 1,
+    "cooked_g": 335,
     "time": {
       "prep": null,
       "cook": null
@@ -15426,12 +16473,18 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 429,
+      "protein": 22.1,
+      "fat": 18.3,
+      "carbs": 47.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 128,
+      "protein": 6.6,
+      "fat": 5.5,
+      "carbs": 14.1
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -15464,6 +16517,7 @@
       "з-мʼясом"
     ],
     "servings": 1,
+    "cooked_g": 1200,
     "time": {
       "prep": null,
       "cook": 90
@@ -15532,12 +16586,21 @@
     ],
     "photo": "img/kholodets-lait.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 492,
+      "protein": 82.5,
+      "fat": 10.2,
+      "carbs": 14.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 41,
+      "protein": 6.9,
+      "fat": 0.8,
+      "carbs": 1.2
+    },
+    "nutrition_status": "повний",
+    "nutrition_notes": [
+      "свинина: −20 % жиру (стікає)"
+    ],
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -15570,6 +16633,7 @@
       "пісне"
     ],
     "servings": 1,
+    "cooked_g": 530,
     "time": {
       "prep": null,
       "cook": null
@@ -15638,12 +16702,18 @@
     ],
     "photo": "img/khumus-novorichnyi.jpg",
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 867,
+      "protein": 28.2,
+      "fat": 53.0,
+      "carbs": 79.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 164,
+      "protein": 5.3,
+      "fat": 10.0,
+      "carbs": 15.0
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -15742,12 +16812,19 @@
       "boroshno"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1134,
+      "protein": 43.9,
+      "fat": 8.2,
+      "carbs": 239.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 211,
+      "protein": 8.2,
+      "fat": 1.5,
+      "carbs": 44.6
+    },
+    "cooked_g_est": 537,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -15784,6 +16861,7 @@
       "святкове"
     ],
     "servings": 12,
+    "cooked_g": 1550,
     "time": {
       "prep": 50,
       "cook": 85
@@ -15976,12 +17054,18 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 477,
+      "protein": 8.5,
+      "fat": 29.3,
+      "carbs": 46.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 369,
+      "protein": 6.6,
+      "fat": 22.7,
+      "carbs": 35.9
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -16256,12 +17340,19 @@
     "photo": "img/chyzkeik-lisovi-yahody.jpg",
     "form_cm": 18,
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 338,
+      "protein": 5.1,
+      "fat": 22.7,
+      "carbs": 30.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 261,
+      "protein": 4.0,
+      "fat": 17.5,
+      "carbs": 23.3
+    },
+    "cooked_g_est": 1553,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -16347,6 +17438,7 @@
       "на-вихідні"
     ],
     "servings": 12,
+    "cooked_g": 1000,
     "time": {
       "prep": 30,
       "cook": 80
@@ -16466,12 +17558,18 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 397,
+      "protein": 6.6,
+      "fat": 26.8,
+      "carbs": 33.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 476,
+      "protein": 7.9,
+      "fat": 32.1,
+      "carbs": 40.1
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -16731,12 +17829,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 395,
+      "protein": 6.6,
+      "fat": 24.5,
+      "carbs": 38.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 376,
+      "protein": 6.3,
+      "fat": 23.3,
+      "carbs": 36.9
+    },
+    "cooked_g_est": 1684,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -16838,6 +17943,7 @@
       "святкове"
     ],
     "servings": 12,
+    "cooked_g": 1525,
     "time": {
       "prep": 45,
       "cook": 85
@@ -16948,12 +18054,18 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 389,
+      "protein": 5.5,
+      "fat": 26.6,
+      "carbs": 33.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 306,
+      "protein": 4.4,
+      "fat": 21.0,
+      "carbs": 26.3
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -17044,6 +18156,7 @@
       "швидко"
     ],
     "servings": 12,
+    "cooked_g": 1000,
     "time": {
       "prep": 15,
       "cook": 25
@@ -17090,12 +18203,18 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 259,
+      "protein": 5.4,
+      "fat": 19.9,
+      "carbs": 15.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 311,
+      "protein": 6.5,
+      "fat": 23.9,
+      "carbs": 18.7
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -17129,6 +18248,7 @@
       "святкове"
     ],
     "servings": 12,
+    "cooked_g": 1350,
     "time": {
       "prep": 50,
       "cook": 80
@@ -17307,12 +18427,18 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 674,
+      "protein": 11.8,
+      "fat": 43.2,
+      "carbs": 64.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 599,
+      "protein": 10.5,
+      "fat": 38.4,
+      "carbs": 56.9
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -17419,6 +18545,7 @@
       "святкове"
     ],
     "servings": 16,
+    "cooked_g": 1700,
     "time": {
       "prep": 45,
       "cook": 85
@@ -17571,12 +18698,18 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 382,
+      "protein": 6.8,
+      "fat": 24.3,
+      "carbs": 35.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 360,
+      "protein": 6.4,
+      "fat": 22.9,
+      "carbs": 33.1
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -17676,6 +18809,7 @@
       "святкове"
     ],
     "servings": 12,
+    "cooked_g": 1375,
     "time": {
       "prep": 45,
       "cook": 85
@@ -17807,12 +18941,18 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 405,
+      "protein": 6.4,
+      "fat": 27.5,
+      "carbs": 35.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 354,
+      "protein": 5.6,
+      "fat": 24.0,
+      "carbs": 30.8
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -17910,6 +19050,7 @@
       "на-вихідні"
     ],
     "servings": 12,
+    "cooked_g": 1500,
     "time": {
       "prep": 30,
       "cook": 85
@@ -18013,12 +19154,18 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 450,
+      "protein": 6.7,
+      "fat": 30.7,
+      "carbs": 38.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 360,
+      "protein": 5.3,
+      "fat": 24.6,
+      "carbs": 30.9
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -18139,12 +19286,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 229,
+      "protein": 17.4,
+      "fat": 10.7,
+      "carbs": 16.8
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 97,
+      "protein": 7.4,
+      "fat": 4.6,
+      "carbs": 7.1
+    },
+    "cooked_g_est": 235,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -18237,12 +19391,19 @@
       "formuvannia-i-nadrizy"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 535,
+      "protein": 17.1,
+      "fat": 7.5,
+      "carbs": 99.1
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 226,
+      "protein": 7.2,
+      "fat": 3.2,
+      "carbs": 41.9
+    },
+    "cooked_g_est": 947,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -18276,6 +19437,7 @@
       "без-випікання"
     ],
     "servings": 12,
+    "cooked_g": 900,
     "time": {
       "prep": null,
       "cook": null
@@ -18348,12 +19510,18 @@
     "photo": "img/chizkeik-bez-zapikannia.jpg",
     "form_cm": 18,
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 151,
+      "protein": 6.9,
+      "fat": 6.8,
+      "carbs": 17.6
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 201,
+      "protein": 9.1,
+      "fat": 9.1,
+      "carbs": 23.4
+    },
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -18463,12 +19631,19 @@
       "sous-tsezar"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 529,
+      "protein": 27.5,
+      "fat": 28.8,
+      "carbs": 38.7
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 171,
+      "protein": 8.9,
+      "fat": 9.3,
+      "carbs": 12.5
+    },
+    "cooked_g_est": 310,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -18580,12 +19755,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 514,
+      "protein": 52.3,
+      "fat": 23.8,
+      "carbs": 24.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 100,
+      "protein": 10.2,
+      "fat": 4.6,
+      "carbs": 4.7
+    },
+    "cooked_g_est": 514,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -18691,12 +19873,19 @@
       "tekhniky-roboty-z-tistom"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 780,
+      "protein": 29.5,
+      "fat": 19.9,
+      "carbs": 118.0
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 251,
+      "protein": 9.5,
+      "fat": 6.4,
+      "carbs": 37.9
+    },
+    "cooked_g_est": 622,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-25",
@@ -18823,12 +20012,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 396,
+      "protein": 30.6,
+      "fat": 15.2,
+      "carbs": 34.4
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 124,
+      "protein": 9.6,
+      "fat": 4.8,
+      "carbs": 10.8
+    },
+    "cooked_g_est": 320,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -18921,12 +20117,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 400,
+      "protein": 28.4,
+      "fat": 27.8,
+      "carbs": 8.9
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 141,
+      "protein": 10.0,
+      "fat": 9.8,
+      "carbs": 3.1
+    },
+    "cooked_g_est": 284,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -19027,12 +20230,19 @@
       "fermentatsiia"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 1152,
+      "protein": 34.0,
+      "fat": 7.4,
+      "carbs": 247.3
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 230,
+      "protein": 6.8,
+      "fat": 1.5,
+      "carbs": 49.3
+    },
+    "cooked_g_est": 502,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -19134,12 +20344,19 @@
       "hidratatsiia"
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 2868,
+      "protein": 96.8,
+      "fat": 13.6,
+      "carbs": 582.5
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 231,
+      "protein": 7.8,
+      "fat": 1.1,
+      "carbs": 46.8
+    },
+    "cooked_g_est": 1244,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -19201,12 +20418,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 198,
+      "protein": 4.8,
+      "fat": 10.5,
+      "carbs": 25.2
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 116,
+      "protein": 2.8,
+      "fat": 6.2,
+      "carbs": 14.8
+    },
+    "cooked_g_est": 170,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -19269,12 +20493,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 190,
+      "protein": 3.1,
+      "fat": 1.4,
+      "carbs": 46.5
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 61,
+      "protein": 1.0,
+      "fat": 0.5,
+      "carbs": 15.0
+    },
+    "cooked_g_est": 310,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",
@@ -19365,12 +20596,19 @@
       }
     ],
     "nutrition_per_serving": {
-      "kcal": null,
-      "protein": null,
-      "fat": null,
-      "carbs": null
+      "kcal": 397,
+      "protein": 18.5,
+      "fat": 20.4,
+      "carbs": 35.5
     },
-    "nutrition_status": "немає",
+    "nutrition_per_100g": {
+      "kcal": 109,
+      "protein": 5.1,
+      "fat": 5.6,
+      "carbs": 9.7
+    },
+    "cooked_g_est": 366,
+    "nutrition_status": "повний",
     "status": "спробувати",
     "rating": null,
     "added": "2026-10-16",

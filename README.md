@@ -34,7 +34,8 @@ cp .env.example .env   # вписати FDC_API_KEY з https://api.data.gov/sign
 
 ```bash
 python scripts/build.py                          # валідація + data/recipes.json + site/index.html
-python scripts/nutrition.py --all                # КБЖВ для всіх рецептів
+python scripts/usda_local.py build                # індекс локальної бази USDA (CSV у data/fdc_cache/usda/)
+python scripts/nutrition.py --all                # КБЖВ на порцію і на 100 г готової страви
 python scripts/nutrition.py borshch-zelenyi      # для одного
 python scripts/nutrition.py confirm "щавель" 168465
 python scripts/nutrition.py ignore "вода"

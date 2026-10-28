@@ -20,8 +20,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
   - { name: спеції, qty: null, unit: "", note: "за смаком" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 391, protein: 37.5, fat: 17.1, carbs: 26.8 }
+nutrition_per_100g: { kcal: 76, protein: 7.3, fat: 3.3, carbs: 5.2 }
+cooked_g_est: 512
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

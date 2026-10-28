@@ -9,6 +9,7 @@ category: основні
 subcategory: риба й морепродукти
 tags: [святкове, хелзі, з-рибою]
 servings: 1
+cooked_g: 800
 time: { prep: null, cook: 30 }
 ingredients:
   - { name: річкова риба, qty: 750, unit: г, note: "очищена: короп, судак, щука або товстолобик; можна морську" }
@@ -23,8 +24,9 @@ ingredients:
   - { name: вода, qty: 50, unit: мл, note: "50–75 мл" }
   - { name: зелень, qty: null, unit: "", note: "свіжа, або оливки чи апельсин, для прикраси" }
 photo: img/tushkovana-rybka.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1299, protein: 136.7, fat: 70.3, carbs: 23.5 }
+nutrition_per_100g: { kcal: 162, protein: 17.1, fat: 8.8, carbs: 2.9 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

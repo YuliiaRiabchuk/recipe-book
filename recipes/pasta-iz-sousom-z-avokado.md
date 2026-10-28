@@ -25,8 +25,10 @@ ingredients:
   - { name: олія, qty: 5, unit: г, part: соус, note: "" }
   - { name: кокосове молоко, qty: 25, unit: г, part: соус, note: "" }
   - { name: авокадо, qty: 60, unit: г, part: соус, note: "1/2 шт" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 603, protein: 40.3, fat: 28.6, carbs: 49.9 }
+nutrition_per_100g: { kcal: 154, protein: 10.3, fat: 7.3, carbs: 12.8 }
+cooked_g_est: 391
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

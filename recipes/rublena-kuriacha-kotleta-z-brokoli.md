@@ -22,8 +22,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: олія, qty: null, unit: "", note: "для смаження" }
 related: [marynovani-ohirky-i-pomidory]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 224, protein: 27.7, fat: 8.7, carbs: 8.0 }
+nutrition_per_100g: { kcal: 166, protein: 20.5, fat: 6.4, carbs: 5.9 }
+cooked_g_est: 676
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

@@ -15,8 +15,10 @@ ingredients:
   - { name: вода, qty: 25, unit: г, note: "день 1; фільтрована або відстояна, кімнатної температури" }
   - { name: борошно пшеничне сильне, qty: 50, unit: г, note: "на кожне годування" }
   - { name: вода, qty: 50, unit: г, note: "на кожне годування" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 271, protein: 9.0, fat: 1.2, carbs: 54.4 }
+nutrition_per_100g: { kcal: 180, protein: 6.0, fat: 0.8, carbs: 36.3 }
+cooked_g_est: 150
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

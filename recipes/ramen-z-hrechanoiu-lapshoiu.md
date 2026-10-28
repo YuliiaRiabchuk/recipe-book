@@ -25,8 +25,10 @@ ingredients:
   - { name: спеції, qty: null, unit: "", note: "на смак" }
   - { name: вода, qty: 100, unit: мл, note: "" }
   - { name: зелень, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 386, protein: 28.6, fat: 13.2, carbs: 41.1 }
+nutrition_per_100g: { kcal: 124, protein: 9.2, fat: 4.2, carbs: 13.2 }
+cooked_g_est: 311
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

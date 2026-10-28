@@ -22,8 +22,10 @@ ingredients:
   - { name: кунжут, qty: 1, unit: г, note: "" }
   - { name: арахіс смажений, qty: 10, unit: г, note: "" }
   - { name: спеції, qty: null, unit: "", note: "улюблені, для курки" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 587, protein: 33.2, fat: 28.6, carbs: 50.8 }
+nutrition_per_100g: { kcal: 139, protein: 7.9, fat: 6.8, carbs: 12.1 }
+cooked_g_est: 421
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

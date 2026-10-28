@@ -25,8 +25,10 @@ ingredients:
   - { name: вода, qty: 20, unit: г, note: "20–50 г або кубики льоду, для пари" }
 photo: img/hrechanyi-khlib-na-zakvastsi.jpg
 related: [pshenychna-zakvaska-100-volohosti, boroshno, dodatkovi-inhredienty, hidratatsiia]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2353, protein: 71.4, fat: 24.2, carbs: 462.0 }
+nutrition_per_100g: { kcal: 216, protein: 6.6, fat: 2.2, carbs: 42.5 }
+cooked_g_est: 1088
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

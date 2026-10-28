@@ -22,8 +22,10 @@ ingredients:
   - { name: журавлина сушена, qty: 70, unit: г, note: "" }
   - { name: гелевий барвник, qty: null, unit: "", note: "за бажанням" }
 photo: img/syrna-paska-iahidna.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1824, protein: 68.0, fat: 86.0, carbs: 206.6 }
+nutrition_per_100g: { kcal: 171, protein: 6.4, fat: 8.0, carbs: 19.3 }
+cooked_g_est: 1070
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

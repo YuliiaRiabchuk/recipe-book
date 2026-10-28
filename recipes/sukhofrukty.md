@@ -12,8 +12,10 @@ servings: 1
 time: { prep: null, cook: null }
 ingredients:
   - { name: суміш сухофруктів, qty: 75, unit: г, note: "не більше 300 ккал на 100 г" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 224, protein: 2.5, fat: 0.2, carbs: 59.5 }
+nutrition_per_100g: { kcal: 299, protein: 3.3, fat: 0.2, carbs: 79.3 }
+cooked_g_est: 75
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -9,6 +9,7 @@ category: десерти
 subcategory: чизкейки
 tags: [чизкейк, в-духовці, на-вихідні, святкове]
 servings: 12
+cooked_g: 1375
 time: { prep: 45, cook: 85 }
 ingredients:
   - { name: пісочне печиво, qty: 300, unit: г, part: основа, note: "300–350 г" }
@@ -32,8 +33,9 @@ videos:
   - { title: "Урок 7. Основа з готового печива з сублімованою малиною", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9208.MP4", url: "https://drive.google.com/file/d/1D7gh3w9sRNHSQg5nMVp_FzYNHhGWYmQX/view" }
   - { title: "Урок 8. Фісташкова сирна маса і малинове конфі", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9209.MP4", url: "https://drive.google.com/file/d/1Pl_NlqqOzfHiAGVinODcS6ZDVPUe2-WF/view" }
   - { title: "Урок 9. Випікання. Декор", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9210.MP4", url: "https://drive.google.com/file/d/1KSbkJ2qgV0l9NmE1gyjQsU2ssZyxiwNF/view" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 405, protein: 6.4, fat: 27.5, carbs: 35.3 }
+nutrition_per_100g: { kcal: 354, protein: 5.6, fat: 24.0, carbs: 30.8 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

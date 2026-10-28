@@ -21,8 +21,10 @@ ingredients:
   - { name: білий шоколад, qty: 40, unit: г, part: обліпихова маса, note: "" }
   - { name: яйця, qty: 55, unit: г, part: вершкова маса, note: "1 шт, С0" }
 photo: img/oblipykhova-syrna-paska-z-zhuravlynoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1893, protein: 71.3, fat: 85.2, carbs: 223.8 }
+nutrition_per_100g: { kcal: 171, protein: 6.4, fat: 7.7, carbs: 20.3 }
+cooked_g_est: 1105
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

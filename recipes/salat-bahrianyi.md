@@ -20,8 +20,10 @@ ingredients:
   - { name: кінза, qty: null, unit: "", note: "на смак" }
   - { name: сіль, qty: null, unit: "", note: "на смак" }
   - { name: перець духмяний, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 361, protein: 28.9, fat: 20.0, carbs: 20.8 }
+nutrition_per_100g: { kcal: 102, protein: 8.1, fat: 5.6, carbs: 5.9 }
+cooked_g_est: 355
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

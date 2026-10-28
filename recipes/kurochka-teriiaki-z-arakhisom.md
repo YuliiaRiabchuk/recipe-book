@@ -18,8 +18,10 @@ ingredients:
   - { name: соус теріякі, qty: 2, unit: ст.л., note: "2–3 ст.л.; можна соєвий, але буде рідше" }
   - { name: кінза, qty: 5, unit: г, note: "або зелена цибуля, для прикраси" }
   - { name: арахіс смажений, qty: 5, unit: г, note: "" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 328, protein: 36.6, fat: 11.5, carbs: 20.9 }
+nutrition_per_100g: { kcal: 101, protein: 11.3, fat: 3.5, carbs: 6.5 }
+cooked_g_est: 324
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

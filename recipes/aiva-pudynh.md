@@ -17,8 +17,10 @@ ingredients:
   - { name: какао, qty: 10, unit: г, note: "" }
   - { name: сік лимона, qty: 7, unit: г, note: "" }
   - { name: кориця, qty: 0.5, unit: г, note: "на кінчику ножа" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 209, protein: 2.9, fat: 1.7, carbs: 55.8 }
+nutrition_per_100g: { kcal: 74, protein: 1.0, fat: 0.6, carbs: 19.8 }
+cooked_g_est: 282
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

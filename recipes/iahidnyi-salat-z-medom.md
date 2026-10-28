@@ -15,8 +15,10 @@ ingredients:
   - { name: грейпфрут, qty: 100, unit: г, note: "" }
   - { name: мед, qty: 10, unit: г, note: "" }
   - { name: ягоди заморожені, qty: 80, unit: г, note: "або 0.5 банана" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 190, protein: 3.1, fat: 1.4, carbs: 46.5 }
+nutrition_per_100g: { kcal: 61, protein: 1.0, fat: 0.5, carbs: 15.0 }
+cooked_g_est: 310
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

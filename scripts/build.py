@@ -18,7 +18,8 @@ MARKER_RE = re.compile(r"(<!-- DATA:START -->)(.*?)(<!-- DATA:END -->)", re.S)
 WARNINGS = []
 REQUIRED = ["id", "title", "source", "category", "tags", "servings", "time", "ingredients",
             "nutrition_per_serving", "nutrition_status", "status", "rating", "added"]
-OPTIONAL = ["subcategory", "photo", "videos", "related", "form_cm"]
+OPTIONAL = ["subcategory", "photo", "videos", "related", "form_cm",
+            "cooked_g", "nutrition_per_100g", "cooked_g_est", "nutrition_notes"]
 
 
 def is_num(v):
@@ -220,6 +221,20 @@ def validate_optional(meta):
     form = meta.get("form_cm")
     if form is not None and (not is_num(form) or form <= 0):
         errs.append("form_cm: діаметр форми в см, додатне число")
+    # КБЖВ на 100 г готової страви: вага з джерела (cooked_g) або оцінка скрипта (cooked_g_est)
+    for key in ("cooked_g", "cooked_g_est"):
+        v = meta.get(key)
+        if v is not None and (not isinstance(v, int) or v <= 0):
+            errs.append(f"{key}: вага готової страви в грамах, ціле додатне число")
+    n100 = meta.get("nutrition_per_100g")
+    if n100 is not None:
+        if not isinstance(n100, dict) or set(n100) != set(NUTRIENT_KEYS):
+            errs.append("nutrition_per_100g: має бути { kcal, protein, fat, carbs }")
+        elif any(n100[k] is not None and (not is_num(n100[k]) or n100[k] < 0) for k in NUTRIENT_KEYS):
+            errs.append("nutrition_per_100g: невідʼємні числа або null")
+    nn = meta.get("nutrition_notes")
+    if nn is not None and (not isinstance(nn, list) or not all(isinstance(x, str) for x in nn)):
+        errs.append("nutrition_notes: список рядків")
     return errs
 
 

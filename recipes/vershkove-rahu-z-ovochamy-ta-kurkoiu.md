@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "на смак" }
   - { name: орегано, qty: null, unit: "", note: "на смак" }
   - { name: зелень, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 407, protein: 40.8, fat: 18.8, carbs: 20.0 }
+nutrition_per_100g: { kcal: 95, protein: 9.5, fat: 4.4, carbs: 4.7 }
+cooked_g_est: 428
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

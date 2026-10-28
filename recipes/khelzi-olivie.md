@@ -8,6 +8,7 @@ source:
 category: салати
 tags: [святкове, хелзі, з-птицею]
 servings: 2
+cooked_g: 800
 time: { prep: null, cook: null }
 ingredients:
   - { name: картопля, qty: 100, unit: г, note: "" }
@@ -24,8 +25,9 @@ ingredients:
   - { name: цибуля, qty: 20, unit: г, note: "або більше за бажанням" }
 photo: img/khelzi-olivie.jpg
 related: [likarska-kovbasa]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 309, protein: 28.1, fat: 10.2, carbs: 26.4 }
+nutrition_per_100g: { kcal: 77, protein: 7.0, fat: 2.5, carbs: 6.6 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

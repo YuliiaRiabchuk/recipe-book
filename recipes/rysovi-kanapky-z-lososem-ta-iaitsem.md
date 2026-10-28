@@ -19,8 +19,10 @@ ingredients:
   - { name: орегано, qty: null, unit: "", note: "на смак" }
   - { name: кунжут, qty: null, unit: "", note: "на смак" }
   - { name: зелень, qty: null, unit: "", note: "або інші овочі, за бажанням" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 498, protein: 20.7, fat: 30.8, carbs: 35.3 }
+nutrition_per_100g: { kcal: 242, protein: 10.0, fat: 14.9, carbs: 17.1 }
+cooked_g_est: 206
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

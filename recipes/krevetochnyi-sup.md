@@ -21,8 +21,10 @@ ingredients:
   - { name: зелена цибуля, qty: null, unit: "", note: "кількість не вказана" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/krevetochnyi-sup.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 256, protein: 29.7, fat: 3.7, carbs: 26.0 }
+nutrition_per_100g: { kcal: 61, protein: 7.1, fat: 0.9, carbs: 6.2 }
+cooked_g_est: 1263
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

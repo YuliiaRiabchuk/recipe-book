@@ -23,8 +23,10 @@ photo: img/shvydke-tisto-dlia-pitsy.jpg
 videos:
   - { title: "Відео рецепта на YouTube", url: "https://www.youtube.com/watch?v=Sp9awQGnr2s" }
 related: [povitriana-pitsa-na-zakvastsi, tekhniky-roboty-z-tistom]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 780, protein: 29.5, fat: 19.9, carbs: 118.0 }
+nutrition_per_100g: { kcal: 251, protein: 9.5, fat: 6.4, carbs: 37.9 }
+cooked_g_est: 622
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-25

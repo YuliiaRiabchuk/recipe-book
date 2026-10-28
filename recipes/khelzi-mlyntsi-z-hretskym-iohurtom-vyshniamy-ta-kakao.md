@@ -9,6 +9,7 @@ category: сніданки
 subcategory: солодкі
 tags: [раціон-1550, хелзі, вегетаріанське, на-сковороді, святкове]
 servings: 1
+cooked_g: 335
 time: { prep: null, cook: null }
 ingredients:
   - { name: яйця, qty: 1, unit: шт, note: "" }
@@ -21,8 +22,9 @@ ingredients:
   - { name: олія, qty: 5, unit: г, note: "оливкова або кокосова, для смаження" }
   - { name: сіль, qty: null, unit: "", note: "на смак" }
   - { name: кориця, qty: null, unit: "", note: "на смак, або ванільний екстракт" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 429, protein: 22.1, fat: 18.3, carbs: 47.2 }
+nutrition_per_100g: { kcal: 128, protein: 6.6, fat: 5.5, carbs: 14.1 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

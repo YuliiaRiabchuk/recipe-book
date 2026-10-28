@@ -16,8 +16,10 @@ ingredients:
   - { name: какао, qty: 5, unit: г, note: "1 ч.л." }
   - { name: мед, qty: 5, unit: г, note: "" }
   - { name: горіхи, qty: 5, unit: г, note: "" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 177, protein: 11.1, fat: 9.1, carbs: 16.9 }
+nutrition_per_100g: { kcal: 107, protein: 6.7, fat: 5.5, carbs: 10.2 }
+cooked_g_est: 165
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

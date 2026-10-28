@@ -22,8 +22,10 @@ ingredients:
   - { name: чорний перець мелений, qty: null, unit: "", note: "за смаком" }
 photo: img/sous-tartar.jpg
 related: [klasychnyi-maionez, nyzkokaloriinyi-maionez]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1059, protein: 3.4, fat: 113.0, carbs: 9.1 }
+nutrition_per_100g: { kcal: 368, protein: 1.2, fat: 39.2, carbs: 3.2 }
+cooked_g_est: 288
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -8,6 +8,7 @@ source:
 category: салати
 tags: [святкове, хелзі, з-рибою, високобілкове]
 servings: 1
+cooked_g: 1000
 time: { prep: null, cook: null }
 ingredients:
   - { name: сардина консервована, qty: 250, unit: г, note: "у власному соку" }
@@ -20,8 +21,9 @@ ingredients:
   - { name: кучерява петрушка, qty: null, unit: "", note: "для прикраси" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/mimoza-vysokobilkova.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2476, protein: 96.8, fat: 199.2, carbs: 72.3 }
+nutrition_per_100g: { kcal: 248, protein: 9.7, fat: 19.9, carbs: 7.2 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

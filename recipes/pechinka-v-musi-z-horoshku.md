@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "до смаку" }
   - { name: перець чорний, qty: null, unit: "", note: "до смаку" }
   - { name: кріп, qty: null, unit: "", note: "або петрушка, до смаку" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 542, protein: 40.6, fat: 25.5, carbs: 37.9 }
+nutrition_per_100g: { kcal: 167, protein: 12.5, fat: 7.9, carbs: 11.7 }
+cooked_g_est: 324
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

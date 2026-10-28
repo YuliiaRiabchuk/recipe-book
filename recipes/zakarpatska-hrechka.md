@@ -20,8 +20,11 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "на смак" }
   - { name: спеції, qty: null, unit: "", note: "на смак" }
   - { name: зелень, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 604, protein: 41.1, fat: 26.8, carbs: 53.7 }
+nutrition_per_100g: { kcal: 125, protein: 8.5, fat: 5.5, carbs: 11.1 }
+cooked_g_est: 483
+nutrition_status: повний
+nutrition_notes: ["фарш телятини: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "трохи" }
   - { name: вершкове масло, qty: null, unit: "", note: "змастити сковороду" }
 photo: img/lavash-z-syrom-zelenniu-i-yaitsem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 388, protein: 29.0, fat: 20.2, carbs: 21.2 }
+nutrition_per_100g: { kcal: 185, protein: 13.8, fat: 9.6, carbs: 10.1 }
+cooked_g_est: 210
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

@@ -1,1 +1,2053 @@
-{}
+{
+  "авокадо": {
+    "fdc_id": 171705,
+    "fdc_name": "Avocados, raw, all commercial varieties",
+    "grams_per": {
+      "шт": 150
+    },
+    "g_per_ml": null
+  },
+  "айва": {
+    "fdc_id": 168163,
+    "fdc_name": "Quinces, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "ананас": {
+    "fdc_id": 169124,
+    "fdc_name": "Pineapple, raw, all varieties",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "анчоуси": {
+    "fdc_id": 174183,
+    "fdc_name": "Fish, anchovy, european, canned in oil, drained solids",
+    "grams_per": {
+      "шт": 4
+    },
+    "g_per_ml": null
+  },
+  "апельсин": {
+    "fdc_id": 169097,
+    "fdc_name": "Oranges, raw, all commercial varieties",
+    "grams_per": {
+      "шт": 184
+    },
+    "g_per_ml": null
+  },
+  "арахіс": {
+    "fdc_id": 173806,
+    "fdc_name": "Peanuts, all types, dry-roasted, without salt",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "арахіс смажений": {
+    "fdc_id": 173806,
+    "fdc_name": "Peanuts, all types, dry-roasted, without salt",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "арахісова паста": {
+    "fdc_id": 172470,
+    "fdc_name": "Peanut butter, smooth style, without salt",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "базилік": {
+    "fdc_id": 172232,
+    "fdc_name": "Basil, fresh",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "бальзамічний крем": {
+    "fdc_id": 172241,
+    "fdc_name": "Vinegar, balsamic",
+    "grams_per": {
+      "ч.л.": 5.3
+    },
+    "g_per_ml": null
+  },
+  "бальзамічний оцет": {
+    "ignore": true
+  },
+  "банан": {
+    "fdc_id": 173944,
+    "fdc_name": "Bananas, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "банани": {
+    "fdc_id": 173944,
+    "fdc_name": "Bananas, raw",
+    "grams_per": {
+      "шт": 101
+    },
+    "g_per_ml": null
+  },
+  "бекон": {
+    "fdc_id": 168277,
+    "fdc_name": "Pork, cured, bacon, unprepared",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "боби едамаме": {
+    "fdc_id": 168410,
+    "fdc_name": "Edamame, frozen, unprepared",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "болгарський перець": {
+    "fdc_id": 170108,
+    "fdc_name": "Peppers, sweet, red, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "борошно": {
+    "fdc_id": 168894,
+    "fdc_name": "Wheat flour, white, all-purpose, enriched, bleached",
+    "grams_per": {
+      "ст.л.": 9
+    },
+    "g_per_ml": null
+  },
+  "борошно гречане": {
+    "fdc_id": 170687,
+    "fdc_name": "Buckwheat flour, whole-groat",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "борошно для піци 00": {
+    "fdc_id": 2003586,
+    "fdc_name": "Flour, 00",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "борошно житнє": {
+    "fdc_id": 2512375,
+    "fdc_name": "Flour, rye",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "борошно пшеничне": {
+    "fdc_id": 168894,
+    "fdc_name": "Wheat flour, white, all-purpose, enriched, bleached",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "борошно пшеничне сильне": {
+    "fdc_id": 168896,
+    "fdc_name": "Wheat flour, white, bread, enriched",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "борошно спельтове": {
+    "fdc_id": 169745,
+    "fdc_name": "Spelt, uncooked",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "борошно цільнозернове": {
+    "fdc_id": 168893,
+    "fdc_name": "Wheat flour, whole-grain (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "брокколі": {
+    "fdc_id": 170379,
+    "fdc_name": "Broccoli, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "броколі": {
+    "fdc_id": 170379,
+    "fdc_name": "Broccoli, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "брюссельська капуста": {
+    "fdc_id": 170383,
+    "fdc_name": "Brussels sprouts, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "буряк": {
+    "fdc_id": 169146,
+    "fdc_name": "Beets, cooked, boiled, drained",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "білий неферментований солод": {
+    "fdc_id": 169740,
+    "fdc_name": "Barley malt flour",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "білий шоколад": {
+    "fdc_id": 167571,
+    "fdc_name": "Candies, white chocolate",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "білки": {
+    "fdc_id": 172183,
+    "fdc_name": "Egg, white, raw, fresh",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "білокачанна капуста": {
+    "fdc_id": 169975,
+    "fdc_name": "Cabbage, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "вʼялена вишня": {
+    "fdc_id": 171708,
+    "fdc_name": "Cherries, tart, dried, sweetened (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "ванільна паста": {
+    "fdc_id": 173471,
+    "fdc_name": "Vanilla extract",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "ванільна цукрова пудра": {
+    "fdc_id": 169656,
+    "fdc_name": "Sugars, powdered",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "ванільний екстракт": {
+    "fdc_id": 173471,
+    "fdc_name": "Vanilla extract",
+    "grams_per": {
+      "ч.л.": 4.2
+    },
+    "g_per_ml": null
+  },
+  "ванільний цукор": {
+    "fdc_id": 169655,
+    "fdc_name": "Sugars, granulated",
+    "grams_per": {
+      "шт": 10,
+      "ч.л.": 4.2
+    },
+    "g_per_ml": null
+  },
+  "варене згущене молоко": {
+    "fdc_id": 173461,
+    "fdc_name": "Dulce de Leche",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "вершки": {
+    "fdc_id": 171255,
+    "fdc_name": "Cream, fluid, half and half",
+    "grams_per": {},
+    "g_per_ml": 1.0
+  },
+  "вершкове масло": {
+    "fdc_id": 173430,
+    "fdc_name": "Butter, without salt",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "вишня": {
+    "fdc_id": 173954,
+    "fdc_name": "Cherries, sour, red, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "вишня консервована": {
+    "fdc_id": 167769,
+    "fdc_name": "Cherries, sour, canned, water pack, drained",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "вишні": {
+    "fdc_id": 171718,
+    "fdc_name": "Cherries, sour, red, frozen, unsweetened (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "водорості чука": {
+    "fdc_id": 170496,
+    "fdc_name": "Seaweed, wakame, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "волоський горіх": {
+    "fdc_id": 170187,
+    "fdc_name": "Nuts, walnuts, english",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "волоські горіхи": {
+    "fdc_id": 170187,
+    "fdc_name": "Nuts, walnuts, english",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "волоські горіхи й мигдаль": {
+    "fdc_id": 170187,
+    "fdc_name": "Nuts, walnuts, english",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "вустерський соус": {
+    "fdc_id": 171610,
+    "fdc_name": "Sauce, worcestershire",
+    "grams_per": {
+      "ч.л.": 6
+    },
+    "g_per_ml": null
+  },
+  "вівсяне борошно": {
+    "fdc_id": 2261421,
+    "fdc_name": "Flour, oat, whole grain",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "вівсянка": {
+    "fdc_id": 169705,
+    "fdc_name": "Oats (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "вівсяні пластівці": {
+    "fdc_id": 173904,
+    "fdc_name": "Cereals, oats, regular and quick, not fortified, dry",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "гарбуз": {
+    "fdc_id": 168448,
+    "fdc_name": "Pumpkin, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "гарбуз варений": {
+    "fdc_id": 168449,
+    "fdc_name": "Pumpkin, cooked, boiled, drained, without salt",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "гарбузове насіння": {
+    "fdc_id": 170556,
+    "fdc_name": "Seeds, pumpkin and squash seed kernels, dried",
+    "grams_per": {
+      "ст.л.": 8
+    },
+    "g_per_ml": null
+  },
+  "гарбузове пюре": {
+    "fdc_id": 168449,
+    "fdc_name": "Pumpkin, cooked, boiled, drained, without salt",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "горох сушений": {
+    "fdc_id": 172428,
+    "fdc_name": "Peas, green, split, mature seeds, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "горошок зелений": {
+    "fdc_id": 170016,
+    "fdc_name": "Peas, green, frozen, unprepared (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "горіхи": {
+    "fdc_id": 170187,
+    "fdc_name": "Nuts, walnuts, english",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "горіховий соус": {
+    "fdc_id": 174070,
+    "fdc_name": "Sauce, peanut, made from peanut butter, water, soy sauce",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "гострий перець": {
+    "fdc_id": 170106,
+    "fdc_name": "Peppers, hot chili, red, raw",
+    "grams_per": {
+      "шт": 45
+    },
+    "g_per_ml": null
+  },
+  "грейпфрут": {
+    "fdc_id": 174673,
+    "fdc_name": "Grapefruit, raw, pink and red, all areas",
+    "grams_per": {
+      "шт": 246
+    },
+    "g_per_ml": null
+  },
+  "грецький йогурт": {
+    "fdc_id": 171304,
+    "fdc_name": "Yogurt, Greek, plain, whole milk",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "гречка": {
+    "fdc_id": 170685,
+    "fdc_name": "Buckwheat groats, roasted, dry",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "гречка варена": {
+    "fdc_id": 170686,
+    "fdc_name": "Buckwheat groats, roasted, cooked",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "гриби": {
+    "fdc_id": 169251,
+    "fdc_name": "Mushrooms, white, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "груша": {
+    "fdc_id": 169118,
+    "fdc_name": "Pears, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "груші": {
+    "fdc_id": 169118,
+    "fdc_name": "Pears, raw",
+    "grams_per": {
+      "шт": 178
+    },
+    "g_per_ml": null
+  },
+  "густий йогурт": {
+    "fdc_id": 171304,
+    "fdc_name": "Yogurt, Greek, plain, whole milk",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "гірчиця": {
+    "fdc_id": 172234,
+    "fdc_name": "Mustard, prepared, yellow",
+    "grams_per": {
+      "ч.л.": 5
+    },
+    "g_per_ml": null
+  },
+  "гірчиця діжонська": {
+    "fdc_id": 172234,
+    "fdc_name": "Mustard, prepared, yellow",
+    "grams_per": {
+      "ч.л.": 5
+    },
+    "g_per_ml": null
+  },
+  "гірчиця зерниста": {
+    "fdc_id": 172234,
+    "fdc_name": "Mustard, prepared, yellow",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "дор-блю": {
+    "fdc_id": 172175,
+    "fdc_name": "Cheese, blue",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "дріжджі свіжі": {
+    "fdc_id": 175042,
+    "fdc_name": "Leavening agents, yeast, baker's, compressed",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "еспресо": {
+    "fdc_id": 171891,
+    "fdc_name": "Beverages, coffee, brewed, espresso, restaurant-prepared",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "желатин": {
+    "fdc_id": 169599,
+    "fdc_name": "Gelatins, dry powder, unsweetened",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "житній солодовий екстракт": {
+    "fdc_id": 169660,
+    "fdc_name": "Syrups, malt",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "жовтки": {
+    "fdc_id": 172184,
+    "fdc_name": "Egg, yolk, raw, fresh",
+    "grams_per": {
+      "шт": 17
+    },
+    "g_per_ml": null
+  },
+  "жовток": {
+    "fdc_id": 172184,
+    "fdc_name": "Egg, yolk, raw, fresh",
+    "grams_per": {
+      "шт": 17
+    },
+    "g_per_ml": null
+  },
+  "журавлина": {
+    "fdc_id": 171723,
+    "fdc_name": "Cranberries, dried, sweetened (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "журавлина сушена": {
+    "fdc_id": 171723,
+    "fdc_name": "Cranberries, dried, sweetened (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "закваска": {
+    "fdc_id": 168913,
+    "fdc_name": "Wheat flours, bread, unenriched",
+    "grams_per": {},
+    "g_per_ml": null,
+    "share": 0.5
+  },
+  "залишки закваски": {
+    "fdc_id": 168913,
+    "fdc_name": "Wheat flours, bread, unenriched",
+    "grams_per": {},
+    "g_per_ml": null,
+    "share": 0.5
+  },
+  "заморожені ягоди": {
+    "fdc_id": 168209,
+    "fdc_name": "Raspberries, frozen, red, unsweetened",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "згущене молоко": {
+    "fdc_id": 171275,
+    "fdc_name": "Milk, canned, condensed, sweetened",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "зелена гречка": {
+    "fdc_id": 170286,
+    "fdc_name": "Buckwheat",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "зелена цибуля": {
+    "fdc_id": 170005,
+    "fdc_name": "Onions, spring or scallions (includes tops and bulb), raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "зелений горошок": {
+    "fdc_id": 170016,
+    "fdc_name": "Peas, green, frozen, unprepared (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "зелень": {
+    "fdc_id": 170416,
+    "fdc_name": "Parsley, fresh",
+    "grams_per": {
+      "пучок": 30,
+      "ст.л.": 3.8
+    },
+    "g_per_ml": null
+  },
+  "йогурт": {
+    "fdc_id": 171284,
+    "fdc_name": "Yogurt, plain, whole milk",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "йогурт натуральний": {
+    "fdc_id": 171284,
+    "fdc_name": "Yogurt, plain, whole milk",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "кабачок": {
+    "fdc_id": 169291,
+    "fdc_name": "Squash, summer, zucchini, includes skin, raw",
+    "grams_per": {
+      "шт": 196
+    },
+    "g_per_ml": null
+  },
+  "кава розчинна": {
+    "fdc_id": 171893,
+    "fdc_name": "Beverages, coffee, instant, regular, powder",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "какао": {
+    "fdc_id": 169593,
+    "fdc_name": "Cocoa, dry powder, unsweetened",
+    "grams_per": {
+      "ст.л.": 5.4,
+      "ч.л.": 1.8
+    },
+    "g_per_ml": null
+  },
+  "какао-порошок": {
+    "fdc_id": 169593,
+    "fdc_name": "Cocoa, dry powder, unsweetened",
+    "grams_per": {
+      "ч.л.": 1.8
+    },
+    "g_per_ml": null
+  },
+  "камамбер": {
+    "fdc_id": 172178,
+    "fdc_name": "Cheese, camembert",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "каперси": {
+    "fdc_id": 172238,
+    "fdc_name": "Capers, canned",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "капуста червонокачанна": {
+    "fdc_id": 169977,
+    "fdc_name": "Cabbage, red, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "капустяне листя": {
+    "fdc_id": 169975,
+    "fdc_name": "Cabbage, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "каррі": {
+    "ignore": true
+  },
+  "картопля": {
+    "fdc_id": 170026,
+    "fdc_name": "Potatoes, flesh and skin, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "картопля варена": {
+    "fdc_id": 170438,
+    "fdc_name": "Potatoes, boiled, cooked in skin, flesh, without salt",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "картопля молода": {
+    "fdc_id": 170438,
+    "fdc_name": "Potatoes, boiled, cooked in skin, flesh, without salt",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "картопляне пюре": {
+    "fdc_id": 170026,
+    "fdc_name": "Potatoes, flesh and skin, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "квасоля": {
+    "fdc_id": 175194,
+    "fdc_name": "Beans, kidney, red, mature seeds, cooked, boiled, without salt",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "квасоля консервована": {
+    "fdc_id": 175182,
+    "fdc_name": "Beans, baked, canned, plain or vegetarian",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "кефір": {
+    "fdc_id": 170904,
+    "fdc_name": "Kefir, lowfat, plain, LIFEWAY",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "кешʼю": {
+    "fdc_id": 170162,
+    "fdc_name": "Nuts, cashew nuts, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "кисломолочний сир": {
+    "fdc_id": 172181,
+    "fdc_name": "Cheese, cottage, nonfat, uncreamed, dry, large or small curd",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "кокосова олія": {
+    "fdc_id": 171412,
+    "fdc_name": "Oil, coconut",
+    "grams_per": {},
+    "g_per_ml": 0.92
+  },
+  "кокосова стружка": {
+    "fdc_id": 170170,
+    "fdc_name": "Nuts, coconut meat, dried (desiccated), not sweetened",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "кокосове молоко": {
+    "fdc_id": 170173,
+    "fdc_name": "Nuts, coconut milk, canned (liquid expressed from grated meat and water)",
+    "grams_per": {},
+    "g_per_ml": 1.0
+  },
+  "коктейльні помідори": {
+    "fdc_id": 321360,
+    "fdc_name": "Tomatoes, grape, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "коньяк": {
+    "fdc_id": 174815,
+    "fdc_name": "Alcoholic beverage, distilled, all (gin, rum, vodka, whiskey) 80 proof",
+    "grams_per": {},
+    "g_per_ml": 0.95
+  },
+  "крабові палички": {
+    "fdc_id": 174203,
+    "fdc_name": "Crustaceans, crab, alaska king, imitation, made from surimi",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "креветки": {
+    "fdc_id": 175179,
+    "fdc_name": "Crustaceans, shrimp, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "крем-сир": {
+    "fdc_id": 173418,
+    "fdc_name": "Cheese, cream",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "крохмаль": {
+    "fdc_id": 169698,
+    "fdc_name": "Cornstarch",
+    "grams_per": {
+      "ст.л.": 9
+    },
+    "g_per_ml": null
+  },
+  "кріп": {
+    "fdc_id": 172233,
+    "fdc_name": "Dill weed, fresh",
+    "grams_per": {
+      "пучок": 30,
+      "дрібка": 0.5
+    },
+    "g_per_ml": null
+  },
+  "кріп і зелена цибуля": {
+    "fdc_id": 172233,
+    "fdc_name": "Dill weed, fresh",
+    "grams_per": {
+      "пучок": 30
+    },
+    "g_per_ml": null
+  },
+  "кукурудза": {
+    "fdc_id": 169214,
+    "fdc_name": "Corn, sweet, yellow, canned, whole kernel, drained solids",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "кукурудза консервована": {
+    "fdc_id": 169214,
+    "fdc_name": "Corn, sweet, yellow, canned, whole kernel, drained solids",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "кукурудзяний крохмаль": {
+    "fdc_id": 169698,
+    "fdc_name": "Cornstarch",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "кумин": {
+    "ignore": true
+  },
+  "кунжут": {
+    "fdc_id": 170150,
+    "fdc_name": "Seeds, sesame seeds, whole, dried",
+    "grams_per": {
+      "ч.л.": 3
+    },
+    "g_per_ml": null
+  },
+  "курага": {
+    "fdc_id": 173941,
+    "fdc_name": "Apricots, dried, sulfured, uncooked",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "курятина варена": {
+    "fdc_id": 171477,
+    "fdc_name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "куряче філе": {
+    "fdc_id": 171077,
+    "fdc_name": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "куряче філе стегна": {
+    "fdc_id": 173627,
+    "fdc_name": "Chicken, broilers or fryers, dark meat, thigh, meat only, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "курячий бульйон": {
+    "fdc_id": 172884,
+    "fdc_name": "Soup, stock, chicken, home-prepared",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "курячий фарш": {
+    "fdc_id": 2646170,
+    "fdc_name": "Chicken, breast, boneless, skinless, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "кускус": {
+    "fdc_id": 169699,
+    "fdc_name": "Couscous, dry",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "ківі": {
+    "fdc_id": 168153,
+    "fdc_name": "Kiwifruit, green, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "кінза": {
+    "fdc_id": 169997,
+    "fdc_name": "Coriander (cilantro) leaves, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "лаваш": {
+    "fdc_id": 172816,
+    "fdc_name": "Bread, pita, white, unenriched",
+    "grams_per": {
+      "шт": 60
+    },
+    "g_per_ml": null
+  },
+  "лаваш тонкий": {
+    "fdc_id": 172816,
+    "fdc_name": "Bread, pita, white, unenriched",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "лайм": {
+    "fdc_id": 168156,
+    "fdc_name": "Lime juice, raw",
+    "grams_per": {
+      "шт": 44
+    },
+    "g_per_ml": null
+  },
+  "лапша соба": {
+    "fdc_id": 168906,
+    "fdc_name": "Noodles, japanese, soba, dry",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "лимон": {
+    "fdc_id": 167747,
+    "fdc_name": "Lemon juice, raw",
+    "grams_per": {
+      "шт": 48
+    },
+    "g_per_ml": null
+  },
+  "лимонний сік": {
+    "fdc_id": 167747,
+    "fdc_name": "Lemon juice, raw",
+    "grams_per": {
+      "ст.л.": 15,
+      "ч.л.": 5
+    },
+    "g_per_ml": null
+  },
+  "листкове тісто": {
+    "fdc_id": 172790,
+    "fdc_name": "Puff pastry, frozen, ready-to-bake",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "листя салату": {
+    "fdc_id": 169249,
+    "fdc_name": "Lettuce, green leaf, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "лосось": {
+    "fdc_id": 175167,
+    "fdc_name": "Fish, salmon, Atlantic, farmed, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "лосось слабосолоний": {
+    "fdc_id": 175167,
+    "fdc_name": "Fish, salmon, Atlantic, farmed, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "лохина": {
+    "fdc_id": 171711,
+    "fdc_name": "Blueberries, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "лісові гриби": {
+    "fdc_id": 168422,
+    "fdc_name": "Mushrooms, Chanterelle, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "мʼякий сир": {
+    "fdc_id": 173418,
+    "fdc_name": "Cheese, cream",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "майонез": {
+    "fdc_id": 171009,
+    "fdc_name": "Salad dressing, mayonnaise, regular",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "майонез 28%": {
+    "fdc_id": 173594,
+    "fdc_name": "Salad dressing, mayonnaise, light",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "мак": {
+    "fdc_id": 171330,
+    "fdc_name": "Spices, poppy seed",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "макарони": {
+    "fdc_id": 168927,
+    "fdc_name": "Pasta, dry, unenriched",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "малина": {
+    "fdc_id": 167755,
+    "fdc_name": "Raspberries, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "манго": {
+    "fdc_id": 169910,
+    "fdc_name": "Mangos, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "мангове пюре": {
+    "fdc_id": 169910,
+    "fdc_name": "Mangos, raw",
+    "grams_per": {
+      "шт": 425
+    },
+    "g_per_ml": null
+  },
+  "манка": {
+    "fdc_id": 168933,
+    "fdc_name": "Semolina, unenriched",
+    "grams_per": {
+      "ст.л.": 10
+    },
+    "g_per_ml": null
+  },
+  "маринований огірок": {
+    "fdc_id": 168558,
+    "fdc_name": "Pickles, cucumber, dill or kosher dill",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "мариновані огірки": {
+    "fdc_id": 168558,
+    "fdc_name": "Pickles, cucumber, dill or kosher dill",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "маскарпоне": {
+    "fdc_id": 173418,
+    "fdc_name": "Cheese, cream",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "мед": {
+    "fdc_id": 169640,
+    "fdc_name": "Honey",
+    "grams_per": {
+      "ч.л.": 7
+    },
+    "g_per_ml": null
+  },
+  "мед гречаний": {
+    "fdc_id": 169640,
+    "fdc_name": "Honey",
+    "grams_per": {
+      "ст.л.": 21
+    },
+    "g_per_ml": null
+  },
+  "мигдалеві пластівці": {
+    "fdc_id": 170567,
+    "fdc_name": "Nuts, almonds",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "мигдаль": {
+    "fdc_id": 170567,
+    "fdc_name": "Nuts, almonds",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "мигдальне борошно": {
+    "fdc_id": 2261420,
+    "fdc_name": "Flour, almond",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "молоко": {
+    "fdc_id": 171267,
+    "fdc_name": "Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",
+    "grams_per": {
+      "ст.л.": 15
+    },
+    "g_per_ml": null
+  },
+  "молоко рослинне": {
+    "fdc_id": 2257045,
+    "fdc_name": "Almond milk, unsweetened, plain, refrigerated",
+    "grams_per": {},
+    "g_per_ml": 1.0
+  },
+  "молочний шоколад": {
+    "fdc_id": 167587,
+    "fdc_name": "Candies, milk chocolate",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "морепродукти": {
+    "fdc_id": 174216,
+    "fdc_name": "Mollusks, mussel, blue, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "морква": {
+    "fdc_id": 170393,
+    "fdc_name": "Carrots, raw",
+    "grams_per": {
+      "шт": 61
+    },
+    "g_per_ml": null
+  },
+  "моцарела": {
+    "fdc_id": 170845,
+    "fdc_name": "Cheese, mozzarella, whole milk",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "мікс насіння": {
+    "fdc_id": 170562,
+    "fdc_name": "Seeds, sunflower seed kernels, dried",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "насіння": {
+    "fdc_id": 169414,
+    "fdc_name": "Seeds, flaxseed",
+    "grams_per": {
+      "ст.л.": 10
+    },
+    "g_per_ml": null
+  },
+  "насіння соняшника": {
+    "fdc_id": 170562,
+    "fdc_name": "Seeds, sunflower seed kernels, dried",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "насіння соняшнику": {
+    "fdc_id": 170562,
+    "fdc_name": "Seeds, sunflower seed kernels, dried",
+    "grams_per": {
+      "ст.л.": 9
+    },
+    "g_per_ml": null
+  },
+  "насіння чіа": {
+    "fdc_id": 170554,
+    "fdc_name": "Seeds, chia seeds, dried",
+    "grams_per": {
+      "ст.л.": 12
+    },
+    "g_per_ml": null
+  },
+  "норі": {
+    "fdc_id": 168458,
+    "fdc_name": "Seaweed, laver, raw",
+    "grams_per": {
+      "шт": 2.6
+    },
+    "g_per_ml": null
+  },
+  "нут": {
+    "fdc_id": 173757,
+    "fdc_name": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "обліпиха": {
+    "fdc_id": 171697,
+    "fdc_name": "Apricots, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "овочі": {
+    "fdc_id": 170471,
+    "fdc_name": "Vegetables, mixed, frozen, unprepared",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "овочі для грилю": {
+    "fdc_id": 169228,
+    "fdc_name": "Eggplant, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "овочі свіжі": {
+    "fdc_id": 170108,
+    "fdc_name": "Peppers, sweet, red, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "огірок": {
+    "fdc_id": 168409,
+    "fdc_name": "Cucumber, with peel, raw",
+    "grams_per": {
+      "шт": 110
+    },
+    "g_per_ml": null
+  },
+  "огірок маринований": {
+    "fdc_id": 168558,
+    "fdc_name": "Pickles, cucumber, dill or kosher dill",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "оливки без кісточки": {
+    "fdc_id": 169094,
+    "fdc_name": "Olives, ripe, canned (small-extra large)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "оливкова олія": {
+    "fdc_id": 171413,
+    "fdc_name": "Oil, olive, salad or cooking",
+    "grams_per": {
+      "ст.л.": 13.5,
+      "ч.л.": 4.5
+    },
+    "g_per_ml": 0.92
+  },
+  "олія": {
+    "fdc_id": 171025,
+    "fdc_name": "Oil, sunflower, linoleic, (approx. 65%)",
+    "grams_per": {
+      "ст.л.": 14
+    },
+    "g_per_ml": 0.92
+  },
+  "олія без запаху": {
+    "fdc_id": 171025,
+    "fdc_name": "Oil, sunflower, linoleic, (approx. 65%)",
+    "grams_per": {},
+    "g_per_ml": 0.92
+  },
+  "олія кокосова": {
+    "fdc_id": 171412,
+    "fdc_name": "Oil, coconut",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "олія соняшникова": {
+    "fdc_id": 171025,
+    "fdc_name": "Oil, sunflower, linoleic, (approx. 65%)",
+    "grams_per": {
+      "ст.л.": 14,
+      "ч.л.": 4.5
+    },
+    "g_per_ml": 0.92
+  },
+  "орегано": {
+    "ignore": true
+  },
+  "оселедець": {
+    "fdc_id": 175116,
+    "fdc_name": "Fish, herring, Atlantic, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "оселедець слабосолоний": {
+    "fdc_id": 175116,
+    "fdc_name": "Fish, herring, Atlantic, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "оцет": {
+    "ignore": true
+  },
+  "оцет 6%": {
+    "ignore": true
+  },
+  "оцет яблучний": {
+    "ignore": true
+  },
+  "папая консервована": {
+    "fdc_id": 169927,
+    "fdc_name": "Papaya, canned, heavy syrup, drained",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "паприка копчена": {
+    "ignore": true
+  },
+  "пармезан": {
+    "fdc_id": 171247,
+    "fdc_name": "Cheese, parmesan, grated",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "пектин nh": {
+    "fdc_id": 168821,
+    "fdc_name": "Pectin, unsweetened, dry mix",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "пекінська капуста": {
+    "fdc_id": 169979,
+    "fdc_name": "Cabbage, chinese (pe-tsai), raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "перець болгарський": {
+    "fdc_id": 170108,
+    "fdc_name": "Peppers, sweet, red, raw",
+    "grams_per": {
+      "шт": 119
+    },
+    "g_per_ml": null
+  },
+  "перець чорний горошком": {
+    "ignore": true
+  },
+  "песто": {
+    "fdc_id": 171579,
+    "fdc_name": "Sauce, pesto, ready-to-serve, refrigerated",
+    "grams_per": {
+      "ст.л.": 16
+    },
+    "g_per_ml": null
+  },
+  "печериці": {
+    "fdc_id": 169251,
+    "fdc_name": "Mushrooms, white, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "печиво орео": {
+    "fdc_id": 172718,
+    "fdc_name": "Cookies, chocolate sandwich, with creme filling, regular",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "печиво савоярді": {
+    "fdc_id": 172821,
+    "fdc_name": "Cookies, ladyfingers, without lemon juice and rind",
+    "grams_per": {
+      "шт": 11
+    },
+    "g_per_ml": null
+  },
+  "печінка куряча": {
+    "fdc_id": 171060,
+    "fdc_name": "Chicken, liver, all classes, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "полуниця": {
+    "fdc_id": 167762,
+    "fdc_name": "Strawberries, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "помідор": {
+    "fdc_id": 170457,
+    "fdc_name": "Tomatoes, red, ripe, raw, year round average",
+    "grams_per": {
+      "шт": 120
+    },
+    "g_per_ml": null
+  },
+  "помідори": {
+    "fdc_id": 170457,
+    "fdc_name": "Tomatoes, red, ripe, raw, year round average",
+    "grams_per": {
+      "шт": 120
+    },
+    "g_per_ml": null
+  },
+  "помідори черрі": {
+    "fdc_id": 321360,
+    "fdc_name": "Tomatoes, grape, raw",
+    "grams_per": {
+      "шт": 17
+    },
+    "g_per_ml": null
+  },
+  "псиліум": {
+    "ignore": true
+  },
+  "пюре малини": {
+    "fdc_id": 167808,
+    "fdc_name": "Raspberries, puree, seedless",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "пюре манго": {
+    "fdc_id": 169910,
+    "fdc_name": "Mangos, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "пюре маракуї": {
+    "fdc_id": 169110,
+    "fdc_name": "Passion-fruit juice, yellow, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "пюре червоного апельсина": {
+    "fdc_id": 169097,
+    "fdc_name": "Oranges, raw, all commercial varieties",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "пюре чорниці": {
+    "fdc_id": 171711,
+    "fdc_name": "Blueberries, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "пюре чорної смородини": {
+    "fdc_id": 173963,
+    "fdc_name": "Currants, european black, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "пісочне печиво": {
+    "fdc_id": 174950,
+    "fdc_name": "Cookies, butter, commercially prepared, enriched",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "редис": {
+    "fdc_id": 169276,
+    "fdc_name": "Radishes, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "риба": {
+    "fdc_id": 171955,
+    "fdc_name": "Fish, cod, Atlantic, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "рис": {
+    "fdc_id": 169756,
+    "fdc_name": "Rice, white, long-grain, regular, raw, unenriched",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "рис бурий": {
+    "fdc_id": 169703,
+    "fdc_name": "Rice, brown, long-grain, raw (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "рис білий": {
+    "fdc_id": 169756,
+    "fdc_name": "Rice, white, long-grain, regular, raw, unenriched",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "рис нешліфований": {
+    "fdc_id": 169704,
+    "fdc_name": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "рисова локшина": {
+    "fdc_id": 169742,
+    "fdc_name": "Rice noodles, dry",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "рисові хлібці": {
+    "fdc_id": 170250,
+    "fdc_name": "Snacks, rice cakes, brown rice, plain, unsalted",
+    "grams_per": {
+      "шт": 9
+    },
+    "g_per_ml": null
+  },
+  "родзинки": {
+    "fdc_id": 168165,
+    "fdc_name": "Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "рослинне молоко": {
+    "fdc_id": 174832,
+    "fdc_name": "Beverages, almond milk, unsweetened, shelf stable",
+    "grams_per": {},
+    "g_per_ml": 1.0
+  },
+  "рукола": {
+    "fdc_id": 169387,
+    "fdc_name": "Arugula, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "ряжанка 4%": {
+    "fdc_id": 172225,
+    "fdc_name": "Milk, buttermilk, fluid, whole",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "річкова риба": {
+    "fdc_id": 171952,
+    "fdc_name": "Fish, carp, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "салат айсберг": {
+    "fdc_id": 169248,
+    "fdc_name": "Lettuce, iceberg (includes crisphead types), raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сардина консервована": {
+    "fdc_id": 175139,
+    "fdc_name": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "свинина": {
+    "fdc_id": 168312,
+    "fdc_name": "Pork, fresh, loin, tenderloin, separable lean and fat, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "свиняча вирізка": {
+    "fdc_id": 2646169,
+    "fdc_name": "Pork, loin, tenderloin, boneless, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "селера стеблова": {
+    "fdc_id": 169988,
+    "fdc_name": "Celery, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сир": {
+    "fdc_id": 171247,
+    "fdc_name": "Cheese, parmesan, grated",
+    "grams_per": {
+      "ст.л.": 5
+    },
+    "g_per_ml": null
+  },
+  "сир дорблю": {
+    "fdc_id": 172175,
+    "fdc_name": "Cheese, blue",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сир зернистий": {
+    "fdc_id": 172179,
+    "fdc_name": "Cheese, cottage, creamed, large or small curd",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сир кисломолочний": {
+    "fdc_id": 172179,
+    "fdc_name": "Cheese, cottage, creamed, large or small curd",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сир мʼякий вершковий": {
+    "fdc_id": 173418,
+    "fdc_name": "Cheese, cream",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сир твердий": {
+    "fdc_id": 171241,
+    "fdc_name": "Cheese, gouda",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сир фета": {
+    "fdc_id": 173420,
+    "fdc_name": "Cheese, feta",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сироп глюкози": {
+    "fdc_id": 168837,
+    "fdc_name": "Syrups, corn, light",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сметана": {
+    "fdc_id": 171256,
+    "fdc_name": "Cream, sour, reduced fat, cultured",
+    "grams_per": {
+      "ст.л.": 15
+    },
+    "g_per_ml": null
+  },
+  "сметана 10%": {
+    "fdc_id": 171256,
+    "fdc_name": "Cream, sour, reduced fat, cultured",
+    "grams_per": {
+      "ст.л.": 15
+    },
+    "g_per_ml": null
+  },
+  "солод ячмінний": {
+    "fdc_id": 169740,
+    "fdc_name": "Barley malt flour",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "соус песто": {
+    "fdc_id": 171579,
+    "fdc_name": "Sauce, pesto, ready-to-serve, refrigerated",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "соус тартар": {
+    "fdc_id": 171826,
+    "fdc_name": "Sauce, tartar, ready-to-serve",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "соус теріякі": {
+    "fdc_id": 171167,
+    "fdc_name": "Sauce, teriyaki, ready-to-serve",
+    "grams_per": {
+      "ст.л.": 18,
+      "ч.л.": 6
+    },
+    "g_per_ml": null
+  },
+  "соус цезар": {
+    "fdc_id": 169055,
+    "fdc_name": "Salad dressing, caesar dressing, regular",
+    "grams_per": {
+      "ст.л.": 14.7
+    },
+    "g_per_ml": null
+  },
+  "сочевиця": {
+    "fdc_id": 172420,
+    "fdc_name": "Lentils, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "соєвий соус": {
+    "fdc_id": 174277,
+    "fdc_name": "Soy sauce made from soy and wheat (shoyu)",
+    "grams_per": {
+      "ст.л.": 16
+    },
+    "g_per_ml": null
+  },
+  "спагеті": {
+    "fdc_id": 168927,
+    "fdc_name": "Pasta, dry, unenriched",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "спаржа": {
+    "fdc_id": 168389,
+    "fdc_name": "Asparagus, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сублімована малина": {
+    "ignore": true
+  },
+  "суміш сухофруктів": {
+    "fdc_id": 168165,
+    "fdc_name": "Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сухофрукти": {
+    "fdc_id": 171723,
+    "fdc_name": "Cranberries, dried, sweetened (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сушена журавлина": {
+    "fdc_id": 171723,
+    "fdc_name": "Cranberries, dried, sweetened (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "сушені трави": {
+    "ignore": true
+  },
+  "сік лайма": {
+    "fdc_id": 168156,
+    "fdc_name": "Lime juice, raw",
+    "grams_per": {
+      "ст.л.": 15
+    },
+    "g_per_ml": null
+  },
+  "сік лимона": {
+    "fdc_id": 167747,
+    "fdc_name": "Lemon juice, raw",
+    "grams_per": {
+      "ст.л.": 15,
+      "ч.л.": 5
+    },
+    "g_per_ml": null
+  },
+  "тахіні": {
+    "fdc_id": 170189,
+    "fdc_name": "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",
+    "grams_per": {
+      "ст.л.": 15
+    },
+    "g_per_ml": null
+  },
+  "твердий сир": {
+    "fdc_id": 171244,
+    "fdc_name": "Cheese, mozzarella, low moisture, part-skim",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "творог": {
+    "fdc_id": 172179,
+    "fdc_name": "Cheese, cottage, creamed, large or small curd",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "творог 5%": {
+    "fdc_id": 172179,
+    "fdc_name": "Cheese, cottage, creamed, large or small curd",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "телятина": {
+    "fdc_id": 173840,
+    "fdc_name": "Veal, sirloin, separable lean only, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "телячий фарш": {
+    "fdc_id": 175290,
+    "fdc_name": "Veal, ground, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "темний шоколад": {
+    "fdc_id": 170272,
+    "fdc_name": "Chocolate, dark, 60-69% cacao solids",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "томати у власному соку": {
+    "fdc_id": 170051,
+    "fdc_name": "Tomatoes, red, ripe, canned, packed in tomato juice",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "томати чері": {
+    "fdc_id": 321360,
+    "fdc_name": "Tomatoes, grape, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "томатна паста": {
+    "fdc_id": 170459,
+    "fdc_name": "Tomato products, canned, paste, without salt added (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {
+      "ст.л.": 16
+    },
+    "g_per_ml": null
+  },
+  "томатний соус": {
+    "fdc_id": 170054,
+    "fdc_name": "Tomato products, canned, sauce",
+    "grams_per": {
+      "ст.л.": 15
+    },
+    "g_per_ml": null
+  },
+  "тортилья": {
+    "fdc_id": 167535,
+    "fdc_name": "Tortillas, ready-to-bake or -fry, flour, shelf stable",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "тофу": {
+    "fdc_id": 172475,
+    "fdc_name": "Tofu, raw, firm, prepared with calcium sulfate",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "тунець консервований": {
+    "fdc_id": 173709,
+    "fdc_name": "Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "фарш курячого філе": {
+    "fdc_id": 171077,
+    "fdc_name": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "фарш телятини": {
+    "fdc_id": 175290,
+    "fdc_name": "Veal, ground, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "фундук": {
+    "fdc_id": 170581,
+    "fdc_name": "Nuts, hazelnuts or filberts",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "фунчоза": {
+    "fdc_id": 174258,
+    "fdc_name": "Noodles, chinese, cellophane or long rice (mung beans), dehydrated",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "філе білої риби": {
+    "fdc_id": 171955,
+    "fdc_name": "Fish, cod, Atlantic, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "філе тілапії": {
+    "fdc_id": 175176,
+    "fdc_name": "Fish, tilapia, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "філе індички": {
+    "fdc_id": 171098,
+    "fdc_name": "Turkey, whole, breast, meat only, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "фініки": {
+    "fdc_id": 168191,
+    "fdc_name": "Dates, medjool",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "фіолетова цибуля": {
+    "fdc_id": 790577,
+    "fdc_name": "Onions, red, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "фісташкова паста": {
+    "fdc_id": 170185,
+    "fdc_name": "Nuts, pistachio nuts, dry roasted, without salt added",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "хліб": {
+    "fdc_id": 325871,
+    "fdc_name": "Bread, white, commercially prepared",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "хліб житній": {
+    "fdc_id": 172684,
+    "fdc_name": "Bread, rye",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "хумус": {
+    "fdc_id": 174289,
+    "fdc_name": "Hummus, commercial",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "хурма": {
+    "fdc_id": 169941,
+    "fdc_name": "Persimmons, japanese, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "цвітна капуста": {
+    "fdc_id": 169986,
+    "fdc_name": "Cauliflower, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "цедра лимона": {
+    "fdc_id": 167749,
+    "fdc_name": "Lemon peel, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "цибуля": {
+    "fdc_id": 170000,
+    "fdc_name": "Onions, raw",
+    "grams_per": {
+      "шт": 110
+    },
+    "g_per_ml": null
+  },
+  "цибуля ріпчаста": {
+    "fdc_id": 170000,
+    "fdc_name": "Onions, raw",
+    "grams_per": {
+      "шт": 110
+    },
+    "g_per_ml": null
+  },
+  "цибуля червона": {
+    "fdc_id": 790577,
+    "fdc_name": "Onions, red, raw",
+    "grams_per": {
+      "шт": 110
+    },
+    "g_per_ml": null
+  },
+  "цукати": {
+    "fdc_id": 167781,
+    "fdc_name": "Candied fruit",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "цукор": {
+    "fdc_id": 169655,
+    "fdc_name": "Sugars, granulated",
+    "grams_per": {
+      "ст.л.": 12,
+      "ч.л.": 4
+    },
+    "g_per_ml": null
+  },
+  "цукрова пудра": {
+    "fdc_id": 169656,
+    "fdc_name": "Sugars, powdered",
+    "grams_per": {
+      "ст.л.": 8
+    },
+    "g_per_ml": null
+  },
+  "цільнозернове борошно": {
+    "fdc_id": 168893,
+    "fdc_name": "Wheat flour, whole-grain (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "цільнозерновий хліб": {
+    "fdc_id": 172688,
+    "fdc_name": "Bread, whole-wheat, commercially prepared",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "часник": {
+    "fdc_id": 169230,
+    "fdc_name": "Garlic, raw",
+    "grams_per": {
+      "зубчик": 3
+    },
+    "g_per_ml": null
+  },
+  "часниковий порошок": {
+    "ignore": true
+  },
+  "червонокачанна капуста": {
+    "fdc_id": 169977,
+    "fdc_name": "Cabbage, red, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "чорний перець мелений": {
+    "ignore": true
+  },
+  "чорнослив": {
+    "fdc_id": 168162,
+    "fdc_name": "Plums, dried (prunes), uncooked",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "шампіньйони": {
+    "fdc_id": 169251,
+    "fdc_name": "Mushrooms, white, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "шинка": {
+    "fdc_id": 173864,
+    "fdc_name": "Ham, sliced, regular (approximately 11% fat)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "шинка з індички": {
+    "fdc_id": 168092,
+    "fdc_name": "Ham, turkey, sliced, extra lean, prepackaged or deli",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "шоколад": {
+    "fdc_id": 170272,
+    "fdc_name": "Chocolate, dark, 60-69% cacao solids",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "шпинат": {
+    "fdc_id": 168462,
+    "fdc_name": "Spinach, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "щавель": {
+    "fdc_id": 170076,
+    "fdc_name": "Dock, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "яблуко": {
+    "fdc_id": 171688,
+    "fdc_name": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "яблучний оцет": {
+    "ignore": true
+  },
+  "ягоди": {
+    "fdc_id": 167755,
+    "fdc_name": "Raspberries, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "ягоди заморожені": {
+    "fdc_id": 168209,
+    "fdc_name": "Raspberries, frozen, red, unsweetened",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "яйце": {
+    "fdc_id": 171287,
+    "fdc_name": "Egg, whole, raw, fresh",
+    "grams_per": {
+      "шт": 50
+    },
+    "g_per_ml": null
+  },
+  "яйце варене": {
+    "fdc_id": 173424,
+    "fdc_name": "Egg, whole, cooked, hard-boiled",
+    "grams_per": {
+      "шт": 50
+    },
+    "g_per_ml": null
+  },
+  "яйця": {
+    "fdc_id": 171287,
+    "fdc_name": "Egg, whole, raw, fresh",
+    "grams_per": {
+      "шт": 50
+    },
+    "g_per_ml": null
+  },
+  "яйця варені": {
+    "fdc_id": 173424,
+    "fdc_name": "Egg, whole, cooked, hard-boiled",
+    "grams_per": {
+      "шт": 50
+    },
+    "g_per_ml": null
+  },
+  "яловичий фарш": {
+    "fdc_id": 174030,
+    "fdc_name": "Beef, ground, 90% lean meat / 10% fat, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "яловичина": {
+    "fdc_id": 2727574,
+    "fdc_name": "Beef, top sirloin steak, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  },
+  "яєчний білок": {
+    "fdc_id": 172183,
+    "fdc_name": "Egg, white, raw, fresh",
+    "grams_per": {
+      "шт": 33
+    },
+    "g_per_ml": null
+  },
+  "яєчний жовток": {
+    "fdc_id": 172184,
+    "fdc_name": "Egg, yolk, raw, fresh",
+    "grams_per": {
+      "шт": 17
+    },
+    "g_per_ml": null
+  },
+  "імбир": {
+    "fdc_id": 169231,
+    "fdc_name": "Ginger root, raw",
+    "grams_per": {},
+    "g_per_ml": null
+  }
+}

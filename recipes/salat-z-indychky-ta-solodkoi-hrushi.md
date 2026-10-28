@@ -21,8 +21,10 @@ ingredients:
   - { name: спеції, qty: null, unit: "", note: "на смак" }
   - { name: мед, qty: 7, unit: г, note: "за бажанням" }
   - { name: бальзамік, qty: null, unit: "", note: "на свій смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 326, protein: 26.0, fat: 13.5, carbs: 27.2 }
+nutrition_per_100g: { kcal: 86, protein: 6.9, fat: 3.6, carbs: 7.2 }
+cooked_g_est: 379
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

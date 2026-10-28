@@ -22,8 +22,10 @@ ingredients:
   - { name: начинка, qty: null, unit: "", note: "за смаком" }
 photo: img/povitriana-pitsa-na-zakvastsi.jpg
 related: [pshenychna-zakvaska-100-volohosti, fermentatsiia, boroshno]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 813, protein: 23.3, fat: 11.5, carbs: 154.3 }
+nutrition_per_100g: { kcal: 248, protein: 7.1, fat: 3.5, carbs: 47.0 }
+cooked_g_est: 985
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -14,8 +14,10 @@ ingredients:
   - { name: грейпфрут, qty: 1, unit: шт, note: "" }
   - { name: заморожені ягоди, qty: 40, unit: г, note: "40–60 г, суміш" }
   - { name: вода, qty: 50, unit: мл, note: "або більше" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 150, protein: 2.9, fat: 0.8, carbs: 37.0 }
+nutrition_per_100g: { kcal: 38, protein: 0.7, fat: 0.2, carbs: 9.3 }
+cooked_g_est: 396
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

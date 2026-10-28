@@ -19,8 +19,11 @@ ingredients:
   - { name: рукола, qty: null, unit: "", note: "або шпинат, за бажанням" }
   - { name: сіль, qty: null, unit: "", note: "на смак" }
   - { name: спеції, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 626, protein: 40.3, fat: 30.7, carbs: 52.3 }
+nutrition_per_100g: { kcal: 130, protein: 8.4, fat: 6.4, carbs: 10.8 }
+cooked_g_est: 482
+nutrition_status: повний
+nutrition_notes: ["фарш телятини: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-10-16

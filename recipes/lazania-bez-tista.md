@@ -9,6 +9,7 @@ category: основні
 subcategory: котлети, фарш і запіканки
 tags: [святкове, хелзі, з-мʼясом, в-духовці]
 servings: 1
+cooked_g: 1200
 time: { prep: null, cook: 35 }
 ingredients:
   - { name: яловичий фарш, qty: 400, unit: г, note: "нежирний" }
@@ -22,8 +23,10 @@ ingredients:
   - { name: перець чорний, qty: 2, unit: г, note: "мелений, 0,5 ч.л." }
   - { name: орегано, qty: 3, unit: г, note: "сушений, 1 ч.л." }
 photo: img/lazania-bez-tista.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1430, protein: 132.7, fat: 74.0, carbs: 64.3 }
+nutrition_per_100g: { kcal: 119, protein: 11.1, fat: 6.2, carbs: 5.4 }
+nutrition_status: повний
+nutrition_notes: ["яловичий фарш: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-10-16

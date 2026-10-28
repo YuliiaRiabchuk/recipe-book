@@ -9,6 +9,7 @@ category: десерти
 subcategory: чизкейки
 tags: [чизкейк, в-духовці, на-вихідні]
 servings: 12
+cooked_g: 1000
 time: { prep: 30, cook: 80 }
 ingredients:
   - { name: борошно пшеничне, qty: 175, unit: г, part: основа, note: "" }
@@ -30,8 +31,9 @@ form_cm: 18
 videos:
   - { title: "Урок 23, перше відео. Основа з готового печива", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_1136.MP4", url: "https://drive.google.com/file/d/1IS2XiOtRpPUPw7WNxov7awhmdD3Bb7y4/view" }
   - { title: "Урок 23, друге відео. Печиво для основи самостійно", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_1137.MP4", url: "https://drive.google.com/file/d/1JaWOqME4Iu8u2H_tiP1AKFbR4pdQ14AW/view" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 397, protein: 6.6, fat: 26.8, carbs: 33.4 }
+nutrition_per_100g: { kcal: 476, protein: 7.9, fat: 32.1, carbs: 40.1 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

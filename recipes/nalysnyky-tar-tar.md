@@ -9,6 +9,7 @@ category: основні
 subcategory: млинці й роли
 tags: [святкове, хелзі, з-рибою, на-сковороді]
 servings: 1
+cooked_g: 574
 time: { prep: null, cook: null }
 ingredients:
   - { name: вівсяне борошно, qty: 100, unit: г, part: налисники, note: "можна пшеничне, але буде менш ситно" }
@@ -20,8 +21,9 @@ ingredients:
   - { name: кріп, qty: 10, unit: г, part: начинка, note: "" }
   - { name: маринований огірок, qty: 50, unit: г, part: начинка, note: "" }
 photo: img/nalysnyky-tar-tar.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1013, protein: 75.9, fat: 35.5, carbs: 94.6 }
+nutrition_per_100g: { kcal: 176, protein: 13.2, fat: 6.2, carbs: 16.5 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

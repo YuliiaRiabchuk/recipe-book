@@ -19,8 +19,10 @@ ingredients:
   - { name: какао-порошок, qty: 1, unit: ч.л., note: "за бажанням" }
   - { name: ягоди, qty: 100, unit: г, note: "або фрукти, для начинки" }
 photo: img/tvorozhnyi-mus-z-yahodamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 224, protein: 21.4, fat: 7.3, carbs: 19.3 }
+nutrition_per_100g: { kcal: 86, protein: 8.2, fat: 2.8, carbs: 7.4 }
+cooked_g_est: 522
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

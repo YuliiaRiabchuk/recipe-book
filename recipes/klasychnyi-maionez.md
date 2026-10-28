@@ -19,8 +19,10 @@ ingredients:
   - { name: олія, qty: 160, unit: мл, note: "краще авокадо або волоського горіха" }
   - { name: базилік, qty: 15, unit: г, note: "за бажанням, для базилікового соусу" }
 photo: img/klasychnyi-maionez.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1469, protein: 13.7, fat: 157.4, carbs: 5.5 }
+nutrition_per_100g: { kcal: 487, protein: 4.5, fat: 52.1, carbs: 1.8 }
+cooked_g_est: 302
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

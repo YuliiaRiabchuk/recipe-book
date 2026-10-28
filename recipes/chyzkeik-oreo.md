@@ -38,8 +38,10 @@ videos:
   - { title: "Урок 1. Шоколадна основа", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9139.MP4", url: "https://drive.google.com/file/d/1DM9KTpxcHIdsl1mZhpOrc3Bj45-GsKs8/view" }
   - { title: "Урок 2. Сирна маса: шоколадний шар і шар з орео. Випікання. Стабілізація", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9140.MP4", url: "https://drive.google.com/file/d/1MaeICMhsBwgSk1AmNqQF9MECdtMAkL3M/view" }
   - { title: "Урок 3. Шоколадний крем для декору", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9141.MP4", url: "https://drive.google.com/file/d/1Z_bSnyNP7HtN3Y1DR0GY_1lGdnRlE0BZ/view" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 395, protein: 6.6, fat: 24.5, carbs: 38.9 }
+nutrition_per_100g: { kcal: 376, protein: 6.3, fat: 23.3, carbs: 36.9 }
+cooked_g_est: 1684
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

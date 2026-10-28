@@ -9,6 +9,7 @@ category: закуски
 subcategory: мʼясні й рибні
 tags: [святкове, хелзі, з-мʼясом, в-духовці]
 servings: 1
+cooked_g: 1060
 time: { prep: 60, cook: 75 }
 ingredients:
   - { name: свиняча вирізка, qty: 1, unit: кг, note: "або індиче філе" }
@@ -21,8 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: мед, qty: 2, unit: ч.л., note: "для карамельної скоринки" }
 photo: img/buzhenyna-ne-zhyrna.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1475, protein: 217.2, fat: 56.5, carbs: 34.7 }
+nutrition_per_100g: { kcal: 139, protein: 20.5, fat: 5.3, carbs: 3.3 }
+nutrition_status: повний
+nutrition_notes: ["свиняча вирізка: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-10-16

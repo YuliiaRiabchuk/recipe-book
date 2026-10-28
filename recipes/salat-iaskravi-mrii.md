@@ -8,6 +8,7 @@ source:
 category: салати
 tags: [святкове, хелзі, з-рибою]
 servings: 4
+cooked_g: 740
 time: { prep: null, cook: null }
 ingredients:
   - { name: лосось слабосолоний, qty: 200, unit: г, part: лосось і фрукти, note: "або оселедець" }
@@ -25,8 +26,9 @@ ingredients:
   - { name: кунжут, qty: 5, unit: г, part: збирання, note: "1 ч.л." }
   - { name: мікрогрін, qty: null, unit: "", part: збирання, note: "або зелень" }
 photo: img/salat-iaskravi-mrii.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 224, protein: 11.7, fat: 14.1, carbs: 13.6 }
+nutrition_per_100g: { kcal: 121, protein: 6.3, fat: 7.6, carbs: 7.4 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

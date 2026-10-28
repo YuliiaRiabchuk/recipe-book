@@ -9,6 +9,7 @@ category: десерти
 subcategory: чизкейки
 tags: [чизкейк, в-духовці, на-вихідні, святкове]
 servings: 12
+cooked_g: 1550
 time: { prep: 50, cook: 85 }
 ingredients:
   - { name: борошно пшеничне, qty: 210, unit: г, part: основа, note: "" }
@@ -41,8 +42,9 @@ videos:
   - { title: "Урок 18. Сирна маса", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9630.MOV", url: "https://drive.google.com/file/d/1yv41h3uH9PourqE06DR9tKyLt4TtNCNo/view" }
   - { title: "Урок 19. Крем для декору", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9631.MOV", url: "https://drive.google.com/file/d/1K446_uM4OGnIfP8scwqhPHvbi2s-2QHI/view" }
   - { title: "Урок 20. Карамель", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9633.MP4", url: "https://drive.google.com/file/d/1ggBjXYecmwSC49XKLvIsyDlX8pYw4mKn/view" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 477, protein: 8.5, fat: 29.3, carbs: 46.4 }
+nutrition_per_100g: { kcal: 369, protein: 6.6, fat: 22.7, carbs: 35.9 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -19,8 +19,10 @@ ingredients:
   - { name: базилік, qty: null, unit: "", note: "5 листків" }
   - { name: олія, qty: null, unit: "", note: "для смаження" }
 related: [frittata-z-ovochamy-i-syrom]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 334, protein: 25.8, fat: 21.4, carbs: 9.6 }
+nutrition_per_100g: { kcal: 113, protein: 8.8, fat: 7.3, carbs: 3.2 }
+cooked_g_est: 590
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

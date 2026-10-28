@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець мелений, qty: null, unit: "", note: "за смаком" }
 photo: img/sous-tsezar.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1252, protein: 17.8, fat: 129.2, carbs: 8.9 }
+nutrition_per_100g: { kcal: 582, protein: 8.3, fat: 60.1, carbs: 4.1 }
+cooked_g_est: 215
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

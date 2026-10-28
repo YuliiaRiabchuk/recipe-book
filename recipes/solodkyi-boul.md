@@ -21,8 +21,10 @@ ingredients:
   - { name: какао, qty: 5, unit: г, note: "за бажанням" }
   - { name: мʼята, qty: null, unit: "", note: "для прикраси, за бажанням" }
   - { name: лохина, qty: null, unit: "", note: "для прикраси, за бажанням" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 554, protein: 5.9, fat: 20.9, carbs: 97.3 }
+nutrition_per_100g: { kcal: 167, protein: 1.8, fat: 6.3, carbs: 29.3 }
+cooked_g_est: 332
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

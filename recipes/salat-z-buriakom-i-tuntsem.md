@@ -8,6 +8,7 @@ source:
 category: салати
 tags: [святкове, хелзі, з-рибою]
 servings: 1
+cooked_g: 680
 time: { prep: null, cook: null }
 ingredients:
   - { name: буряк, qty: 300, unit: г, note: "2 середні" }
@@ -21,8 +22,9 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
 photo: img/salat-z-buriakom-i-tuntsem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 982, protein: 39.5, fat: 53.5, carbs: 103.9 }
+nutrition_per_100g: { kcal: 144, protein: 5.8, fat: 7.9, carbs: 15.3 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

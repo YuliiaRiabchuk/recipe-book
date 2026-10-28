@@ -18,8 +18,10 @@ ingredients:
   - { name: огірок, qty: 50, unit: г, note: "50–80 г; можна квашений" }
   - { name: помідор, qty: 50, unit: г, note: "50–80 г" }
 related: [sous-tsezar]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 529, protein: 27.5, fat: 28.8, carbs: 38.7 }
+nutrition_per_100g: { kcal: 171, protein: 8.9, fat: 9.3, carbs: 12.5 }
+cooked_g_est: 310
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

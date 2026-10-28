@@ -21,8 +21,10 @@ ingredients:
   - { name: вода, qty: 20, unit: мл, note: "20–50 мл або лід, для пари" }
 photo: img/tartine-bread.jpg
 related: [pshenychna-zakvaska-100-volohosti, fermentatsiia, metody-vypikannia, hidratatsiia]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2232, protein: 71.5, fat: 9.4, carbs: 457.3 }
+nutrition_per_100g: { kcal: 230, protein: 7.4, fat: 1.0, carbs: 47.2 }
+cooked_g_est: 969
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

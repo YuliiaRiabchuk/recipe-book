@@ -26,8 +26,10 @@ ingredients:
   - { name: кунжут, qty: null, unit: "", part: подача, note: "" }
   - { name: овочі, qty: null, unit: "", part: подача, note: "для подачі, 100 г на порцію" }
 photo: img/kurochka-po-koreisky-z-rysom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 491, protein: 43.9, fat: 12.0, carbs: 48.0 }
+nutrition_per_100g: { kcal: 177, protein: 15.8, fat: 4.3, carbs: 17.3 }
+cooked_g_est: 555
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

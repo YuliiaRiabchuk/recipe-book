@@ -24,8 +24,10 @@ ingredients:
   - { name: перець чорний, qty: null, unit: "", note: "та інші спеції, на смак" }
   - { name: лайм, qty: null, unit: "", note: "шматочки для подачі, за бажанням" }
   - { name: кінза, qty: null, unit: "", note: "або петрушка, для подачі, за бажанням" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 458, protein: 34.2, fat: 10.7, carbs: 55.2 }
+nutrition_per_100g: { kcal: 110, protein: 8.2, fat: 2.6, carbs: 13.3 }
+cooked_g_est: 415
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

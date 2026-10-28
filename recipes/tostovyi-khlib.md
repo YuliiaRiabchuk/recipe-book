@@ -22,8 +22,10 @@ ingredients:
   - { name: вода, qty: null, unit: "", note: "для пари" }
 photo: img/tostovyi-khlib.jpg
 related: [pshenychna-zakvaska-100-volohosti, metody-vypikannia, dodatkovi-inhredienty, hidratatsiia]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2176, protein: 71.9, fat: 10.2, carbs: 448.8 }
+nutrition_per_100g: { kcal: 243, protein: 8.0, fat: 1.1, carbs: 50.1 }
+cooked_g_est: 896
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

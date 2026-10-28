@@ -19,8 +19,10 @@ ingredients:
   - { name: ванільний екстракт, qty: null, unit: "", note: "кілька крапель" }
   - { name: кориця, qty: null, unit: "", note: "або какао, на смак" }
   - { name: ягоди, qty: 40, unit: г, note: "перетерті в пюре, для подачі: малина, лохина або полуниця" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 396, protein: 30.6, fat: 15.2, carbs: 34.4 }
+nutrition_per_100g: { kcal: 124, protein: 9.6, fat: 4.8, carbs: 10.8 }
+cooked_g_est: 320
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -9,6 +9,7 @@ category: десерти
 subcategory: чизкейки
 tags: [святкове, хелзі, чизкейк, без-випікання]
 servings: 12
+cooked_g: 900
 time: { prep: null, cook: null }
 ingredients:
   - { name: журавлина сушена, qty: 100, unit: г, part: основа, note: "або курага чи родзинки" }
@@ -22,8 +23,9 @@ ingredients:
   - { name: вода, qty: 50, unit: мл, part: начинка, note: "для желатину" }
 photo: img/chizkeik-bez-zapikannia.jpg
 form_cm: 18
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 151, protein: 6.9, fat: 6.8, carbs: 17.6 }
+nutrition_per_100g: { kcal: 201, protein: 9.1, fat: 9.1, carbs: 23.4 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

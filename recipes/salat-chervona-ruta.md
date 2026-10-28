@@ -22,8 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за необхідності" }
   - { name: зелень, qty: null, unit: "", note: "або листя салату, за бажанням" }
 related: [lehkyi-khumus]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 399, protein: 14.3, fat: 19.0, carbs: 49.2 }
+nutrition_per_100g: { kcal: 109, protein: 3.9, fat: 5.2, carbs: 13.5 }
+cooked_g_est: 365
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

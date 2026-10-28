@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/salat-z-shynkoiu-iaitsem-i-kukurudzoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 322, protein: 29.3, fat: 16.0, carbs: 17.6 }
+nutrition_per_100g: { kcal: 80, protein: 7.3, fat: 4.0, carbs: 4.4 }
+cooked_g_est: 404
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

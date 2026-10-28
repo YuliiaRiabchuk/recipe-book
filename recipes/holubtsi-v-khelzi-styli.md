@@ -9,6 +9,7 @@ category: основні
 subcategory: котлети, фарш і запіканки
 tags: [святкове, хелзі, з-птицею]
 servings: 1
+cooked_g: 900
 time: { prep: null, cook: 30 }
 ingredients:
   - { name: капустяне листя, qty: 300, unit: г, note: "" }
@@ -23,8 +24,9 @@ ingredients:
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
   - { name: спеції, qty: null, unit: "", note: "за смаком" }
 photo: img/holubtsi-v-khelzi-styli.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 735, protein: 81.8, fat: 20.0, carbs: 63.9 }
+nutrition_per_100g: { kcal: 82, protein: 9.1, fat: 2.2, carbs: 7.1 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

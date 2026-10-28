@@ -9,6 +9,7 @@ category: закуски
 subcategory: мʼясні й рибні
 tags: [святкове, хелзі, з-птицею, високобілкове]
 servings: 1
+cooked_g: 1032
 time: { prep: null, cook: 40 }
 ingredients:
   - { name: куряче філе, qty: 800, unit: г, note: "" }
@@ -22,8 +23,9 @@ ingredients:
   - { name: сіль, qty: 1, unit: ч.л., note: "" }
   - { name: харчова плівка, qty: null, unit: "", note: "або ковбасна оболонка" }
 photo: img/likarska-kovbasa.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1233, protein: 191.9, fat: 38.3, carbs: 17.1 }
+nutrition_per_100g: { kcal: 119, protein: 18.6, fat: 3.7, carbs: 1.7 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

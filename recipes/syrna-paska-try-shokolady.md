@@ -22,8 +22,10 @@ ingredients:
   - { name: молочний шоколад, qty: 30, unit: г, part: глазур, note: "" }
   - { name: олія соняшникова, qty: 3, unit: г, part: глазур, note: "рафінована, 3–4 г" }
 photo: img/syrna-paska-try-shokolady.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2262, protein: 78.8, fat: 132.6, carbs: 191.8 }
+nutrition_per_100g: { kcal: 237, protein: 8.3, fat: 13.9, carbs: 20.1 }
+cooked_g_est: 954
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

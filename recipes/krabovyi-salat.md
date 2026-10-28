@@ -8,6 +8,7 @@ source:
 category: салати
 tags: [святкове, хелзі, швидко]
 servings: 1
+cooked_g: 900
 time: { prep: null, cook: null }
 ingredients:
   - { name: крабові палички, qty: 220, unit: г, note: "" }
@@ -20,8 +21,9 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець чорний, qty: null, unit: "", note: "мелений, за смаком" }
 photo: img/krabovyi-salat.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 671, protein: 43.9, fat: 24.3, carbs: 74.9 }
+nutrition_per_100g: { kcal: 75, protein: 4.9, fat: 2.7, carbs: 8.3 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

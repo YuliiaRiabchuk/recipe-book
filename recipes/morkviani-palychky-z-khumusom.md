@@ -15,8 +15,10 @@ ingredients:
   - { name: хумус, qty: 30, unit: г, note: "" }
   - { name: спеції, qty: null, unit: "", note: "на смак" }
 related: [lehkyi-khumus]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 112, protein: 3.3, fat: 5.6, carbs: 14.1 }
+nutrition_per_100g: { kcal: 86, protein: 2.5, fat: 4.3, carbs: 10.8 }
+cooked_g_est: 130
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

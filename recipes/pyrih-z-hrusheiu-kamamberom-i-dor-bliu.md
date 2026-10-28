@@ -21,8 +21,10 @@ ingredients:
 photo: img/pyrih-z-hrusheiu-kamamberom-i-dor-bliu.jpg
 videos:
   - { title: "Відео рецепта в Instagram", url: "https://www.instagram.com/p/C0i7LHEgGUg/" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 449, protein: 11.1, fat: 31.3, carbs: 32.7 }
+nutrition_per_100g: { kcal: 368, protein: 9.1, fat: 25.6, carbs: 26.8 }
+cooked_g_est: 976
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-25

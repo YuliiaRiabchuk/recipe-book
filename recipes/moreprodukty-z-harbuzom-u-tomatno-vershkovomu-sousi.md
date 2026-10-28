@@ -21,8 +21,10 @@ ingredients:
   - { name: перець духмяний, qty: null, unit: "", note: "за бажанням" }
   - { name: часник, qty: null, unit: "", note: "за бажанням" }
   - { name: паприка копчена, qty: null, unit: "", note: "за бажанням" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 299, protein: 23.4, fat: 12.3, carbs: 26.1 }
+nutrition_per_100g: { kcal: 63, protein: 4.9, fat: 2.6, carbs: 5.5 }
+cooked_g_est: 475
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

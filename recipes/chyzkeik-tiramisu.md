@@ -9,6 +9,7 @@ category: десерти
 subcategory: чизкейки
 tags: [чизкейк, в-духовці, на-вихідні, святкове]
 servings: 16
+cooked_g: 1700
 time: { prep: 45, cook: 85 }
 ingredients:
   - { name: борошно пшеничне, qty: 210, unit: г, part: основа, note: "" }
@@ -35,8 +36,9 @@ videos:
   - { title: "Урок 21. Основа з домашнього печива сабле на форму 20 см", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9632 (1).MOV", url: "https://drive.google.com/file/d/1o3vQWgRUR1runFX1k7IL826BoOCyP7Sa/view" }
   - { title: "Урок 22. Кавова основа для чизкейку Тірамісу", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9634.MOV", url: "https://drive.google.com/file/d/1UPUfu7mdhsD__9YXq-TE6nOSQC0HR3sw/view" }
   - { title: "Урок 23. Крем для декору", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9635.MOV", url: "https://drive.google.com/file/d/1JeX90j9i0y4YgeqvMD1LburCa2znvwPu/view" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 382, protein: 6.8, fat: 24.3, carbs: 35.2 }
+nutrition_per_100g: { kcal: 360, protein: 6.4, fat: 22.9, carbs: 33.1 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -24,8 +24,10 @@ ingredients:
   - { name: желатин, qty: 2, unit: г, part: начинка, note: "180 bloom" }
   - { name: вода, qty: 8, unit: г, part: начинка, note: "холодна, для желатину" }
 photo: img/syrna-paska-lymon-mak-chervonyi-apelsyn.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1208, protein: 42.1, fat: 66.5, carbs: 115.3 }
+nutrition_per_100g: { kcal: 205, protein: 7.1, fat: 11.3, carbs: 19.5 }
+cooked_g_est: 590
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

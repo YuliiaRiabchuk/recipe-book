@@ -23,8 +23,10 @@ ingredients:
   - { name: горіхи, qty: null, unit: "", note: "сухофрукти, горіхи або шоколад, опційно" }
 photo: img/keksy-z-horikhamy-ta-sukhofruktamy.jpg
 related: [pshenychna-zakvaska-100-volohosti]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2497, protein: 48.1, fat: 116.3, carbs: 310.1 }
+nutrition_per_100g: { kcal: 358, protein: 6.9, fat: 16.7, carbs: 44.5 }
+cooked_g_est: 697
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

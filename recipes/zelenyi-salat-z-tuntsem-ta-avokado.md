@@ -23,8 +23,10 @@ ingredients:
   - { name: спеції, qty: null, unit: "", note: "у довільній кількості" }
   - { name: соус теріякі, qty: 1, unit: ч.л., note: "" }
   - { name: сік лайма, qty: 1, unit: ст.л., note: "" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 297, protein: 25.8, fat: 13.4, carbs: 20.9 }
+nutrition_per_100g: { kcal: 85, protein: 7.4, fat: 3.8, carbs: 6.0 }
+cooked_g_est: 351
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

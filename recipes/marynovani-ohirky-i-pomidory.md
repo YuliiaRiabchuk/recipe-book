@@ -20,8 +20,11 @@ ingredients:
   - { name: сіль, qty: 0.5, unit: ч.л., note: "" }
   - { name: цукор, qty: 0.5, unit: ч.л., note: "" }
 related: [rublena-kuriacha-kotleta-z-brokoli]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 80, protein: 2.0, fat: 4.3, carbs: 10.4 }
+nutrition_per_100g: { kcal: 38, protein: 1.0, fat: 2.1, carbs: 5.0 }
+cooked_g_est: 414
+nutrition_status: повний
+nutrition_notes: ["олія: у розсолі, враховано 25 %", "цукор: у розсолі, враховано 25 %"]
 status: спробувати
 rating: null
 added: 2026-10-17

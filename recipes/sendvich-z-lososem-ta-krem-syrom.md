@@ -16,8 +16,10 @@ ingredients:
   - { name: крем-сир, qty: 30, unit: г, note: "" }
   - { name: зелень, qty: 5, unit: г, note: "кріп, петрушка й часник, 5–15 г" }
   - { name: бальзамічний крем, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 429, protein: 23.4, fat: 23.1, carbs: 31.0 }
+nutrition_per_100g: { kcal: 245, protein: 13.4, fat: 13.2, carbs: 17.7 }
+cooked_g_est: 175
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

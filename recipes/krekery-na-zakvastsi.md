@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль пластівцями, qty: null, unit: "", note: "для посипання, за бажанням" }
 photo: img/krekery-na-zakvastsi.jpg
 related: [pshenychna-zakvaska-100-volohosti, zberihannia-zakvasky]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 647, protein: 15.1, fat: 22.0, carbs: 95.4 }
+nutrition_per_100g: { kcal: 279, protein: 6.5, fat: 9.5, carbs: 41.1 }
+cooked_g_est: 232
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

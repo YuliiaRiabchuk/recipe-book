@@ -20,8 +20,10 @@ ingredients:
   - { name: борошно пшеничне, qty: null, unit: "", note: "за потреби, якщо тісто зарідке" }
 photo: img/mlyntsi-zvychaini-na-zalyshkakh-zakvasky.jpg
 related: [pshenychna-zakvaska-100-volohosti, zberihannia-zakvasky]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1494, protein: 46.7, fat: 78.7, carbs: 148.3 }
+nutrition_per_100g: { kcal: 202, protein: 6.3, fat: 10.6, carbs: 20.0 }
+cooked_g_est: 740
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

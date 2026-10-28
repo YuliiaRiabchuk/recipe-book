@@ -17,8 +17,10 @@ ingredients:
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
   - { name: рисові хлібці, qty: 2, unit: шт, note: "" }
   - { name: зелень, qty: null, unit: "", note: "петрушка, кріп, базилік; для прикраси, за бажанням" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 433, protein: 18.9, fat: 29.5, carbs: 25.8 }
+nutrition_per_100g: { kcal: 168, protein: 7.3, fat: 11.4, carbs: 10.0 }
+cooked_g_est: 258
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

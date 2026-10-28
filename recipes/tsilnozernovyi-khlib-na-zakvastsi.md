@@ -22,8 +22,10 @@ ingredients:
   - { name: лід, qty: null, unit: "", note: "кілька кубиків, для пари" }
 photo: img/tsilnozernovyi-khlib-na-zakvastsi.jpg
 related: [pshenychna-zakvaska-100-volohosti, hoduvannia-zakvasky-i-leven, boroshno]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1134, protein: 43.9, fat: 8.2, carbs: 239.7 }
+nutrition_per_100g: { kcal: 211, protein: 8.2, fat: 1.5, carbs: 44.6 }
+cooked_g_est: 537
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

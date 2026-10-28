@@ -21,8 +21,11 @@ ingredients:
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
   - { name: кріп, qty: 10, unit: г, note: "свіжий" }
 photo: img/marynovani-shampinony.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 178, protein: 16.5, fat: 6.9, carbs: 21.7 }
+nutrition_per_100g: { kcal: 36, protein: 3.3, fat: 1.4, carbs: 4.4 }
+cooked_g_est: 498
+nutrition_status: повний
+nutrition_notes: ["оливкова олія: у розсолі, враховано 25 %"]
 status: спробувати
 rating: null
 added: 2026-10-16

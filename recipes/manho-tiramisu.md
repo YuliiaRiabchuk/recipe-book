@@ -27,8 +27,10 @@ ingredients:
 photo: img/manho-tiramisu.jpg
 videos:
   - { title: "Відео рецепта в Instagram", url: "https://www.instagram.com/p/DX4vJTLMl-p/" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 495, protein: 10.8, fat: 31.2, carbs: 45.2 }
+nutrition_per_100g: { kcal: 211, protein: 4.6, fat: 13.3, carbs: 19.3 }
+cooked_g_est: 1409
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-25

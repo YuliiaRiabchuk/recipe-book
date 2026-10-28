@@ -18,8 +18,10 @@ ingredients:
   - { name: пюре чорної смородини, qty: 150, unit: г, note: "" }
   - { name: кукурудзяний крохмаль, qty: 7, unit: г, note: "7–8 г" }
 photo: img/syrna-paska-marmurova-smorodyna.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2098, protein: 62.0, fat: 143.0, carbs: 151.0 }
+nutrition_per_100g: { kcal: 238, protein: 7.0, fat: 16.2, carbs: 17.1 }
+cooked_g_est: 882
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

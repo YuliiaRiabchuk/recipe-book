@@ -20,8 +20,10 @@ ingredients:
   - { name: перець чорний, qty: null, unit: "", note: "на смак" }
   - { name: оливкова олія, qty: 1.5, unit: ч.л., note: "для змащування форми" }
   - { name: зелень, qty: null, unit: "", note: "кріп, петрушка — за бажанням" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 400, protein: 28.4, fat: 27.8, carbs: 8.9 }
+nutrition_per_100g: { kcal: 141, protein: 10.0, fat: 9.8, carbs: 3.1 }
+cooked_g_est: 284
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

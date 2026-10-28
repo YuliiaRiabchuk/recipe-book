@@ -14,8 +14,10 @@ ingredients:
   - { name: яблуко, qty: 150, unit: г, note: "" }
   - { name: арахісова паста, qty: 20, unit: г, note: "" }
   - { name: кориця, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 198, protein: 4.8, fat: 10.5, carbs: 25.2 }
+nutrition_per_100g: { kcal: 116, protein: 2.8, fat: 6.2, carbs: 14.8 }
+cooked_g_est: 170
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

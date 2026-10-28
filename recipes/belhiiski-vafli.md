@@ -23,8 +23,10 @@ ingredients:
   - { name: кленовий сироп, qty: null, unit: "", note: "для подачі" }
 photo: img/belhiiski-vafli.jpg
 related: [pshenychna-zakvaska-100-volohosti]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1803, protein: 58.1, fat: 21.8, carbs: 336.3 }
+nutrition_per_100g: { kcal: 226, protein: 7.3, fat: 2.7, carbs: 42.2 }
+cooked_g_est: 797
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

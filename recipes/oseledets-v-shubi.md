@@ -8,6 +8,7 @@ source:
 category: салати
 tags: [святкове, хелзі, з-рибою]
 servings: 2
+cooked_g: 750
 time: { prep: null, cook: null }
 ingredients:
   - { name: оселедець слабосолоний, qty: 150, unit: г, note: "філе" }
@@ -20,8 +21,9 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
 photo: img/oseledets-v-shubi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 351, protein: 28.8, fat: 15.3, carbs: 24.6 }
+nutrition_per_100g: { kcal: 93, protein: 7.7, fat: 4.1, carbs: 6.6 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

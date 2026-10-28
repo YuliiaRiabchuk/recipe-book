@@ -22,8 +22,10 @@ ingredients:
 photo: img/harbuzova-kasha-z-rysom.jpg
 videos:
   - { title: "Відео рецепта в Instagram", url: "https://www.instagram.com/p/DequjCbuxm9/" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 188, protein: 6.2, fat: 2.3, carbs: 36.9 }
+nutrition_per_100g: { kcal: 70, protein: 2.3, fat: 0.8, carbs: 13.7 }
+cooked_g_est: 1078
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-25

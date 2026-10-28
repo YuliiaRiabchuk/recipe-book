@@ -15,8 +15,10 @@ ingredients:
   - { name: сир твердий, qty: 15, unit: г, note: "тертий" }
   - { name: шинка з індички, qty: 30, unit: г, note: "" }
   - { name: листя салату, qty: 15, unit: г, note: "" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 274, protein: 14.6, fat: 10.4, carbs: 30.6 }
+nutrition_per_100g: { kcal: 228, protein: 12.2, fat: 8.7, carbs: 25.5 }
+cooked_g_est: 120
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

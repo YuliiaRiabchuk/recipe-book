@@ -23,8 +23,10 @@ ingredients:
   - { name: вода, qty: 20, unit: мл, note: "20–50 мл або кубики льоду, для пари" }
 photo: img/zhytnii-khlib-z-zhuravlynoiu-ta-nasinniam.jpg
 related: [pshenychna-zakvaska-100-volohosti, boroshno, tekhniky-roboty-z-tistom, problemy-tista-i-khliba]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2770, protein: 83.0, fat: 60.9, carbs: 477.8 }
+nutrition_per_100g: { kcal: 260, protein: 7.8, fat: 5.7, carbs: 44.9 }
+cooked_g_est: 1064
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

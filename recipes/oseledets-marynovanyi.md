@@ -22,8 +22,11 @@ ingredients:
   - { name: гвоздика, qty: null, unit: "", note: "за бажанням; також калина, горобина, червоний перець" }
   - { name: олія соняшникова, qty: 50, unit: мл, note: "рафінована" }
 photo: img/oseledets-marynovanyi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1152, protein: 109.6, fat: 65.9, carbs: 23.6 }
+nutrition_per_100g: { kcal: 103, protein: 9.8, fat: 5.9, carbs: 2.1 }
+cooked_g_est: 1115
+nutrition_status: повний
+nutrition_notes: ["олія соняшникова: у розсолі, враховано 25 %", "цукор: у розсолі, враховано 25 %"]
 status: спробувати
 rating: null
 added: 2026-10-16

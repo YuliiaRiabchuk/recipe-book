@@ -27,8 +27,10 @@ ingredients:
 photo: img/kartoplianyi-salat-z-oseledtsem.jpg
 videos:
   - { title: "Відео рецепта в Instagram", url: "https://www.instagram.com/p/De10yLvI9_t/" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 384, protein: 24.5, fat: 18.5, carbs: 30.3 }
+nutrition_per_100g: { kcal: 77, protein: 4.9, fat: 3.7, carbs: 6.1 }
+cooked_g_est: 996
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-25

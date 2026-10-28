@@ -19,8 +19,10 @@ ingredients:
   - { name: борошно, qty: 15, unit: г, note: "класичне або рисове" }
   - { name: сметана, qty: 25, unit: г, note: "15 %" }
   - { name: ягоди, qty: 60, unit: г, note: "малина, чорниця або полуниця" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 448, protein: 25.9, fat: 23.8, carbs: 33.6 }
+nutrition_per_100g: { kcal: 152, protein: 8.8, fat: 8.1, carbs: 11.4 }
+cooked_g_est: 294
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -9,6 +9,7 @@ category: випічка
 subcategory: пироги, кекси, крекери
 tags: [святкове, хелзі, з-рибою, в-духовці]
 servings: 1
+cooked_g: 810
 time: { prep: null, cook: 35 }
 ingredients:
   - { name: вівсяне борошно, qty: 150, unit: г, part: основа, note: "" }
@@ -26,8 +27,9 @@ ingredients:
   - { name: перець чорний, qty: null, unit: "", part: начинка, note: "за смаком" }
   - { name: мускатний горіх, qty: null, unit: "", part: начинка, note: "дрібка, за смаком" }
 photo: img/pyrih-harbuz-losos.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2118, protein: 107.7, fat: 115.3, carbs: 166.5 }
+nutrition_per_100g: { kcal: 262, protein: 13.3, fat: 14.2, carbs: 20.6 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

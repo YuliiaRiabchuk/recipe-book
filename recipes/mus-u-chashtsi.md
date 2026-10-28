@@ -17,8 +17,10 @@ ingredients:
   - { name: мигдаль, qty: 10, unit: г, note: "" }
   - { name: банан, qty: 140, unit: г, note: "1 шт, вага без шкірки" }
   - { name: молоко, qty: 50, unit: мл, note: "звичайне або рослинне, можна йогурт" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 254, protein: 7.1, fat: 7.5, carbs: 46.9 }
+nutrition_per_100g: { kcal: 118, protein: 3.3, fat: 3.5, carbs: 21.8 }
+cooked_g_est: 215
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

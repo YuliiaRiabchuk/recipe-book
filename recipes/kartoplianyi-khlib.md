@@ -19,8 +19,10 @@ ingredients:
   - { name: вода, qty: 20, unit: мл, note: "або лід, для пари" }
 photo: img/kartoplianyi-khlib.jpg
 related: [pshenychna-zakvaska-100-volohosti, metody-vypikannia, tekhniky-roboty-z-tistom, fermentatsiia]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1148, protein: 34.0, fat: 14.3, carbs: 217.3 }
+nutrition_per_100g: { kcal: 225, protein: 6.7, fat: 2.8, carbs: 42.6 }
+cooked_g_est: 510
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -9,6 +9,7 @@ category: основні
 subcategory: котлети, фарш і запіканки
 tags: [святкове, хелзі, з-рибою]
 servings: 2
+cooked_g: 560
 time: { prep: null, cook: null }
 ingredients:
   - { name: буряк, qty: 300, unit: г, note: "відварений або запечений" }
@@ -24,8 +25,9 @@ ingredients:
   - { name: спеції, qty: null, unit: "", note: "паприка, сушений чебрець за смаком" }
   - { name: оливкова олія, qty: 1, unit: ст.л., note: "для смаження або змащування деко" }
 photo: img/sviatkovi-kotlety.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 371, protein: 25.9, fat: 11.1, carbs: 44.6 }
+nutrition_per_100g: { kcal: 132, protein: 9.3, fat: 4.0, carbs: 15.9 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

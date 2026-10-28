@@ -9,6 +9,7 @@ category: основні
 subcategory: мʼясо й птиця
 tags: [святкове, хелзі, з-птицею, в-духовці]
 servings: 1
+cooked_g: 900
 time: { prep: null, cook: 25 }
 ingredients:
   - { name: куряче філе, qty: 500, unit: г, note: "або індичка" }
@@ -21,8 +22,9 @@ ingredients:
   - { name: часник, qty: 2, unit: зубчик, note: "" }
   - { name: спеції, qty: null, unit: "", note: "сіль, перець, паприка, зелень за смаком" }
 photo: img/miaso-po-frantsuzky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1276, protein: 159.2, fat: 53.6, carbs: 37.2 }
+nutrition_per_100g: { kcal: 142, protein: 17.7, fat: 6.0, carbs: 4.1 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -36,8 +36,10 @@ ingredients:
   - { name: вода, qty: 12, unit: г, part: желе, note: "для желатину" }
 photo: img/chyzkeik-lisovi-yahody.jpg
 form_cm: 18
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 338, protein: 5.1, fat: 22.7, carbs: 30.2 }
+nutrition_per_100g: { kcal: 261, protein: 4.0, fat: 17.5, carbs: 23.3 }
+cooked_g_est: 1553
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -18,8 +18,10 @@ ingredients:
   - { name: олія кокосова, qty: 5, unit: г, note: "" }
   - { name: мед, qty: 7, unit: г, note: "" }
   - { name: ягоди, qty: 30, unit: г, note: "або сезонні фрукти, до готових кексів, за бажанням" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 188, protein: 8.6, fat: 7.6, carbs: 24.4 }
+nutrition_per_100g: { kcal: 229, protein: 10.5, fat: 9.3, carbs: 29.8 }
+cooked_g_est: 164
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

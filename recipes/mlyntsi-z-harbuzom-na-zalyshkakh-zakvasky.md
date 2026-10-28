@@ -23,8 +23,11 @@ ingredients:
   - { name: олія соняшникова, qty: 5, unit: ст.л., note: "рослинна; ще для змащування сковороди" }
 photo: img/mlyntsi-z-harbuzom-na-zalyshkakh-zakvasky.jpg
 related: [pshenychna-zakvaska-100-volohosti, zberihannia-zakvasky]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2115, protein: 57.3, fat: 79.4, carbs: 289.2 }
+nutrition_per_100g: { kcal: 213, protein: 5.8, fat: 8.0, carbs: 29.2 }
+cooked_g_est: 991
+nutrition_status: повний
+nutrition_notes: ["олія для смаження: враховано 61 г із 70 г"]
 status: спробувати
 rating: null
 added: 2026-10-16

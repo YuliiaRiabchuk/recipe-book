@@ -15,8 +15,10 @@ ingredients:
   - { name: кисломолочний сир, qty: 60, unit: г, note: "нежирний, 2,5 ст.л." }
   - { name: мед, qty: 10, unit: г, note: "" }
   - { name: сухофрукти, qty: 10, unit: г, note: "засушені ягоди" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 237, protein: 10.9, fat: 2.6, carbs: 44.2 }
+nutrition_per_100g: { kcal: 228, protein: 10.4, fat: 2.5, carbs: 42.5 }
+cooked_g_est: 104
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

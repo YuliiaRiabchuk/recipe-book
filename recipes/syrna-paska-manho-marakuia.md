@@ -27,8 +27,10 @@ ingredients:
   - { name: куркума, qty: null, unit: "", part: сирна маса, note: "за бажанням, щіпка для жовтого кольору" }
   - { name: олія соняшникова, qty: null, unit: "", part: збирання, note: "для змащування форми" }
 photo: img/syrna-paska-manho-marakuia.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2372, protein: 73.0, fat: 162.6, carbs: 158.9 }
+nutrition_per_100g: { kcal: 226, protein: 7.0, fat: 15.5, carbs: 15.2 }
+cooked_g_est: 1048
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

@@ -24,8 +24,10 @@ ingredients:
   - { name: базилік, qty: null, unit: "", note: "за смаком" }
   - { name: йогурт, qty: 200, unit: г, note: "для подачі" }
 photo: img/tvorozhna-zapikanka-zi-shpynatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 313, protein: 26.1, fat: 16.6, carbs: 15.0 }
+nutrition_per_100g: { kcal: 114, protein: 9.6, fat: 6.1, carbs: 5.5 }
+cooked_g_est: 820
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

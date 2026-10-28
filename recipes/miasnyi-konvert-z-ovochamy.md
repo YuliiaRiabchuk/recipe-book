@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: спеції, qty: null, unit: "", note: "за смаком" }
 photo: img/miasnyi-konvert-z-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 605, protein: 70.3, fat: 32.7, carbs: 9.7 }
+nutrition_per_100g: { kcal: 157, protein: 18.2, fat: 8.5, carbs: 2.5 }
+cooked_g_est: 386
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

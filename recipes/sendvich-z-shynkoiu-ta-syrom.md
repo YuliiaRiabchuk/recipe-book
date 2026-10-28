@@ -17,8 +17,10 @@ ingredients:
   - { name: огірок, qty: 80, unit: г, note: "" }
   - { name: листя салату, qty: 15, unit: г, note: "15–50 г, або рукола; овочів і зелені можна більше" }
   - { name: гірчиця, qty: 8, unit: г, note: "2 ч.л." }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 352, protein: 25.7, fat: 13.0, carbs: 33.3 }
+nutrition_per_100g: { kcal: 137, protein: 10.0, fat: 5.1, carbs: 12.9 }
+cooked_g_est: 258
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

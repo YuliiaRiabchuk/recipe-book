@@ -22,8 +22,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: часник сушений, qty: null, unit: "", note: "за смаком" }
 photo: img/kuriatyna-na-ovochevii-podushtsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 328, protein: 40.0, fat: 13.9, carbs: 10.7 }
+nutrition_per_100g: { kcal: 103, protein: 12.6, fat: 4.4, carbs: 3.4 }
+cooked_g_est: 952
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

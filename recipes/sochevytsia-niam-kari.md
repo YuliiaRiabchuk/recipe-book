@@ -24,8 +24,10 @@ ingredients:
   - { name: спеції, qty: null, unit: "", note: "інші, на смак" }
   - { name: цибуля, qty: null, unit: "", note: "свіжа, трішки, за бажанням" }
 related: [sous-tsezar]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 434, protein: 41.0, fat: 10.9, carbs: 44.1 }
+nutrition_per_100g: { kcal: 130, protein: 12.3, fat: 3.3, carbs: 13.3 }
+cooked_g_est: 333
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

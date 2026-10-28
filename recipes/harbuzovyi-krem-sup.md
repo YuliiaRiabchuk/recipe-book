@@ -8,6 +8,7 @@ source:
 category: супи
 tags: [раціон-1550, вегетаріанське, святкове, хелзі]
 servings: 1
+cooked_g: 590
 time: { prep: null, cook: null }
 ingredients:
   - { name: гарбуз, qty: 150, unit: г, note: "" }
@@ -24,8 +25,9 @@ ingredients:
   - { name: сушена журавлина, qty: 5, unit: г, note: "необовʼязково; насіння й журавлину можна замінити на 15 г вʼялених томатів" }
   - { name: сіль, qty: null, unit: "", note: "на смак" }
   - { name: перець чорний, qty: null, unit: "", note: "на смак" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 303, protein: 7.1, fat: 16.8, carbs: 35.6 }
+nutrition_per_100g: { kcal: 51, protein: 1.2, fat: 2.8, carbs: 6.0 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

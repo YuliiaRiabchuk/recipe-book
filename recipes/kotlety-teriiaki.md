@@ -9,6 +9,7 @@ category: основні
 subcategory: котлети, фарш і запіканки
 tags: [святкове, хелзі, з-мʼясом, на-сковороді]
 servings: 1
+cooked_g: 600
 time: { prep: null, cook: 16 }
 ingredients:
   - { name: телячий фарш, qty: 400, unit: г, note: "" }
@@ -22,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
 photo: img/kotlety-teriiaki.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1011, protein: 87.9, fat: 58.2, carbs: 30.4 }
+nutrition_per_100g: { kcal: 168, protein: 14.7, fat: 9.7, carbs: 5.1 }
+nutrition_status: повний
+nutrition_notes: ["телячий фарш: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-10-16

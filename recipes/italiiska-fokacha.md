@@ -20,8 +20,10 @@ ingredients:
   - { name: начинка, qty: null, unit: "", note: "за смаком: томати, оливки, цибуля, сир, трави" }
 photo: img/italiiska-fokacha.jpg
 related: [pshenychna-zakvaska-100-volohosti, hidratatsiia, fermentatsiia]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2313, protein: 67.4, fat: 28.4, carbs: 435.5 }
+nutrition_per_100g: { kcal: 242, protein: 7.0, fat: 3.0, carbs: 45.6 }
+cooked_g_est: 956
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

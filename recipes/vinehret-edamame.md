@@ -8,6 +8,7 @@ source:
 category: салати
 tags: [святкове, хелзі, веганське, пісне]
 servings: 1
+cooked_g: 500
 time: { prep: null, cook: null }
 ingredients:
   - { name: буряк, qty: 150, unit: г, note: "відварений" }
@@ -19,8 +20,9 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
 photo: img/vinehret-edamame.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 387, protein: 17.0, fat: 15.5, carbs: 50.8 }
+nutrition_per_100g: { kcal: 77, protein: 3.4, fat: 3.1, carbs: 10.2 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

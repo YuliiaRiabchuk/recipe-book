@@ -22,8 +22,10 @@ ingredients:
   - { name: вода, qty: 20, unit: мл, note: "20–50 мл або кубики льоду, для пари" }
 photo: img/shpynatnyi-khlib-na-zakvastsi.jpg
 related: [pshenychna-zakvaska-100-volohosti, problemy-tista-i-khliba, hidratatsiia]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2868, protein: 96.8, fat: 13.6, carbs: 582.5 }
+nutrition_per_100g: { kcal: 231, protein: 7.8, fat: 1.1, carbs: 46.8 }
+cooked_g_est: 1244
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

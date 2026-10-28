@@ -22,8 +22,10 @@ ingredients:
   - { name: паприка, qty: null, unit: "", note: "для подачі, за бажанням" }
   - { name: кунжут, qty: null, unit: "", note: "для подачі, за бажанням" }
 photo: img/lehkyi-khumus.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 756, protein: 23.1, fat: 48.4, carbs: 64.3 }
+nutrition_per_100g: { kcal: 261, protein: 8.0, fat: 16.7, carbs: 22.2 }
+cooked_g_est: 290
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

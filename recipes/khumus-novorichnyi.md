@@ -9,6 +9,7 @@ category: закуски
 subcategory: хумуси й намазки
 tags: [святкове, хелзі, веганське, пісне]
 servings: 1
+cooked_g: 530
 time: { prep: null, cook: null }
 ingredients:
   - { name: буряк, qty: 200, unit: г, note: "1 середній, варений" }
@@ -22,8 +23,9 @@ ingredients:
   - { name: перець чорний, qty: null, unit: "", note: "мелений, за смаком" }
   - { name: вода, qty: 50, unit: мл, note: "50–70 мл, для консистенції" }
 photo: img/khumus-novorichnyi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 867, protein: 28.2, fat: 53.0, carbs: 79.4 }
+nutrition_per_100g: { kcal: 164, protein: 5.3, fat: 10.0, carbs: 15.0 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

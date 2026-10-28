@@ -15,8 +15,10 @@ ingredients:
   - { name: насіння чіа, qty: 5, unit: г, note: "" }
   - { name: манго, qty: 50, unit: г, note: "" }
   - { name: мʼята, qty: null, unit: "", note: "для прикраси, за бажанням" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 229, protein: 17.4, fat: 10.7, carbs: 16.8 }
+nutrition_per_100g: { kcal: 97, protein: 7.4, fat: 4.6, carbs: 7.1 }
+cooked_g_est: 235
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

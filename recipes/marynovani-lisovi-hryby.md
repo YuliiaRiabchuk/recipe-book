@@ -22,8 +22,11 @@ ingredients:
   - { name: оцет, qty: 70, unit: г, note: "5 ст.л., після варіння" }
 photo: img/marynovani-lisovi-hryby.jpg
 related: [marynovani-shampinony]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 23, protein: 0.0, fat: 0.0, carbs: 6.0 }
+nutrition_per_100g: { kcal: 7, protein: 0.0, fat: 0.0, carbs: 1.9 }
+cooked_g_est: 321
+nutrition_status: повний
+nutrition_notes: ["цукор: у розсолі, враховано 25 %"]
 status: спробувати
 rating: null
 added: 2026-10-26

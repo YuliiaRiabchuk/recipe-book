@@ -21,8 +21,10 @@ ingredients:
   - { name: яйця, qty: 2, unit: шт, note: "" }
   - { name: орегано, qty: null, unit: "", note: "або інші спеції, за бажанням" }
 related: [sous-tsezar]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 369, protein: 18.8, fat: 17.6, carbs: 32.7 }
+nutrition_per_100g: { kcal: 142, protein: 7.2, fat: 6.8, carbs: 12.6 }
+cooked_g_est: 260
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

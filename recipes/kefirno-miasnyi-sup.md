@@ -15,8 +15,10 @@ ingredients:
   - { name: петрушка, qty: null, unit: "", note: "трохи зелені" }
 photo: img/kefirno-miasnyi-sup.jpg
 related: [riazhanka-z-chia-ta-yahodamy]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 231, protein: 32.7, fat: 5.2, carbs: 11.9 }
+nutrition_per_100g: { kcal: 71, protein: 10.1, fat: 1.6, carbs: 3.7 }
+cooked_g_est: 1300
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-17

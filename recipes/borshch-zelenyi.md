@@ -20,8 +20,10 @@ ingredients:
   - { name: кріп, qty: 1, unit: пучок, note: "" }
   - { name: сметана, qty: null, unit: "", note: "для подачі" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 242, protein: 10.0, fat: 12.3, carbs: 24.0 }
+nutrition_per_100g: { kcal: 35, protein: 1.4, fat: 1.8, carbs: 3.4 }
+cooked_g_est: 2800
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16

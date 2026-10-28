@@ -35,8 +35,10 @@ form_cm: 20
 videos:
   - { title: "Відео рецепта в Instagram", url: "https://www.instagram.com/p/DdvkPfgsfcW/" }
 related: [hrybna-iushka]
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 276, protein: 8.5, fat: 17.3, carbs: 24.4 }
+nutrition_per_100g: { kcal: 124, protein: 3.8, fat: 7.7, carbs: 10.9 }
+cooked_g_est: 1785
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-25

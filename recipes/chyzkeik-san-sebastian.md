@@ -9,6 +9,7 @@ category: десерти
 subcategory: чизкейки
 tags: [чизкейк, в-духовці, швидко]
 servings: 12
+cooked_g: 1000
 time: { prep: 15, cook: 25 }
 ingredients:
   - { name: крем-сир, qty: 560, unit: г, note: "кімнатної температури" }
@@ -20,8 +21,9 @@ photo: img/chyzkeik-san-sebastian.jpg
 form_cm: 18
 videos:
   - { title: "Урок 13. Чизкейк Сан-Себастьян: золотава скоринка і ніжна текстура", file: "sources/telegram/chizkeik-intensyv/video_files/IMG_9440.MOV", url: "https://drive.google.com/file/d/189tlfYK4vOHCDVrmwvN3N06GFACchH0R/view" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 259, protein: 5.4, fat: 19.9, carbs: 15.6 }
+nutrition_per_100g: { kcal: 311, protein: 6.5, fat: 23.9, carbs: 18.7 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-10-16
