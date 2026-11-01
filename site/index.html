@@ -197,6 +197,7 @@ a.chip { color: var(--text); }
 .kb.kb-kcal { background: var(--accent-soft); }
 .kb.kb-kcal b { color: var(--accent); }
 .kb-per { font-size: 12px; margin-left: 2px; }
+.kb-label { font-weight: 600; color: var(--text); margin-right: 2px; }
 ul.ings { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 ul.ings li { display: flex; gap: 12px; padding: 11px 14px; border-top: 1px solid var(--line); min-height: 44px; }
 ul.ings.tick li { cursor: pointer; -webkit-tap-highlight-color: transparent; }
@@ -1208,9 +1209,8 @@ ul.ings li > span:first-child { min-width: 0; }
     var h = r.nutrition_per_100g || {}, nutHtml = '';
     if (h.kcal != null) {
       var chip = function (label, v) { return '<span class="kb"><b>' + (v == null ? '—' : fmtNum(v)) + '</b> ' + label + '</span>'; };
-      nutHtml = '<div class="kbzhv"><span class="kb kb-kcal"><b>' + Math.round(h.kcal) + '</b> ккал</span>' +
-        chip('білки', h.protein) + chip('жири', h.fat) + chip('вуглеводи', h.carbs) + '<span class="kb-per">на 100 г' +
-        (r.nutrition_status === 'частковий' ? ' · <span title="частину інгредієнтів не пораховано, подробиці в нотатках">неповне</span>' : '') + '</span></div>';
+      nutHtml = '<div class="kbzhv"><span class="kb-label">КБЖУ на 100 г</span><span class="kb kb-kcal"><b>' + Math.round(h.kcal) + '</b> ккал</span>' +
+        chip('білки', h.protein) + chip('жири', h.fat) + chip('вуглеводи', h.carbs) + (r.nutrition_status === 'частковий' ? '<span class="kb-per" title="частину інгредієнтів не пораховано, подробиці в нотатках">неповне</span>' : '') + '</div>';
     }
     $('sheet').innerHTML =
       '<div class="bar"><div class="wrap row"><button class="icon-btn" id="backBtn">← Назад</button><span style="flex:1"></span>' +
@@ -1219,8 +1219,6 @@ ul.ings li > span:first-child { min-width: 0; }
       '<article>' + (r.photo ? '<img class="hero" alt="" src="' + esc(r.photo) + '">' : '') +
       '<div class="meta">' + esc(r.category) + (t.prep ? '<span>·</span>підготовка ' + fmtTime(t.prep) : '') + (t.cook ? '<span>·</span>готування ' + fmtTime(t.cook) : '') + '</div>' +
       '<h2>' + esc(r.title) + '</h2>' +
-      '<div class="meta">' + (r.tags || []).map(function (x) { return '<span class="badge">' + esc(x) + '</span>'; }).join('') +
-      '<span class="badge' + (r.status === 'улюблене' ? ' fav' : '') + '">' + esc(r.status) + (r.rating ? ' · ' + '★'.repeat(r.rating) : '') + '</span></div>' +
       nutHtml +
       (r.form_cm
         ? '<div class="section"><h4>Форма</h4><div class="servings"><button id="sMinus" aria-label="Менша форма"' + (formD <= formMin(r) ? ' disabled' : '') + '>−</button><output>' + formD + ' см</output><button id="sPlus" aria-label="Більша форма"' + (formD >= formMax(r) ? ' disabled' : '') + '>+</button></div>' +
