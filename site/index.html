@@ -191,6 +191,12 @@ a.chip { color: var(--text); }
 .nut > div:nth-child(-n+5) { border-top: 0; color: var(--muted); font-size: 12px; }
 .nut > div:nth-child(5n+1) { text-align: left; color: var(--muted); }
 .nut-note { margin-top: 8px; font-size: 14px; }
+.kbzhv { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-top: 12px; font-size: 13px; color: var(--muted); }
+.kb { padding: 3px 10px; border-radius: 999px; background: var(--surface-2); white-space: nowrap; }
+.kb b { color: var(--text); font-weight: 600; }
+.kb.kb-kcal { background: var(--accent-soft); }
+.kb.kb-kcal b { color: var(--accent); }
+.kb-per { font-size: 12px; margin-left: 2px; }
 ul.ings { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 ul.ings li { display: flex; gap: 12px; padding: 11px 14px; border-top: 1px solid var(--line); min-height: 44px; }
 ul.ings.tick li { cursor: pointer; -webkit-tap-highlight-color: transparent; }
@@ -1201,10 +1207,10 @@ ul.ings li > span:first-child { min-width: 0; }
     // КБЖВ лише на 100 г готової страви
     var h = r.nutrition_per_100g || {}, nutHtml = '';
     if (h.kcal != null) {
-      var cell = function (v) { return v == null ? '—' : fmtNum(v); };
-      nutHtml = '<div class="section"><h4>КБЖВ на 100 г</h4><div class="nut"><div></div><div>ккал</div><div>білки, г</div><div>жири, г</div><div>вуглеводи, г</div>' +
-        '<div>100 г</div><div><b>' + Math.round(h.kcal) + '</b></div><div>' + cell(h.protein) + '</div><div>' + cell(h.fat) + '</div><div>' + cell(h.carbs) + '</div></div>' +
-        (r.nutrition_status === 'частковий' ? '<p class="nut-note"><span class="badge warn">КБЖВ неповне</span> частину інгредієнтів не пораховано, подробиці в нотатках.</p>' : '') + '</div>';
+      var chip = function (label, v) { return '<span class="kb"><b>' + (v == null ? '—' : fmtNum(v)) + '</b> ' + label + '</span>'; };
+      nutHtml = '<div class="kbzhv"><span class="kb kb-kcal"><b>' + Math.round(h.kcal) + '</b> ккал</span>' +
+        chip('білки', h.protein) + chip('жири', h.fat) + chip('вуглеводи', h.carbs) + '<span class="kb-per">на 100 г' +
+        (r.nutrition_status === 'частковий' ? ' · <span title="частину інгредієнтів не пораховано, подробиці в нотатках">неповне</span>' : '') + '</span></div>';
     }
     $('sheet').innerHTML =
       '<div class="bar"><div class="wrap row"><button class="icon-btn" id="backBtn">← Назад</button><span style="flex:1"></span>' +
