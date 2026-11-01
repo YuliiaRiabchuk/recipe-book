@@ -949,12 +949,12 @@ ul.ings li > span:first-child { min-width: 0; }
   }
   var qvReturn = null;
   function quickHtml(r) {
-    var n = r.nutrition_per_serving || {}, t = r.time || {}, bits = [];
+    var t = r.time || {}, bits = [];
     if (t.prep) bits.push('підготовка ' + fmtTime(t.prep));
     if (t.cook) bits.push('готування ' + fmtTime(t.cook));
     bits.push(r.form_cm > 0 ? 'форма ' + r.form_cm + ' см' : baseServ(r) + ' ' + plural(baseServ(r), 'порція', 'порції', 'порцій'));
     var h = r.nutrition_per_100g || {};
-    var kc = typeof n.kcal === 'number' ? (typeof h.kcal === 'number' ? h.kcal + ' ккал на 100 г · ' : '') + n.kcal + ' ккал на порцію' + (r.nutrition_status === 'частковий' ? ' (неповне)' : '') : 'КБЖВ не пораховано';
+    var kc = typeof h.kcal === 'number' ? h.kcal + ' ккал на 100 г' + (r.nutrition_status === 'частковий' ? ' (неповне)' : '') : 'КБЖВ не пораховано';
     var steps = (r.steps || []).length;
     return (r.photo ? '<img class="qv-img" alt="" src="' + esc(r.photo) + '">' : '') +
       '<div class="meta">' + esc(r.category) + '<span>·</span>' + bits.join('<span>·</span>') + '</div>' +
@@ -1196,22 +1196,15 @@ ul.ings li > span:first-child { min-width: 0; }
   }
 
   function renderSheet() {
-    var r = current, factor = scaleFactor(r), dish = baseServ(r) * factor, n = r.nutrition_per_serving || {};
+    var r = current, factor = scaleFactor(r);
     var t = r.time || {};
-    var nutHtml;
-    if (r.nutrition_status === 'немає' || n.kcal == null) {
-      nutHtml = '<p class="nut-note" style="color:var(--muted)">КБЖВ ще не пораховано.</p>';
-    } else {
-      var cell = function (v, mult, isK) { return v == null ? '—' : isK ? Math.round(v * mult) : fmtNum(v * mult); };
-      var h = r.nutrition_per_100g || {}, w = r.cooked_g || r.cooked_g_est;
-      nutHtml = '<div class="nut"><div></div><div>ккал</div><div>білки, г</div><div>жири, г</div><div>вуглеводи, г</div>' +
-        (h.kcal != null ? '<div><b>100 г</b></div><div><b>' + cell(h.kcal, 1, true) + '</b></div><div>' + cell(h.protein, 1) + '</div><div>' + cell(h.fat, 1) + '</div><div>' + cell(h.carbs, 1) + '</div>' : '') +
-        '<div>порція</div><div>' + cell(n.kcal, 1, true) + '</div><div>' + cell(n.protein, 1) + '</div><div>' + cell(n.fat, 1) + '</div><div>' + cell(n.carbs, 1) + '</div>' +
-        '<div>уся страва</div><div>' + cell(n.kcal, dish, true) + '</div><div>' + cell(n.protein, dish) + '</div><div>' + cell(n.fat, dish) + '</div><div>' + cell(n.carbs, dish) + '</div></div>' +
-        (w ? '<p class="nut-note">Вага готової страви ' + (r.cooked_g ? '' : '≈ ') + Math.round(w * factor) + ' г' +
-          (r.cooked_g ? ' (за джерелом)' : ' (оцінка з урахуванням уварювання й вбирання води)') + '.</p>' : '') +
-        ((r.nutrition_notes || []).length ? '<p class="nut-note" style="color:var(--muted)">Поправки на готування: ' + r.nutrition_notes.map(esc).join('; ') + '.</p>' : '') +
-        (r.nutrition_status === 'частковий' ? '<p class="nut-note"><span class="badge warn">КБЖВ неповне</span> частину інгредієнтів не пораховано, подробиці в нотатках.</p>' : '');
+    // КБЖВ лише на 100 г готової страви
+    var h = r.nutrition_per_100g || {}, nutHtml = '';
+    if (h.kcal != null) {
+      var cell = function (v) { return v == null ? '—' : fmtNum(v); };
+      nutHtml = '<div class="section"><h4>КБЖВ на 100 г</h4><div class="nut"><div></div><div>ккал</div><div>білки, г</div><div>жири, г</div><div>вуглеводи, г</div>' +
+        '<div>100 г</div><div><b>' + Math.round(h.kcal) + '</b></div><div>' + cell(h.protein) + '</div><div>' + cell(h.fat) + '</div><div>' + cell(h.carbs) + '</div></div>' +
+        (r.nutrition_status === 'частковий' ? '<p class="nut-note"><span class="badge warn">КБЖВ неповне</span> частину інгредієнтів не пораховано, подробиці в нотатках.</p>' : '') + '</div>';
     }
     $('sheet').innerHTML =
       '<div class="bar"><div class="wrap row"><button class="icon-btn" id="backBtn">← Назад</button><span style="flex:1"></span>' +
@@ -1222,6 +1215,7 @@ ul.ings li > span:first-child { min-width: 0; }
       '<h2>' + esc(r.title) + '</h2>' +
       '<div class="meta">' + (r.tags || []).map(function (x) { return '<span class="badge">' + esc(x) + '</span>'; }).join('') +
       '<span class="badge' + (r.status === 'улюблене' ? ' fav' : '') + '">' + esc(r.status) + (r.rating ? ' · ' + '★'.repeat(r.rating) : '') + '</span></div>' +
+      nutHtml +
       (r.form_cm
         ? '<div class="section"><h4>Форма</h4><div class="servings"><button id="sMinus" aria-label="Менша форма"' + (formD <= formMin(r) ? ' disabled' : '') + '>−</button><output>' + formD + ' см</output><button id="sPlus" aria-label="Більша форма"' + (formD >= formMax(r) ? ' disabled' : '') + '>+</button></div>' +
           '<div class="meta" style="margin-top:6px">у рецепті ' + r.form_cm + ' см · коефіцієнт ' + factor.toFixed(2).replace('.', ',') + ' · ' + portionsLabel(r) + '</div></div>'
@@ -1231,7 +1225,6 @@ ul.ings li > span:first-child { min-width: 0; }
         ((r.ingredients || []).length ? '<div id="ingList">' + (hasParts(r) ? ingTotalHtml(r, factor, true) : ingListHtml(r, factor, true)) + '</div>' +
           (hasParts(r) ? '<p class="meta" style="margin-top:8px">Скільки чого на кожну частину — в етапах нижче.</p>' : '')
           : '<p class="meta">Інгредієнтів у рецепті немає.</p>') + '</div>' +
-      '<div class="section"><h4>КБЖВ</h4>' + nutHtml + '</div>' +
       '<div class="section"><h4>' + (r.stages ? 'Етапи · ' + r.stages.length : 'Кроки') + '</h4>' + stepsHtml(r, factor) + '</div>' +
       (r.tips ? '<div class="section"><h4>Поради</h4>' + tipsHtml(r.tips) + '</div>' : '') +
       ((r.related || []).filter(itemFor).length ? '<div class="section"><h4>Повʼязане</h4><div class="chips">' + r.related.filter(itemFor).map(function (id) {
