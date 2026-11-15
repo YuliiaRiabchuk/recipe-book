@@ -124,19 +124,16 @@ a.chip { color: var(--text); }
 .toc-body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 8px; }
 .toc-title { display: flex; align-items: baseline; gap: 8px; background: none; border: 0; padding: 0; text-align: left; font-size: 18px; font-weight: 700; letter-spacing: -.01em; color: var(--text); cursor: pointer; }
 .toc-title .n { color: var(--accent); font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; }
-.toc-subs { display: flex; flex-wrap: wrap; gap: 6px; }
-.toc-sub-chip { border: 1px solid var(--line); background: var(--bg); color: var(--text); border-radius: 999px; padding: 4px 10px; font-size: 13px; min-height: 32px; cursor: pointer; }
-.toc-sub-chip span { color: var(--muted); }
-.toc-sub-chip:hover { border-color: var(--accent); color: var(--accent); }
-.toc-ex { margin: 0; font-size: 13px; line-height: 1.45; color: var(--muted); }
-.toc-ex a { color: var(--muted); text-decoration: none; }
-.toc-ex a:hover { color: var(--accent); text-decoration: underline; }
+.toc-line { margin: 0; font-size: 13px; line-height: 1.5; color: var(--muted); min-height: 6em; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.toc-link { display: inline; border: 0; background: none; padding: 0; font: inherit; color: var(--muted); text-decoration: none; cursor: pointer; }
+.toc-link span { color: var(--accent); font-variant-numeric: tabular-nums; }
+.toc-link:hover { color: var(--accent); text-decoration: underline; }
+.toc-line .sep { margin: 0 6px; opacity: .6; }
 @media (max-width: 520px) {
   .toc-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
   .toc-body { padding: 10px 10px 12px; gap: 6px; }
   .toc-title { font-size: 16px; }
-  .toc-sub-chip { font-size: 12px; padding: 3px 8px; min-height: 30px; }
-  .toc-ex { display: none; }
+  .toc-line { font-size: 12px; }
 }
 /* підрозділ: акцентна риска, темна назва, пігулка з кількістю й лінія до краю */
 .sub-title { display: flex; align-items: center; gap: 10px; font-size: 19px; margin: 30px 2px 12px; color: var(--text); font-weight: 700; letter-spacing: -.01em; scroll-margin-top: 130px; }
@@ -855,12 +852,10 @@ ul.ings li > span:first-child { min-width: 0; }
       '<button type="button" class="toc-cover" data-jump="' + o.jump + '" aria-label="До розділу «' + esc(o.title) + '»">' + cover + '</button>' +
       '<div class="toc-body">' +
         '<button type="button" class="toc-title" data-jump="' + o.jump + '">' + esc(o.title) + ' <span class="n">' + o.count + '</span></button>' +
-        (o.subs.length ? '<div class="toc-subs">' + o.subs.map(function (s) {
-          return '<button type="button" class="toc-sub-chip" data-jump="' + s.jump + '">' + esc(s.name) + ' <span>' + s.count + '</span></button>';
-        }).join('') + '</div>' : '') +
-        (o.examples.length ? '<p class="toc-ex">' + o.examples.map(function (x) {
-          return '<a href="' + x.href + '">' + esc(x.title) + '</a>';
-        }).join(', ') + (o.count > o.examples.length ? '…' : '') + '</p>' : '') +
+        // один рядок під назвою: підрозділи, а якщо їх немає — кілька страв; не більше чотирьох рядків, тож картки однакові
+        '<p class="toc-line">' + (o.subs.length
+          ? o.subs.map(function (s) { return '<button type="button" class="toc-link" data-jump="' + s.jump + '">' + esc(s.name) + ' <span>' + s.count + '</span></button>'; }).join('<span class="sep">·</span>')
+          : o.examples.map(function (x) { return '<a class="toc-link" href="' + x.href + '">' + esc(x.title) + '</a>'; }).join('<span class="sep">·</span>')) + '</p>' +
       '</div></article>';
   }
   function tocHtml(list) {
