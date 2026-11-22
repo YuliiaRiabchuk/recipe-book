@@ -1,0 +1,42 @@
+---
+id: syrnyi-huakamole-z-domashnimy-kukurudzianymy-trykutnykamy
+title: Сирний гуакамоле з домашніми кукурудзяними трикутниками
+source:
+  type: pdf
+  name: Кращі перекуси дієтолога (Андрій Маковецький)
+  ref: "с. 100"
+category: закуски
+subcategory: хумуси й намазки
+tags: [перекус, в-духовці, вегетаріанське, хелзі]
+servings: 1
+time: { prep: null, cook: 20 }
+ingredients:
+  - { name: авокадо, qty: 80, unit: г, note: "" }
+  - { name: кисломолочний сир, qty: 100, unit: г, note: "5%" }
+  - { name: томат, qty: 50, unit: г, note: "" }
+  - { name: червона цибуля, qty: 15, unit: г, note: "" }
+  - { name: сік лайма, qty: 8, unit: г, note: "" }
+  - { name: кінза, qty: 5, unit: г, note: "" }
+  - { name: часник, qty: 1, unit: г, note: "" }
+  - { name: пластівці чилі, qty: 0.2, unit: г, note: "" }
+  - { name: сіль, qty: null, unit: "", note: "за смаком" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+  - { name: кукурудзяні тортильї, qty: 60, unit: г, note: "для трикутників, 2 шт." }
+  - { name: оливкова олія, qty: 3, unit: г, note: "для трикутників" }
+  - { name: копчена паприка, qty: 0.5, unit: г, note: "для трикутників" }
+  - { name: сіль, qty: null, unit: "", note: "для трикутників, за смаком" }
+photo: img/syrnyi-huakamole-z-domashnimy-kukurudzianymy-trykutnykamy.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Наріж тортильї трикутниками, злегка змасти олією, посип паприкою та сіллю. Запікай 7–9 хв за 190°C до хрусткої скоринки.
+2. Розімни авокадо виделкою, кисломолочний сир злегка подрібни блендером або добре розімни.
+3. Змішай авокадо й сир з дрібно нарізаними томатом, цибулею та кінзою, додай сік лайма, часник, чилі, сіль і перець. Подавай з охолодженими трикутниками.
+## Поради
+- Розділ книги: Перекуси з яєць, сиру та йогурту.
+- За даними автора: 415 ккал на порцію, Б/Ж/В 20/22/42 г.
+## Мої нотатки

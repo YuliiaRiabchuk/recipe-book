@@ -1,0 +1,37 @@
+---
+id: syrnyi-boul-z-iahodamy-arakhisovoiu-pastoiu-ta-lonom
+title: "Сирний боул з ягодами, арахісовою пастою та льоном"
+source:
+  type: pdf
+  name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
+  ref: "с. 182"
+category: сніданки
+subcategory: солодкі
+tags: [швидко, без-випікання, вегетаріанське, високобілкове, хелзі]
+servings: 1
+time: { prep: null, cook: 6 }
+ingredients:
+  - { name: сир кисломолочний, qty: 200, unit: г, note: "5%" }
+  - { name: грецький йогурт, qty: 60, unit: г, note: "" }
+  - { name: ягоди, qty: 170, unit: г, note: "мікс" }
+  - { name: арахісова паста, qty: 12, unit: г, note: "2 ч.л." }
+  - { name: насіння льону, qty: 8, unit: г, note: "" }
+  - { name: мед, qty: 10, unit: г, note: "2 ч.л." }
+  - { name: ваніль, qty: 1, unit: г, note: "" }
+  - { name: сіль, qty: 0.5, unit: г, note: "" }
+photo: img/syrnyi-boul-z-iahodamy-arakhisovoiu-pastoiu-ta-lonom.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Змішай сир з грецьким йогуртом, ваніллю та дрібкою солі до однорідної кремової консистенції.
+2. Додай ягоди зверху або акуратно вмішай (великі розріж навпіл).
+3. Подавай: виклади масу в боул, зверху додай арахісову пасту, посип насінням льону й полий медом тонкою цівкою.
+## Поради
+- Розділ книги: Солодкі сніданкові тарілки.
+- Варіація: замість меду кленовий сироп.
+- За даними автора: 530 ккал на порцію, Б/Ж/В 43/26/33 г.
+## Мої нотатки

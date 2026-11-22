@@ -1,0 +1,37 @@
+---
+id: chashka-zi-skirom-chornytseiu-ta-lymonnoiu-hranoloiu
+title: "Чашка зі скіром, чорницею та лимонною гранолою"
+source:
+  type: pdf
+  name: Кращі перекуси дієтолога (Андрій Маковецький)
+  ref: "с. 111"
+category: десерти
+subcategory: протеїнові десерти
+tags: [перекус, в-духовці, вегетаріанське, високобілкове, хелзі]
+servings: 1
+time: { prep: null, cook: 20 }
+ingredients:
+  - { name: скір, qty: 180, unit: г, note: "0,2%" }
+  - { name: чорниця, qty: 100, unit: г, note: "" }
+  - { name: вівсяні пластівці, qty: 30, unit: г, note: "тривалого приготування" }
+  - { name: мигдаль, qty: 10, unit: г, note: "" }
+  - { name: мед, qty: 7, unit: г, note: "" }
+  - { name: оливкова олія, qty: 3, unit: г, note: "або кокосова" }
+  - { name: лимонна цедра, qty: 1, unit: г, note: "" }
+  - { name: насіння маку, qty: 3, unit: г, note: "" }
+  - { name: ваніль, qty: null, unit: "", note: "за смаком" }
+photo: img/chashka-zi-skirom-chornytseiu-ta-lymonnoiu-hranoloiu.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Змішай вівсяні пластівці з подрібненим мигдалем, половиною меду, олією, лимонною цедрою та маком. Виклади на пергамент і запікай 10–12 хв за 175°C, один раз перемішай.
+2. Повністю охолодь гранолу. Скір змішай із рештою меду та ваніллю.
+3. Виклади в чашку скір, чорницю та лимонну гранолу. Додавай гранолу перед подаванням, щоб залишалася хрусткою.
+## Поради
+- Розділ книги: Йогуртові, сирні та фруктові чашки.
+- За даними автора: 412 ккал на порцію, Б/Ж/В 28/12/51 г.
+## Мої нотатки

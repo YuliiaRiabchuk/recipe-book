@@ -1,0 +1,39 @@
+---
+id: krekery-z-iaiechnym-kremom-i-redyskoiu
+title: Крекери з яєчним кремом і редискою
+source:
+  type: pdf
+  name: Хрумкі перекуси на крекерах (Андрій Маковецький)
+  ref: "с. 9"
+category: закуски
+subcategory: бутерброди й канапки
+tags: [перекус, швидко, вегетаріанське, хелзі]
+servings: 1
+time: { prep: null, cook: 15 }
+ingredients:
+  - { name: житні крекери, qty: 25, unit: г, note: "" }
+  - { name: яйця, qty: 2, unit: шт, note: "" }
+  - { name: грецький йогурт, qty: 30, unit: г, note: "2%" }
+  - { name: редиска, qty: 60, unit: г, note: "" }
+  - { name: огірок, qty: 40, unit: г, note: "" }
+  - { name: діжонська гірчиця, qty: 4, unit: г, note: "" }
+  - { name: шніт-цибуля, qty: 5, unit: г, note: "" }
+  - { name: сіль, qty: null, unit: "", note: "за смаком" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+photo: img/krekery-z-iaiechnym-kremom-i-redyskoiu.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Залий яйця холодною водою, доведи до кипіння й вари 9 хв.
+2. Охолоди яйця в холодній воді, очисти й дрібно наріж.
+3. Змішай яйця з йогуртом, гірчицею, подрібненою шніт-цибулею, сіллю та перцем.
+4. Наріж редиску й огірок тонкими слайсами.
+5. Виклади на крекери яєчний крем, редиску й огірок.
+## Поради
+- Розділ книги: Хрумкі перекуси на крекерах.
+- За даними автора: 256 ккал на порцію, Б/Ж/В 18/13/16 г.
+## Мої нотатки

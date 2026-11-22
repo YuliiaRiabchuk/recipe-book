@@ -1,0 +1,37 @@
+---
+id: nasinnievi-krekery-z-fetoiu-buriakom-i-horikhamy
+title: "Насіннєві крекери з фетою, буряком і горіхами"
+source:
+  type: pdf
+  name: Хрумкі перекуси на крекерах (Андрій Маковецький)
+  ref: "с. 11"
+category: закуски
+subcategory: бутерброди й канапки
+tags: [перекус, швидко, без-випікання, вегетаріанське, хелзі]
+servings: 1
+time: { prep: null, cook: 10 }
+ingredients:
+  - { name: насіннєві крекери, qty: 20, unit: г, note: "" }
+  - { name: буряк, qty: 90, unit: г, note: "запечений або варений" }
+  - { name: фета, qty: 65, unit: г, note: "30%" }
+  - { name: грецький йогурт, qty: 20, unit: г, note: "2%" }
+  - { name: волоські горіхи, qty: 10, unit: г, note: "" }
+  - { name: бальзамічний крем, qty: 5, unit: г, note: "" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+photo: img/nasinnievi-krekery-z-fetoiu-buriakom-i-horikhamy.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Розімни фету виделкою з йогуртом до густого крему.
+2. Промокни буряк паперовим рушником і наріж тонкими слайсами або дрібними кубиками.
+3. Крупно подрібни волоські горіхи.
+4. Розподіли крем із фети по крекерах і додай буряк.
+5. Посип горіхами, додай бальзамічний крем і чорний перець.
+## Поради
+- Розділ книги: Хрумкі перекуси на крекерах.
+- За даними автора: 407 ккал на порцію, Б/Ж/В 17/26/29 г.
+## Мої нотатки

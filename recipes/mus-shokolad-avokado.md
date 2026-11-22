@@ -1,0 +1,36 @@
+---
+id: mus-shokolad-avokado
+title: Мус шоколад-авокадо
+source:
+  type: pdf
+  name: Корисна випічка і десерти (оновлення листопад) (Андрій Маковецький)
+  ref: "с. 186"
+category: десерти
+subcategory: "пана-кота, пудинги, муси"
+tags: [без-випікання, вегетаріанське, хелзі]
+servings: 1
+time: { prep: null, cook: 40 }
+ingredients:
+  - { name: авокадо, qty: 120, unit: г, note: "стиглий" }
+  - { name: какао-порошок, qty: 15, unit: г, note: "" }
+  - { name: грецький йогурт, qty: 70, unit: мл, note: "10 %" }
+  - { name: еритритол, qty: 10, unit: г, note: "" }
+  - { name: ваніль, qty: 1, unit: дрібка, note: "" }
+  - { name: сіль, qty: 1, unit: дрібка, note: "" }
+photo: img/mus-shokolad-avokado.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Розріж авокадо, виймі м'якоть і поклади в блендер.
+2. Додай какао, еритритол, ваніль і сіль, збий до кремової консистенції.
+3. Влий йогурт і ще раз збий.
+4. Переклади мус у склянку 300 мл.
+5. Охолоджуй 30 хв.
+## Поради
+- Розділ книги: Десерти без запікання.
+- За даними автора: 345 ккал на порцію, Б/Ж/В 10.8/23.6/21.5 г.
+## Мої нотатки

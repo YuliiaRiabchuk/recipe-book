@@ -1,0 +1,36 @@
+---
+id: roly-z-rostbifu-vershkovoho-syru-ta-rukoly-na-shpazhkakh
+title: "Роли з ростбіфу, вершкового сиру та руколи на шпажках"
+source:
+  type: pdf
+  name: Кращі перекуси дієтолога (Андрій Маковецький)
+  ref: "с. 174"
+category: закуски
+subcategory: мʼясні й рибні
+tags: [перекус, з-мʼясом, швидко, високобілкове, хелзі]
+servings: 1
+time: { prep: null, cook: 15 }
+ingredients:
+  - { name: ростбіф, qty: 100, unit: г, note: "тонко нарізаний, готовий" }
+  - { name: вершковий сир, qty: 55, unit: г, note: "5%" }
+  - { name: рукола, qty: 30, unit: г, note: "" }
+  - { name: огірок, qty: 70, unit: г, note: "" }
+  - { name: "в'ялені томати", qty: 20, unit: г, note: "без надлишку олії" }
+  - { name: діжонська гірчиця, qty: 4, unit: г, note: "" }
+  - { name: лимонний сік, qty: 4, unit: г, note: "" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+photo: img/roly-z-rostbifu-vershkovoho-syru-ta-rukoly-na-shpazhkakh.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Змішай вершковий сир з гірчицею, лимонним соком і чорним перцем. Наріж огірок тонкою соломкою, в'ялені томати смужками.
+2. Змасти скибочки ростбіфу сирним кремом, додай руколу, огірок і в'ялені томати, щільно згорни невеликими рулетиками.
+3. Закріпи кожен рол короткою шпажкою й подавай охолодженим.
+## Поради
+- Розділ книги: Перекуси на шпажках.
+- За даними автора: 236 ккал на порцію, Б/Ж/В 29/7/18 г.
+## Мої нотатки

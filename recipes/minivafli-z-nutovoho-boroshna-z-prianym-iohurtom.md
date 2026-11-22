@@ -1,0 +1,43 @@
+---
+id: minivafli-z-nutovoho-boroshna-z-prianym-iohurtom
+title: Мінівафлі з нутового борошна з пряним йогуртом
+source:
+  type: pdf
+  name: Кращі перекуси дієтолога (Андрій Маковецький)
+  ref: "с. 71"
+category: випічка
+subcategory: фітнес-випічка
+tags: [вегетаріанське, перекус, хелзі]
+servings: 1
+time: { prep: null, cook: 20 }
+ingredients:
+  - { name: нутове борошно, qty: 50, unit: г, note: "" }
+  - { name: яйце, qty: 40, unit: г, note: "" }
+  - { name: натуральний йогурт, qty: 35, unit: г, note: "2%" }
+  - { name: вода, qty: 35, unit: г, note: "" }
+  - { name: цукіні, qty: 60, unit: г, note: "" }
+  - { name: оливкова олія, qty: 3, unit: г, note: "" }
+  - { name: розпушувач, qty: 1, unit: г, note: "" }
+  - { name: сушений часник, qty: 0.5, unit: г, note: "" }
+  - { name: копчена паприка, qty: 0.5, unit: г, note: "" }
+  - { name: грецький йогурт, qty: 60, unit: г, note: "2%, для соусу" }
+  - { name: лимонний сік, qty: 5, unit: г, note: "для соусу" }
+  - { name: петрушка, qty: 4, unit: г, note: "для соусу" }
+  - { name: мелений кумин, qty: 0.3, unit: г, note: "для соусу" }
+  - { name: сіль, qty: null, unit: "", note: "за смаком" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+photo: img/minivafli-z-nutovoho-boroshna-z-prianym-iohurtom.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Натри цукіні на дрібній тертці й добре віджми. Змішай нутове борошно, яйце, йогурт, воду, цукіні, розпушувач і спеції до густого однорідного тіста.
+2. Розігрій вафельницю, злегка змасти олією та випеки 3–4 невеликі вафлі за 4–6 хв до золотистої скоринки.
+3. Для соусу змішай йогурт, лимонний сік, подрібнену петрушку, кумин і сіль. Подавай вафлі теплими.
+## Поради
+- Розділ книги: Ситні рослинні перекуси.
+- За даними автора: 356 ккал на порцію, Б/Ж/В 24/12/37 г.
+## Мої нотатки

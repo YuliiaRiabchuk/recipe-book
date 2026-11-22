@@ -1,0 +1,42 @@
+---
+id: salatni-chovnyky-z-kurkoiu-parmezanom-i-sousom-tsezar
+title: "Салатні човники з куркою, пармезаном і соусом цезар"
+source:
+  type: pdf
+  name: Кращі перекуси дієтолога (Андрій Маковецький)
+  ref: "с. 39"
+category: закуски
+subcategory: мʼясні й рибні
+tags: [перекус, з-птицею, на-сковороді, високобілкове, легке, хелзі]
+servings: 1
+time: { prep: null, cook: 20 }
+ingredients:
+  - { name: куряче філе, qty: 110, unit: г, note: "" }
+  - { name: листя салату романо, qty: 90, unit: г, note: "" }
+  - { name: томати черрі, qty: 60, unit: г, note: "" }
+  - { name: пармезан, qty: 12, unit: г, note: "" }
+  - { name: оливкова олія, qty: 3, unit: г, note: "" }
+  - { name: копчена паприка, qty: 0.5, unit: г, note: "" }
+  - { name: сіль, qty: null, unit: "", note: "за смаком" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+  - { name: грецький йогурт, qty: 45, unit: г, note: "2%, для соусу" }
+  - { name: діжонська гірчиця, qty: 4, unit: г, note: "для соусу" }
+  - { name: лимонний сік, qty: 6, unit: г, note: "для соусу" }
+  - { name: пармезан, qty: 5, unit: г, note: "для соусу" }
+  - { name: часник, qty: 1, unit: г, note: "для соусу" }
+  - { name: анчоуси, qty: 5, unit: г, note: "для соусу" }
+photo: img/salatni-chovnyky-z-kurkoiu-parmezanom-i-sousom-tsezar.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Наріж куряче філе невеликими смужками, змішай з оливковою олією, паприкою, сіллю та перцем. Смаж на середньому вогні 6–7 хв до готовності.
+2. Для соусу подрібни анчоуси й часник, змішай з йогуртом, гірчицею, лимонним соком і дрібно натертим пармезаном.
+3. Листя салату розклади у формі човників, наповни куркою та половинками томатів. Полий соусом і посип пармезаном.
+## Поради
+- Розділ книги: Тости, роли та мінісендвічі.
+- За даними автора: 294 ккал на порцію, Б/Ж/В 36/28/9 г.
+## Мої нотатки

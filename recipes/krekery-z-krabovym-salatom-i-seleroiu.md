@@ -1,0 +1,39 @@
+---
+id: krekery-z-krabovym-salatom-i-seleroiu
+title: Крекери з крабовим салатом і селерою
+source:
+  type: pdf
+  name: Хрумкі перекуси на крекерах (Андрій Маковецький)
+  ref: "с. 14"
+category: закуски
+subcategory: бутерброди й канапки
+tags: [перекус, швидко, без-випікання, з-рибою, хелзі]
+servings: 1
+time: { prep: null, cook: 10 }
+ingredients:
+  - { name: цільнозернові крекери, qty: 25, unit: г, note: "" }
+  - { name: крабове мʼясо, qty: 90, unit: г, note: "натуральне" }
+  - { name: грецький йогурт, qty: 35, unit: г, note: "2%" }
+  - { name: стебло селери, qty: 35, unit: г, note: "" }
+  - { name: огірок, qty: 40, unit: г, note: "" }
+  - { name: діжонська гірчиця, qty: 3, unit: г, note: "" }
+  - { name: лимонний сік, qty: 5, unit: г, note: "" }
+  - { name: зелена цибуля, qty: 4, unit: г, note: "" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+photo: img/krekery-z-krabovym-salatom-i-seleroiu.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Відціди крабове мʼясо й розбери на невеликі волокна.
+2. Дуже дрібно наріж селеру, огірок і зелену цибулю.
+3. Змішай крабове мʼясо з овочами, йогуртом і гірчицею.
+4. Додай лимонний сік і чорний перець, перемішай.
+5. Розподіли начинку по крекерах безпосередньо перед подаванням.
+## Поради
+- Розділ книги: Хрумкі перекуси на крекерах.
+- За даними автора: 211 ккал на порцію, Б/Ж/В 19/5/24 г.
+## Мої нотатки

@@ -1,0 +1,38 @@
+---
+id: zhytni-krekery-iz-sardynamy-tomatamy-ta-petrushkoiu
+title: "Житні крекери із сардинами, томатами та петрушкою"
+source:
+  type: pdf
+  name: Хрумкі перекуси на крекерах (Андрій Маковецький)
+  ref: "с. 15"
+category: закуски
+subcategory: бутерброди й канапки
+tags: [перекус, швидко, без-випікання, з-рибою, хелзі]
+servings: 1
+time: { prep: null, cook: 10 }
+ingredients:
+  - { name: житні крекери, qty: 25, unit: г, note: "" }
+  - { name: сардини у власному соку, qty: 85, unit: г, note: "без рідини" }
+  - { name: томати, qty: 80, unit: г, note: "" }
+  - { name: грецький йогурт, qty: 20, unit: г, note: "2%" }
+  - { name: червона цибуля, qty: 10, unit: г, note: "" }
+  - { name: лимонний сік, qty: 6, unit: г, note: "" }
+  - { name: петрушка, qty: 5, unit: г, note: "" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+photo: img/zhytni-krekery-iz-sardynamy-tomatamy-ta-petrushkoiu.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Відціди сардини й розімни виделкою.
+2. Дрібно наріж червону цибулю й петрушку.
+3. Змішай сардини з йогуртом, цибулею, петрушкою, лимонним соком і перцем.
+4. Наріж томати тонкими слайсами й промокни від зайвого соку.
+5. Виклади на крекери томати та сардинову начинку.
+## Поради
+- Розділ книги: Хрумкі перекуси на крекерах.
+- За даними автора: 261 ккал на порцію, Б/Ж/В 24/12/15 г.
+## Мої нотатки

@@ -1,0 +1,37 @@
+---
+id: salatni-chovnyky-z-nutom-fetoiu-ta-pechenym-pertsem
+title: "Салатні човники з нутом, фетою та печеним перцем"
+source:
+  type: pdf
+  name: Кращі перекуси дієтолога (Андрій Маковецький)
+  ref: "с. 201"
+category: салати
+tags: [перекус, вегетаріанське, швидко, без-випікання, хелзі]
+servings: 1
+time: { prep: null, cook: 15 }
+ingredients:
+  - { name: нут, qty: 110, unit: г, note: "готовий, без рідини" }
+  - { name: листя салату романо, qty: 6, unit: шт, note: "або little gem, 6–8 шт." }
+  - { name: печений солодкий перець, qty: 90, unit: г, note: "" }
+  - { name: фета, qty: 55, unit: г, note: "30%" }
+  - { name: огірок, qty: 60, unit: г, note: "" }
+  - { name: оливки без кісточок, qty: 20, unit: г, note: "" }
+  - { name: оливкова олія, qty: 4, unit: г, note: "" }
+  - { name: лимонний сік, qty: 7, unit: г, note: "" }
+  - { name: петрушка, qty: 6, unit: г, note: "" }
+  - { name: сушений орегано, qty: 0.5, unit: г, note: "" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+photo: img/salatni-chovnyky-z-nutom-fetoiu-ta-pechenym-pertsem.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Половину нуту злегка розімни виделкою, решту залиш цілою. Перець, огірок і оливки дрібно наріж.
+2. Змішай нут, овочі, розкришену фету, оливкову олію, лимонний сік, петрушку, орегано та перець.
+3. Наповни листя салату начинкою і подавай охолодженими або кімнатної температури.
+## Поради
+- За даними автора: 426 ккал на порцію, Б/Ж/В 20/22/41 г.
+## Мої нотатки

@@ -1,0 +1,38 @@
+---
+id: polunychnyi-iohurtovyi-chyzkeik-u-skliantsi
+title: Полуничний йогуртовий чизкейк у склянці
+source:
+  type: own
+  name: "слайди з чату, 15.11 (Андрій Маковецький)"
+  ref: "photo_2026-08-15_08-30-16 (3).jpg"
+category: десерти
+subcategory: чизкейки
+tags: [без-випікання, вегетаріанське, перекус, хелзі]
+servings: 1
+time: { prep: null, cook: 15 }
+ingredients:
+  - { name: грецький йогурт, qty: 120, unit: г, note: "5%" }
+  - { name: вершковий сир, qty: 70, unit: г, note: "5%" }
+  - { name: полуниця, qty: 130, unit: г, note: "" }
+  - { name: печиво цільнозернове, qty: 25, unit: г, note: "" }
+  - { name: мигдаль, qty: 8, unit: г, note: "" }
+  - { name: мед, qty: 7, unit: г, note: "" }
+  - { name: лимонний сік, qty: 5, unit: г, note: "" }
+  - { name: лимонна цедра, qty: 0.5, unit: г, note: "" }
+  - { name: ваніль, qty: null, unit: "", note: "за смаком" }
+photo: img/polunychnyi-iohurtovyi-chyzkeik-u-skliantsi.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Подрібни печиво з мигдалем до великої крихти й виклади на дно склянки.
+2. Змішай вершковий сир з йогуртом, половиною меду, цедрою та ваніллю до однорідного крему.
+3. Половину полуниці розімни з лимонним соком і рештою меду, другу наріж шматочками.
+4. Виклади шарами крем, полуничний соус і шматочки полуниці. Охолоди 30 хв.
+## Поради
+- На сторінці вказано ще 2 години охолодження окремо від 15 хв роботи.
+- За даними автора: 365 ккал на порцію, Б/Ж/В 20/15/39 г.
+## Мої нотатки

@@ -1,0 +1,35 @@
+---
+id: inzhyr-iz-rykotoiu-medom-i-fistashkamy
+title: "Інжир із рикотою, медом і фісташками"
+source:
+  type: pdf
+  name: Кращі перекуси дієтолога (Андрій Маковецький)
+  ref: "с. 120"
+category: десерти
+subcategory: швидкі перекуси
+tags: [перекус, без-випікання, вегетаріанське, хелзі]
+servings: 1
+time: { prep: null, cook: 10 }
+ingredients:
+  - { name: інжир, qty: 180, unit: г, note: "свіжий" }
+  - { name: рикота, qty: 120, unit: г, note: "5%" }
+  - { name: фісташки, qty: 15, unit: г, note: "" }
+  - { name: мед, qty: 7, unit: г, note: "" }
+  - { name: апельсинова цедра, qty: 0.5, unit: г, note: "" }
+  - { name: кориця, qty: 0.2, unit: г, note: "мелена" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+photo: img/inzhyr-iz-rykotoiu-medom-i-fistashkamy.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Розріж інжир навпіл або на четвертинки, фісташки крупно подрібни.
+2. Змішай рикоту з половиною меду та апельсиновою цедрою й виклади в чашку.
+3. Додай інжир, полий рештою меду та посип фісташками, корицею й невеликою кількістю чорного перцю.
+## Поради
+- Розділ книги: Йогуртові, сирні та фруктові чашки.
+- За даними автора: 381 ккал на порцію, Б/Ж/В 16/15/51 г.
+## Мої нотатки

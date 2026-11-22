@@ -1,0 +1,35 @@
+---
+id: chypsy-z-keilu-z-prianymy-drizhdzhovymy-plastivtsiamy
+title: Чипси з кейлу з пряними дріжджовими пластівцями
+source:
+  type: pdf
+  name: Кращі перекуси дієтолога (Андрій Маковецький)
+  ref: "с. 82"
+category: закуски
+subcategory: хрумкі снеки
+tags: [перекус, в-духовці, веганське, легке, хелзі]
+servings: 1
+time: { prep: null, cook: 20 }
+ingredients:
+  - { name: кейл, qty: 120, unit: г, note: "" }
+  - { name: оливкова олія, qty: 5, unit: г, note: "" }
+  - { name: харчові дріжджові пластівці, qty: 8, unit: г, note: "" }
+  - { name: копчена паприка, qty: 0.5, unit: г, note: "" }
+  - { name: часник, qty: 0.4, unit: г, note: "сушений" }
+  - { name: сіль, qty: null, unit: "", note: "за смаком" }
+photo: img/chypsy-z-keilu-z-prianymy-drizhdzhovymy-plastivtsiamy.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Вимий кейл, повністю обсуши, видали жорсткі стебла, листя порви на шматочки 5–6 см.
+2. Змішай кейл з олією, дріжджовими пластівцями, паприкою, часником і сіллю, розподіляючи приправи руками.
+3. Викладай одним шаром на деко й запікай 10–14 хв за 150°C, на середині перемішай і стеж, щоб краї не підгоріли.
+4. Повністю охолодь на деку: так чипси стають хрусткішими.
+## Поради
+- Розділ книги: Хрусткі снеки.
+- За даними автора: 133 ккал на порцію, Б/Ж/В 9/7/14 г.
+## Мої нотатки

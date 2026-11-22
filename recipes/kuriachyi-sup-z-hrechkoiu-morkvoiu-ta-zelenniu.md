@@ -1,0 +1,43 @@
+---
+id: kuriachyi-sup-z-hrechkoiu-morkvoiu-ta-zelenniu
+title: "Курячий суп з гречкою, морквою та зеленню"
+source:
+  type: pdf
+  name: Книга обідів (Андрій Маковецький)
+  ref: "с. 102"
+category: супи
+tags: [з-птицею, високобілкове, без-лактози, хелзі]
+servings: 1
+time: { prep: null, cook: 30 }
+ingredients:
+  - { name: куряче філе, qty: 180, unit: г, note: "" }
+  - { name: гречка, qty: 40, unit: г, note: "суха" }
+  - { name: вода, qty: 430, unit: мл, note: "" }
+  - { name: морква, qty: 80, unit: г, note: "" }
+  - { name: цибуля ріпчаста, qty: 50, unit: г, note: "" }
+  - { name: лавровий лист, qty: 1, unit: шт, note: "" }
+  - { name: часник, qty: 4, unit: г, note: "" }
+  - { name: лимонний сік, qty: 5, unit: мл, note: "1 ч.л." }
+  - { name: соняшникова олія, qty: 5, unit: г, note: "1 ч.л." }
+  - { name: кріп, qty: 6, unit: г, note: "" }
+  - { name: петрушка, qty: 6, unit: г, note: "" }
+  - { name: сіль, qty: null, unit: "", note: "за смаком" }
+  - { name: перець, qty: null, unit: "", note: "за смаком" }
+photo: img/kuriachyi-sup-z-hrechkoiu-morkvoiu-ta-zelenniu.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Промий гречку. Моркву наріж півкільцями, цибулю кубиком, часник подрібни.
+2. У каструлі прогрій олію, пасеруй цибулю з морквою 3–4 хв. Додай часник на 30 с.
+3. Влий 500 мл води, додай лавровий лист і доведи до кипіння.
+4. Додай курку кубиком і вари 6–7 хв на малому кипінні.
+5. Всип гречку й вари ще 8–10 хв до мʼякості гречки та готовності курки. Посоли, поперчи.
+6. Вимкни, додай лимонний сік, дістань лавровий лист, всип зелень. Накрий на 5 хв.
+## Поради
+- Розділ книги: Білкові супи.
+- За даними автора: 443 ккал на порцію, Б/Ж/В 49/10/43 г.
+## Мої нотатки

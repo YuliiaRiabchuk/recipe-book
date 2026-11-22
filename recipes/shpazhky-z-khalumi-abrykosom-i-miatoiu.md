@@ -1,0 +1,36 @@
+---
+id: shpazhky-z-khalumi-abrykosom-i-miatoiu
+title: "Шпажки з халумі, абрикосом і м'ятою"
+source:
+  type: pdf
+  name: Кращі перекуси дієтолога (Андрій Маковецький)
+  ref: "с. 94"
+category: закуски
+subcategory: бутерброди й канапки
+tags: [перекус, гриль, вегетаріанське, хелзі]
+servings: 1
+time: { prep: null, cook: 15 }
+ingredients:
+  - { name: халумі, qty: 90, unit: г, note: "" }
+  - { name: абрикоси, qty: 140, unit: г, note: "" }
+  - { name: рукола, qty: 30, unit: г, note: "" }
+  - { name: оливкова олія, qty: 3, unit: г, note: "" }
+  - { name: сік лимона, qty: 5, unit: г, note: "" }
+  - { name: "м'ята", qty: 5, unit: г, note: "" }
+  - { name: мед, qty: 4, unit: г, note: "" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+photo: img/shpazhky-z-khalumi-abrykosom-i-miatoiu.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Наріж халумі кубиками близько 2 см, абрикоси розріж навпіл і видали кісточки.
+2. Наниж халумі й абрикоси на короткі шпажки. Обсмаж на сухій сковороді-гриль по 1–2 хв з кожного боку, доки сир підрум'яниться, а фрукти злегка розм'якнуть.
+3. Змішай олію, лимонний сік, мед, дрібно нарізану м'яту та перець. Полий шпажки й подавай на руколі.
+## Поради
+- Розділ книги: Перекуси з яєць, сиру та йогурту.
+- За даними автора: 383 ккал на порцію, Б/Ж/В 21/25/23 г.
+## Мої нотатки

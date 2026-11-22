@@ -1,0 +1,40 @@
+---
+id: krekery-z-sochevychnym-pashtetom-i-hrybamy
+title: Крекери з сочевичним паштетом і грибами
+source:
+  type: pdf
+  name: Хрумкі перекуси на крекерах (Андрій Маковецький)
+  ref: "с. 20"
+category: закуски
+subcategory: бутерброди й канапки
+tags: [перекус, на-сковороді, веганське, вегетаріанське, пісне, хелзі]
+servings: 1
+time: { prep: null, cook: 20 }
+ingredients:
+  - { name: житні крекери, qty: 25, unit: г, note: "" }
+  - { name: сочевиця, qty: 100, unit: г, note: "варена" }
+  - { name: печериці, qty: 100, unit: г, note: "" }
+  - { name: цибуля, qty: 20, unit: г, note: "" }
+  - { name: оливкова олія, qty: 4, unit: г, note: "" }
+  - { name: діжонська гірчиця, qty: 3, unit: г, note: "" }
+  - { name: часник, qty: 1, unit: г, note: "" }
+  - { name: чебрець, qty: 0.5, unit: г, note: "" }
+  - { name: сіль, qty: null, unit: "", note: "за смаком" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+photo: img/krekery-z-sochevychnym-pashtetom-i-hrybamy.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Дрібно наріж цибулю та гриби.
+2. Обсмаж цибулю й гриби на оливковій олії 7–8 хв, доки волога википить.
+3. Половину грибів збий із сочевицею, гірчицею, часником, чебрецем, сіллю та перцем.
+4. Намажи сочевичний паштет на крекери.
+5. Зверху виклади решту грибів і подавай теплими або охолодженими.
+## Поради
+- Розділ книги: Хрумкі перекуси на крекерах.
+- За даними автора: 259 ккал на порцію, Б/Ж/В 15/8/36 г.
+## Мої нотатки

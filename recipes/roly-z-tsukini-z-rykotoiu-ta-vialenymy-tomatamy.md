@@ -1,0 +1,38 @@
+---
+id: roly-z-tsukini-z-rykotoiu-ta-vialenymy-tomatamy
+title: Роли з цукіні з рикотою та вʼяленими томатами
+source:
+  type: pdf
+  name: Кращі перекуси дієтолога (Андрій Маковецький)
+  ref: "с. 37"
+category: закуски
+subcategory: хумуси й намазки
+tags: [перекус, вегетаріанське, гриль, на-сковороді, хелзі]
+servings: 1
+time: { prep: null, cook: 20 }
+ingredients:
+  - { name: цукіні, qty: 200, unit: г, note: "" }
+  - { name: рикота, qty: 90, unit: г, note: "5%" }
+  - { name: вʼялені томати, qty: 25, unit: г, note: "без надлишку олії" }
+  - { name: пармезан, qty: 10, unit: г, note: "" }
+  - { name: шпинат, qty: 25, unit: г, note: "" }
+  - { name: оливкова олія, qty: 3, unit: г, note: "" }
+  - { name: базилік, qty: 4, unit: г, note: "" }
+  - { name: сушений часник, qty: 0.4, unit: г, note: "" }
+  - { name: сіль, qty: null, unit: "", note: "за смаком" }
+  - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
+photo: img/roly-z-tsukini-z-rykotoiu-ta-vialenymy-tomatamy.jpg
+nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
+nutrition_status: немає
+status: спробувати
+rating: null
+added: 2026-11-15
+---
+## Кроки
+1. Наріж цукіні вздовж слайсами завтовшки 3–4 мм. Злегка змасти олією та обсмаж на сковороді-гриль по 1–2 хв з кожного боку, щоб слайси стали гнучкими.
+2. Шпинат і вʼялені томати дрібно наріж. Змішай з рикотою, пармезаном, базиліком, сушеним часником, сіллю та перцем.
+3. На край кожного слайса виклади начинку й згорни ролом. Подавай теплими або охолодженими.
+## Поради
+- Розділ книги: Тости, роли та мінісендвічі.
+- За даними автора: 263 ккал на порцію, Б/Ж/В 18/13/21 г.
+## Мої нотатки
