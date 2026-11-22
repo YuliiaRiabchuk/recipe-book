@@ -604,12 +604,14 @@ ul.ings li > span:first-child { min-width: 0; }
     var a = authorNut(r);
     if (a && a.kcal != null) {
       if (a.per100) return { kcal: a.kcal, protein: a.protein, fat: a.fat, carbs: a.carbs, src: 'author' };
-      // оцінена вага неповного розрахунку не містить непідтверджених продуктів, тож беремо суму інгредієнтів у грамах
+      // вага страви: з джерела, інакше більша з двох оцінок. Сума інгредієнтів у г/мл не бачить штук (яйця, овочі),
+      // а оцінка розрахунку — непідтверджених продуктів; менша з них давала 800+ ккал на 100 г
       var raw = (r.ingredients || []).reduce(function (s, i) { var u = { 'г': 1, 'кг': 1000, 'мл': 1, 'л': 1000 }[i && i.unit]; return s + (u && typeof i.qty === 'number' ? i.qty * u : 0); }, 0);
-      var g = r.cooked_g || (r.nutrition_status === 'повний' && r.cooked_g_est) || raw || r.cooked_g_est, sv = r.servings || 1;
+      var g = r.cooked_g || Math.max(raw, r.cooked_g_est || 0), sv = r.servings || 1;
       if (g) {
         var k = 100 * sv / g, sc = function (v) { return v == null ? null : Math.round(v * k * 10) / 10; };
-        return { kcal: Math.round(a.kcal * k), protein: sc(a.protein), fat: sc(a.fat), carbs: sc(a.carbs), src: 'author-est' };
+        // понад 900 ккал на 100 г не буває (це чистий жир): вага явно неповна, лишаємо розрахунок
+        if (a.kcal * k <= 900) return { kcal: Math.round(a.kcal * k), protein: sc(a.protein), fat: sc(a.fat), carbs: sc(a.carbs), src: 'author-est' };
       }
     }
     if (h.kcal != null) return { kcal: h.kcal, protein: h.protein, fat: h.fat, carbs: h.carbs, src: 'partial' };
