@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 57"
 category: сніданки
-subcategory: пудинги й чіа
+subcategory: овочеві й сирні тости
 tags: [вегетаріанське, веганське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
