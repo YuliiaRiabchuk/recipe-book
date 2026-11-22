@@ -23,8 +23,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: мускатний горіх, qty: 0.2, unit: г, note: "" }
 photo: img/indychka-z-hrybamy-ta-shpynatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 443, protein: 57.6, fat: 16.1, carbs: 19.8 }
+nutrition_per_100g: { kcal: 79, protein: 10.3, fat: 2.9, carbs: 3.5 }
+cooked_g_est: 562
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

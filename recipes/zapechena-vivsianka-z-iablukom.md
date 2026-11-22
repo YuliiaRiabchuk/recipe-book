@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 166"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [вегетаріанське, в-духовці, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: кориця, qty: 0.5, unit: ч.л., note: "≈1 г, за смаком" }
   - { name: вершкове масло, qty: 5, unit: г, note: "для змащення форми" }
 photo: img/zapechena-vivsianka-z-iablukom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 543, protein: 21.2, fat: 16.9, carbs: 79.5 }
+nutrition_per_100g: { kcal: 139, protein: 5.4, fat: 4.3, carbs: 20.4 }
+cooked_g_est: 390
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

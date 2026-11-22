@@ -25,8 +25,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: зелень, qty: 5, unit: г, note: "5–10 г" }
 photo: img/indychka-paprykash-u-formi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 520, protein: 46.5, fat: 26.0, carbs: 28.2 }
+nutrition_per_100g: { kcal: 101, protein: 9.1, fat: 5.1, carbs: 5.5 }
+cooked_g_est: 512
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

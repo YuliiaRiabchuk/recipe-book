@@ -29,8 +29,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/iaiechna-zapikanka-z-tvorohom-po-hretsky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 401, protein: 29.2, fat: 26.3, carbs: 12.7 }
+nutrition_per_100g: { kcal: 122, protein: 8.8, fat: 8.0, carbs: 3.8 }
+cooked_g_est: 330
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,3 +48,4 @@ added: 2026-11-15
 - Розділ книги: Вегетаріанські білкові.
 - За даними автора: 520 ккал на порцію, Б/Ж/В 45/29/17 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано яєчні білки (немає у словнику); помідори чері (немає у словнику); петрушка (немає у словнику); часник сушений (немає у словнику).

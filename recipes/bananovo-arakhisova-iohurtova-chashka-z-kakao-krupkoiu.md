@@ -20,8 +20,10 @@ ingredients:
   - { name: мед, qty: 4, unit: г, note: "" }
   - { name: кориця, qty: 0.3, unit: г, note: "мелена" }
 photo: img/bananovo-arakhisova-iohurtova-chashka-z-kakao-krupkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 460, protein: 24.6, fat: 24.1, carbs: 44.0 }
+nutrition_per_100g: { kcal: 141, protein: 7.6, fat: 7.4, carbs: 13.5 }
+cooked_g_est: 326
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 471 ккал на порцію, Б/Ж/В 25/24/44 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано какао-крупка (немає у словнику).

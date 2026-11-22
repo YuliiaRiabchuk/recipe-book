@@ -22,8 +22,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/sardyny-z-olyvkamy-ta-salatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 137, protein: 3.5, fat: 6.7, carbs: 19.5 }
+nutrition_per_100g: { kcal: 30, protein: 0.8, fat: 1.5, carbs: 4.3 }
+cooked_g_est: 452
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - P.S. Для ефекту ресторанного меню дай салату постояти 3–4 хв, щоб заправка вбралась.
 - За даними автора: 465 ккал на порцію, Б/Ж/В 37/26/21 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сардини консервовані (немає у словнику); оливки (немає у словнику).

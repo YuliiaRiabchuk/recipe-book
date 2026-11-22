@@ -27,8 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tempe-wok-z-ovochamy-rysom-ta-imbyrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 70, protein: 2.1, fat: 3.2, carbs: 9.5 }
+nutrition_per_100g: { kcal: 87, protein: 2.7, fat: 4.0, carbs: 11.9 }
+cooked_g_est: 80
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - Розділ книги: Вегетаріанські білкові.
 - За даними автора: 724 ккал на порцію, Б/Ж/В 46/33/72 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано темпе (немає у словнику); рис довгозернистий (немає у словнику); перець солодкий (немає у словнику); капуста пекінська (немає у словнику); імбир свіжий (немає у словнику); соняшникова олія (немає у словнику); соєвий соус лайт (немає у словнику); кунжутна олія (немає у словнику).

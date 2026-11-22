@@ -16,8 +16,10 @@ ingredients:
   - { name: твердий сир, qty: 30, unit: г, note: "" }
   - { name: оливкова олія, qty: 5, unit: мл, note: "" }
 photo: img/zhytni-hrinky-z-chasnykom-i-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 134, protein: 7.3, fat: 10.5, carbs: 2.7 }
+nutrition_per_100g: { kcal: 361, protein: 19.8, fat: 28.5, carbs: 7.2 }
+cooked_g_est: 37
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

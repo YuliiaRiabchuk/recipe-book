@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 152"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [вегетаріанське, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -17,8 +17,10 @@ ingredients:
   - { name: цукор, qty: 1, unit: ч.л., note: "" }
   - { name: олія, qty: null, unit: "", note: "для смаження" }
 photo: img/vivsiani-mlyntsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 412, protein: 19.4, fat: 11.7, carbs: 57.5 }
+nutrition_per_100g: { kcal: 198, protein: 9.3, fat: 5.6, carbs: 27.6 }
+cooked_g_est: 208
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

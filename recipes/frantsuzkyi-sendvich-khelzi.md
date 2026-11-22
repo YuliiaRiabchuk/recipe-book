@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 217"
 category: сніданки
-subcategory: солодкі
+subcategory: солодкі тости й фрукти
 tags: [на-сковороді, вегетаріанське, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: грецький йогурт, qty: 120, unit: г, note: "10%" }
   - { name: оливкова олія, qty: 3, unit: г, note: "" }
 photo: img/frantsuzkyi-sendvich-khelzi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 590, protein: 37.2, fat: 23.9, carbs: 58.1 }
+nutrition_per_100g: { kcal: 115, protein: 7.2, fat: 4.7, carbs: 11.3 }
+cooked_g_est: 514
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

@@ -18,8 +18,10 @@ ingredients:
   - { name: желатин, qty: 8, unit: г, note: "" }
   - { name: вода, qty: 40, unit: мл, note: "" }
 photo: img/chyzkeik-vanil-iahody.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 193, protein: 4.5, fat: 17.4, carbs: 5.8 }
+nutrition_per_100g: { kcal: 232, protein: 5.4, fat: 20.9, carbs: 6.9 }
+cooked_g_est: 500
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Чізкейки без запікання.
 - За даними автора: 86 ккал на порцію, Б/Ж/В 10.9/2.9/4.3 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано еритритол (немає у словнику).

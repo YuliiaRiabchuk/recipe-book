@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 230"
 category: сніданки
-subcategory: солодкі
+subcategory: пудинги й чіа
 tags: [без-випікання, вегетаріанське, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -23,8 +23,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: кориця, qty: null, unit: "", note: "за смаком" }
 photo: img/snidankove-tiramisu-zi-slyvoiu-ta-espreso.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 274, protein: 14.8, fat: 9.3, carbs: 35.6 }
+nutrition_per_100g: { kcal: 122, protein: 6.6, fat: 4.2, carbs: 15.9 }
+cooked_g_est: 224
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Плюс 2 години охолодження в холодильнику.
 - За даними автора: 355 ккал на порцію, Б/Ж/В 22/11/47 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано рикота (немає у словнику); слива (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 68"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з рибою
 tags: [з-рибою, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: мікс салату, qty: 50, unit: г, note: "додаткова опція для користі" }
 photo: img/sendvich-z-tuntsem-iohurtovym-miksom-ta-ohirkom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 216, protein: 12.7, fat: 4.9, carbs: 31.1 }
+nutrition_per_100g: { kcal: 108, protein: 6.4, fat: 2.4, carbs: 15.6 }
+cooked_g_est: 200
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Варіації: замість селери — дрібно нарізана цибуля-шалот або редис; замість йогурту — грецький йогурт або легкий майонез.
 - За даними автора: 405 ккал на порцію, Б/Ж/В 39/11/37 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тунець (немає у словнику); мікс салату (немає у словнику).

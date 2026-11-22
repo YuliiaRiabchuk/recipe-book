@@ -16,8 +16,10 @@ ingredients:
   - { name: "горіх кеш'ю", qty: 40, unit: г, note: "" }
   - { name: кокосова стружка, qty: 20, unit: г, note: "" }
 photo: img/finikovo-horikhovi-raw-batonchyky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 140, protein: 2.4, fat: 6.3, carbs: 21.3 }
+nutrition_per_100g: { kcal: 380, protein: 6.7, fat: 17.3, carbs: 58.2 }
+cooked_g_est: 220
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Raw батончики.
 - За даними автора: 176 ккал на порцію, Б/Ж/В 3.2/7.1/19.1 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано горіх кеш'ю (немає у словнику).

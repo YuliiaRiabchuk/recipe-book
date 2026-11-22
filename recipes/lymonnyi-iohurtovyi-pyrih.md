@@ -22,8 +22,10 @@ ingredients:
   - { name: сік лимона, qty: 20, unit: мл, note: "" }
   - { name: цедра лимона, qty: 2, unit: г, note: "зі шкірки свіжого лимона, дрібно натерта, без білого прошарку" }
 photo: img/lymonnyi-iohurtovyi-pyrih.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 72, protein: 2.8, fat: 1.5, carbs: 11.9 }
+nutrition_per_100g: { kcal: 213, protein: 8.4, fat: 4.4, carbs: 34.9 }
+cooked_g_est: 272
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Пироги солодкі.
 - За даними автора: 109 ккал на порцію, Б/Ж/В 7.1/4/9.7 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано насіння льону мелене (немає у словнику); олія оливкова (немає у словнику); йогурт густий (немає у словнику); підсолоджувач (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 77"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з яйцем
 tags: [вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: чорний перець, qty: 1, unit: г, note: "" }
   - { name: рукола, qty: 20, unit: г, note: "" }
 photo: img/sendvich-z-avokado-ta-iaitsiamy-pashot.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 413, protein: 22.0, fat: 22.0, carbs: 33.6 }
+nutrition_per_100g: { kcal: 158, protein: 8.4, fat: 8.4, carbs: 12.9 }
+cooked_g_est: 261
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

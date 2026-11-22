@@ -20,8 +20,10 @@ ingredients:
   - { name: кардамон, qty: 0.2, unit: г, note: "мелений" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/inzhyrni-kulky-z-takhini-ta-kunzhutom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 432, protein: 14.8, fat: 32.3, carbs: 29.3 }
+nutrition_per_100g: { kcal: 514, protein: 17.6, fat: 38.4, carbs: 34.9 }
+cooked_g_est: 84
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Додатково потрібно 20 хв на охолодження.
 - За даними автора: 581 ккал на порцію, Б/Ж/В 17/33/66 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сушений інжир (немає у словнику); кардамон (немає у словнику).

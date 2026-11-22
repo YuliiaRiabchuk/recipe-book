@@ -20,8 +20,10 @@ ingredients:
   - { name: цедра лайма, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/kokosovo-laimovi-kulky-z-keshiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 561, protein: 11.6, fat: 32.9, carbs: 64.3 }
+nutrition_per_100g: { kcal: 425, protein: 8.8, fat: 24.9, carbs: 48.7 }
+cooked_g_est: 132
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Додатково потрібно 20 хв на охолодження.
 - За даними автора: 652 ккал на порцію, Б/Ж/В 13/41/64 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кокосова паста (немає у словнику); цедра лайма (немає у словнику).

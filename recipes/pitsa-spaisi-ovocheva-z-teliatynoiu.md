@@ -24,8 +24,10 @@ ingredients:
   - { name: оливкова олія, qty: 5, unit: мл, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 38, protein: 3.0, fat: 2.2, carbs: 1.9 }
+nutrition_per_100g: { kcal: 107, protein: 8.4, fat: 6.2, carbs: 5.3 }
+cooked_g_est: 283
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Вихід 405 г, на 8 порцій по 51 г (96 ккал на порцію).
 - За даними автора: 188 ккал на 100 г, Б/Ж/В 11.4/8.3/16.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано основа для піци (немає у словнику); перець чилі (немає у словнику); томати (немає у словнику); селера (немає у словнику).

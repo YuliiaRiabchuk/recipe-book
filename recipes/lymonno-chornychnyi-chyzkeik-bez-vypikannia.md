@@ -21,8 +21,10 @@ ingredients:
   - { name: лимонна цедра, qty: 1, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/lymonno-chornychnyi-chyzkeik-bez-vypikannia.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 152, protein: 8.5, fat: 8.5, carbs: 12.0 }
+nutrition_per_100g: { kcal: 160, protein: 8.9, fat: 9.0, carbs: 12.6 }
+cooked_g_est: 95
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Плюс 1 година на охолодження.
 - За даними автора: 359 ккал на порцію, Б/Ж/В 18/14/44 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано вершковий сир (немає у словнику); чорниця (немає у словнику); цільнозернове печиво (немає у словнику); лимонна цедра (немає у словнику).

@@ -22,8 +22,10 @@ ingredients:
   - { name: часник, qty: 1, unit: зубчик, note: "3 г" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/pasta-z-kurkoiu-hrybamy-ta-zelenoiu-kvasoleiu-z-kunzhutom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 273, protein: 38.4, fat: 10.8, carbs: 5.4 }
+nutrition_per_100g: { kcal: 124, protein: 17.4, fat: 4.9, carbs: 2.5 }
+cooked_g_est: 220
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Паста й локшина з білком.
 - За даними автора: 513 ккал на порцію, Б/Ж/В 49/11/57 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано паста (немає у словнику); зелена квасоля (немає у словнику).

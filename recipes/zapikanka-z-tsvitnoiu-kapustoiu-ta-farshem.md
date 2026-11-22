@@ -23,8 +23,10 @@ ingredients:
   - { name: паприка, qty: 2, unit: г, note: "" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zapikanka-z-tsvitnoiu-kapustoiu-ta-farshem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 418, protein: 17.5, fat: 28.6, carbs: 27.5 }
+nutrition_per_100g: { kcal: 97, protein: 4.1, fat: 6.6, carbs: 6.4 }
+cooked_g_est: 432
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Овочеві запіканки з білком.
 - За даними автора: 737 ккал на порцію, Б/Ж/В 48/50/26 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш індички (немає у словнику).

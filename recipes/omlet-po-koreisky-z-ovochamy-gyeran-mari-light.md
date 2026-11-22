@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 256"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, швидко, на-сковороді, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/omlet-po-koreisky-z-ovochamy-gyeran-mari-light.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 214, protein: 14.4, fat: 13.3, carbs: 9.0 }
+nutrition_per_100g: { kcal: 112, protein: 7.5, fat: 7.0, carbs: 4.7 }
+cooked_g_est: 191
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 257 ккал на порцію, Б/Ж/В 18/17/12 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цукіні (немає у словнику).

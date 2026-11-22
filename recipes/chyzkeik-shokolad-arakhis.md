@@ -18,8 +18,10 @@ ingredients:
   - { name: желатин, qty: 8, unit: г, note: "" }
   - { name: вода, qty: 40, unit: мл, note: "" }
 photo: img/chyzkeik-shokolad-arakhis.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 261, protein: 8.4, fat: 23.6, carbs: 8.9 }
+nutrition_per_100g: { kcal: 366, protein: 11.8, fat: 33.1, carbs: 12.5 }
+cooked_g_est: 428
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Чізкейки без запікання.
 - За даними автора: 222 ккал на порцію, Б/Ж/В 17.8/15/5.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано еритритол (немає у словнику).

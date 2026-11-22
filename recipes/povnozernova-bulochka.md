@@ -20,8 +20,10 @@ ingredients:
   - { name: яйце, qty: 5, unit: г, note: "збите, для змащування" }
   - { name: кунжут, qty: 3, unit: г, note: "для прикраси" }
 photo: img/povnozernova-bulochka.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 39, protein: 2.4, fat: 2.9, carbs: 0.8 }
+nutrition_per_100g: { kcal: 97, protein: 6.0, fat: 7.3, carbs: 2.0 }
+cooked_g_est: 40
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Порція 100 г: 302 ккал. Час приготування 1 год 57 хв, випікання 19 хв.
 - За даними автора: 302 ккал на 100 г, Б/Ж/В 10.6/10.5/41.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано повнозернове борошно (немає у словнику); соняшникова олія (немає у словнику); дріжджі сухі (немає у словнику).

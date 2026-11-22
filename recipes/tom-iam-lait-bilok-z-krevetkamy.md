@@ -23,8 +23,10 @@ ingredients:
   - { name: чилі, qty: 1, unit: г, note: "за бажанням" }
   - { name: кінза, qty: 8, unit: г, note: "або зелена цибуля" }
 photo: img/tom-iam-lait-bilok-z-krevetkamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 319, protein: 39.3, fat: 14.5, carbs: 14.1 }
+nutrition_per_100g: { kcal: 41, protein: 5.0, fat: 1.8, carbs: 1.8 }
+cooked_g_est: 788
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Лимон/лайм клади тільки після вимкнення: смак свіжий, не «варений».
 - За даними автора: 369 ккал на порцію, Б/Ж/В 44/12/22 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано паста том ям (немає у словнику); рибний соус (немає у словнику); чилі (немає у словнику).

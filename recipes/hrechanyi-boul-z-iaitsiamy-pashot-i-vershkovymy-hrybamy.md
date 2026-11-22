@@ -28,8 +28,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/hrechanyi-boul-z-iaitsiamy-pashot-i-vershkovymy-hrybamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 231, protein: 9.7, fat: 15.1, carbs: 19.3 }
+nutrition_per_100g: { kcal: 57, protein: 2.4, fat: 3.7, carbs: 4.8 }
+cooked_g_est: 403
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,3 +47,4 @@ added: 2026-11-15
 - Розділ книги: Вегетаріанські білкові.
 - За даними автора: 600 ккал на порцію, Б/Ж/В 32/31/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано яйце куряче (немає у словнику); гречана крупа (немає у словнику); мікс салату (немає у словнику); петрушка (немає у словнику); грецький горіх (немає у словнику).

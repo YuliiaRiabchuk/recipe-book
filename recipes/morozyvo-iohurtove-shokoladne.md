@@ -16,8 +16,10 @@ ingredients:
   - { name: еритритол, qty: 40, unit: г, note: "" }
   - { name: молоко, qty: 100, unit: мл, note: "2,5 %" }
 photo: img/morozyvo-iohurtove-shokoladne.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 82, protein: 7.2, fat: 4.2, carbs: 6.8 }
+nutrition_per_100g: { kcal: 95, protein: 8.4, fat: 4.9, carbs: 7.9 }
+cooked_g_est: 430
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Морозиво та сорбети без цукру.
 - За даними автора: 110 ккал на 100 г, Б/Ж/В 5.4/3.1/5.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано еритритол (немає у словнику).

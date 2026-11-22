@@ -23,8 +23,10 @@ ingredients:
   - { name: шпинат, qty: 15, unit: г, note: "" }
   - { name: бальзамічний соус, qty: 3, unit: мл, note: "" }
 photo: img/tart-iz-buriakom-ta-koziachym-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 227, protein: 9.0, fat: 2.5, carbs: 46.5 }
+nutrition_per_100g: { kcal: 153, protein: 6.0, fat: 1.7, carbs: 31.2 }
+cooked_g_est: 149
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Розділ книги: Тарти.
 - За даними автора: 490 ккал на порцію, Б/Ж/В 16.4/20/60.7 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); олія оливкова (немає у словнику); козячий сир (немає у словнику); бальзамічний соус (немає у словнику).

@@ -18,8 +18,10 @@ ingredients:
   - { name: псиліум, qty: 5, unit: г, note: "" }
   - { name: сіль, qty: 2, unit: г, note: "" }
 photo: img/vysokoproteinova-pitsa-osnova.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 9, protein: 0.8, fat: 0.6, carbs: 0.0 }
+nutrition_per_100g: { kcal: 140, protein: 12.3, fat: 9.3, carbs: 0.7 }
+cooked_g_est: 51
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Піца основи.
 - За даними автора: 62 ккал на порцію, Б/Ж/В 4/1.9/7 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); протеїн без ароматизаторів (немає у словнику); йогурт грецький (немає у словнику).

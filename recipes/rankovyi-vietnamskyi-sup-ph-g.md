@@ -29,8 +29,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чилі, qty: null, unit: "", note: "за смаком" }
 photo: img/rankovyi-vietnamskyi-sup-ph-g.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 485, protein: 39.2, fat: 8.2, carbs: 62.5 }
+nutrition_per_100g: { kcal: 64, protein: 5.2, fat: 1.1, carbs: 8.2 }
+cooked_g_est: 759
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,3 +47,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 387 ккал на порцію, Б/Ж/В 33/4/54 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано паростки машу (немає у словнику); рибний соус (немає у словнику).

@@ -18,8 +18,10 @@ ingredients:
   - { name: вода, qty: 50, unit: мл, note: "50–150 мл" }
   - { name: імбир, qty: 5, unit: г, note: "5–10 г, за бажанням" }
 photo: img/smuzi-old-fresh-school.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 169, protein: 2.7, fat: 0.5, carbs: 42.4 }
+nutrition_per_100g: { kcal: 50, protein: 0.8, fat: 0.1, carbs: 12.5 }
+cooked_g_est: 340
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

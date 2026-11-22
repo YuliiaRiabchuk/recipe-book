@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 80"
 category: сніданки
-subcategory: поживні
+subcategory: сніданкові тарілки
 tags: [з-птицею, на-сковороді, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -23,8 +23,10 @@ ingredients:
   - { name: часник, qty: 0.5, unit: зубчик, note: "2–3 г, натерти дрібно, для соусу" }
   - { name: лимонний сік, qty: 5, unit: г, note: "1 ч.л., для соусу" }
 photo: img/butter-chicken-2-0-kurka-hryl-iohurtovo-spetsialnyi-sous.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 365, protein: 42.6, fat: 17.4, carbs: 8.7 }
+nutrition_per_100g: { kcal: 119, protein: 13.8, fat: 5.6, carbs: 2.8 }
+cooked_g_est: 308
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Варіація: замість огірка можна взяти помідор скибками 4–5 мм.
 - За даними автора: 548 ккал на порцію, Б/Ж/В 48/25/39 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мікс салату (немає у словнику); карі (немає у словнику).

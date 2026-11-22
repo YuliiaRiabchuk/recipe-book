@@ -17,8 +17,10 @@ ingredients:
   - { name: листя салату, qty: 20, unit: г, note: "" }
   - { name: помідор свіжий, qty: 40, unit: г, note: "" }
 photo: img/proteinovyi-sendvich-z-indychkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 3, protein: 0.3, fat: 0.0, carbs: 0.6 }
+nutrition_per_100g: { kcal: 15, protein: 1.4, fat: 0.1, carbs: 2.9 }
+cooked_g_est: 20
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Порція 250 г: 352 ккал. Підготовка 5 хв, приготування 5 хв.
 - За даними автора: 141 ккал на 100 г, Б/Ж/В 16.7/5.8/5.4 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїновий хліб (немає у словнику); крем-сир нежирний (немає у словнику); індичка (немає у словнику); помідор свіжий (немає у словнику).

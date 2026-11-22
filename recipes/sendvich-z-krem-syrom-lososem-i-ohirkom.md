@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 54"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з рибою
 tags: [з-рибою, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: чорний перець, qty: 0.12, unit: ч.л., note: "мелений, за бажанням" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "кріп або петрушка, за бажанням" }
 photo: img/sendvich-z-krem-syrom-lososem-i-ohirkom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 362, protein: 18.5, fat: 22.1, carbs: 22.7 }
+nutrition_per_100g: { kcal: 229, protein: 11.7, fat: 14.0, carbs: 14.4 }
+cooked_g_est: 158
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 352 ккал на порцію, Б/Ж/В 17/20/27 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано свіжа зелень (немає у словнику).

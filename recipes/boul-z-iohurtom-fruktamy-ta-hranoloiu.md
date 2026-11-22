@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 193"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [без-випікання, вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -17,8 +17,10 @@ ingredients:
   - { name: гранола, qty: 30, unit: г, note: "" }
   - { name: мед, qty: 7, unit: г, note: "1 ч.л." }
 photo: img/boul-z-iohurtom-fruktamy-ta-hranoloiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 294, protein: 19.3, fat: 10.5, carbs: 33.2 }
+nutrition_per_100g: { kcal: 93, protein: 6.1, fat: 3.3, carbs: 10.5 }
+cooked_g_est: 316
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +33,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 498 ккал на порцію, Б/Ж/В 16/22/50 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано гранола (немає у словнику).

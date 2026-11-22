@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 17"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/omlet-iz-syrom-i-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 274, protein: 19.8, fat: 19.9, carbs: 2.5 }
+nutrition_per_100g: { kcal: 156, protein: 11.3, fat: 11.3, carbs: 1.4 }
+cooked_g_est: 176
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Варіація: замість зелені — шпинат (додай на 30–40 секунд разом із сиром).
 - За даними автора: 422 ккал на порцію, Б/Ж/В 32/18/33 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сир гауда (немає у словнику); петрушка (немає у словнику).

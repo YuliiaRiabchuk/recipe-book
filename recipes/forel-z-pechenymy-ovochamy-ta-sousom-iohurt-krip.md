@@ -28,8 +28,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/forel-z-pechenymy-ovochamy-ta-sousom-iohurt-krip.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 171, protein: 10.0, fat: 9.9, carbs: 12.1 }
+nutrition_per_100g: { kcal: 78, protein: 4.6, fat: 4.5, carbs: 5.5 }
+cooked_g_est: 219
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,3 +47,4 @@ added: 2026-11-15
 - Розділ книги: Риба та морепродукти.
 - За даними автора: 625 ккал на порцію, Б/Ж/В 42/40/24 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано філе форелі (немає у словнику); перець солодкий (немає у словнику); баклажан (немає у словнику); соняшникова олія (немає у словнику); петрушка (немає у словнику); чебрець (немає у словнику).

@@ -26,8 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kinoa-z-kvasoleiu-avokado-salsoiu-ta-kurkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 494, protein: 37.6, fat: 22.4, carbs: 37.5 }
+nutrition_per_100g: { kcal: 125, protein: 9.5, fat: 5.7, carbs: 9.5 }
+cooked_g_est: 394
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Бобові та зернові як основа.
 - За даними автора: 723 ккал на порцію, Б/Ж/В 52/22/82 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кіноа (немає у словнику); томат (немає у словнику); перець солодкий (немає у словнику); лайм або лимонний сік (немає у словнику); чилі пластівці (немає у словнику).

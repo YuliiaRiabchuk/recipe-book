@@ -16,8 +16,10 @@ ingredients:
   - { name: мигдаль, qty: 80, unit: г, note: "подрібнений" }
   - { name: мед, qty: 70, unit: г, note: "або сироп еритритолу" }
 photo: img/batonchyky-zhuravlyna-myhdal.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 194, protein: 4.8, fat: 6.0, carbs: 32.6 }
+nutrition_per_100g: { kcal: 387, protein: 9.7, fat: 12.0, carbs: 65.1 }
+cooked_g_est: 450
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

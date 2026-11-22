@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 27"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [з-мʼясом, на-сковороді, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: хліб цільнозерновий, qty: 60, unit: г, note: "1 скибка, за бажанням" }
 photo: img/lait-anhliiskyi-snidanok-iaitsia-kvasolia-hryby-tomaty.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 379, protein: 28.8, fat: 26.2, carbs: 8.2 }
+nutrition_per_100g: { kcal: 123, protein: 9.4, fat: 8.5, carbs: 2.6 }
+cooked_g_est: 308
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Варіація: шинку можна замінити індичкою або куркою.
 - За даними автора: 452 ккал на порцію, Б/Ж/В 25/24/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано квасоля консервована в томаті (немає у словнику); помідори чері (немає у словнику); хліб цільнозерновий (немає у словнику).

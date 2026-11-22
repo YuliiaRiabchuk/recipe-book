@@ -26,8 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/minioladky-iz-sochevytsi-ta-morkvy-z-takhini.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 295, protein: 10.2, fat: 17.9, carbs: 26.0 }
+nutrition_per_100g: { kcal: 179, protein: 6.2, fat: 10.8, carbs: 15.8 }
+cooked_g_est: 165
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 451 ккал на порцію, Б/Ж/В 22/19/51 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано червона сочевиця (немає у словнику); мелений кумин (немає у словнику); копчена паприка (немає у словнику).

@@ -21,8 +21,10 @@ ingredients:
   - { name: лимонна цедра, qty: 0.5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zbyta-feta-z-vynohradom-na-ohirkovykh-slaisakh.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 82, protein: 4.1, fat: 5.2, carbs: 5.1 }
+nutrition_per_100g: { kcal: 158, protein: 7.8, fat: 10.1, carbs: 9.8 }
+cooked_g_est: 52
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 366 ккал на порцію, Б/Ж/В 17/23/35 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фета (немає у словнику); виноград (немає у словнику); довгий огірок (немає у словнику); чебрець (немає у словнику); лимонна цедра (немає у словнику).

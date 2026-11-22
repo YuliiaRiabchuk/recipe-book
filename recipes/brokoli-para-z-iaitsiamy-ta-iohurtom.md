@@ -21,8 +21,10 @@ ingredients:
   - { name: кріп, qty: 8, unit: г, note: "" }
   - { name: часник, qty: 2, unit: г, note: "" }
 photo: img/brokoli-para-z-iaitsiamy-ta-iohurtom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 300, protein: 21.5, fat: 15.8, carbs: 23.2 }
+nutrition_per_100g: { kcal: 76, protein: 5.5, fat: 4.0, carbs: 5.9 }
+cooked_g_est: 394
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Це ідеальна «легка вечеря на відновлення»: багато клітковини й білка, і сон зазвичай кращий.
 - За даними автора: 447 ккал на порцію, Б/Ж/В 35/23/28 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано йогурт грецький (немає у словнику).

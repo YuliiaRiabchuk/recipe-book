@@ -16,8 +16,10 @@ ingredients:
   - { name: крем-сир, qty: 20, unit: г, note: "25%" }
   - { name: огірок свіжий, qty: 30, unit: г, note: "" }
 photo: img/beigl-everything-z-lososem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 70, protein: 1.2, fat: 6.9, carbs: 1.1 }
+nutrition_per_100g: { kcal: 350, protein: 6.1, fat: 34.4, carbs: 5.5 }
+cooked_g_est: 20
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Порція 210 г: 450 ккал. Приготування 3 хв, підсушування 5 хв.
 - За даними автора: 214 ккал на 100 г, Б/Ж/В 11/8.7/22.8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано бейґл «everything» (немає у словнику); лосось слабосолений (немає у словнику); огірок свіжий (немає у словнику).

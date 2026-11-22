@@ -16,8 +16,10 @@ ingredients:
   - { name: сік лимона, qty: 10, unit: мл, note: "" }
   - { name: еритритол, qty: 40, unit: г, note: "" }
 photo: img/morozyvo-chornychnyi-fit.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 39, protein: 3.6, fat: 2.0, carbs: 1.7 }
+nutrition_per_100g: { kcal: 93, protein: 8.6, fat: 4.8, carbs: 4.1 }
+cooked_g_est: 210
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Морозиво та сорбети без цукру.
 - За даними автора: 95 ккал на 100 г, Б/Ж/В 2.8/1.5/9.8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано чорниця (немає у словнику); еритритол (немає у словнику).

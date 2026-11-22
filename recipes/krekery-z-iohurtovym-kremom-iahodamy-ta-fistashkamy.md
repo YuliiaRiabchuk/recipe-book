@@ -19,8 +19,10 @@ ingredients:
   - { name: мед, qty: 5, unit: г, note: "" }
   - { name: лимонна цедра, qty: 0.3, unit: г, note: "" }
 photo: img/krekery-z-iohurtovym-kremom-iahodamy-ta-fistashkamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 131, protein: 9.4, fat: 5.2, carbs: 12.7 }
+nutrition_per_100g: { kcal: 80, protein: 5.7, fat: 3.1, carbs: 7.7 }
+cooked_g_est: 165
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 338 ккал на порцію, Б/Ж/В 14/14/41 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); чорниця (немає у словнику); фісташки (немає у словнику); лимонна цедра (немає у словнику).

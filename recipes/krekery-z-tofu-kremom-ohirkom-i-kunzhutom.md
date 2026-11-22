@@ -20,8 +20,10 @@ ingredients:
   - { name: імбир, qty: 1, unit: г, note: "" }
   - { name: зелена цибуля, qty: 4, unit: г, note: "" }
 photo: img/krekery-z-tofu-kremom-ohirkom-i-kunzhutom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 211, protein: 21.2, fat: 12.7, carbs: 8.6 }
+nutrition_per_100g: { kcal: 100, protein: 10.0, fat: 6.0, carbs: 4.0 }
+cooked_g_est: 212
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 190 ккал на порцію, Б/Ж/В 12/8/20 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано гречані крекери (немає у словнику).

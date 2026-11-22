@@ -5,7 +5,8 @@ source:
   type: pdf
   name: Корисна випічка і десерти (оновлення листопад) (Андрій Маковецький)
   ref: "с. 86"
-category: складові
+category: випічка
+subcategory: піца й фокача
 tags: [в-духовці, вегетаріанське, хелзі]
 servings: 8
 time: { prep: null, cook: 24 }
@@ -18,8 +19,10 @@ ingredients:
   - { name: цибуля фіолетова, qty: 30, unit: г, note: "за бажанням" }
   - { name: орегано, qty: 5, unit: г, note: "" }
 photo: img/pitsa-seredzemnomorska.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 22, protein: 1.1, fat: 1.6, carbs: 0.7 }
+nutrition_per_100g: { kcal: 151, protein: 7.9, fat: 11.3, carbs: 5.1 }
+cooked_g_est: 116
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +36,4 @@ added: 2026-11-15
 - Розділ книги: Начинки для піци.
 - За даними автора: 85 ккал на порцію, Б/Ж/В 4.2/4.2/6.9 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано основа для піци (немає у словнику); оливки (немає у словнику); томати (немає у словнику); цибуля фіолетова (немає у словнику).

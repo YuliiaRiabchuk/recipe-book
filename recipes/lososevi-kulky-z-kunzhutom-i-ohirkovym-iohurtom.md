@@ -25,8 +25,10 @@ ingredients:
   - { name: кріп, qty: 4, unit: г, note: "для соусу" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/lososevi-kulky-z-kunzhutom-i-ohirkovym-iohurtom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 379, protein: 34.5, fat: 23.3, carbs: 7.5 }
+nutrition_per_100g: { kcal: 155, protein: 14.1, fat: 9.5, carbs: 3.1 }
+cooked_g_est: 244
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 401 ккал на порцію, Б/Ж/В 35/22/16 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сухарі панірувальні (немає у словнику).

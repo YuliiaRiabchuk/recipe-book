@@ -19,8 +19,10 @@ ingredients:
   - { name: кориця, qty: 0.5, unit: г, note: "мелена" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/syrna-chashka-z-persykom-myhdalem-i-korytseiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 256, protein: 23.3, fat: 10.0, carbs: 19.6 }
+nutrition_per_100g: { kcal: 116, protein: 10.6, fat: 4.5, carbs: 8.9 }
+cooked_g_est: 220
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Йогуртові, сирні та фруктові чашки.
 - За даними автора: 354 ккал на порцію, Б/Ж/В 30/16/26 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано персик (немає у словнику).

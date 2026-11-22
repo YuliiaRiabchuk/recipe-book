@@ -17,8 +17,10 @@ ingredients:
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
   - { name: ягоди, qty: 70, unit: г, note: "свіжі або заморожені" }
 photo: img/chia-pudynh-vanil-iahody.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 158, protein: 5.0, fat: 8.1, carbs: 18.9 }
+nutrition_per_100g: { kcal: 166, protein: 5.2, fat: 8.6, carbs: 19.9 }
+cooked_g_est: 95
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 - Розділ книги: Десерти без запікання.
 - За даними автора: 280 ккал на порцію, Б/Ж/В 10.3/14.8/26.6 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мигдальне молоко (немає у словнику); ваніль (немає у словнику).

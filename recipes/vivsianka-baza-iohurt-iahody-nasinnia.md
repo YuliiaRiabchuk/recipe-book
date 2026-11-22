@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 172"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [швидко, вегетаріанське, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: горіхи, qty: 10, unit: г, note: "" }
   - { name: мед, qty: 7, unit: г, note: "1 ч.л., за бажанням" }
 photo: img/vivsianka-baza-iohurt-iahody-nasinnia.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 484, protein: 23.1, fat: 18.1, carbs: 61.3 }
+nutrition_per_100g: { kcal: 101, protein: 4.8, fat: 3.8, carbs: 12.8 }
+cooked_g_est: 477
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Варіація: замість меду можна додати щіпку кориці.
 - За даними автора: 479 ккал на порцію, Б/Ж/В 19/17/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано насіння чіа або льону (немає у словнику).

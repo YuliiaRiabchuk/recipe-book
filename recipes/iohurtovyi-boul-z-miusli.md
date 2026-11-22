@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 216"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [без-випікання, вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 5 }
@@ -17,8 +17,10 @@ ingredients:
   - { name: насіння чіа, qty: 8, unit: г, note: "" }
   - { name: кориця, qty: 1, unit: г, note: "" }
 photo: img/iohurtovyi-boul-z-miusli.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 316, protein: 19.7, fat: 12.7, carbs: 33.4 }
+nutrition_per_100g: { kcal: 86, protein: 5.3, fat: 3.5, carbs: 9.1 }
+cooked_g_est: 369
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Сніданки країн світу.
 - За даними автора: 507 ккал на порцію, Б/Ж/В 22/25/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мюслі (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 50"
 category: сніданки
-subcategory: поживні
+subcategory: сирники й запіканки
 tags: [з-рибою, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -25,8 +25,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: сушений кріп, qty: 0.5, unit: г, note: "" }
 photo: img/zapikanka-z-tuntsem-shpynatom-i-pekinskoiu-kapustoiu-ta.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 393, protein: 27.8, fat: 21.6, carbs: 23.6 }
+nutrition_per_100g: { kcal: 103, protein: 7.3, fat: 5.6, carbs: 6.2 }
+cooked_g_est: 383
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 505 ккал на порцію, Б/Ж/В 42/29/23 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тунець (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику); сушений кріп (немає у словнику).

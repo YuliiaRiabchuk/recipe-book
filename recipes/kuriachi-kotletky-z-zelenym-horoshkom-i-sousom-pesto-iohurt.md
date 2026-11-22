@@ -23,8 +23,10 @@ ingredients:
   - { name: песто, qty: 10, unit: г, note: "2 ч.л." }
   - { name: лимонний сік, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/kuriachi-kotletky-z-zelenym-horoshkom-i-sousom-pesto-iohurt.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 381, protein: 23.7, fat: 18.2, carbs: 31.3 }
+nutrition_per_100g: { kcal: 109, protein: 6.8, fat: 5.2, carbs: 8.9 }
+cooked_g_est: 350
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Чука (40 г) додасть «суші-бар» вайб і мінеральний післясмак; порція маленька, тож калорійність зміниться мінімально.
 - За даними автора: 678 ккал на порцію, Б/Ж/В 57/34/36 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш курячий (немає у словнику); панірувальні сухарі (немає у словнику).

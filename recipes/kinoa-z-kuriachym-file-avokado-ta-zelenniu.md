@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 123"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [з-птицею, на-сковороді, високобілкове, без-глютену, без-лактози, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kinoa-z-kuriachym-file-avokado-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 329, protein: 30.9, fat: 20.1, carbs: 7.2 }
+nutrition_per_100g: { kcal: 175, protein: 16.4, fat: 10.7, carbs: 3.8 }
+cooked_g_est: 188
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Варіація: замість кіноа — гречка.
 - За даними автора: 613 ккал на порцію, Б/Ж/В 51/25/46 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кіноа (немає у словнику); петрушка (немає у словнику).

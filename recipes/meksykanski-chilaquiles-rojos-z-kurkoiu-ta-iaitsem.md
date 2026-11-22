@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 233"
 category: сніданки
-subcategory: поживні
+subcategory: "лаваш, роли й тортильї"
 tags: [з-птицею, в-духовці, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 35 }
@@ -28,8 +28,10 @@ ingredients:
   - { name: чилі, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/meksykanski-chilaquiles-rojos-z-kurkoiu-ta-iaitsem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 247, protein: 23.0, fat: 11.9, carbs: 12.8 }
+nutrition_per_100g: { kcal: 82, protein: 7.7, fat: 3.9, carbs: 4.3 }
+cooked_g_est: 301
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,3 +47,4 @@ added: 2026-11-15
 - Для рідкого жовтка використовуй пастеризоване яйце.
 - За даними автора: 346 ккал на порцію, Б/Ж/В 27/13/31 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кукурудзяна тортилья (немає у словнику); солодкий перець (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 202"
 category: сніданки
-subcategory: солодкі
+subcategory: пудинги й чіа
 tags: [без-випікання, вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 5 }
@@ -16,8 +16,10 @@ ingredients:
   - { name: какао-порошок, qty: 2, unit: г, note: "1 ч.л." }
   - { name: мед, qty: 7, unit: г, note: "1 ч.л.; або сироп" }
 photo: img/chia-pudynh-z-kakao.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 223, protein: 10.3, fat: 10.4, carbs: 25.0 }
+nutrition_per_100g: { kcal: 97, protein: 4.5, fat: 4.5, carbs: 10.9 }
+cooked_g_est: 229
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

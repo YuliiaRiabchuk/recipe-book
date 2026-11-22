@@ -23,8 +23,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/shokoladni-brauni-baitsy-iz-tsukini.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 422, protein: 16.1, fat: 20.2, carbs: 50.9 }
+nutrition_per_100g: { kcal: 302, protein: 11.5, fat: 14.4, carbs: 36.3 }
+cooked_g_est: 140
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Мафіни, брауні та корисна випічка.
 - За даними автора: 430 ккал на порцію, Б/Ж/В 18/21/50 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цукіні (немає у словнику).

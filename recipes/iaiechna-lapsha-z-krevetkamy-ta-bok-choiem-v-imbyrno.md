@@ -23,8 +23,10 @@ ingredients:
   - { name: кунжут, qty: 3, unit: г, note: "1 ч.л., 3–4 г" }
   - { name: перець чилі, qty: null, unit: "", note: "за смаком, або чорний перець" }
 photo: img/iaiechna-lapsha-z-krevetkamy-ta-bok-choiem-v-imbyrno.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 83, protein: 2.1, fat: 6.6, carbs: 5.2 }
+nutrition_per_100g: { kcal: 63, protein: 1.6, fat: 5.0, carbs: 3.9 }
+cooked_g_est: 133
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Розділ книги: Азійська лапша.
 - За даними автора: 481 ккал на порцію, Б/Ж/В 47/10/53 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано яєчна лапша (немає у словнику); креветки очищені (немає у словнику); бок-чой (немає у словнику).

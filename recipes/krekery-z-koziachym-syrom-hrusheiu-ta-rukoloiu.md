@@ -20,8 +20,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-koziachym-syrom-hrusheiu-ta-rukoloiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 140, protein: 2.4, fat: 6.8, carbs: 20.9 }
+nutrition_per_100g: { kcal: 102, protein: 1.8, fat: 4.9, carbs: 15.1 }
+cooked_g_est: 138
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 381 ккал на порцію, Б/Ж/В 17/23/31 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано житні крекери (немає у словнику); козячий сир (немає у словнику).

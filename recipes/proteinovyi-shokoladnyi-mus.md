@@ -16,8 +16,10 @@ ingredients:
   - { name: грецький йогурт, qty: 180, unit: г, note: "10 %" }
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
 photo: img/proteinovyi-shokoladnyi-mus.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 197, protein: 18.2, fat: 10.4, carbs: 13.0 }
+nutrition_per_100g: { kcal: 104, protein: 9.6, fat: 5.5, carbs: 6.8 }
+cooked_g_est: 190
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 355 ккал на порцію, Б/Ж/В 35/21.6/15.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику).

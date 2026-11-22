@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 222"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [на-сковороді, вегетаріанське, швидко, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/skrembl-z-ovochamy-caf-scramble.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 272, protein: 21.1, fat: 14.8, carbs: 17.5 }
+nutrition_per_100g: { kcal: 63, protein: 4.9, fat: 3.4, carbs: 4.0 }
+cooked_g_est: 433
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

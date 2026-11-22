@@ -23,8 +23,10 @@ ingredients:
   - { name: сік лайма, qty: 5, unit: г, note: "для дипу" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком, для дипу" }
 photo: img/solodki-sprinh-roly-z-bananom-polunytseiu-ta-iohurtovym.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 375, protein: 12.0, fat: 11.0, carbs: 64.3 }
+nutrition_per_100g: { kcal: 78, protein: 2.5, fat: 2.3, carbs: 13.5 }
+cooked_g_est: 478
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 506 ккал на порцію, Б/Ж/В 13/11/98 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мʼята (немає у словнику).

@@ -25,8 +25,10 @@ ingredients:
   - { name: кунжут, qty: 3, unit: г, note: "1 ч.л.; 3–4 г" }
   - { name: перець, qty: null, unit: "", note: "або чилі; за смаком" }
 photo: img/funchoza-z-kurkoiu-ta-ovochamy-u-soievo-laimovomu-sousi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 548, protein: 41.0, fat: 11.4, carbs: 72.0 }
+nutrition_per_100g: { kcal: 115, protein: 8.6, fat: 2.4, carbs: 15.2 }
+cooked_g_est: 475
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

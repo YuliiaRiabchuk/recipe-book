@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 137"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [з-птицею, на-сковороді, високобілкове, пісне, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -26,8 +26,10 @@ ingredients:
   - { name: часник сушений, qty: 1, unit: г, note: "" }
   - { name: імбир сушений, qty: 0.5, unit: г, note: "" }
 photo: img/boul-z-kurkoiu-ovochamy-ta-rysom-basmati-soievo-lymonna.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 386, protein: 48.5, fat: 11.1, carbs: 25.5 }
+nutrition_per_100g: { kcal: 84, protein: 10.5, fat: 2.4, carbs: 5.5 }
+cooked_g_est: 462
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Варіація: замість рису — кіноа.
 - За даними автора: 552 ккал на порцію, Б/Ж/В 33/9/65 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано рис басматі (немає у словнику); вода для рису (немає у словнику); часник сушений (немає у словнику); імбир сушений (немає у словнику).

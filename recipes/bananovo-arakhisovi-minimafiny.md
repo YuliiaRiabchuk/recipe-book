@@ -22,8 +22,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/bananovo-arakhisovi-minimafiny.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 493, protein: 20.2, fat: 22.9, carbs: 56.6 }
+nutrition_per_100g: { kcal: 241, protein: 9.9, fat: 11.2, carbs: 27.6 }
+cooked_g_est: 205
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

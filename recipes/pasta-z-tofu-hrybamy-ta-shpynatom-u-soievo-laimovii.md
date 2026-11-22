@@ -21,8 +21,10 @@ ingredients:
   - { name: лайм, qty: 0.5, unit: шт, note: "сік ~15 г" }
   - { name: часник, qty: 1, unit: зубчик, note: "3 г" }
 photo: img/pasta-z-tofu-hrybamy-ta-shpynatom-u-soievo-laimovii.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 359, protein: 37.7, fat: 21.4, carbs: 14.4 }
+nutrition_per_100g: { kcal: 97, protein: 10.2, fat: 5.8, carbs: 3.9 }
+cooked_g_est: 371
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Паста й локшина з білком.
 - За даними автора: 562 ккал на порцію, Б/Ж/В 36/19/62 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано паста (немає у словнику).

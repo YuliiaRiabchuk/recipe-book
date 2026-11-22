@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kalmar-hryl-z-kinoa-shpynatom-ta-lymonom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 73, protein: 2.7, fat: 5.4, carbs: 5.2 }
+nutrition_per_100g: { kcal: 78, protein: 2.9, fat: 5.8, carbs: 5.6 }
+cooked_g_est: 93
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Риба та морепродукти.
 - За даними автора: 504 ккал на порцію, Б/Ж/В 41/15/49 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кальмар очищений (немає у словнику); кіноа (немає у словнику); соняшникова олія (немає у словнику); петрушка (немає у словнику).

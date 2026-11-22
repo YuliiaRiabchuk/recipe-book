@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 167"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [швидко, вегетаріанське, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: вершкове масло, qty: 5, unit: г, note: "" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/manna-kasha-na-molotsi-z-proteinom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 304, protein: 11.4, fat: 16.8, carbs: 29.7 }
+nutrition_per_100g: { kcal: 104, protein: 3.9, fat: 5.8, carbs: 10.2 }
+cooked_g_est: 292
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 520 ккал на порцію, Б/Ж/В 29/22/62 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано манна крупа (немає у словнику); протеїн (немає у словнику).

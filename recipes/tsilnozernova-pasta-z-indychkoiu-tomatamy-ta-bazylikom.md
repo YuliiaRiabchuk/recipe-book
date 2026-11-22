@@ -26,8 +26,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: орегано, qty: null, unit: "", note: "за смаком" }
 photo: img/tsilnozernova-pasta-z-indychkoiu-tomatamy-ta-bazylikom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 452, protein: 52.2, fat: 17.7, carbs: 22.6 }
+nutrition_per_100g: { kcal: 91, protein: 10.5, fat: 3.6, carbs: 4.5 }
+cooked_g_est: 496
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Середземноморські та «кафешні».
 - За даними автора: 675 ккал на порцію, Б/Ж/В 63/20/72 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано паста цільнозернова (немає у словнику).

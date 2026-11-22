@@ -27,8 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: кунжут, qty: 4, unit: г, note: "" }
 photo: img/boul-z-ialovychynoiu-rysom-ta-chyli-lait-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 95, protein: 2.6, fat: 2.4, carbs: 18.5 }
+nutrition_per_100g: { kcal: 29, protein: 0.8, fat: 0.7, carbs: 5.7 }
+cooked_g_est: 323
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Салати-боули.
 - За даними автора: 635 ккал на порцію, Б/Ж/В 47/18/68 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано яловичина пісна (немає у словнику); рис довгозернистий (немає у словнику); соєвий соус лайт (немає у словнику); лайм або лимонний сік (немає у словнику); соняшникова олія (немає у словнику); чилі пластівці (немає у словнику).

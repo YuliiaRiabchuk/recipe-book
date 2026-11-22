@@ -22,8 +22,10 @@ ingredients:
   - { name: яйце, qty: 5, unit: г, note: "збите, для змащування" }
   - { name: кунжут, qty: 3, unit: г, note: "для прикраси" }
 photo: img/vivsiano-lliana-bulochka.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 201, protein: 8.3, fat: 5.9, carbs: 28.8 }
+nutrition_per_100g: { kcal: 265, protein: 10.9, fat: 7.8, carbs: 37.9 }
+cooked_g_est: 76
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Порція 110 г: 363 ккал. Час приготування 1 год 57 хв, випікання 19 хв.
 - За даними автора: 330 ккал на 100 г, Б/Ж/В 11.6/14.2/38.9 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); насіння льону (немає у словнику); соняшникова олія (немає у словнику); дріжджі (немає у словнику).

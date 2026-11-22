@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 73"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: лимонний сік, qty: 2, unit: ч.л., note: "10 г" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/benedict-z-fetoiu-zamist-sousu-naiprostishyi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 325, protein: 22.5, fat: 12.2, carbs: 32.0 }
+nutrition_per_100g: { kcal: 106, protein: 7.4, fat: 4.0, carbs: 10.5 }
+cooked_g_est: 305
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - P.S.: під час їжі проколи жовток, він стане соусом для сендвіча.
 - За даними автора: 448 ккал на порцію, Б/Ж/В 28/23/39 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фета (немає у словнику).

@@ -17,8 +17,10 @@ ingredients:
   - { name: грецький йогурт, qty: 60, unit: г, note: "2%, для подачі" }
   - { name: ягоди, qty: 40, unit: г, note: "для подачі" }
 photo: img/linyvi-varenyky-portsiino.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 440, protein: 37.0, fat: 9.0, carbs: 51.4 }
+nutrition_per_100g: { kcal: 125, protein: 10.5, fat: 2.6, carbs: 14.6 }
+cooked_g_est: 351
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

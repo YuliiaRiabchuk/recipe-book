@@ -24,8 +24,10 @@ ingredients:
   - { name: огірок, qty: 100, unit: г, note: "" }
   - { name: солодкий перець, qty: 70, unit: г, note: "" }
 photo: img/buriakovyi-khumus-iz-khrustkymy-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 375, protein: 14.2, fat: 15.1, carbs: 50.7 }
+nutrition_per_100g: { kcal: 97, protein: 3.7, fat: 3.9, carbs: 13.1 }
+cooked_g_est: 388
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 397 ккал на порцію, Б/Ж/В 15/15/55 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мелений кумин (немає у словнику); солодкий перець (немає у словнику).

@@ -24,8 +24,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/tofu-wok-z-brokoli-ta-kunzhutom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 574, protein: 45.8, fat: 31.6, carbs: 42.3 }
+nutrition_per_100g: { kcal: 90, protein: 7.1, fat: 4.9, carbs: 6.6 }
+cooked_g_est: 640
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

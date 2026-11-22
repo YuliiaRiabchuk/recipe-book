@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 249"
 category: сніданки
-subcategory: солодкі
+subcategory: сирники й запіканки
 tags: [вегетаріанське, на-сковороді, високобілкове, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 18 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: грецький йогурт, qty: 120, unit: г, note: "10%" }
   - { name: ягоди, qty: 150, unit: г, note: "" }
 photo: img/syrnyky-khelzi-bez-dodanoho-tsukru.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 537, protein: 46.7, fat: 25.5, carbs: 31.5 }
+nutrition_per_100g: { kcal: 94, protein: 8.1, fat: 4.4, carbs: 5.5 }
+cooked_g_est: 574
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 759 ккал на порцію, Б/Ж/В 59/34/51 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано рисове борошно (немає у словнику); ваніль (немає у словнику).

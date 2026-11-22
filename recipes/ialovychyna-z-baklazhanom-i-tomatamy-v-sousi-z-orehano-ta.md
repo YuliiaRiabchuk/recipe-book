@@ -26,8 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/ialovychyna-z-baklazhanom-i-tomatamy-v-sousi-z-orehano-ta.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 168, protein: 5.9, fat: 0.4, carbs: 35.3 }
+nutrition_per_100g: { kcal: 105, protein: 3.7, fat: 0.2, carbs: 21.9 }
+cooked_g_est: 161
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 746 ккал на порцію, Б/Ж/В 33/32/63 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано яловичина пісна (немає у словнику); баклажан (немає у словнику); томати (немає у словнику); петрушка (немає у словнику); соняшникова олія (немає у словнику).

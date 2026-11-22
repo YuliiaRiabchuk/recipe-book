@@ -16,8 +16,10 @@ ingredients:
   - { name: лохина, qty: 20, unit: г, note: "" }
   - { name: рисові хлібці, qty: 3, unit: шт, note: "" }
 photo: img/nezvychaine-smuzi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 373, protein: 5.2, fat: 22.5, carbs: 42.7 }
+nutrition_per_100g: { kcal: 151, protein: 2.1, fat: 9.1, carbs: 17.3 }
+cooked_g_est: 247
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -30,3 +32,4 @@ added: 2026-11-15
 - Розділ книги: Смузі.
 - За даними автора: 296 ккал на порцію, Б/Ж/В 5/13/47 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано зерна чіа (немає у словнику).

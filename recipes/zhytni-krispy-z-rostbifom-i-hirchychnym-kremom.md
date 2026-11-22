@@ -20,8 +20,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zhytni-krispy-z-rostbifom-i-hirchychnym-kremom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 50, protein: 4.1, fat: 2.0, carbs: 4.9 }
+nutrition_per_100g: { kcal: 39, protein: 3.2, fat: 1.5, carbs: 3.8 }
+cooked_g_est: 129
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 - Розділ книги: Крекери, хлібці та хрусткі основи.
 - За даними автора: 249 ккал на порцію, Б/Ж/В 24/7/23 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано житні цільнозернові кріспи (немає у словнику); ростбіф (немає у словнику); діжонська гірчиця (немає у словнику).

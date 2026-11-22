@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 164"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [без-випікання, вегетаріанське, перекус, хелзі]
 servings: 1
 time: { prep: null, cook: 5 }
@@ -17,8 +17,10 @@ ingredients:
   - { name: ягоди, qty: 150, unit: г, note: "свіжі або заморожені" }
   - { name: мед, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/linyva-vivsianka-z-iohurtom-i-iahodamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 399, protein: 15.2, fat: 10.1, carbs: 65.3 }
+nutrition_per_100g: { kcal: 99, protein: 3.8, fat: 2.5, carbs: 16.1 }
+cooked_g_est: 405
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

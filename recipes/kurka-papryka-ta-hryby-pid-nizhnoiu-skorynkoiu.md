@@ -26,8 +26,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: зелень, qty: 5, unit: г, note: "5–10 г" }
 photo: img/kurka-papryka-ta-hryby-pid-nizhnoiu-skorynkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 585, protein: 51.2, fat: 33.8, carbs: 21.3 }
+nutrition_per_100g: { kcal: 123, protein: 10.8, fat: 7.1, carbs: 4.5 }
+cooked_g_est: 475
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Розділ книги: Овочеві запіканки з білком.
 - За даними автора: 658 ккал на порцію, Б/Ж/В 54/34/37 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано перець солодкий (немає у словнику).

@@ -17,8 +17,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: дрібка, note: "" }
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
 photo: img/pudynh-kokos-mak.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 405, protein: 22.1, fat: 29.1, carbs: 16.9 }
+nutrition_per_100g: { kcal: 172, protein: 9.4, fat: 12.4, carbs: 7.2 }
+cooked_g_est: 235
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Десерти без запікання.
 - За даними автора: 376 ккал на порцію, Б/Ж/В 14.1/25.9/21.6 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано ваніль (немає у словнику).

@@ -30,8 +30,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/teliatyna-v-hirchychnomu-sousi-z-hrechkoiu-ta-kapustianym.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 488, protein: 48.1, fat: 9.0, carbs: 56.9 }
+nutrition_per_100g: { kcal: 90, protein: 8.9, fat: 1.7, carbs: 10.5 }
+cooked_g_est: 542
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,3 +48,4 @@ added: 2026-11-15
 - Розділ книги: Яловичина та телятина.
 - За даними автора: 729 ккал на порцію, Б/Ж/В 48/35/59 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано діжонська гірчиця (немає у словнику); соняшникова олія (немає у словнику); лляна олія (немає у словнику); петрушка (немає у словнику).

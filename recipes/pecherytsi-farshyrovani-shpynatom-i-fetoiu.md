@@ -21,8 +21,10 @@ ingredients:
   - { name: сушений орегано, qty: 0.5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/pecherytsi-farshyrovani-shpynatom-i-fetoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 61, protein: 2.3, fat: 4.3, carbs: 4.7 }
+nutrition_per_100g: { kcal: 75, protein: 2.8, fat: 5.3, carbs: 5.9 }
+cooked_g_est: 81
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 261 ккал на порцію, Б/Ж/В 20/16/14 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано великі печериці (немає у словнику); фета (немає у словнику); вершковий сир (немає у словнику); сушений орегано (немає у словнику).

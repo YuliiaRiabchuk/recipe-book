@@ -19,8 +19,10 @@ ingredients:
   - { name: темний шоколад, qty: 10, unit: г, note: "70%" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/finikovo-arakhisovi-brauni-baits.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 607, protein: 16.3, fat: 27.2, carbs: 89.2 }
+nutrition_per_100g: { kcal: 392, protein: 10.5, fat: 17.6, carbs: 57.6 }
+cooked_g_est: 155
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

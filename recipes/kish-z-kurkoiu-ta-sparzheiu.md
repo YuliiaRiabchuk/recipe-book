@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kish-z-kurkoiu-ta-sparzheiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 109, protein: 6.6, fat: 3.7, carbs: 12.2 }
+nutrition_per_100g: { kcal: 186, protein: 11.3, fat: 6.3, carbs: 20.9 }
+cooked_g_est: 467
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Порція 84 г: 127 ккал; вихід 670 г. Підготовка 30 хв, випікання 28 хв.
 - За даними автора: 147 ккал на 100 г, Б/Ж/В 12.5/6.1/10.5 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано насіння льону (немає у словнику); йогурт густий (немає у словнику); сир гауда (немає у словнику); лимонна цедра (немає у словнику).

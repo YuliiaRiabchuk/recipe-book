@@ -23,8 +23,10 @@ ingredients:
   - { name: лимонний сік, qty: 5, unit: г, note: "1 ч.л." }
   - { name: кріп, qty: 5, unit: г, note: "" }
 photo: img/rybni-kotletky-z-brokoli-ta-tsvitnoiu-kapustoiu-sous-lymon.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 492, protein: 60.8, fat: 17.1, carbs: 24.7 }
+nutrition_per_100g: { kcal: 86, protein: 10.7, fat: 3.0, carbs: 4.3 }
+cooked_g_est: 571
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

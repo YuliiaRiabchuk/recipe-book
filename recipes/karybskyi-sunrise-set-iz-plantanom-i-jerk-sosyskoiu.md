@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 236"
 category: сніданки
-subcategory: поживні
+subcategory: сніданкові тарілки
 tags: [з-птицею, в-духовці, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }
@@ -30,8 +30,10 @@ ingredients:
   - { name: чилі, qty: null, unit: "", note: "за смаком" }
   - { name: сушений часник, qty: null, unit: "", note: "за смаком" }
 photo: img/karybskyi-sunrise-set-iz-plantanom-i-jerk-sosyskoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 138, protein: 7.7, fat: 7.5, carbs: 11.6 }
+nutrition_per_100g: { kcal: 64, protein: 3.5, fat: 3.4, carbs: 5.4 }
+cooked_g_est: 217
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -47,3 +49,4 @@ added: 2026-11-15
 - Для рідкого жовтка використовуй пастеризоване яйце.
 - За даними автора: 373 ккал на порцію, Б/Ж/В 22/14/45 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано плантан (немає у словнику); сосиска з курки (немає у словнику); чорна квасоля (немає у словнику); солодкий перець (немає у словнику); червона цибуля (немає у словнику).

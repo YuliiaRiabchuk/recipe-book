@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 92"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з мʼясом
 tags: [з-птицею, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvich-iz-kuriachym-file-avokado-i-tomatamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 476, protein: 38.7, fat: 17.6, carbs: 42.9 }
+nutrition_per_100g: { kcal: 128, protein: 10.4, fat: 4.7, carbs: 11.5 }
+cooked_g_est: 372
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

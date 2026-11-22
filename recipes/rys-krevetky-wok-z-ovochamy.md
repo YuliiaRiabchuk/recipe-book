@@ -25,8 +25,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: кунжут, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/rys-krevetky-wok-z-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 330, protein: 34.3, fat: 14.0, carbs: 20.4 }
+nutrition_per_100g: { kcal: 92, protein: 9.5, fat: 3.9, carbs: 5.7 }
+cooked_g_est: 360
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Якщо рис злипся, була зайва вода або ти перемішував його під час варіння: рис не чіпай до кінця.
 - За даними автора: 643 ккал на порцію, Б/Ж/В 48/15/81 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано рис басматі (немає у словнику); цукіні (немає у словнику).

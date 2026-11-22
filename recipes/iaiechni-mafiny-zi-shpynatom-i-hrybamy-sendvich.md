@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 14"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з рибою
 tags: [вегетаріанське, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -24,8 +24,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/iaiechni-mafiny-zi-shpynatom-i-hrybamy-sendvich.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 440, protein: 34.6, fat: 28.5, carbs: 14.3 }
+nutrition_per_100g: { kcal: 99, protein: 7.8, fat: 6.4, carbs: 3.2 }
+cooked_g_est: 443
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Варіація: замість шпинату — зелена цибуля (додай в яйця).
 - За даними автора: 422 ккал на порцію, Б/Ж/В 32/18/33 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано хліб цільнозерновий (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

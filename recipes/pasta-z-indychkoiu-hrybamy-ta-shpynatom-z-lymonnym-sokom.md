@@ -21,8 +21,10 @@ ingredients:
   - { name: часник, qty: 1, unit: зубчик, note: "3 г" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/pasta-z-indychkoiu-hrybamy-ta-shpynatom-z-lymonnym-sokom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 263, protein: 40.9, fat: 7.9, carbs: 8.7 }
+nutrition_per_100g: { kcal: 90, protein: 14.0, fat: 2.7, carbs: 3.0 }
+cooked_g_est: 291
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Паста й локшина з білком.
 - За даними автора: 500 ккал на порцію, Б/Ж/В 49/7/61 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано паста (немає у словнику).

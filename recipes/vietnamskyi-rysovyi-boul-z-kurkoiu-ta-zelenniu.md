@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 258"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [з-птицею, на-сковороді, високобілкове, пісне, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: часник, qty: 3, unit: г, note: "" }
   - { name: кунжут, qty: 5, unit: г, note: "" }
 photo: img/vietnamskyi-rysovyi-boul-z-kurkoiu-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 727, protein: 42.2, fat: 7.2, carbs: 120.5 }
+nutrition_per_100g: { kcal: 102, protein: 5.9, fat: 1.0, carbs: 17.0 }
+cooked_g_est: 710
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

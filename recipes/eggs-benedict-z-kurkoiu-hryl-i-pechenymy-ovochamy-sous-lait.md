@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 72"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [з-птицею, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -27,8 +27,10 @@ ingredients:
   - { name: лимонний сік, qty: 2, unit: ч.л., note: "10 г, для соусу" }
   - { name: сіль, qty: null, unit: "", note: "за смаком, для соусу" }
 photo: img/eggs-benedict-z-kurkoiu-hryl-i-pechenymy-ovochamy-sous-lait.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 618, protein: 47.6, fat: 30.7, carbs: 37.7 }
+nutrition_per_100g: { kcal: 125, protein: 9.6, fat: 6.2, carbs: 7.6 }
+cooked_g_est: 495
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 34"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, на-сковороді, високобілкове, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: хліб цільнозерновий, qty: 60, unit: г, note: "1 скибка, за бажанням" }
 photo: img/omlet-z-brynzoiu-abo-fetoiu-ohirkom-i-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 199, protein: 13.2, fat: 14.6, carbs: 3.3 }
+nutrition_per_100g: { kcal: 117, protein: 7.8, fat: 8.6, carbs: 2.0 }
+cooked_g_est: 170
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Варіація: замість бринзи/фети — сир зернистий 5% або крем-сир лайт до 15%; огірок можна замінити на помідори черрі, розрізані навпіл.
 - За даними автора: 504 ккал на порцію, Б/Ж/В 28/30/33 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано бринза (немає у словнику); хліб цільнозерновий (немає у словнику).

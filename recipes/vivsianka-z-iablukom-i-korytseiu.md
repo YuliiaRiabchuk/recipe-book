@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 165"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [швидко, вегетаріанське, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: кориця, qty: 0.5, unit: ч.л., note: "≈1 г, за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "≈0,2 г" }
 photo: img/vivsianka-z-iablukom-i-korytseiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 352, protein: 13.5, fat: 7.4, carbs: 60.0 }
+nutrition_per_100g: { kcal: 114, protein: 4.4, fat: 2.4, carbs: 19.4 }
+cooked_g_est: 310
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 374 ккал на порцію, Б/Ж/В 15/8/61 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мед або цукор (немає у словнику).

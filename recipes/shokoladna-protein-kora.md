@@ -16,8 +16,10 @@ ingredients:
   - { name: гіркий шоколад, qty: 15, unit: г, note: "70%+, розтопити" }
   - { name: горіхи, qty: 15, unit: г, note: "мигдаль або волоські, подрібнені" }
 photo: img/shokoladna-protein-kora.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 244, protein: 15.8, fat: 17.3, carbs: 8.0 }
+nutrition_per_100g: { kcal: 148, protein: 9.6, fat: 10.5, carbs: 4.9 }
+cooked_g_est: 165
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +33,4 @@ added: 2026-11-15
 - Розділ книги: Заморожене/морозиво.
 - За даними автора: 375 ккал на порцію, Б/Ж/В 38/19/16 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано казеїн шоколадний (немає у словнику); гіркий шоколад (немає у словнику).

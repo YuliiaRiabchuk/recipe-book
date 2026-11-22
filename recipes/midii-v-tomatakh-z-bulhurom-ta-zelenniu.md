@@ -27,8 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/midii-v-tomatakh-z-bulhurom-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 34, protein: 1.2, fat: 0.2, carbs: 7.9 }
+nutrition_per_100g: { kcal: 48, protein: 1.7, fat: 0.2, carbs: 11.2 }
+cooked_g_est: 71
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - Розділ книги: Риба та морепродукти.
 - За даними автора: 531 ккал на порцію, Б/Ж/В 34/18/74 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мідії очищені (немає у словнику); булгур (немає у словнику); томатний соус без цукру (немає у словнику); соняшникова олія (немає у словнику); петрушка (немає у словнику).

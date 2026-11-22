@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sochevytsia-z-buriakom-rukoloiu-fetoiu-ta-kyslomolochnym.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 604, protein: 33.8, fat: 26.9, carbs: 60.7 }
+nutrition_per_100g: { kcal: 111, protein: 6.2, fat: 5.0, carbs: 11.2 }
+cooked_g_est: 542
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Якщо буряк сирий, додай до загального часу ще 45–60 хв.
 - За даними автора: 688 ккал на порцію, Б/Ж/В 39/37/52 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано грецький горіх (немає у словнику).

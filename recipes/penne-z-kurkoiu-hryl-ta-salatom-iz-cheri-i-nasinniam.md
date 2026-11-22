@@ -22,8 +22,10 @@ ingredients:
   - { name: гірчиця, qty: 5, unit: г, note: "1 ч.л." }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/penne-z-kurkoiu-hryl-ta-salatom-iz-cheri-i-nasinniam.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 232, protein: 34.0, fat: 9.2, carbs: 1.9 }
+nutrition_per_100g: { kcal: 157, protein: 23.0, fat: 6.2, carbs: 1.3 }
+cooked_g_est: 148
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Паста й локшина з білком.
 - За даними автора: 521 ккал на порцію, Б/Ж/В 46/14/53 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано паста пенне (немає у словнику); салат-мікс (немає у словнику); помідори чері (немає у словнику); насіння гарбуза (немає у словнику).

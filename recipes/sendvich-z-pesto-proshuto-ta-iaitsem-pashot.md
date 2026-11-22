@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 64"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з мʼясом
 tags: [з-мʼясом, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvich-z-pesto-proshuto-ta-iaitsem-pashot.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 170, protein: 9.8, fat: 12.7, carbs: 4.6 }
+nutrition_per_100g: { kcal: 126, protein: 7.3, fat: 9.4, carbs: 3.4 }
+cooked_g_est: 135
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Варіації: замість прошуто — хамон або брезаола; замість руколи — молодий шпинат.
 - За даними автора: 421 ккал на порцію, Б/Ж/В 28/20/35 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано хліб на заквасці (немає у словнику); прошуто (немає у словнику).

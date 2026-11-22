@@ -6,7 +6,7 @@ source:
   name: Корисні та смачні вечері. Великий збірник (Андрій Маковецький)
   ref: "с. 82"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, на-сковороді, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: петрушка, qty: 10, unit: г, note: "" }
 photo: img/omlet-hrybnyi-iz-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 282, protein: 19.4, fat: 18.2, carbs: 12.8 }
+nutrition_per_100g: { kcal: 85, protein: 5.8, fat: 5.5, carbs: 3.9 }
+cooked_g_est: 332
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - P.S. Сіль до грибів додавай після того, як частина води википарується, так вони краще підрум’янюються.
 - За даними автора: 318 ккал на порцію, Б/Ж/В 18/22/18 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано петрушка (немає у словнику).

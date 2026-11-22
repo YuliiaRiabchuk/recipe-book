@@ -16,8 +16,10 @@ ingredients:
   - { name: яйце, qty: 1, unit: шт, note: "" }
   - { name: ягоди, qty: 60, unit: г, note: "" }
 photo: img/zapechenyi-protein-chizkeik-portsiino.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 247, protein: 27.7, fat: 5.7, carbs: 20.8 }
+nutrition_per_100g: { kcal: 88, protein: 9.9, fat: 2.1, carbs: 7.5 }
+cooked_g_est: 279
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +33,4 @@ added: 2026-11-15
 - Розділ книги: Теплі.
 - За даними автора: 436 ккал на порцію, Б/Ж/В 57/17/14 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано казеїн ванільний (немає у словнику).

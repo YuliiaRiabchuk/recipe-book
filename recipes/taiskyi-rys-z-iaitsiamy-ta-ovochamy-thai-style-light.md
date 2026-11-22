@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 261"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [вегетаріанське, швидко, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/taiskyi-rys-z-iaitsiamy-ta-ovochamy-thai-style-light.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 735, protein: 25.3, fat: 16.3, carbs: 120.0 }
+nutrition_per_100g: { kcal: 103, protein: 3.6, fat: 2.3, carbs: 16.9 }
+cooked_g_est: 712
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

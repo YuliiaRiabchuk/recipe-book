@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 151"
 category: сніданки
-subcategory: солодкі
+subcategory: солодкі тости й фрукти
 tags: [вегетаріанське, швидко, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: мед, qty: 7, unit: г, note: "або цукор, 1 ч.л., за бажанням" }
   - { name: сіль, qty: 0.2, unit: г, note: "щіпка" }
 photo: img/frantsuzki-sendvichi-z-korytseiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 366, protein: 14.7, fat: 16.6, carbs: 39.5 }
+nutrition_per_100g: { kcal: 199, protein: 8.0, fat: 9.0, carbs: 21.5 }
+cooked_g_est: 184
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

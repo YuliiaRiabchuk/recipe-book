@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 153"
 category: сніданки
-subcategory: солодкі
+subcategory: "млинці, панкейки й вафлі"
 tags: [вегетаріанське, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: олія для смаження, qty: 5, unit: г, note: "1 ч.л." }
   - { name: ваніль або кориця, qty: 1, unit: дрібка, note: "для аромату, за бажанням" }
 photo: img/pankeiky-na-kefiri.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 196, protein: 13.9, fat: 6.8, carbs: 19.9 }
+nutrition_per_100g: { kcal: 75, protein: 5.3, fat: 2.6, carbs: 7.7 }
+cooked_g_est: 260
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 560 ккал на порцію, Б/Ж/В 22/16/82 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); олія для смаження (немає у словнику); ваніль або кориця (немає у словнику).

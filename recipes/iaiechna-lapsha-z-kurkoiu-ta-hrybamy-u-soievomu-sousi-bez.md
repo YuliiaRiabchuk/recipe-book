@@ -23,8 +23,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: кунжут, qty: 3, unit: г, note: "1 ч.л., 3–4 г, за бажанням" }
 photo: img/iaiechna-lapsha-z-kurkoiu-ta-hrybamy-u-soievomu-sousi-bez.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 319, protein: 41.8, fat: 11.3, carbs: 14.9 }
+nutrition_per_100g: { kcal: 89, protein: 11.7, fat: 3.1, carbs: 4.1 }
+cooked_g_est: 358
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Розділ книги: Азійська лапша.
 - За даними автора: 486 ккал на порцію, Б/Ж/В 50/11/52 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано яєчна лапша (немає у словнику).

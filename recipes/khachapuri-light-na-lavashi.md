@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 225"
 category: сніданки
-subcategory: поживні
+subcategory: "лаваш, роли й тортильї"
 tags: [в-духовці, вегетаріанське, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: зелень, qty: 10, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/khachapuri-light-na-lavashi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 240, protein: 12.0, fat: 5.6, carbs: 34.4 }
+nutrition_per_100g: { kcal: 198, protein: 9.9, fat: 4.6, carbs: 28.4 }
+cooked_g_est: 121
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Сніданки країн світу.
 - За даними автора: 465 ккал на порцію, Б/Ж/В 28/21/39 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сир сулугуні (немає у словнику); натуральний йогурт (немає у словнику).

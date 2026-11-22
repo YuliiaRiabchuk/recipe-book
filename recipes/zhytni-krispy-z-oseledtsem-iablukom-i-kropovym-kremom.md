@@ -21,8 +21,10 @@ ingredients:
   - { name: кріп, qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zhytni-krispy-z-oseledtsem-iablukom-i-kropovym-kremom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 86, protein: 4.3, fat: 2.2, carbs: 13.8 }
+nutrition_per_100g: { kcal: 51, protein: 2.5, fat: 1.3, carbs: 8.1 }
+cooked_g_est: 170
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Крекери, хлібці та хрусткі основи.
 - За даними автора: 318 ккал на порцію, Б/Ж/В 19/12/35 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано житні цільнозернові кріспи (немає у словнику); філе оселедця (немає у словнику); діжонська гірчиця (немає у словнику).

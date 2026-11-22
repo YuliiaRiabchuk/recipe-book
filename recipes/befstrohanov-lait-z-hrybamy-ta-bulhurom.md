@@ -27,8 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/befstrohanov-lait-z-hrybamy-ta-bulhurom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 373, protein: 50.2, fat: 14.3, carbs: 13.7 }
+nutrition_per_100g: { kcal: 97, protein: 13.0, fat: 3.7, carbs: 3.6 }
+cooked_g_est: 386
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - Розділ книги: Яловичина та телятина.
 - За даними автора: 704 ккал на порцію, Б/Ж/В 49/34/54 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано булгур (немає у словнику); петрушка (немає у словнику); яловичий бульйон (немає у словнику); діжонська гірчиця (немає у словнику); рисове борошно (немає у словнику); соняшникова олія (немає у словнику).

@@ -19,8 +19,10 @@ ingredients:
   - { name: цедра лайма, qty: 0.5, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/manhovo-iohurtove-morozyvo-z-chia.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 303, protein: 14.9, fat: 10.3, carbs: 41.9 }
+nutrition_per_100g: { kcal: 91, protein: 4.5, fat: 3.1, carbs: 12.6 }
+cooked_g_est: 333
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Додатково потрібно 3 години на охолодження.
 - За даними автора: 298 ккал на порцію, Б/Ж/В 14/10/42 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цедра лайма (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 227"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з мʼясом
 tags: [з-птицею, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -26,8 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/caesar-mcmuffin-z-kotletkoiu-z-indychky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 110, protein: 9.2, fat: 6.2, carbs: 4.5 }
+nutrition_per_100g: { kcal: 81, protein: 6.8, fat: 4.6, carbs: 3.3 }
+cooked_g_est: 135
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Для кремового жовтка використовуй пастеризоване яйце.
 - За даними автора: 360 ккал на порцію, Б/Ж/В 30/14/25 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозерновий англійський мафін (немає у словнику); фарш з індички (немає у словнику); сир чедер (немає у словнику); салат латук (немає у словнику); діжонська гірчиця (немає у словнику).

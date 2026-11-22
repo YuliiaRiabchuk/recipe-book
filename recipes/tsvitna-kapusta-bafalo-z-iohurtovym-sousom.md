@@ -26,8 +26,10 @@ ingredients:
   - { name: сушений часник, qty: 0.3, unit: г, note: "для соусу" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/tsvitna-kapusta-bafalo-z-iohurtovym-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 204, protein: 11.3, fat: 10.5, carbs: 20.0 }
+nutrition_per_100g: { kcal: 61, protein: 3.4, fat: 3.2, carbs: 6.0 }
+cooked_g_est: 332
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 284 ккал на порцію, Б/Ж/В 14/9/41 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); сушений часник (немає у словнику); копчена паприка (немає у словнику); гострий соус (немає у словнику); сушений часник (немає у словнику).

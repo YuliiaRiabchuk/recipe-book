@@ -23,8 +23,10 @@ ingredients:
   - { name: кумин, qty: 0.4, unit: г, note: "мелений" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/nachos-iz-batatu-z-kvasoleiu-ta-iohurtom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 194, protein: 11.6, fat: 13.3, carbs: 8.0 }
+nutrition_per_100g: { kcal: 162, protein: 9.7, fat: 11.1, carbs: 6.6 }
+cooked_g_est: 120
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Хрусткі снеки.
 - За даними автора: 498 ккал на порцію, Б/Ж/В 22/13/75 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано батат (немає у словнику); червона квасоля (немає у словнику); томатна сальса (немає у словнику); копчена паприка (немає у словнику).

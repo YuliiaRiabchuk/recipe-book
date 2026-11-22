@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 144"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [з-мʼясом, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -27,8 +27,10 @@ ingredients:
   - { name: часник сушений, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/hrechanyi-boul-z-shynkoiu-iaitsiamy-avokado-ta-khrustkym.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 770, protein: 40.9, fat: 44.0, carbs: 57.8 }
+nutrition_per_100g: { kcal: 142, protein: 7.5, fat: 8.1, carbs: 10.6 }
+cooked_g_est: 544
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,3 +48,4 @@ added: 2026-11-15
 - Варіація: замість шинки — куряче філе шматочками.
 - За даними автора: 848 ккал на порцію, Б/Ж/В 55/49/63 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано вода для гречки (немає у словнику); помідори чері (немає у словнику); часник сушений (немає у словнику).

@@ -22,8 +22,10 @@ ingredients:
   - { name: кориця, qty: 0.5, unit: г, note: "мелена" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/iabluchna-proteinova-chashka-z-vivsianym-kramblom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 271, protein: 5.8, fat: 9.8, carbs: 43.6 }
+nutrition_per_100g: { kcal: 160, protein: 3.4, fat: 5.8, carbs: 25.7 }
+cooked_g_est: 170
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 459 ккал на порцію, Б/Ж/В 43/11/51 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано скір (немає у словнику); сироватковий ізолят (немає у словнику).

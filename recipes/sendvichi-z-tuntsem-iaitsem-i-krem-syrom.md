@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 86"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з рибою
 tags: [з-рибою, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvichi-z-tuntsem-iaitsem-i-krem-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 517, protein: 24.9, fat: 30.4, carbs: 36.3 }
+nutrition_per_100g: { kcal: 186, protein: 8.9, fat: 10.9, carbs: 13.1 }
+cooked_g_est: 278
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Варіація: замість зеленої цибулі можна взяти кріп.
 - За даними автора: 645 ккал на порцію, Б/Ж/В 55/29/39 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тунець у власному соку (немає у словнику).

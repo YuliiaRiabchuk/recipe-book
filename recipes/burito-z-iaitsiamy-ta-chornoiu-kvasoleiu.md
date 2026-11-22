@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 106"
 category: сніданки
-subcategory: поживні
+subcategory: "лаваш, роли й тортильї"
 tags: [вегетаріанське, на-сковороді, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -24,8 +24,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "до смаку" }
 photo: img/burito-z-iaitsiamy-ta-chornoiu-kvasoleiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 268, protein: 13.9, fat: 21.3, carbs: 6.5 }
+nutrition_per_100g: { kcal: 154, protein: 8.0, fat: 12.3, carbs: 3.7 }
+cooked_g_est: 174
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - P.S.: обов'язково прогрій тортилью перед згортанням, холодна тортилья легше тріскається.
 - За даними автора: 700 ккал на порцію, Б/Ж/В 33/35/65 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернова тортилья (немає у словнику); чорна квасоля (немає у словнику); помідори чері (немає у словнику); червона цибуля (немає у словнику); сир чедер (немає у словнику).

@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sochevychnyi-sup-z-indychkoiu-ta-lymonom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 466, protein: 50.2, fat: 8.2, carbs: 49.3 }
+nutrition_per_100g: { kcal: 82, protein: 8.9, fat: 1.4, carbs: 8.7 }
+cooked_g_est: 566
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

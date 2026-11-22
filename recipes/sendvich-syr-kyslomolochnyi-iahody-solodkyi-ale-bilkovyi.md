@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 173"
 category: сніданки
-subcategory: солодкі
+subcategory: солодкі тости й фрукти
 tags: [швидко, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 7 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: мед, qty: 7, unit: г, note: "1 ч.л." }
   - { name: волоські горіхи, qty: 10, unit: г, note: "за бажанням" }
 photo: img/sendvich-syr-kyslomolochnyi-iahody-solodkyi-ale-bilkovyi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 431, protein: 26.7, fat: 16.0, carbs: 47.7 }
+nutrition_per_100g: { kcal: 138, protein: 8.6, fat: 5.1, carbs: 15.3 }
+cooked_g_est: 312
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Варіація: замість меду кленовий або фініковий сироп.
 - За даними автора: 403 ккал на порцію, Б/Ж/В 30/10/50 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано ваніль (немає у словнику).

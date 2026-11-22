@@ -15,8 +15,10 @@ ingredients:
   - { name: мед, qty: 5, unit: г, note: "за бажанням" }
   - { name: кориця, qty: 1, unit: дрібка, note: "" }
 photo: img/mocheni-iabluka-portsiino.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 15, protein: 0.0, fat: 0.0, carbs: 4.1 }
+nutrition_per_100g: { kcal: 304, protein: 0.3, fat: 0.0, carbs: 82.4 }
+cooked_g_est: 5
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -30,3 +32,4 @@ added: 2026-11-15
 - Розділ книги: Овочеве та квашене.
 - За даними автора: 86 ккал на порцію, Б/Ж/В 0.5/0.5/20 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мочені яблука (немає у словнику).

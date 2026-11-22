@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 142"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -26,8 +26,10 @@ ingredients:
   - { name: часник сушений, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/hrechanyi-boul-z-iaitsiamy-avokado-ta-salatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 545, protein: 23.5, fat: 27.0, carbs: 59.6 }
+nutrition_per_100g: { kcal: 96, protein: 4.1, fat: 4.7, carbs: 10.5 }
+cooked_g_est: 569
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - Варіація: руколу можна замінити листям салату.
 - За даними автора: 529 ккал на порцію, Б/Ж/В 51/19/50 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано вода для гречки (немає у словнику); помідори чері (немає у словнику); часник сушений (немає у словнику).

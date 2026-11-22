@@ -16,8 +16,10 @@ ingredients:
   - { name: кисломолочний сир, qty: 100, unit: г, note: "5 %" }
   - { name: еритритол, qty: 25, unit: г, note: "" }
 photo: img/shokoladni-protein-triufeli.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 10, protein: 1.2, fat: 0.3, carbs: 1.5 }
+nutrition_per_100g: { kcal: 98, protein: 11.9, fat: 2.5, carbs: 15.2 }
+cooked_g_est: 120
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 55 ккал на порцію, Б/Ж/В 5.2/2.3/2.7 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику); еритритол (немає у словнику).

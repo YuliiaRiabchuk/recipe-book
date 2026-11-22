@@ -24,8 +24,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: цільнозернові крекери, qty: 35, unit: г, note: "" }
 photo: img/mukhammara-z-pechenoho-pertsiu-ta-voloskykh-horikhiv.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 210, protein: 3.9, fat: 21.3, carbs: 4.1 }
+nutrition_per_100g: { kcal: 584, protein: 10.8, fat: 59.2, carbs: 11.4 }
+cooked_g_est: 36
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 513 ккал на порцію, Б/Ж/В 12/28/57 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано червоний солодкий перець (немає у словнику); цільнозернові панірувальні сухарі (немає у словнику); гранатовий соус наршараб (немає у словнику); копчена паприка (немає у словнику); мелений кумин (немає у словнику); пластівці чилі (немає у словнику); цільнозернові крекери (немає у словнику).

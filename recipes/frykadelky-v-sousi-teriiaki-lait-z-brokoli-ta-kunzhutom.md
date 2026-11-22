@@ -25,8 +25,10 @@ ingredients:
   - { name: кунжут, qty: 5, unit: г, note: "1 ч.л." }
   - { name: кунжутна олія, qty: 1, unit: г, note: "1/4 ч.л." }
 photo: img/frykadelky-v-sousi-teriiaki-lait-z-brokoli-ta-kunzhutom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 210, protein: 14.9, fat: 8.2, carbs: 23.3 }
+nutrition_per_100g: { kcal: 78, protein: 5.5, fat: 3.0, carbs: 8.6 }
+cooked_g_est: 270
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Чука (40 г) або квашений огірок (1 шт, ≈50 г) додасть «кисло-свіжий» контраст до соусу; маленька порція практично не змінює калорійність.
 - За даними автора: 494 ккал на порцію, Б/Ж/В 56/18/31 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш курячий (немає у словнику); панірувальні сухарі (немає у словнику); рисовий оцет (немає у словнику); кунжутна олія (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 259"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, швидко, на-сковороді, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/vietnamskyi-omlet-iz-zelenniu-ta-ovochamy-light.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 255, protein: 16.3, fat: 14.3, carbs: 17.3 }
+nutrition_per_100g: { kcal: 60, protein: 3.8, fat: 3.3, carbs: 4.1 }
+cooked_g_est: 427
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

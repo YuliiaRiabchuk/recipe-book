@@ -18,8 +18,10 @@ ingredients:
   - { name: часник, qty: 0.4, unit: г, note: "сушений" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/chypsy-z-keilu-z-prianymy-drizhdzhovymy-plastivtsiamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 45, protein: 0.0, fat: 5.0, carbs: 0.1 }
+nutrition_per_100g: { kcal: 896, protein: 0.5, fat: 100.0, carbs: 2.6 }
+cooked_g_est: 5
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Хрусткі снеки.
 - За даними автора: 133 ккал на порцію, Б/Ж/В 9/7/14 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кейл (немає у словнику); харчові дріжджові пластівці (немає у словнику); копчена паприка (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 189"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [швидко, без-випікання, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 8 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/boul-persyk-fistashka-zernystyi-syr-krem-syr-persyk-myhdalni.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 193, protein: 4.0, fat: 15.3, carbs: 12.1 }
+nutrition_per_100g: { kcal: 387, protein: 8.0, fat: 30.6, carbs: 24.1 }
+cooked_g_est: 50
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Варіація: замість персика нектарин.
 - За даними автора: 588 ккал на порцію, Б/Ж/В 33/31/43 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано зернистий сир (немає у словнику); персик свіжий (немає у словнику); фісташки (немає у словнику); ваніль (немає у словнику).

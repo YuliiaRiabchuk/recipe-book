@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 85"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з мʼясом
 tags: [з-птицею, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/buterbrody-z-kuriachym-file-iohurtovym-sousom-i-ohirkom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 418, protein: 43.9, fat: 9.8, carbs: 37.8 }
+nutrition_per_100g: { kcal: 115, protein: 12.0, fat: 2.7, carbs: 10.4 }
+cooked_g_est: 365
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

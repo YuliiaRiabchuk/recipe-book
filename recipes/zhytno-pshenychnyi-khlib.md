@@ -20,8 +20,10 @@ ingredients:
   - { name: мед, qty: 15, unit: г, note: "" }
   - { name: вода, qty: 250, unit: мл, note: "тепла, 35–38 °C" }
 photo: img/zhytno-pshenychnyi-khlib.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 109, protein: 2.8, fat: 1.6, carbs: 20.9 }
+nutrition_per_100g: { kcal: 249, protein: 6.5, fat: 3.6, carbs: 47.9 }
+cooked_g_est: 567
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Порція 45 г: 120 ккал; вихід 580 г. Підготовка 1 год 25 хв, випікання 40 хв.
 - За даними автора: 266 ккал на 100 г, Б/Ж/В 8.5/6.1/44.3 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано насіння гарбуза (немає у словнику); дріжджі сухі (немає у словнику).

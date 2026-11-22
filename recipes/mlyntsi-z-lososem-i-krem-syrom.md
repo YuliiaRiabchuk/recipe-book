@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 100"
 category: сніданки
-subcategory: поживні
+subcategory: "млинці, панкейки й вафлі"
 tags: [з-рибою, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -24,8 +24,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "до смаку" }
 photo: img/mlyntsi-z-lososem-i-krem-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 440, protein: 25.6, fat: 17.7, carbs: 48.4 }
+nutrition_per_100g: { kcal: 116, protein: 6.8, fat: 4.7, carbs: 12.8 }
+cooked_g_est: 379
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - P.S.: після відпочинку борошно краще вбирає рідину, тому млинці виходять еластичнішими.
 - За даними автора: 660 ккал на порцію, Б/Ж/В 43/32/51 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано вершковий крем-сир (немає у словнику); слабокопчений лосось (немає у словнику).

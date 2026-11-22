@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/rysovi-khlibtsi-z-tuntsem-avokado-ta-ohirkom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 239, protein: 6.2, fat: 11.6, carbs: 30.3 }
+nutrition_per_100g: { kcal: 122, protein: 3.1, fat: 5.9, carbs: 15.5 }
+cooked_g_est: 196
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Крекери, хлібці та хрусткі основи.
 - За даними автора: 328 ккал на порцію, Б/Ж/В 28/12/31 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тунець у власному соку (немає у словнику).

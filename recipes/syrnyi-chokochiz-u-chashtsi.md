@@ -16,8 +16,10 @@ ingredients:
   - { name: какао-порошок, qty: 10, unit: г, note: "" }
   - { name: підсолоджувач, qty: 5, unit: г, note: "" }
 photo: img/syrnyi-chokochiz-u-chashtsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 173, protein: 17.1, fat: 9.6, carbs: 8.9 }
+nutrition_per_100g: { kcal: 137, protein: 13.6, fat: 7.6, carbs: 7.0 }
+cooked_g_est: 126
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Десерти у мікрохвильовці.
 - За даними автора: 240 ккал на порцію, Б/Ж/В 19.5/9/12 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано підсолоджувач (немає у словнику).

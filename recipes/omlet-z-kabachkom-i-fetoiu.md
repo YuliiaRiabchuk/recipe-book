@@ -6,7 +6,7 @@ source:
   name: Корисні та смачні вечері. Великий збірник (Андрій Маковецький)
   ref: "с. 87"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, на-сковороді, швидко, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: кріп, qty: 6, unit: г, note: "" }
 photo: img/omlet-z-kabachkom-i-fetoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 259, protein: 15.8, fat: 18.4, carbs: 8.9 }
+nutrition_per_100g: { kcal: 78, protein: 4.8, fat: 5.6, carbs: 2.7 }
+cooked_g_est: 330
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Відтискання кабачка є ключовим: без нього омлет «пливе».
 - За даними автора: 398 ккал на порцію, Б/Ж/В 24/30/12 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фета (немає у словнику).

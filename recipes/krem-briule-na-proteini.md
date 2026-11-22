@@ -18,8 +18,10 @@ ingredients:
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
   - { name: какао, qty: 2, unit: г, note: "для посипки" }
 photo: img/krem-briule-na-proteini.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 108, protein: 9.8, fat: 3.8, carbs: 9.8 }
+nutrition_per_100g: { kcal: 52, protein: 4.7, fat: 1.9, carbs: 4.8 }
+cooked_g_est: 206
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 202 ккал на порцію, Б/Ж/В 27.7/6.2/11.7 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику).

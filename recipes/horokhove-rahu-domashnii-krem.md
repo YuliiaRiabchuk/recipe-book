@@ -24,8 +24,10 @@ ingredients:
   - { name: лимон, qty: 15, unit: г, note: "" }
   - { name: петрушка, qty: 10, unit: г, note: "" }
 photo: img/horokhove-rahu-domashnii-krem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 171, protein: 2.8, fat: 8.6, carbs: 23.4 }
+nutrition_per_100g: { kcal: 17, protein: 0.3, fat: 0.8, carbs: 2.3 }
+cooked_g_est: 1018
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - P.S. Якщо є час, замочи горох на 2–3 години, тоді вариться швидше й м’якше для ШКТ.
 - За даними автора: 493 ккал на порцію, Б/Ж/В 26/10/80 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано горох колотий (немає у словнику); петрушка (немає у словнику).

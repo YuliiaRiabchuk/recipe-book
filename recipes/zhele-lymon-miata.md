@@ -17,8 +17,10 @@ ingredients:
   - { name: еритритол, qty: 40, unit: г, note: "" }
   - { name: агар-агар, qty: 6, unit: г, note: "" }
 photo: img/zhele-lymon-miata.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 5, protein: 0.1, fat: 0.0, carbs: 1.4 }
+nutrition_per_100g: { kcal: 5, protein: 0.1, fat: 0.1, carbs: 1.5 }
+cooked_g_est: 382
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Десерти з підсолоджувачем.
 - За даними автора: 12 ккал на порцію, Б/Ж/В 0/0/2.9 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано м'ята (немає у словнику); еритритол (немає у словнику); агар-агар (немає у словнику).

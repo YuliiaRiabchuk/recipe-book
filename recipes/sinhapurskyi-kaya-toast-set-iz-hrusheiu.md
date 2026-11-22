@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 239"
 category: сніданки
-subcategory: поживні
+subcategory: овочеві й сирні тости
 tags: [вегетаріанське, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -23,8 +23,10 @@ ingredients:
   - { name: соєвий соус, qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sinhapurskyi-kaya-toast-set-iz-hrusheiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 259, protein: 10.0, fat: 16.9, carbs: 18.6 }
+nutrition_per_100g: { kcal: 152, protein: 5.9, fat: 9.9, carbs: 10.9 }
+cooked_g_est: 170
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 359 ккал на порцію, Б/Ж/В 17/15/40 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тостовий хліб (немає у словнику).

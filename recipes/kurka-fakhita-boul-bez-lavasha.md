@@ -24,8 +24,10 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/kurka-fakhita-boul-bez-lavasha.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 500, protein: 52.3, fat: 21.3, carbs: 26.3 }
+nutrition_per_100g: { kcal: 94, protein: 9.9, fat: 4.0, carbs: 5.0 }
+cooked_g_est: 530
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

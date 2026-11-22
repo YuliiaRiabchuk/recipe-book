@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 63"
 category: сніданки
-subcategory: поживні
+subcategory: овочеві й сирні тости
 tags: [вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvich-z-avokado-tomatamy-ta-fetoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 354, protein: 12.4, fat: 29.0, carbs: 15.6 }
+nutrition_per_100g: { kcal: 120, protein: 4.2, fat: 9.8, carbs: 5.3 }
+cooked_g_est: 296
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Варіація: замість фети можна взяти моцарелу або козячий сир; замість руколи — молодий шпинат.
 - За даними автора: 494 ккал на порцію, Б/Ж/В 17/32/40 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано хліб на заквасці (немає у словнику).

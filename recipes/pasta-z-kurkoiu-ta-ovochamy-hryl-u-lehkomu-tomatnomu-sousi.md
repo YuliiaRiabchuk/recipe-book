@@ -22,8 +22,10 @@ ingredients:
   - { name: орегано, qty: 1, unit: г, note: "або базилік; 1 ч.л. (1–2 г)" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/pasta-z-kurkoiu-ta-ovochamy-hryl-u-lehkomu-tomatnomu-sousi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 309, protein: 35.8, fat: 14.4, carbs: 8.4 }
+nutrition_per_100g: { kcal: 88, protein: 10.2, fat: 4.1, carbs: 2.4 }
+cooked_g_est: 350
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Паста й локшина з білком.
 - За даними автора: 566 ккал на порцію, Б/Ж/В 47/13/64 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано паста (немає у словнику); томатна пасата (немає у словнику).

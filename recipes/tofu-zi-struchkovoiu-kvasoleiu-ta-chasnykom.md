@@ -21,8 +21,10 @@ ingredients:
   - { name: часник, qty: 4, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/tofu-zi-struchkovoiu-kvasoleiu-ta-chasnykom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 393, protein: 35.8, fat: 27.6, carbs: 8.9 }
+nutrition_per_100g: { kcal: 159, protein: 14.5, fat: 11.2, carbs: 3.6 }
+cooked_g_est: 247
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Вегетаріанські вечері.
 - За даними автора: 478 ккал на порцію, Б/Ж/В 34/29/24 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано квасоля стручкова (немає у словнику); петрушка (немає у словнику).

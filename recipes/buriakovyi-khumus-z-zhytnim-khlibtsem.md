@@ -17,8 +17,10 @@ ingredients:
   - { name: часник, qty: 1, unit: зубчик, note: "" }
   - { name: житні хлібці, qty: 2, unit: шт, note: "" }
 photo: img/buriakovyi-khumus-z-zhytnim-khlibtsem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 369, protein: 16.9, fat: 14.7, carbs: 46.4 }
+nutrition_per_100g: { kcal: 214, protein: 9.8, fat: 8.5, carbs: 26.8 }
+cooked_g_est: 173
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Овочеве та квашене.
 - За даними автора: 462 ккал на порцію, Б/Ж/В 20/15/65 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано печений буряк (немає у словнику); житні хлібці (немає у словнику).

@@ -21,8 +21,10 @@ ingredients:
   - { name: зелена цибуля, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-krabovym-salatom-i-seleroiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 42, protein: 3.5, fat: 1.8, carbs: 3.5 }
+nutrition_per_100g: { kcal: 50, protein: 4.2, fat: 2.2, carbs: 4.1 }
+cooked_g_est: 84
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 211 ккал на порцію, Б/Ж/В 19/5/24 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); крабове мʼясо (немає у словнику); стебло селери (немає у словнику); діжонська гірчиця (немає у словнику).

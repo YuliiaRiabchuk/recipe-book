@@ -26,8 +26,10 @@ ingredients:
   - { name: кріп, qty: 6, unit: г, note: "" }
   - { name: часник, qty: 2, unit: г, note: "" }
 photo: img/indychi-kotlety-z-kapustianym-salatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 317, protein: 17.3, fat: 17.1, carbs: 25.7 }
+nutrition_per_100g: { kcal: 85, protein: 4.6, fat: 4.6, carbs: 6.9 }
+cooked_g_est: 374
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - P.S. Якщо котлети прилипають, сковорода була недостатньо прогріта: дай їй 1–2 хв прогрітись перед олією.
 - За даними автора: 689 ккал на порцію, Б/Ж/В 55/36/40 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш індички (немає у словнику); капуста білокачанна (немає у словнику).

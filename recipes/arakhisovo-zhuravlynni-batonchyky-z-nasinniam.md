@@ -21,8 +21,10 @@ ingredients:
   - { name: кориця, qty: 0.3, unit: г, note: "мелена" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/arakhisovo-zhuravlynni-batonchyky-z-nasinniam.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 705, protein: 23.3, fat: 39.6, carbs: 74.9 }
+nutrition_per_100g: { kcal: 507, protein: 16.8, fat: 28.5, carbs: 53.9 }
+cooked_g_est: 139
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

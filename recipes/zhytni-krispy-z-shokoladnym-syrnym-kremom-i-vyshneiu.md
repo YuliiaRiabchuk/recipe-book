@@ -19,8 +19,10 @@ ingredients:
   - { name: темний шоколад, qty: 8, unit: г, note: "70%" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/zhytni-krispy-z-shokoladnym-syrnym-kremom-i-vyshneiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 188, protein: 11.9, fat: 4.4, carbs: 29.6 }
+nutrition_per_100g: { kcal: 94, protein: 5.9, fat: 2.2, carbs: 14.8 }
+cooked_g_est: 200
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Крекери, хлібці та хрусткі основи.
 - За даними автора: 313 ккал на порцію, Б/Ж/В 17/9/45 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано житні цільнозернові кріспи (немає у словнику).

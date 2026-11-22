@@ -22,8 +22,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: йогурт грецький, qty: 80, unit: г, note: "2–5%" }
 photo: img/batat-tunets-stik-z-salatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 116, protein: 1.1, fat: 10.2, carbs: 7.2 }
+nutrition_per_100g: { kcal: 62, protein: 0.6, fat: 5.4, carbs: 3.8 }
+cooked_g_est: 189
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Батат ріж не надто тонко: тоді він печеться соковитим, а не сухим «чипсом».
 - За даними автора: 636 ккал на порцію, Б/Ж/В 42/17/77 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано батат (немає у словнику); тунець (немає у словнику); салат мікс (немає у словнику); томати черрі (немає у словнику); йогурт грецький (немає у словнику).

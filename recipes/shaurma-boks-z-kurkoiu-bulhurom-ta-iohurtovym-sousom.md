@@ -30,8 +30,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/shaurma-boks-z-kurkoiu-bulhurom-ta-iohurtovym-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 398, protein: 50.2, fat: 14.6, carbs: 15.3 }
+nutrition_per_100g: { kcal: 82, protein: 10.4, fat: 3.0, carbs: 3.2 }
+cooked_g_est: 483
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,3 +48,4 @@ added: 2026-11-15
 - Розділ книги: Середземноморські та «кафешні».
 - За даними автора: 629 ккал на порцію, Б/Ж/В 53/22/57 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано булгур (немає у словнику); червона капуста (немає у словнику); петрушка (немає у словнику); соняшникова олія (немає у словнику).

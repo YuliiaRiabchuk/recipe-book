@@ -24,8 +24,10 @@ ingredients:
   - { name: зелена цибуля, qty: 8, unit: г, note: "" }
   - { name: кунжут, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/tofu-z-shyitake-ta-soievym-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 452, protein: 37.6, fat: 30.2, carbs: 17.0 }
+nutrition_per_100g: { kcal: 143, protein: 11.9, fat: 9.6, carbs: 5.4 }
+cooked_g_est: 315
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - P.S. Якщо шиїтаке сухі, замочи у гарячій воді на 10 хв, потім наріж і готуй як свіжі.
 - За даними автора: 517 ккал на порцію, Б/Ж/В 35/30/26 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано гриби шиїтаке (немає у словнику).

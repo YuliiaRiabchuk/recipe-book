@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 124"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [з-птицею, на-сковороді, високобілкове, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kinoa-z-kuriachym-file-shpynatom-i-krem-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 419, protein: 34.1, fat: 29.2, carbs: 4.8 }
+nutrition_per_100g: { kcal: 214, protein: 17.4, fat: 14.9, carbs: 2.4 }
+cooked_g_est: 196
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Варіація: замість шпинату — рукола, додай її при подачі.
 - За даними автора: 645 ккал на порцію, Б/Ж/В 52/29/43 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кіноа (немає у словнику).

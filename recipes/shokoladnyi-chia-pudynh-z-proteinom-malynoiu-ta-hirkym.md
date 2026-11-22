@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 203"
 category: сніданки
-subcategory: солодкі
+subcategory: пудинги й чіа
 tags: [без-випікання, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: 0.5, unit: г, note: "" }
   - { name: кориця, qty: 0.5, unit: г, note: "" }
 photo: img/shokoladnyi-chia-pudynh-z-proteinom-malynoiu-ta-hirkym.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 294, protein: 12.8, fat: 12.8, carbs: 35.4 }
+nutrition_per_100g: { kcal: 80, protein: 3.5, fat: 3.5, carbs: 9.7 }
+cooked_g_est: 366
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Варіація: замість малини — чорниця або полуниця.
 - За даними автора: 477 ккал на порцію, Б/Ж/В 38/19/41 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику); гіркий шоколад (немає у словнику); сироп без цукру (немає у словнику); ваніль (немає у словнику).

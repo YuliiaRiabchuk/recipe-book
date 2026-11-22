@@ -24,8 +24,10 @@ ingredients:
   - { name: діжонська гірчиця, qty: 2, unit: г, note: "1/2 ч.л., 2–3 г" }
   - { name: зелень, qty: 5, unit: г, note: "" }
 photo: img/kotletky-z-indychky-ta-hrybiv-u-kremovii-pidlyvi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 252, protein: 12.8, fat: 18.3, carbs: 11.3 }
+nutrition_per_100g: { kcal: 88, protein: 4.4, fat: 6.4, carbs: 3.9 }
+cooked_g_est: 287
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Квашений огірок (1 шт, ≈50 г) добре «розріже» вершковість і додасть свіжості без відчутного приросту калорій.
 - За даними автора: 523 ккал на порцію, Б/Ж/В 45/23/18 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш індички (немає у словнику); панірувальні сухарі (немає у словнику); діжонська гірчиця (немає у словнику).

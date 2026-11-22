@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 243"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, швидко, на-сковороді, високобілкове, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/omlet-kapreze-light-z-motsareloiu-tomatamy-ta-bazylikom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 357, protein: 25.7, fat: 24.0, carbs: 10.0 }
+nutrition_per_100g: { kcal: 106, protein: 7.7, fat: 7.2, carbs: 3.0 }
+cooked_g_est: 336
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

@@ -6,7 +6,7 @@ source:
   name: Кращі перекуси дієтолога (Андрій Маковецький)
   ref: "с. 20"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [перекус, вегетаріанське, в-духовці, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/iaiechni-mafiny-z-brokoli-ta-fetoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 194, protein: 15.2, fat: 12.2, carbs: 6.3 }
+nutrition_per_100g: { kcal: 111, protein: 8.6, fat: 6.9, carbs: 3.6 }
+cooked_g_est: 176
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 280 ккал на порцію, Б/Ж/В 20/18/9 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фета (немає у словнику); солодкий перець (немає у словнику); сушений орегано (немає у словнику).

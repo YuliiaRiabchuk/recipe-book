@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 51"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з рибою
 tags: [з-рибою, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: каперси, qty: 8, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "до смаку" }
 photo: img/beihl-z-lososem-krem-syrom-ohirkom-ta-kropom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 347, protein: 20.6, fat: 26.6, carbs: 7.4 }
+nutrition_per_100g: { kcal: 148, protein: 8.8, fat: 11.4, carbs: 3.2 }
+cooked_g_est: 234
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - P.S.: підсушуй бейгл безпосередньо перед подаванням, щоб він лишався хрустким під шаром крем-сиру.
 - За даними автора: 460 ккал на порцію, Б/Ж/В 28/16/52 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозерновий бейгл (немає у словнику).

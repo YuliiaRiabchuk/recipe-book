@@ -22,8 +22,11 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: кмин, qty: 1, unit: г, note: "" }
 photo: img/svyniacha-vyrizka-z-tushkovanoiu-kapustoiu-ta-iablukom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 361, protein: 35.7, fat: 15.3, carbs: 24.1 }
+nutrition_per_100g: { kcal: 88, protein: 8.7, fat: 3.7, carbs: 5.9 }
+cooked_g_est: 409
+nutrition_status: частковий
+nutrition_notes: ["свиняча вирізка: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +44,4 @@ added: 2026-11-15
 - P.S. Яблуко додається в кінці, щоб воно давало соковитість і легку солодкість, а не перетворилося на кашу.
 - За даними автора: 493 ккал на порцію, Б/Ж/В 39/20/43 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано капуста білокачанна (немає у словнику).

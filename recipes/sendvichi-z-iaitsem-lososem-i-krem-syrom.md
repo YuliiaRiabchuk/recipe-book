@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 93"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з рибою
 tags: [з-рибою, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvichi-z-iaitsem-lososem-i-krem-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 740, protein: 45.6, fat: 46.1, carbs: 34.3 }
+nutrition_per_100g: { kcal: 233, protein: 14.4, fat: 14.5, carbs: 10.8 }
+cooked_g_est: 317
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

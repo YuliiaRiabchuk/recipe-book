@@ -25,8 +25,10 @@ ingredients:
   - { name: лимон, qty: 10, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/khek-tomat-olyvky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 157, protein: 2.9, fat: 10.7, carbs: 15.4 }
+nutrition_per_100g: { kcal: 45, protein: 0.8, fat: 3.1, carbs: 4.4 }
+cooked_g_est: 351
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Не кип’ятіть сильно: хек розпадається й стає сухішим.
 - За даними автора: 380 ккал на порцію, Б/Ж/В 39/15/23 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано хек (немає у словнику); оливки (немає у словнику).

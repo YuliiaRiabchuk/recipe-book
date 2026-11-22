@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "для дукки, за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "для дукки, за смаком" }
 photo: img/solona-iohurtova-chashka-z-ohirkom-nutom-i-dukkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 458, protein: 26.0, fat: 23.7, carbs: 39.4 }
+nutrition_per_100g: { kcal: 103, protein: 5.8, fat: 5.3, carbs: 8.9 }
+cooked_g_est: 445
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 404 ккал на порцію, Б/Ж/В 25/18/39 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано коріандр (немає у словнику).

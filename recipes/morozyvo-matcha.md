@@ -16,8 +16,10 @@ ingredients:
   - { name: порошок матча, qty: 5, unit: г, note: "" }
   - { name: еритритол, qty: 40, unit: г, note: "" }
 photo: img/morozyvo-matcha.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 64, protein: 2.6, fat: 4.4, carbs: 3.7 }
+nutrition_per_100g: { kcal: 80, protein: 3.2, fat: 5.5, carbs: 4.6 }
+cooked_g_est: 400
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Морозиво та сорбети без цукру.
 - За даними автора: 120 ккал на 100 г, Б/Ж/В 2.9/4.8/4.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано порошок матча (немає у словнику); еритритол (немає у словнику).

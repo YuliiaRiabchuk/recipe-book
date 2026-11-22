@@ -25,8 +25,10 @@ ingredients:
   - { name: чорний перець, qty: 1, unit: г, note: "" }
   - { name: паприка, qty: 2, unit: г, note: "" }
 photo: img/kurka-hryl-z-kinoa-brokoli-ta-lymonnym-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 355, protein: 52.1, fat: 8.6, carbs: 18.7 }
+nutrition_per_100g: { kcal: 90, protein: 13.2, fat: 2.2, carbs: 4.8 }
+cooked_g_est: 394
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Курка та індичка.
 - За даними автора: 619 ккал на порцію, Б/Ж/В 56/25/47 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кіноа (немає у словнику); соняшникова олія (немає у словнику); петрушка (немає у словнику); діжонська гірчиця (немає у словнику).

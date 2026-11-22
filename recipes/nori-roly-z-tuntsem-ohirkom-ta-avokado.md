@@ -21,8 +21,10 @@ ingredients:
   - { name: кунжут, qty: 3, unit: г, note: "" }
   - { name: зелена цибуля, qty: 5, unit: г, note: "" }
 photo: img/nori-roly-z-tuntsem-ohirkom-ta-avokado.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 123, protein: 4.1, fat: 9.2, carbs: 8.5 }
+nutrition_per_100g: { kcal: 87, protein: 2.9, fat: 6.5, carbs: 6.0 }
+cooked_g_est: 142
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 220 ккал на порцію, Б/Ж/В 27/9/10 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано лист норі (немає у словнику); тунець у власному соку (немає у словнику).

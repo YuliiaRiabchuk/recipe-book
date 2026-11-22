@@ -19,8 +19,10 @@ ingredients:
   - { name: лимонний сік, qty: null, unit: "", note: "або лаймовий, за смаком" }
   - { name: листя базиліку, qty: 1, unit: шт, note: "1–2 шт, за бажанням" }
 photo: img/smuzi-tropical-forest.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 223, protein: 2.8, fat: 11.4, carbs: 33.0 }
+nutrition_per_100g: { kcal: 70, protein: 0.9, fat: 3.6, carbs: 10.3 }
+cooked_g_est: 320
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 - Розділ книги: Смузі.
 - За даними автора: 365 ккал на порцію, Б/Ж/В 4/13/58 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано ківі (невідома вага одиниці «шт» (додай --per шт=<г> у confirm)); листя базиліку (немає у словнику).

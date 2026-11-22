@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 242"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [без-випікання, вегетаріанське, швидко, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 5 }
@@ -17,8 +17,10 @@ ingredients:
   - { name: насіння чіа, qty: 8, unit: г, note: "" }
   - { name: цедра лимона, qty: 1, unit: г, note: "" }
 photo: img/italiiskyi-iohurt-boul-z-iahodamy-ta-horikhamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 425, protein: 25.1, fat: 22.5, carbs: 35.4 }
+nutrition_per_100g: { kcal: 101, protein: 6.0, fat: 5.3, carbs: 8.4 }
+cooked_g_est: 421
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

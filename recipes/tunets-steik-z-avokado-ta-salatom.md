@@ -22,8 +22,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: кунжут, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/tunets-steik-z-avokado-ta-salatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 229, protein: 4.1, fat: 17.3, carbs: 20.1 }
+nutrition_per_100g: { kcal: 66, protein: 1.2, fat: 4.9, carbs: 5.7 }
+cooked_g_est: 350
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - P.S. Пересмажений тунець стає сухим, тож смаж коротко й на сильному вогні.
 - За даними автора: 399 ккал на порцію, Б/Ж/В 42/18/22 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тунець (немає у словнику); салат романо (немає у словнику).

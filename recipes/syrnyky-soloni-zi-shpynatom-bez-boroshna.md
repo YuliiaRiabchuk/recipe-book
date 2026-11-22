@@ -22,8 +22,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: кріп, qty: 6, unit: г, note: "" }
 photo: img/syrnyky-soloni-zi-shpynatom-bez-boroshna.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 507, protein: 40.9, fat: 26.1, carbs: 28.2 }
+nutrition_per_100g: { kcal: 113, protein: 9.1, fat: 5.8, carbs: 6.3 }
+cooked_g_est: 450
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

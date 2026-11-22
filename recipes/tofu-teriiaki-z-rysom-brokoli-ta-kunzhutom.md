@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tofu-teriiaki-z-rysom-brokoli-ta-kunzhutom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 518, protein: 54.2, fat: 25.8, carbs: 31.8 }
+nutrition_per_100g: { kcal: 100, protein: 10.5, fat: 5.0, carbs: 6.1 }
+cooked_g_est: 517
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Вегетаріанські білкові.
 - За даними автора: 733 ккал на порцію, Б/Ж/В 50/31/67 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано рис довгозернистий (немає у словнику); імбир свіжий (немає у словнику); соняшникова олія (немає у словнику); кунжутна олія (немає у словнику).

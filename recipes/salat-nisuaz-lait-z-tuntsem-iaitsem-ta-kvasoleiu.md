@@ -24,8 +24,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/salat-nisuaz-lait-z-tuntsem-iaitsem-ta-kvasoleiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 237, protein: 9.4, fat: 11.0, carbs: 28.6 }
+nutrition_per_100g: { kcal: 67, protein: 2.7, fat: 3.1, carbs: 8.1 }
+cooked_g_est: 355
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Середземноморські та «кафешні».
 - За даними автора: 605 ккал на порцію, Б/Ж/В 66/23/35 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тунець у власному соку (немає у словнику); яйця курячі (немає у словнику); стручкова квасоля (немає у словнику).

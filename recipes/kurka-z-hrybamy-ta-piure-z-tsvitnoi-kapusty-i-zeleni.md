@@ -22,8 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kurka-z-hrybamy-ta-piure-z-tsvitnoi-kapusty-i-zeleni.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 399, protein: 54.7, fat: 12.9, carbs: 18.6 }
+nutrition_per_100g: { kcal: 78, protein: 10.6, fat: 2.5, carbs: 3.6 }
+cooked_g_est: 515
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Курка та індичка.
 - За даними автора: 411 ккал на порцію, Б/Ж/В 48/16/22 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано петрушка (немає у словнику).

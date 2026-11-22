@@ -6,7 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 1
   ref: "с. 15"
 category: сніданки
-subcategory: солодкі
+subcategory: сирники й запіканки
 tags: [раціон-1550, вегетаріанське, на-сковороді, високобілкове]
 servings: 1
 time: { prep: null, cook: null }

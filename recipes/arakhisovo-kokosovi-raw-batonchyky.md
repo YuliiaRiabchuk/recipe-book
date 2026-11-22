@@ -15,8 +15,10 @@ ingredients:
   - { name: арахіс, qty: 60, unit: г, note: "обсмажений" }
   - { name: кокосова стружка, qty: 30, unit: г, note: "" }
 photo: img/arakhisovo-kokosovi-raw-batonchyky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 147, protein: 3.1, fat: 8.2, carbs: 18.3 }
+nutrition_per_100g: { kcal: 420, protein: 9.0, fat: 23.5, carbs: 52.3 }
+cooked_g_est: 210
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

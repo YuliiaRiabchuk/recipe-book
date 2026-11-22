@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 139"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [вегетаріанське, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -27,8 +27,10 @@ ingredients:
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
   - { name: кріп, qty: null, unit: "", note: "свіжий" }
 photo: img/hrechanyi-boul-z-pecherytsiamy-ta-iaitsem-pashot.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 498, protein: 20.6, fat: 25.9, carbs: 53.3 }
+nutrition_per_100g: { kcal: 128, protein: 5.3, fat: 6.7, carbs: 13.7 }
+cooked_g_est: 388
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - Розділ книги: Поживні сніданки.
 - За даними автора: 618 ккал на порцію, Б/Ж/В 28/35/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано бринза (немає у словнику); помідори чері (немає у словнику).

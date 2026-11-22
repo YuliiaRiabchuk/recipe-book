@@ -21,8 +21,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/shpazhky-z-motsareloiu-persykom-i-bazylikom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 35, protein: 0.4, fat: 3.1, carbs: 1.6 }
+nutrition_per_100g: { kcal: 152, protein: 1.6, fat: 13.4, carbs: 6.8 }
+cooked_g_est: 23
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 495 ккал на порцію, Б/Ж/В 27/32/29 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано міні-моцарела (немає у словнику); персик (немає у словнику); томати черрі (немає у словнику); фісташки (немає у словнику).

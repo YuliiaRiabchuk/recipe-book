@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 244"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [без-випікання, вегетаріанське, швидко, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 5 }
@@ -17,8 +17,10 @@ ingredients:
   - { name: ягоди, qty: 150, unit: г, note: "" }
   - { name: кориця, qty: 1, unit: г, note: "" }
 photo: img/hretskyi-iohurt-z-medovoiu-notkoiu-ta-horikhamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 423, protein: 26.2, fat: 21.3, carbs: 36.1 }
+nutrition_per_100g: { kcal: 101, protein: 6.2, fat: 5.1, carbs: 8.6 }
+cooked_g_est: 421
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

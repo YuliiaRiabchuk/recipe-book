@@ -24,8 +24,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: орегано, qty: null, unit: "", note: "за смаком" }
 photo: img/ryba-hryl-z-pechenymy-ovochamy-avokado-ta-lymonnym-iohurt.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 527, protein: 48.5, fat: 29.2, carbs: 21.3 }
+nutrition_per_100g: { kcal: 103, protein: 9.5, fat: 5.7, carbs: 4.2 }
+cooked_g_est: 510
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Середземноморські та «кафешні».
 - За даними автора: 575 ккал на порцію, Б/Ж/В 46/34/27 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано солодкий перець (немає у словнику).

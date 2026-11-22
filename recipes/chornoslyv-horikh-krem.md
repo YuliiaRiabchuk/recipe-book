@@ -16,8 +16,10 @@ ingredients:
   - { name: грецький йогурт, qty: 150, unit: г, note: "10 %" }
   - { name: кориця, qty: 1, unit: дрібка, note: "" }
 photo: img/chornoslyv-horikh-krem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 558, protein: 20.0, fat: 27.4, carbs: 67.6 }
+nutrition_per_100g: { kcal: 207, protein: 7.4, fat: 10.1, carbs: 25.0 }
+cooked_g_est: 270
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

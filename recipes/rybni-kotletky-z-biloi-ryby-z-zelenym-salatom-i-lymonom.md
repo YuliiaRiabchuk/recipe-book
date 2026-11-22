@@ -23,8 +23,10 @@ ingredients:
   - { name: лимонний сік, qty: 10, unit: г, note: "2 ч.л." }
   - { name: оливкова олія, qty: 5, unit: г, note: "1 ч.л., для салату" }
 photo: img/rybni-kotletky-z-biloi-ryby-z-zelenym-salatom-i-lymonom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 392, protein: 46.6, fat: 16.4, carbs: 12.8 }
+nutrition_per_100g: { kcal: 98, protein: 11.6, fat: 4.1, carbs: 3.2 }
+cooked_g_est: 401
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Чука (40 г) додасть морського смаку та мінеральності; порція маленька, тому калорійність зміниться ледь помітно.
 - За даними автора: 403 ккал на порцію, Б/Ж/В 49/22/14 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано салат-мікс (немає у словнику).

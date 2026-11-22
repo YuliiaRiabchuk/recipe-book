@@ -26,8 +26,10 @@ ingredients:
   - { name: кріп, qty: 5, unit: г, note: "" }
   - { name: лимонний сік, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/ovochevi-kotletky-try-kolory-z-fetoiu-ta-iohurtovym-dypom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 296, protein: 18.8, fat: 15.7, carbs: 22.1 }
+nutrition_per_100g: { kcal: 70, protein: 4.5, fat: 3.7, carbs: 5.3 }
+cooked_g_est: 420
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Квашена капуста (50 г) ідеальна як «легкий гарнір»: додає клітковину, ферментовану нотку й майже не збільшує калорійність.
 - За даними автора: 442 ккал на порцію, Б/Ж/В 25/19/43 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано перець солодкий (немає у словнику); панірувальні сухарі (немає у словнику); фета (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

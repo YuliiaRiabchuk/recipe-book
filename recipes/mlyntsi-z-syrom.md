@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 159"
 category: сніданки
-subcategory: солодкі
+subcategory: "млинці, панкейки й вафлі"
 tags: [вегетаріанське, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сир кисломолочний, qty: 120, unit: г, note: "9%" }
   - { name: ваніль, qty: null, unit: "", note: "за бажанням" }
 photo: img/mlyntsi-z-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 484, protein: 27.9, fat: 28.9, carbs: 28.4 }
+nutrition_per_100g: { kcal: 131, protein: 7.5, fat: 7.8, carbs: 7.7 }
+cooked_g_est: 371
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 906 ккал на порцію, Б/Ж/В 43/38/98 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику).

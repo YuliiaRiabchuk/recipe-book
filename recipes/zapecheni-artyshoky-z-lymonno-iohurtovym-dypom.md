@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zapecheni-artyshoky-z-lymonno-iohurtovym-dypom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 202, protein: 14.4, fat: 13.5, carbs: 5.6 }
+nutrition_per_100g: { kcal: 161, protein: 11.5, fat: 10.8, carbs: 4.5 }
+cooked_g_est: 125
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 404 ккал на порцію, Б/Ж/В 22/20/35 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано серцевини артишоків консервовані (немає у словнику); цільнозернові панірувальні сухарі (немає у словнику); сушений орегано (немає у словнику); сушений часник (немає у словнику); лимонна цедра (немає у словнику); петрушка (немає у словнику).

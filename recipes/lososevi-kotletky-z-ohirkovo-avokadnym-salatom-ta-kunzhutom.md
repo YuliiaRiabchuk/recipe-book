@@ -23,8 +23,10 @@ ingredients:
   - { name: лимонний сік, qty: 10, unit: г, note: "2 ч.л." }
   - { name: кунжут, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/lososevi-kotletky-z-ohirkovo-avokadnym-salatom-ta-kunzhutom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 665, protein: 46.8, fat: 46.9, carbs: 15.8 }
+nutrition_per_100g: { kcal: 135, protein: 9.5, fat: 9.5, carbs: 3.2 }
+cooked_g_est: 493
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Чука (40 г) додасть «суші-нотку» й зробить подачу ресторанною, без суттєвого приросту калорій.
 - За даними автора: 702 ккал на порцію, Б/Ж/В 46/47/22 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано панірувальні сухарі (немає у словнику).

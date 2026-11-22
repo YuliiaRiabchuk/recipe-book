@@ -24,8 +24,10 @@ ingredients:
   - { name: кунжут, qty: 3, unit: г, note: "1 ч.л., 3–4 г" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/funchoza-z-ialovychynoiu-ta-ovochamy-u-sousi-teriiaki-lait.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 569, protein: 37.9, fat: 15.3, carbs: 73.7 }
+nutrition_per_100g: { kcal: 113, protein: 7.5, fat: 3.0, carbs: 14.6 }
+cooked_g_est: 506
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

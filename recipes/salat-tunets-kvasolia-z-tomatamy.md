@@ -21,8 +21,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/salat-tunets-kvasolia-z-tomatamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 132, protein: 1.6, fat: 10.3, carbs: 10.7 }
+nutrition_per_100g: { kcal: 59, protein: 0.7, fat: 4.6, carbs: 4.7 }
+cooked_g_est: 226
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Якщо цибуля різка, залий її окропом на 20 с і злий: стане м’якшою.
 - За даними автора: 534 ккал на порцію, Б/Ж/В 49/12/58 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тунець (немає у словнику); квасоля біла консервована (немає у словнику); томати черрі (немає у словнику).

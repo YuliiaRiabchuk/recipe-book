@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/dorado-zi-sparzheiu-ta-cheri.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 176, protein: 5.5, fat: 11.2, carbs: 18.3 }
+nutrition_per_100g: { kcal: 54, protein: 1.7, fat: 3.5, carbs: 5.6 }
+cooked_g_est: 326
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - P.S. Якщо спаржа жорстка, додай 2–3 ст.л. води, накрий кришкою на 1 хв, потім відкрий і швидко випаріть.
 - За даними автора: 304 ккал на порцію, Б/Ж/В 32/15/18 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано дорадо (немає у словнику); петрушка (немає у словнику).

@@ -23,8 +23,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/polunychno-vivsiani-krambl-batonchyky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 506, protein: 13.4, fat: 18.4, carbs: 75.8 }
+nutrition_per_100g: { kcal: 223, protein: 5.9, fat: 8.1, carbs: 33.4 }
+cooked_g_est: 227
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 601 ккал на порцію, Б/Ж/В 18/27/75 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мигдальна паста (немає у словнику).

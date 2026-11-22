@@ -27,8 +27,10 @@ ingredients:
   - { name: солодкий чилі-соус, qty: 10, unit: г, note: "для соусу" }
   - { name: сік лайма, qty: 4, unit: г, note: "для соусу" }
 photo: img/miniroly-z-rysovoho-paperu-z-kurkoiu-ta-manho.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 384, protein: 27.0, fat: 6.4, carbs: 54.2 }
+nutrition_per_100g: { kcal: 94, protein: 6.6, fat: 1.6, carbs: 13.3 }
+cooked_g_est: 407
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 403 ккал на порцію, Б/Ж/В 27/7/59 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мелена паприка (немає у словнику); натуральний йогурт (немає у словнику); солодкий чилі-соус (немає у словнику).

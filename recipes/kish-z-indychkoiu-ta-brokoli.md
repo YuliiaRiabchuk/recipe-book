@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kish-z-indychkoiu-ta-brokoli.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 80, protein: 7.6, fat: 4.7, carbs: 1.8 }
+nutrition_per_100g: { kcal: 129, protein: 12.4, fat: 7.6, carbs: 2.8 }
+cooked_g_est: 494
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Порція 81 г: 115 ккал; вихід 650 г. Підготовка 30 хв, випікання 25 хв.
 - За даними автора: 142 ккал на 100 г, Б/Ж/В 11/6.2/10.5 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); йогурт густий (немає у словнику); сир гауда (немає у словнику).

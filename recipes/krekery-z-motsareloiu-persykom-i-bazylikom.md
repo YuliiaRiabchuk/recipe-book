@@ -19,8 +19,10 @@ ingredients:
   - { name: бальзамічний крем, qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-motsareloiu-persykom-i-bazylikom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 245, protein: 17.9, fat: 17.8, carbs: 2.9 }
+nutrition_per_100g: { kcal: 269, protein: 19.7, fat: 19.5, carbs: 3.2 }
+cooked_g_est: 91
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 298 ккал на порцію, Б/Ж/В 20/11/33 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); персик (немає у словнику); томати черрі (немає у словнику).

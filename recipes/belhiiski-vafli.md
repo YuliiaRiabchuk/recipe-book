@@ -6,7 +6,7 @@ source:
   name: "Як народжується закваска і хліб. Магія хліба (Анастасія Литвиненко)"
   ref: "с. 151–153"
 category: сніданки
-subcategory: солодкі
+subcategory: "млинці, панкейки й вафлі"
 tags: [закваска, бюджетне]
 servings: 1
 time: { prep: null, cook: 5 }

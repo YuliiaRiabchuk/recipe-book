@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 101"
 category: сніданки
-subcategory: поживні
+subcategory: "лаваш, роли й тортильї"
 tags: [вегетаріанське, на-сковороді, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: сушений часник, qty: 0.25, unit: ч.л., note: "або сушена цибуля, за бажанням" }
   - { name: зелень, qty: 10, unit: г, note: "10–15 г, кріп, петрушка, зелена цибуля, за бажанням" }
 photo: img/lavash-z-iaitsem-syrom-i-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 229, protein: 16.1, fat: 16.8, carbs: 3.2 }
+nutrition_per_100g: { kcal: 218, protein: 15.4, fat: 16.0, carbs: 3.1 }
+cooked_g_est: 105
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Street-style сніданки.
 - За даними автора: 422 ккал на порцію, Б/Ж/В 23/24/30 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тонкий лаваш (немає у словнику); сушений часник (немає у словнику).

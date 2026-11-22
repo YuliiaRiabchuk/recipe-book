@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 127"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [вегетаріанське, на-сковороді, без-глютену, без-лактози, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: копчена паприка, qty: 0.25, unit: ч.л., note: "або мелений кумин, за бажанням" }
   - { name: зелень, qty: 5, unit: г, note: "5–10 г, петрушка або зелена цибуля, за бажанням" }
 photo: img/kinoa-z-avokado-ta-iaitsem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 238, protein: 7.9, fat: 20.8, carbs: 7.2 }
+nutrition_per_100g: { kcal: 173, protein: 5.8, fat: 15.1, carbs: 5.3 }
+cooked_g_est: 138
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Здорові сніданкові тарілки.
 - За даними автора: 412 ккал на порцію, Б/Ж/В 13/27/33 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кіноа (немає у словнику); копчена паприка (немає у словнику).

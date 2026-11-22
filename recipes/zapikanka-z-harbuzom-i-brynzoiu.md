@@ -22,8 +22,10 @@ ingredients:
   - { name: мускатний горіх, qty: 0.2, unit: г, note: "" }
   - { name: зелень, qty: 5, unit: г, note: "5–10 г" }
 photo: img/zapikanka-z-harbuzom-i-brynzoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 322, protein: 12.3, fat: 20.9, carbs: 25.3 }
+nutrition_per_100g: { kcal: 81, protein: 3.1, fat: 5.3, carbs: 6.4 }
+cooked_g_est: 398
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Розділ книги: Овочеві запіканки з білком.
 - За даними автора: 470 ккал на порцію, Б/Ж/В 20/33/25 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано бринза (немає у словнику).

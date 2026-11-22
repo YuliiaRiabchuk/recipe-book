@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 158"
 category: сніданки
-subcategory: солодкі
+subcategory: "млинці, панкейки й вафлі"
 tags: [вегетаріанське, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: ягоди, qty: 60, unit: г, note: "свіжі або заморожені" }
   - { name: олія для смаження, qty: null, unit: "", note: "для смаження" }
 photo: img/pankeiky-z-iahodamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 224, protein: 12.0, fat: 8.1, carbs: 26.7 }
+nutrition_per_100g: { kcal: 99, protein: 5.3, fat: 3.6, carbs: 11.8 }
+cooked_g_est: 227
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 495 ккал на порцію, Б/Ж/В 20/10/87 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику).

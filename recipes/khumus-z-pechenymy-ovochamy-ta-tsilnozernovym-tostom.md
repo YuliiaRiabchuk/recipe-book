@@ -27,8 +27,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: кумин, qty: null, unit: "", note: "за смаком" }
 photo: img/khumus-z-pechenymy-ovochamy-ta-tsilnozernovym-tostom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 545, protein: 21.3, fat: 23.0, carbs: 70.3 }
+nutrition_per_100g: { kcal: 115, protein: 4.5, fat: 4.8, carbs: 14.8 }
+cooked_g_est: 476
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Середземноморські та «кафешні».
 - За даними автора: 719 ккал на порцію, Б/Ж/В 28/25/101 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано петрушка (немає у словнику); хліб цільнозерновий (немає у словнику).

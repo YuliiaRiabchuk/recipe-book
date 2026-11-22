@@ -22,8 +22,10 @@ ingredients:
   - { name: часник, qty: 0.4, unit: г, note: "сушений" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/kukurudziani-klastery-z-nasinniam-i-chyli.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 255, protein: 11.2, fat: 16.5, carbs: 20.8 }
+nutrition_per_100g: { kcal: 149, protein: 6.6, fat: 9.7, carbs: 12.2 }
+cooked_g_est: 171
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Хрусткі снеки.
 - За даними автора: 334 ккал на порцію, Б/Ж/В 14/17/37 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кукурудзяне борошно (немає у словнику); копчена паприка (немає у словнику); пластівці чилі (немає у словнику).

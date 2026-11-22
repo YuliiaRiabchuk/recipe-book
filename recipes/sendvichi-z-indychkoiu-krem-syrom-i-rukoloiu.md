@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 88"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з мʼясом
 tags: [з-птицею, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvichi-z-indychkoiu-krem-syrom-i-rukoloiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 575, protein: 41.6, fat: 30.1, carbs: 34.5 }
+nutrition_per_100g: { kcal: 225, protein: 16.3, fat: 11.8, carbs: 13.5 }
+cooked_g_est: 255
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

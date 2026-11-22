@@ -22,8 +22,10 @@ ingredients:
   - { name: соняшникова олія, qty: 10, unit: г, note: "2 ч.л." }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/kurka-bbq-bez-tsukru-z-batatom-i-koul-slou-lait.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 360, protein: 49.4, fat: 8.2, carbs: 22.1 }
+nutrition_per_100g: { kcal: 82, protein: 11.3, fat: 1.9, carbs: 5.0 }
+cooked_g_est: 439
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Розділ книги: Курка та індичка.
 - За даними автора: 681 ккал на порцію, Б/Ж/В 53/20/76 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано батат (немає у словнику); петрушка (немає у словнику); спеції bbq (немає у словнику); соняшникова олія (немає у словнику).

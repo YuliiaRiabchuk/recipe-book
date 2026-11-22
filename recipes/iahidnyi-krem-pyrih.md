@@ -22,8 +22,10 @@ ingredients:
   - { name: ягоди, qty: 150, unit: г, note: "свіжі або заморожені" }
   - { name: "листя м'яти", qty: null, unit: "", note: "кілька гілочок" }
 photo: img/iahidnyi-krem-pyrih.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 28, protein: 1.8, fat: 1.3, carbs: 2.3 }
+nutrition_per_100g: { kcal: 98, protein: 6.4, fat: 4.7, carbs: 8.3 }
+cooked_g_est: 225
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Порція 85 г: 113 ккал; вихід 680 г. Підготовка 25 хв, випікання 25 хв.
 - За даними автора: 132 ккал на 100 г, Б/Ж/В 9.8/4.2/13.6 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); протеїн (немає у словнику); йогурт густий (немає у словнику); йогурт густий (немає у словнику); підсолоджувач (немає у словнику).

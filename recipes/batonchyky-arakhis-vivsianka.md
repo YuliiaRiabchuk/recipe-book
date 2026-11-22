@@ -16,8 +16,10 @@ ingredients:
   - { name: мед, qty: 100, unit: г, note: "або еритритол у сиропі" }
   - { name: ванільний екстракт, qty: 2, unit: мл, note: "" }
 photo: img/batonchyky-arakhis-vivsianka.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 196, protein: 6.0, fat: 9.0, carbs: 25.1 }
+nutrition_per_100g: { kcal: 435, protein: 13.3, fat: 19.9, carbs: 55.6 }
+cooked_g_est: 452
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

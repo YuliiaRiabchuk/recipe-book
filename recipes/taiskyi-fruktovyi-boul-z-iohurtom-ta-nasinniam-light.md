@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 262"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [без-випікання, вегетаріанське, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: кокосова стружка, qty: 10, unit: г, note: "" }
   - { name: лимонний сік, qty: 5, unit: г, note: "або лаймовий" }
 photo: img/taiskyi-fruktovyi-boul-z-iohurtom-ta-nasinniam-light.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 484, protein: 23.9, fat: 20.7, carbs: 57.0 }
+nutrition_per_100g: { kcal: 89, protein: 4.4, fat: 3.8, carbs: 10.5 }
+cooked_g_est: 543
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

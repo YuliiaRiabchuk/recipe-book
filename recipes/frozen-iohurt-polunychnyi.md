@@ -15,8 +15,10 @@ ingredients:
   - { name: густий йогурт, qty: 200, unit: г, note: "3 %" }
   - { name: еритритол, qty: 40, unit: г, note: "" }
 photo: img/frozen-iohurt-polunychnyi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 55, protein: 3.9, fat: 2.1, carbs: 5.4 }
+nutrition_per_100g: { kcal: 61, protein: 4.4, fat: 2.4, carbs: 6.0 }
+cooked_g_est: 450
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +33,4 @@ added: 2026-11-15
 - Розділ книги: Морозиво та сорбети без цукру.
 - За даними автора: 90 ккал на 100 г, Б/Ж/В 2.8/1.5/6.1 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано еритритол (немає у словнику).

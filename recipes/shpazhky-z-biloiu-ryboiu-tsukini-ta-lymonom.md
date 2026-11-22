@@ -26,8 +26,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "для соусу" }
   - { name: сіль, qty: null, unit: "", note: "за смаком, для соусу" }
 photo: img/shpazhky-z-biloiu-ryboiu-tsukini-ta-lymonom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 99, protein: 5.6, fat: 7.1, carbs: 3.8 }
+nutrition_per_100g: { kcal: 124, protein: 7.1, fat: 8.8, carbs: 4.7 }
+cooked_g_est: 80
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 246 ккал на порцію, Б/Ж/В 34/7/12 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано філе тріски (немає у словнику); цукіні (немає у словнику); томати черрі (немає у словнику); лимонна цедра (немає у словнику); сушений орегано (немає у словнику).

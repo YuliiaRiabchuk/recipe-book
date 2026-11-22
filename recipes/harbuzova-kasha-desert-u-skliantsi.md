@@ -17,8 +17,10 @@ ingredients:
   - { name: мед, qty: 8, unit: г, note: "" }
   - { name: горіхи, qty: 10, unit: г, note: "для подачі" }
 photo: img/harbuzova-kasha-desert-u-skliantsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 204, protein: 8.0, fat: 9.6, carbs: 24.9 }
+nutrition_per_100g: { kcal: 71, protein: 2.8, fat: 3.4, carbs: 8.7 }
+cooked_g_est: 286
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Гречка та зернові.
 - За даними автора: 339 ккал на порцію, Б/Ж/В 12/10/53 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано пшоно (немає у словнику).

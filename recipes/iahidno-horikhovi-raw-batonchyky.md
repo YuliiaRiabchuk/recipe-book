@@ -16,8 +16,10 @@ ingredients:
   - { name: волоський горіх, qty: 40, unit: г, note: "" }
   - { name: насіння соняшника, qty: 30, unit: г, note: "" }
 photo: img/iahidno-horikhovi-raw-batonchyky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 155, protein: 2.4, fat: 7.1, carbs: 24.1 }
+nutrition_per_100g: { kcal: 387, protein: 5.9, fat: 17.7, carbs: 60.2 }
+cooked_g_est: 240
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

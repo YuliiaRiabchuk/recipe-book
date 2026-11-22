@@ -26,8 +26,11 @@ ingredients:
   - { name: часник, qty: 3, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/chyli-lait-z-ialovychynoiu-ta-pertsem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 433, protein: 38.8, fat: 23.0, carbs: 18.0 }
+nutrition_per_100g: { kcal: 105, protein: 9.4, fat: 5.6, carbs: 4.4 }
+cooked_g_est: 412
+nutrition_status: частковий
+nutrition_notes: ["яловичий фарш: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,3 +48,4 @@ added: 2026-11-15
 - P.S. Для менш гострої страви залиш тільки паприку й кмин, без чилі.
 - За даними автора: 708 ккал на порцію, Б/Ж/В 49/29/58 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано квасоля червона (немає у словнику); томати (немає у словнику); чилі (немає у словнику).

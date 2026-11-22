@@ -26,8 +26,10 @@ ingredients:
   - { name: мед, qty: 3, unit: г, note: "для соусу" }
   - { name: сіль, qty: null, unit: "", note: "за смаком, для соусу" }
 photo: img/minikotletky-z-tuntsia-i-kukurudzy-z-laimovym-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 164, protein: 6.3, fat: 6.9, carbs: 20.7 }
+nutrition_per_100g: { kcal: 158, protein: 6.1, fat: 6.6, carbs: 19.9 }
+cooked_g_est: 104
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 302 ккал на порцію, Б/Ж/В 34/9/22 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тунець у власному соку (немає у словнику); мелений коріандр (немає у словнику); натуральний йогурт (немає у словнику); цедра лайма (немає у словнику).

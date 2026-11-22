@@ -16,8 +16,10 @@ ingredients:
   - { name: мед, qty: 8, unit: г, note: "" }
   - { name: волоські горіхи, qty: 10, unit: г, note: "" }
 photo: img/pechene-iabluko-z-syrom-i-medom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 242, protein: 10.3, fat: 7.1, carbs: 38.4 }
+nutrition_per_100g: { kcal: 96, protein: 4.1, fat: 2.8, carbs: 15.2 }
+cooked_g_est: 252
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

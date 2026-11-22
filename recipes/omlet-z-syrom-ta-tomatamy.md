@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 219"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [на-сковороді, вегетаріанське, швидко, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 5 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/omlet-z-syrom-ta-tomatamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 297, protein: 22.2, fat: 18.5, carbs: 11.2 }
+nutrition_per_100g: { kcal: 92, protein: 6.9, fat: 5.8, carbs: 3.5 }
+cooked_g_est: 322
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 182"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [швидко, без-випікання, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 6 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/syrnyi-boul-z-iahodamy-arakhisovoiu-pastoiu-ta-lonom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 445, protein: 32.4, fat: 18.9, carbs: 40.4 }
+nutrition_per_100g: { kcal: 98, protein: 7.2, fat: 4.2, carbs: 8.9 }
+cooked_g_est: 452
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Варіація: замість меду кленовий сироп.
 - За даними автора: 530 ккал на порцію, Б/Ж/В 43/26/33 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано насіння льону (немає у словнику); ваніль (немає у словнику).

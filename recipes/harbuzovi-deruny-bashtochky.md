@@ -16,8 +16,10 @@ ingredients:
   - { name: борошно, qty: 30, unit: г, note: "або рисове" }
   - { name: грецький йогурт, qty: 40, unit: г, note: "2%, крем між шарами" }
 photo: img/harbuzovi-deruny-bashtochky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 272, protein: 15.0, fat: 7.2, carbs: 37.8 }
+nutrition_per_100g: { kcal: 94, protein: 5.2, fat: 2.5, carbs: 13.1 }
+cooked_g_est: 290
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

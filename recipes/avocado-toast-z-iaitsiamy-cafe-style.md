@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 220"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з яйцем
 tags: [вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/avocado-toast-z-iaitsiamy-cafe-style.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 439, protein: 23.3, fat: 22.4, carbs: 38.1 }
+nutrition_per_100g: { kcal: 159, protein: 8.5, fat: 8.1, carbs: 13.8 }
+cooked_g_est: 276
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

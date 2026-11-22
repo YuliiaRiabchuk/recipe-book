@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 70"
 category: сніданки
-subcategory: поживні
+subcategory: овочеві й сирні тости
 tags: [вегетаріанське, веганське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -23,8 +23,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: паприка, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvich-z-pastoiu-z-kvasoli-ta-tomatamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 419, protein: 19.9, fat: 7.7, carbs: 69.7 }
+nutrition_per_100g: { kcal: 129, protein: 6.2, fat: 2.4, carbs: 21.5 }
+cooked_g_est: 324
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - P.S.: квасолеву пасту можна приготувати заздалегідь і зберігати в холодильнику до 3 днів.
 - За даними автора: 510 ккал на порцію, Б/Ж/В 22/15/72 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано горіх грецький (немає у словнику); мікс салату (немає у словнику).

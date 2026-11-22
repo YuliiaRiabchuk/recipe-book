@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 168"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [вегетаріанське, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: дрібка, note: "≈0,2 г" }
   - { name: ваніль або кориця, qty: 1, unit: дрібка, note: "≈0,2 г, за бажанням" }
 photo: img/rysova-kasha-na-molotsi-z-vershkovym-maslom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 241, protein: 10.0, fat: 14.1, carbs: 19.4 }
+nutrition_per_100g: { kcal: 107, protein: 4.4, fat: 6.2, carbs: 8.6 }
+cooked_g_est: 225
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 467 ккал на порцію, Б/Ж/В 13/16/67 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано рис круглозернистий (немає у словнику); ваніль або кориця (немає у словнику).

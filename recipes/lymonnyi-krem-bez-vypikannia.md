@@ -19,8 +19,10 @@ ingredients:
   - { name: желатин, qty: 4, unit: г, note: "або агар 3 г" }
   - { name: вода, qty: 30, unit: мл, note: "для желатину; для агару 100 мл" }
 photo: img/lymonnyi-krem-bez-vypikannia.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 129, protein: 12.8, fat: 6.8, carbs: 4.2 }
+nutrition_per_100g: { kcal: 94, protein: 9.3, fat: 4.9, carbs: 3.1 }
+cooked_g_est: 274
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Десерти без запікання.
 - За даними автора: 125 ккал на порцію, Б/Ж/В 9/10.3/3.3 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано лимонна цедра (немає у словнику).

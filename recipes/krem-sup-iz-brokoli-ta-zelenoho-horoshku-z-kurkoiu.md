@@ -20,8 +20,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krem-sup-iz-brokoli-ta-zelenoho-horoshku-z-kurkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 499, protein: 53.9, fat: 10.9, carbs: 49.2 }
+nutrition_per_100g: { kcal: 58, protein: 6.2, fat: 1.3, carbs: 5.7 }
+cooked_g_est: 867
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

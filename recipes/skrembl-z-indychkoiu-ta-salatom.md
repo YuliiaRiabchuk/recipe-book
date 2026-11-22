@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 24"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [з-птицею, на-сковороді, високобілкове, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: хліб цільнозерновий, qty: 60, unit: г, note: "1 скибка" }
 photo: img/skrembl-z-indychkoiu-ta-salatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 203, protein: 13.4, fat: 14.9, carbs: 3.4 }
+nutrition_per_100g: { kcal: 119, protein: 7.9, fat: 8.7, carbs: 2.0 }
+cooked_g_est: 170
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Варіація: молоко можна замінити водою.
 - За даними автора: 620 ккал на порцію, Б/Ж/В 27/30/64 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано шинка індички (немає у словнику); мікс салату (немає у словнику); хліб цільнозерновий (немає у словнику).

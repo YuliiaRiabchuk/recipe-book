@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 37"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [з-мʼясом, на-сковороді, високобілкове, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: 0.25, unit: ч.л., note: "або за смаком" }
   - { name: чорний мелений перець, qty: 0.12, unit: ч.л., note: "⅛–¼ ч.л. або за смаком" }
 photo: img/omlet-z-shynkoiu-ta-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 564, protein: 43.4, fat: 39.0, carbs: 7.9 }
+nutrition_per_100g: { kcal: 187, protein: 14.4, fat: 13.0, carbs: 2.6 }
+cooked_g_est: 301
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

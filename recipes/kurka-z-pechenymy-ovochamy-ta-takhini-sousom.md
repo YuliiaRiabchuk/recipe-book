@@ -25,8 +25,10 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/kurka-z-pechenymy-ovochamy-ta-takhini-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 523, protein: 51.6, fat: 26.1, carbs: 23.4 }
+nutrition_per_100g: { kcal: 94, protein: 9.2, fat: 4.7, carbs: 4.2 }
+cooked_g_est: 559
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - P.S. Тахіні дає горіховий ресторанний смак; якщо хочеш легше, зменш тахіні до 8 г.
 - За даними автора: 579 ккал на порцію, Б/Ж/В 57/25/34 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано червона цибуля (немає у словнику); петрушка (немає у словнику).

@@ -25,8 +25,10 @@ ingredients:
   - { name: лимонний сік, qty: 5, unit: г, note: "1 ч.л." }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/hirska-zapikanka-z-rybkoiu-ta-hrybamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 474, protein: 38.6, fat: 24.8, carbs: 26.4 }
+nutrition_per_100g: { kcal: 96, protein: 7.8, fat: 5.0, carbs: 5.3 }
+cooked_g_est: 496
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Розділ книги: Ситні запечені обіди.
 - За даними автора: 507 ккал на порцію, Б/Ж/В 35/32/23 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано трави (немає у словнику).

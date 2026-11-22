@@ -16,8 +16,10 @@ ingredients:
   - { name: фініки, qty: 50, unit: г, note: "без кісточок" }
   - { name: кунжут, qty: 10, unit: г, note: "для обкачування" }
 photo: img/takhini-protein-triufeli.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 345, protein: 6.9, fat: 18.5, carbs: 45.1 }
+nutrition_per_100g: { kcal: 405, protein: 8.2, fat: 21.7, carbs: 53.1 }
+cooked_g_est: 85
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +33,4 @@ added: 2026-11-15
 - Розділ книги: Трюфелі та кульки на шпажках.
 - За даними автора: 458 ккал на порцію, Б/Ж/В 30/19/45 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн ванільний (немає у словнику).

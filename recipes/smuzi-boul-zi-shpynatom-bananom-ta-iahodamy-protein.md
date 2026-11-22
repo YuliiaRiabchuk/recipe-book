@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 179"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [швидко, без-випікання, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 8 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: 0.5, unit: г, note: "" }
   - { name: кориця, qty: 0.5, unit: г, note: "" }
 photo: img/smuzi-boul-zi-shpynatom-bananom-ta-iahodamy-protein.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 205, protein: 4.7, fat: 1.8, carbs: 48.4 }
+nutrition_per_100g: { kcal: 62, protein: 1.4, fat: 0.6, carbs: 14.6 }
+cooked_g_est: 331
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Якщо смузі занадто густий, додай 2–3 ст.л. кефіру або йогурту й збий ще 5–10 с.
 - За даними автора: 488 ккал на порцію, Б/Ж/В 32/18/67 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кефір безлактозний (немає у словнику); протеїн (немає у словнику); насіння льону (немає у словнику); ваніль (немає у словнику).

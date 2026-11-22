@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 116"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, в-духовці, на-сковороді, високобілкове, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: сушений базилік, qty: 0.25, unit: ч.л., note: "або орегано, за бажанням" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "5–10 г, петрушка, кріп, за бажанням" }
 photo: img/fritata-z-ovochamy-ta-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 438, protein: 32.5, fat: 29.6, carbs: 10.5 }
+nutrition_per_100g: { kcal: 129, protein: 9.6, fat: 8.7, carbs: 3.1 }
+cooked_g_est: 339
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 525 ккал на порцію, Б/Ж/В 37/40/10 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано чорний мелений перець (немає у словнику); сушений базилік (немає у словнику); свіжа зелень (немає у словнику).

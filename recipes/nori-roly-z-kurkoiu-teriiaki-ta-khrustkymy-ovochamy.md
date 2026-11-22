@@ -27,8 +27,10 @@ ingredients:
   - { name: часник, qty: 1, unit: г, note: "для соусу" }
   - { name: кукурудзяний крохмаль, qty: 2, unit: г, note: "для соусу" }
 photo: img/nori-roly-z-kurkoiu-teriiaki-ta-khrustkymy-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 250, protein: 30.5, fat: 6.0, carbs: 19.3 }
+nutrition_per_100g: { kcal: 88, protein: 10.7, fat: 2.1, carbs: 6.8 }
+cooked_g_est: 284
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 284 ккал на порцію, Б/Ж/В 31/9/22 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано листи норі (немає у словнику); кунжутна олія (немає у словнику); рисовий оцет (немає у словнику).

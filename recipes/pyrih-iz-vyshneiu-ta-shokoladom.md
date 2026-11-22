@@ -22,8 +22,10 @@ ingredients:
   - { name: йогурт густий, qty: 100, unit: г, note: "3%" }
   - { name: підсолоджувач, qty: 15, unit: г, note: "" }
 photo: img/pyrih-iz-vyshneiu-ta-shokoladom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 94, protein: 4.3, fat: 1.7, carbs: 16.6 }
+nutrition_per_100g: { kcal: 164, protein: 7.5, fat: 3.0, carbs: 29.0 }
+cooked_g_est: 459
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Пироги солодкі.
 - За даними автора: 125 ккал на порцію, Б/Ж/В 6/5/12.6 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано висівки пшеничні (немає у словнику); олія оливкова (немає у словнику); шоколад темний (немає у словнику); йогурт густий (немає у словнику); підсолоджувач (немає у словнику).

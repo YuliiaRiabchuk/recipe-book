@@ -18,8 +18,10 @@ ingredients:
   - { name: заатар, qty: 2, unit: г, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-nutovoho-boroshna-ta-zaataru.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 96, protein: 1.1, fat: 10.0, carbs: 1.4 }
+nutrition_per_100g: { kcal: 224, protein: 2.5, fat: 23.2, carbs: 3.3 }
+cooked_g_est: 43
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Хрусткі домашні снеки.
 - За даними автора: 318 ккал на порцію, Б/Ж/В 14/14/34 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано нутове борошно (немає у словнику); заатар (немає у словнику).

@@ -5,7 +5,8 @@ source:
   type: pdf
   name: "Бонус: гранола, топінги, морозиво (Андрій Маковецький)"
   ref: "с. 3"
-category: заготовки
+category: сніданки
+subcategory: "йогурт, боули й гранола"
 tags: [в-духовці, вегетаріанське, без-лактози, хелзі]
 servings: 6
 time: { prep: null, cook: 47 }
@@ -17,8 +18,10 @@ ingredients:
   - { name: мед, qty: 40, unit: г, note: "або еритритол" }
   - { name: оливкова олія, qty: 20, unit: мл, note: "" }
 photo: img/hranola-z-horikhamy-ta-zhuravlynoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 281, protein: 6.2, fat: 13.0, carbs: 37.9 }
+nutrition_per_100g: { kcal: 434, protein: 9.6, fat: 20.0, carbs: 58.7 }
+cooked_g_est: 388
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +36,4 @@ added: 2026-11-15
 - Розділ книги: Гранола.
 - За даними автора: 440 ккал на 100 г, Б/Ж/В 11/18/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано насіння льону (немає у словнику).

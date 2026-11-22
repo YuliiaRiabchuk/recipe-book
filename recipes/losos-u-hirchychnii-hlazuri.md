@@ -22,8 +22,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: кріп, qty: 6, unit: г, note: "" }
 photo: img/losos-u-hirchychnii-hlazuri.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 425, protein: 32.1, fat: 24.2, carbs: 24.2 }
+nutrition_per_100g: { kcal: 117, protein: 8.8, fat: 6.6, carbs: 6.6 }
+cooked_g_est: 364
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - P.S. Якщо хочеш менш солодкий смак, зменш мед до 3 г, а глазур залиш.
 - За даними автора: 437 ккал на порцію, Б/Ж/В 32/24/26 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано гірчиця дижонська (немає у словнику).

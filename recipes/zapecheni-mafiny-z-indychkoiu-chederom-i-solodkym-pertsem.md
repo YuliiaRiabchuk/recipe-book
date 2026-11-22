@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zapecheni-mafiny-z-indychkoiu-chederom-i-solodkym-pertsem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 131, protein: 7.4, fat: 7.1, carbs: 9.3 }
+nutrition_per_100g: { kcal: 199, protein: 11.2, fat: 10.7, carbs: 14.1 }
+cooked_g_est: 66
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 440 ккал на порцію, Б/Ж/В 36/27/12 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш з індички (немає у словнику); солодкий перець (немає у словнику); чедер (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

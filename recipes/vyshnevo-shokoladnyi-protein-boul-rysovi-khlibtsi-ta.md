@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 204"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [без-випікання, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/vyshnevo-shokoladnyi-protein-boul-rysovi-khlibtsi-ta.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 420, protein: 24.1, fat: 12.7, carbs: 60.1 }
+nutrition_per_100g: { kcal: 92, protein: 5.3, fat: 2.8, carbs: 13.2 }
+cooked_g_est: 454
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Якщо маса надто густа, додай 1–2 ст.л. йогурту й збий ще 5–10 с.
 - За даними автора: 621 ккал на порцію, Б/Ж/В 45/22/65 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику); гіркий шоколад (немає у словнику); ваніль (немає у словнику).

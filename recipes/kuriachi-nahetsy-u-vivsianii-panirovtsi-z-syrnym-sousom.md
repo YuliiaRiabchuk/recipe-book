@@ -25,8 +25,10 @@ ingredients:
   - { name: грецький йогурт, qty: 20, unit: г, note: "2%, для соусу" }
   - { name: діжонська гірчиця, qty: 3, unit: г, note: "для соусу" }
 photo: img/kuriachi-nahetsy-u-vivsianii-panirovtsi-z-syrnym-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 403, protein: 42.8, fat: 13.1, carbs: 26.8 }
+nutrition_per_100g: { kcal: 185, protein: 19.6, fat: 6.0, carbs: 12.3 }
+cooked_g_est: 218
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 497 ккал на порцію, Б/Ж/В 48/21/27 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано копчена паприка (немає у словнику); сушений часник (немає у словнику); чедер (немає у словнику); діжонська гірчиця (немає у словнику).

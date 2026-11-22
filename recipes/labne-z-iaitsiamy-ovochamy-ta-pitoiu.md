@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 114"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -24,8 +24,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "до смаку" }
 photo: img/labne-z-iaitsiamy-ovochamy-ta-pitoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 203, protein: 13.2, fat: 14.6, carbs: 4.7 }
+nutrition_per_100g: { kcal: 96, protein: 6.3, fat: 6.9, carbs: 2.2 }
+cooked_g_est: 211
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - P.S.: розподіли лабне тонким шаром, щоб у кожному шматочку поєдналися лабне, олія, зелень та овочі.
 - За даними автора: 630 ккал на порцію, Б/Ж/В 32/32/49 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано лабне (немає у словнику); цільнозернова піта (немає у словнику); помідори чері (немає у словнику); оливки (немає у словнику); заатар (немає у словнику); мʼята (немає у словнику).

@@ -20,8 +20,10 @@ ingredients:
   - { name: мед, qty: 3, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/iabluchni-baitsy-z-chederom-hirchytseiu-ta-voloskymy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 221, protein: 5.0, fat: 11.3, carbs: 29.3 }
+nutrition_per_100g: { kcal: 101, protein: 2.3, fat: 5.2, carbs: 13.5 }
+cooked_g_est: 218
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 468 ккал на порцію, Б/Ж/В 20/31/30 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано чедер (немає у словнику); діжонська гірчиця (немає у словнику).

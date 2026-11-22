@@ -20,8 +20,11 @@ ingredients:
   - { name: томат, qty: 40, unit: г, note: "" }
   - { name: айсберг, qty: 20, unit: г, note: "" }
 photo: img/burher-z-ialovychynoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 178, protein: 22.1, fat: 8.8, carbs: 0.9 }
+nutrition_per_100g: { kcal: 193, protein: 24.0, fat: 9.6, carbs: 1.0 }
+cooked_g_est: 92
+nutrition_status: частковий
+nutrition_notes: ["яловичий фарш: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +40,4 @@ added: 2026-11-15
 - Порція 320 г: 497 ккал. Приготування 8 хв, обсмажування 12 хв.
 - За даними автора: 155 ккал на 100 г, Б/Ж/В 13.3/5.9/12.4 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано булочка з машем (немає у словнику); діжонська гірчиця (немає у словнику); томат (немає у словнику); айсберг (немає у словнику).

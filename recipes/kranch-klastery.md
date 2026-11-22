@@ -15,8 +15,10 @@ ingredients:
   - { name: горіхи, qty: 80, unit: г, note: "подрібнені" }
   - { name: шоколад темний, qty: 140, unit: г, note: "85%" }
 photo: img/kranch-klastery.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 44, protein: 1.0, fat: 4.3, carbs: 0.9 }
+nutrition_per_100g: { kcal: 654, protein: 15.2, fat: 65.2, carbs: 13.7 }
+cooked_g_est: 80
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +33,4 @@ added: 2026-11-15
 - Розділ книги: Цукерки.
 - За даними автора: 146 ккал на порцію, Б/Ж/В 3.7/12.4/4.6 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано насіння гарбуза (немає у словнику); шоколад темний (немає у словнику).

@@ -26,8 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/skumbriia-zapechena-z-hrechkoiu-ta-buriakom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 283, protein: 10.0, fat: 1.8, carbs: 62.8 }
+nutrition_per_100g: { kcal: 68, protein: 2.4, fat: 0.4, carbs: 15.0 }
+cooked_g_est: 418
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Якщо буряк сирий і вариться, загальний час до 95 хв.
 - За даними автора: 763 ккал на порцію, Б/Ж/В 45/39/62 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано філе скумбрії (немає у словнику); петрушка (немає у словнику); гарбузова олія (немає у словнику); соняшникова олія (немає у словнику); коріандр мелений (немає у словнику).

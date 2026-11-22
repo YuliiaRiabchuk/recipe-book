@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 190"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [швидко, без-випікання, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 8 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/persykovyi-protein-boul.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 169, protein: 4.3, fat: 15.1, carbs: 5.6 }
+nutrition_per_100g: { kcal: 86, protein: 2.2, fat: 7.7, carbs: 2.9 }
+cooked_g_est: 196
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Варіація: замість персика нектарин.
 - За даними автора: 686 ккал на порцію, Б/Ж/В 63/32/44 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано зернистий сир (немає у словнику); протеїн (немає у словнику); персик (немає у словнику); фісташки (немає у словнику); ваніль (немає у словнику).

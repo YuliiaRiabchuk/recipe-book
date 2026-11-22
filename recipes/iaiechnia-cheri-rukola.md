@@ -6,7 +6,7 @@ source:
   name: Корисні та смачні вечері. Великий збірник (Андрій Маковецький)
   ref: "с. 85"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, на-сковороді, швидко, без-глютену, без-лактози, легке, хелзі]
 servings: 1
 time: { prep: null, cook: 8 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: лимон, qty: 10, unit: г, note: "" }
 photo: img/iaiechnia-cheri-rukola.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 220, protein: 13.9, fat: 16.9, carbs: 3.2 }
+nutrition_per_100g: { kcal: 129, protein: 8.2, fat: 9.9, carbs: 1.9 }
+cooked_g_est: 170
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Секрет ніжної яєчні: нижчий вогонь і кришка наприкінці на пів хвилини.
 - За даними автора: 285 ккал на порцію, Б/Ж/В 16/20/14 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано томати черрі (немає у словнику).

@@ -23,8 +23,10 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/hrechka-z-ialovychynoiu-ta-hrybamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 648, protein: 53.3, fat: 22.4, carbs: 67.2 }
+nutrition_per_100g: { kcal: 109, protein: 8.9, fat: 3.8, carbs: 11.3 }
+cooked_g_est: 597
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Для ніжнішого результату наріж м’ясо тонше, а не кубиками.
 - За даними автора: 708 ккал на порцію, Б/Ж/В 52/25/70 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано петрушка (немає у словнику).

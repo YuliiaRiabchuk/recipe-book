@@ -20,8 +20,10 @@ ingredients:
   - { name: лимонний сік, qty: 7, unit: г, note: "" }
   - { name: лимонна цедра, qty: 1, unit: г, note: "" }
 photo: img/lymonno-fistashkovi-proteinovi-kulky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 299, protein: 11.6, fat: 12.9, carbs: 36.7 }
+nutrition_per_100g: { kcal: 306, protein: 11.8, fat: 13.2, carbs: 37.5 }
+cooked_g_est: 98
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Додатково потрібно 20 хв на охолодження.
 - За даними автора: 470 ккал на порцію, Б/Ж/В 37/20/36 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сироватковий ізолят (немає у словнику); фісташки (немає у словнику); лимонна цедра (немає у словнику).

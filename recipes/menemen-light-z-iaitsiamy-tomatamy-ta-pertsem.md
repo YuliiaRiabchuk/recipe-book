@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 248"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, швидко, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: зелень, qty: 10, unit: г, note: "" }
   - { name: хліб, qty: 35, unit: г, note: "цільнозерновий, 1 скибка" }
 photo: img/menemen-light-z-iaitsiamy-tomatamy-ta-pertsem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 364, protein: 20.1, fat: 14.8, carbs: 40.2 }
+nutrition_per_100g: { kcal: 71, protein: 3.9, fat: 2.9, carbs: 7.9 }
+cooked_g_est: 510
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

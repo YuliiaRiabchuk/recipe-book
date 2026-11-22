@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/iaiechni-mafiny-z-ovochamy-salatom-ta-iohurtovym-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 152, protein: 12.4, fat: 5.4, carbs: 16.2 }
+nutrition_per_100g: { kcal: 54, protein: 4.4, fat: 1.9, carbs: 5.8 }
+cooked_g_est: 280
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Вегетаріанські білкові.
 - За даними автора: 532 ккал на порцію, Б/Ж/В 34/34/27 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано яйце куряче (немає у словнику); цукіні (немає у словнику); помідори чері (немає у словнику); соняшникова олія (немає у словнику); петрушка (немає у словнику).

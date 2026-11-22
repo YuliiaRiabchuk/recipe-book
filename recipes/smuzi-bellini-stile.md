@@ -17,8 +17,10 @@ ingredients:
   - { name: морква, qty: 25, unit: г, note: "" }
   - { name: кокосове молоко, qty: 100, unit: мл, note: "рідке, 100–150 мл" }
 photo: img/smuzi-bellini-stile.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 237, protein: 2.7, fat: 21.6, carbs: 12.7 }
+nutrition_per_100g: { kcal: 136, protein: 1.5, fat: 12.3, carbs: 7.3 }
+cooked_g_est: 175
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Замість кокосового молока можна взяти йогурт (смачніше, але важче пити через трубочку) або воду з 10 г меду.
 - За даними автора: 255 ккал на порцію, Б/Ж/В 4/3/53 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано нектарин (немає у словнику); абрикос (немає у словнику); персик (немає у словнику).

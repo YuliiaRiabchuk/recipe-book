@@ -6,7 +6,7 @@ source:
   name: Кращі перекуси дієтолога (Андрій Маковецький)
   ref: "с. 21"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [перекус, вегетаріанське, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/farshyrovani-iaitsia-z-avokado-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 246, protein: 15.6, fat: 17.9, carbs: 6.7 }
+nutrition_per_100g: { kcal: 135, protein: 8.6, fat: 9.8, carbs: 3.7 }
+cooked_g_est: 182
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 247 ккал на порцію, Б/Ж/В 16/18/8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано діжонська гірчиця (немає у словнику); копчена паприка (немає у словнику).

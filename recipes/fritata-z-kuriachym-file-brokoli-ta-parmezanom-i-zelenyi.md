@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 52"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [з-птицею, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 22 }
@@ -27,8 +27,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/fritata-z-kuriachym-file-brokoli-ta-parmezanom-i-zelenyi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 512, protein: 45.7, fat: 23.0, carbs: 33.4 }
+nutrition_per_100g: { kcal: 99, protein: 8.9, fat: 4.5, carbs: 6.5 }
+cooked_g_est: 516
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,3 +47,4 @@ added: 2026-11-15
 - Варіація: замість руколи можна взяти листя салату.
 - За даними автора: 540 ккал на порцію, Б/Ж/В 49/25/33 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано петрушка (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

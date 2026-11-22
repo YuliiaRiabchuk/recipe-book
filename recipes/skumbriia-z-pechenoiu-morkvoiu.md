@@ -23,8 +23,10 @@ ingredients:
   - { name: паприка копчена, qty: 2, unit: г, note: "" }
   - { name: чебрець, qty: 1, unit: г, note: "" }
 photo: img/skumbriia-z-pechenoiu-morkvoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 241, protein: 3.2, fat: 10.7, carbs: 36.7 }
+nutrition_per_100g: { kcal: 75, protein: 1.0, fat: 3.3, carbs: 11.4 }
+cooked_g_est: 322
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - P.S. Якщо хочеш легше по жирах, роби цю страву раз на тиждень, а в інші вечері бери білу рибу.
 - За даними автора: 465 ккал на порцію, Б/Ж/В 23/25/40 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано скумбрія (немає у словнику); гірчиця дижонська (немає у словнику); чебрець (немає у словнику).

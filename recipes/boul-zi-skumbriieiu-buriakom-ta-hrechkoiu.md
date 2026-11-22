@@ -26,8 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/boul-zi-skumbriieiu-buriakom-ta-hrechkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 143, protein: 3.7, fat: 0.7, carbs: 34.9 }
+nutrition_per_100g: { kcal: 40, protein: 1.0, fat: 0.2, carbs: 9.8 }
+cooked_g_est: 357
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - Якщо буряк сирий, загальний час 90–110 хв.
 - За даними автора: 775 ккал на порцію, Б/Ж/В 45/40/61 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано скумбрія філе (немає у словнику); гречана крупа (немає у словнику); грецький горіх (немає у словнику); гірчиця українська (немає у словнику); петрушка (немає у словнику); соняшникова олія (немає у словнику).

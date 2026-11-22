@@ -26,8 +26,10 @@ ingredients:
   - { name: копчена паприка, qty: 0.5, unit: г, note: "для трикутників" }
   - { name: сіль, qty: null, unit: "", note: "для трикутників, за смаком" }
 photo: img/syrnyi-huakamole-z-domashnimy-kukurudzianymy-trykutnykamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 231, protein: 12.1, fat: 15.1, carbs: 14.7 }
+nutrition_per_100g: { kcal: 117, protein: 6.2, fat: 7.6, carbs: 7.4 }
+cooked_g_est: 197
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 415 ккал на порцію, Б/Ж/В 20/22/42 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано томат (немає у словнику); червона цибуля (немає у словнику); пластівці чилі (немає у словнику); кукурудзяні тортильї (немає у словнику); копчена паприка (немає у словнику).

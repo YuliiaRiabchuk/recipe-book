@@ -25,8 +25,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: кріп, qty: 6, unit: г, note: "" }
 photo: img/prianyi-nut-z-iohurtovym-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 638, protein: 32.8, fat: 22.9, carbs: 81.3 }
+nutrition_per_100g: { kcal: 95, protein: 4.9, fat: 3.4, carbs: 12.1 }
+cooked_g_est: 670
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - P.S. Якщо нут не хрусткий, значить, був вологий. Обсушування вирішує все.
 - За даними автора: 562 ккал на порцію, Б/Ж/В 29/19/61 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано салат мікс (немає у словнику); часник сухий (немає у словнику).

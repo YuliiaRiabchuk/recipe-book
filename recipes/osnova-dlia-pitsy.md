@@ -18,8 +18,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: сода, qty: 2, unit: г, note: "" }
   - { name: лимонний сік, qty: 5, unit: мл, note: "" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 55, protein: 1.4, fat: 0.7, carbs: 10.5 }
+nutrition_per_100g: { kcal: 254, protein: 6.5, fat: 3.3, carbs: 48.4 }
+cooked_g_est: 174
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

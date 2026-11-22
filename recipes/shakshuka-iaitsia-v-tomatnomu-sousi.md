@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 30"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -24,8 +24,10 @@ ingredients:
   - { name: кумин, qty: null, unit: "", note: "за смаком" }
   - { name: хліб цільнозерновий, qty: 60, unit: г, note: "1 скибка" }
 photo: img/shakshuka-iaitsia-v-tomatnomu-sousi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 329, protein: 16.5, fat: 20.6, carbs: 22.8 }
+nutrition_per_100g: { kcal: 64, protein: 3.2, fat: 4.0, carbs: 4.5 }
+cooked_g_est: 511
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Варіація: перець можна замінити цукіні кубиком 1 см; петрушку — кінзою або кропом.
 - За даними автора: 539 ккал на порцію, Б/Ж/В 25/25/53 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано петрушка (немає у словнику); хліб цільнозерновий (немає у словнику).

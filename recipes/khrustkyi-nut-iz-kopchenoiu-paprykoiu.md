@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/khrustkyi-nut-iz-kopchenoiu-paprykoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 307, protein: 14.2, fat: 9.1, carbs: 43.9 }
+nutrition_per_100g: { kcal: 186, protein: 8.6, fat: 5.5, carbs: 26.6 }
+cooked_g_est: 165
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 313 ккал на порцію, Б/Ж/В 15/9/45 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано копчена паприка (немає у словнику); сушений часник (немає у словнику); мелений кумин (немає у словнику).

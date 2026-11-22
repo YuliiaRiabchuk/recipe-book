@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 192"
 category: сніданки
-subcategory: солодкі
+subcategory: сирники й запіканки
 tags: [в-духовці, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 40 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: ванільний цукор, qty: 1, unit: г, note: "½ ч.л., за бажанням" }
   - { name: вершкове масло, qty: 5, unit: г, note: "для змащення форми" }
 photo: img/klasychna-syrna-zapikanka.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 449, protein: 36.0, fat: 19.7, carbs: 30.7 }
+nutrition_per_100g: { kcal: 136, protein: 10.9, fat: 6.0, carbs: 9.3 }
+cooked_g_est: 331
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

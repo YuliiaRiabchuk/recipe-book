@@ -26,8 +26,10 @@ ingredients:
   - { name: часник, qty: 1, unit: г, note: "для соусу" }
   - { name: анчоуси, qty: 5, unit: г, note: "для соусу" }
 photo: img/salatni-chovnyky-z-kurkoiu-parmezanom-i-sousom-tsezar.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 287, protein: 35.2, fat: 13.4, carbs: 4.9 }
+nutrition_per_100g: { kcal: 180, protein: 22.1, fat: 8.4, carbs: 3.1 }
+cooked_g_est: 159
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Тости, роли та мінісендвічі.
 - За даними автора: 294 ккал на порцію, Б/Ж/В 36/28/9 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано листя салату романо (немає у словнику); томати черрі (немає у словнику); копчена паприка (немає у словнику); діжонська гірчиця (немає у словнику).

@@ -21,8 +21,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tortylia-roly-z-indychkoiu-shpynatom-i-vershkovym-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 118, protein: 22.5, fat: 1.5, carbs: 3.3 }
+nutrition_per_100g: { kcal: 68, protein: 12.9, fat: 0.9, carbs: 1.9 }
+cooked_g_est: 174
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Тости, роли та мінісендвічі.
 - За даними автора: 358 ккал на порцію, Б/Ж/В 38/6/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернова тортилья (немає у словнику); вершковий сир (немає у словнику); солодкий перець (немає у словнику); діжонська гірчиця (немає у словнику).

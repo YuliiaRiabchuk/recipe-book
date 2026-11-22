@@ -21,8 +21,10 @@ ingredients:
   - { name: бальзамік, qty: 10, unit: г, note: "10–15 г; або лимонний сік" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/pasta-z-proshuto-rukoloiu-cheri-ta-motsareloiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 204, protein: 12.1, fat: 16.3, carbs: 2.7 }
+nutrition_per_100g: { kcal: 210, protein: 12.5, fat: 16.8, carbs: 2.7 }
+cooked_g_est: 97
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Паста й локшина з білком.
 - За даними автора: 522 ккал на порцію, Б/Ж/В 28/23/49 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано паста (немає у словнику); прошуто (немає у словнику); помідори чері (немає у словнику); бальзамік (немає у словнику).

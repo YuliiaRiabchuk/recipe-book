@@ -19,8 +19,10 @@ ingredients:
   - { name: мед, qty: 5, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-syrnym-kremom-vyshneiu-ta-kakao-krupkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 154, protein: 12.6, fat: 1.8, carbs: 23.3 }
+nutrition_per_100g: { kcal: 70, protein: 5.7, fat: 0.8, carbs: 10.6 }
+cooked_g_est: 220
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 348 ккал на порцію, Б/Ж/В 19/13/41 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); какао-крупка (немає у словнику).

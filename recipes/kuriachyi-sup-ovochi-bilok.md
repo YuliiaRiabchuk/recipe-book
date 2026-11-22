@@ -22,8 +22,10 @@ ingredients:
   - { name: лимон, qty: 10, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/kuriachyi-sup-ovochi-bilok.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 354, protein: 42.8, fat: 12.2, carbs: 17.5 }
+nutrition_per_100g: { kcal: 51, protein: 6.1, fat: 1.8, carbs: 2.5 }
+cooked_g_est: 697
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

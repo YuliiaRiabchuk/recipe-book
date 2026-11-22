@@ -21,8 +21,10 @@ ingredients:
   - { name: розпушувач, qty: 3, unit: г, note: "" }
   - { name: гарбузове насіння, qty: 20, unit: г, note: "" }
 photo: img/fistashkove-protein-pechyvo.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 62, protein: 2.4, fat: 2.0, carbs: 9.0 }
+nutrition_per_100g: { kcal: 359, protein: 13.9, fat: 11.6, carbs: 51.8 }
+cooked_g_est: 174
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 99 ккал на порцію, Б/Ж/В 6.7/4.5/6.8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику); фісташки (немає у словнику); йогурт густий (немає у словнику); матча (немає у словнику).

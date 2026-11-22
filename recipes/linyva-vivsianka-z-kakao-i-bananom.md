@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 207"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [без-випікання, вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 5 }
@@ -17,8 +17,10 @@ ingredients:
   - { name: банан, qty: 0.5, unit: шт, note: "≈50 г" }
   - { name: мед, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/linyva-vivsianka-z-kakao-i-bananom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 362, protein: 14.2, fat: 7.7, carbs: 62.2 }
+nutrition_per_100g: { kcal: 114, protein: 4.5, fat: 2.4, carbs: 19.7 }
+cooked_g_est: 316
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

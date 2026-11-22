@@ -17,8 +17,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: дрібка, note: "" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/krem-desert-banan-arakhis.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 343, protein: 16.6, fat: 16.7, carbs: 36.6 }
+nutrition_per_100g: { kcal: 132, protein: 6.4, fat: 6.4, carbs: 14.1 }
+cooked_g_est: 260
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Десерти без запікання.
 - За даними автора: 364 ккал на порцію, Б/Ж/В 15.6/18.2/33.8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано ваніль (немає у словнику).

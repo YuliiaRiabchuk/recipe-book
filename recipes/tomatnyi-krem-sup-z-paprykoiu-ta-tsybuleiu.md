@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tomatnyi-krem-sup-z-paprykoiu-ta-tsybuleiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 153, protein: 4.3, fat: 6.0, carbs: 24.3 }
+nutrition_per_100g: { kcal: 21, protein: 0.6, fat: 0.8, carbs: 3.3 }
+cooked_g_est: 744
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Паприку, часник і орегано можна збільшити за смаком: аромат стане яскравішим без суттєвого впливу на калорійність.
 - За даними автора: 256 ккал на порцію, Б/Ж/В 7/7/43 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано перець солодкий (немає у словнику); паприка солодка (немає у словнику).

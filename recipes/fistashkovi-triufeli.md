@@ -16,8 +16,10 @@ ingredients:
   - { name: еритритол, qty: 30, unit: г, note: "у порошку" }
   - { name: какао-порошок, qty: 10, unit: г, note: "для обкачування" }
 photo: img/fistashkovi-triufeli.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 2, protein: 0.2, fat: 0.1, carbs: 0.5 }
+nutrition_per_100g: { kcal: 228, protein: 19.6, fat: 13.7, carbs: 57.9 }
+cooked_g_est: 10
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Цукерки.
 - За даними автора: 57 ккал на порцію, Б/Ж/В 2.9/4.6/1.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фісташки (немає у словнику); сир м'який (немає у словнику); еритритол (немає у словнику).

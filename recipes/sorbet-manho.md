@@ -15,8 +15,10 @@ ingredients:
   - { name: сік лайма, qty: 20, unit: мл, note: "" }
   - { name: еритритол, qty: 30, unit: г, note: "" }
 photo: img/sorbet-manho.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 49, protein: 0.7, fat: 0.3, carbs: 12.3 }
+nutrition_per_100g: { kcal: 58, protein: 0.8, fat: 0.4, carbs: 14.7 }
+cooked_g_est: 420
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +33,4 @@ added: 2026-11-15
 - Розділ книги: Морозиво та сорбети без цукру.
 - За даними автора: 85 ккал на 100 г, Б/Ж/В 0.7/0.4/13.3 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано еритритол (немає у словнику).

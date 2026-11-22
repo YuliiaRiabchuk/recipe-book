@@ -21,8 +21,10 @@ ingredients:
   - { name: розмарин, qty: 1, unit: г, note: "сушений" }
   - { name: лимонний зест, qty: 1, unit: г, note: "" }
 photo: img/beigl-iz-lymonnym-zestom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 202, protein: 5.7, fat: 0.5, carbs: 42.3 }
+nutrition_per_100g: { kcal: 227, protein: 6.5, fat: 0.6, carbs: 47.5 }
+cooked_g_est: 89
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Порція 100 г: 214 ккал. Приготування 1 год 9 хв, випікання 19 хв.
 - За даними автора: 214 ккал на 100 г, Б/Ж/В 6.9/1.1/43.5 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано висівки (немає у словнику); дріжджі сухі (немає у словнику); розмарин (немає у словнику); лимонний зест (немає у словнику).

@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: 2.5, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/solona-zapikanka-zi-shpynatom-i-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 513, protein: 45.1, fat: 31.7, carbs: 11.8 }
+nutrition_per_100g: { kcal: 121, protein: 10.6, fat: 7.5, carbs: 2.8 }
+cooked_g_est: 424
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

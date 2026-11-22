@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 75"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з мʼясом
 tags: [з-птицею, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 18 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: паприка, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvich-z-pesto-kurkoiu-ta-rukoloiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 473, protein: 38.8, fat: 20.1, carbs: 33.9 }
+nutrition_per_100g: { kcal: 152, protein: 12.4, fat: 6.4, carbs: 10.9 }
+cooked_g_est: 312
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

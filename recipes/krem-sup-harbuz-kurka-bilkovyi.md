@@ -23,8 +23,10 @@ ingredients:
   - { name: лимон, qty: 10, unit: г, note: "" }
   - { name: зелень, qty: 6, unit: г, note: "" }
 photo: img/krem-sup-harbuz-kurka-bilkovyi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 416, protein: 47.0, fat: 14.8, carbs: 25.0 }
+nutrition_per_100g: { kcal: 59, protein: 6.7, fat: 2.1, carbs: 3.6 }
+cooked_g_est: 701
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

@@ -21,8 +21,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/salat-bilkova-klasyka-z-kvasoleiu-ta-tuntsem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 160, protein: 2.5, fat: 11.2, carbs: 15.9 }
+nutrition_per_100g: { kcal: 46, protein: 0.7, fat: 3.2, carbs: 4.6 }
+cooked_g_est: 346
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - P.S. Якщо хочеш легше, зменш оливкову олію до 7 г (1 ч.л.), але лимон залишай.
 - За даними автора: 532 ккал на порцію, Б/Ж/В 47/13/58 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано квасоля біла (немає у словнику); тунець (немає у словнику); червона цибуля (немає у словнику).

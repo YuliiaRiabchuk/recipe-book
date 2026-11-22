@@ -21,8 +21,10 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/sparzha-z-lososem-lymonnyi-minimal.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 367, protein: 27.1, fat: 25.1, carbs: 10.5 }
+nutrition_per_100g: { kcal: 120, protein: 8.9, fat: 8.2, carbs: 3.4 }
+cooked_g_est: 305
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Лосось не пересушуй: краще зняти на хвилину раніше, він дійде на теплі.
 - За даними автора: 401 ккал на порцію, Б/Ж/В 27/24/19 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано томати черрі (немає у словнику); петрушка (немає у словнику).

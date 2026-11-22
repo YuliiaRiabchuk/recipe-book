@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 39"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, швидко, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сушена цибуля, qty: 0.25, unit: ч.л., note: "або сушений часник, за бажанням" }
   - { name: зелень, qty: 10, unit: г, note: "10–15 г; петрушка, кріп, зелена цибуля, за бажанням" }
 photo: img/skrembl-z-vershkovoiu-teksturoiu-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 341, protein: 20.3, fat: 27.1, carbs: 3.2 }
+nutrition_per_100g: { kcal: 174, protein: 10.3, fat: 13.8, carbs: 1.6 }
+cooked_g_est: 196
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Яєчні сніданки.
 - За даними автора: 367 ккал на порцію, Б/Ж/В 22/29/3 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сушена цибуля (немає у словнику).

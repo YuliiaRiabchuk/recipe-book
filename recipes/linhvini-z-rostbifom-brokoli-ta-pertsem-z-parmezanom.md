@@ -22,8 +22,10 @@ ingredients:
   - { name: лимон, qty: 0.5, unit: шт, note: "сік ~15 г" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/linhvini-z-rostbifom-brokoli-ta-pertsem-z-parmezanom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 168, protein: 8.1, fat: 8.7, carbs: 18.8 }
+nutrition_per_100g: { kcal: 70, protein: 3.4, fat: 3.6, carbs: 7.9 }
+cooked_g_est: 239
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Паста й локшина з білком.
 - За даними автора: 587 ккал на порцію, Б/Ж/В 49/18/60 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано паста лінгвіні (немає у словнику); ростбіф (немає у словнику).

@@ -19,8 +19,10 @@ ingredients:
   - { name: лимонна цедра, qty: 0.4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tsilnozernovi-krekery-z-fetoiu-vynohradom-i-fistashkamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 24, protein: 2.2, fat: 1.2, carbs: 1.0 }
+nutrition_per_100g: { kcal: 97, protein: 9.0, fat: 5.0, carbs: 4.0 }
+cooked_g_est: 25
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Крекери, хлібці та хрусткі основи.
 - За даними автора: 408 ккал на порцію, Б/Ж/В 17/22/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); фета (немає у словнику); виноград (немає у словнику); фісташки (немає у словнику); лимонна цедра (немає у словнику).

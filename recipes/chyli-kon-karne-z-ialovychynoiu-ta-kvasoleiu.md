@@ -28,8 +28,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/chyli-kon-karne-z-ialovychynoiu-ta-kvasoleiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 302, protein: 15.5, fat: 6.4, carbs: 50.0 }
+nutrition_per_100g: { kcal: 76, protein: 3.9, fat: 1.6, carbs: 12.5 }
+cooked_g_est: 399
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,3 +47,4 @@ added: 2026-11-15
 - Розділ книги: Яловичина та телятина.
 - За даними автора: 692 ккал на порцію, Б/Ж/В 54/26/60 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш з яловичини (немає у словнику); солодкий перець (немає у словнику); копчена паприка (немає у словнику); перець чилі (немає у словнику).

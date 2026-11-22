@@ -23,8 +23,10 @@ ingredients:
   - { name: часник, qty: 3, unit: г, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за потреби" }
 photo: img/miso-sup-z-tofu-vodorostiamy-ta-rysom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 480, protein: 42.4, fat: 18.3, carbs: 45.4 }
+nutrition_per_100g: { kcal: 53, protein: 4.7, fat: 2.0, carbs: 5.1 }
+cooked_g_est: 899
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Білкові супи.
 - За даними автора: 475 ккал на порцію, Б/Ж/В 34/16/50 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано паста місо (немає у словнику); водорості вакаме (немає у словнику).

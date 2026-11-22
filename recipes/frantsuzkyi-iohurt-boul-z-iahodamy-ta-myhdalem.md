@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 218"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [без-випікання, вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 5 }
@@ -17,8 +17,10 @@ ingredients:
   - { name: насіння льону, qty: 8, unit: г, note: "" }
   - { name: кориця, qty: 1, unit: г, note: "" }
 photo: img/frantsuzkyi-iohurt-boul-z-iahodamy-ta-myhdalem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 386, protein: 25.4, fat: 18.7, carbs: 33.2 }
+nutrition_per_100g: { kcal: 91, protein: 6.0, fat: 4.4, carbs: 7.9 }
+cooked_g_est: 423
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Сніданки країн світу.
 - За даними автора: 476 ккал на порцію, Б/Ж/В 20/29/39 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано насіння льону (немає у словнику).

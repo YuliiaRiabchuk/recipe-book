@@ -15,8 +15,10 @@ ingredients:
   - { name: какао-порошок, qty: 5, unit: г, note: "" }
   - { name: кориця, qty: 1, unit: дрібка, note: "за бажанням" }
 photo: img/proteinovyi-hariachyi-shokolad.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 136, protein: 9.2, fat: 5.6, carbs: 14.9 }
+nutrition_per_100g: { kcal: 76, protein: 5.1, fat: 3.1, carbs: 8.3 }
+cooked_g_est: 180
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -30,3 +32,4 @@ added: 2026-11-15
 - Розділ книги: Теплі.
 - За даними автора: 230 ккал на порцію, Б/Ж/В 30/5/18 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано казеїн шоколадний (немає у словнику).

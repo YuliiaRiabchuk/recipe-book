@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 42"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: чорний перець, qty: 0.12, unit: ч.л., note: "мелений, за бажанням" }
   - { name: базилік, qty: 0.25, unit: ч.л., note: "сушений, або орегано, за бажанням" }
 photo: img/iaiechni-mafiny-z-ovochamy-u-dukhovtsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 277, protein: 22.7, fat: 17.6, carbs: 6.5 }
+nutrition_per_100g: { kcal: 145, protein: 11.9, fat: 9.2, carbs: 3.4 }
+cooked_g_est: 191
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Яєчні сніданки.
 - За даними автора: 322 ккал на порцію, Б/Ж/В 25/24/6 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано шпинат свіжий (немає у словнику).

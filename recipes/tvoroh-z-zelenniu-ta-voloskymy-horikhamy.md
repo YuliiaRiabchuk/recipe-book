@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 226"
 category: сніданки
-subcategory: поживні
+subcategory: сніданкові тарілки
 tags: [без-випікання, вегетаріанське, швидко, без-глютену, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 7 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/tvoroh-z-zelenniu-ta-voloskymy-horikhamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 387, protein: 31.5, fat: 22.0, carbs: 18.6 }
+nutrition_per_100g: { kcal: 79, protein: 6.5, fat: 4.5, carbs: 3.8 }
+cooked_g_est: 488
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

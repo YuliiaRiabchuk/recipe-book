@@ -24,8 +24,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/solona-hranola-z-vivsiankoiu-nasinniam-i-parmezanom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 487, protein: 21.5, fat: 29.0, carbs: 39.1 }
+nutrition_per_100g: { kcal: 403, protein: 17.8, fat: 24.0, carbs: 32.3 }
+cooked_g_est: 121
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Розділ книги: Хрусткі снеки.
 - За даними автора: 491 ккал на порцію, Б/Ж/В 24/29/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано розмарин (немає у словнику); копчена паприка (немає у словнику).

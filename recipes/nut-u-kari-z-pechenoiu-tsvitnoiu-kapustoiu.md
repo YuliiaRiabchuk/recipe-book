@@ -23,8 +23,10 @@ ingredients:
   - { name: лимон, qty: 20, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/nut-u-kari-z-pechenoiu-tsvitnoiu-kapustoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 704, protein: 28.3, fat: 31.8, carbs: 86.9 }
+nutrition_per_100g: { kcal: 109, protein: 4.4, fat: 4.9, carbs: 13.4 }
+cooked_g_est: 648
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - P.S. Запечена капуста дає горіхову нотку, саме вона робить страву дорожчою на смак.
 - За даними автора: 619 ккал на порцію, Б/Ж/В 24/29/67 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано карі (немає у словнику).

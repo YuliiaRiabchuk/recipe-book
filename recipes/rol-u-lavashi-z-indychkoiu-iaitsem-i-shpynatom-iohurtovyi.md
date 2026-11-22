@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 108"
 category: сніданки
-subcategory: поживні
+subcategory: "лаваш, роли й тортильї"
 tags: [з-птицею, на-сковороді, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -26,8 +26,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/rol-u-lavashi-z-indychkoiu-iaitsem-i-shpynatom-iohurtovyi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 442, protein: 47.6, fat: 20.7, carbs: 17.5 }
+nutrition_per_100g: { kcal: 76, protein: 8.2, fat: 3.6, carbs: 3.0 }
+cooked_g_est: 580
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - Варіація: замість шпинату можна взяти руколу.
 - За даними автора: 672 ккал на порцію, Б/Ж/В 59/27/48 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тонкий лаваш (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

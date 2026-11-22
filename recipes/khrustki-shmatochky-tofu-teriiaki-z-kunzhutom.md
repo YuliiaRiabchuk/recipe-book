@@ -24,8 +24,10 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "для соусу" }
   - { name: кукурудзяний крохмаль, qty: 2, unit: г, note: "для соусу" }
 photo: img/khrustki-shmatochky-tofu-teriiaki-z-kunzhutom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 117, protein: 2.2, fat: 2.6, carbs: 21.9 }
+nutrition_per_100g: { kcal: 198, protein: 3.8, fat: 4.4, carbs: 37.1 }
+cooked_g_est: 59
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 359 ккал на порцію, Б/Ж/В 22/16/33 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано твердий тофу (немає у словнику); олія авокадо (немає у словнику); рисовий оцет (немає у словнику).

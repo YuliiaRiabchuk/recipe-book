@@ -27,8 +27,10 @@ ingredients:
   - { name: базилік, qty: 3, unit: г, note: "для соусу" }
   - { name: сіль, qty: null, unit: "", note: "за смаком, для соусу" }
 photo: img/frykadelky-z-indychky-ta-shpynatu-z-tomatnym-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 81, protein: 4.3, fat: 5.1, carbs: 5.5 }
+nutrition_per_100g: { kcal: 99, protein: 5.2, fat: 6.3, carbs: 6.8 }
+cooked_g_est: 82
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 384 ккал на порцію, Б/Ж/В 33/19/22 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш з індички (немає у словнику); цільнозернові панірувальні сухарі (немає у словнику); сушений орегано (немає у словнику); копчена паприка (немає у словнику); подрібнені томати (немає у словнику).

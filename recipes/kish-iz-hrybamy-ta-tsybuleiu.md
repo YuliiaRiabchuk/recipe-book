@@ -26,8 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kish-iz-hrybamy-ta-tsybuleiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 62, protein: 3.6, fat: 4.5, carbs: 2.2 }
+nutrition_per_100g: { kcal: 106, protein: 6.2, fat: 7.6, carbs: 3.7 }
+cooked_g_est: 467
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Порція 80 г: 123 ккал; вихід 640 г. Підготовка 25 хв, випікання 25 хв.
 - За даними автора: 154 ккал на 100 г, Б/Ж/В 11.5/7.2/10.5 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); протеїн (немає у словнику); йогурт густий (немає у словнику); сир гауда (немає у словнику); тим'ян (немає у словнику).

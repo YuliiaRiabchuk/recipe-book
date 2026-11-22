@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 162"
 category: сніданки
-subcategory: поживні
+subcategory: сирники й запіканки
 tags: [вегетаріанське, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: олія для смаження, qty: null, unit: "", note: "за потреби" }
   - { name: йогурт натуральний, qty: 50, unit: г, note: "2,5%, для подачі" }
 photo: img/syrnyky-z-iohurtom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 344, protein: 30.3, fat: 15.0, carbs: 21.4 }
+nutrition_per_100g: { kcal: 110, protein: 9.7, fat: 4.8, carbs: 6.9 }
+cooked_g_est: 312
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 530 ккал на порцію, Б/Ж/В 44/25/34 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику).

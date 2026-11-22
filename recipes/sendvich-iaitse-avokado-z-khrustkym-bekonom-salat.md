@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 84"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з мʼясом
 tags: [з-мʼясом, на-сковороді, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: чорний перець, qty: 0.5, unit: г, note: "" }
   - { name: копчена паприка, qty: 1, unit: г, note: "" }
 photo: img/sendvich-iaitse-avokado-z-khrustkym-bekonom-salat.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 587, protein: 28.4, fat: 33.4, carbs: 46.5 }
+nutrition_per_100g: { kcal: 119, protein: 5.8, fat: 6.8, carbs: 9.5 }
+cooked_g_est: 492
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Варіація: замість бекону можна взяти шинку.
 - За даними автора: 639 ккал на порцію, Б/Ж/В 26/39/51 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано копчена паприка (немає у словнику).

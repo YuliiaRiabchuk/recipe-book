@@ -16,8 +16,10 @@ ingredients:
   - { name: вівсяні пластівці, qty: 40, unit: г, note: "" }
   - { name: волоські горіхи, qty: 20, unit: г, note: "" }
 photo: img/medovo-makovi-kulky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 486, protein: 13.7, fat: 28.1, carbs: 50.6 }
+nutrition_per_100g: { kcal: 462, protein: 13.1, fat: 26.8, carbs: 48.2 }
+cooked_g_est: 105
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

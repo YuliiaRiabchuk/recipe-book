@@ -22,8 +22,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: кріп, qty: 6, unit: г, note: "" }
 photo: img/tempe-hryl-z-kapustianym-salatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 167, protein: 9.7, fat: 10.1, carbs: 11.6 }
+nutrition_per_100g: { kcal: 58, protein: 3.4, fat: 3.5, carbs: 4.0 }
+cooked_g_est: 288
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - P.S. Темпе має специфічний смак, а гірчично-йогуртовий соус його округлює й робить дуже приємним.
 - За даними автора: 543 ккал на порцію, Б/Ж/В 36/30/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано темпе (немає у словнику); капуста білокачанна (немає у словнику).

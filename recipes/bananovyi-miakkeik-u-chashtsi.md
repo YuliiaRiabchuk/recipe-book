@@ -16,8 +16,10 @@ ingredients:
   - { name: яйце, qty: 1, unit: шт, note: "" }
   - { name: розпушувач, qty: 2, unit: г, note: "" }
 photo: img/bananovyi-miakkeik-u-chashtsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 143, protein: 7.2, fat: 5.0, carbs: 18.6 }
+nutrition_per_100g: { kcal: 120, protein: 6.0, fat: 4.2, carbs: 15.7 }
+cooked_g_est: 119
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Десерти у мікрохвильовці.
 - За даними автора: 270 ккал на порцію, Б/Ж/В 11/7.4/37.5 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику).

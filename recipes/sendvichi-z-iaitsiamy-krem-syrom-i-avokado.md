@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 91"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з яйцем
 tags: [вегетаріанське, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvichi-z-iaitsiamy-krem-syrom-i-avokado.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 730, protein: 32.9, fat: 49.1, carbs: 41.5 }
+nutrition_per_100g: { kcal: 200, protein: 9.0, fat: 13.5, carbs: 11.4 }
+cooked_g_est: 365
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

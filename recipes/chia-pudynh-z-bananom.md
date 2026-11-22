@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 201"
 category: сніданки
-subcategory: солодкі
+subcategory: пудинги й чіа
 tags: [без-випікання, вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 5 }
@@ -17,8 +17,10 @@ ingredients:
   - { name: кориця, qty: 0.2, unit: г, note: "щіпка, або ваніль, за бажанням" }
   - { name: мускатний горіх мелений, qty: 1, unit: дрібка, note: "за бажанням" }
 photo: img/chia-pudynh-z-bananom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 250, protein: 10.6, fat: 10.3, carbs: 31.5 }
+nutrition_per_100g: { kcal: 90, protein: 3.8, fat: 3.7, carbs: 11.3 }
+cooked_g_est: 279
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Десертні, але збалансовані.
 - За даними автора: 310 ккал на порцію, Б/Ж/В 11/14/35 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мускатний горіх мелений (немає у словнику).

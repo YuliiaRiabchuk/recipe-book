@@ -22,8 +22,10 @@ ingredients:
   - { name: пластівці чилі, qty: 0.2, unit: г, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/kholodni-shpazhky-z-krevetkamy-ohirkom-i-avokadovym-kremom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 296, protein: 32.9, fat: 15.8, carbs: 8.6 }
+nutrition_per_100g: { kcal: 123, protein: 13.6, fat: 6.5, carbs: 3.5 }
+cooked_g_est: 241
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 299 ккал на порцію, Б/Ж/В 31/15/14 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано довгий огірок (немає у словнику); пластівці чилі (немає у словнику).

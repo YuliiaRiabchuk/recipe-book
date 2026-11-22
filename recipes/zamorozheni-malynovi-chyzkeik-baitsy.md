@@ -21,8 +21,10 @@ ingredients:
   - { name: лимонна цедра, qty: 0.5, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/zamorozheni-malynovi-chyzkeik-baitsy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 203, protein: 9.7, fat: 9.2, carbs: 23.8 }
+nutrition_per_100g: { kcal: 105, protein: 5.0, fat: 4.7, carbs: 12.3 }
+cooked_g_est: 193
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Додатково потрібно 2 години на охолодження.
 - За даними автора: 353 ккал на порцію, Б/Ж/В 18/14/41 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано вершковий сир (немає у словнику); цільнозернове печиво (немає у словнику); лимонна цедра (немає у словнику).

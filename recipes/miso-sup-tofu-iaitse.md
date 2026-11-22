@@ -19,8 +19,10 @@ ingredients:
   - { name: зелена цибуля, qty: 8, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/miso-sup-tofu-iaitse.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 360, protein: 41.3, fat: 20.9, carbs: 10.0 }
+nutrition_per_100g: { kcal: 56, protein: 6.4, fat: 3.2, carbs: 1.5 }
+cooked_g_est: 643
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Місо клади тільки після вимкнення, інакше смак «переварений».
 - За даними автора: 332 ккал на порцію, Б/Ж/В 34/18/11 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано місо-паста (немає у словнику).

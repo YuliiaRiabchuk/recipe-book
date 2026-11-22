@@ -22,8 +22,10 @@ ingredients:
   - { name: яйце, qty: 5, unit: г, note: "збите, для змащування" }
   - { name: кунжут, qty: 3, unit: г, note: "для прикраси" }
 photo: img/bulochka-z-klitkovynoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 46, protein: 3.0, fat: 3.4, carbs: 0.8 }
+nutrition_per_100g: { kcal: 124, protein: 8.2, fat: 9.2, carbs: 2.3 }
+cooked_g_est: 37
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Порція 100 г: 293 ккал. Час приготування 1 год 57 хв, випікання 19 хв.
 - За даними автора: 293 ккал на 100 г, Б/Ж/В 10.8/10.1/39.9 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); висівки (немає у словнику); соняшникова олія (немає у словнику); дріжджі сухі (немає у словнику).

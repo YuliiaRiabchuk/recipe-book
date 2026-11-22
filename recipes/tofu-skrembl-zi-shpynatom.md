@@ -20,8 +20,10 @@ ingredients:
   - { name: куркума, qty: 1, unit: г, note: "" }
   - { name: зелена цибуля, qty: 8, unit: г, note: "" }
 photo: img/tofu-skrembl-zi-shpynatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 445, protein: 42.6, fat: 27.9, carbs: 17.3 }
+nutrition_per_100g: { kcal: 93, protein: 8.9, fat: 5.9, carbs: 3.6 }
+cooked_g_est: 477
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

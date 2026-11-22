@@ -25,8 +25,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/boul-z-tofu-brokoli-ta-kunzhutnym-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 416, protein: 43.9, fat: 19.9, carbs: 26.8 }
+nutrition_per_100g: { kcal: 79, protein: 8.4, fat: 3.8, carbs: 5.1 }
+cooked_g_est: 525
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Салати-боули.
 - За даними автора: 727 ккал на порцію, Б/Ж/В 42/33/67 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано рис довгозернистий (немає у словнику); смажений арахіс (немає у словнику); соняшникова олія (немає у словнику); кунжутна олія (немає у словнику).

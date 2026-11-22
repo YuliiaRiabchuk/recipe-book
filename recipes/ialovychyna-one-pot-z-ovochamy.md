@@ -26,8 +26,10 @@ ingredients:
   - { name: зелень, qty: 8, unit: г, note: "" }
   - { name: лимон, qty: 10, unit: г, note: "" }
 photo: img/ialovychyna-one-pot-z-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 425, protein: 42.1, fat: 20.8, carbs: 19.8 }
+nutrition_per_100g: { kcal: 82, protein: 8.2, fat: 4.0, carbs: 3.8 }
+cooked_g_est: 516
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - Найкращий кандидат на «зробити 2 порції одразу»: час той самий, а їжа на завтра готова.
 - За даними автора: 536 ккал на порцію, Б/Ж/В 40/28/32 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано томати (немає у словнику).

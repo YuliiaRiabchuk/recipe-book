@@ -27,8 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/steik-teliatyny-z-pechenoiu-kartopleiu-ta-zelenym-salatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 275, protein: 5.5, fat: 10.4, carbs: 42.5 }
+nutrition_per_100g: { kcal: 80, protein: 1.6, fat: 3.0, carbs: 12.4 }
+cooked_g_est: 344
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Розділ книги: Яловичина та телятина.
 - За даними автора: 538 ккал на порцію, Б/Ж/В 44/15/59 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано стейк телятини (немає у словнику); мікс салату (немає у словнику); петрушка (немає у словнику); діжонська гірчиця (немає у словнику); копчена паприка (немає у словнику).

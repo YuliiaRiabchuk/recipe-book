@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
 photo: img/minikesadyli-z-kvasoleiu-kukurudzoiu-ta-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 142, protein: 9.1, fat: 8.4, carbs: 9.1 }
+nutrition_per_100g: { kcal: 130, protein: 8.3, fat: 7.6, carbs: 8.3 }
+cooked_g_est: 110
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 442 ккал на порцію, Б/Ж/В 21/13/60 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тортилья цільнозернова (немає у словнику); квасоля червона консервована (немає у словнику); томатна сальса (немає у словнику); кумин мелений (немає у словнику).

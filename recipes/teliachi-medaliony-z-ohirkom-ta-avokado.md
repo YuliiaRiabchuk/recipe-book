@@ -21,8 +21,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: гірчиця діжонська, qty: 8, unit: г, note: "1,5 ч.л." }
 photo: img/teliachi-medaliony-z-ohirkom-ta-avokado.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 415, protein: 37.5, fat: 23.8, carbs: 15.2 }
+nutrition_per_100g: { kcal: 95, protein: 8.5, fat: 5.4, carbs: 3.5 }
+cooked_g_est: 439
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

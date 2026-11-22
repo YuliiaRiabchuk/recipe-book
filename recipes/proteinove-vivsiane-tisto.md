@@ -5,7 +5,8 @@ source:
   type: pdf
   name: Корисна випічка і десерти (оновлення листопад) (Андрій Маковецький)
   ref: "с. 65"
-category: складові
+category: основи
+subcategory: тісто
 tags: [вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 18 }
@@ -16,8 +17,10 @@ ingredients:
   - { name: йогурт густий, qty: 40, unit: г, note: "3%" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/proteinove-vivsiane-tisto.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 72, protein: 6.3, fat: 4.8, carbs: 0.4 }
+nutrition_per_100g: { kcal: 143, protein: 12.6, fat: 9.5, carbs: 0.7 }
+cooked_g_est: 50
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +35,4 @@ added: 2026-11-15
 - Вихід 180 г (542 ккал). Підготовка 5 хв, випікання 13 хв.
 - За даними автора: 301 ккал на 100 г, Б/Ж/В 20.4/8.1/39 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); протеїн (немає у словнику); йогурт густий (немає у словнику).

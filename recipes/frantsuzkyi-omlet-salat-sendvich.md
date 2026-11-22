@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 15"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з яйцем
 tags: [вегетаріанське, на-сковороді, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: помідор, qty: 1, unit: шт, note: "120 г" }
   - { name: хліб цільнозерновий, qty: 60, unit: г, note: "1 скибка" }
 photo: img/frantsuzkyi-omlet-salat-sendvich.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 216, protein: 14.5, fat: 14.2, carbs: 8.1 }
+nutrition_per_100g: { kcal: 79, protein: 5.3, fat: 5.2, carbs: 3.0 }
+cooked_g_est: 272
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Варіація: молоко можна замінити водою.
 - За даними автора: 445 ккал на порцію, Б/Ж/В 20/24/40 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мікс салату (немає у словнику); хліб цільнозерновий (немає у словнику).

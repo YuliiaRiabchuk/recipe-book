@@ -16,8 +16,10 @@ ingredients:
   - { name: кокосове молоко, qty: 100, unit: мл, note: "17%" }
   - { name: молоко, qty: 30, unit: мл, note: "1,5%" }
 photo: img/polunychno-vershkove-eskimo.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 250, protein: 3.8, fat: 22.3, carbs: 13.5 }
+nutrition_per_100g: { kcal: 100, protein: 1.5, fat: 8.9, carbs: 5.4 }
+cooked_g_est: 250
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +33,4 @@ added: 2026-11-15
 - Розділ книги: Заморожене/морозиво.
 - За даними автора: 323 ккал на порцію, Б/Ж/В 25/19/15 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сироватковий протеїн ванільний (немає у словнику).

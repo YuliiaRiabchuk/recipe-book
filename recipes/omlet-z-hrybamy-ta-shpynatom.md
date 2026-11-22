@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 16"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, на-сковороді, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: хліб цільнозерновий, qty: 60, unit: г, note: "1 скибка, за бажанням" }
 photo: img/omlet-z-hrybamy-ta-shpynatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 278, protein: 18.9, fat: 20.3, carbs: 7.8 }
+nutrition_per_100g: { kcal: 97, protein: 6.6, fat: 7.0, carbs: 2.7 }
+cooked_g_est: 288
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Варіація: замість шпинату — рукола або мікс салату (додай в самому кінці).
 - За даними автора: 308 ккал на порцію, Б/Ж/В 22/22/8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано хліб цільнозерновий (немає у словнику).

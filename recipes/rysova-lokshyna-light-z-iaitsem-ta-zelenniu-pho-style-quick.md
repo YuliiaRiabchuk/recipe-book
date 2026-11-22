@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 260"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: лимонний сік, qty: 8, unit: г, note: "або лаймовий" }
   - { name: кунжут, qty: 5, unit: г, note: "" }
 photo: img/rysova-lokshyna-light-z-iaitsem-ta-zelenniu-pho-style-quick.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 426, protein: 19.2, fat: 12.6, carbs: 57.9 }
+nutrition_per_100g: { kcal: 92, protein: 4.1, fat: 2.7, carbs: 12.5 }
+cooked_g_est: 462
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

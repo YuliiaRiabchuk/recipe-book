@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 174"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [швидко, вегетаріанське, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: грецький йогурт, qty: 150, unit: г, note: "10%" }
   - { name: горіхи, qty: 10, unit: г, note: "" }
 photo: img/vivsianka-kafe-versiia-z-iablukom-i-korytseiu-iohurt.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 570, protein: 27.0, fat: 20.6, carbs: 73.5 }
+nutrition_per_100g: { kcal: 101, protein: 4.8, fat: 3.6, carbs: 13.0 }
+cooked_g_est: 567
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

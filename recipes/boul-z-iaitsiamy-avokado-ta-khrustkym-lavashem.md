@@ -23,8 +23,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: кріп, qty: 6, unit: г, note: "" }
 photo: img/boul-z-iaitsiamy-avokado-ta-khrustkym-lavashem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 258, protein: 13.0, fat: 16.0, carbs: 20.6 }
+nutrition_per_100g: { kcal: 56, protein: 2.8, fat: 3.4, carbs: 4.4 }
+cooked_g_est: 464
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Салати-боули.
 - За даними автора: 683 ккал на порцію, Б/Ж/В 26/37/68 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано яйце куряче (немає у словнику); лаваш або тортилья (немає у словнику); соняшникова олія (немає у словнику).

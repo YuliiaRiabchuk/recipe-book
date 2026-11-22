@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 240"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -26,8 +26,10 @@ ingredients:
   - { name: чилі, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/iehypetskyi-ful-medames-z-iaitsem-i-sezonnym-salatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 146, protein: 8.9, fat: 7.8, carbs: 11.8 }
+nutrition_per_100g: { kcal: 57, protein: 3.5, fat: 3.1, carbs: 4.6 }
+cooked_g_est: 254
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 346 ккал на порцію, Б/Ж/В 20/10/47 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано боби фава (немає у словнику); піта (немає у словнику); солодкий перець (немає у словнику); петрушка (немає у словнику).

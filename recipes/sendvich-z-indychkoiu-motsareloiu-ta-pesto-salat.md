@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 83"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з мʼясом
 tags: [з-птицею, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: чорний перець, qty: 0.5, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/sendvich-z-indychkoiu-motsareloiu-ta-pesto-salat.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 535, protein: 48.6, fat: 18.3, carbs: 45.4 }
+nutrition_per_100g: { kcal: 101, protein: 9.1, fat: 3.4, carbs: 8.5 }
+cooked_g_est: 532
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

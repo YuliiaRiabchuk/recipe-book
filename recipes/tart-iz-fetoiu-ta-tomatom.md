@@ -22,8 +22,10 @@ ingredients:
   - { name: базилік свіжий, qty: null, unit: "", note: "кілька листків" }
   - { name: орегано сушений, qty: 1, unit: дрібка, note: "" }
 photo: img/tart-iz-fetoiu-ta-tomatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 323, protein: 13.7, fat: 12.9, carbs: 41.3 }
+nutrition_per_100g: { kcal: 283, protein: 12.0, fat: 11.3, carbs: 36.3 }
+cooked_g_est: 114
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Тарти.
 - За даними автора: 507 ккал на порцію, Б/Ж/В 17.9/24.2/59.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); олія оливкова (немає у словнику); томати черрі (немає у словнику); орегано сушений (немає у словнику).

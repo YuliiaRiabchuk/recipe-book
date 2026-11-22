@@ -5,7 +5,8 @@ source:
   type: pdf
   name: Корисна випічка і десерти (оновлення листопад) (Андрій Маковецький)
   ref: "с. 67"
-category: складові
+category: основи
+subcategory: тісто
 tags: [вегетаріанське, хелзі]
 servings: 1
 time: { prep: null, cook: 22 }
@@ -18,8 +19,10 @@ ingredients:
   - { name: підсолоджувач, qty: 10, unit: г, note: "або мед" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/pisochne-tisto-lait.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 555, protein: 19.7, fat: 23.5, carbs: 72.3 }
+nutrition_per_100g: { kcal: 326, protein: 11.6, fat: 13.8, carbs: 42.6 }
+cooked_g_est: 170
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +38,4 @@ added: 2026-11-15
 - Вихід 200 г (766 ккал). Підготовка 5 хв, випікання 22 хв.
 - За даними автора: 383 ккал на 100 г, Б/Ж/В 13.6/20/36.5 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно мигдальне (немає у словнику); йогурт густий (немає у словнику); підсолоджувач (немає у словнику).

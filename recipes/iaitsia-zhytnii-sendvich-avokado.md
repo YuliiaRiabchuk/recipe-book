@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 78"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з яйцем
 tags: [вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/iaitsia-zhytnii-sendvich-avokado.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 263, protein: 14.8, fat: 18.5, carbs: 11.6 }
+nutrition_per_100g: { kcal: 83, protein: 4.6, fat: 5.8, carbs: 3.7 }
+cooked_g_est: 318
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Сендвічі й бутерброди.
 - За даними автора: 488 ккал на порцію, Б/Ж/В 20/22/52 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано житній хліб (немає у словнику).

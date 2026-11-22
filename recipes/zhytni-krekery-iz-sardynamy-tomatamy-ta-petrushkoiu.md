@@ -20,8 +20,10 @@ ingredients:
   - { name: петрушка, qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zhytni-krekery-iz-sardynamy-tomatamy-ta-petrushkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 21, protein: 1.8, fat: 1.0, carbs: 1.2 }
+nutrition_per_100g: { kcal: 80, protein: 7.0, fat: 3.9, carbs: 4.7 }
+cooked_g_est: 26
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 261 ккал на порцію, Б/Ж/В 24/12/15 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано житні крекери (немає у словнику); сардини у власному соку (немає у словнику); томати (немає у словнику); червона цибуля (немає у словнику); петрушка (немає у словнику).

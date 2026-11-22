@@ -19,8 +19,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: копчена паприка, qty: 0.3, unit: г, note: "" }
 photo: img/krekery-z-mukhammaroiu-ta-khrustkym-nutom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 8, protein: 0.3, fat: 0.1, carbs: 2.1 }
+nutrition_per_100g: { kcal: 16, protein: 0.6, fat: 0.1, carbs: 3.9 }
+cooked_g_est: 54
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 256 ккал на порцію, Б/Ж/В 9/12/30 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано житні крекери (немає у словнику); мухаммара (немає у словнику); запечений нут (немає у словнику); петрушка (немає у словнику); копчена паприка (немає у словнику).

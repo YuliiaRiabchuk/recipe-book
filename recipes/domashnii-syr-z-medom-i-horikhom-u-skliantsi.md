@@ -16,8 +16,10 @@ ingredients:
   - { name: волоські горіхи, qty: 15, unit: г, note: "" }
   - { name: грецький йогурт, qty: 40, unit: г, note: "2%, для кремовості" }
 photo: img/domashnii-syr-z-medom-i-horikhom-u-skliantsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 275, protein: 21.4, fat: 12.2, carbs: 21.9 }
+nutrition_per_100g: { kcal: 128, protein: 10.0, fat: 5.7, carbs: 10.2 }
+cooked_g_est: 215
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

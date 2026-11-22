@@ -22,8 +22,10 @@ ingredients:
   - { name: кріп, qty: 8, unit: г, note: "" }
   - { name: часник, qty: 2, unit: г, note: "" }
 photo: img/pechena-kartoplia-zi-skumbriieiu-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 393, protein: 8.7, fat: 10.7, carbs: 70.0 }
+nutrition_per_100g: { kcal: 78, protein: 1.7, fat: 2.1, carbs: 13.9 }
+cooked_g_est: 503
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Для менш жирної страви візьми білу рибу 180–200 г і запікай її 12–14 хв.
 - За даними автора: 609 ккал на порцію, Б/Ж/В 29/29/65 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано скумбрія (немає у словнику).

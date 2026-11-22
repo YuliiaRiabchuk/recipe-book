@@ -26,8 +26,10 @@ ingredients:
   - { name: лимон, qty: 10, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/rahu-indychka-ovochi-v-tomati.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 404, protein: 47.7, fat: 13.9, carbs: 24.2 }
+nutrition_per_100g: { kcal: 69, protein: 8.1, fat: 2.4, carbs: 4.1 }
+cooked_g_est: 586
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,3 +47,4 @@ added: 2026-11-15
 - Кабачок додаємо наприкінці: так він не розвалюється і виглядає «дорого».
 - За даними автора: 462 ккал на порцію, Б/Ж/В 50/14/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано томати (немає у словнику).

@@ -16,8 +16,10 @@ ingredients:
   - { name: волоські горіхи, qty: 15, unit: г, note: "" }
   - { name: твердий сир, qty: 20, unit: г, note: "за бажанням" }
 photo: img/hrusha-z-medom-i-voloskym-horikhom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 283, protein: 7.7, fat: 14.0, carbs: 36.9 }
+nutrition_per_100g: { kcal: 128, protein: 3.5, fat: 6.3, carbs: 16.7 }
+cooked_g_est: 221
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

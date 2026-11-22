@@ -21,8 +21,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/iabluchno-korychni-vivsiani-baitsy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 350, protein: 9.2, fat: 9.1, carbs: 62.3 }
+nutrition_per_100g: { kcal: 230, protein: 6.1, fat: 6.0, carbs: 41.0 }
+cooked_g_est: 152
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Кульки, трюфелі та домашні батончики.
 - За даними автора: 464 ккал на порцію, Б/Ж/В 14/19/64 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мигдальна паста (немає у словнику).

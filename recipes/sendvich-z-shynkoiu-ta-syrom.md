@@ -6,7 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 3
   ref: "с. 11"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з мʼясом
 tags: [раціон-1550, швидко, з-мʼясом]
 servings: 1
 time: { prep: null, cook: null }

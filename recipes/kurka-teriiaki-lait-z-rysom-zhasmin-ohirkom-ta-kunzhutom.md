@@ -24,8 +24,10 @@ ingredients:
   - { name: мед, qty: 8, unit: г, note: "" }
   - { name: петрушка, qty: 6, unit: г, note: "" }
 photo: img/kurka-teriiaki-lait-z-rysom-zhasmin-ohirkom-ta-kunzhutom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 381, protein: 46.1, fat: 10.1, carbs: 27.7 }
+nutrition_per_100g: { kcal: 91, protein: 11.0, fat: 2.4, carbs: 6.6 }
+cooked_g_est: 418
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Розділ книги: Курка та індичка.
 - За даними автора: 564 ккал на порцію, Б/Ж/В 50/10/67 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано рис жасмін (немає у словнику); кунжутна олія (немає у словнику); петрушка (немає у словнику).

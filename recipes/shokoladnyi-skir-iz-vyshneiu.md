@@ -21,8 +21,10 @@ ingredients:
   - { name: вода, qty: 10, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/shokoladnyi-skir-iz-vyshneiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 159, protein: 3.4, fat: 5.3, carbs: 30.4 }
+nutrition_per_100g: { kcal: 114, protein: 2.4, fat: 3.8, carbs: 21.7 }
+cooked_g_est: 140
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Йогуртові, сирні та фруктові чашки.
 - За даними автора: 352 ккал на порцію, Б/Ж/В 26/11/42 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано скір (немає у словнику); мигдальна паста (немає у словнику).

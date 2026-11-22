@@ -22,8 +22,10 @@ ingredients:
   - { name: лайм, qty: 0.5, unit: шт, note: "сік ~15 г" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/linhvini-z-lososem-shpynatom-ta-edamame-z-laimom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 294, protein: 24.9, fat: 19.0, carbs: 7.6 }
+nutrition_per_100g: { kcal: 126, protein: 10.7, fat: 8.1, carbs: 3.3 }
+cooked_g_est: 233
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Паста й локшина з білком.
 - За даними автора: 578 ккал на порцію, Б/Ж/В 38/22/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано паста лінгвіні (немає у словнику); едамаме (немає у словнику).

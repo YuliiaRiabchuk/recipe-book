@@ -25,8 +25,10 @@ ingredients:
   - { name: імбир, qty: 0.2, unit: г, note: "мелений" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/morkviano-apelsynovi-mafiny-z-voloskymy-horikhamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 455, protein: 17.5, fat: 21.9, carbs: 52.5 }
+nutrition_per_100g: { kcal: 225, protein: 8.7, fat: 10.8, carbs: 26.0 }
+cooked_g_est: 202
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Мафіни, брауні та корисна випічка.
 - За даними автора: 451 ккал на порцію, Б/Ж/В 17/21/55 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано апельсиновий сік (немає у словнику); апельсинова цедра (немає у словнику).

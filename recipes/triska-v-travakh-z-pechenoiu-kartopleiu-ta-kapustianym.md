@@ -29,8 +29,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/triska-v-travakh-z-pechenoiu-kartopleiu-ta-kapustianym.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 217, protein: 6.1, fat: 0.5, carbs: 49.6 }
+nutrition_per_100g: { kcal: 64, protein: 1.8, fat: 0.2, carbs: 14.6 }
+cooked_g_est: 340
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,3 +48,4 @@ added: 2026-11-15
 - Розділ книги: Риба та морепродукти.
 - За даними автора: 588 ккал на порцію, Б/Ж/В 46/20/62 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано філе тріски (немає у словнику); капуста білокачанна (немає у словнику); соняшникова олія (немає у словнику); олія льону (немає у словнику); гірчиця українська (немає у словнику); петрушка (немає у словнику); чебрець (немає у словнику).

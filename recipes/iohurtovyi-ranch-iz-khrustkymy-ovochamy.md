@@ -25,8 +25,10 @@ ingredients:
   - { name: солодкий перець, qty: 90, unit: г, note: "" }
   - { name: стебла селери, qty: 70, unit: г, note: "" }
 photo: img/iohurtovyi-ranch-iz-khrustkymy-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 204, protein: 15.3, fat: 7.9, carbs: 19.6 }
+nutrition_per_100g: { kcal: 57, protein: 4.3, fat: 2.2, carbs: 5.5 }
+cooked_g_est: 358
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 209 ккал на порцію, Б/Ж/В 16/4/29 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано діжонська гірчиця (немає у словнику); петрушка (немає у словнику); солодкий перець (немає у словнику); стебла селери (немає у словнику).

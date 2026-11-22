@@ -19,8 +19,10 @@ ingredients:
   - { name: мед, qty: 7, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/zamorozhena-iohurtova-plytka-z-iahodamy-ta-fistashkamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 273, protein: 17.2, fat: 13.0, carbs: 22.8 }
+nutrition_per_100g: { kcal: 106, protein: 6.7, fat: 5.1, carbs: 8.9 }
+cooked_g_est: 257
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 - Додатково потрібно 2 години на охолодження.
 - За даними автора: 378 ккал на порцію, Б/Ж/В 19/20/33 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано чорниця (немає у словнику); фісташки (немає у словнику).

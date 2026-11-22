@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 186"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [швидко, без-випікання, вегетаріанське, хелзі]
 servings: 1
 time: { prep: null, cook: 7 }
@@ -17,8 +17,10 @@ ingredients:
   - { name: насіння гарбуза або соняшника, qty: 10, unit: г, note: "" }
   - { name: мед, qty: 7, unit: г, note: "1 ч.л., за бажанням" }
 photo: img/iohurt-boul-iohurt-frukty-horikhy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 362, protein: 24.8, fat: 22.3, carbs: 17.8 }
+nutrition_per_100g: { kcal: 133, protein: 9.1, fat: 8.2, carbs: 6.5 }
+cooked_g_est: 272
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Варіація: ківі можна замінити ягодами.
 - За даними автора: 509 ккал на порцію, Б/Ж/В 15/26/33 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано ківі (невідома вага одиниці «шт» (додай --per шт=<г> у confirm)); насіння гарбуза або соняшника (немає у словнику).

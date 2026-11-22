@@ -26,8 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/ialovychyna-z-baklazhanamy-i-tomatamy-ta-tsilnozernovym.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 268, protein: 38.4, fat: 9.8, carbs: 7.0 }
+nutrition_per_100g: { kcal: 153, protein: 21.9, fat: 5.6, carbs: 4.0 }
+cooked_g_est: 175
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Розділ книги: Яловичина та телятина.
 - За даними автора: 676 ккал на порцію, Б/Ж/В 46/24/70 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кускус цільнозерновий (немає у словнику); баклажан (немає у словнику); томати (немає у словнику); соняшникова олія (немає у словнику); копчена паприка (немає у словнику); петрушка (немає у словнику).

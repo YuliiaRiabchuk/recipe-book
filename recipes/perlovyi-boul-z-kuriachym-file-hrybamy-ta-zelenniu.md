@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 141"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [з-птицею, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 35 }
@@ -28,8 +28,10 @@ ingredients:
   - { name: грибна приправа натуральна, qty: 1, unit: г, note: "" }
   - { name: чебрець, qty: 0.5, unit: г, note: "або орегано" }
 photo: img/perlovyi-boul-z-kuriachym-file-hrybamy-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 386, protein: 48.8, fat: 13.5, carbs: 20.4 }
+nutrition_per_100g: { kcal: 71, protein: 9.0, fat: 2.5, carbs: 3.7 }
+cooked_g_est: 544
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -48,3 +50,4 @@ added: 2026-11-15
 - Варіація: курку можна замінити індичкою.
 - За даними автора: 530 ккал на порцію, Б/Ж/В 48/20/48 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано перлова крупа (немає у словнику); вода для перловки (немає у словнику); часник сушений (немає у словнику); грибна приправа натуральна (немає у словнику); чебрець (немає у словнику).

@@ -21,8 +21,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/nutovi-blondi-z-takhini-ta-shokoladom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 623, protein: 23.1, fat: 28.0, carbs: 74.2 }
+nutrition_per_100g: { kcal: 295, protein: 10.9, fat: 13.3, carbs: 35.2 }
+cooked_g_est: 211
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

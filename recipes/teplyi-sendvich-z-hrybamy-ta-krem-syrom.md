@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 56"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з рибою
 tags: [вегетаріанське, швидко, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: орегано, qty: 0.25, unit: ч.л., note: "сушений, або базилік, за бажанням" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "петрушка, кріп, за бажанням" }
 photo: img/teplyi-sendvich-z-hrybamy-ta-krem-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 238, protein: 6.3, fat: 22.3, carbs: 6.1 }
+nutrition_per_100g: { kcal: 157, protein: 4.1, fat: 14.7, carbs: 4.0 }
+cooked_g_est: 152
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 316 ккал на порцію, Б/Ж/В 12/20/23 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано хліб тостовий (немає у словнику); свіжа зелень (немає у словнику).

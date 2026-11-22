@@ -19,8 +19,10 @@ ingredients:
   - { name: кокосова олія, qty: 2, unit: г, note: "" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/zamorozheni-bananovi-sendvichi-z-arakhisovoiu-pastoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 491, protein: 13.0, fat: 29.2, carbs: 51.2 }
+nutrition_per_100g: { kcal: 221, protein: 5.9, fat: 13.1, carbs: 23.0 }
+cooked_g_est: 222
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

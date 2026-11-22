@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 213"
 category: сніданки
-subcategory: поживні
+subcategory: сніданкові тарілки
 tags: [з-птицею, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: чорний перець, qty: 1, unit: г, note: "" }
   - { name: паприка, qty: 2, unit: г, note: "" }
 photo: img/khelzi-english-breakfast-light.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 394, protein: 48.5, fat: 16.0, carbs: 16.2 }
+nutrition_per_100g: { kcal: 78, protein: 9.6, fat: 3.2, carbs: 3.2 }
+cooked_g_est: 504
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

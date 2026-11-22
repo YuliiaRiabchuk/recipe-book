@@ -24,8 +24,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: кунжут, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/indychka-wok-z-brokoli.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 462, protein: 51.4, fat: 14.7, carbs: 36.9 }
+nutrition_per_100g: { kcal: 82, protein: 9.1, fat: 2.6, carbs: 6.5 }
+cooked_g_est: 566
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

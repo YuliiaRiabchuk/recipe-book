@@ -24,8 +24,10 @@ ingredients:
   - { name: лимон, qty: 10, unit: г, note: "" }
   - { name: кунжут, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/indychka-teriiaki-lait-z-brokoli.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 411, protein: 49.5, fat: 14.1, carbs: 25.5 }
+nutrition_per_100g: { kcal: 97, protein: 11.6, fat: 3.3, carbs: 6.0 }
+cooked_g_est: 426
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

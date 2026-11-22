@@ -25,8 +25,11 @@ ingredients:
   - { name: часник, qty: 3, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/tefteli-v-tomatnomu-sousi-z-kabachkom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 520, protein: 46.7, fat: 30.2, carbs: 15.4 }
+nutrition_per_100g: { kcal: 93, protein: 8.4, fat: 5.4, carbs: 2.8 }
+cooked_g_est: 558
+nutrition_status: частковий
+nutrition_notes: ["яловичий фарш: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +47,4 @@ added: 2026-11-15
 - P.S. Якщо соус кислий, додай 5 г меду (1 ч.л.) або дрібку солі, але не роби його солодким.
 - За даними автора: 627 ккал на порцію, Б/Ж/В 50/33/30 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано томати (немає у словнику); петрушка (немає у словнику).

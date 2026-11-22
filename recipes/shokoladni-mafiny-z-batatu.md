@@ -23,8 +23,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/shokoladni-mafiny-z-batatu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 487, protein: 20.1, fat: 23.2, carbs: 57.7 }
+nutrition_per_100g: { kcal: 316, protein: 13.0, fat: 15.0, carbs: 37.5 }
+cooked_g_est: 154
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Мафіни, брауні та корисна випічка.
 - За даними автора: 571 ккал на порцію, Б/Ж/В 23/24/75 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано батат (немає у словнику).

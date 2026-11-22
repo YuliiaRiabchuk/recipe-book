@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/salat-iz-lososem-avokado-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 455, protein: 28.1, fat: 33.3, carbs: 14.1 }
+nutrition_per_100g: { kcal: 114, protein: 7.0, fat: 8.3, carbs: 3.5 }
+cooked_g_est: 400
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

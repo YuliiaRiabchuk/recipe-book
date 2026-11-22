@@ -24,8 +24,10 @@ ingredients:
   - { name: зелень, qty: 5, unit: г, note: "" }
   - { name: грецький йогурт, qty: 50, unit: г, note: "2%, ≈3 ст.л., опційно" }
 photo: img/hustyi-tomatnyi-sup-z-frykadelkamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 167, protein: 12.1, fat: 7.5, carbs: 13.2 }
+nutrition_per_100g: { kcal: 42, protein: 3.0, fat: 1.9, carbs: 3.3 }
+cooked_g_est: 401
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Квашений огірок (1 шт, ≈50 г) поруч працює як «кислий акомпанемент»: освіжає смак томату й не додає зайвих калорій.
 - За даними автора: 435 ккал на порцію, Б/Ж/В 46/12/32 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш індички (немає у словнику); панірувальні сухарі (немає у словнику); пасата (немає у словнику); селера стебло (немає у словнику).

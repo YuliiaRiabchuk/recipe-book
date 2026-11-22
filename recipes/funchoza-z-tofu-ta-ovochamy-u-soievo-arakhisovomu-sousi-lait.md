@@ -25,8 +25,10 @@ ingredients:
   - { name: кунжут, qty: 3, unit: г, note: "1 ч.л.; 3–4 г" }
   - { name: перець, qty: null, unit: "", note: "або чилі; за смаком" }
 photo: img/funchoza-z-tofu-ta-ovochamy-u-soievo-arakhisovomu-sousi-lait.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 652, protein: 37.2, fat: 27.8, carbs: 73.2 }
+nutrition_per_100g: { kcal: 117, protein: 6.7, fat: 5.0, carbs: 13.2 }
+cooked_g_est: 555
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

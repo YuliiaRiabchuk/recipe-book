@@ -24,8 +24,10 @@ ingredients:
   - { name: кокосовий цукор, qty: 5, unit: г, note: "для покриття" }
   - { name: кориця, qty: 0.3, unit: г, note: "мелена, для покриття" }
 photo: img/iabluchno-korychni-ponchyk-baitsy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 316, protein: 13.5, fat: 8.0, carbs: 49.1 }
+nutrition_per_100g: { kcal: 169, protein: 7.2, fat: 4.3, carbs: 26.3 }
+cooked_g_est: 187
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Мафіни, брауні та корисна випічка.
 - За даними автора: 407 ккал на порцію, Б/Ж/В 17/15/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мигдальна паста (немає у словнику); кокосовий цукор (немає у словнику).

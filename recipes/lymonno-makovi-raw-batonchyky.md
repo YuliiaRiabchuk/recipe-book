@@ -17,8 +17,10 @@ ingredients:
   - { name: сік лимона, qty: 10, unit: мл, note: "" }
   - { name: цедра лимона, qty: 3, unit: г, note: "" }
 photo: img/lymonno-makovi-raw-batonchyky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 122, protein: 2.6, fat: 5.2, carbs: 18.9 }
+nutrition_per_100g: { kcal: 352, protein: 7.6, fat: 15.1, carbs: 54.6 }
+cooked_g_est: 208
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

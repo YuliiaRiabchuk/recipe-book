@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 154"
 category: сніданки
-subcategory: солодкі
+subcategory: "млинці, панкейки й вафлі"
 tags: [вегетаріанське, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: дрібка, note: "≈0,2 г" }
   - { name: ваніль або кориця, qty: 0.2, unit: г, note: "за бажанням" }
 photo: img/tonki-mlyntsi-na-molotsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 235, protein: 14.5, fat: 9.7, carbs: 22.4 }
+nutrition_per_100g: { kcal: 100, protein: 6.2, fat: 4.1, carbs: 9.5 }
+cooked_g_est: 235
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 673 ккал на порцію, Б/Ж/В 25/22/98 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); олія для тіста (немає у словнику); ваніль або кориця (немає у словнику).

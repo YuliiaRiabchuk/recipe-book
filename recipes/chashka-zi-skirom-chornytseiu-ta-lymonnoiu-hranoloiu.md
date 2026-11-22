@@ -21,8 +21,10 @@ ingredients:
   - { name: насіння маку, qty: 3, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/chashka-zi-skirom-chornytseiu-ta-lymonnoiu-hranoloiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 219, protein: 6.1, fat: 9.9, carbs: 28.2 }
+nutrition_per_100g: { kcal: 488, protein: 13.5, fat: 22.1, carbs: 62.7 }
+cooked_g_est: 45
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Йогуртові, сирні та фруктові чашки.
 - За даними автора: 412 ккал на порцію, Б/Ж/В 28/12/51 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано скір (немає у словнику); чорниця (немає у словнику); лимонна цедра (немає у словнику); насіння маку (немає у словнику).

@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tofu-feta-z-hretskym-salatom-ta-bulhurom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 484, protein: 41.2, fat: 29.8, carbs: 24.0 }
+nutrition_per_100g: { kcal: 82, protein: 7.0, fat: 5.1, carbs: 4.1 }
+cooked_g_est: 588
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Розділ книги: Вегетаріанські білкові.
 - За даними автора: 659 ккал на порцію, Б/Ж/В 39/29/67 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано булгур (немає у словнику); перець солодкий (немає у словнику); оливки (немає у словнику); орегано сушений (немає у словнику).

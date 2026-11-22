@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 131"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [вегетаріанське, швидко, без-глютену, без-лактози, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: лимонний сік, qty: 0.5, unit: ч.л., note: "за бажанням, для авокадо" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "петрушка або кріп, за бажанням" }
 photo: img/boul-z-hrechkoiu-iaitsem-i-avokado.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 755, protein: 25.4, fat: 24.8, carbs: 119.4 }
+nutrition_per_100g: { kcal: 130, protein: 4.4, fat: 4.3, carbs: 20.5 }
+cooked_g_est: 582
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Здорові сніданкові тарілки.
 - За даними автора: 411 ккал на порцію, Б/Ж/В 12/26/37 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано чорний мелений перець (немає у словнику); свіжа зелень (немає у словнику).

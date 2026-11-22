@@ -20,8 +20,10 @@ ingredients:
   - { name: апельсинова цедра, qty: 1, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/apelsynovo-shokoladnyi-iohurtovyi-mus-iz-fundukom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 417, protein: 21.2, fat: 23.7, carbs: 38.0 }
+nutrition_per_100g: { kcal: 133, protein: 6.8, fat: 7.6, carbs: 12.2 }
+cooked_g_est: 313
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 - Додатково потрібно 30 хв на охолодження.
 - За даними автора: 410 ккал на порцію, Б/Ж/В 20/24/37 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано апельсинова цедра (немає у словнику).

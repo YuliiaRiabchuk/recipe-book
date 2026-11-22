@@ -17,8 +17,10 @@ ingredients:
   - { name: лаймова цедра, qty: 1, unit: дрібка, note: "" }
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
 photo: img/pudynh-manho-kokos.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 563, protein: 8.3, fat: 49.3, carbs: 32.0 }
+nutrition_per_100g: { kcal: 166, protein: 2.5, fat: 14.5, carbs: 9.4 }
+cooked_g_est: 340
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Десерти без запікання.
 - За даними автора: 408 ккал на порцію, Б/Ж/В 10.2/25.5/34 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано лаймова цедра (немає у словнику).

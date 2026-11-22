@@ -23,8 +23,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: кріп, qty: 5, unit: г, note: "" }
 photo: img/zapikanka-z-tuntsem-i-kartopleiu-v-vershkovo-smetannomu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 551, protein: 16.7, fat: 29.3, carbs: 57.9 }
+nutrition_per_100g: { kcal: 134, protein: 4.0, fat: 7.1, carbs: 14.1 }
+cooked_g_est: 412
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Ситні запечені обіди.
 - За даними автора: 747 ккал на порцію, Б/Ж/В 50/36/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тунець у власному соку (немає у словнику); огірок мариновані (немає у словнику).

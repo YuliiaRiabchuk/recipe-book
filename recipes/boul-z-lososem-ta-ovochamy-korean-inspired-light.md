@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 257"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [з-рибою, в-духовці, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 18 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: лимонний сік, qty: 5, unit: г, note: "" }
   - { name: кунжут, qty: 5, unit: г, note: "" }
 photo: img/boul-z-lososem-ta-ovochamy-korean-inspired-light.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 853, protein: 37.2, fat: 27.1, carbs: 114.3 }
+nutrition_per_100g: { kcal: 120, protein: 5.2, fat: 3.8, carbs: 16.0 }
+cooked_g_est: 712
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

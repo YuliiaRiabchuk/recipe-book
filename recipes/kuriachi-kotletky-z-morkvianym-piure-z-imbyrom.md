@@ -24,8 +24,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком, для пюре" }
   - { name: грецький йогурт, qty: 40, unit: г, note: "2%, ≈2–3 ст.л., опційно" }
 photo: img/kuriachi-kotletky-z-morkvianym-piure-z-imbyrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 272, protein: 12.6, fat: 12.4, carbs: 29.4 }
+nutrition_per_100g: { kcal: 80, protein: 3.7, fat: 3.7, carbs: 8.7 }
+cooked_g_est: 339
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Квашений огірок (1 шт, ≈50 г) освіжить смак і додасть «хруст-кислинку», на калорійність практично не вплине.
 - За даними автора: 548 ккал на порцію, Б/Ж/В 42/26/35 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш курячий (немає у словнику); панірувальні сухарі (немає у словнику).

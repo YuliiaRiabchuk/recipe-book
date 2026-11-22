@@ -27,8 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/boul-z-indychkoiu-bulhurom-i-khrustkoiu-kapustoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 348, protein: 53.5, fat: 8.4, carbs: 14.1 }
+nutrition_per_100g: { kcal: 71, protein: 11.0, fat: 1.7, carbs: 2.9 }
+cooked_g_est: 488
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Салати-боули.
 - За даними автора: 667 ккал на порцію, Б/Ж/В 55/15/80 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано булгур (немає у словнику); капуста білокачанна (немає у словнику); м'ята (немає у словнику); гранат (немає у словнику); соняшникова олія (немає у словнику); копчена паприка (немає у словнику); часник сушений (немає у словнику).

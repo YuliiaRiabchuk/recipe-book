@@ -21,8 +21,10 @@ ingredients:
   - { name: зелена цибуля, qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/nori-roly-z-lososem-avokado-ta-ohirkom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 344, protein: 21.4, fat: 24.9, carbs: 11.2 }
+nutrition_per_100g: { kcal: 130, protein: 8.1, fat: 9.4, carbs: 4.2 }
+cooked_g_est: 265
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 360 ккал на порцію, Б/Ж/В 26/24/14 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано листи норі (немає у словнику); вершковий сир (немає у словнику).

@@ -25,8 +25,10 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/ovochi-hryl-z-tofu-ta-takhini.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 567, protein: 42.1, fat: 35.3, carbs: 34.2 }
+nutrition_per_100g: { kcal: 86, protein: 6.4, fat: 5.4, carbs: 5.2 }
+cooked_g_est: 659
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Соус роби густим: він замінює «ресторанний» дресинг і піднімає страву.
 - За даними автора: 618 ккал на порцію, Б/Ж/В 41/36/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано йогурт грецький (немає у словнику); петрушка (немає у словнику).

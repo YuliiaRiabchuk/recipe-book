@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 118"
 category: сніданки
-subcategory: поживні
+subcategory: сирники й запіканки
 tags: [вегетаріанське, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: олія для смаження, qty: 5, unit: г, note: "1 ч.л." }
   - { name: сметана, qty: 20, unit: г, note: "10%, для подачі; можна замінити на йогурт без цукру" }
 photo: img/solonyi-syrnyk-iz-zelenniu-ta-smetanoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 157, protein: 8.7, fat: 7.4, carbs: 13.3 }
+nutrition_per_100g: { kcal: 176, protein: 9.8, fat: 8.3, carbs: 14.9 }
+cooked_g_est: 89
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 526 ккал на порцію, Б/Ж/В 38/35/19 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сир домашній (немає у словнику); олія для смаження (немає у словнику).

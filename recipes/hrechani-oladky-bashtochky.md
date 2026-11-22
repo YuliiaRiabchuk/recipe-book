@@ -16,8 +16,10 @@ ingredients:
   - { name: зелень, qty: null, unit: "", note: "кріп, цибуля, жменя" }
   - { name: грецький йогурт, qty: 40, unit: г, note: "2%, крем між шарами" }
 photo: img/hrechani-oladky-bashtochky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 629, protein: 27.5, fat: 10.8, carbs: 114.4 }
+nutrition_per_100g: { kcal: 117, protein: 5.1, fat: 2.0, carbs: 21.2 }
+cooked_g_est: 540
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

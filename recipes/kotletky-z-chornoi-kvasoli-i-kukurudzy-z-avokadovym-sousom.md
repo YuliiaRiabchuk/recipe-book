@@ -27,8 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kotletky-z-chornoi-kvasoli-i-kukurudzy-z-avokadovym-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 301, protein: 10.7, fat: 18.4, carbs: 26.8 }
+nutrition_per_100g: { kcal: 151, protein: 5.4, fat: 9.2, carbs: 13.5 }
+cooked_g_est: 199
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 464 ккал на порцію, Б/Ж/В 22/19/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано чорна квасоля (немає у словнику); солодкий перець (немає у словнику); копчена паприка (немає у словнику); мелений кумин (немає у словнику).

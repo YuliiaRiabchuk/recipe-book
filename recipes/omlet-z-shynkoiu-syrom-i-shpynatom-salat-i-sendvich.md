@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 18"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з мʼясом
 tags: [з-мʼясом, на-сковороді, високобілкове, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -25,8 +25,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/omlet-z-shynkoiu-syrom-i-shpynatom-salat-i-sendvich.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 546, protein: 45.1, fat: 36.1, carbs: 10.1 }
+nutrition_per_100g: { kcal: 135, protein: 11.1, fat: 8.9, carbs: 2.5 }
+cooked_g_est: 406
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Варіація: замість шинки — індичка.
 - За даними автора: 422 ккал на порцію, Б/Ж/В 32/18/33 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано помідори чері (немає у словнику); хліб цільнозерновий (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

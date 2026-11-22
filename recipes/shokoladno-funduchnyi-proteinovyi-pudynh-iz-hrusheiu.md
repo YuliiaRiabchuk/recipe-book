@@ -21,8 +21,10 @@ ingredients:
   - { name: мелена кориця, qty: 0.3, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/shokoladno-funduchnyi-proteinovyi-pudynh-iz-hrusheiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 178, protein: 3.5, fat: 8.3, carbs: 29.4 }
+nutrition_per_100g: { kcal: 129, protein: 2.5, fat: 6.0, carbs: 21.3 }
+cooked_g_est: 138
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Плюс 30 хвилин на охолодження.
 - За даними автора: 466 ккал на порцію, Б/Ж/В 41/19/43 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано скір (немає у словнику); сироватковий ізолят (немає у словнику); фундучна паста (немає у словнику); мелена кориця (немає у словнику).

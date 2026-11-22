@@ -22,8 +22,10 @@ ingredients:
   - { name: цукор, qty: 5, unit: г, note: "" }
   - { name: кунжут, qty: 20, unit: г, note: "" }
 photo: img/sochevychnyi-khlib.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 37, protein: 1.2, fat: 3.4, carbs: 0.7 }
+nutrition_per_100g: { kcal: 279, protein: 8.6, fat: 25.2, carbs: 5.6 }
+cooked_g_est: 187
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Порція 45 г: 93 ккал; вихід 640 г. Замочування 7 год, робота 25 хв, випікання 43 хв.
 - За даними автора: 207 ккал на 100 г, Б/Ж/В 11.6/7.3/24.4 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сочевиця червона (немає у словнику); вода для замочування (немає у словнику); пшеничне борошно (немає у словнику); дріжджі сухі (немає у словнику).

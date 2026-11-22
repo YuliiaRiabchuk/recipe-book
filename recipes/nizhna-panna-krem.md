@@ -18,8 +18,10 @@ ingredients:
   - { name: вода, qty: 40, unit: мл, note: "для желатину; для агару 100 мл" }
   - { name: ванільний екстракт, qty: 2, unit: мл, note: "" }
 photo: img/nizhna-panna-krem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 66, protein: 4.1, fat: 3.9, carbs: 3.5 }
+nutrition_per_100g: { kcal: 75, protein: 4.7, fat: 4.4, carbs: 4.0 }
+cooked_g_est: 350
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 - Розділ книги: Десерти з підсолоджувачем.
 - За даними автора: 64 ккал на порцію, Б/Ж/В 2.7/3.9/3.3 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано еритритол (немає у словнику).

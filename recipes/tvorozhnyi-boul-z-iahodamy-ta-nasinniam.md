@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 251"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [без-випікання, вегетаріанське, швидко, високобілкове, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 5 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: мигдаль, qty: 10, unit: г, note: "" }
   - { name: кориця, qty: 1, unit: г, note: "" }
 photo: img/tvorozhnyi-boul-z-iahodamy-ta-nasinniam.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 483, protein: 36.8, fat: 22.2, carbs: 37.8 }
+nutrition_per_100g: { kcal: 97, protein: 7.4, fat: 4.5, carbs: 7.6 }
+cooked_g_est: 499
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

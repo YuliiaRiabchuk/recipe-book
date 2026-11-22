@@ -29,8 +29,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tempe-z-ovochamy-rysom-ta-imbyrom-u-kunzhutno-otstovii.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 308, protein: 10.9, fat: 3.9, carbs: 61.4 }
+nutrition_per_100g: { kcal: 64, protein: 2.3, fat: 0.8, carbs: 12.8 }
+cooked_g_est: 480
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,3 +47,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 884 ккал на порцію, Б/Ж/В 54/39/90 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано темпе (немає у словнику); перець солодкий (немає у словнику); соняшникова олія (немає у словнику).

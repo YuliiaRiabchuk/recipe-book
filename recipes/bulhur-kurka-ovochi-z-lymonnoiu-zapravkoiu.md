@@ -24,8 +24,10 @@ ingredients:
   - { name: петрушка, qty: 10, unit: г, note: "" }
   - { name: часник, qty: 2, unit: г, note: "" }
 photo: img/bulhur-kurka-ovochi-z-lymonnoiu-zapravkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 403, protein: 43.2, fat: 15.7, carbs: 24.5 }
+nutrition_per_100g: { kcal: 76, protein: 8.1, fat: 3.0, carbs: 4.6 }
+cooked_g_est: 532
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Овочі не туши: саме швидке обсмаження дає «ресторанний» хруст і смак.
 - За даними автора: 649 ккал на порцію, Б/Ж/В 54/13/78 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано булгур (немає у словнику); петрушка (немає у словнику).

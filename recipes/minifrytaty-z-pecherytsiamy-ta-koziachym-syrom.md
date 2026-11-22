@@ -22,8 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/minifrytaty-z-pecherytsiamy-ta-koziachym-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 215, protein: 17.2, fat: 13.4, carbs: 7.8 }
+nutrition_per_100g: { kcal: 90, protein: 7.2, fat: 5.6, carbs: 3.2 }
+cooked_g_est: 240
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 308 ккал на порцію, Б/Ж/В 24/21/8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано м'який козячий сир (немає у словнику); чебрець (немає у словнику).

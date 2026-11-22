@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 181"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [швидко, без-випікання, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 7 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: 0.5, unit: г, note: "" }
   - { name: кориця, qty: 0.5, unit: г, note: "" }
 photo: img/boul-banoffee-tvoroh-20-banan-kakao-keshiu-solona-karamel.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 488, protein: 32.8, fat: 21.6, carbs: 51.1 }
+nutrition_per_100g: { kcal: 121, protein: 8.1, fat: 5.4, carbs: 12.7 }
+cooked_g_est: 403
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Варіація: замість банана ягоди.
 - За даними автора: 767 ккал на порцію, Б/Ж/В 42/47/49 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сироп «солона карамель» без цукру (немає у словнику); ваніль (немає у словнику).

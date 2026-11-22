@@ -25,8 +25,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: трави, qty: 2, unit: г, note: "" }
 photo: img/nutova-zapikanka-z-ovochamy-i-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 310, protein: 13.6, fat: 22.3, carbs: 16.8 }
+nutrition_per_100g: { kcal: 120, protein: 5.3, fat: 8.6, carbs: 6.5 }
+cooked_g_est: 259
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Розділ книги: Ситні запечені обіди.
 - За даними автора: 754 ккал на порцію, Б/Ж/В 35/32/86 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано нут консервований (немає у словнику); перець солодкий (немає у словнику); пасата (немає у словнику); трави (немає у словнику).

@@ -21,8 +21,10 @@ ingredients:
   - { name: пластівці чилі, qty: 0.2, unit: г, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/ohirkovi-roly-z-krabovym-miasom-ta-avokado.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 114, protein: 1.9, fat: 10.1, carbs: 6.6 }
+nutrition_per_100g: { kcal: 161, protein: 2.7, fat: 14.2, carbs: 9.3 }
+cooked_g_est: 71
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Тости, роли та мінісендвічі.
 - За даними автора: 281 ккал на порцію, Б/Ж/В 11/14/33 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано довгий огірок (немає у словнику); крабове мʼясо (немає у словнику); вершковий сир (немає у словнику); пластівці чилі (немає у словнику).

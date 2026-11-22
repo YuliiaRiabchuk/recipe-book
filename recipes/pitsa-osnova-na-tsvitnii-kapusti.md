@@ -17,8 +17,10 @@ ingredients:
   - { name: псиліум, qty: 5, unit: г, note: "" }
   - { name: сіль, qty: 1, unit: г, note: "" }
 photo: img/pitsa-osnova-na-tsvitnii-kapusti.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 27, protein: 2.1, fat: 1.5, carbs: 1.5 }
+nutrition_per_100g: { kcal: 79, protein: 6.2, fat: 4.4, carbs: 4.4 }
+cooked_g_est: 275
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

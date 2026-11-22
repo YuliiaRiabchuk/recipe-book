@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 36"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, на-сковороді, високобілкове, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -24,8 +24,10 @@ ingredients:
   - { name: лимонний сік, qty: 0.5, unit: ч.л., note: "або бальзамічний крем, за бажанням" }
   - { name: соєвий соус, qty: 0.5, unit: ч.л., note: "за бажанням, можна замість частини солі" }
 photo: img/omlet-z-hrybamy-ta-tiahuchym-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 426, protein: 33.3, fat: 28.9, carbs: 9.0 }
+nutrition_per_100g: { kcal: 131, protein: 10.3, fat: 8.9, carbs: 2.8 }
+cooked_g_est: 325
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Сніданки з яєць.
 - За даними автора: 468 ккал на порцію, Б/Ж/В 35/34/8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сушений чебрець (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

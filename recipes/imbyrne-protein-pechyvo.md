@@ -21,8 +21,10 @@ ingredients:
   - { name: сода, qty: 3, unit: г, note: "або розпушувач" }
   - { name: еритритол, qty: null, unit: "", note: "для обкачування" }
 photo: img/imbyrne-protein-pechyvo.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 55, protein: 2.0, fat: 1.1, carbs: 9.6 }
+nutrition_per_100g: { kcal: 328, protein: 11.6, fat: 6.6, carbs: 56.5 }
+cooked_g_est: 169
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 89 ккал на порцію, Б/Ж/В 7.3/2.6/8.4 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику); йогурт густий (немає у словнику).

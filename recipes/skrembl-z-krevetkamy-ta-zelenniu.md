@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 33"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [з-рибою, на-сковороді, високобілкове, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: паприка, qty: null, unit: "", note: "за смаком" }
   - { name: кінза, qty: 15, unit: г, note: "свіжа, або петрушка" }
 photo: img/skrembl-z-krevetkamy-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 270, protein: 29.6, fat: 15.4, carbs: 2.6 }
+nutrition_per_100g: { kcal: 130, protein: 14.3, fat: 7.4, carbs: 1.2 }
+cooked_g_est: 207
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

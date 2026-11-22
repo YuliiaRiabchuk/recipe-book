@@ -23,8 +23,10 @@ ingredients:
   - { name: петрушка, qty: 10, unit: г, note: "" }
   - { name: часник, qty: 2, unit: г, note: "" }
 photo: img/bulhur-z-indychkoiu-ta-tomatamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 313, protein: 41.4, fat: 12.8, carbs: 8.1 }
+nutrition_per_100g: { kcal: 98, protein: 12.9, fat: 4.0, carbs: 2.5 }
+cooked_g_est: 320
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Помідори прогрівай недовго: так вони лишаються соковитими й не перетворюються на соус.
 - За даними автора: 596 ккал на порцію, Б/Ж/В 50/13/70 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано булгур (немає у словнику); томати (немає у словнику); петрушка (немає у словнику).

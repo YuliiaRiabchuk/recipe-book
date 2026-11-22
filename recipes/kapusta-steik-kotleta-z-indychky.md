@@ -22,8 +22,10 @@ ingredients:
   - { name: лимон, qty: 15, unit: г, note: "" }
   - { name: кріп, qty: 6, unit: г, note: "" }
 photo: img/kapusta-steik-kotleta-z-indychky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 243, protein: 13.7, fat: 18.9, carbs: 5.0 }
+nutrition_per_100g: { kcal: 146, protein: 8.2, fat: 11.3, carbs: 3.0 }
+cooked_g_est: 167
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Запечена капуста стає солодкуватою: це дає «вау» без додаткових калорій.
 - За даними автора: 546 ккал на порцію, Б/Ж/В 60/28/24 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш індички (немає у словнику); капуста білокачанна (немає у словнику).

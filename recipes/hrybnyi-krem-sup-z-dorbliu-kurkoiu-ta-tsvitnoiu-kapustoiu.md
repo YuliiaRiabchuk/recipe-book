@@ -22,8 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/hrybnyi-krem-sup-z-dorbliu-kurkoiu-ta-tsvitnoiu-kapustoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 427, protein: 51.3, fat: 15.0, carbs: 26.3 }
+nutrition_per_100g: { kcal: 48, protein: 5.8, fat: 1.7, carbs: 3.0 }
+cooked_g_est: 884
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

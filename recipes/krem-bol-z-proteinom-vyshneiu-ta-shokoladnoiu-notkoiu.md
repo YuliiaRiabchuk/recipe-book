@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 197"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [без-випікання, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: гранола, qty: 30, unit: г, note: "без цукру" }
   - { name: чорний шоколад, qty: 10, unit: г, note: "" }
 photo: img/krem-bol-z-proteinom-vyshneiu-ta-shokoladnoiu-notkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 285, protein: 25.1, fat: 10.8, carbs: 22.9 }
+nutrition_per_100g: { kcal: 81, protein: 7.2, fat: 3.1, carbs: 6.5 }
+cooked_g_est: 350
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Варіація: замість вишні — малина або чорниця.
 - За даними автора: 654 ккал на порцію, Б/Ж/В 59/26/43 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн сироватковий (немає у словнику); гранола (немає у словнику); чорний шоколад (немає у словнику).

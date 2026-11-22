@@ -17,8 +17,10 @@ ingredients:
   - { name: цільнозерновий хлібець, qty: 15, unit: г, note: "подрібнений" }
   - { name: молоко, qty: 40, unit: мл, note: "1,5%" }
 photo: img/laimovyi-chizkeik-u-skliantsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 134, protein: 16.9, fat: 1.2, carbs: 13.8 }
+nutrition_per_100g: { kcal: 63, protein: 8.0, fat: 0.6, carbs: 6.5 }
+cooked_g_est: 212
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Муси і креми в склянках.
 - За даними автора: 346 ккал на порцію, Б/Ж/В 46/10/18 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано казеїн ванільний (немає у словнику); цільнозерновий хлібець (немає у словнику).

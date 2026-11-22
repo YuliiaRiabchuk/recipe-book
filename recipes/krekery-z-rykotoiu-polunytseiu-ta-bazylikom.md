@@ -19,8 +19,10 @@ ingredients:
   - { name: базилік, qty: 4, unit: г, note: "" }
   - { name: лимонна цедра, qty: 0.3, unit: г, note: "" }
 photo: img/krekery-z-rykotoiu-polunytseiu-ta-bazylikom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 51, protein: 0.9, fat: 0.4, carbs: 12.7 }
+nutrition_per_100g: { kcal: 43, protein: 0.7, fat: 0.3, carbs: 10.7 }
+cooked_g_est: 119
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 293 ккал на порцію, Б/Ж/В 11/13/37 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); рикота (немає у словнику); фісташки (немає у словнику); лимонна цедра (немає у словнику).

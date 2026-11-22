@@ -6,7 +6,7 @@ source:
   name: тестовий рецепт
   ref: ""
 category: сніданки
-subcategory: солодкі
+subcategory: сирники й запіканки
 tags: [вегетаріанське, швидко, на-сковороді]
 servings: 3
 time: { prep: 10, cook: 15 }

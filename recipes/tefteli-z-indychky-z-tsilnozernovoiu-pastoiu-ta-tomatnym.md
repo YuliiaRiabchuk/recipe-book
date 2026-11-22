@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tefteli-z-indychky-z-tsilnozernovoiu-pastoiu-ta-tomatnym.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 57, protein: 2.9, fat: 0.7, carbs: 12.4 }
+nutrition_per_100g: { kcal: 27, protein: 1.4, fat: 0.3, carbs: 5.9 }
+cooked_g_est: 210
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Курка та індичка.
 - За даними автора: 590 ккал на порцію, Б/Ж/В 58/16/53 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш з філе індички (немає у словнику); паста цільнозернова (немає у словнику); соняшникова олія (немає у словнику); петрушка (немає у словнику).

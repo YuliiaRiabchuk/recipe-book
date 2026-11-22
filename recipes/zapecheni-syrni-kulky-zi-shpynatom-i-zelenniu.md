@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zapecheni-syrni-kulky-zi-shpynatom-i-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 313, protein: 27.1, fat: 10.2, carbs: 28.6 }
+nutrition_per_100g: { kcal: 117, protein: 10.1, fat: 3.8, carbs: 10.7 }
+cooked_g_est: 267
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

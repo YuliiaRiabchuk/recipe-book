@@ -25,8 +25,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: олія, qty: 10, unit: г, note: "2 ч.л." }
 photo: img/kvasolia-z-kurkoiu-kukurudzoiu-ta-pertsem-pid-laim-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 470, protein: 37.1, fat: 14.4, carbs: 50.6 }
+nutrition_per_100g: { kcal: 135, protein: 10.6, fat: 4.1, carbs: 14.5 }
+cooked_g_est: 349
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Бобові та зернові як основа.
 - За даними автора: 525 ккал на порцію, Б/Ж/В 45/14/55 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано перець солодкий (немає у словнику); лайм або лимонний сік (немає у словнику).

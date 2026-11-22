@@ -17,8 +17,10 @@ ingredients:
   - { name: кориця, qty: 2, unit: г, note: "" }
   - { name: вівсяно-горіховий крамбл, qty: 15, unit: г, note: "для шару" }
 photo: img/harbuzovyi-chizkeik-krem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 92, protein: 11.1, fat: 0.4, carbs: 11.6 }
+nutrition_per_100g: { kcal: 46, protein: 5.5, fat: 0.2, carbs: 5.7 }
+cooked_g_est: 202
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Муси і креми в склянках.
 - За даними автора: 326 ккал на порцію, Б/Ж/В 40/11/10 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано казеїн ванільний (немає у словнику); вівсяно-горіховий крамбл (немає у словнику).

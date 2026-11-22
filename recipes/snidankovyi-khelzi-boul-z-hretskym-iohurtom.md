@@ -6,7 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 1
   ref: "с. 25"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [раціон-1550, хелзі, швидко, вегетаріанське]
 servings: 1
 time: { prep: null, cook: null }

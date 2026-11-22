@@ -25,8 +25,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/harbuzovo-vivsiani-kvadraty-z-prianoshchamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 499, protein: 18.5, fat: 24.0, carbs: 55.8 }
+nutrition_per_100g: { kcal: 210, protein: 7.8, fat: 10.1, carbs: 23.5 }
+cooked_g_est: 238
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

@@ -29,8 +29,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/ialovychyna-wok-z-ovochamy-rysom-ta-imbyrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 93, protein: 3.6, fat: 2.0, carbs: 17.9 }
+nutrition_per_100g: { kcal: 67, protein: 2.6, fat: 1.4, carbs: 12.9 }
+cooked_g_est: 139
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,3 +48,4 @@ added: 2026-11-15
 - Розділ книги: Яловичина та телятина.
 - За даними автора: 664 ккал на порцію, Б/Ж/В 47/27/63 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано яловичина пісна (немає у словнику); рис довгозернистий (немає у словнику); солодкий перець (немає у словнику); соєвий соус лайт (немає у словнику); петрушка (немає у словнику); соняшникова олія (немає у словнику); кунжутна олія (немає у словнику).

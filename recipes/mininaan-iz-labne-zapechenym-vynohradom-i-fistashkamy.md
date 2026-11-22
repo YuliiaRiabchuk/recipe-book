@@ -20,8 +20,10 @@ ingredients:
   - { name: чебрець, qty: 1, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/mininaan-iz-labne-zapechenym-vynohradom-i-fistashkamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 33, protein: 0.0, fat: 2.0, carbs: 4.1 }
+nutrition_per_100g: { kcal: 470, protein: 0.2, fat: 28.6, carbs: 58.9 }
+cooked_g_est: 7
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 432 ккал на порцію, Б/Ж/В 12/19/57 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозерновий мінінаан (немає у словнику); лабне (немає у словнику); виноград без кісточок (немає у словнику); фісташки (немає у словнику); чебрець (немає у словнику).

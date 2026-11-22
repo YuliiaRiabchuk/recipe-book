@@ -30,8 +30,10 @@ ingredients:
   - { name: мед, qty: 3, unit: г, note: "для соусу" }
   - { name: кунжутна олія, qty: 1, unit: г, note: "для соусу" }
 photo: img/sprinh-roly-z-indychkoiu-ta-khrustkymy-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 301, protein: 39.5, fat: 7.3, carbs: 20.7 }
+nutrition_per_100g: { kcal: 79, protein: 10.4, fat: 1.9, carbs: 5.5 }
+cooked_g_est: 379
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,3 +47,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 461 ккал на порцію, Б/Ж/В 41/9/57 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано солодкий перець (немає у словнику); кунжутна олія (немає у словнику); кунжутна олія (немає у словнику).

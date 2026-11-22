@@ -18,8 +18,10 @@ ingredients:
   - { name: еритритол, qty: 40, unit: г, note: "" }
   - { name: розпушувач, qty: 5, unit: г, note: "" }
 photo: img/mafiny-kokosovo-iabluchni.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 60, protein: 1.5, fat: 5.1, carbs: 2.8 }
+nutrition_per_100g: { kcal: 282, protein: 7.2, fat: 23.9, carbs: 13.1 }
+cooked_g_est: 256
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Фітнес-випічка для сніданку.
 - За даними автора: 87 ккал на порцію, Б/Ж/В 3.2/4.9/7 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); еритритол (немає у словнику).

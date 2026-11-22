@@ -25,8 +25,10 @@ ingredients:
   - { name: гірчиця, qty: 5, unit: г, note: "1 ч.л." }
   - { name: кріп, qty: 5, unit: г, note: "≈1 ст.л." }
 photo: img/kotletky-z-indychky-z-brokoli-ta-sousom-iohurt-hirchytsia.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 277, protein: 19.4, fat: 14.7, carbs: 20.2 }
+nutrition_per_100g: { kcal: 83, protein: 5.8, fat: 4.4, carbs: 6.0 }
+cooked_g_est: 334
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - За бажанням додай чуку (40 г) або квашений огірок (1 шт, ≈50 г): «кислий хруст» і легка ферментована нота майже не змінять калорійність.
 - За даними автора: 509 ккал на порцію, Б/Ж/В 55/20/24 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш індички (немає у словнику); панірувальні сухарі (немає у словнику).

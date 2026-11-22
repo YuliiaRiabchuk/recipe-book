@@ -18,8 +18,10 @@ ingredients:
   - { name: кориця, qty: 1, unit: дрібка, note: "мелена" }
   - { name: ягоди, qty: 30, unit: г, note: "свіжі, для подачі" }
 photo: img/proteinovyi-rysovyi-pudynh.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 262, protein: 9.8, fat: 4.4, carbs: 45.2 }
+nutrition_per_100g: { kcal: 83, protein: 3.1, fat: 1.4, carbs: 14.3 }
+cooked_g_est: 315
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 300 ккал на порцію, Б/Ж/В 26.8/6.9/34.7 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику).

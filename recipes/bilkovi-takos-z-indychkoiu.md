@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 117"
 category: сніданки
-subcategory: поживні
+subcategory: "лаваш, роли й тортильї"
 tags: [з-птицею, на-сковороді, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -24,8 +24,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/bilkovi-takos-z-indychkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 406, protein: 37.2, fat: 25.0, carbs: 8.4 }
+nutrition_per_100g: { kcal: 146, protein: 13.3, fat: 9.0, carbs: 3.0 }
+cooked_g_est: 279
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Прогрівай тортильї безпосередньо перед наповненням: так вони м’якші й ароматніші.
 - За даними автора: 570 ккал на порцію, Б/Ж/В 38/27/49 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кукурудзяні тортильї (немає у словнику); помідори чері (немає у словнику); червона цибуля (немає у словнику); кінза свіжа (немає у словнику).

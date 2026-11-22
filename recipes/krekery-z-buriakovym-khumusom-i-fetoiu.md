@@ -19,8 +19,10 @@ ingredients:
   - { name: петрушка, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-buriakovym-khumusom-i-fetoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 54, protein: 2.8, fat: 4.0, carbs: 3.0 }
+nutrition_per_100g: { kcal: 79, protein: 4.1, fat: 5.9, carbs: 4.5 }
+cooked_g_est: 68
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 402 ккал на порцію, Б/Ж/В 17/22/32 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); буряковий хумус (немає у словнику); фета (немає у словнику); петрушка (немає у словнику).

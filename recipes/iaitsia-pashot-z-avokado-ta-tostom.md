@@ -6,7 +6,7 @@ source:
   name: Корисні та смачні вечері. Великий збірник (Андрій Маковецький)
   ref: "с. 79"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з яйцем
 tags: [вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/iaitsia-pashot-z-avokado-ta-tostom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 258, protein: 14.0, fat: 19.8, carbs: 7.7 }
+nutrition_per_100g: { kcal: 137, protein: 7.5, fat: 10.5, carbs: 4.1 }
+cooked_g_est: 188
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - P.S. Вода має бути не бурлячою, а м’якою, тоді пашот виходить акуратний.
 - За даними автора: 441 ккал на порцію, Б/Ж/В 20/24/37 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано хліб цільнозерновий (немає у словнику).

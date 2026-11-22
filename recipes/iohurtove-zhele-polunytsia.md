@@ -17,8 +17,10 @@ ingredients:
   - { name: желатин, qty: 8, unit: г, note: "або агар-агар 4 г" }
   - { name: вода, qty: 40, unit: мл, note: "для желатину; для агару 100 мл" }
 photo: img/iohurtove-zhele-polunytsia.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 159, protein: 15.2, fat: 6.5, carbs: 10.7 }
+nutrition_per_100g: { kcal: 71, protein: 6.8, fat: 2.9, carbs: 4.8 }
+cooked_g_est: 448
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

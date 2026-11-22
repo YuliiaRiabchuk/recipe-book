@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/salatni-chovnyky-z-iaiechnym-salatom-i-redyskoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 186, protein: 16.1, fat: 11.3, carbs: 4.3 }
+nutrition_per_100g: { kcal: 98, protein: 8.4, fat: 6.0, carbs: 2.2 }
+cooked_g_est: 190
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Листки салату, норі та спрінг-роли.
 - За даними автора: 195 ккал на порцію, Б/Ж/В 17/11/8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано листя салату романо (немає у словнику); редиска (немає у словнику); діжонська гірчиця (немає у словнику); шніт-цибуля (немає у словнику); копчена паприка (немає у словнику).

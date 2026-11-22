@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 110"
 category: сніданки
-subcategory: поживні
+subcategory: "лаваш, роли й тортильї"
 tags: [з-рибою, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -24,8 +24,10 @@ ingredients:
   - { name: копчена паприка, qty: 1, unit: г, note: "" }
   - { name: сушений часник, qty: 1, unit: г, note: "" }
 photo: img/rol-u-lavashi-z-biloiu-ryboiu-kapustoiu-ta-pesto-teriiaki.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 288, protein: 34.9, fat: 11.1, carbs: 12.6 }
+nutrition_per_100g: { kcal: 67, protein: 8.2, fat: 2.6, carbs: 3.0 }
+cooked_g_est: 427
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Варіація: замість песто можна взяти хумус.
 - За даними автора: 479 ккал на порцію, Б/Ж/В 44/16/42 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тонкий лаваш (немає у словнику); помідори чері (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

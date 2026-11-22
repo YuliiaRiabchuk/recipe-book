@@ -16,8 +16,10 @@ ingredients:
   - { name: вівсяні пластівці, qty: 150, unit: г, note: "" }
   - { name: мед, qty: 100, unit: г, note: "або сироп еритритолу" }
 photo: img/batonchyky-medovo-horikhovi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 141, protein: 3.8, fat: 5.2, carbs: 21.3 }
+nutrition_per_100g: { kcal: 402, protein: 10.9, fat: 14.8, carbs: 60.8 }
+cooked_g_est: 350
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Енергетичні батончики.
 - За даними автора: 238 ккал на порцію, Б/Ж/В 7.8/14.7/22.4 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано суміш горіхів (немає у словнику).

@@ -16,8 +16,10 @@ ingredients:
   - { name: волоські горіхи, qty: 15, unit: г, note: "" }
   - { name: оливкова олія, qty: 5, unit: мл, note: "" }
 photo: img/buriak-iz-fetoiu-i-horikhom-na-shpazhtsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 205, protein: 4.8, fat: 14.7, carbs: 17.0 }
+nutrition_per_100g: { kcal: 120, protein: 2.8, fat: 8.6, carbs: 10.0 }
+cooked_g_est: 170
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Час 10 хв без варіння або запікання буряка: буряк має бути вже готовий.
 - За даними автора: 306 ккал на порцію, Б/Ж/В 11/23/18 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фета (немає у словнику).

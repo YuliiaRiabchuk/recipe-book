@@ -21,8 +21,10 @@ ingredients:
   - { name: сік лимона, qty: 10, unit: мл, note: "" }
   - { name: цедра лимона, qty: 1, unit: г, note: "дрібно натерта, без білого шару" }
 photo: img/lymonnyi-tart-lait.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 91, protein: 6.3, fat: 6.6, carbs: 1.2 }
+nutrition_per_100g: { kcal: 159, protein: 11.1, fat: 11.6, carbs: 2.2 }
+cooked_g_est: 57
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Тарти.
 - За даними автора: 396 ккал на порцію, Б/Ж/В 29/13/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно нутове (немає у словнику); протеїн без ароматизаторів (немає у словнику); йогурт густий (немає у словнику); підсолоджувач (немає у словнику).

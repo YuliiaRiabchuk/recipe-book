@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kish-iz-lososem-i-shpynatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 197, protein: 10.7, fat: 11.1, carbs: 14.7 }
+nutrition_per_100g: { kcal: 229, protein: 12.4, fat: 12.8, carbs: 17.0 }
+cooked_g_est: 691
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Порція 85 г: 143 ккал; вихід 680 г. Підготовка 35 хв, випікання 28 хв.
 - За даними автора: 168 ккал на 100 г, Б/Ж/В 12.7/9.1/8.8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано висівки пшеничні (немає у словнику).

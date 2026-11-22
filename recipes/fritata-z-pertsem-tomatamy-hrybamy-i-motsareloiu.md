@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 28"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, в-духовці, на-сковороді, високобілкове, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: орегано, qty: null, unit: "", note: "за смаком" }
 photo: img/fritata-z-pertsem-tomatamy-hrybamy-i-motsareloiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 477, protein: 32.0, fat: 33.7, carbs: 14.6 }
+nutrition_per_100g: { kcal: 117, protein: 7.8, fat: 8.3, carbs: 3.6 }
+cooked_g_est: 408
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Роби одразу кілька порцій в одній ємності, якщо готуєш для кількох людей чи собі на потім: так економиш час.
 - За даними автора: 512 ккал на порцію, Б/Ж/В 34/37/18 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано помідори чері (немає у словнику).

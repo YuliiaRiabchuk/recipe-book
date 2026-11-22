@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 199"
 category: сніданки
-subcategory: солодкі
+subcategory: солодкі тости й фрукти
 tags: [в-духовці, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: кориця, qty: 1, unit: г, note: "½ ч.л., за смаком" }
   - { name: ваніль, qty: 1, unit: дрібка, note: "за бажанням, для аромату" }
 photo: img/zapecheni-iabluka-z-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 291, protein: 17.6, fat: 6.7, carbs: 43.5 }
+nutrition_per_100g: { kcal: 90, protein: 5.4, fat: 2.1, carbs: 13.5 }
+cooked_g_est: 323
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 - Розділ книги: Десертні, але збалансовані.
 - За даними автора: 386 ккал на порцію, Б/Ж/В 26/9/50 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано ваніль (немає у словнику).

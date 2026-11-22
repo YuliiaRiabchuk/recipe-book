@@ -25,8 +25,10 @@ ingredients:
   - { name: часник, qty: 1, unit: г, note: "для соусу" }
   - { name: сіль, qty: null, unit: "", note: "за смаком, для соусу" }
 photo: img/kuriachi-minikotletky-z-tsukini-ta-kropovym-iohurtom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 274, protein: 36.4, fat: 9.2, carbs: 12.0 }
+nutrition_per_100g: { kcal: 140, protein: 18.6, fat: 4.7, carbs: 6.1 }
+cooked_g_est: 196
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 288 ккал на порцію, Б/Ж/В 32/12/14 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цукіні (немає у словнику); сушений часник (немає у словнику).

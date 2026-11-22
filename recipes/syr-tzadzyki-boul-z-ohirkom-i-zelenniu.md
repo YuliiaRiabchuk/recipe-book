@@ -21,8 +21,10 @@ ingredients:
   - { name: кріп, qty: 8, unit: г, note: "" }
   - { name: часник, qty: 2, unit: г, note: "" }
 photo: img/syr-tzadzyki-boul-z-ohirkom-i-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 339, protein: 29.4, fat: 17.0, carbs: 19.0 }
+nutrition_per_100g: { kcal: 68, protein: 5.9, fat: 3.4, carbs: 3.8 }
+cooked_g_est: 498
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

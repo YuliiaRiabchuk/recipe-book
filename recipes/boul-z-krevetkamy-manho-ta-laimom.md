@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/boul-z-krevetkamy-manho-ta-laimom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 181, protein: 3.0, fat: 7.9, carbs: 29.4 }
+nutrition_per_100g: { kcal: 56, protein: 0.9, fat: 2.5, carbs: 9.2 }
+cooked_g_est: 321
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Розділ книги: Салати-боули.
 - За даними автора: 421 ккал на порцію, Б/Ж/В 31/18/36 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано креветки очищені (немає у словнику); листя салату айсберг (немає у словнику); лайм або лимонний сік (немає у словнику); соняшникова олія (немає у словнику); чилі сушений (немає у словнику).

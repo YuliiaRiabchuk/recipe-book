@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 22"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [з-рибою, на-сковороді, високобілкове, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/omlet-z-lososem-i-krem-chyli-sous-hotovyi-hryl-ovochi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 489, protein: 30.6, fat: 36.4, carbs: 10.2 }
+nutrition_per_100g: { kcal: 125, protein: 7.8, fat: 9.3, carbs: 2.6 }
+cooked_g_est: 391
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Варіація: замість лосося — слабосолена форель або копчений лосось.
 - За даними автора: 519 ккал на порцію, Б/Ж/В 34/36/17 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано соус чилі (немає у словнику); мікс салату (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні та смачні вечері. Великий збірник (Андрій Маковецький)
   ref: "с. 80"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, на-сковороді, високобілкове, без-лактози, хелзі]
 servings: 1
 time: { prep: null, cook: 18 }
@@ -23,8 +23,10 @@ ingredients:
   - { name: часник, qty: 3, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/shakshuka-vechirnia-z-iaitsiamy-ta-pertsem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 288, protein: 15.2, fat: 18.1, carbs: 17.8 }
+nutrition_per_100g: { kcal: 92, protein: 4.9, fat: 5.8, carbs: 5.7 }
+cooked_g_est: 313
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - P.S. Яйця додавай тільки в густий соус, тоді вони не тонуть і виглядають красиво.
 - За даними автора: 397 ккал на порцію, Б/Ж/В 27/20/30 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано томати (немає у словнику).

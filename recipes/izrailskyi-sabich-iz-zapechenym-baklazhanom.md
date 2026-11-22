@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 238"
 category: сніданки
-subcategory: поживні
+subcategory: овочеві й сирні тости
 tags: [вегетаріанське, в-духовці, хелзі]
 servings: 1
 time: { prep: null, cook: 35 }
@@ -29,8 +29,10 @@ ingredients:
   - { name: куркума, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/izrailskyi-sabich-iz-zapechenym-baklazhanom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 204, protein: 11.9, fat: 12.7, carbs: 12.9 }
+nutrition_per_100g: { kcal: 77, protein: 4.5, fat: 4.8, carbs: 4.9 }
+cooked_g_est: 264
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,3 +47,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 346 ккал на порцію, Б/Ж/В 18/12/43 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано піта (немає у словнику); баклажан (немає у словнику); червона цибуля (немає у словнику); петрушка (немає у словнику).

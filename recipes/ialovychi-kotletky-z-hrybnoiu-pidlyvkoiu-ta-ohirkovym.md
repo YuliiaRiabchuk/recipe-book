@@ -29,8 +29,10 @@ ingredients:
   - { name: лимонний сік, qty: 5, unit: г, note: "1 ч.л." }
   - { name: сіль, qty: null, unit: "", note: "за смаком, для салату" }
 photo: img/ialovychi-kotletky-z-hrybnoiu-pidlyvkoiu-ta-ohirkovym.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 313, protein: 16.1, fat: 19.3, carbs: 23.9 }
+nutrition_per_100g: { kcal: 57, protein: 2.9, fat: 3.5, carbs: 4.4 }
+cooked_g_est: 548
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,3 +48,4 @@ added: 2026-11-15
 - Для смаку «як у стейк-хаусі» додай квашені помідори (80 г): вони підсилюють смак м’яса кислинкою й майже не додають калорій.
 - За даними автора: 747 ккал на порцію, Б/Ж/В 49/64/40 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш яловичий (немає у словнику); панірувальні сухарі (немає у словнику).

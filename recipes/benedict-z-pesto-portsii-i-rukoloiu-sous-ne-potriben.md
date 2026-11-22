@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 74"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/benedict-z-pesto-portsii-i-rukoloiu-sous-ne-potriben.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 400, protein: 25.1, fat: 16.4, carbs: 38.8 }
+nutrition_per_100g: { kcal: 114, protein: 7.1, fat: 4.7, carbs: 11.0 }
+cooked_g_est: 352
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

@@ -24,8 +24,10 @@ ingredients:
   - { name: перець солодкий, qty: 140, unit: г, note: "" }
   - { name: оливкова олія, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/frykadelky-v-tomati-z-ovochevym-harnirom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 163, protein: 8.8, fat: 10.3, carbs: 10.1 }
+nutrition_per_100g: { kcal: 72, protein: 3.9, fat: 4.5, carbs: 4.4 }
+cooked_g_est: 228
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Квашена капуста (50 г) додасть свіжої кислинки та клітковини; порція маленька, тож вечеря лишається легкою по калорійності.
 - За даними автора: 534 ккал на порцію, Б/Ж/В 52/19/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фарш індички (немає у словнику); панірувальні сухарі (немає у словнику); пасата (немає у словнику); перець солодкий (немає у словнику).

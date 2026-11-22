@@ -20,8 +20,10 @@ ingredients:
   - { name: сік лайма, qty: 5, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/chia-iohurt-iz-manho-ta-marakuieiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 366, protein: 20.1, fat: 15.5, carbs: 40.3 }
+nutrition_per_100g: { kcal: 99, protein: 5.4, fat: 4.2, carbs: 10.9 }
+cooked_g_est: 370
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - До 10 хв приготування додай 2 години в холодильнику для загуснення.
 - За даними автора: 351 ккал на порцію, Б/Ж/В 19/11/49 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано м'якоть маракуї (немає у словнику).

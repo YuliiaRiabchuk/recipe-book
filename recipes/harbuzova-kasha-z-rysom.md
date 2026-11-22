@@ -6,7 +6,7 @@ source:
   name: anny.cooking (Instagram)
   ref: "https://www.instagram.com/p/DequjCbuxm9/"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [вегетаріанське, бюджетне]
 servings: 4
 time: { prep: 10, cook: 30 }

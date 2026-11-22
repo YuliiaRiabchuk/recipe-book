@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 120"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [вегетаріанське, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
   - { name: кориця, qty: 1, unit: дрібка, note: "або ваніль, за бажанням, для аромату" }
 photo: img/kukurudziana-kasha-na-molotsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 237, protein: 10.0, fat: 14.1, carbs: 18.4 }
+nutrition_per_100g: { kcal: 106, protein: 4.5, fat: 6.3, carbs: 8.2 }
+cooked_g_est: 224
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 454 ккал на порцію, Б/Ж/В 14/16/57 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кукурудзяна крупа (немає у словнику).

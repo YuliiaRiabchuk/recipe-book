@@ -20,8 +20,10 @@ ingredients:
   - { name: кориця, qty: 0.5, unit: г, note: "мелена" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/zapechene-iabluko-iz-syrno-korychnoiu-nachynkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 303, protein: 14.5, fat: 8.2, carbs: 47.6 }
+nutrition_per_100g: { kcal: 102, protein: 4.9, fat: 2.7, carbs: 16.0 }
+cooked_g_est: 297
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

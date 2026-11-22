@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 210"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [без-випікання, вегетаріанське, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 6 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/iohurt-banka-shokolad-banan-z-proteinom-i-hirkym-shokoladom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 430, protein: 25.5, fat: 19.1, carbs: 47.6 }
+nutrition_per_100g: { kcal: 115, protein: 6.8, fat: 5.1, carbs: 12.7 }
+cooked_g_est: 374
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Варіація: замість банана — малина, чорниця або полуниця.
 - За даними автора: 708 ккал на порцію, Б/Ж/В 38/34/69 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику); гіркий шоколад (немає у словнику); ваніль (немає у словнику).

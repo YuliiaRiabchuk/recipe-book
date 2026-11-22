@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 69"
 category: сніданки
-subcategory: поживні
+subcategory: овочеві й сирні тости
 tags: [вегетаріанське, швидко, високобілкове, легке, хелзі]
 servings: 1
 time: { prep: null, cook: 8 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: кріп, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvich-svizhist-z-redysom-i-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 271, protein: 23.5, fat: 2.6, carbs: 38.3 }
+nutrition_per_100g: { kcal: 99, protein: 8.6, fat: 1.0, carbs: 14.0 }
+cooked_g_est: 273
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

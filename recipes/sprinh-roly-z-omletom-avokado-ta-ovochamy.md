@@ -27,8 +27,10 @@ ingredients:
   - { name: діжонська гірчиця, qty: 3, unit: г, note: "для соусу" }
   - { name: соєвий соус, qty: 3, unit: г, note: "зі зниженим вмістом солі, для соусу" }
 photo: img/sprinh-roly-z-omletom-avokado-ta-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 404, protein: 22.7, fat: 27.4, carbs: 20.5 }
+nutrition_per_100g: { kcal: 99, protein: 5.6, fat: 6.7, carbs: 5.0 }
+cooked_g_est: 408
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 527 ккал на порцію, Б/Ж/В 24/26/54 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано діжонська гірчиця (немає у словнику).

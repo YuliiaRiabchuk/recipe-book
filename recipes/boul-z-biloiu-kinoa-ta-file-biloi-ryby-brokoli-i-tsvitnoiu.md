@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 138"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [з-рибою, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 22 }
@@ -27,8 +27,10 @@ ingredients:
   - { name: паприка копчена, qty: 1, unit: г, note: "" }
   - { name: часник сушений, qty: 1, unit: г, note: "" }
 photo: img/boul-z-biloiu-kinoa-ta-file-biloi-ryby-brokoli-i-tsvitnoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 315, protein: 37.0, fat: 12.5, carbs: 14.7 }
+nutrition_per_100g: { kcal: 88, protein: 10.3, fat: 3.5, carbs: 4.1 }
+cooked_g_est: 358
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,3 +47,4 @@ added: 2026-11-15
 - Варіація: рибу можна замінити креветками, обсмаж їх 2–3 хв.
 - За даними автора: 509 ккал на порцію, Б/Ж/В 43/19/44 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кіноа біла (немає у словнику); вода для кіноа (немає у словнику); кунжут чорний (немає у словнику); часник сушений (немає у словнику).

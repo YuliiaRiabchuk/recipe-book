@@ -21,8 +21,10 @@ ingredients:
   - { name: кардамон, qty: 0.5, unit: г, note: "" }
   - { name: сіль, qty: 1, unit: г, note: "" }
 photo: img/beigl-z-proteinom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 185, protein: 6.6, fat: 1.2, carbs: 40.1 }
+nutrition_per_100g: { kcal: 208, protein: 7.4, fat: 1.4, carbs: 45.1 }
+cooked_g_est: 89
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Порція 100 г: 241 ккал. Приготування 1 год 9 хв, випікання 19 хв.
 - За даними автора: 241 ккал на 100 г, Б/Ж/В 14.4/1.7/43 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику); дріжджі сухі (немає у словнику); кардамон (немає у словнику).

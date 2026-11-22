@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 183"
 category: сніданки
-subcategory: солодкі
+subcategory: пудинги й чіа
 tags: [швидко, без-випікання, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 6 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/iohurt-boul-z-manho-chia-ta-keshiu-protein.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 244, protein: 6.1, fat: 10.9, carbs: 35.4 }
+nutrition_per_100g: { kcal: 121, protein: 3.0, fat: 5.4, carbs: 17.5 }
+cooked_g_est: 202
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Варіація: замість манго ананас.
 - За даними автора: 484 ккал на порцію, Б/Ж/В 46/18/46 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано грецький йогурт безлактозний (немає у словнику); протеїн (немає у словнику); ваніль (немає у словнику).

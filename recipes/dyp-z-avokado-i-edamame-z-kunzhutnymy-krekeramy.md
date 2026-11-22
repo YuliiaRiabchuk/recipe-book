@@ -23,8 +23,10 @@ ingredients:
   - { name: кунжутні цільнозернові крекери, qty: 35, unit: г, note: "" }
   - { name: кунжут, qty: 3, unit: г, note: "" }
 photo: img/dyp-z-avokado-i-edamame-z-kunzhutnymy-krekeramy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 194, protein: 5.3, fat: 16.5, carbs: 9.3 }
+nutrition_per_100g: { kcal: 155, protein: 4.2, fat: 13.2, carbs: 7.4 }
+cooked_g_est: 125
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 451 ккал на порцію, Б/Ж/В 20/28/36 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано очищене едамаме (немає у словнику); пластівці чилі (немає у словнику); кунжутні цільнозернові крекери (немає у словнику).

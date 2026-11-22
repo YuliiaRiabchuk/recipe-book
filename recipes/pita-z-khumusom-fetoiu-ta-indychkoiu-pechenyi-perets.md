@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 97"
 category: сніданки
-subcategory: поживні
+subcategory: пудинги й чіа
 tags: [з-птицею, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -27,8 +27,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/pita-z-khumusom-fetoiu-ta-indychkoiu-pechenyi-perets.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 311, protein: 30.3, fat: 16.1, carbs: 13.6 }
+nutrition_per_100g: { kcal: 108, protein: 10.5, fat: 5.6, carbs: 4.7 }
+cooked_g_est: 288
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - Варіація: замість фети можна взяти козячий сир.
 - За даними автора: 633 ккал на порцію, Б/Ж/В 39/26/68 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернова піта (немає у словнику); фета (немає у словнику); баклажан (немає у словнику); солодкий перець (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

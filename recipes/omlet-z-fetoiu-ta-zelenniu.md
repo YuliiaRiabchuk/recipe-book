@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 40"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, швидко, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: чорний перець, qty: 0.12, unit: ч.л., note: "мелений, за бажанням" }
   - { name: орегано, qty: 0.25, unit: ч.л., note: "сушений, або базилік, за бажанням" }
 photo: img/omlet-z-fetoiu-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 395, protein: 26.2, fat: 30.1, carbs: 3.7 }
+nutrition_per_100g: { kcal: 184, protein: 12.2, fat: 14.0, carbs: 1.7 }
+cooked_g_est: 215
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

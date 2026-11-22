@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 20"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [з-птицею, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 18 }
@@ -27,8 +27,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: кумин мелений, qty: 0.5, unit: г, note: "" }
 photo: img/buriakovyi-omlet-z-file-indychky-ta-koziachym-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 329, protein: 33.8, fat: 16.0, carbs: 12.1 }
+nutrition_per_100g: { kcal: 97, protein: 10.0, fat: 4.7, carbs: 3.6 }
+cooked_g_est: 338
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - Варіація: замість козячого сиру — фета.
 - За даними автора: 580 ккал на порцію, Б/Ж/В 48/29/27 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано козячий сир (немає у словнику); хліб цільнозерновий (немає у словнику); сушений часник (немає у словнику); кумин мелений (немає у словнику).

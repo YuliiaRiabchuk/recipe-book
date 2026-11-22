@@ -31,8 +31,10 @@ ingredients:
   - { name: вода, qty: 10, unit: г, note: "для соусу" }
   - { name: чилі, qty: null, unit: "", note: "за смаком, для соусу" }
 photo: img/sprinh-roly-z-ialovychynoiu-po-taisky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 248, protein: 31.5, fat: 7.8, carbs: 15.2 }
+nutrition_per_100g: { kcal: 82, protein: 10.4, fat: 2.6, carbs: 5.0 }
+cooked_g_est: 304
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,3 +48,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 393 ккал на порцію, Б/Ж/В 34/7/51 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано солодкий перець (немає у словнику); мʼята (немає у словнику); кунжутна олія (немає у словнику); пластівці чилі (немає у словнику).

@@ -21,8 +21,10 @@ ingredients:
   - { name: еритритол, qty: 10, unit: г, note: "підсолоджувач" }
   - { name: шоколад темний, qty: 10, unit: г, note: "85%" }
 photo: img/shokoladnyi-tart-bez-tsukru.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 146, protein: 11.4, fat: 10.3, carbs: 6.3 }
+nutrition_per_100g: { kcal: 188, protein: 14.6, fat: 13.3, carbs: 8.1 }
+cooked_g_est: 78
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Тарти.
 - За даними автора: 565 ккал на порцію, Б/Ж/В 34.8/22.8/53.6 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); протеїн шоколадний (немає у словнику); йогурт густий (немає у словнику); еритритол (немає у словнику); шоколад темний (немає у словнику).

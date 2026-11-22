@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 156"
 category: сніданки
-subcategory: солодкі
+subcategory: "млинці, панкейки й вафлі"
 tags: [вегетаріанське, на-сковороді, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: розпушувач, qty: 0.5, unit: ч.л., note: "≈2 г" }
   - { name: олія для смаження, qty: null, unit: "", note: "за потребою" }
 photo: img/kukurudziani-pankeiky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 185, protein: 11.2, fat: 7.7, carbs: 17.6 }
+nutrition_per_100g: { kcal: 112, protein: 6.8, fat: 4.7, carbs: 10.6 }
+cooked_g_est: 165
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 494 ккал на порцію, Б/Ж/В 17/12/79 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кукурудзяне борошно (немає у словнику).

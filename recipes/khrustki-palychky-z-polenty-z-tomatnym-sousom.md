@@ -25,8 +25,10 @@ ingredients:
   - { name: базилік, qty: 4, unit: г, note: "для соусу" }
   - { name: сіль, qty: null, unit: "", note: "для соусу, за смаком" }
 photo: img/khrustki-palychky-z-polenty-z-tomatnym-sousom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 125, protein: 4.8, fat: 10.2, carbs: 4.0 }
+nutrition_per_100g: { kcal: 66, protein: 2.6, fat: 5.4, carbs: 2.1 }
+cooked_g_est: 188
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Хрусткі снеки.
 - За даними автора: 360 ккал на порцію, Б/Ж/В 12/13/53 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кукурудзяна крупа для поленти (немає у словнику); подрібнені томати (немає у словнику).

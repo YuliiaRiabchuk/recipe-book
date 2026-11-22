@@ -27,8 +27,10 @@ ingredients:
   - { name: крохмаль, qty: 3, unit: г, note: "" }
   - { name: імбир, qty: 4, unit: г, note: "" }
 photo: img/kurka-z-ananasom-pertsem-i-rysom-u-kyslo-solodkomu-lait.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 573, protein: 56.6, fat: 10.3, carbs: 62.6 }
+nutrition_per_100g: { kcal: 108, protein: 10.7, fat: 2.0, carbs: 11.8 }
+cooked_g_est: 529
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 646 ккал на порцію, Б/Ж/В 61/13/72 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано соняшникова олія (немає у словнику); перець солодкий (немає у словнику).

@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sochevytsia-z-tomatamy-shpynatom-i-iohurtovoiu-zapravkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 192, protein: 13.7, fat: 11.4, carbs: 10.8 }
+nutrition_per_100g: { kcal: 49, protein: 3.5, fat: 2.9, carbs: 2.7 }
+cooked_g_est: 394
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Бобові та зернові як основа.
 - За даними автора: 620 ккал на порцію, Б/Ж/В 41/20/74 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сочевиця червона (немає у словнику); томати свіжі (немає у словнику).

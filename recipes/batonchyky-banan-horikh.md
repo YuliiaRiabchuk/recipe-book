@@ -16,8 +16,10 @@ ingredients:
   - { name: волоські горіхи, qty: 80, unit: г, note: "" }
   - { name: мед, qty: 50, unit: г, note: "або сироп еритритолу" }
 photo: img/batonchyky-banan-horikh.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 196, protein: 5.0, fat: 8.2, carbs: 27.7 }
+nutrition_per_100g: { kcal: 326, protein: 8.4, fat: 13.7, carbs: 46.2 }
+cooked_g_est: 480
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

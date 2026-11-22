@@ -22,8 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tomatno-sochevychnyi-krem-sup-z-kurkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 293, protein: 37.4, fat: 9.4, carbs: 13.2 }
+nutrition_per_100g: { kcal: 47, protein: 6.0, fat: 1.5, carbs: 2.1 }
+cooked_g_est: 621
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Паприку й кумин можна зробити яскравішими за смаком; за бажанням додай дрібку чилі.
 - За даними автора: 540 ккал на порцію, Б/Ж/В 56/9/61 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано червона сочевиця (немає у словнику); томати (немає у словнику).

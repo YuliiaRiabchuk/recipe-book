@@ -20,8 +20,10 @@ ingredients:
   - { name: мед, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/shpazhky-z-khalumi-abrykosom-i-miatoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 47, protein: 0.8, fat: 3.2, carbs: 4.7 }
+nutrition_per_100g: { kcal: 113, protein: 1.9, fat: 7.6, carbs: 11.3 }
+cooked_g_est: 42
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 383 ккал на порцію, Б/Ж/В 21/25/23 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано халумі (немає у словнику); абрикоси (немає у словнику); м'ята (немає у словнику).

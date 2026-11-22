@@ -23,8 +23,11 @@ ingredients:
   - { name: паприка, qty: 2, unit: г, note: "" }
   - { name: чилі, qty: 1, unit: г, note: "за бажанням" }
 photo: img/midii-v-tomatnomu-sousi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 111, protein: 1.2, fat: 8.1, carbs: 9.6 }
+nutrition_per_100g: { kcal: 114, protein: 1.2, fat: 8.4, carbs: 9.9 }
+cooked_g_est: 97
+nutrition_status: частковий
+nutrition_notes: ["олія для смаження: враховано 8 г із 10 г"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +44,4 @@ added: 2026-11-15
 - P.S. Для більшої ситності подавай з броколі (250 г на парі) або з кабачком (250 г, смажити на сковороді 6–7 хв).
 - За даними автора: 391 ккал на порцію, Б/Ж/В 31/16/30 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мідії (немає у словнику); томати (немає у словнику); петрушка (немає у словнику); чилі (немає у словнику).

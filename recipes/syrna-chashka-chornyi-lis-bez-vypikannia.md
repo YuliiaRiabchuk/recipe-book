@@ -21,8 +21,10 @@ ingredients:
   - { name: вода, qty: 10, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/syrna-chashka-chornyi-lis-bez-vypikannia.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 328, protein: 23.1, fat: 8.7, carbs: 44.9 }
+nutrition_per_100g: { kcal: 93, protein: 6.5, fat: 2.5, carbs: 12.7 }
+cooked_g_est: 354
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

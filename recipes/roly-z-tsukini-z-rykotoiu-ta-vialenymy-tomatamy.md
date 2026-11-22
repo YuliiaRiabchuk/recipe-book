@@ -22,8 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/roly-z-tsukini-z-rykotoiu-ta-vialenymy-tomatamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 75, protein: 3.7, fat: 5.9, carbs: 2.4 }
+nutrition_per_100g: { kcal: 198, protein: 9.7, fat: 15.5, carbs: 6.3 }
+cooked_g_est: 38
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Тости, роли та мінісендвічі.
 - За даними автора: 263 ккал на порцію, Б/Ж/В 18/13/21 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цукіні (немає у словнику); рикота (немає у словнику); вʼялені томати (немає у словнику); сушений часник (немає у словнику).

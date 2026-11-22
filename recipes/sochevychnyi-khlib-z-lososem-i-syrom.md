@@ -19,8 +19,10 @@ ingredients:
   - { name: лосось слабосолений, qty: 40, unit: г, note: "" }
   - { name: цибуля червона, qty: 10, unit: г, note: "" }
 photo: img/sochevychnyi-khlib-z-lososem-i-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 85, protein: 8.5, fat: 3.7, carbs: 4.5 }
+nutrition_per_100g: { kcal: 95, protein: 9.4, fat: 4.1, carbs: 5.0 }
+cooked_g_est: 90
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Порція 180 г: 282 ккал. Підготовка 5 хв, приготування 5 хв.
 - За даними автора: 155 ккал на 100 г, Б/Ж/В 13.4/7.5/8.5 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сочевичний хліб (немає у словнику); кріп свіжий (немає у словнику); лосось слабосолений (немає у словнику).

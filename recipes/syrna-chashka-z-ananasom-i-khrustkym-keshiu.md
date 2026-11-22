@@ -20,8 +20,10 @@ ingredients:
   - { name: сік лайма, qty: 4, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/syrna-chashka-z-ananasom-i-khrustkym-keshiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 371, protein: 24.2, fat: 14.4, carbs: 40.2 }
+nutrition_per_100g: { kcal: 114, protein: 7.4, fat: 4.4, carbs: 12.3 }
+cooked_g_est: 326
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

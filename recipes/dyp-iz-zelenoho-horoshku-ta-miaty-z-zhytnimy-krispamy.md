@@ -22,8 +22,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: житні кріспи, qty: 35, unit: г, note: "" }
 photo: img/dyp-iz-zelenoho-horoshku-ta-miaty-z-zhytnimy-krispamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 173, protein: 10.9, fat: 5.8, carbs: 20.2 }
+nutrition_per_100g: { kcal: 94, protein: 5.9, fat: 3.1, carbs: 10.9 }
+cooked_g_est: 185
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 340 ккал на порцію, Б/Ж/В 18/10/47 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фета (немає у словнику); м’ята (немає у словнику); житні кріспи (немає у словнику).

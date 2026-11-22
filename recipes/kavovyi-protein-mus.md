@@ -17,8 +17,10 @@ ingredients:
   - { name: какао-порошок, qty: 3, unit: г, note: "" }
   - { name: кокосові вершки, qty: 20, unit: г, note: "24%, для подачі" }
 photo: img/kavovyi-protein-mus.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 108, protein: 15.1, fat: 0.8, carbs: 11.1 }
+nutrition_per_100g: { kcal: 75, protein: 10.5, fat: 0.6, carbs: 7.7 }
+cooked_g_est: 143
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Муси і креми в склянках.
 - За даними автора: 329 ккал на порцію, Б/Ж/В 43/14/10 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано казеїн ванільний (немає у словнику); кава міцна (немає у словнику); кокосові вершки (немає у словнику).

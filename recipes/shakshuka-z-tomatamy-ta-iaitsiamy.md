@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 31"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: чорний мелений перець, qty: 0.12, unit: ч.л., note: "за бажанням" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "5–10 г, петрушка або кінза, за бажанням" }
 photo: img/shakshuka-z-tomatamy-ta-iaitsiamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 290, protein: 14.9, fat: 20.1, carbs: 13.8 }
+nutrition_per_100g: { kcal: 81, protein: 4.2, fat: 5.6, carbs: 3.8 }
+cooked_g_est: 359
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Сніданки з яєць.
 - За даними автора: 317 ккал на порцію, Б/Ж/В 17/21/15 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кумин мелений (немає у словнику); чорний мелений перець (немає у словнику); свіжа зелень (немає у словнику).

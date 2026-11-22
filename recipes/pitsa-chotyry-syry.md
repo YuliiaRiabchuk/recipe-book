@@ -16,8 +16,10 @@ ingredients:
   - { name: моцарела, qty: 50, unit: г, note: "20%" }
   - { name: чедер, qty: 40, unit: г, note: "30%" }
   - { name: сир із блакитною пліснявою, qty: 30, unit: г, note: "30%" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 19, protein: 1.4, fat: 1.4, carbs: 0.1 }
+nutrition_per_100g: { kcal: 332, protein: 24.6, fat: 24.6, carbs: 2.7 }
+cooked_g_est: 45
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Вихід 350 г, на 8 порцій по 44 г (106 ккал на порцію).
 - За даними автора: 241 ккал на 100 г, Б/Ж/В 17.3/16.4/4.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано основа з цвітної капусти (немає у словнику); зернистий сир (немає у словнику); чедер (немає у словнику); сир із блакитною пліснявою (немає у словнику).

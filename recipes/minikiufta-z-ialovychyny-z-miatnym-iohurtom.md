@@ -27,8 +27,11 @@ ingredients:
   - { name: часник, qty: 1, unit: г, note: "для соусу" }
   - { name: сіль, qty: null, unit: "", note: "за смаком, для соусу" }
 photo: img/minikiufta-z-ialovychyny-z-miatnym-iohurtom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 301, protein: 31.7, fat: 16.4, carbs: 4.9 }
+nutrition_per_100g: { kcal: 163, protein: 17.1, fat: 8.9, carbs: 2.7 }
+cooked_g_est: 185
+nutrition_status: частковий
+nutrition_notes: ["яловичий фарш: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 336 ккал на порцію, Б/Ж/В 32/19/10 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано петрушка (немає у словнику); мелений коріандр (немає у словнику); томати черрі (немає у словнику); мʼята (немає у словнику).

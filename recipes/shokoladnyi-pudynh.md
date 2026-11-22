@@ -16,8 +16,10 @@ ingredients:
   - { name: еритритол, qty: 40, unit: г, note: "" }
   - { name: кукурудзяний крохмаль, qty: 15, unit: г, note: "" }
 photo: img/shokoladnyi-pudynh.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 69, protein: 4.0, fat: 2.5, carbs: 11.4 }
+nutrition_per_100g: { kcal: 89, protein: 5.1, fat: 3.2, carbs: 14.7 }
+cooked_g_est: 310
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Десерти з підсолоджувачем.
 - За даними автора: 77 ккал на порцію, Б/Ж/В 3.2/3/8.1 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано еритритол (немає у словнику).

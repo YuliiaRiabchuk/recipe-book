@@ -24,8 +24,10 @@ ingredients:
   - { name: мед, qty: 4, unit: г, note: "для соусу" }
   - { name: лимонний сік, qty: 5, unit: г, note: "для соусу" }
 photo: img/shpazhky-z-indychkoiu-vynohradom-i-seleroiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 241, protein: 35.7, fat: 7.7, carbs: 6.0 }
+nutrition_per_100g: { kcal: 147, protein: 21.8, fat: 4.7, carbs: 3.7 }
+cooked_g_est: 164
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 302 ккал на порцію, Б/Ж/В 37/6/28 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано виноград (немає у словнику); стебла селери (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику); діжонська гірчиця (немає у словнику).

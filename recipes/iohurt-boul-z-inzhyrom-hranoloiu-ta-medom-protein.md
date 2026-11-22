@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 180"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [швидко, без-випікання, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 7 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: 0.5, unit: г, note: "" }
   - { name: кориця, qty: 0.5, unit: г, note: "" }
 photo: img/iohurt-boul-z-inzhyrom-hranoloiu-ta-medom-protein.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 102, protein: 1.6, fat: 6.5, carbs: 11.3 }
+nutrition_per_100g: { kcal: 443, protein: 6.8, fat: 28.4, carbs: 49.0 }
+cooked_g_est: 23
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Варіація: замість інжиру малина, чорниця або чорна смородина.
 - За даними автора: 611 ккал на порцію, Б/Ж/В 49/22/74 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано грецький йогурт безлактозний (немає у словнику); інжир (немає у словнику); гранола (немає у словнику); протеїн (немає у словнику); ваніль (немає у словнику).

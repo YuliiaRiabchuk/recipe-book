@@ -23,8 +23,10 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/teplyi-salat-indychka-hryby-shpynat.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 380, protein: 50.2, fat: 13.7, carbs: 18.0 }
+nutrition_per_100g: { kcal: 67, protein: 8.9, fat: 2.4, carbs: 3.2 }
+cooked_g_est: 566
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Йогурт додавай після зниження температури: тоді соус виходить ніжним і не згортається.
 - За даними автора: 458 ккал на порцію, Б/Ж/В 57/17/21 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано йогурт грецький (немає у словнику); петрушка (немає у словнику).

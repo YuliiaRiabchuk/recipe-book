@@ -23,8 +23,10 @@ ingredients:
   - { name: пластівці чилі, qty: 0.2, unit: г, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/nori-roly-z-krevetkamy-manho-ta-laimovym-iohurtom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 251, protein: 29.9, fat: 6.4, carbs: 21.3 }
+nutrition_per_100g: { kcal: 71, protein: 8.4, fat: 1.8, carbs: 6.0 }
+cooked_g_est: 356
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 246 ккал на порцію, Б/Ж/В 29/5/24 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано листи норі (немає у словнику); пластівці чилі (немає у словнику).

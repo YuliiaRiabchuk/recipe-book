@@ -5,7 +5,8 @@ source:
   type: pdf
   name: Корисна випічка і десерти (оновлення листопад) (Андрій Маковецький)
   ref: "с. 62"
-category: складові
+category: основи
+subcategory: тісто
 tags: [вегетаріанське, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }
@@ -17,8 +18,10 @@ ingredients:
   - { name: яйце, qty: 1, unit: шт, note: "50 г" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/tsilnozernove-tisto-z-vysivkamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 825, protein: 26.1, fat: 36.1, carbs: 108.3 }
+nutrition_per_100g: { kcal: 306, protein: 9.7, fat: 13.4, carbs: 40.1 }
+cooked_g_est: 270
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +37,4 @@ added: 2026-11-15
 - На форму Ø 26 см; вихід 270 г (794 ккал). Підготовка 8 хв, випікання 22 хв.
 - За даними автора: 294 ккал на 100 г, Б/Ж/В 10.2/13.4/31.6 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано висівки пшеничні (немає у словнику).

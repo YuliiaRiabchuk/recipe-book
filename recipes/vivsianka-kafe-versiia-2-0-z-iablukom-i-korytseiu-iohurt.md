@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 171"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [швидко, вегетаріанське, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: грецький йогурт, qty: 150, unit: г, note: "" }
   - { name: горіхи, qty: 10, unit: г, note: "" }
 photo: img/vivsianka-kafe-versiia-2-0-z-iablukom-i-korytseiu-iohurt.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 600, protein: 27.1, fat: 20.6, carbs: 81.8 }
+nutrition_per_100g: { kcal: 104, protein: 4.7, fat: 3.6, carbs: 14.2 }
+cooked_g_est: 577
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Варіація: замість яблука взяти грушу.
 - За даними автора: 675 ккал на порцію, Б/Ж/В 21/32/80 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано вершкове масло або олія (немає у словнику).

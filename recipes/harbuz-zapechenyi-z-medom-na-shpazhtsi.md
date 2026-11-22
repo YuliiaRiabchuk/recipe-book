@@ -16,8 +16,10 @@ ingredients:
   - { name: гарбузове насіння, qty: 10, unit: г, note: "" }
   - { name: кориця, qty: 1, unit: дрібка, note: "" }
 photo: img/harbuz-zapechenyi-z-medom-na-shpazhtsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 132, protein: 5.0, fat: 5.1, carbs: 20.7 }
+nutrition_per_100g: { kcal: 67, protein: 2.6, fat: 2.6, carbs: 10.5 }
+cooked_g_est: 196
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

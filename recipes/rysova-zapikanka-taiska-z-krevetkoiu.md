@@ -26,8 +26,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: зелень, qty: 5, unit: г, note: "5–10 г" }
 photo: img/rysova-zapikanka-taiska-z-krevetkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 536, protein: 11.9, fat: 21.5, carbs: 75.6 }
+nutrition_per_100g: { kcal: 109, protein: 2.4, fat: 4.4, carbs: 15.3 }
+cooked_g_est: 493
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Розділ книги: Ситні запечені обіди.
 - За даними автора: 664 ккал на порцію, Б/Ж/В 36/25/78 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано креветки очищені (немає у словнику).

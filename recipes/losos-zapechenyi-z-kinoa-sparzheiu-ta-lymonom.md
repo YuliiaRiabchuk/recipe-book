@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/losos-zapechenyi-z-kinoa-sparzheiu-ta-lymonom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 94, protein: 4.5, fat: 5.3, carbs: 10.3 }
+nutrition_per_100g: { kcal: 49, protein: 2.3, fat: 2.8, carbs: 5.4 }
+cooked_g_est: 191
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Розділ книги: Риба та морепродукти.
 - За даними автора: 589 ккал на порцію, Б/Ж/В 37/29/47 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано філе лосося (немає у словнику); кіноа (немає у словнику); кунжутна олія (немає у словнику); петрушка (немає у словнику); діжонська гірчиця (немає у словнику).

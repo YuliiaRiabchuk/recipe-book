@@ -21,8 +21,10 @@ ingredients:
   - { name: еритритол, qty: 10, unit: г, note: "підсолоджувач" }
   - { name: кориця мелена, qty: 1, unit: г, note: "" }
 photo: img/iabluchnyi-tart-karamel-lait.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 292, protein: 14.2, fat: 8.1, carbs: 43.5 }
+nutrition_per_100g: { kcal: 289, protein: 14.1, fat: 8.0, carbs: 43.1 }
+cooked_g_est: 101
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Тарти.
 - За даними автора: 422 ккал на порцію, Б/Ж/В 26.6/10.1/59.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн без ароматизаторів (немає у словнику); йогурт густий (немає у словнику); яблука (немає у словнику); еритритол (немає у словнику); кориця мелена (немає у словнику).

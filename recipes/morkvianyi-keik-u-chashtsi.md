@@ -17,8 +17,10 @@ ingredients:
   - { name: кориця, qty: 2, unit: г, note: "" }
   - { name: мед, qty: 10, unit: г, note: "або підсолоджувач" }
 photo: img/morkvianyi-keik-u-chashtsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 244, protein: 10.9, fat: 6.9, carbs: 35.6 }
+nutrition_per_100g: { kcal: 167, protein: 7.5, fat: 4.7, carbs: 24.4 }
+cooked_g_est: 146
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

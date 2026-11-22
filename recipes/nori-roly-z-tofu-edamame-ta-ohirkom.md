@@ -24,8 +24,10 @@ ingredients:
   - { name: імбир, qty: 2, unit: г, note: "" }
   - { name: пластівці чилі, qty: 0.2, unit: г, note: "" }
 photo: img/nori-roly-z-tofu-edamame-ta-ohirkom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 248, protein: 21.6, fat: 12.3, carbs: 18.0 }
+nutrition_per_100g: { kcal: 96, protein: 8.3, fat: 4.8, carbs: 7.0 }
+cooked_g_est: 259
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 352 ккал на порцію, Б/Ж/В 28/18/25 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано листи норі (немає у словнику); едамаме (немає у словнику); кунжутна олія (немає у словнику); рисовий оцет (немає у словнику); пластівці чилі (немає у словнику).

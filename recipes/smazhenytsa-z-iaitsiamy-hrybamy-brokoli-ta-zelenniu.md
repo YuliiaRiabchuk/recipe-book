@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 58"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, швидко, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/smazhenytsa-z-iaitsiamy-hrybamy-brokoli-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 207, protein: 12.4, fat: 11.2, carbs: 20.9 }
+nutrition_per_100g: { kcal: 58, protein: 3.5, fat: 3.1, carbs: 5.8 }
+cooked_g_est: 358
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Розділ книги: Вегетаріанські білкові.
 - За даними автора: 448 ккал на порцію, Б/Ж/В 33/27/23 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано яйце куряче (немає у словнику); петрушка (немає у словнику).

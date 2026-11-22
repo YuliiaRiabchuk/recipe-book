@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 102"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, в-духовці, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "до смаку" }
 photo: img/pitsa-z-iaitsiamy-ta-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 375, protein: 28.2, fat: 26.2, carbs: 7.0 }
+nutrition_per_100g: { kcal: 141, protein: 10.6, fat: 9.9, carbs: 2.6 }
+cooked_g_est: 265
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - P.S.: якщо піта дуже м'яка, підсуш її в духовці 2 хв перед додаванням начинки.
 - За даними автора: 590 ккал на порцію, Б/Ж/В 38/24/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернова піта (немає у словнику); помідори чері (немає у словнику); сушений орегано (немає у словнику).

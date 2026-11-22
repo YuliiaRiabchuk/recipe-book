@@ -22,8 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zhytni-krispy-z-rykotoiu-horoshkom-i-lymonom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 123, protein: 6.5, fat: 5.6, carbs: 12.4 }
+nutrition_per_100g: { kcal: 128, protein: 6.7, fat: 5.8, carbs: 12.9 }
+cooked_g_est: 96
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 344 ккал на порцію, Б/Ж/В 18/12/42 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано житні кріспи (немає у словнику); рикота (немає у словнику); лимонна цедра (немає у словнику); м'ята (немає у словнику).

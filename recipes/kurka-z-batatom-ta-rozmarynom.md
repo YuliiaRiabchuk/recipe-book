@@ -21,8 +21,10 @@ ingredients:
   - { name: паприка, qty: 2, unit: г, note: "" }
   - { name: розмарин, qty: 1, unit: г, note: "" }
 photo: img/kurka-z-batatom-ta-rozmarynom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 93, protein: 0.1, fat: 10.0, carbs: 1.4 }
+nutrition_per_100g: { kcal: 258, protein: 0.2, fat: 27.9, carbs: 3.8 }
+cooked_g_est: 36
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - P.S. Якщо батат карамелізується занадто швидко, зменш температуру до 200°C на останні 10 хв.
 - За даними автора: 551 ккал на порцію, Б/Ж/В 33/23/54 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано курячі стегна (немає у словнику); батат (немає у словнику); червона цибуля (немає у словнику); розмарин (немає у словнику).

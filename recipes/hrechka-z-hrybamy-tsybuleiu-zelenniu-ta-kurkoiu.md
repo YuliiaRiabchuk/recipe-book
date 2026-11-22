@@ -25,8 +25,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/hrechka-z-hrybamy-tsybuleiu-zelenniu-ta-kurkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 384, protein: 35.2, fat: 21.9, carbs: 13.6 }
+nutrition_per_100g: { kcal: 82, protein: 7.5, fat: 4.7, carbs: 2.9 }
+cooked_g_est: 468
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Бобові та зернові як основа.
 - За даними автора: 548 ккал на порцію, Б/Ж/В 48/18/52 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано гречана крупа (немає у словнику); соєвий соус лайт (немає у словнику); петрушка (немає у словнику); чебрець сушений (немає у словнику).

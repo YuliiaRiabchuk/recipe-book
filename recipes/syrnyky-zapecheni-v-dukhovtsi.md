@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 163"
 category: сніданки
-subcategory: поживні
+subcategory: сирники й запіканки
 tags: [вегетаріанське, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }
@@ -18,8 +18,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
   - { name: ваніль або кориця, qty: 0.25, unit: ч.л., note: "за бажанням, без калорій" }
 photo: img/syrnyky-zapecheni-v-dukhovtsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 303, protein: 28.6, fat: 17.4, carbs: 7.1 }
+nutrition_per_100g: { kcal: 119, protein: 11.2, fat: 6.8, carbs: 2.8 }
+cooked_g_est: 255
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 439 ккал на порцію, Б/Ж/В 44/21/20 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); ваніль або кориця (немає у словнику).

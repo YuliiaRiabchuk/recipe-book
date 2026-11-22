@@ -23,8 +23,10 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/perlova-hryby-kurka-odna-skovoroda.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 355, protein: 43.1, fat: 15.0, carbs: 13.7 }
+nutrition_per_100g: { kcal: 74, protein: 9.0, fat: 3.1, carbs: 2.9 }
+cooked_g_est: 479
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Перловка — бюджетний «ресторанний» гарнір, якщо її не переварити.
 - За даними автора: 599 ккал на порцію, Б/Ж/В 51/14/72 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано перлова крупа (немає у словнику); петрушка (немає у словнику).

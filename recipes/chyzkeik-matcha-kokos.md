@@ -18,8 +18,10 @@ ingredients:
   - { name: желатин, qty: 8, unit: г, note: "" }
   - { name: вода, qty: 60, unit: мл, note: "40 мл для желатину й 20 мл для матчі" }
 photo: img/chyzkeik-matcha-kokos.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 205, protein: 4.3, fat: 19.7, carbs: 4.3 }
+nutrition_per_100g: { kcal: 335, protein: 7.0, fat: 32.2, carbs: 7.0 }
+cooked_g_est: 368
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Чізкейки без запікання.
 - За даними автора: 161 ккал на порцію, Б/Ж/В 13/10.3/4.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано матча (немає у словнику); еритритол (немає у словнику).

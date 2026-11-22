@@ -18,8 +18,10 @@ ingredients:
   - { name: желатин, qty: 8, unit: г, note: "" }
   - { name: вода, qty: 40, unit: мл, note: "" }
 photo: img/chyzkeik-manho-laim.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 176, protein: 4.1, fat: 14.5, carbs: 8.8 }
+nutrition_per_100g: { kcal: 186, protein: 4.3, fat: 15.3, carbs: 9.3 }
+cooked_g_est: 568
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Чізкейки без запікання.
 - За даними автора: 80 ккал на порцію, Б/Ж/В 8.5/2.2/7.3 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано еритритол (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 250"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [вегетаріанське, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 18 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/hrechka-z-iaitsiamy-ta-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 778, protein: 34.1, fat: 17.4, carbs: 132.9 }
+nutrition_per_100g: { kcal: 89, protein: 3.9, fat: 2.0, carbs: 15.1 }
+cooked_g_est: 878
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

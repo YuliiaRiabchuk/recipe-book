@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 252"
 category: сніданки
-subcategory: поживні
+subcategory: "лаваш, роли й тортильї"
 tags: [вегетаріанське, швидко, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: чорний перець, qty: 1, unit: г, note: "" }
   - { name: паприка, qty: 2, unit: г, note: "" }
 photo: img/tortylia-z-iaitsiamy-ta-avokado-healthy-breakfast-wrap.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 276, protein: 16.3, fat: 18.5, carbs: 13.0 }
+nutrition_per_100g: { kcal: 84, protein: 5.0, fat: 5.6, carbs: 4.0 }
+cooked_g_est: 328
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 497 ккал на порцію, Б/Ж/В 20/45/49 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тортилья (невідома вага одиниці «шт» (додай --per шт=<г> у confirm)); салат листяний (немає у словнику).

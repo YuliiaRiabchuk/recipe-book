@@ -24,8 +24,10 @@ ingredients:
   - { name: яйце, qty: 0.5, unit: шт, note: "25 г" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tart-z-indychkoiu-ta-hrybamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 263, protein: 9.5, fat: 5.5, carbs: 44.7 }
+nutrition_per_100g: { kcal: 175, protein: 6.4, fat: 3.7, carbs: 29.8 }
+cooked_g_est: 150
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Тарти.
 - За даними автора: 415 ккал на порцію, Б/Ж/В 22.4/17.8/39.6 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано насіння льону мелене (немає у словнику); олія оливкова (немає у словнику); індичка (немає у словнику); йогурт густий (немає у словнику).

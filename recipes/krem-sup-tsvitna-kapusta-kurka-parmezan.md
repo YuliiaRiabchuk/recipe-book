@@ -24,8 +24,10 @@ ingredients:
   - { name: лимон, qty: 10, unit: г, note: "" }
   - { name: зелень, qty: 6, unit: г, note: "" }
 photo: img/krem-sup-tsvitna-kapusta-kurka-parmezan.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 390, protein: 44.8, fat: 14.8, carbs: 21.0 }
+nutrition_per_100g: { kcal: 58, protein: 6.7, fat: 2.2, carbs: 3.1 }
+cooked_g_est: 670
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Пармезан додавай уже в тарілці: так аромат сильніший, а суп не «перегрівається».
 - За даними автора: 430 ккал на порцію, Б/Ж/В 51/15/26 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано йогурт грецький (немає у словнику).

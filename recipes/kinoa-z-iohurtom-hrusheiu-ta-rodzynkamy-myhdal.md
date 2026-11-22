@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 185"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -23,8 +23,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/kinoa-z-iohurtom-hrusheiu-ta-rodzynkamy-myhdal.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 461, protein: 18.5, fat: 20.4, carbs: 58.0 }
+nutrition_per_100g: { kcal: 130, protein: 5.2, fat: 5.8, carbs: 16.4 }
+cooked_g_est: 354
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Варіація: замість родзинок курага, нарізана кубиком 5 мм.
 - За даними автора: 682 ккал на порцію, Б/Ж/В 26/24/97 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кіноа (немає у словнику); вода для кіноа (немає у словнику); ваніль (немає у словнику).

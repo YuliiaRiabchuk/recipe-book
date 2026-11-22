@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 188"
 category: сніданки
-subcategory: солодкі
+subcategory: "йогурт, боули й гранола"
 tags: [швидко, без-випікання, вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 7 }
@@ -20,8 +20,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/boul-pina-kolada-z-ananasom-kokosom-ta-proteinom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 242, protein: 4.4, fat: 14.5, carbs: 28.4 }
+nutrition_per_100g: { kcal: 129, protein: 2.4, fat: 7.7, carbs: 15.1 }
+cooked_g_est: 188
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Варіація: замість ананаса манго.
 - За даними автора: 538 ккал на порцію, Б/Ж/В 41/30/43 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано грецький йогурт безлактозний (немає у словнику); протеїн (немає у словнику); лайм або лимонний сік (немає у словнику); ваніль (немає у словнику).

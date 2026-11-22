@@ -20,8 +20,10 @@ ingredients:
   - { name: темний шоколад, qty: 40, unit: г, note: "85 %" }
   - { name: маршмелоу, qty: null, unit: "", note: "4 шт.; 4–5 шт." }
 photo: img/protein-pechyvo-z-marshmelou.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 87, protein: 2.4, fat: 2.9, carbs: 12.9 }
+nutrition_per_100g: { kcal: 390, protein: 10.9, fat: 13.1, carbs: 57.7 }
+cooked_g_est: 201
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 120 ккал на порцію, Б/Ж/В 7.6/5.1/10 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику); йогурт густий (немає у словнику).

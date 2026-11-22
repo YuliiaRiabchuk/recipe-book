@@ -22,8 +22,10 @@ ingredients:
   - { name: кінза, qty: 5, unit: г, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/shpazhky-z-batatom-chornoiu-kvasoleiu-ta-avokado.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 166, protein: 1.7, fat: 15.8, carbs: 7.6 }
+nutrition_per_100g: { kcal: 173, protein: 1.8, fat: 16.4, carbs: 7.9 }
+cooked_g_est: 96
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 468 ккал на порцію, Б/Ж/В 14/17/70 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано батат (немає у словнику); чорна квасоля (немає у словнику); солодкий перець (немає у словнику); копчена паприка (немає у словнику); мелений кумин (немає у словнику).

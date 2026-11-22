@@ -5,7 +5,8 @@ source:
   type: pdf
   name: Корисна випічка і десерти (оновлення листопад) (Андрій Маковецький)
   ref: "с. 68"
-category: складові
+category: основи
+subcategory: тісто
 tags: [веганське, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -16,8 +17,10 @@ ingredients:
   - { name: вода, qty: 60, unit: мл, note: "тепла" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/rysovo-nutove-tisto.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 163, protein: 0.0, fat: 18.4, carbs: 0.0 }
+nutrition_per_100g: { kcal: 271, protein: 0.0, fat: 30.7, carbs: 0.0 }
+cooked_g_est: 60
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +34,4 @@ added: 2026-11-15
 - Вихід 180 г (596 ккал). Підготовка 5 хв, випікання 5 хв.
 - За даними автора: 331 ккал на 100 г, Б/Ж/В 7.6/11.8/48.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно рисове (немає у словнику); борошно нутове (немає у словнику).

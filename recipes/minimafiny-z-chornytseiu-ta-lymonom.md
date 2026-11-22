@@ -23,8 +23,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/minimafiny-z-chornytseiu-ta-lymonom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 185, protein: 9.4, fat: 11.1, carbs: 12.7 }
+nutrition_per_100g: { kcal: 178, protein: 9.0, fat: 10.7, carbs: 12.3 }
+cooked_g_est: 104
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Мафіни, брауні та корисна випічка.
 - За даними автора: 363 ккал на порцію, Б/Ж/В 15/11/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернове пшеничне борошно (немає у словнику); чорниця (немає у словнику); лимонна цедра (немає у словнику).

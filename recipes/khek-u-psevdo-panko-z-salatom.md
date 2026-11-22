@@ -23,8 +23,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: паприка, qty: 2, unit: г, note: "" }
 photo: img/khek-u-psevdo-panko-z-salatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 323, protein: 11.9, fat: 17.6, carbs: 32.7 }
+nutrition_per_100g: { kcal: 82, protein: 3.0, fat: 4.5, carbs: 8.3 }
+cooked_g_est: 394
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,3 +41,4 @@ added: 2026-11-15
 - Вогонь середній: на сильному крихта горить швидше, ніж готується риба.
 - За даними автора: 499 ккал на порцію, Б/Ж/В 50/18/32 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано хек (немає у словнику); салат-мікс (немає у словнику).

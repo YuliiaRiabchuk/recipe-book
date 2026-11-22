@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 140"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [вегетаріанське, швидко, високобілкове, без-випікання, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: перець чорний, qty: null, unit: "", note: "до смаку" }
 photo: img/boul-iz-kyslomolochnym-syrom-iaitsiamy-avokado-ta-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 530, protein: 37.2, fat: 32.8, carbs: 25.2 }
+nutrition_per_100g: { kcal: 109, protein: 7.6, fat: 6.7, carbs: 5.2 }
+cooked_g_est: 488
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Додавай авокадо безпосередньо перед подаванням, щоб воно зберегло колір і текстуру.
 - За даними автора: 600 ккал на порцію, Б/Ж/В 40/40/23 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано помідори чері (немає у словнику).

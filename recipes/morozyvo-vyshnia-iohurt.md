@@ -16,8 +16,10 @@ ingredients:
   - { name: еритритол, qty: 40, unit: г, note: "" }
   - { name: ванільний екстракт, qty: 2, unit: мл, note: "" }
 photo: img/morozyvo-vyshnia-iohurt.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 65, protein: 4.1, fat: 2.2, carbs: 7.7 }
+nutrition_per_100g: { kcal: 72, protein: 4.5, fat: 2.4, carbs: 8.5 }
+cooked_g_est: 452
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Морозиво та сорбети без цукру.
 - За даними автора: 100 ккал на 100 г, Б/Ж/В 3/1.5/8.6 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано еритритол (немає у словнику).

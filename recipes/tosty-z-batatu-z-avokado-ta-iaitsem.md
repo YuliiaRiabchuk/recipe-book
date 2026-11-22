@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tosty-z-batatu-z-avokado-ta-iaitsem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 187, protein: 7.4, fat: 15.8, carbs: 5.4 }
+nutrition_per_100g: { kcal: 166, protein: 6.5, fat: 14.0, carbs: 4.8 }
+cooked_g_est: 113
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Тости, роли та мінісендвічі.
 - За даними автора: 355 ккал на порцію, Б/Ж/В 11/16/44 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано батат (немає у словнику); томати черрі (немає у словнику); пластівці чилі (немає у словнику).

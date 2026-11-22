@@ -24,8 +24,10 @@ ingredients:
   - { name: італійські трави, qty: 2, unit: г, note: "" }
   - { name: зелень, qty: 5, unit: г, note: "5–10 г" }
 photo: img/zapikanka-hretska-z-baklazhanom-kurkoiu-ta-fetoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 301, protein: 36.2, fat: 10.1, carbs: 16.4 }
+nutrition_per_100g: { kcal: 95, protein: 11.4, fat: 3.2, carbs: 5.2 }
+cooked_g_est: 317
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Розділ книги: Овочеві запіканки з білком.
 - За даними автора: 496 ккал на порцію, Б/Ж/В 50/19/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано баклажан (немає у словнику); фета (немає у словнику); пасата (немає у словнику); італійські трави (немає у словнику).

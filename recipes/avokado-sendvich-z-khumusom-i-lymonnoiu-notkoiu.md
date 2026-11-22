@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 57"
 category: сніданки
-subcategory: поживні
+subcategory: пудинги й чіа
 tags: [вегетаріанське, веганське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: чорний перець, qty: 0.12, unit: ч.л., note: "мелений, за бажанням" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "5–10 г; петрушка або кріп, за бажанням" }
 photo: img/avokado-sendvich-z-khumusom-i-lymonnoiu-notkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 329, protein: 10.2, fat: 19.7, carbs: 31.8 }
+nutrition_per_100g: { kcal: 203, protein: 6.3, fat: 12.2, carbs: 19.6 }
+cooked_g_est: 162
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 362 ккал на порцію, Б/Ж/В 10/16/44 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано свіжа зелень (немає у словнику).

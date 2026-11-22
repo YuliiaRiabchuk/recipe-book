@@ -19,8 +19,10 @@ ingredients:
   - { name: вода, qty: 20, unit: мл, note: "холодна" }
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
 photo: img/lymonnyi-protein-krem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 104, protein: 10.3, fat: 5.0, carbs: 4.7 }
+nutrition_per_100g: { kcal: 85, protein: 8.5, fat: 4.1, carbs: 3.8 }
+cooked_g_est: 244
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 144 ккал на порцію, Б/Ж/В 16/7.8/3.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику); лимонна цедра (немає у словнику).

@@ -17,8 +17,10 @@ ingredients:
   - { name: грецький йогурт, qty: 180, unit: г, note: "10 %" }
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
 photo: img/proteinovyi-makovyi-desert.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 253, protein: 18.9, fat: 15.2, carbs: 11.4 }
+nutrition_per_100g: { kcal: 130, protein: 9.7, fat: 7.8, carbs: 5.8 }
+cooked_g_est: 195
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 347 ккал на порцію, Б/Ж/В 33.1/20.2/9 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано протеїн (немає у словнику); окріп (немає у словнику).

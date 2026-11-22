@@ -6,7 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 3
   ref: "с. 21"
 category: сніданки
-subcategory: солодкі
+subcategory: пудинги й чіа
 tags: [раціон-1550, вегетаріанське, без-випікання, швидко]
 servings: 1
 time: { prep: null, cook: null }

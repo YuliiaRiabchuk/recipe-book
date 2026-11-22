@@ -23,8 +23,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/lymonno-makovi-iohurtovi-keik-baitsy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 191, protein: 9.9, fat: 11.3, carbs: 13.1 }
+nutrition_per_100g: { kcal: 173, protein: 9.0, fat: 10.3, carbs: 11.9 }
+cooked_g_est: 110
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Мафіни, брауні та корисна випічка.
 - За даними автора: 353 ккал на порцію, Б/Ж/В 16/13/48 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернове пшеничне борошно (немає у словнику); насіння маку (немає у словнику); лимонна цедра (немає у словнику).

@@ -16,8 +16,10 @@ ingredients:
   - { name: ванільний екстракт, qty: 2, unit: мл, note: "" }
   - { name: вода, qty: 20, unit: мл, note: "" }
 photo: img/myhdalnyi-martsypan.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1, protein: 0.0, fat: 0.0, carbs: 0.0 }
+nutrition_per_100g: { kcal: 23, protein: 0.0, fat: 0.0, carbs: 1.0 }
+cooked_g_est: 22
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +33,4 @@ added: 2026-11-15
 - Розділ книги: Цукерки.
 - За даними автора: 89 ккал на порцію, Б/Ж/В 3.1/7.9/2.7 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно мигдальне (немає у словнику); еритритол (немає у словнику).

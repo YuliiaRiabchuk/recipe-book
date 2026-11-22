@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tofu-kari-z-nutom-shpynatom-ta-laimom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 611, protein: 57.6, fat: 25.4, carbs: 50.7 }
+nutrition_per_100g: { kcal: 120, protein: 11.3, fat: 5.0, carbs: 9.9 }
+cooked_g_est: 510
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Вегетаріанські білкові.
 - За даними автора: 820 ккал на порцію, Б/Ж/В 47/47/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кокосові вершки (немає у словнику); паста карі жовта (немає у словнику); соняшникова олія (немає у словнику); кунжутна олія (немає у словнику); лайм або лимонний сік (немає у словнику); імбир свіжий (немає у словнику).

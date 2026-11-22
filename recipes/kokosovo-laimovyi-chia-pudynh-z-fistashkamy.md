@@ -21,8 +21,10 @@ ingredients:
   - { name: цедра лайма, qty: 0.5, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/kokosovo-laimovyi-chia-pudynh-z-fistashkamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 482, protein: 15.8, fat: 33.6, carbs: 36.2 }
+nutrition_per_100g: { kcal: 144, protein: 4.7, fat: 10.1, carbs: 10.8 }
+cooked_g_est: 334
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Плюс 2 години на охолодження.
 - За даними автора: 447 ккал на порцію, Б/Ж/В 17/26/40 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фісташки (немає у словнику); цедра лайма (немає у словнику).

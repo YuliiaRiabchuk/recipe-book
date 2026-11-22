@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 133"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [з-рибою, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/salat-boul-losos-iaitse-avokado-bez-khliba.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 463, protein: 24.8, fat: 36.6, carbs: 11.1 }
+nutrition_per_100g: { kcal: 149, protein: 8.0, fat: 11.8, carbs: 3.6 }
+cooked_g_est: 311
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Розділ книги: Поживні сніданки.
 - За даними автора: 736 ккал на порцію, Б/Ж/В 38/41/59 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кіноа суміш (немає у словнику); мікс салату (немає у словнику); помідори чері (немає у словнику).

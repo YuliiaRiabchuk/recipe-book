@@ -20,8 +20,10 @@ ingredients:
   - { name: кунжут, qty: 3, unit: г, note: "" }
   - { name: зелена цибуля, qty: 5, unit: г, note: "" }
 photo: img/beigl-iz-zelenoiu-tsybuleiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 219, protein: 6.3, fat: 2.0, carbs: 43.0 }
+nutrition_per_100g: { kcal: 231, protein: 6.6, fat: 2.1, carbs: 45.3 }
+cooked_g_est: 95
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Порція 100 г: 224 ккал. Приготування 1 год 9 хв, випікання 18 хв.
 - За даними автора: 224 ккал на 100 г, Б/Ж/В 7.4/2.4/42.5 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано висівки (немає у словнику); дріжджі сухі (немає у словнику).

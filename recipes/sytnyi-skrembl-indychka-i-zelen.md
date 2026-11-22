@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 23"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [з-птицею, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sytnyi-skrembl-indychka-i-zelen.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 357, protein: 42.7, fat: 18.8, carbs: 2.5 }
+nutrition_per_100g: { kcal: 167, protein: 20.1, fat: 8.8, carbs: 1.2 }
+cooked_g_est: 213
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

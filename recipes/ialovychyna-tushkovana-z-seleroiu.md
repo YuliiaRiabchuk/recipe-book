@@ -25,8 +25,10 @@ ingredients:
   - { name: часник, qty: 3, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/ialovychyna-tushkovana-z-seleroiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 440, protein: 42.4, fat: 20.8, carbs: 23.3 }
+nutrition_per_100g: { kcal: 81, protein: 7.8, fat: 3.8, carbs: 4.3 }
+cooked_g_est: 543
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - P.S. Ідеальна вечеря на 2 порції: зроби подвійний об’єм, і завтра буде готова корисна їжа.
 - За даними автора: 555 ккал на порцію, Б/Ж/В 55/22/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано томати (немає у словнику); петрушка (немає у словнику).

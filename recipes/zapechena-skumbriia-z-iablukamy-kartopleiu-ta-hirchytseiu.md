@@ -23,8 +23,9 @@ ingredients:
   - { name: сіль, qty: 1.25, unit: г, note: "" }
   - { name: перець чорний, qty: 0.1, unit: г, note: "" }
 photo: img/zapechena-skumbriia-z-iablukamy-kartopleiu-ta-hirchytseiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 213, protein: 5.1, fat: 4.1, carbs: 40.8 }
+nutrition_per_100g: { kcal: 45, protein: 1.1, fat: 0.9, carbs: 8.6 }
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +41,4 @@ added: 2026-11-15
 - Вихід — близько 475 г на порцію.
 - За даними автора: 561 ккал на порцію, Б/Ж/В 31.3/23.7/55.6 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано скумбрія (немає у словнику); яблука (немає у словнику); чебрець сушений (немає у словнику).

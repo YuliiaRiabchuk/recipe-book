@@ -17,8 +17,10 @@ ingredients:
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
   - { name: кардамон, qty: 1, unit: дрібка, note: "мелений, за бажанням" }
 photo: img/fistashkovyi-krem-desert.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 97, protein: 9.0, fat: 5.0, carbs: 4.0 }
+nutrition_per_100g: { kcal: 97, protein: 9.0, fat: 5.0, carbs: 4.0 }
+cooked_g_est: 200
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Десерти без запікання.
 - За даними автора: 213 ккал на порцію, Б/Ж/В 9.6/17.5/6.8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фісташки (немає у словнику); ваніль (немає у словнику); кардамон (немає у словнику).

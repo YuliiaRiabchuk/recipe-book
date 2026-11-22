@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/lystky-romano-z-tuntsem-biloiu-kvasoleiu-ta-tomatamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 46, protein: 0.4, fat: 4.1, carbs: 2.7 }
+nutrition_per_100g: { kcal: 65, protein: 0.6, fat: 5.8, carbs: 3.7 }
+cooked_g_est: 71
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Листки салату, норі та спрінг-роли.
 - За даними автора: 226 ккал на порцію, Б/Ж/В 27/5/20 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано тунець у власному соку (немає у словнику); біла квасоля (немає у словнику); листя салату романо (немає у словнику); томати черрі (немає у словнику); червона цибуля (немає у словнику); петрушка (немає у словнику).

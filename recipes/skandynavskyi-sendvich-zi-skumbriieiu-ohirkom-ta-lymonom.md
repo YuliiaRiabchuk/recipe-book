@@ -18,8 +18,10 @@ ingredients:
   - { name: лимонний сік, qty: 10, unit: г, note: "2 ч.л." }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/skandynavskyi-sendvich-zi-skumbriieiu-ohirkom-ta-lymonom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 194, protein: 7.9, fat: 2.7, carbs: 36.0 }
+nutrition_per_100g: { kcal: 84, protein: 3.4, fat: 1.2, carbs: 15.7 }
+cooked_g_est: 230
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +33,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 372 ккал на порцію, Б/Ж/В 27/12/39 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сардини або скумбрія консервовані (немає у словнику).

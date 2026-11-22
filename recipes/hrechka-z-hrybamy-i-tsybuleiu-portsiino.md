@@ -16,8 +16,10 @@ ingredients:
   - { name: цибуля, qty: 0.5, unit: шт, note: "" }
   - { name: олія, qty: 5, unit: мл, note: "" }
 photo: img/hrechka-z-hrybamy-i-tsybuleiu-portsiino.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 604, protein: 21.3, fat: 9.1, carbs: 120.8 }
+nutrition_per_100g: { kcal: 103, protein: 3.6, fat: 1.5, carbs: 20.6 }
+cooked_g_est: 586
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

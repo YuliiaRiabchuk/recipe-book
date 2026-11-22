@@ -25,8 +25,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: дрібка, note: "для песто" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 86, protein: 5.4, fat: 6.8, carbs: 1.1 }
+nutrition_per_100g: { kcal: 260, protein: 16.4, fat: 20.6, carbs: 3.4 }
+cooked_g_est: 264
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Вихід 445 г, на 8 порцій по 56 г (155 ккал на порцію).
 - За даними автора: 279 ккал на 100 г, Б/Ж/В 19.5/16/10.8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано основа висококлітковинна (немає у словнику); томати (немає у словнику).

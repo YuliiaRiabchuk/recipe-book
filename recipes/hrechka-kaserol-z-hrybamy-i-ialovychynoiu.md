@@ -24,8 +24,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: зелень, qty: 5, unit: г, note: "5–10 г" }
 photo: img/hrechka-kaserol-z-hrybamy-i-ialovychynoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 763, protein: 54.7, fat: 35.4, carbs: 64.3 }
+nutrition_per_100g: { kcal: 125, protein: 8.9, fat: 5.8, carbs: 10.5 }
+cooked_g_est: 612
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

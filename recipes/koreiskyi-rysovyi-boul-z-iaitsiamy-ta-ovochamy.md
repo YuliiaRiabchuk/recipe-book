@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 255"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [вегетаріанське, швидко, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/koreiskyi-rysovyi-boul-z-iaitsiamy-ta-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 748, protein: 27.1, fat: 16.5, carbs: 121.9 }
+nutrition_per_100g: { kcal: 98, protein: 3.6, fat: 2.2, carbs: 16.0 }
+cooked_g_est: 760
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

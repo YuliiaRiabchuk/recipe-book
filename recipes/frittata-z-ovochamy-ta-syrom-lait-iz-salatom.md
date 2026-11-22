@@ -25,8 +25,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: паприка, qty: null, unit: "", note: "або орегано; за смаком" }
 photo: img/frittata-z-ovochamy-ta-syrom-lait-iz-salatom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 414, protein: 29.1, fat: 27.3, carbs: 14.2 }
+nutrition_per_100g: { kcal: 89, protein: 6.2, fat: 5.9, carbs: 3.0 }
+cooked_g_est: 467
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Середземноморські та «кафешні».
 - За даними автора: 491 ккал на порцію, Б/Ж/В 36/30/22 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано перець солодкий (немає у словнику); помідори чері (немає у словнику).

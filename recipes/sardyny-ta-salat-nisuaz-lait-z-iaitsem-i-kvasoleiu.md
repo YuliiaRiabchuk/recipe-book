@@ -28,8 +28,10 @@ ingredients:
   - { name: цибуля червона, qty: 25, unit: г, note: "за бажанням" }
   - { name: оливки, qty: 25, unit: г, note: "за бажанням" }
 photo: img/sardyny-ta-salat-nisuaz-lait-z-iaitsem-i-kvasoleiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 344, protein: 15.2, fat: 6.0, carbs: 60.8 }
+nutrition_per_100g: { kcal: 72, protein: 3.2, fat: 1.3, carbs: 12.8 }
+cooked_g_est: 476
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Розділ книги: Риба та морепродукти.
 - За даними автора: 680 ккал на порцію, Б/Ж/В 53/23/70 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано сардини консервовані у власному соку (немає у словнику); яйце куряче (немає у словнику); квасоля стручкова (немає у словнику); петрушка (немає у словнику); гірчиця українська (немає у словнику); оливки (немає у словнику).

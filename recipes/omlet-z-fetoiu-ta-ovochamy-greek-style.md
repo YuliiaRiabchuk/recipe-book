@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 245"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, швидко, на-сковороді, без-глютену, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: чорний перець, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 1, unit: г, note: "" }
 photo: img/omlet-z-fetoiu-ta-ovochamy-greek-style.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 338, protein: 21.3, fat: 21.7, carbs: 16.1 }
+nutrition_per_100g: { kcal: 71, protein: 4.5, fat: 4.6, carbs: 3.4 }
+cooked_g_est: 477
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

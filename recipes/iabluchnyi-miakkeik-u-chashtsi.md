@@ -16,8 +16,10 @@ ingredients:
   - { name: кориця, qty: 2, unit: г, note: "" }
   - { name: мед, qty: 10, unit: г, note: "або підсолоджувач" }
 photo: img/iabluchnyi-miakkeik-u-chashtsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 196, protein: 4.2, fat: 2.1, carbs: 42.4 }
+nutrition_per_100g: { kcal: 153, protein: 3.3, fat: 1.7, carbs: 33.1 }
+cooked_g_est: 128
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

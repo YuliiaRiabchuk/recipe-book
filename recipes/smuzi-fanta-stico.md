@@ -17,8 +17,10 @@ ingredients:
   - { name: мінеральна газована вода, qty: 50, unit: мл, note: "50–100 мл; можна звичайну газовану, рослинне молоко, кокосову чи звичайну воду" }
   - { name: лимонний сік, qty: null, unit: "", note: "або лаймовий, за смаком" }
 photo: img/smuzi-fanta-stico.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 116, protein: 1.8, fat: 0.3, carbs: 29.7 }
+nutrition_per_100g: { kcal: 52, protein: 0.8, fat: 0.1, carbs: 13.4 }
+cooked_g_est: 222
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Смузі.
 - За даними автора: 245 ккал на порцію, Б/Ж/В 4/1/55 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано нектарин (немає у словнику); мінеральна газована вода (немає у словнику).

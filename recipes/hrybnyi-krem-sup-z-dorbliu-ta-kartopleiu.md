@@ -20,8 +20,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/hrybnyi-krem-sup-z-dorbliu-ta-kartopleiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 343, protein: 16.1, fat: 10.4, carbs: 51.9 }
+nutrition_per_100g: { kcal: 41, protein: 1.9, fat: 1.2, carbs: 6.2 }
+cooked_g_est: 841
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

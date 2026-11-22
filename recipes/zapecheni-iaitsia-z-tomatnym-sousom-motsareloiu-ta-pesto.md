@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 21"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 18 }
@@ -25,8 +25,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: чилі пластівці, qty: 0.3, unit: г, note: "" }
 photo: img/zapecheni-iaitsia-z-tomatnym-sousom-motsareloiu-ta-pesto.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 394, protein: 25.4, fat: 30.2, carbs: 4.4 }
+nutrition_per_100g: { kcal: 205, protein: 13.2, fat: 15.7, carbs: 2.3 }
+cooked_g_est: 192
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Замість пасати можна взяти дрібно нарізані помідори; підійдуть і мариновані, якщо не надто солоні.
 - За даними автора: 550 ккал на порцію, Б/Ж/В 32/35/27 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано пасата (немає у словнику); хліб цільнозерновий (немає у словнику); сушений часник (немає у словнику); чилі пластівці (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 96"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з рибою
 tags: [з-рибою, на-сковороді, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -25,8 +25,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/pita-z-oseledtsem-iohurtovo-kropovym-sousom-ta-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 187, protein: 8.4, fat: 12.2, carbs: 14.7 }
+nutrition_per_100g: { kcal: 62, protein: 2.8, fat: 4.0, carbs: 4.9 }
+cooked_g_est: 302
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Варіація: замість оселедця можна взяти печену білу рибу.
 - За даними автора: 645 ккал на порцію, Б/Ж/В 34/35/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернова піта (немає у словнику); філе оселедця (немає у словнику); помідори чері (немає у словнику); сушений часник (немає у словнику).

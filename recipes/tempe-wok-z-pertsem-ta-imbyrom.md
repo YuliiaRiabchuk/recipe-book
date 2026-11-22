@@ -24,8 +24,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: кунжут, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/tempe-wok-z-pertsem-ta-imbyrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 246, protein: 5.6, fat: 13.5, carbs: 30.6 }
+nutrition_per_100g: { kcal: 72, protein: 1.6, fat: 4.0, carbs: 9.0 }
+cooked_g_est: 340
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - P.S. Темпе має щільну структуру, рум’яна скоринка тут реально робить смак набагато кращим.
 - За даними автора: 568 ккал на порцію, Б/Ж/В 38/28/44 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано темпе (немає у словнику).

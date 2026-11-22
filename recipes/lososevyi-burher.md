@@ -18,8 +18,10 @@ ingredients:
   - { name: лимон, qty: 10, unit: г, note: "кілька крапель соку" }
   - { name: листя салату, qty: 15, unit: г, note: "" }
 photo: img/lososevyi-burher.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 192, protein: 18.6, fat: 12.1, carbs: 1.1 }
+nutrition_per_100g: { kcal: 194, protein: 18.8, fat: 12.2, carbs: 1.1 }
+cooked_g_est: 99
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Порція 240 г: 492 ккал. Приготування 5 хв, обсмажування 15 хв.
 - За даними автора: 202 ккал на 100 г, Б/Ж/В 13.2/9/17.3 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано булочка з клітковиною (немає у словнику); йогурт густий (немає у словнику); кріп свіжий (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 237"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }
@@ -27,8 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чилі, qty: null, unit: "", note: "за смаком" }
 photo: img/indiiskyi-pesarattu-z-tofu-iaitsem-ta-ovochamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 218, protein: 20.2, fat: 13.4, carbs: 6.6 }
+nutrition_per_100g: { kcal: 109, protein: 10.1, fat: 6.7, carbs: 3.3 }
+cooked_g_est: 200
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - Плюс 6 годин замочування маша.
 - За даними автора: 385 ккал на порцію, Б/Ж/В 32/13/39 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано маш (немає у словнику); цукіні (немає у словнику); солодкий перець (немає у словнику); м'ята (немає у словнику).

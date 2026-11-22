@@ -20,8 +20,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/popkorn-iz-parmezanom-ta-italiiskymy-travamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 99, protein: 4.3, fat: 8.2, carbs: 2.2 }
+nutrition_per_100g: { kcal: 495, protein: 21.5, fat: 40.9, carbs: 11.2 }
+cooked_g_est: 20
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,3 +36,4 @@ added: 2026-11-15
 - Розділ книги: Хрусткі снеки.
 - За даними автора: 267 ккал на порцію, Б/Ж/В 10/10/34 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кукурудза для попкорну (немає у словнику).

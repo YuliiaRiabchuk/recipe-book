@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 53"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з яйцем
 tags: [вегетаріанське, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: лимонний сік, qty: 0.5, unit: ч.л., note: "за бажанням" }
   - { name: діжонська гірчиця, qty: 0.5, unit: ч.л., note: "за бажанням" }
 photo: img/iaitsia-pashot-na-tosti-z-krem-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 379, protein: 20.3, fat: 23.1, carbs: 22.0 }
+nutrition_per_100g: { kcal: 202, protein: 10.8, fat: 12.3, carbs: 11.7 }
+cooked_g_est: 188
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 439 ккал на порцію, Б/Ж/В 21/20/44 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано овочі до подачі (немає у словнику); сушена цибуля (немає у словнику); діжонська гірчиця (немає у словнику).

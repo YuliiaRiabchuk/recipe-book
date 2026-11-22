@@ -19,8 +19,10 @@ ingredients:
   - { name: пластівці чилі, qty: 0.2, unit: г, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/popkorn-iz-kari-kokosom-i-laimom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 111, protein: 0.7, fat: 11.4, carbs: 2.4 }
+nutrition_per_100g: { kcal: 737, protein: 4.6, fat: 76.0, carbs: 15.8 }
+cooked_g_est: 15
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 281 ккал на порцію, Б/Ж/В 6/14/36 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кукурудза для попкорну (немає у словнику); карі (немає у словнику); цедра лайма (немає у словнику); пластівці чилі (немає у словнику).

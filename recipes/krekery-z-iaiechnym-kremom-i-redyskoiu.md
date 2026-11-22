@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-iaiechnym-kremom-i-redyskoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 178, protein: 15.5, fat: 11.1, carbs: 3.4 }
+nutrition_per_100g: { kcal: 105, protein: 9.1, fat: 6.5, carbs: 2.0 }
+cooked_g_est: 170
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 256 ккал на порцію, Б/Ж/В 18/13/16 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано житні крекери (немає у словнику); редиска (немає у словнику); діжонська гірчиця (немає у словнику); шніт-цибуля (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 55"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [з-мʼясом, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: чорний перець, qty: 0.12, unit: ч.л., note: "мелений, за бажанням" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "кріп або петрушка, за бажанням" }
 photo: img/iaitse-benedykt-sproshchena-versiia.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 313, protein: 22.6, fat: 22.9, carbs: 2.9 }
+nutrition_per_100g: { kcal: 184, protein: 13.3, fat: 13.5, carbs: 1.7 }
+cooked_g_est: 170
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 507 ккал на порцію, Б/Ж/В 30/31/26 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернова булочка (немає у словнику); свіжа зелень (немає у словнику).

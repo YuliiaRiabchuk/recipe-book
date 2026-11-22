@@ -20,8 +20,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-rostbifom-i-hirchychnym-kremom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 13, protein: 0.9, fat: 0.2, carbs: 2.8 }
+nutrition_per_100g: { kcal: 18, protein: 1.2, fat: 0.3, carbs: 3.8 }
+cooked_g_est: 74
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 268 ккал на порцію, Б/Ж/В 27/9/22 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); ростбіф (немає у словнику); вершковий сир (немає у словнику); діжонська гірчиця (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 263"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [з-птицею, в-духовці, на-сковороді, високобілкове, пісне, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -22,8 +22,10 @@ ingredients:
   - { name: оливкова олія, qty: 3, unit: г, note: "" }
   - { name: кунжут, qty: 5, unit: г, note: "" }
 photo: img/taiskyi-boul-z-kurkoiu-ta-zapechenym-tsukini-light.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 686, protein: 40.6, fat: 10.0, carbs: 105.4 }
+nutrition_per_100g: { kcal: 112, protein: 6.6, fat: 1.6, carbs: 17.1 }
+cooked_g_est: 615
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 439 ккал на порцію, Б/Ж/В 39/9/50 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цукіні (немає у словнику).

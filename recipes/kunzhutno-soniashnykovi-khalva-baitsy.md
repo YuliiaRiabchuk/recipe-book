@@ -21,8 +21,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/kunzhutno-soniashnykovi-khalva-baitsy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 603, protein: 18.2, fat: 43.3, carbs: 44.3 }
+nutrition_per_100g: { kcal: 574, protein: 17.3, fat: 41.2, carbs: 42.2 }
+cooked_g_est: 105
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Додатково потрібно 30 хв на охолодження.
 - За даними автора: 662 ккал на порцію, Б/Ж/В 20/48/45 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фісташки (немає у словнику); кардамон (немає у словнику).

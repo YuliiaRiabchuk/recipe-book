@@ -23,8 +23,10 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/teliatyna-z-krem-piure-z-tsvitnoi-kapusty.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 428, protein: 46.7, fat: 18.4, carbs: 21.8 }
+nutrition_per_100g: { kcal: 75, protein: 8.2, fat: 3.2, carbs: 3.8 }
+cooked_g_est: 572
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +43,4 @@ added: 2026-11-15
 - P.S. Щоб пюре було як у ресторані, після блендера протри його через сито (за бажанням).
 - За даними автора: 452 ккал на порцію, Б/Ж/В 46/20/22 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано петрушка (немає у словнику).

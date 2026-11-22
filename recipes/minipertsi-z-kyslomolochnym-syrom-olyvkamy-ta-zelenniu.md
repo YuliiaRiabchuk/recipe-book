@@ -21,8 +21,10 @@ ingredients:
   - { name: сушений орегано, qty: 0.5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/minipertsi-z-kyslomolochnym-syrom-olyvkamy-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 102, protein: 13.3, fat: 1.3, carbs: 8.9 }
+nutrition_per_100g: { kcal: 72, protein: 9.4, fat: 1.0, carbs: 6.3 }
+cooked_g_est: 141
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 234 ккал на порцію, Б/Ж/В 19/10/18 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мініперці (немає у словнику); оливки без кісточок (немає у словнику); петрушка (немає у словнику); сушений орегано (немає у словнику).

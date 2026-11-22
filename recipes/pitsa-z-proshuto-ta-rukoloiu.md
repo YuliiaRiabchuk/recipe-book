@@ -5,7 +5,8 @@ source:
   type: pdf
   name: Корисна випічка і десерти (оновлення листопад) (Андрій Маковецький)
   ref: "с. 84"
-category: складові
+category: випічка
+subcategory: піца й фокача
 tags: [в-духовці, з-мʼясом, хелзі]
 servings: 8
 time: { prep: null, cook: 24 }
@@ -17,8 +18,10 @@ ingredients:
   - { name: легкий томатний соус, qty: 40, unit: г, note: "" }
   - { name: моцарела, qty: 50, unit: г, note: "20%" }
 photo: img/pitsa-z-proshuto-ta-rukoloiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 30, protein: 2.2, fat: 2.1, carbs: 0.6 }
+nutrition_per_100g: { kcal: 265, protein: 19.2, fat: 18.6, carbs: 5.2 }
+cooked_g_est: 90
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +36,4 @@ added: 2026-11-15
 - Розділ книги: Начинки для піци.
 - За даними автора: 104 ккал на порцію, Б/Ж/В 6.2/6.5/3.7 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано основа для піци (немає у словнику); прошуто (немає у словнику); легкий томатний соус (немає у словнику).

@@ -6,7 +6,7 @@ source:
   name: Корисні та смачні вечері. Великий збірник (Андрій Маковецький)
   ref: "с. 81"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [на-сковороді, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/fritata-brokoli-parmezan.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 315, protein: 21.0, fat: 20.0, carbs: 15.4 }
+nutrition_per_100g: { kcal: 109, protein: 7.3, fat: 6.9, carbs: 5.3 }
+cooked_g_est: 290
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - P.S. Білки додають білок без зайвого жиру, ідеально для вечері.
 - За даними автора: 410 ккал на порцію, Б/Ж/В 38/22/16 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано яєчні білки (немає у словнику).

@@ -23,8 +23,10 @@ ingredients:
   - { name: зелена цибуля, qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/nori-roly-z-krabovym-miasom-avokado-ta-morkvoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 199, protein: 6.3, fat: 14.0, carbs: 15.8 }
+nutrition_per_100g: { kcal: 86, protein: 2.7, fat: 6.0, carbs: 6.9 }
+cooked_g_est: 231
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 348 ккал на порцію, Б/Ж/В 14/17/39 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано листи норі (немає у словнику); крабове мʼясо (немає у словнику); діжонська гірчиця (немає у словнику).

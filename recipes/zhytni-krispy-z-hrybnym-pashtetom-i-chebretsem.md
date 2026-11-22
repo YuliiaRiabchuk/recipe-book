@@ -22,8 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zhytni-krispy-z-hrybnym-pashtetom-i-chebretsem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 162, protein: 7.1, fat: 12.4, carbs: 9.9 }
+nutrition_per_100g: { kcal: 90, protein: 4.0, fat: 6.9, carbs: 5.5 }
+cooked_g_est: 179
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,3 +38,4 @@ added: 2026-11-15
 - Розділ книги: Крекери, хлібці та хрусткі основи.
 - За даними автора: 246 ккал на порцію, Б/Ж/В 10/13/47 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано житні цільнозернові кріспи (немає у словнику); чебрець (немає у словнику).

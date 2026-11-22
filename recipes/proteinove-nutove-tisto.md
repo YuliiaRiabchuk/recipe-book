@@ -5,7 +5,8 @@ source:
   type: pdf
   name: Корисна випічка і десерти (оновлення листопад) (Андрій Маковецький)
   ref: "с. 66"
-category: складові
+category: основи
+subcategory: тісто
 tags: [високобілкове, без-лактози, хелзі]
 servings: 1
 time: { prep: null, cook: 22 }
@@ -16,8 +17,10 @@ ingredients:
   - { name: оливкова олія, qty: 20, unit: мл, note: "" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/proteinove-nutove-tisto.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 163, protein: 0.0, fat: 18.4, carbs: 0.0 }
+nutrition_per_100g: { kcal: 271, protein: 0.0, fat: 30.7, carbs: 0.0 }
+cooked_g_est: 60
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +35,4 @@ added: 2026-11-15
 - Вихід 200 г (604 ккал). Підготовка 5 хв, випікання 17 хв.
 - За даними автора: 302 ккал на 100 г, Б/Ж/В 19/12.5/29 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано борошно нутове (немає у словнику); протеїн (немає у словнику).

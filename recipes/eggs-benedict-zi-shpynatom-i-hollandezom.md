@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 41"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [вегетаріанське, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 10 }
@@ -23,8 +23,10 @@ ingredients:
   - { name: лимонний сік, qty: 2, unit: ч.л., note: "10 г, для соусу" }
   - { name: гірчиця, qty: 0.5, unit: ч.л., note: "3 г, для соусу" }
 photo: img/eggs-benedict-zi-shpynatom-i-hollandezom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 260, protein: 20.8, fat: 17.1, carbs: 4.6 }
+nutrition_per_100g: { kcal: 137, protein: 10.9, fat: 9.0, carbs: 2.4 }
+cooked_g_est: 190
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,3 +44,4 @@ added: 2026-11-15
 - Розділ книги: Яєчні сніданки.
 - За даними автора: 500 ккал на порцію, Б/Ж/В 30/20/39 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано англійський мафін цільнозерновий (немає у словнику); шпинат свіжий (немає у словнику).

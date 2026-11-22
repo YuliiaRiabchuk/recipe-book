@@ -25,8 +25,10 @@ ingredients:
   - { name: мед, qty: 3, unit: г, note: "для соусу" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sprinh-roly-z-lososem-avokado-ta-ohirkom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 433, protein: 28.6, fat: 27.5, carbs: 21.0 }
+nutrition_per_100g: { kcal: 102, protein: 6.8, fat: 6.5, carbs: 4.9 }
+cooked_g_est: 424
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 - Готові роли можна зберігати в закритому контейнері до 4 годин.
 - За даними автора: 535 ккал на порцію, Б/Ж/В 29/25/54 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано діжонська гірчиця (немає у словнику).

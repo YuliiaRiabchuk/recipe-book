@@ -16,8 +16,10 @@ ingredients:
   - { name: какао-порошок, qty: 15, unit: г, note: "" }
   - { name: цедра апельсина, qty: 5, unit: г, note: "" }
 photo: img/kakao-apelsynovi-raw-batonchyky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 119, protein: 2.7, fat: 4.5, carbs: 20.7 }
+nutrition_per_100g: { kcal: 347, protein: 7.8, fat: 13.3, carbs: 60.7 }
+cooked_g_est: 205
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,3 +34,4 @@ added: 2026-11-15
 - Розділ книги: Raw батончики.
 - За даними автора: 151 ккал на порцію, Б/Ж/В 3.6/5.6/20.8 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цедра апельсина (немає у словнику).

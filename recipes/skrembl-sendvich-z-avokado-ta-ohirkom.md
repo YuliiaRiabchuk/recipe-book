@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 66"
 category: сніданки
-subcategory: поживні
+subcategory: тости й сендвічі з яйцем
 tags: [вегетаріанське, швидко, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/skrembl-sendvich-z-avokado-ta-ohirkom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 429, protein: 21.9, fat: 23.7, carbs: 33.3 }
+nutrition_per_100g: { kcal: 153, protein: 7.8, fat: 8.5, carbs: 11.9 }
+cooked_g_est: 280
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - P.S.: готуй скрембл безпосередньо перед подачею, так він лишиться ніжним і теплим.
 - За даними автора: 478 ккал на порцію, Б/Ж/В 23/26/42 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано мікс салату (немає у словнику).

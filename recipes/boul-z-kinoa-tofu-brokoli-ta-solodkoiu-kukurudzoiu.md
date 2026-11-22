@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 143"
 category: сніданки
-subcategory: поживні
+subcategory: боули й крупи
 tags: [веганське, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }
@@ -29,8 +29,10 @@ ingredients:
   - { name: часник сушений, qty: 1, unit: г, note: "для заправки" }
   - { name: чилі пластівці, qty: 0.3, unit: г, note: "для заправки" }
 photo: img/boul-z-kinoa-tofu-brokoli-ta-solodkoiu-kukurudzoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 538, protein: 48.0, fat: 32.8, carbs: 27.1 }
+nutrition_per_100g: { kcal: 98, protein: 8.7, fat: 6.0, carbs: 4.9 }
+cooked_g_est: 550
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,3 +48,4 @@ added: 2026-11-15
 - Варіація: замість броколі — цвітна капуста (суцвіття 2–3 см).
 - За даними автора: 849 ккал на порцію, Б/Ж/В 56/33/82 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кіноа (немає у словнику); вода для кіноа (немає у словнику); кукурудза солодка (немає у словнику); петрушка (немає у словнику); часник сушений (немає у словнику); чилі пластівці (немає у словнику).

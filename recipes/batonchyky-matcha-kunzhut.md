@@ -17,8 +17,10 @@ ingredients:
   - { name: мед, qty: 70, unit: г, note: "або сироп еритритолу" }
   - { name: арахісова паста, qty: 100, unit: г, note: "" }
 photo: img/batonchyky-matcha-kunzhut.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 206, protein: 6.4, fat: 9.9, carbs: 25.2 }
+nutrition_per_100g: { kcal: 442, protein: 13.7, fat: 21.2, carbs: 54.1 }
+cooked_g_est: 420
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,3 +35,4 @@ added: 2026-11-15
 - Розділ книги: Енергетичні батончики.
 - За даними автора: 220 ккал на порцію, Б/Ж/В 9.2/10.5/24.2 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано матча (немає у словнику).

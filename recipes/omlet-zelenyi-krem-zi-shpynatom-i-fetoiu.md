@@ -6,7 +6,7 @@ source:
   name: Корисні та смачні вечері. Великий збірник (Андрій Маковецький)
   ref: "с. 78"
 category: сніданки
-subcategory: поживні
+subcategory: омлети й фрітати
 tags: [вегетаріанське, на-сковороді, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 8 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/omlet-zelenyi-krem-zi-shpynatom-i-fetoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 238, protein: 16.4, fat: 15.2, carbs: 10.6 }
+nutrition_per_100g: { kcal: 72, protein: 5.0, fat: 4.6, carbs: 3.2 }
+cooked_g_est: 329
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - P.S. Омлет любить низький вогонь, так він ніжний, а не гумовий.
 - За даними автора: 375 ккал на порцію, Б/Ж/В 25/26/13 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано фета (немає у словнику).

@@ -15,8 +15,10 @@ ingredients:
   - { name: кешʼю, qty: 15, unit: г, note: "" }
   - { name: кокосове молоко, qty: 100, unit: мл, note: "рідке, 100–120 мл" }
 photo: img/smuzi-pina-colada.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 403, protein: 6.1, fat: 31.3, carbs: 32.1 }
+nutrition_per_100g: { kcal: 134, protein: 2.0, fat: 10.4, carbs: 10.7 }
+cooked_g_est: 300
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 107"
 category: сніданки
-subcategory: поживні
+subcategory: "лаваш, роли й тортильї"
 tags: [з-птицею, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/lavash-rulet-z-indychkoiu-ta-krem-syrom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 384, protein: 36.0, fat: 22.9, carbs: 8.9 }
+nutrition_per_100g: { kcal: 125, protein: 11.7, fat: 7.4, carbs: 2.9 }
+cooked_g_est: 308
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Варіація: замість руколи можна взяти листя салату.
 - За даними автора: 520 ккал на порцію, Б/Ж/В 46/25/30 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозерновий лаваш (немає у словнику).

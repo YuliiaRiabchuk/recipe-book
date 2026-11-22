@@ -16,8 +16,10 @@ ingredients:
   - { name: змішані ягоди, qty: 80, unit: г, note: "свіжі або розморожені" }
   - { name: вода, qty: 30, unit: мл, note: "або молоко 1,5%; 30–50 мл" }
 photo: img/vanilno-iahidnyi-parfe.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 146, protein: 13.5, fat: 7.5, carbs: 6.0 }
+nutrition_per_100g: { kcal: 81, protein: 7.5, fat: 4.2, carbs: 3.3 }
+cooked_g_est: 180
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +33,4 @@ added: 2026-11-15
 - Розділ книги: Муси і креми в склянках.
 - За даними автора: 258 ккал на порцію, Б/Ж/В 36/6/17 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано казеїн ванільний (немає у словнику); змішані ягоди (немає у словнику).

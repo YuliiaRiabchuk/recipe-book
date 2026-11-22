@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 81"
 category: сніданки
-subcategory: поживні
+subcategory: овочеві й сирні тости
 tags: [вегетаріанське, на-сковороді, швидко, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }
@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvich-pesto-veggie-cheese-2-0-pecheni-ovochi-pesto-syr.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 504, protein: 22.8, fat: 25.8, carbs: 49.2 }
+nutrition_per_100g: { kcal: 123, protein: 5.6, fat: 6.3, carbs: 12.0 }
+cooked_g_est: 410
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

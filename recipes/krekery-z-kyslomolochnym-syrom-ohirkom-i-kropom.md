@@ -21,8 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-kyslomolochnym-syrom-ohirkom-i-kropom.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 107, protein: 12.9, fat: 1.5, carbs: 11.1 }
+nutrition_per_100g: { kcal: 51, protein: 6.1, fat: 0.7, carbs: 5.3 }
+cooked_g_est: 210
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 246 ккал на порцію, Б/Ж/В 19/9/24 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); часник сушений (немає у словнику).

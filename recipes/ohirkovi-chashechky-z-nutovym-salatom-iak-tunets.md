@@ -23,8 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/ohirkovi-chashechky-z-nutovym-salatom-iak-tunets.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 234, protein: 13.9, fat: 4.9, carbs: 35.0 }
+nutrition_per_100g: { kcal: 142, protein: 8.4, fat: 3.0, carbs: 21.2 }
+cooked_g_est: 165
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,3 +39,4 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 277 ккал на порцію, Б/Ж/В 16/5/46 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано довгий огірок (немає у словнику); стебло селери (немає у словнику); червона цибуля (немає у словнику); діжонська гірчиця (немає у словнику).

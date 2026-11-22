@@ -24,8 +24,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krem-iz-biloi-kvasoli-ta-bazyliku-z-tomatnymy-krispamy.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 79, protein: 1.0, fat: 7.1, carbs: 3.9 }
+nutrition_per_100g: { kcal: 208, protein: 2.6, fat: 18.8, carbs: 10.2 }
+cooked_g_est: 38
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,3 +40,4 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 369 ккал на порцію, Б/Ж/В 12/12/56 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано біла квасоля (немає у словнику); цільнозернова тортилья (немає у словнику); сушений орегано (немає у словнику); сушений часник (немає у словнику).

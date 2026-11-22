@@ -23,8 +23,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: мускатний горіх, qty: 0.2, unit: г, note: "" }
 photo: img/kartopliana-zapikanka-z-kuriatynoiu-ta-brokoli.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 734, protein: 52.1, fat: 33.3, carbs: 59.7 }
+nutrition_per_100g: { kcal: 124, protein: 8.8, fat: 5.6, carbs: 10.1 }
+cooked_g_est: 593
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

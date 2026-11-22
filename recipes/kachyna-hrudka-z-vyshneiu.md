@@ -24,8 +24,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "кількість не вказана" }
   - { name: чорний перець, qty: null, unit: "", note: "кількість не вказана" }
 photo: img/kachyna-hrudka-z-vyshneiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 104, protein: 5.3, fat: 2.7, carbs: 15.9 }
+nutrition_per_100g: { kcal: 72, protein: 3.7, fat: 1.9, carbs: 10.9 }
+cooked_g_est: 145
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,3 +42,4 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 601 ккал на порцію, Б/Ж/В 46/29/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано качина грудка (немає у словнику); корінь селери (немає у словнику); фісташки (немає у словнику).

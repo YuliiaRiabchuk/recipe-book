@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 46"
 category: сніданки
-subcategory: солодкі
+subcategory: вівсянка й каші
 tags: [вегетаріанське, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 18 }
@@ -19,8 +19,10 @@ ingredients:
   - { name: кориця, qty: 1, unit: г, note: "або ваніль 1 г" }
   - { name: сіль, qty: 1, unit: г, note: "" }
 photo: img/pshoniana-kasha-z-tvorohom-20-rodzynkamy-ta-medom-abo.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 323, protein: 22.3, fat: 5.9, carbs: 47.2 }
+nutrition_per_100g: { kcal: 92, protein: 6.4, fat: 1.7, carbs: 13.5 }
+cooked_g_est: 350
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,3 +37,4 @@ added: 2026-11-15
 - Варіація: родзинки можна замінити курагою, нарізаною дрібним кубиком 5 мм.
 - За даними автора: 747 ккал на порцію, Б/Ж/В 35/34/86 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано пшоно (немає у словнику).

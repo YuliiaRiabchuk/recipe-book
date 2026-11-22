@@ -6,7 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 228"
 category: сніданки
-subcategory: поживні
+subcategory: яєчні сніданки
 tags: [з-рибою, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }
@@ -27,8 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/deruny-stek-iz-lososem-ta-iaitsem-pashot.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 366, protein: 23.9, fat: 14.6, carbs: 35.3 }
+nutrition_per_100g: { kcal: 104, protein: 6.8, fat: 4.1, carbs: 10.0 }
+cooked_g_est: 353
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,3 +46,4 @@ added: 2026-11-15
 - Розділ книги: Сніданки країн світу.
 - За даними автора: 365 ккал на порцію, Б/Ж/В 26/13/38 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано цукіні (немає у словнику); діжонська гірчиця (немає у словнику).

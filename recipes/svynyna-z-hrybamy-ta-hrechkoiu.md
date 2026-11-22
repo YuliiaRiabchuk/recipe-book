@@ -23,8 +23,11 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/svynyna-z-hrybamy-ta-hrechkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 589, protein: 50.4, fat: 17.7, carbs: 66.8 }
+nutrition_per_100g: { kcal: 100, protein: 8.6, fat: 3.0, carbs: 11.3 }
+cooked_g_est: 589
+nutrition_status: частковий
+nutrition_notes: ["свиняча вирізка: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,3 +44,4 @@ added: 2026-11-15
 - P.S. Якщо гриби варяться, а не смажаться, не вистачає температури. Готуй на вищому вогні, поки не википить вода.
 - За даними автора: 640 ккал на порцію, Б/Ж/В 50/23/65 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано петрушка (немає у словнику).

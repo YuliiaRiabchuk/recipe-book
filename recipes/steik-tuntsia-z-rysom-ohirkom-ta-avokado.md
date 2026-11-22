@@ -26,8 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/steik-tuntsia-z-rysom-ohirkom-ta-avokado.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 183, protein: 4.7, fat: 13.0, carbs: 16.4 }
+nutrition_per_100g: { kcal: 80, protein: 2.0, fat: 5.7, carbs: 7.2 }
+cooked_g_est: 228
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,3 +45,4 @@ added: 2026-11-15
 - Розділ книги: Риба та морепродукти.
 - За даними автора: 615 ккал на порцію, Б/Ж/В 50/19/63 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано стейк тунця (немає у словнику); рис басматі (немає у словнику); імбир свіжий (немає у словнику); лаймовий сік (немає у словнику); кунжутна олія (немає у словнику).
