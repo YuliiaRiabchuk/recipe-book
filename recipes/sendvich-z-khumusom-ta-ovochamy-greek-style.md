@@ -20,10 +20,10 @@ ingredients:
   - { name: оливкова олія, qty: 2, unit: г, note: "" }
   - { name: лимонний сік, qty: 5, unit: г, note: "" }
 photo: img/sendvich-z-khumusom-ta-ovochamy-greek-style.jpg
-nutrition_per_serving: { kcal: 363, protein: 14.7, fat: 15.4, carbs: 45.3 }
-nutrition_per_100g: { kcal: 122, protein: 4.9, fat: 5.2, carbs: 15.3 }
-cooked_g_est: 297
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 427, protein: 16.1, fat: 18.5, carbs: 54.8 }
+nutrition_per_100g: { kcal: 96, protein: 3.6, fat: 4.2, carbs: 12.3 }
+cooked_g_est: 444
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Сендвічі й бутерброди.
 - За даними автора: 423 ккал на порцію, Б/Ж/В 14/13/60 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано помідори чері (немає у словнику); оливки (немає у словнику).

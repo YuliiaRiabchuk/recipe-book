@@ -15,10 +15,10 @@ ingredients:
   - { name: полуниця, qty: 50, unit: г, note: "ягоди" }
   - { name: стевія рідка, qty: null, unit: "", note: "3–4 краплі" }
 photo: img/iohurtovyi-desert-zi-steviieiu.jpg
-nutrition_per_serving: { kcal: 5, protein: 0.1, fat: 0.0, carbs: 1.3 }
-nutrition_per_100g: { kcal: 32, protein: 0.7, fat: 0.3, carbs: 7.7 }
-cooked_g_est: 50
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 66, protein: 8.4, fat: 1.7, carbs: 4.6 }
+nutrition_per_100g: { kcal: 66, protein: 8.4, fat: 1.7, carbs: 4.6 }
+cooked_g_est: 300
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Десерти з підсолоджувачем.
 - За даними автора: 62 ккал на порцію, Б/Ж/В 2.7/2.6/7.1 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано йогурт густий (немає у словнику).

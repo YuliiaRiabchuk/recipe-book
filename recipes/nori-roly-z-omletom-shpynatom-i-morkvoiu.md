@@ -22,10 +22,10 @@ ingredients:
   - { name: кунжут, qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/nori-roly-z-omletom-shpynatom-i-morkvoiu.jpg
-nutrition_per_serving: { kcal: 237, protein: 16.2, fat: 14.4, carbs: 12.1 }
-nutrition_per_100g: { kcal: 88, protein: 6.0, fat: 5.3, carbs: 4.5 }
-cooked_g_est: 271
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 281, protein: 22.7, fat: 14.8, carbs: 15.4 }
+nutrition_per_100g: { kcal: 89, protein: 7.2, fat: 4.7, carbs: 4.9 }
+cooked_g_est: 316
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 271 ккал на порцію, Б/Ж/В 21/14/15 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано листи норі (немає у словнику); вершковий сир (немає у словнику).

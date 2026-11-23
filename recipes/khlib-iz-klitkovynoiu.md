@@ -21,10 +21,10 @@ ingredients:
   - { name: мед, qty: 20, unit: г, note: "або сироп агави" }
   - { name: сіль, qty: 5, unit: г, note: "" }
 photo: img/khlib-iz-klitkovynoiu.jpg
-nutrition_per_serving: { kcal: 75, protein: 2.1, fat: 0.4, carbs: 16.3 }
-nutrition_per_100g: { kcal: 188, protein: 5.2, fat: 1.1, carbs: 40.9 }
-cooked_g_est: 518
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 99, protein: 3.4, fat: 1.7, carbs: 19.7 }
+nutrition_per_100g: { kcal: 215, protein: 7.3, fat: 3.7, carbs: 43.0 }
+cooked_g_est: 596
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Порція 45 г: 89 ккал; вихід 575 г. Підготовка 1 год 45 хв, випікання 38 хв.
 - За даними автора: 197 ккал на 100 г, Б/Ж/В 9.2/5.5/24.4 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано вівсяні висівки (немає у словнику); насіння льону (немає у словнику); дріжджі сухі (немає у словнику).

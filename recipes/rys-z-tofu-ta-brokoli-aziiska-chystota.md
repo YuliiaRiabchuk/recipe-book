@@ -23,10 +23,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: кунжут, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/rys-z-tofu-ta-brokoli-aziiska-chystota.jpg
-nutrition_per_serving: { kcal: 510, protein: 43.8, fat: 31.0, carbs: 27.4 }
-nutrition_per_100g: { kcal: 109, protein: 9.3, fat: 6.6, carbs: 5.8 }
-cooked_g_est: 470
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 766, protein: 48.8, fat: 31.5, carbs: 83.3 }
+nutrition_per_100g: { kcal: 115, protein: 7.3, fat: 4.7, carbs: 12.5 }
+cooked_g_est: 666
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Вода під кришкою на 1 хв — це трюк, щоб броколі було м’яке, але яскраве й не «варене».
 - За даними автора: 770 ккал на порцію, Б/Ж/В 40/35/79 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано рис басматі (немає у словнику).

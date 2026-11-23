@@ -19,10 +19,10 @@ ingredients:
   - { name: чорний перець, qty: 0.12, unit: ч.л., note: "мелений, за бажанням" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "кріп або петрушка, за бажанням" }
 photo: img/iaitse-benedykt-sproshchena-versiia.jpg
-nutrition_per_serving: { kcal: 313, protein: 22.6, fat: 22.9, carbs: 2.9 }
-nutrition_per_100g: { kcal: 184, protein: 13.3, fat: 13.5, carbs: 1.7 }
-cooked_g_est: 170
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 444, protein: 28.7, fat: 25.0, carbs: 24.8 }
+nutrition_per_100g: { kcal: 199, protein: 12.9, fat: 11.2, carbs: 11.1 }
+cooked_g_est: 223
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 507 ккал на порцію, Б/Ж/В 30/31/26 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозернова булочка (немає у словнику); свіжа зелень (немає у словнику).

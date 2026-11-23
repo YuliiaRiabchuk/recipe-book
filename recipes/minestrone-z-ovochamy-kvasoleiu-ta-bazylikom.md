@@ -26,10 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/minestrone-z-ovochamy-kvasoleiu-ta-bazylikom.jpg
-nutrition_per_serving: { kcal: 323, protein: 44.0, fat: 8.4, carbs: 18.9 }
-nutrition_per_100g: { kcal: 53, protein: 7.2, fat: 1.4, carbs: 3.1 }
-cooked_g_est: 610
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 532, protein: 58.6, fat: 8.9, carbs: 56.5 }
+nutrition_per_100g: { kcal: 70, protein: 7.7, fat: 1.2, carbs: 7.4 }
+cooked_g_est: 760
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - Розділ книги: Білкові супи.
 - За даними автора: 527 ккал на порцію, Б/Ж/В 55/8/56 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано квасоля біла (немає у словнику).

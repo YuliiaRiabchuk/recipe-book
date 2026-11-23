@@ -21,10 +21,10 @@ ingredients:
   - { name: сіль, qty: 0.5, unit: г, note: "" }
   - { name: кориця, qty: 0.5, unit: г, note: "" }
 photo: img/smuzi-boul-zi-shpynatom-bananom-ta-iahodamy-protein.jpg
-nutrition_per_serving: { kcal: 205, protein: 4.7, fat: 1.8, carbs: 48.4 }
-nutrition_per_100g: { kcal: 62, protein: 1.4, fat: 0.6, carbs: 14.6 }
-cooked_g_est: 331
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 446, protein: 35.5, fat: 8.2, carbs: 64.5 }
+nutrition_per_100g: { kcal: 72, protein: 5.7, fat: 1.3, carbs: 10.4 }
+cooked_g_est: 622
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Якщо смузі занадто густий, додай 2–3 ст.л. кефіру або йогурту й збий ще 5–10 с.
 - За даними автора: 488 ккал на порцію, Б/Ж/В 32/18/67 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кефір безлактозний (немає у словнику); протеїн (немає у словнику); насіння льону (немає у словнику); ваніль (немає у словнику).

@@ -19,10 +19,10 @@ ingredients:
   - { name: кориця, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/teplyi-syrnyi-snidanok-z-harbuzom-i-iahodamy.jpg
-nutrition_per_serving: { kcal: 397, protein: 36.5, fat: 16.2, carbs: 28.1 }
-nutrition_per_100g: { kcal: 78, protein: 7.2, fat: 3.2, carbs: 5.5 }
-cooked_g_est: 508
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 426, protein: 37.6, fat: 18.7, carbs: 29.2 }
+nutrition_per_100g: { kcal: 83, protein: 7.3, fat: 3.6, carbs: 5.7 }
+cooked_g_est: 512
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Варіація: замість мигдалю волоські горіхи.
 - За даними автора: 486 ккал на порцію, Б/Ж/В 53/21/24 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мигдаль подрібнений (немає у словнику).

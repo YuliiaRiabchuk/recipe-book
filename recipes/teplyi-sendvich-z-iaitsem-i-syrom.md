@@ -20,10 +20,10 @@ ingredients:
   - { name: діжонська гірчиця, qty: 0.5, unit: ч.л., note: "за бажанням" }
   - { name: копчена паприка, qty: 0.25, unit: ч.л., note: "за бажанням" }
 photo: img/teplyi-sendvich-z-iaitsem-i-syrom.jpg
-nutrition_per_serving: { kcal: 240, protein: 15.8, fat: 18.3, carbs: 2.6 }
-nutrition_per_100g: { kcal: 247, protein: 16.3, fat: 18.9, carbs: 2.7 }
-cooked_g_est: 97
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 430, protein: 22.5, fat: 20.9, carbs: 37.2 }
+nutrition_per_100g: { kcal: 253, protein: 13.3, fat: 12.3, carbs: 21.9 }
+cooked_g_est: 170
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 482 ккал на порцію, Б/Ж/В 23/28/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано хліб тостовий (немає у словнику); діжонська гірчиця (немає у словнику); копчена паприка (немає у словнику).

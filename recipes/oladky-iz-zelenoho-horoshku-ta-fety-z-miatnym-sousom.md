@@ -24,10 +24,10 @@ ingredients:
   - { name: лимонний сік, qty: 6, unit: г, note: "для соусу" }
   - { name: сіль, qty: null, unit: "", note: "за смаком, для соусу" }
 photo: img/oladky-iz-zelenoho-horoshku-ta-fety-z-miatnym-sousom.jpg
-nutrition_per_serving: { kcal: 316, protein: 19.3, fat: 10.9, carbs: 37.0 }
-nutrition_per_100g: { kcal: 119, protein: 7.2, fat: 4.1, carbs: 13.9 }
-cooked_g_est: 266
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 438, protein: 25.8, fat: 20.6, carbs: 39.2 }
+nutrition_per_100g: { kcal: 138, protein: 8.2, fat: 6.5, carbs: 12.4 }
+cooked_g_est: 316
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 414 ккал на порцію, Б/Ж/В 26/19/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фета (немає у словнику); лимонна цедра (немає у словнику); м’ята (немає у словнику).

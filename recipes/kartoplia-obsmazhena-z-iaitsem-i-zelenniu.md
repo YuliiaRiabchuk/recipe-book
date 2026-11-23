@@ -22,7 +22,7 @@ photo: img/kartoplia-obsmazhena-z-iaitsem-i-zelenniu.jpg
 nutrition_per_serving: { kcal: 408, protein: 17.1, fat: 21.9, carbs: 36.3 }
 nutrition_per_100g: { kcal: 138, protein: 5.8, fat: 7.4, carbs: 12.3 }
 cooked_g_est: 295
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Здорові сніданкові тарілки.
 - За даними автора: 439 ккал на порцію, Б/Ж/В 18/23/40 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чорний мелений перець (немає у словнику); часник сушений (немає у словнику).

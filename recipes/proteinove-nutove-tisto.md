@@ -17,10 +17,10 @@ ingredients:
   - { name: оливкова олія, qty: 20, unit: мл, note: "" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/proteinove-nutove-tisto.jpg
-nutrition_per_serving: { kcal: 163, protein: 0.0, fat: 18.4, carbs: 0.0 }
-nutrition_per_100g: { kcal: 271, protein: 0.0, fat: 30.7, carbs: 0.0 }
-cooked_g_est: 60
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 620, protein: 38.0, fat: 25.4, carbs: 59.1 }
+nutrition_per_100g: { kcal: 356, protein: 21.8, fat: 14.6, carbs: 33.9 }
+cooked_g_est: 174
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Вихід 200 г (604 ккал). Підготовка 5 хв, випікання 17 хв.
 - За даними автора: 302 ккал на 100 г, Б/Ж/В 19/12.5/29 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно нутове (немає у словнику); протеїн (немає у словнику).

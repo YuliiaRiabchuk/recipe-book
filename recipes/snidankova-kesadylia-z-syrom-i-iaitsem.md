@@ -22,7 +22,7 @@ photo: img/snidankova-kesadylia-z-syrom-i-iaitsem.jpg
 nutrition_per_serving: { kcal: 433, protein: 24.6, fat: 24.5, carbs: 28.3 }
 nutrition_per_100g: { kcal: 262, protein: 14.9, fat: 14.8, carbs: 17.2 }
 cooked_g_est: 165
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Street-style сніданки.
 - За даними автора: 485 ккал на порцію, Б/Ж/В 29/30/26 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чорний мелений перець (немає у словнику); сушений орегано (немає у словнику).

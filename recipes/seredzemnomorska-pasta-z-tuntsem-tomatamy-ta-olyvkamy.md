@@ -21,10 +21,10 @@ ingredients:
   - { name: лимон, qty: 0.5, unit: шт, note: "сік ~15 г" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/seredzemnomorska-pasta-z-tuntsem-tomatamy-ta-olyvkamy.jpg
-nutrition_per_serving: { kcal: 86, protein: 2.4, fat: 5.6, carbs: 9.0 }
-nutrition_per_100g: { kcal: 44, protein: 1.2, fat: 2.8, carbs: 4.5 }
-cooked_g_est: 198
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 441, protein: 33.8, fat: 10.4, carbs: 55.3 }
+nutrition_per_100g: { kcal: 92, protein: 7.0, fat: 2.2, carbs: 11.5 }
+cooked_g_est: 482
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Паста й локшина з білком.
 - За даними автора: 464 ккал на порцію, Б/Ж/В 38/16/52 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано паста (немає у словнику); тунець у власному соку (немає у словнику); оливки (немає у словнику).

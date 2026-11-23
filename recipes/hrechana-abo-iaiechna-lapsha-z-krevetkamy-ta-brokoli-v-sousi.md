@@ -24,10 +24,10 @@ ingredients:
   - { name: кунжут, qty: 3, unit: г, note: "1 ч.л.; 3–4 г" }
   - { name: перець, qty: null, unit: "", note: "або чилі; за смаком" }
 photo: img/hrechana-abo-iaiechna-lapsha-z-krevetkamy-ta-brokoli-v-sousi.jpg
-nutrition_per_serving: { kcal: 163, protein: 7.4, fat: 7.4, carbs: 21.6 }
-nutrition_per_100g: { kcal: 63, protein: 2.9, fat: 2.9, carbs: 8.4 }
-cooked_g_est: 257
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 694, protein: 52.0, fat: 11.0, carbs: 105.5 }
+nutrition_per_100g: { kcal: 108, protein: 8.1, fat: 1.7, carbs: 16.5 }
+cooked_g_est: 640
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Розділ книги: Паста й локшина з білком.
 - За даними автора: 518 ккал на порцію, Б/Ж/В 49/10/66 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гречана лапша (немає у словнику); яєчна лапша (немає у словнику); креветки очищені (немає у словнику).

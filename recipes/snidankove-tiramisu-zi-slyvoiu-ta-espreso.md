@@ -23,10 +23,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: кориця, qty: null, unit: "", note: "за смаком" }
 photo: img/snidankove-tiramisu-zi-slyvoiu-ta-espreso.jpg
-nutrition_per_serving: { kcal: 274, protein: 14.8, fat: 9.3, carbs: 35.6 }
-nutrition_per_100g: { kcal: 122, protein: 6.6, fat: 4.2, carbs: 15.9 }
-cooked_g_est: 224
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 379, protein: 21.1, fat: 13.5, carbs: 47.3 }
+nutrition_per_100g: { kcal: 107, protein: 5.9, fat: 3.8, carbs: 13.4 }
+cooked_g_est: 354
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Плюс 2 години охолодження в холодильнику.
 - За даними автора: 355 ккал на порцію, Б/Ж/В 22/11/47 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано рикота (немає у словнику); слива (немає у словнику).

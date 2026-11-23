@@ -26,10 +26,10 @@ ingredients:
   - { name: копчена паприка, qty: 1, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krevetky-z-ovochamy-ta-rysovoiu-lokshynoiu-v-tomatno.jpg
-nutrition_per_serving: { kcal: 297, protein: 9.8, fat: 3.7, carbs: 59.5 }
-nutrition_per_100g: { kcal: 39, protein: 1.3, fat: 0.5, carbs: 7.9 }
-cooked_g_est: 757
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 560, protein: 52.0, fat: 10.2, carbs: 70.8 }
+nutrition_per_100g: { kcal: 52, protein: 4.9, fat: 0.9, carbs: 6.6 }
+cooked_g_est: 1072
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,4 +46,3 @@ added: 2026-11-15
 - Розділ книги: Wok-обіди.
 - За даними автора: 570 ккал на порцію, Б/Ж/В 50/10/72 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано креветки очищені (немає у словнику); перець солодкий (немає у словнику); соняшникова олія (немає у словнику); томатна паста без цукру (немає у словнику); копчена паприка (немає у словнику).

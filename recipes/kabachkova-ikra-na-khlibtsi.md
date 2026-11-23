@@ -15,8 +15,10 @@ ingredients:
   - { name: житні хлібці, qty: 2, unit: шт, note: "" }
   - { name: зелень, qty: null, unit: "", note: "для подачі" }
 photo: img/kabachkova-ikra-na-khlibtsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 73, protein: 1.6, fat: 0.3, carbs: 16.4 }
+nutrition_per_100g: { kcal: 366, protein: 7.9, fat: 1.3, carbs: 82.2 }
+cooked_g_est: 20
+nutrition_status: частковий
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -31,3 +33,4 @@ added: 2026-11-15
 - Час 5 хв без приготування ікри: ікра має бути вже готова.
 - За даними автора: 205 ккал на порцію, Б/Ж/В 4/10/24 г.
 ## Мої нотатки
+> КБЖВ частковий: не пораховано кабачкова ікра (немає у словнику).

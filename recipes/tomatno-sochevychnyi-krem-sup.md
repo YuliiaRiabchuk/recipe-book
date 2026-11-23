@@ -20,10 +20,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tomatno-sochevychnyi-krem-sup.jpg
-nutrition_per_serving: { kcal: 109, protein: 1.6, fat: 5.3, carbs: 15.1 }
-nutrition_per_100g: { kcal: 19, protein: 0.3, fat: 0.9, carbs: 2.7 }
-cooked_g_est: 564
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 392, protein: 20.3, fat: 6.5, carbs: 68.0 }
+nutrition_per_100g: { kcal: 43, protein: 2.2, fat: 0.7, carbs: 7.4 }
+cooked_g_est: 914
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Дрібка паприки або чорного перцю робить смак глибшим; в тарілку можна додати трохи лимонного соку.
 - За даними автора: 424 ккал на порцію, Б/Ж/В 22/7/71 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано червона сочевиця (немає у словнику); томати (немає у словнику).

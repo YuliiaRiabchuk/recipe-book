@@ -24,10 +24,10 @@ ingredients:
   - { name: рисовий оцет, qty: 5, unit: г, note: "" }
   - { name: кунжут, qty: 1, unit: г, note: "" }
 photo: img/iaponskyi-onigirazu-z-lososem-ta-omletom.jpg
-nutrition_per_serving: { kcal: 540, protein: 22.8, fat: 12.9, carbs: 81.2 }
-nutrition_per_100g: { kcal: 124, protein: 5.2, fat: 2.9, carbs: 18.6 }
-cooked_g_est: 437
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 553, protein: 23.4, fat: 12.9, carbs: 84.2 }
+nutrition_per_100g: { kcal: 116, protein: 4.9, fat: 2.7, carbs: 17.7 }
+cooked_g_est: 476
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Час 25 хв розрахований із готовим рисом.
 - За даними автора: 350 ккал на порцію, Б/Ж/В 21/13/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано червона капуста (немає у словнику); рисовий оцет (немає у словнику).

@@ -27,9 +27,9 @@ ingredients:
   - { name: мед, qty: 3, unit: г, note: "для соусу" }
 photo: img/minishpazhky-z-kurkoiu-satai-ta-arakhisovym-sousom.jpg
 nutrition_per_serving: { kcal: 346, protein: 35.4, fat: 18.2, carbs: 12.2 }
-nutrition_per_100g: { kcal: 142, protein: 14.5, fat: 7.5, carbs: 5.0 }
-cooked_g_est: 243
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 134, protein: 13.7, fat: 7.0, carbs: 4.7 }
+cooked_g_est: 258
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 317 ккал на порцію, Б/Ж/В 34/15/13 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мелена куркума (немає у словнику); тепла вода (немає у словнику).

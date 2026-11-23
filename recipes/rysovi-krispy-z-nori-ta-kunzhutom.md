@@ -19,10 +19,10 @@ ingredients:
   - { name: лист норі, qty: 0.5, unit: шт, note: "" }
   - { name: імбир, qty: 0.3, unit: г, note: "сушений" }
 photo: img/rysovi-krispy-z-nori-ta-kunzhutom.jpg
-nutrition_per_serving: { kcal: 38, protein: 1.6, fat: 3.0, carbs: 1.8 }
-nutrition_per_100g: { kcal: 295, protein: 12.6, fat: 23.2, carbs: 13.9 }
-cooked_g_est: 13
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 624, protein: 11.9, fat: 7.1, carbs: 125.0 }
+nutrition_per_100g: { kcal: 147, protein: 2.8, fat: 1.7, carbs: 29.4 }
+cooked_g_est: 425
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Хрусткі снеки.
 - За даними автора: 307 ккал на порцію, Б/Ж/В 7/7/54 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано круглозернистий рис (немає у словнику); рисове борошно (немає у словнику); кунжутна олія (немає у словнику); лист норі (немає у словнику).

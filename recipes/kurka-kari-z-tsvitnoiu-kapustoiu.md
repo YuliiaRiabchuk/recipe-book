@@ -24,9 +24,9 @@ ingredients:
   - { name: кінза, qty: 8, unit: г, note: "або петрушка" }
 photo: img/kurka-kari-z-tsvitnoiu-kapustoiu.jpg
 nutrition_per_serving: { kcal: 542, protein: 46.6, fat: 30.5, carbs: 25.4 }
-nutrition_per_100g: { kcal: 101, protein: 8.7, fat: 5.7, carbs: 4.7 }
-cooked_g_est: 538
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 100, protein: 8.6, fat: 5.6, carbs: 4.7 }
+cooked_g_est: 542
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - P.S. Якщо соус занадто рідкий, зніми кришку на останні 2 хв і випаріть на середньому вогні.
 - За даними автора: 538 ккал на порцію, Б/Ж/В 49/27/28 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано карі (немає у словнику).

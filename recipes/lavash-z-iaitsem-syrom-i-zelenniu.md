@@ -20,10 +20,10 @@ ingredients:
   - { name: сушений часник, qty: 0.25, unit: ч.л., note: "або сушена цибуля, за бажанням" }
   - { name: зелень, qty: 10, unit: г, note: "10–15 г, кріп, петрушка, зелена цибуля, за бажанням" }
 photo: img/lavash-z-iaitsem-syrom-i-zelenniu.jpg
-nutrition_per_serving: { kcal: 229, protein: 16.1, fat: 16.8, carbs: 3.2 }
-nutrition_per_100g: { kcal: 218, protein: 15.4, fat: 16.0, carbs: 3.1 }
-cooked_g_est: 105
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 394, protein: 21.6, fat: 17.5, carbs: 36.6 }
+nutrition_per_100g: { kcal: 239, protein: 13.1, fat: 10.6, carbs: 22.2 }
+cooked_g_est: 165
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Розділ книги: Street-style сніданки.
 - За даними автора: 422 ккал на порцію, Б/Ж/В 23/24/30 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тонкий лаваш (немає у словнику); сушений часник (немає у словнику).

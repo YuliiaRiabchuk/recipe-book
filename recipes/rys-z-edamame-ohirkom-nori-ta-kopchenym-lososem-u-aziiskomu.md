@@ -25,10 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/rys-z-edamame-ohirkom-nori-ta-kopchenym-lososem-u-aziiskomu.jpg
-nutrition_per_serving: { kcal: 250, protein: 5.9, fat: 2.5, carbs: 51.2 }
-nutrition_per_100g: { kcal: 73, protein: 1.7, fat: 0.7, carbs: 15.0 }
-cooked_g_est: 341
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 505, protein: 33.1, fat: 15.8, carbs: 59.6 }
+nutrition_per_100g: { kcal: 92, protein: 6.0, fat: 2.9, carbs: 10.8 }
+cooked_g_est: 552
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Бобові та зернові як основа.
 - За даними автора: 571 ккал на порцію, Б/Ж/В 30/14/82 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано лосось копчений (немає у словнику); соєвий соус лайт (немає у словнику); кунжутна олія (немає у словнику); едамаме (немає у словнику); оцет рисовий (немає у словнику).

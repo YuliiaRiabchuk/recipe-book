@@ -27,10 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/brazylska-crepioca-z-kurkoiu-ta-sezonnymy-ovochamy.jpg
-nutrition_per_serving: { kcal: 256, protein: 26.5, fat: 13.3, carbs: 8.0 }
-nutrition_per_100g: { kcal: 99, protein: 10.3, fat: 5.2, carbs: 3.1 }
-cooked_g_est: 258
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 344, protein: 27.2, fat: 13.5, carbs: 29.4 }
+nutrition_per_100g: { kcal: 104, protein: 8.3, fat: 4.1, carbs: 8.9 }
+cooked_g_est: 329
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 353 ккал на порцію, Б/Ж/В 29/13/30 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тапіоковий крохмаль (немає у словнику); солодкий перець (немає у словнику).

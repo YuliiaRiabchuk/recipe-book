@@ -26,10 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/bulhur-z-nutom-ohirkom-tomatamy-zelenniu-ta-syrom.jpg
-nutrition_per_serving: { kcal: 413, protein: 22.6, fat: 17.8, carbs: 43.6 }
-nutrition_per_100g: { kcal: 86, protein: 4.7, fat: 3.7, carbs: 9.0 }
-cooked_g_est: 482
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 635, protein: 31.2, fat: 19.0, carbs: 92.7 }
+nutrition_per_100g: { kcal: 87, protein: 4.3, fat: 2.6, carbs: 12.7 }
+cooked_g_est: 729
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - Розділ книги: Бобові та зернові як основа.
 - За даними автора: 660 ккал на порцію, Б/Ж/В 30/20/95 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано булгур (немає у словнику); томати (немає у словнику); петрушка (немає у словнику).

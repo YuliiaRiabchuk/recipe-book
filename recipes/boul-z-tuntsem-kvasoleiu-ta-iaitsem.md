@@ -23,10 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/boul-z-tuntsem-kvasoleiu-ta-iaitsem.jpg
-nutrition_per_serving: { kcal: 203, protein: 13.0, fat: 1.3, carbs: 37.9 }
-nutrition_per_100g: { kcal: 62, protein: 4.0, fat: 0.4, carbs: 11.6 }
-cooked_g_est: 326
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 535, protein: 50.0, fat: 20.2, carbs: 41.6 }
+nutrition_per_100g: { kcal: 83, protein: 7.8, fat: 3.1, carbs: 6.5 }
+cooked_g_est: 644
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Розділ книги: Салати-боули.
 - За даними автора: 584 ккал на порцію, Б/Ж/В 54/20/48 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тунець консервований у власному соку (немає у словнику); яйце куряче (немає у словнику); листя салату ромен (немає у словнику); соняшникова олія (немає у словнику).

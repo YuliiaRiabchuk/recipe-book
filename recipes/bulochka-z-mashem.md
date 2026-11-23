@@ -21,10 +21,10 @@ ingredients:
   - { name: яйце, qty: 5, unit: г, note: "збите, для змащування" }
   - { name: кунжут, qty: 3, unit: г, note: "для прикраси" }
 photo: img/bulochka-z-mashem.jpg
-nutrition_per_serving: { kcal: 39, protein: 2.4, fat: 2.9, carbs: 0.8 }
-nutrition_per_100g: { kcal: 110, protein: 6.9, fat: 8.3, carbs: 2.3 }
-cooked_g_est: 35
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 360, protein: 13.3, fat: 9.3, carbs: 55.7 }
+nutrition_per_100g: { kcal: 300, protein: 11.1, fat: 7.7, carbs: 46.4 }
+cooked_g_est: 120
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Порція 130 г: 298 ккал. Замочування 7 год, робота 1 год 12 хв, випікання 19 хв.
 - За даними автора: 229 ккал на 100 г, Б/Ж/В 9.7/8.1/27.8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано маш (немає у словнику); пшеничне борошно (немає у словнику); соняшникова олія (немає у словнику); дріжджі сухі (немає у словнику).

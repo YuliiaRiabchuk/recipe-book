@@ -25,10 +25,10 @@ ingredients:
   - { name: зелень, qty: 8, unit: г, note: "" }
   - { name: лимон, qty: 20, unit: г, note: "" }
 photo: img/chechevytsia-z-morkvoiu-ta-tomatamy.jpg
-nutrition_per_serving: { kcal: 164, protein: 2.5, fat: 8.5, carbs: 21.8 }
-nutrition_per_100g: { kcal: 29, protein: 0.4, fat: 1.5, carbs: 3.9 }
-cooked_g_est: 566
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 490, protein: 24.4, fat: 9.8, carbs: 82.3 }
+nutrition_per_100g: { kcal: 57, protein: 2.8, fat: 1.1, carbs: 9.6 }
+cooked_g_est: 858
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - P.S. Червона чечевиця швидко розварюється, це нормально, виходить рагу-крем.
 - За даними автора: 511 ккал на порцію, Б/Ж/В 26/10/82 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано червона чечевиця (немає у словнику); томати (немає у словнику).

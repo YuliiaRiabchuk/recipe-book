@@ -20,10 +20,10 @@ ingredients:
   - { name: вода, qty: 5, unit: г, note: "5–10 г" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/vyshnevo-myhdalni-kulky-z-kakao.jpg
-nutrition_per_serving: { kcal: 394, protein: 12.2, fat: 19.9, carbs: 52.0 }
-nutrition_per_100g: { kcal: 382, protein: 11.9, fat: 19.3, carbs: 50.4 }
-cooked_g_est: 103
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 617, protein: 15.3, fat: 26.9, carbs: 90.4 }
+nutrition_per_100g: { kcal: 386, protein: 9.6, fat: 16.8, carbs: 56.5 }
+cooked_g_est: 160
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Додатково потрібно 20 хв на охолодження.
 - За даними автора: 611 ккал на порцію, Б/Ж/В 17/27/85 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сушена вишня (немає у словнику); мигдальна паста (немає у словнику).

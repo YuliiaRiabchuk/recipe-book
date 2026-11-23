@@ -17,8 +17,10 @@ ingredients:
   - { name: зелена цибуля, qty: null, unit: "", note: "1 перо" }
   - { name: цільнозернові хлібці, qty: 2, unit: шт, note: "" }
 photo: img/syrna-namazka-z-redyskoiu-na-khlibtsi.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 198, protein: 15.2, fat: 5.5, carbs: 22.0 }
+nutrition_per_100g: { kcal: 107, protein: 8.2, fat: 3.0, carbs: 11.9 }
+cooked_g_est: 185
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

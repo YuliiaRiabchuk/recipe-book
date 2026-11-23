@@ -24,10 +24,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/minipita-z-kurkoiu-khumusom-i-khrustkymy-ovochamy.jpg
-nutrition_per_serving: { kcal: 262, protein: 26.3, fat: 13.7, carbs: 8.9 }
-nutrition_per_100g: { kcal: 147, protein: 14.8, fat: 7.7, carbs: 5.0 }
-cooked_g_est: 178
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 441, protein: 33.3, fat: 14.9, carbs: 47.4 }
+nutrition_per_100g: { kcal: 138, protein: 10.4, fat: 4.7, carbs: 14.8 }
+cooked_g_est: 320
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Розділ книги: Тости, роли та мінісендвічі.
 - За даними автора: 455 ккал на порцію, Б/Ж/В 32/18/46 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозернова мініпіта (немає у словнику); томат (немає у словнику); червона капуста (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

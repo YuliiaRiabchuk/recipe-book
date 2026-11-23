@@ -19,10 +19,10 @@ ingredients:
   - { name: бальзамічний крем, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tsilnozernovi-krekery-z-motsareloiu-tomatamy-ta-pesto.jpg
-nutrition_per_serving: { kcal: 36, protein: 1.4, fat: 0.8, carbs: 6.9 }
-nutrition_per_100g: { kcal: 29, protein: 1.1, fat: 0.6, carbs: 5.6 }
-cooked_g_est: 124
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 459, protein: 24.3, fat: 28.8, carbs: 27.9 }
+nutrition_per_100g: { kcal: 184, protein: 9.8, fat: 11.5, carbs: 11.2 }
+cooked_g_est: 249
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Крекери, хлібці та хрусткі основи.
 - За даними автора: 486 ккал на порцію, Б/Ж/В 24/32/27 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); міні-моцарела (немає у словнику); песто з базиліку (немає у словнику).

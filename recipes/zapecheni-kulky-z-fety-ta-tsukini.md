@@ -21,10 +21,10 @@ ingredients:
   - { name: часник, qty: 0.4, unit: г, note: "сушений" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zapecheni-kulky-z-fety-ta-tsukini.jpg
-nutrition_per_serving: { kcal: 191, protein: 9.7, fat: 9.1, carbs: 17.5 }
-nutrition_per_100g: { kcal: 277, protein: 14.1, fat: 13.2, carbs: 25.3 }
-cooked_g_est: 69
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 427, protein: 22.8, fat: 26.7, carbs: 24.9 }
+nutrition_per_100g: { kcal: 159, protein: 8.5, fat: 10.0, carbs: 9.3 }
+cooked_g_est: 268
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 418 ккал на порцію, Б/Ж/В 25/27/22 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цукіні (немає у словнику); фета (немає у словнику).

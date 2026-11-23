@@ -24,10 +24,10 @@ ingredients:
   - { name: лимонний сік, qty: 10, unit: г, note: "2 ч.л." }
   - { name: чука, qty: 40, unit: г, note: "або вакаме, опційно, для подачі" }
 photo: img/aziiskyi-sup-z-frykadelkamy-hrybamy-ta-vodorostiamy.jpg
-nutrition_per_serving: { kcal: 118, protein: 11.7, fat: 5.4, carbs: 8.0 }
-nutrition_per_100g: { kcal: 24, protein: 2.4, fat: 1.1, carbs: 1.6 }
-cooked_g_est: 499
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 456, protein: 49.2, fat: 21.3, carbs: 20.6 }
+nutrition_per_100g: { kcal: 60, protein: 6.5, fat: 2.8, carbs: 2.7 }
+cooked_g_est: 760
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Кімчі (30 г) можна додати як топінг: дасть пікантність і ферментовану глибину, а порція невелика й майже не впливає на калорійність вечері.
 - За даними автора: 388 ккал на порцію, Б/Ж/В 50/12/19 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фарш індички (немає у словнику); панірувальні сухарі (немає у словнику); пак-чой (немає у словнику); чука (немає у словнику).

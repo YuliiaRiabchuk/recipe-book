@@ -22,10 +22,10 @@ ingredients:
   - { name: оливкова олія, qty: 5, unit: мл, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
-nutrition_per_serving: { kcal: 23, protein: 1.6, fat: 1.4, carbs: 1.4 }
-nutrition_per_100g: { kcal: 99, protein: 6.9, fat: 6.2, carbs: 5.9 }
-cooked_g_est: 184
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 87, protein: 3.8, fat: 1.7, carbs: 14.4 }
+nutrition_per_100g: { kcal: 130, protein: 5.7, fat: 2.6, carbs: 21.5 }
+cooked_g_est: 535
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Вихід 455 г, на 8 порцій по 57 г (88 ккал на порцію).
 - За даними автора: 154 ккал на 100 г, Б/Ж/В 8.6/7.5/13.2 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано основа без яєць і молока (немає у словнику); баклажан (немає у словнику); цукіні (немає у словнику); томати (немає у словнику).

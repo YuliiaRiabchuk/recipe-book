@@ -26,10 +26,10 @@ ingredients:
   - { name: огірок, qty: 120, unit: г, note: "" }
   - { name: помідор, qty: 130, unit: г, note: "" }
 photo: img/nutovi-kotletky-falafel-lait-z-sousom-takhini-iohurt.jpg
-nutrition_per_serving: { kcal: 332, protein: 19.5, fat: 20.6, carbs: 20.4 }
-nutrition_per_100g: { kcal: 77, protein: 4.5, fat: 4.7, carbs: 4.7 }
-cooked_g_est: 434
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 648, protein: 34.9, fat: 26.1, carbs: 73.3 }
+nutrition_per_100g: { kcal: 101, protein: 5.4, fat: 4.0, carbs: 11.4 }
+cooked_g_est: 644
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Кімчі (30 г) додасть пікантності та ферментованої глибини; невелика порція практично не змінює калорійність, але робить смак «дорогим».
 - За даними автора: 587 ккал на порцію, Б/Ж/В 33/21/62 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано нут консервований (немає у словнику); панірувальні сухарі (немає у словнику).

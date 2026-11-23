@@ -27,10 +27,10 @@ ingredients:
   - { name: діжонська гірчиця, qty: 3, unit: г, note: "для дипу" }
   - { name: сіль, qty: null, unit: "", note: "за смаком, для дипу" }
 photo: img/shpazhky-z-kuriachymy-kulkamy-pertsem-i-iohurtovym-dypom.jpg
-nutrition_per_serving: { kcal: 287, protein: 38.6, fat: 9.3, carbs: 12.7 }
-nutrition_per_100g: { kcal: 137, protein: 18.4, fat: 4.4, carbs: 6.0 }
-cooked_g_est: 210
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 316, protein: 39.8, fat: 9.8, carbs: 19.1 }
+nutrition_per_100g: { kcal: 104, protein: 13.2, fat: 3.2, carbs: 6.3 }
+cooked_g_est: 303
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 330 ккал на порцію, Б/Ж/В 34/13/20 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано солодкий перець (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику); петрушка (немає у словнику); діжонська гірчиця (немає у словнику).

@@ -22,8 +22,8 @@ ingredients:
 photo: img/syrnyi-boul-z-polunytseiu-takhini-ta-kunzhutom.jpg
 nutrition_per_serving: { kcal: 433, protein: 31.6, fat: 20.5, carbs: 34.0 }
 nutrition_per_100g: { kcal: 95, protein: 6.9, fat: 4.5, carbs: 7.4 }
-cooked_g_est: 456
-nutrition_status: частковий
+cooked_g_est: 458
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Варіація: замість полуниці малина, чорниця або чорна смородина.
 - За даними автора: 488 ккал на порцію, Б/Ж/В 39/22/34 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано ваніль (немає у словнику).

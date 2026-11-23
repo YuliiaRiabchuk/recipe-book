@@ -29,10 +29,10 @@ ingredients:
   - { name: часник сушений, qty: 1, unit: г, note: "для соусу" }
   - { name: чилі пластівці, qty: 0.3, unit: г, note: "для соусу" }
 photo: img/boul-z-iaitsiamy-keilom-kinoa-ta-horikhovym-sousom-voloski.jpg
-nutrition_per_serving: { kcal: 417, protein: 27.4, fat: 30.3, carbs: 12.3 }
-nutrition_per_100g: { kcal: 126, protein: 8.3, fat: 9.2, carbs: 3.7 }
-cooked_g_est: 331
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 707, protein: 39.4, fat: 36.1, carbs: 62.6 }
+nutrition_per_100g: { kcal: 82, protein: 4.6, fat: 4.2, carbs: 7.3 }
+cooked_g_est: 859
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -48,4 +48,3 @@ added: 2026-11-15
 - Розділ книги: Поживні сніданки.
 - За даними автора: 763 ккал на порцію, Б/Ж/В 41/40/64 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кіноа (немає у словнику); вода для кіноа (немає у словнику); кейл (немає у словнику); помідори чері (немає у словнику); часник сушений (немає у словнику); чилі пластівці (немає у словнику).

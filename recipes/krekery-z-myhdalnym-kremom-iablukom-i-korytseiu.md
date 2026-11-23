@@ -19,10 +19,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: кориця, qty: 0.4, unit: г, note: "" }
 photo: img/krekery-z-myhdalnym-kremom-iablukom-i-korytseiu.jpg
-nutrition_per_serving: { kcal: 144, protein: 5.2, fat: 6.0, carbs: 20.0 }
-nutrition_per_100g: { kcal: 86, protein: 3.1, fat: 3.6, carbs: 12.0 }
-cooked_g_est: 167
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 389, protein: 12.4, fat: 20.2, carbs: 45.2 }
+nutrition_per_100g: { kcal: 179, protein: 5.7, fat: 9.3, carbs: 20.8 }
+cooked_g_est: 217
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 356 ккал на порцію, Б/Ж/В 12/22/34 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано житні крекери (немає у словнику); мигдальна паста (немає у словнику).

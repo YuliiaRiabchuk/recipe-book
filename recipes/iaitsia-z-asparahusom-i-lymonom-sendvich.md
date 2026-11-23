@@ -19,11 +19,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: хліб цільнозерновий, qty: 60, unit: г, note: "1 скибка" }
 photo: img/iaitsia-z-asparahusom-i-lymonom-sendvich.jpg
-nutrition_per_serving: { kcal: 223, protein: 12.6, fat: 18.3, carbs: 1.4 }
-nutrition_per_100g: { kcal: 187, protein: 10.6, fat: 15.4, carbs: 1.2 }
-cooked_g_est: 119
-nutrition_status: частковий
-nutrition_notes: ["олія для смаження: враховано 9 г із 10 г"]
+nutrition_per_serving: { kcal: 425, protein: 24.5, fat: 21.9, carbs: 34.8 }
+nutrition_per_100g: { kcal: 121, protein: 7.0, fat: 6.2, carbs: 9.9 }
+cooked_g_est: 350
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +38,3 @@ added: 2026-11-15
 - Варіація: лимонний сік можна замінити лаймом.
 - За даними автора: 422 ккал на порцію, Б/Ж/В 18/22/38 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано аспарагус (немає у словнику); хліб цільнозерновий (немає у словнику).

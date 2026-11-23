@@ -20,10 +20,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/shokoladni-triufeli-z-nutu-ta-funduka.jpg
-nutrition_per_serving: { kcal: 483, protein: 15.6, fat: 21.0, carbs: 70.2 }
-nutrition_per_100g: { kcal: 300, protein: 9.7, fat: 13.1, carbs: 43.6 }
-cooked_g_est: 161
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 640, protein: 19.3, fat: 36.2, carbs: 74.4 }
+nutrition_per_100g: { kcal: 348, protein: 10.5, fat: 19.7, carbs: 40.4 }
+cooked_g_est: 184
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Додатково потрібно 30 хв на охолодження.
 - За даними автора: 632 ккал на порцію, Б/Ж/В 21/34/75 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фундучна паста (немає у словнику).

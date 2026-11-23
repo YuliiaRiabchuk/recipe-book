@@ -24,10 +24,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/indychka-v-paprytsi-z-hrechkoiu-ta-salatom-ohirok-pomidor.jpg
-nutrition_per_serving: { kcal: 435, protein: 51.1, fat: 4.6, carbs: 50.6 }
-nutrition_per_100g: { kcal: 79, protein: 9.2, fat: 0.8, carbs: 9.1 }
-cooked_g_est: 554
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 526, protein: 51.3, fat: 14.6, carbs: 51.1 }
+nutrition_per_100g: { kcal: 92, protein: 8.9, fat: 2.5, carbs: 8.9 }
+cooked_g_est: 575
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Курка та індичка.
 - За даними автора: 500 ккал на порцію, Б/Ж/В 51/13/51 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гарбузова олія (немає у словнику); копчена паприка (немає у словнику); петрушка (немає у словнику).

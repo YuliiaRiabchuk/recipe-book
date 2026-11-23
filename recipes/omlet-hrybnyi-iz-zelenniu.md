@@ -19,10 +19,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: петрушка, qty: 10, unit: г, note: "" }
 photo: img/omlet-hrybnyi-iz-zelenniu.jpg
-nutrition_per_serving: { kcal: 282, protein: 19.4, fat: 18.2, carbs: 12.8 }
-nutrition_per_100g: { kcal: 85, protein: 5.8, fat: 5.5, carbs: 3.9 }
-cooked_g_est: 332
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 285, protein: 19.7, fat: 18.3, carbs: 13.5 }
+nutrition_per_100g: { kcal: 83, protein: 5.8, fat: 5.4, carbs: 3.9 }
+cooked_g_est: 342
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - P.S. Сіль до грибів додавай після того, як частина води википарується, так вони краще підрум’янюються.
 - За даними автора: 318 ккал на порцію, Б/Ж/В 18/22/18 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано петрушка (немає у словнику).

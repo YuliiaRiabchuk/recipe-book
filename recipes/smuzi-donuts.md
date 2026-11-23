@@ -19,10 +19,10 @@ ingredients:
   - { name: мед, qty: 5, unit: г, note: "" }
   - { name: арахісова паста, qty: 5, unit: г, note: "за бажанням" }
 photo: img/smuzi-donuts.jpg
-nutrition_per_serving: { kcal: 200, protein: 4.3, fat: 3.7, carbs: 41.9 }
-nutrition_per_100g: { kcal: 86, protein: 1.9, fat: 1.6, carbs: 18.1 }
-cooked_g_est: 232
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 289, protein: 9.3, fat: 9.4, carbs: 47.1 }
+nutrition_per_100g: { kcal: 86, protein: 2.8, fat: 2.8, carbs: 14.0 }
+cooked_g_est: 337
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Смузі.
 - За даними автора: 346 ккал на порцію, Б/Ж/В 10/8/49 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано зерна гарбуза (немає у словнику); йогурт питний (немає у словнику).

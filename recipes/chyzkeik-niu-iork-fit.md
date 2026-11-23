@@ -17,10 +17,10 @@ ingredients:
   - { name: еритритол, qty: 60, unit: г, note: "" }
   - { name: ванільний екстракт, qty: 2, unit: мл, note: "" }
 photo: img/chyzkeik-niu-iork-fit.jpg
-nutrition_per_serving: { kcal: 194, protein: 4.6, fat: 18.4, carbs: 2.9 }
-nutrition_per_100g: { kcal: 342, protein: 8.2, fat: 32.6, carbs: 5.1 }
-cooked_g_est: 452
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 207, protein: 6.5, fat: 18.8, carbs: 3.6 }
+nutrition_per_100g: { kcal: 259, protein: 8.1, fat: 23.4, carbs: 4.5 }
+cooked_g_est: 641
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Чізкейки із запіканням.
 - За даними автора: 102 ккал на порцію, Б/Ж/В 10.3/4.1/3.4 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано йогурт густий (немає у словнику); еритритол (немає у словнику).

@@ -22,10 +22,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: мікс салату, qty: 50, unit: г, note: "додаткова опція для користі" }
 photo: img/sendvich-z-tuntsem-iohurtovym-miksom-ta-ohirkom.jpg
-nutrition_per_serving: { kcal: 216, protein: 12.7, fat: 4.9, carbs: 31.1 }
-nutrition_per_100g: { kcal: 108, protein: 6.4, fat: 2.4, carbs: 15.6 }
-cooked_g_est: 200
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 310, protein: 32.9, fat: 5.9, carbs: 32.6 }
+nutrition_per_100g: { kcal: 88, protein: 9.4, fat: 1.7, carbs: 9.3 }
+cooked_g_est: 350
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Варіації: замість селери — дрібно нарізана цибуля-шалот або редис; замість йогурту — грецький йогурт або легкий майонез.
 - За даними автора: 405 ккал на порцію, Б/Ж/В 39/11/37 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тунець (немає у словнику); мікс салату (немає у словнику).

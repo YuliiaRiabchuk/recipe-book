@@ -18,10 +18,10 @@ ingredients:
   - { name: мускатний горіх, qty: 1, unit: дрібка, note: "" }
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
 photo: img/prianyi-harbuzovyi-mus.jpg
-nutrition_per_serving: { kcal: 198, protein: 15.5, fat: 7.7, carbs: 19.0 }
-nutrition_per_100g: { kcal: 56, protein: 4.4, fat: 2.2, carbs: 5.4 }
+nutrition_per_serving: { kcal: 198, protein: 15.5, fat: 7.7, carbs: 19.1 }
+nutrition_per_100g: { kcal: 57, protein: 4.4, fat: 2.2, carbs: 5.4 }
 cooked_g_est: 350
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Десерти без запікання.
 - За даними автора: 315 ккал на порцію, Б/Ж/В 17.5/14/29.8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано імбир (невідома вага одиниці «дрібка» (додай --per дрібка=<г> у confirm)).

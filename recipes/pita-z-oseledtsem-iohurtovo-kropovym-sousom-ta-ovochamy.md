@@ -25,10 +25,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/pita-z-oseledtsem-iohurtovo-kropovym-sousom-ta-ovochamy.jpg
-nutrition_per_serving: { kcal: 187, protein: 8.4, fat: 12.2, carbs: 14.7 }
-nutrition_per_100g: { kcal: 62, protein: 2.8, fat: 4.0, carbs: 4.9 }
-cooked_g_est: 302
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 600, protein: 38.1, fat: 25.2, carbs: 62.1 }
+nutrition_per_100g: { kcal: 100, protein: 6.4, fat: 4.2, carbs: 10.4 }
+cooked_g_est: 599
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Варіація: замість оселедця можна взяти печену білу рибу.
 - За даними автора: 645 ккал на порцію, Б/Ж/В 34/35/56 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозернова піта (немає у словнику); філе оселедця (немає у словнику); помідори чері (немає у словнику); сушений часник (немає у словнику).

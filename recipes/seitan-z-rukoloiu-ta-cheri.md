@@ -21,10 +21,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: гірчиця діжонська, qty: 8, unit: г, note: "1,5 ч.л." }
 photo: img/seitan-z-rukoloiu-ta-cheri.jpg
-nutrition_per_serving: { kcal: 177, protein: 4.2, fat: 11.8, carbs: 18.1 }
-nutrition_per_100g: { kcal: 46, protein: 1.1, fat: 3.1, carbs: 4.7 }
-cooked_g_est: 384
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 443, protein: 58.3, fat: 13.2, carbs: 28.0 }
+nutrition_per_100g: { kcal: 79, protein: 10.3, fat: 2.3, carbs: 5.0 }
+cooked_g_est: 564
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - P.S. Сейтан легко пересушити, не тримай довго, достатньо рум’яності.
 - За даними автора: 420 ккал на порцію, Б/Ж/В 50/15/28 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сейтан (немає у словнику).

@@ -18,9 +18,9 @@ ingredients:
   - { name: ванільний екстракт, qty: 2, unit: мл, note: "" }
 photo: img/karamel-solona.jpg
 nutrition_per_serving: { kcal: 14, protein: 0.8, fat: 0.5, carbs: 1.3 }
-nutrition_per_100g: { kcal: 55, protein: 3.3, fat: 2.0, carbs: 5.0 }
-cooked_g_est: 101
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 34, protein: 2.1, fat: 1.2, carbs: 3.1 }
+cooked_g_est: 161
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Топінги та креми.
 - За даними автора: 110 ккал на 100 г, Б/Ж/В 1.6/1.3/2.4 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано еритритол (немає у словнику).

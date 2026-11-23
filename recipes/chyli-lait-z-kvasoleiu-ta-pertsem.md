@@ -26,10 +26,10 @@ ingredients:
   - { name: часник, qty: 3, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/chyli-lait-z-kvasoleiu-ta-pertsem.jpg
-nutrition_per_serving: { kcal: 433, protein: 38.8, fat: 23.0, carbs: 18.0 }
-nutrition_per_100g: { kcal: 105, protein: 9.4, fat: 5.6, carbs: 4.4 }
-cooked_g_est: 412
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 669, protein: 54.0, fat: 24.3, carbs: 61.9 }
+nutrition_per_100g: { kcal: 86, protein: 7.0, fat: 3.1, carbs: 8.0 }
+cooked_g_est: 776
+nutrition_status: повний
 nutrition_notes: ["яловичий фарш: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
@@ -49,4 +49,3 @@ added: 2026-11-15
 - P.S. Для ніжнішого смаку зменш чилі до 0,5 г або прибери повністю.
 - За даними автора: 685 ккал на порцію, Б/Ж/В 52/29/58 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано квасоля червона (немає у словнику); томати (немає у словнику); чилі (немає у словнику).

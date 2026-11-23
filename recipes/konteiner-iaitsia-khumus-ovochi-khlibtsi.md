@@ -23,10 +23,10 @@ ingredients:
   - { name: паприка копчена, qty: 1, unit: г, note: "" }
   - { name: часник сушений, qty: 1, unit: г, note: "" }
 photo: img/konteiner-iaitsia-khumus-ovochi-khlibtsi.jpg
-nutrition_per_serving: { kcal: 409, protein: 21.9, fat: 22.9, carbs: 33.6 }
-nutrition_per_100g: { kcal: 80, protein: 4.3, fat: 4.5, carbs: 6.6 }
-cooked_g_est: 511
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 501, protein: 23.9, fat: 23.6, carbs: 53.1 }
+nutrition_per_100g: { kcal: 94, protein: 4.5, fat: 4.4, carbs: 9.9 }
+cooked_g_est: 536
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Варіація: замість хумусу — гуакамоле.
 - За даними автора: 530 ккал на порцію, Б/Ж/В 22/27/52 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано хлібці рисові (немає у словнику); часник сушений (немає у словнику).

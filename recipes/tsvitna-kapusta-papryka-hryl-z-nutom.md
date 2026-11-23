@@ -22,10 +22,10 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/tsvitna-kapusta-papryka-hryl-z-nutom.jpg
-nutrition_per_serving: { kcal: 180, protein: 6.6, fat: 11.0, carbs: 18.8 }
-nutrition_per_100g: { kcal: 55, protein: 2.0, fat: 3.4, carbs: 5.8 }
-cooked_g_est: 324
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 529, protein: 30.6, fat: 17.9, carbs: 68.5 }
+nutrition_per_100g: { kcal: 85, protein: 4.9, fat: 2.9, carbs: 11.0 }
+cooked_g_est: 624
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Копчена паприка — «ресторанний ключ»: смак ніби з грилю, хоча все з духовки.
 - За даними автора: 528 ккал на порцію, Б/Ж/В 28/19/59 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано нут консервований (немає у словнику); йогурт грецький (немає у словнику).

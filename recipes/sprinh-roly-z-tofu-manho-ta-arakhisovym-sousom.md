@@ -28,10 +28,10 @@ ingredients:
   - { name: вода, qty: 15, unit: г, note: "тепла, 15–20 г, для соусу" }
   - { name: імбир, qty: 1, unit: г, note: "для соусу" }
 photo: img/sprinh-roly-z-tofu-manho-ta-arakhisovym-sousom.jpg
-nutrition_per_serving: { kcal: 452, protein: 30.8, fat: 22.3, carbs: 42.6 }
-nutrition_per_100g: { kcal: 96, protein: 6.5, fat: 4.8, carbs: 9.1 }
-cooked_g_est: 470
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 478, protein: 30.8, fat: 25.3, carbs: 42.6 }
+nutrition_per_100g: { kcal: 101, protein: 6.5, fat: 5.3, carbs: 9.0 }
+cooked_g_est: 474
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 598 ккал на порцію, Б/Ж/В 29/25/72 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кунжутна олія (немає у словнику).

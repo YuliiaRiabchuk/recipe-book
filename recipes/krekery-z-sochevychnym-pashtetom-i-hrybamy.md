@@ -22,10 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-sochevychnym-pashtetom-i-hrybamy.jpg
-nutrition_per_serving: { kcal: 419, protein: 28.0, fat: 5.4, carbs: 68.8 }
-nutrition_per_100g: { kcal: 202, protein: 13.5, fat: 2.6, carbs: 33.2 }
-cooked_g_est: 207
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 512, protein: 30.1, fat: 5.9, carbs: 89.5 }
+nutrition_per_100g: { kcal: 218, protein: 12.8, fat: 2.5, carbs: 38.1 }
+cooked_g_est: 235
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 259 ккал на порцію, Б/Ж/В 15/8/36 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано житні крекери (немає у словнику); діжонська гірчиця (немає у словнику); чебрець (немає у словнику).

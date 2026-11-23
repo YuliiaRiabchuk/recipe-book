@@ -23,10 +23,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: паприка, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvich-z-pastoiu-z-kvasoli-ta-tomatamy.jpg
-nutrition_per_serving: { kcal: 419, protein: 19.9, fat: 7.7, carbs: 69.7 }
-nutrition_per_100g: { kcal: 129, protein: 6.2, fat: 2.4, carbs: 21.5 }
-cooked_g_est: 324
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 492, protein: 22.1, fat: 14.3, carbs: 72.5 }
+nutrition_per_100g: { kcal: 128, protein: 5.8, fat: 3.7, carbs: 18.9 }
+cooked_g_est: 384
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - P.S.: квасолеву пасту можна приготувати заздалегідь і зберігати в холодильнику до 3 днів.
 - За даними автора: 510 ккал на порцію, Б/Ж/В 22/15/72 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано горіх грецький (немає у словнику); мікс салату (немає у словнику).

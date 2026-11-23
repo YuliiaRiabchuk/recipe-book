@@ -21,10 +21,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: кріп, qty: 8, unit: г, note: "" }
 photo: img/kinoa-losos-lait-i-brokoli.jpg
-nutrition_per_serving: { kcal: 417, protein: 30.2, fat: 26.1, carbs: 19.7 }
-nutrition_per_100g: { kcal: 115, protein: 8.3, fat: 7.2, carbs: 5.4 }
-cooked_g_est: 362
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 656, protein: 39.4, fat: 30.1, carbs: 61.4 }
+nutrition_per_100g: { kcal: 118, protein: 7.1, fat: 5.4, carbs: 11.0 }
+cooked_g_est: 557
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Лосось тут «лайт» порцією: смак є, жиру не забагато.
 - За даними автора: 661 ккал на порцію, Б/Ж/В 39/30/64 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кіноа (немає у словнику).

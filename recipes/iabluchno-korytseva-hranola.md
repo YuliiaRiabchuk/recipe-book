@@ -18,10 +18,10 @@ ingredients:
   - { name: мед, qty: 40, unit: г, note: "або еритритол" }
   - { name: оливкова олія, qty: 20, unit: мл, note: "" }
 photo: img/iabluchno-korytseva-hranola.jpg
-nutrition_per_serving: { kcal: 190, protein: 5.0, fat: 6.3, carbs: 29.5 }
-nutrition_per_100g: { kcal: 406, protein: 10.6, fat: 13.4, carbs: 62.9 }
-cooked_g_est: 281
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 195, protein: 5.0, fat: 6.3, carbs: 30.8 }
+nutrition_per_100g: { kcal: 343, protein: 8.8, fat: 11.1, carbs: 54.3 }
+cooked_g_est: 341
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Гранола.
 - За даними автора: 410 ккал на 100 г, Б/Ж/В 10.5/17/53.8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано яблука (немає у словнику).

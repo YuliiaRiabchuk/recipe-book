@@ -22,10 +22,10 @@ ingredients:
   - { name: кріп, qty: 5, unit: г, note: "" }
   - { name: лимонний сік, qty: 5, unit: г, note: "1 ч.л." }
 photo: img/syrno-shpynatni-kotletky-z-ohirkovo-kropovym-salatom.jpg
-nutrition_per_serving: { kcal: 363, protein: 32.3, fat: 19.0, carbs: 18.0 }
-nutrition_per_100g: { kcal: 68, protein: 6.1, fat: 3.6, carbs: 3.4 }
-cooked_g_est: 533
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 403, protein: 33.6, fat: 19.5, carbs: 25.2 }
+nutrition_per_100g: { kcal: 74, protein: 6.2, fat: 3.6, carbs: 4.6 }
+cooked_g_est: 543
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Квашений огірок (1 шт, ≈50 г) можна подати поруч для контрасту: «кислий хруст» підкреслює ніжність сирних котлет, калорій додає мінімально.
 - За даними автора: 446 ккал на порцію, Б/Ж/В 44/20/23 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано панірувальні сухарі (немає у словнику).

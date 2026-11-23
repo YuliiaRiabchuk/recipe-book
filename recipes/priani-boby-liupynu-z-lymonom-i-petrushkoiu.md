@@ -20,10 +20,10 @@ ingredients:
   - { name: пластівці чилі, qty: 0.2, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/priani-boby-liupynu-z-lymonom-i-petrushkoiu.jpg
-nutrition_per_serving: { kcal: 14, protein: 0.1, fat: 1.3, carbs: 0.9 }
-nutrition_per_100g: { kcal: 143, protein: 0.9, fat: 12.7, carbs: 8.8 }
-cooked_g_est: 10
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 231, protein: 28.4, fat: 6.6, carbs: 19.2 }
+nutrition_per_100g: { kcal: 116, protein: 14.2, fat: 3.3, carbs: 9.6 }
+cooked_g_est: 199
+nutrition_status: повний
 nutrition_notes: ["оливкова олія: у розсолі, враховано 25 %"]
 status: спробувати
 rating: null
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 286 ккал на порцію, Б/Ж/В 30/10/15 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано боби люпину (немає у словнику); петрушка (немає у словнику); копчена паприка (немає у словнику); пластівці чилі (немає у словнику).

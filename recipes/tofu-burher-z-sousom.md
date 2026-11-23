@@ -18,10 +18,10 @@ ingredients:
   - { name: огірок, qty: 30, unit: г, note: "" }
   - { name: кінза, qty: 5, unit: г, note: "" }
 photo: img/tofu-burher-z-sousom.jpg
-nutrition_per_serving: { kcal: 141, protein: 16.7, fat: 8.0, carbs: 4.3 }
-nutrition_per_100g: { kcal: 104, protein: 12.3, fat: 5.9, carbs: 3.2 }
-cooked_g_est: 136
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 304, protein: 24.2, fat: 10.6, carbs: 31.7 }
+nutrition_per_100g: { kcal: 151, protein: 12.0, fat: 5.3, carbs: 15.8 }
+cooked_g_est: 201
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Порція 250 г: 451 ккал. Приготування 6 хв, обсмажування 8 хв.
 - За даними автора: 180 ккал на 100 г, Б/Ж/В 8.4/8.1/18.5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано булочка з льоном (немає у словнику); лаймовий сік (немає у словнику).

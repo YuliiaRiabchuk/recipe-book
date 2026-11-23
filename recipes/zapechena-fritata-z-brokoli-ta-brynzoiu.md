@@ -21,10 +21,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: зелень, qty: 5, unit: г, note: "5–10 г" }
 photo: img/zapechena-fritata-z-brokoli-ta-brynzoiu.jpg
-nutrition_per_serving: { kcal: 358, protein: 21.0, fat: 23.8, carbs: 18.6 }
-nutrition_per_100g: { kcal: 103, protein: 6.0, fat: 6.8, carbs: 5.4 }
-cooked_g_est: 348
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 540, protein: 40.4, fat: 33.6, carbs: 21.2 }
+nutrition_per_100g: { kcal: 105, protein: 7.9, fat: 6.6, carbs: 4.1 }
+cooked_g_est: 513
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Розділ книги: Овочеві запіканки з білком.
 - За даними автора: 568 ккал на порцію, Б/Ж/В 43/28/20 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано яєчні білки (немає у словнику); бринза (немає у словнику).

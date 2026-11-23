@@ -20,10 +20,10 @@ ingredients:
   - { name: цедра лимона, qty: 1, unit: г, note: "" }
   - { name: кориця, qty: null, unit: "", note: "за смаком" }
 photo: img/iahidni-tosty-z-kyslomolochnym-syrom.jpg
-nutrition_per_serving: { kcal: 494, protein: 31.2, fat: 10.8, carbs: 69.9 }
-nutrition_per_100g: { kcal: 123, protein: 7.8, fat: 2.7, carbs: 17.4 }
-cooked_g_est: 401
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 561, protein: 33.6, fat: 16.2, carbs: 73.2 }
+nutrition_per_100g: { kcal: 136, protein: 8.1, fat: 3.9, carbs: 17.7 }
+cooked_g_est: 413
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Бери густий, добре відтиснений сир, щоб тости залишалися хрусткими й не розмокали.
 - За даними автора: 560 ккал на порцію, Б/Ж/В 34/17/72 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фісташки очищені (немає у словнику).

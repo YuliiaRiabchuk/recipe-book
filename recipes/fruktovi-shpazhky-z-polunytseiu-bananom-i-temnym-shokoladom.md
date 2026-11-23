@@ -20,10 +20,10 @@ ingredients:
   - { name: сік лимона, qty: 4, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/fruktovi-shpazhky-z-polunytseiu-bananom-i-temnym-shokoladom.jpg
-nutrition_per_serving: { kcal: 411, protein: 11.0, fat: 14.3, carbs: 65.2 }
-nutrition_per_100g: { kcal: 96, protein: 2.6, fat: 3.3, carbs: 15.2 }
-cooked_g_est: 429
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 467, protein: 13.0, fat: 18.9, carbs: 67.9 }
+nutrition_per_100g: { kcal: 106, protein: 3.0, fat: 4.3, carbs: 15.5 }
+cooked_g_est: 439
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Плюс 20 хвилин на охолодження.
 - За даними автора: 462 ккал на порцію, Б/Ж/В 13/19/64 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фісташки (немає у словнику).

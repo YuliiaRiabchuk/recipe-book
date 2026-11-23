@@ -27,10 +27,10 @@ ingredients:
   - { name: кріп, qty: 6, unit: г, note: "" }
   - { name: часник, qty: 2, unit: г, note: "" }
 photo: img/chechevychni-kotlety-fitnes.jpg
-nutrition_per_serving: { kcal: 391, protein: 19.8, fat: 17.8, carbs: 41.6 }
-nutrition_per_100g: { kcal: 69, protein: 3.5, fat: 3.1, carbs: 7.4 }
-cooked_g_est: 565
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 673, protein: 39.5, fat: 18.6, carbs: 92.3 }
+nutrition_per_100g: { kcal: 104, protein: 6.1, fat: 2.9, carbs: 14.3 }
+cooked_g_est: 645
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -48,4 +48,3 @@ added: 2026-11-15
 - P.S. Якщо маса рідкувата, додай ще 5 г вівсянки й дай постояти 3 хв.
 - За даними автора: 685 ккал на порцію, Б/Ж/В 41/19/91 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано червона чечевиця (немає у словнику).

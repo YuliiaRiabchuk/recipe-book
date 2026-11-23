@@ -19,10 +19,10 @@ ingredients:
   - { name: ягоди, qty: 60, unit: г, note: "свіжі або заморожені" }
   - { name: олія для смаження, qty: null, unit: "", note: "для смаження" }
 photo: img/pankeiky-z-iahodamy.jpg
-nutrition_per_serving: { kcal: 224, protein: 12.0, fat: 8.1, carbs: 26.7 }
-nutrition_per_100g: { kcal: 99, protein: 5.3, fat: 3.6, carbs: 11.8 }
-cooked_g_est: 227
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 515, protein: 20.2, fat: 8.9, carbs: 87.8 }
+nutrition_per_100g: { kcal: 168, protein: 6.6, fat: 2.9, carbs: 28.6 }
+cooked_g_est: 307
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 495 ккал на порцію, Б/Ж/В 20/10/87 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику).

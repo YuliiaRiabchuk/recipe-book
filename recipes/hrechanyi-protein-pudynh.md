@@ -16,10 +16,10 @@ ingredients:
   - { name: молоко, qty: 200, unit: мл, note: "1,5 %" }
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
 photo: img/hrechanyi-protein-pudynh.jpg
-nutrition_per_serving: { kcal: 100, protein: 6.6, fat: 4.0, carbs: 9.6 }
-nutrition_per_100g: { kcal: 56, protein: 3.7, fat: 2.2, carbs: 5.3 }
-cooked_g_est: 180
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 288, protein: 29.9, fat: 5.3, carbs: 32.3 }
+nutrition_per_100g: { kcal: 125, protein: 13.0, fat: 2.3, carbs: 14.1 }
+cooked_g_est: 230
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 295 ккал на порцію, Б/Ж/В 30.5/5.5/29.8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано протеїн (немає у словнику); гречане борошно (немає у словнику).

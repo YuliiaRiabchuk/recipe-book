@@ -20,10 +20,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krem-sup-iz-brokoli-z-iaitsem-ta-nasinniam.jpg
-nutrition_per_serving: { kcal: 102, protein: 8.5, fat: 1.1, carbs: 19.9 }
-nutrition_per_100g: { kcal: 15, protein: 1.2, fat: 0.2, carbs: 2.9 }
-cooked_g_est: 695
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 453, protein: 31.2, fat: 25.5, carbs: 30.6 }
+nutrition_per_100g: { kcal: 49, protein: 3.4, fat: 2.8, carbs: 3.3 }
+cooked_g_est: 917
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Білкові супи.
 - За даними автора: 465 ккал на порцію, Б/Ж/В 31/26/34 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано яйця курячі (немає у словнику); цибуля порей (немає у словнику); олія ріпакова (немає у словнику); насіння гарбузове (немає у словнику).

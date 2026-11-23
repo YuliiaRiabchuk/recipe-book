@@ -19,10 +19,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/fritata-brokoli-parmezan.jpg
-nutrition_per_serving: { kcal: 315, protein: 21.0, fat: 20.0, carbs: 15.4 }
-nutrition_per_100g: { kcal: 109, protein: 7.3, fat: 6.9, carbs: 5.3 }
-cooked_g_est: 290
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 377, protein: 34.1, fat: 20.2, carbs: 16.3 }
+nutrition_per_100g: { kcal: 92, protein: 8.3, fat: 4.9, carbs: 4.0 }
+cooked_g_est: 410
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - P.S. Білки додають білок без зайвого жиру, ідеально для вечері.
 - За даними автора: 410 ккал на порцію, Б/Ж/В 38/22/16 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано яєчні білки (немає у словнику).

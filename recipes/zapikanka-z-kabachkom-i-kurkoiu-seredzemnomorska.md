@@ -25,9 +25,9 @@ ingredients:
   - { name: італійські трави, qty: 2, unit: г, note: "" }
 photo: img/zapikanka-z-kabachkom-i-kurkoiu-seredzemnomorska.jpg
 nutrition_per_serving: { kcal: 587, protein: 49.2, fat: 31.7, carbs: 28.2 }
-nutrition_per_100g: { kcal: 92, protein: 7.7, fat: 5.0, carbs: 4.4 }
-cooked_g_est: 639
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 92, protein: 7.7, fat: 4.9, carbs: 4.4 }
+cooked_g_est: 641
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Розділ книги: Овочеві запіканки з білком.
 - За даними автора: 609 ккал на порцію, Б/Ж/В 50/35/26 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано італійські трави (немає у словнику).

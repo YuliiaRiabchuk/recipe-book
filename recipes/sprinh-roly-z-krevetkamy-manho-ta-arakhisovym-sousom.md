@@ -28,10 +28,10 @@ ingredients:
   - { name: вода, qty: 15, unit: г, note: "тепла, 15–20 г, для соусу" }
   - { name: імбир, qty: 1, unit: г, note: "для соусу" }
 photo: img/sprinh-roly-z-krevetkamy-manho-ta-arakhisovym-sousom.jpg
-nutrition_per_serving: { kcal: 362, protein: 33.3, fat: 14.6, carbs: 30.0 }
-nutrition_per_100g: { kcal: 89, protein: 8.2, fat: 3.6, carbs: 7.3 }
-cooked_g_est: 408
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 365, protein: 33.5, fat: 14.6, carbs: 30.5 }
+nutrition_per_100g: { kcal: 88, protein: 8.1, fat: 3.5, carbs: 7.4 }
+cooked_g_est: 414
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 497 ккал на порцію, Б/Ж/В 33/15/63 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мʼята (немає у словнику).

@@ -23,10 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/smazhenytsa-z-iaitsiamy-hrybamy-brokoli-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: 207, protein: 12.4, fat: 11.2, carbs: 20.9 }
-nutrition_per_100g: { kcal: 58, protein: 3.5, fat: 3.1, carbs: 5.8 }
-cooked_g_est: 358
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 424, protein: 31.5, fat: 25.5, carbs: 22.5 }
+nutrition_per_100g: { kcal: 82, protein: 6.1, fat: 4.9, carbs: 4.4 }
+cooked_g_est: 516
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Вегетаріанські білкові.
 - За даними автора: 448 ккал на порцію, Б/Ж/В 33/27/23 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано яйце куряче (немає у словнику); петрушка (немає у словнику).

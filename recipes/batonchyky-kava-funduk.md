@@ -19,9 +19,9 @@ ingredients:
   - { name: еритритол, qty: 20, unit: г, note: "у порошку" }
 photo: img/batonchyky-kava-funduk.jpg
 nutrition_per_serving: { kcal: 208, protein: 6.9, fat: 13.7, carbs: 17.8 }
-nutrition_per_100g: { kcal: 433, protein: 14.4, fat: 28.5, carbs: 37.1 }
-cooked_g_est: 480
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 416, protein: 13.9, fat: 27.4, carbs: 35.6 }
+cooked_g_est: 500
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Енергетичні батончики.
 - За даними автора: 205 ккал на порцію, Б/Ж/В 7.2/13.6/15.4 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано еритритол (немає у словнику).

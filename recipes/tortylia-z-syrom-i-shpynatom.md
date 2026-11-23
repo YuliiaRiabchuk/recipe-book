@@ -22,7 +22,7 @@ photo: img/tortylia-z-syrom-i-shpynatom.jpg
 nutrition_per_serving: { kcal: 349, protein: 17.0, fat: 18.8, carbs: 28.9 }
 nutrition_per_100g: { kcal: 251, protein: 12.2, fat: 13.6, carbs: 20.8 }
 cooked_g_est: 139
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Street-style сніданки.
 - За даними автора: 389 ккал на порцію, Б/Ж/В 20/22/29 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чорний мелений перець (немає у словнику); сушений базилік (немає у словнику).

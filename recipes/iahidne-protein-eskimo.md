@@ -16,10 +16,10 @@ ingredients:
   - { name: змішані ягоди, qty: 100, unit: г, note: "" }
   - { name: молоко, qty: 40, unit: мл, note: "1,5%" }
 photo: img/iahidne-protein-eskimo.jpg
-nutrition_per_serving: { kcal: 166, protein: 14.8, fat: 8.3, carbs: 7.9 }
-nutrition_per_100g: { kcal: 87, protein: 7.8, fat: 4.4, carbs: 4.2 }
-cooked_g_est: 190
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 323, protein: 39.5, fat: 9.4, carbs: 21.7 }
+nutrition_per_100g: { kcal: 101, protein: 12.3, fat: 2.9, carbs: 6.8 }
+cooked_g_est: 320
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Заморожене/морозиво.
 - За даними автора: 274 ккал на порцію, Б/Ж/В 37/5/20 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сироватковий протеїн ванільний (немає у словнику); змішані ягоди (немає у словнику).

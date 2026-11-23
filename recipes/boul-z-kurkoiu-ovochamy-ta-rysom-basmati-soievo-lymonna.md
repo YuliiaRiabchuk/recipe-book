@@ -26,10 +26,10 @@ ingredients:
   - { name: часник сушений, qty: 1, unit: г, note: "" }
   - { name: імбир сушений, qty: 0.5, unit: г, note: "" }
 photo: img/boul-z-kurkoiu-ovochamy-ta-rysom-basmati-soievo-lymonna.jpg
-nutrition_per_serving: { kcal: 386, protein: 48.5, fat: 11.1, carbs: 25.5 }
-nutrition_per_100g: { kcal: 84, protein: 10.5, fat: 2.4, carbs: 5.5 }
-cooked_g_est: 462
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 569, protein: 52.1, fat: 11.4, carbs: 65.5 }
+nutrition_per_100g: { kcal: 76, protein: 6.9, fat: 1.5, carbs: 8.7 }
+cooked_g_est: 753
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - Варіація: замість рису — кіноа.
 - За даними автора: 552 ккал на порцію, Б/Ж/В 33/9/65 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано рис басматі (немає у словнику); вода для рису (немає у словнику); часник сушений (немає у словнику); імбир сушений (немає у словнику).

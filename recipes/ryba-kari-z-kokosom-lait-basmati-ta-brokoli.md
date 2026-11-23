@@ -26,10 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/ryba-kari-z-kokosom-lait-basmati-ta-brokoli.jpg
-nutrition_per_serving: { kcal: 82, protein: 6.3, fat: 0.8, carbs: 16.5 }
-nutrition_per_100g: { kcal: 41, protein: 3.2, fat: 0.4, carbs: 8.4 }
-cooked_g_est: 197
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 669, protein: 51.6, fat: 24.5, carbs: 62.9 }
+nutrition_per_100g: { kcal: 104, protein: 8.0, fat: 3.8, carbs: 9.8 }
+cooked_g_est: 643
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 649 ккал на порцію, Б/Ж/В 52/21/65 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано філе хека (немає у словнику); рис басматі (немає у словнику); паста карі жовта (немає у словнику); кокосове молоко light (немає у словнику); імбир свіжий (немає у словнику); соняшникова олія (немає у словнику); кунжутна олія (немає у словнику).

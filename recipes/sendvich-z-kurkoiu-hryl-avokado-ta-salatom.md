@@ -22,10 +22,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: паприка, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvich-z-kurkoiu-hryl-avokado-ta-salatom.jpg
-nutrition_per_serving: { kcal: 520, protein: 39.2, fat: 23.3, carbs: 38.8 }
-nutrition_per_100g: { kcal: 157, protein: 11.8, fat: 7.0, carbs: 11.7 }
-cooked_g_est: 332
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 531, protein: 40.2, fat: 23.4, carbs: 40.8 }
+nutrition_per_100g: { kcal: 132, protein: 10.0, fat: 5.8, carbs: 10.1 }
+cooked_g_est: 402
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Варіація: замість авокадо змішай 30 г кисломолочного сиру з 20 г грецького йогурту, дрібно нарізаним кропом та зеленню за бажанням (кінза, петрушка).
 - За даними автора: 503 ккал на порцію, Б/Ж/В 41/21/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мікс салату (немає у словнику).

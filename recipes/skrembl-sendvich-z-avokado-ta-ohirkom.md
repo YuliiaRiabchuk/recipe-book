@@ -21,10 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/skrembl-sendvich-z-avokado-ta-ohirkom.jpg
-nutrition_per_serving: { kcal: 429, protein: 21.9, fat: 23.7, carbs: 33.3 }
-nutrition_per_100g: { kcal: 153, protein: 7.8, fat: 8.5, carbs: 11.9 }
-cooked_g_est: 280
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 436, protein: 22.6, fat: 23.8, carbs: 34.7 }
+nutrition_per_100g: { kcal: 132, protein: 6.8, fat: 7.2, carbs: 10.5 }
+cooked_g_est: 330
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - P.S.: готуй скрембл безпосередньо перед подачею, так він лишиться ніжним і теплим.
 - За даними автора: 478 ккал на порцію, Б/Ж/В 23/26/42 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мікс салату (немає у словнику).

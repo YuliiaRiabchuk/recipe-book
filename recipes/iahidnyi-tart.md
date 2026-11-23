@@ -23,10 +23,10 @@ ingredients:
   - { name: вівсяні пластівці, qty: 2, unit: г, note: "для крихти" }
   - { name: масло вершкове, qty: 5, unit: г, note: "82%, холодне, для крихти" }
 photo: img/iahidnyi-tart.jpg
-nutrition_per_serving: { kcal: 103, protein: 6.7, fat: 6.8, carbs: 3.5 }
-nutrition_per_100g: { kcal: 166, protein: 10.8, fat: 11.0, carbs: 5.7 }
-cooked_g_est: 62
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 583, protein: 39.7, fat: 18.9, carbs: 63.5 }
+nutrition_per_100g: { kcal: 265, protein: 18.0, fat: 8.6, carbs: 28.9 }
+cooked_g_est: 220
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Тарти.
 - За даними автора: 582 ккал на порцію, Б/Ж/В 35.9/22/62.5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); протеїн без ароматизаторів (немає у словнику); йогурт густий (немає у словнику); підсолоджувач (немає у словнику); борошно мигдальне (немає у словнику); масло вершкове (немає у словнику).

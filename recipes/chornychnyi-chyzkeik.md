@@ -17,10 +17,10 @@ ingredients:
   - { name: желатин, qty: 8, unit: г, note: "" }
   - { name: вода, qty: 40, unit: мл, note: "" }
 photo: img/chornychnyi-chyzkeik.jpg
-nutrition_per_serving: { kcal: 150, protein: 3.7, fat: 14.4, carbs: 2.3 }
-nutrition_per_100g: { kcal: 303, protein: 7.5, fat: 28.9, carbs: 4.6 }
-cooked_g_est: 298
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 169, protein: 4.0, fat: 14.5, carbs: 7.1 }
+nutrition_per_100g: { kcal: 189, protein: 4.4, fat: 16.1, carbs: 8.0 }
+cooked_g_est: 538
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Чізкейки без запікання.
 - За даними автора: 83 ккал на порцію, Б/Ж/В 9.6/2.4/6.3 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чорниця (немає у словнику); еритритол (немає у словнику).

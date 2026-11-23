@@ -21,10 +21,10 @@ ingredients:
   - { name: розпушувач, qty: 5, unit: г, note: "" }
   - { name: зіра, qty: 2, unit: г, note: "мелена" }
 photo: img/khlib-iz-mashem.jpg
-nutrition_per_serving: { kcal: 54, protein: 2.2, fat: 2.1, carbs: 7.2 }
-nutrition_per_100g: { kcal: 325, protein: 12.9, fat: 12.6, carbs: 43.3 }
-cooked_g_est: 251
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 94, protein: 5.2, fat: 2.4, carbs: 13.8 }
+nutrition_per_100g: { kcal: 132, protein: 7.4, fat: 3.3, carbs: 19.4 }
+cooked_g_est: 1067
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Порція 45 г: 89 ккал; вихід 660 г. Замочування 7 год, робота 20 хв, випікання 40 хв.
 - За даними автора: 198 ккал на 100 г, Б/Ж/В 11.4/6.4/22 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано маш (немає у словнику); вода для замочування (немає у словнику); йогурт густий (немає у словнику); зіра (немає у словнику).

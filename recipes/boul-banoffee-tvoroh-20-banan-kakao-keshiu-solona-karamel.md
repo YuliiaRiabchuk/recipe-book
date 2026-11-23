@@ -22,9 +22,9 @@ ingredients:
   - { name: кориця, qty: 0.5, unit: г, note: "" }
 photo: img/boul-banoffee-tvoroh-20-banan-kakao-keshiu-solona-karamel.jpg
 nutrition_per_serving: { kcal: 488, protein: 32.8, fat: 21.6, carbs: 51.1 }
-nutrition_per_100g: { kcal: 121, protein: 8.1, fat: 5.4, carbs: 12.7 }
-cooked_g_est: 403
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 117, protein: 7.9, fat: 5.2, carbs: 12.3 }
+cooked_g_est: 416
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Варіація: замість банана ягоди.
 - За даними автора: 767 ккал на порцію, Б/Ж/В 42/47/49 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сироп «солона карамель» без цукру (немає у словнику); ваніль (немає у словнику).

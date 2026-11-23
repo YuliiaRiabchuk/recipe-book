@@ -21,10 +21,10 @@ ingredients:
   - { name: сушений орегано, qty: 0.5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/shpazhky-z-khalumi-tomatamy-ta-olyvkamy.jpg
-nutrition_per_serving: { kcal: 42, protein: 0.8, fat: 3.1, carbs: 3.8 }
-nutrition_per_100g: { kcal: 41, protein: 0.8, fat: 3.0, carbs: 3.6 }
-cooked_g_est: 104
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 417, protein: 24.3, fat: 29.9, carbs: 15.4 }
+nutrition_per_100g: { kcal: 119, protein: 7.0, fat: 8.5, carbs: 4.4 }
+cooked_g_est: 350
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 418 ккал на порцію, Б/Ж/В 22/32/12 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано халумі (немає у словнику); томати черрі (немає у словнику); оливки (немає у словнику); сушений орегано (немає у словнику).

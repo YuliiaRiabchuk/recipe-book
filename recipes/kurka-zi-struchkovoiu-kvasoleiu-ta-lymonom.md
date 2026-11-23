@@ -20,10 +20,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/kurka-zi-struchkovoiu-kvasoleiu-ta-lymonom.jpg
-nutrition_per_serving: { kcal: 303, protein: 38.5, fat: 14.5, carbs: 3.1 }
-nutrition_per_100g: { kcal: 174, protein: 22.2, fat: 8.4, carbs: 1.8 }
-cooked_g_est: 174
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 384, protein: 43.4, fat: 15.2, carbs: 21.0 }
+nutrition_per_100g: { kcal: 89, protein: 10.0, fat: 3.5, carbs: 4.9 }
+cooked_g_est: 432
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - P.S. Лимон додаємо наприкінці, так смак свіжий, а не варений.
 - За даними автора: 372 ккал на порцію, Б/Ж/В 44/13/20 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано квасоля стручкова (немає у словнику); петрушка (немає у словнику).

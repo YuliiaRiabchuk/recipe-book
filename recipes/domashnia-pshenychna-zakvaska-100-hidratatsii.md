@@ -14,8 +14,10 @@ ingredients:
   - { name: борошно пшеничне цільнозернове, qty: 500, unit: г, note: "краще перші дні брати саме цільнозернове" }
   - { name: вода, qty: 500, unit: мл, note: "кип'ячена, фільтрована або бутильована, 24–26 °C" }
 photo: img/domashnia-pshenychna-zakvaska-100-hidratatsii.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 1700, protein: 66.0, fat: 12.5, carbs: 359.9 }
+nutrition_per_100g: { kcal: 170, protein: 6.6, fat: 1.2, carbs: 36.0 }
+cooked_g_est: 1000
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

@@ -27,10 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/minivafli-z-nutovoho-boroshna-z-prianym-iohurtom.jpg
-nutrition_per_serving: { kcal: 143, protein: 10.4, fat: 9.8, carbs: 3.0 }
-nutrition_per_100g: { kcal: 110, protein: 8.0, fat: 7.6, carbs: 2.3 }
-cooked_g_est: 130
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 370, protein: 23.7, fat: 14.5, carbs: 35.7 }
+nutrition_per_100g: { kcal: 139, protein: 8.9, fat: 5.5, carbs: 13.5 }
+cooked_g_est: 265
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 356 ккал на порцію, Б/Ж/В 24/12/37 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано нутове борошно (немає у словнику); натуральний йогурт (немає у словнику); цукіні (немає у словнику); сушений часник (немає у словнику); копчена паприка (немає у словнику); петрушка (немає у словнику); мелений кумин (немає у словнику).

@@ -24,10 +24,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/minipyrohy-z-hrusheiu-ta-myhdalem.jpg
-nutrition_per_serving: { kcal: 455, protein: 19.2, fat: 16.4, carbs: 62.3 }
-nutrition_per_100g: { kcal: 196, protein: 8.3, fat: 7.1, carbs: 26.8 }
-cooked_g_est: 232
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 605, protein: 24.4, fat: 29.7, carbs: 67.3 }
+nutrition_per_100g: { kcal: 238, protein: 9.6, fat: 11.7, carbs: 26.5 }
+cooked_g_est: 254
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Мафіни, брауні та корисна випічка.
 - За даними автора: 591 ккал на порцію, Б/Ж/В 23/29/68 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мигдальна паста (немає у словнику); мигдальні пластівці (немає у словнику).

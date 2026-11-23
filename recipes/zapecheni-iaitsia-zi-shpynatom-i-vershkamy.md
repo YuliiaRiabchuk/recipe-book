@@ -22,7 +22,7 @@ photo: img/zapecheni-iaitsia-zi-shpynatom-i-vershkamy.jpg
 nutrition_per_serving: { kcal: 349, protein: 25.1, fat: 24.5, carbs: 7.0 }
 nutrition_per_100g: { kcal: 161, protein: 11.6, fat: 11.3, carbs: 3.2 }
 cooked_g_est: 216
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Швидкі та прості солоні сніданки.
 - За даними автора: 447 ккал на порцію, Б/Ж/В 27/35/6 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чорний мелений перець (немає у словнику); сушений базилік (немає у словнику).

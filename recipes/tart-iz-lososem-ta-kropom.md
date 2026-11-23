@@ -20,10 +20,10 @@ ingredients:
   - { name: кріп, qty: 5, unit: г, note: "свіжий" }
   - { name: лимонний сік, qty: null, unit: "", note: "кілька крапель" }
 photo: img/tart-iz-lososem-ta-kropom.jpg
-nutrition_per_serving: { kcal: 179, protein: 15.6, fat: 12.3, carbs: 0.5 }
-nutrition_per_100g: { kcal: 216, protein: 18.8, fat: 14.9, carbs: 0.6 }
-cooked_g_est: 83
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 443, protein: 34.8, fat: 17.3, carbs: 35.1 }
+nutrition_per_100g: { kcal: 227, protein: 17.9, fat: 8.9, carbs: 18.0 }
+cooked_g_est: 195
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Тарти.
 - За даними автора: 450 ккал на порцію, Б/Ж/В 30.2/19.8/34 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно нутове (немає у словнику); йогурт густий (немає у словнику).

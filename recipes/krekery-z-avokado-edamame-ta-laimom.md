@@ -20,10 +20,10 @@ ingredients:
   - { name: пластівці чилі, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-avokado-edamame-ta-laimom.jpg
-nutrition_per_serving: { kcal: 106, protein: 1.6, fat: 8.9, carbs: 7.7 }
-nutrition_per_100g: { kcal: 88, protein: 1.4, fat: 7.3, carbs: 6.3 }
-cooked_g_est: 121
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 300, protein: 13.3, fat: 16.2, carbs: 31.1 }
+nutrition_per_100g: { kcal: 133, protein: 5.9, fat: 7.2, carbs: 13.8 }
+cooked_g_est: 226
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 311 ккал на порцію, Б/Ж/В 14/17/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); едамаме (немає у словнику).

@@ -23,10 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/indychka-z-kabachkom-nutom-ta-iohurtovym-sousom.jpg
-nutrition_per_serving: { kcal: 518, protein: 63.1, fat: 10.5, carbs: 43.7 }
-nutrition_per_100g: { kcal: 100, protein: 12.1, fat: 2.0, carbs: 8.4 }
-cooked_g_est: 521
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 610, protein: 63.4, fat: 20.6, carbs: 44.3 }
+nutrition_per_100g: { kcal: 113, protein: 11.7, fat: 3.8, carbs: 8.2 }
+cooked_g_est: 540
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Курка та індичка.
 - За даними автора: 632 ккал на порцію, Б/Ж/В 62/22/48 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано м'ята (немає у словнику); петрушка (немає у словнику); гарбузова олія (немає у словнику).

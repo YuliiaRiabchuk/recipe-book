@@ -16,10 +16,10 @@ ingredients:
   - { name: мигдаль, qty: 8, unit: шт, note: "цілий, усередину" }
   - { name: кокосове молоко, qty: 30, unit: мл, note: "17%; 30–40 мл" }
 photo: img/kokosovi-raffaello.jpg
-nutrition_per_serving: { kcal: 162, protein: 1.7, fat: 16.1, carbs: 5.2 }
-nutrition_per_100g: { kcal: 462, protein: 4.8, fat: 46.0, carbs: 14.7 }
-cooked_g_est: 70
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 242, protein: 14.4, fat: 18.7, carbs: 7.1 }
+nutrition_per_100g: { kcal: 440, protein: 26.2, fat: 34.1, carbs: 13.0 }
+cooked_g_est: 110
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Трюфелі та кульки на шпажках.
 - За даними автора: 603 ккал на порцію, Б/Ж/В 29/50/19 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано казеїн ванільний (немає у словнику); мигдаль (невідома вага одиниці «шт» (додай --per шт=<г> у confirm)).

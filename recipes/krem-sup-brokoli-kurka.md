@@ -22,10 +22,10 @@ ingredients:
   - { name: лимон, qty: 10, unit: г, note: "" }
   - { name: зелень, qty: 6, unit: г, note: "" }
 photo: img/krem-sup-brokoli-kurka.jpg
-nutrition_per_serving: { kcal: 366, protein: 43.9, fat: 12.2, carbs: 23.0 }
-nutrition_per_100g: { kcal: 58, protein: 7.0, fat: 1.9, carbs: 3.6 }
-cooked_g_est: 632
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 410, protein: 49.9, fat: 13.4, carbs: 25.4 }
+nutrition_per_100g: { kcal: 59, protein: 7.2, fat: 1.9, carbs: 3.7 }
+cooked_g_est: 692
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Це густий крем-суп: якщо хочеш рідший, додай ще 50 мл гарячої води вже в тарілці.
 - За даними автора: 411 ккал на порцію, Б/Ж/В 50/12/27 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано йогурт грецький (немає у словнику).

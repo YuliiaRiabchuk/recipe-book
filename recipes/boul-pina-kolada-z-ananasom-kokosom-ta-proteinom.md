@@ -20,10 +20,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/boul-pina-kolada-z-ananasom-kokosom-ta-proteinom.jpg
-nutrition_per_serving: { kcal: 242, protein: 4.4, fat: 14.5, carbs: 28.4 }
-nutrition_per_100g: { kcal: 129, protein: 2.4, fat: 7.7, carbs: 15.1 }
-cooked_g_est: 188
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 478, protein: 43.9, fat: 18.8, carbs: 38.5 }
+nutrition_per_100g: { kcal: 113, protein: 10.4, fat: 4.4, carbs: 9.1 }
+cooked_g_est: 424
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Варіація: замість ананаса манго.
 - За даними автора: 538 ккал на порцію, Б/Ж/В 41/30/43 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано грецький йогурт безлактозний (немає у словнику); протеїн (немає у словнику); лайм або лимонний сік (немає у словнику); ваніль (немає у словнику).

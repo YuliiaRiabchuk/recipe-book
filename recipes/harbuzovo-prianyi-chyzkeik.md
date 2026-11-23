@@ -19,10 +19,10 @@ ingredients:
   - { name: кориця, qty: 5, unit: г, note: "мелена" }
   - { name: мускатний горіх, qty: 2, unit: г, note: "" }
 photo: img/harbuzovo-prianyi-chyzkeik.jpg
-nutrition_per_serving: { kcal: 178, protein: 4.5, fat: 16.3, carbs: 4.1 }
-nutrition_per_100g: { kcal: 240, protein: 6.1, fat: 22.0, carbs: 5.6 }
-cooked_g_est: 591
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 187, protein: 5.8, fat: 16.5, carbs: 4.6 }
+nutrition_per_100g: { kcal: 203, protein: 6.3, fat: 18.0, carbs: 5.0 }
+cooked_g_est: 735
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Чізкейки із запіканням.
 - За даними автора: 91 ккал на порцію, Б/Ж/В 9.4/3.9/6 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано йогурт густий (немає у словнику); еритритол (немає у словнику).

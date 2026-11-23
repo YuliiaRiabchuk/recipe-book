@@ -16,10 +16,10 @@ ingredients:
   - { name: ягоди або фрукти, qty: 80, unit: г, note: "" }
   - { name: підсолоджувач або мед, qty: null, unit: "", note: "за смаком" }
 photo: img/parfe-iohurt-hranola.jpg
-nutrition_per_serving: { kcal: 194, protein: 18.0, fat: 10.0, carbs: 8.0 }
-nutrition_per_100g: { kcal: 97, protein: 9.0, fat: 5.0, carbs: 4.0 }
-cooked_g_est: 200
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 407, protein: 23.7, fat: 19.0, carbs: 36.4 }
+nutrition_per_100g: { kcal: 129, protein: 7.5, fat: 6.0, carbs: 11.5 }
+cooked_g_est: 315
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Десерти без запікання.
 - За даними автора: 455 ккал на порцію, Б/Ж/В 18.9/18.9/52 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гранола (немає у словнику); ягоди або фрукти (немає у словнику).

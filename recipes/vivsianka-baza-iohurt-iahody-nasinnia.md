@@ -20,10 +20,10 @@ ingredients:
   - { name: горіхи, qty: 10, unit: г, note: "" }
   - { name: мед, qty: 7, unit: г, note: "1 ч.л., за бажанням" }
 photo: img/vivsianka-baza-iohurt-iahody-nasinnia.jpg
-nutrition_per_serving: { kcal: 484, protein: 23.1, fat: 18.1, carbs: 61.3 }
-nutrition_per_100g: { kcal: 101, protein: 4.8, fat: 3.8, carbs: 12.8 }
-cooked_g_est: 477
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 508, protein: 23.9, fat: 19.6, carbs: 63.4 }
+nutrition_per_100g: { kcal: 105, protein: 5.0, fat: 4.1, carbs: 13.2 }
+cooked_g_est: 482
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Варіація: замість меду можна додати щіпку кориці.
 - За даними автора: 479 ккал на порцію, Б/Ж/В 19/17/56 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано насіння чіа або льону (немає у словнику).

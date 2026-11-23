@@ -16,8 +16,10 @@ ingredients:
   - { name: червона цибуля, qty: 0.25, unit: шт, note: "" }
   - { name: кріп, qty: null, unit: "", note: "кілька гілочок" }
 photo: img/oseledets-na-zhytnomu-z-tsybulkoiu.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 107, protein: 11.0, fat: 5.5, carbs: 2.7 }
+nutrition_per_100g: { kcal: 121, protein: 12.5, fat: 6.2, carbs: 3.1 }
+cooked_g_est: 88
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

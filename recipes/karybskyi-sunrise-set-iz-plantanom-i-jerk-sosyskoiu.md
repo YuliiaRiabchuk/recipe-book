@@ -30,10 +30,10 @@ ingredients:
   - { name: чилі, qty: null, unit: "", note: "за смаком" }
   - { name: сушений часник, qty: null, unit: "", note: "за смаком" }
 photo: img/karybskyi-sunrise-set-iz-plantanom-i-jerk-sosyskoiu.jpg
-nutrition_per_serving: { kcal: 138, protein: 7.7, fat: 7.5, carbs: 11.6 }
-nutrition_per_100g: { kcal: 64, protein: 3.5, fat: 3.4, carbs: 5.4 }
-cooked_g_est: 217
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 378, protein: 19.2, fat: 15.3, carbs: 44.8 }
+nutrition_per_100g: { kcal: 92, protein: 4.7, fat: 3.7, carbs: 10.9 }
+cooked_g_est: 412
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -49,4 +49,3 @@ added: 2026-11-15
 - Для рідкого жовтка використовуй пастеризоване яйце.
 - За даними автора: 373 ккал на порцію, Б/Ж/В 22/14/45 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано плантан (немає у словнику); сосиска з курки (немає у словнику); чорна квасоля (немає у словнику); солодкий перець (немає у словнику); червона цибуля (немає у словнику).

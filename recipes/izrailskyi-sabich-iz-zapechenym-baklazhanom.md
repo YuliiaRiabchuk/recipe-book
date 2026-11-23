@@ -29,10 +29,10 @@ ingredients:
   - { name: куркума, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/izrailskyi-sabich-iz-zapechenym-baklazhanom.jpg
-nutrition_per_serving: { kcal: 204, protein: 11.9, fat: 12.7, carbs: 12.9 }
-nutrition_per_100g: { kcal: 77, protein: 4.5, fat: 4.8, carbs: 4.9 }
-cooked_g_est: 264
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 349, protein: 16.9, fat: 13.4, carbs: 43.5 }
+nutrition_per_100g: { kcal: 78, protein: 3.8, fat: 3.0, carbs: 9.7 }
+cooked_g_est: 448
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -47,4 +47,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 346 ккал на порцію, Б/Ж/В 18/12/43 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано піта (немає у словнику); баклажан (немає у словнику); червона цибуля (немає у словнику); петрушка (немає у словнику).

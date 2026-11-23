@@ -20,9 +20,9 @@ ingredients:
   - { name: легкий томатний соус, qty: 50, unit: г, note: "" }
   - { name: моцарела, qty: 60, unit: г, note: "20%" }
 photo: img/pitsa-z-saliami-ta-ovochamy.jpg
-nutrition_per_serving: { kcal: 25, protein: 1.9, fat: 1.7, carbs: 0.7 }
-nutrition_per_100g: { kcal: 158, protein: 11.9, fat: 10.5, carbs: 4.6 }
-cooked_g_est: 128
+nutrition_per_serving: { kcal: 65, protein: 3.7, fat: 4.9, carbs: 1.8 }
+nutrition_per_100g: { kcal: 174, protein: 9.9, fat: 13.2, carbs: 4.7 }
+cooked_g_est: 297
 nutrition_status: частковий
 status: спробувати
 rating: null
@@ -37,4 +37,4 @@ added: 2026-11-15
 - Розділ книги: Начинки для піци.
 - За даними автора: 91 ккал на порцію, Б/Ж/В 5.4/4.7/5.6 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано основа з цвітної капусти (немає у словнику); салямі (немає у словнику); маслини (немає у словнику); перець солодкий (немає у словнику); легкий томатний соус (немає у словнику).
+> КБЖВ частковий: не пораховано основа з цвітної капусти (немає у словнику).

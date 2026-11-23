@@ -23,10 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: гострий перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tom-iam-lait-z-krevetkamy-hrybamy-ta-laimom.jpg
-nutrition_per_serving: { kcal: 345, protein: 7.9, fat: 32.5, carbs: 13.1 }
-nutrition_per_100g: { kcal: 89, protein: 2.0, fat: 8.4, carbs: 3.4 }
-cooked_g_est: 388
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 561, protein: 44.6, fat: 38.9, carbs: 16.9 }
+nutrition_per_100g: { kcal: 91, protein: 7.3, fat: 6.3, carbs: 2.8 }
+cooked_g_est: 613
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Розділ книги: Білкові супи.
 - За даними автора: 381 ккал на порцію, Б/Ж/В 43/17/15 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано креветки очищені (немає у словнику); помідори чері (немає у словнику); олія кунжутна (немає у словнику).

@@ -18,10 +18,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/zamorozheni-vynohradni-klastery-v-iohurti-z-fistashkamy.jpg
-nutrition_per_serving: { kcal: 116, protein: 9.0, fat: 5.0, carbs: 9.2 }
-nutrition_per_100g: { kcal: 117, protein: 9.1, fat: 5.1, carbs: 9.3 }
-cooked_g_est: 99
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 311, protein: 13.2, fat: 12.1, carbs: 42.2 }
+nutrition_per_100g: { kcal: 121, protein: 5.2, fat: 4.7, carbs: 16.5 }
+cooked_g_est: 256
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Плюс 2 години на заморожування.
 - За даними автора: 308 ккал на порцію, Б/Ж/В 12/12/42 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано виноград (немає у словнику); фісташки (немає у словнику).

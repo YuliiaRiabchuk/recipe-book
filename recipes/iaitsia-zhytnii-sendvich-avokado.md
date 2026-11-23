@@ -19,10 +19,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/iaitsia-zhytnii-sendvich-avokado.jpg
-nutrition_per_serving: { kcal: 263, protein: 14.8, fat: 18.5, carbs: 11.6 }
-nutrition_per_100g: { kcal: 83, protein: 4.6, fat: 5.8, carbs: 3.7 }
-cooked_g_est: 318
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 444, protein: 20.7, fat: 20.8, carbs: 45.4 }
+nutrition_per_100g: { kcal: 114, protein: 5.3, fat: 5.4, carbs: 11.7 }
+cooked_g_est: 388
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Сендвічі й бутерброди.
 - За даними автора: 488 ккал на порцію, Б/Ж/В 20/22/52 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано житній хліб (немає у словнику).

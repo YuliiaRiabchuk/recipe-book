@@ -16,10 +16,10 @@ ingredients:
   - { name: ківі, qty: 60, unit: г, note: "спілий, очищений" }
   - { name: йогурт, qty: 40, unit: г, note: "густий" }
 photo: img/smuzi-pink-watermelon.jpg
-nutrition_per_serving: { kcal: 107, protein: 2.4, fat: 1.8, carbs: 22.7 }
-nutrition_per_100g: { kcal: 67, protein: 1.5, fat: 1.1, carbs: 14.2 }
-cooked_g_est: 160
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 152, protein: 3.4, fat: 2.0, carbs: 34.1 }
+nutrition_per_100g: { kcal: 49, protein: 1.1, fat: 0.6, carbs: 11.0 }
+cooked_g_est: 310
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,4 +32,3 @@ added: 2026-11-15
 - Розділ книги: Смузі.
 - За даними автора: 170 ккал на порцію, Б/Ж/В 3/2/35 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кавун (немає у словнику).

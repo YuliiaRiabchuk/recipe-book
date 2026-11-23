@@ -20,10 +20,10 @@ ingredients:
   - { name: мед, qty: 5, unit: г, note: "" }
   - { name: лимонна цедра, qty: 0.5, unit: г, note: "" }
 photo: img/malynovi-proteinovi-kulky-z-bilym-shokoladom.jpg
-nutrition_per_serving: { kcal: 261, protein: 8.2, fat: 8.5, carbs: 38.7 }
-nutrition_per_100g: { kcal: 269, protein: 8.5, fat: 8.8, carbs: 39.9 }
-cooked_g_est: 97
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 469, protein: 26.3, fat: 18.7, carbs: 51.5 }
+nutrition_per_100g: { kcal: 330, protein: 18.5, fat: 13.2, carbs: 36.3 }
+cooked_g_est: 142
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Додатково потрібно 30 хв на охолодження.
 - За даними автора: 518 ккал на порцію, Б/Ж/В 36/19/52 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сироватковий ізолят (немає у словнику); кеш’ю-паста (немає у словнику); лимонна цедра (немає у словнику).

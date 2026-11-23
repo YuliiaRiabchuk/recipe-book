@@ -25,10 +25,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/omlet-z-shynkoiu-syrom-i-shpynatom-salat-i-sendvich.jpg
-nutrition_per_serving: { kcal: 546, protein: 45.1, fat: 36.1, carbs: 10.1 }
-nutrition_per_100g: { kcal: 135, protein: 11.1, fat: 8.9, carbs: 2.5 }
-cooked_g_est: 406
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 663, protein: 50.1, fat: 38.1, carbs: 31.2 }
+nutrition_per_100g: { kcal: 117, protein: 8.8, fat: 6.7, carbs: 5.5 }
+cooked_g_est: 566
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Варіація: замість шинки — індичка.
 - За даними автора: 422 ккал на порцію, Б/Ж/В 32/18/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано помідори чері (немає у словнику); хліб цільнозерновий (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

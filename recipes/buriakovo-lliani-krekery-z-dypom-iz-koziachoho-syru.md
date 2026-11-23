@@ -25,10 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/buriakovo-lliani-krekery-z-dypom-iz-koziachoho-syru.jpg
-nutrition_per_serving: { kcal: 231, protein: 8.5, fat: 8.8, carbs: 30.7 }
-nutrition_per_100g: { kcal: 151, protein: 5.5, fat: 5.8, carbs: 20.1 }
-cooked_g_est: 153
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 557, protein: 24.8, fat: 34.9, carbs: 40.0 }
+nutrition_per_100g: { kcal: 236, protein: 10.5, fat: 14.8, carbs: 17.0 }
+cooked_g_est: 236
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Розділ книги: Хрусткі домашні снеки.
 - За даними автора: 552 ккал на порцію, Б/Ж/В 25/35/40 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мелене насіння льону (немає у словнику); насіння кунжуту (немає у словнику); сушений чебрець (немає у словнику); м’який козячий сир (немає у словнику); петрушка (немає у словнику).

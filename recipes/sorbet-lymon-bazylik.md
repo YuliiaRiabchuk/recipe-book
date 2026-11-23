@@ -16,10 +16,10 @@ ingredients:
   - { name: вода, qty: 220, unit: мл, note: "" }
   - { name: еритритол, qty: 45, unit: г, note: "" }
 photo: img/sorbet-lymon-bazylik.jpg
-nutrition_per_serving: { kcal: 6, protein: 0.1, fat: 0.1, carbs: 1.8 }
-nutrition_per_100g: { kcal: 8, protein: 0.1, fat: 0.1, carbs: 2.6 }
-cooked_g_est: 354
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 6, protein: 0.2, fat: 0.1, carbs: 1.9 }
+nutrition_per_100g: { kcal: 8, protein: 0.2, fat: 0.1, carbs: 2.3 }
+cooked_g_est: 411
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Морозиво та сорбети без цукру.
 - За даними автора: 10 ккал на 100 г, Б/Ж/В 0.2/0.1/2.4 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано листя базиліку (немає у словнику); еритритол (немає у словнику).

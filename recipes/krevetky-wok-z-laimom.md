@@ -27,10 +27,10 @@ ingredients:
   - { name: кунжут, qty: 5, unit: г, note: "1 ч.л." }
   - { name: зелена цибуля, qty: 8, unit: г, note: "або кінза" }
 photo: img/krevetky-wok-z-laimom.jpg
-nutrition_per_serving: { kcal: 356, protein: 35.2, fat: 12.1, carbs: 31.4 }
-nutrition_per_100g: { kcal: 83, protein: 8.2, fat: 2.8, carbs: 7.3 }
-cooked_g_est: 431
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 381, protein: 37.0, fat: 12.6, carbs: 36.1 }
+nutrition_per_100g: { kcal: 68, protein: 6.6, fat: 2.3, carbs: 6.5 }
+cooked_g_est: 558
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -47,4 +47,3 @@ added: 2026-11-15
 - P.S. Не перетримуй креветки на вогні, інакше будуть гумовими.
 - За даними автора: 415 ккал на порцію, Б/Ж/В 43/12/38 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цукіні (немає у словнику).

@@ -25,10 +25,10 @@ ingredients:
   - { name: часник, qty: 1, unit: г, note: "для соусу" }
   - { name: кукурудзяний крохмаль, qty: 2, unit: г, note: "для соусу" }
 photo: img/shpazhky-z-tofu-teriiaki-edamame-ta-solodkym-pertsem.jpg
-nutrition_per_serving: { kcal: 94, protein: 2.0, fat: 2.6, carbs: 16.5 }
-nutrition_per_100g: { kcal: 205, protein: 4.4, fat: 5.6, carbs: 35.9 }
-cooked_g_est: 46
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 439, protein: 36.8, fat: 22.3, carbs: 32.0 }
+nutrition_per_100g: { kcal: 122, protein: 10.2, fat: 6.2, carbs: 8.9 }
+cooked_g_est: 359
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 430 ккал на порцію, Б/Ж/В 33/22/31 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано твердий тофу (немає у словнику); едамаме (немає у словнику); солодкий перець (немає у словнику); кунжутна олія (немає у словнику); рисовий оцет (немає у словнику).

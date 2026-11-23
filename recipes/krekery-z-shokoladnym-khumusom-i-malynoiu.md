@@ -21,10 +21,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: вода, qty: 10, unit: г, note: "10–15 г" }
 photo: img/krekery-z-shokoladnym-khumusom-i-malynoiu.jpg
-nutrition_per_serving: { kcal: 309, protein: 12.2, fat: 8.8, carbs: 53.2 }
-nutrition_per_100g: { kcal: 121, protein: 4.8, fat: 3.5, carbs: 20.8 }
-cooked_g_est: 255
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 416, protein: 14.8, fat: 12.4, carbs: 70.5 }
+nutrition_per_100g: { kcal: 148, protein: 5.3, fat: 4.4, carbs: 25.2 }
+cooked_g_est: 280
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 338 ккал на порцію, Б/Ж/В 14/14/41 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику).

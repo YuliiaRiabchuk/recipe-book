@@ -20,10 +20,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: білий перець, qty: null, unit: "", note: "до смаку" }
 photo: img/tamaho-sando-iaponskyi-sendvich.jpg
-nutrition_per_serving: { kcal: 357, protein: 22.6, fat: 27.8, carbs: 2.7 }
-nutrition_per_100g: { kcal: 173, protein: 11.0, fat: 13.5, carbs: 1.3 }
-cooked_g_est: 206
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 575, protein: 30.2, fat: 30.8, carbs: 42.3 }
+nutrition_per_100g: { kcal: 199, protein: 10.5, fat: 10.6, carbs: 14.6 }
+cooked_g_est: 289
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - P.S.: щоб зріз був рівний, охолоди сендвіч із начинкою 5–10 хв перед нарізанням.
 - За даними автора: 560 ккал на порцію, Б/Ж/В 30/29/42 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано м’який тостовий хліб (немає у словнику); діжонська гірчиця (немає у словнику).

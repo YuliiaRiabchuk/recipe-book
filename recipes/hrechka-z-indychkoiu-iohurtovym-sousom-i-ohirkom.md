@@ -19,10 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/hrechka-z-indychkoiu-iohurtovym-sousom-i-ohirkom.jpg
-nutrition_per_serving: { kcal: 248, protein: 39.1, fat: 6.2, carbs: 8.4 }
-nutrition_per_100g: { kcal: 81, protein: 12.7, fat: 2.0, carbs: 2.7 }
-cooked_g_est: 308
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 456, protein: 46.1, fat: 7.8, carbs: 53.4 }
+nutrition_per_100g: { kcal: 93, protein: 9.5, fat: 1.6, carbs: 10.9 }
+cooked_g_est: 488
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Варіація: замість кропу — зелена цибуля.
 - За даними автора: 510 ккал на порцію, Б/Ж/В 52/12/50 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гречана крупа (немає у словнику).

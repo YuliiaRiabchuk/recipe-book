@@ -26,10 +26,10 @@ ingredients:
   - { name: кориця, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/proteinovyi-kaiserschmarrn-zi-slyvovym-sousom.jpg
-nutrition_per_serving: { kcal: 283, protein: 23.4, fat: 11.6, carbs: 20.4 }
-nutrition_per_100g: { kcal: 126, protein: 10.4, fat: 5.2, carbs: 9.1 }
-cooked_g_est: 224
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 331, protein: 24.3, fat: 12.8, carbs: 30.1 }
+nutrition_per_100g: { kcal: 108, protein: 8.0, fat: 4.2, carbs: 9.8 }
+cooked_g_est: 306
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 331 ккал на порцію, Б/Ж/В 26/12/30 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано слива (немає у словнику); фісташки (немає у словнику).

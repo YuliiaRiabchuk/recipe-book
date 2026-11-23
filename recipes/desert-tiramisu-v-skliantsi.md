@@ -17,10 +17,10 @@ ingredients:
   - { name: какао, qty: 5, unit: г, note: "" }
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
 photo: img/desert-tiramisu-v-skliantsi.jpg
-nutrition_per_serving: { kcal: 211, protein: 19.1, fat: 10.8, carbs: 11.9 }
-nutrition_per_100g: { kcal: 80, protein: 7.2, fat: 4.1, carbs: 4.5 }
-cooked_g_est: 265
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 327, protein: 21.2, fat: 11.9, carbs: 36.3 }
+nutrition_per_100g: { kcal: 107, protein: 7.0, fat: 3.9, carbs: 11.9 }
+cooked_g_est: 305
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Десерти без запікання.
 - За даними автора: 473 ккал на порцію, Б/Ж/В 18.3/21.4/51.9 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано бісквіт або печиво «лайт» (немає у словнику).

@@ -20,10 +20,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: паста карі жовта, qty: 10, unit: г, note: "або порошок карі 2–3 г + куркума 1 г + паприка 1 г + часник сушений 1 г + імбир мелений 0,5 г" }
 photo: img/kurka-kari-lait-z-rysom-shpynatom-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: 234, protein: 42.8, fat: 5.0, carbs: 2.9 }
-nutrition_per_100g: { kcal: 115, protein: 21.1, fat: 2.5, carbs: 1.4 }
-cooked_g_est: 203
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 544, protein: 47.4, fat: 19.1, carbs: 44.5 }
+nutrition_per_100g: { kcal: 124, protein: 10.8, fat: 4.4, carbs: 10.2 }
+cooked_g_est: 437
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Курка та індичка.
 - За даними автора: 518 ккал на порцію, Б/Ж/В 50/14/47 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано рис довгозернистий (немає у словнику); петрушка (немає у словнику); кокосове молоко light (немає у словнику); кунжутна олія (немає у словнику); паста карі жовта (немає у словнику).

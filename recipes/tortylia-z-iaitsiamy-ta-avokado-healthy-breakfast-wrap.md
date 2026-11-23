@@ -22,10 +22,10 @@ ingredients:
   - { name: чорний перець, qty: 1, unit: г, note: "" }
   - { name: паприка, qty: 2, unit: г, note: "" }
 photo: img/tortylia-z-iaitsiamy-ta-avokado-healthy-breakfast-wrap.jpg
-nutrition_per_serving: { kcal: 276, protein: 16.3, fat: 18.5, carbs: 13.0 }
-nutrition_per_100g: { kcal: 84, protein: 5.0, fat: 5.6, carbs: 4.0 }
-cooked_g_est: 328
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 458, protein: 21.5, fat: 23.0, carbs: 43.5 }
+nutrition_per_100g: { kcal: 110, protein: 5.1, fat: 5.5, carbs: 10.4 }
+cooked_g_est: 418
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 497 ккал на порцію, Б/Ж/В 20/45/49 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тортилья (невідома вага одиниці «шт» (додай --per шт=<г> у confirm)); салат листяний (немає у словнику).

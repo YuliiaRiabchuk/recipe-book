@@ -26,10 +26,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/rol-u-lavashi-z-indychkoiu-iaitsem-i-shpynatom-iohurtovyi.jpg
-nutrition_per_serving: { kcal: 442, protein: 47.6, fat: 20.7, carbs: 17.5 }
-nutrition_per_100g: { kcal: 76, protein: 8.2, fat: 3.6, carbs: 3.0 }
-cooked_g_est: 580
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 607, protein: 53.0, fat: 21.4, carbs: 50.9 }
+nutrition_per_100g: { kcal: 95, protein: 8.3, fat: 3.3, carbs: 7.9 }
+cooked_g_est: 642
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,4 +46,3 @@ added: 2026-11-15
 - Варіація: замість шпинату можна взяти руколу.
 - За даними автора: 672 ккал на порцію, Б/Ж/В 59/27/48 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тонкий лаваш (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

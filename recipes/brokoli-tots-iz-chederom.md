@@ -21,10 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/brokoli-tots-iz-chederom.jpg
-nutrition_per_serving: { kcal: 124, protein: 9.0, fat: 5.5, carbs: 12.7 }
-nutrition_per_100g: { kcal: 65, protein: 4.7, fat: 2.9, carbs: 6.6 }
-cooked_g_est: 191
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 347, protein: 20.1, fat: 18.4, carbs: 27.8 }
+nutrition_per_100g: { kcal: 141, protein: 8.2, fat: 7.5, carbs: 11.3 }
+cooked_g_est: 246
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 348 ккал на порцію, Б/Ж/В 21/19/27 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чедер (немає у словнику); цільнозернові панірувальні сухарі (немає у словнику); сушений часник (немає у словнику).

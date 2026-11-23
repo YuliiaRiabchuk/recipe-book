@@ -16,10 +16,10 @@ ingredients:
   - { name: еритритол, qty: 40, unit: г, note: "" }
   - { name: ванільний екстракт, qty: 2, unit: мл, note: "" }
 photo: img/morozyvo-vanilne-proteinove.jpg
-nutrition_per_serving: { kcal: 59, protein: 5.4, fat: 3.0, carbs: 2.4 }
-nutrition_per_100g: { kcal: 98, protein: 8.9, fat: 5.0, carbs: 4.0 }
-cooked_g_est: 302
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 94, protein: 13.2, fat: 3.2, carbs: 3.1 }
+nutrition_per_100g: { kcal: 120, protein: 16.9, fat: 4.0, carbs: 3.9 }
+cooked_g_est: 392
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Морозиво та сорбети без цукру.
 - За даними автора: 120 ккал на 100 г, Б/Ж/В 11.3/2.2/3.4 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано протеїн ванільний (немає у словнику); еритритол (немає у словнику).

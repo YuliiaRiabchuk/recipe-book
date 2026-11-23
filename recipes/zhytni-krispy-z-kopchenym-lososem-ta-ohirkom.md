@@ -20,10 +20,10 @@ ingredients:
   - { name: кріп, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zhytni-krispy-z-kopchenym-lososem-ta-ohirkom.jpg
-nutrition_per_serving: { kcal: 13, protein: 0.6, fat: 0.1, carbs: 3.1 }
-nutrition_per_100g: { kcal: 17, protein: 0.8, fat: 0.2, carbs: 4.0 }
-cooked_g_est: 78
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 258, protein: 23.1, fat: 4.0, carbs: 32.4 }
+nutrition_per_100g: { kcal: 100, protein: 8.9, fat: 1.6, carbs: 12.6 }
+cooked_g_est: 258
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Тости, роли та мінісендвічі.
 - За даними автора: 233 ккал на порцію, Б/Ж/В 21/5/27 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано житні кріспи (немає у словнику); копчений лосось (немає у словнику); вершковий сир (немає у словнику); редиска (немає у словнику).

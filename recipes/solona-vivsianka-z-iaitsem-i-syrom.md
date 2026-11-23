@@ -22,7 +22,7 @@ photo: img/solona-vivsianka-z-iaitsem-i-syrom.jpg
 nutrition_per_serving: { kcal: 379, protein: 22.4, fat: 15.9, carbs: 36.4 }
 nutrition_per_100g: { kcal: 120, protein: 7.1, fat: 5.1, carbs: 11.6 }
 cooked_g_est: 315
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Здорові сніданкові тарілки.
 - За даними автора: 422 ккал на порцію, Б/Ж/В 23/20/41 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чорний мелений перець (немає у словнику); сушений орегано (немає у словнику).

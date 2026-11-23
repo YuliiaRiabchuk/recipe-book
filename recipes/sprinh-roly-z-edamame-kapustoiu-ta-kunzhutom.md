@@ -27,10 +27,10 @@ ingredients:
   - { name: мед, qty: 3, unit: г, note: "для соусу" }
   - { name: імбир, qty: 1, unit: г, note: "для соусу" }
 photo: img/sprinh-roly-z-edamame-kapustoiu-ta-kunzhutom.jpg
-nutrition_per_serving: { kcal: 317, protein: 8.5, fat: 22.4, carbs: 28.0 }
-nutrition_per_100g: { kcal: 91, protein: 2.4, fat: 6.4, carbs: 8.1 }
-cooked_g_est: 347
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 437, protein: 20.8, fat: 27.6, carbs: 36.4 }
+nutrition_per_100g: { kcal: 96, protein: 4.6, fat: 6.0, carbs: 8.0 }
+cooked_g_est: 457
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 583 ккал на порцію, Б/Ж/В 23/28/70 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано едамаме (немає у словнику).

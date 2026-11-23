@@ -21,10 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/ohirkovi-slaisy-z-iaiechnym-salatom-i-shnit-tsybuleiu.jpg
-nutrition_per_serving: { kcal: 178, protein: 15.7, fat: 11.3, carbs: 2.4 }
-nutrition_per_100g: { kcal: 128, protein: 11.3, fat: 8.1, carbs: 1.7 }
-cooked_g_est: 139
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 209, protein: 17.2, fat: 11.6, carbs: 9.4 }
+nutrition_per_100g: { kcal: 64, protein: 5.2, fat: 3.5, carbs: 2.9 }
+cooked_g_est: 329
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 204 ккал на порцію, Б/Ж/В 17/11/10 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано довгий огірок (немає у словнику); діжонська гірчиця (немає у словнику); шніт-цибуля (немає у словнику); копчена паприка (немає у словнику).

@@ -23,10 +23,10 @@ ingredients:
   - { name: мелений кмин, qty: 0.5, unit: г, note: "" }
   - { name: сушений часник, qty: 1, unit: г, note: "" }
 photo: img/pita-z-falafelem-iohurtovym-sousom-i-ovochamy.jpg
-nutrition_per_serving: { kcal: 160, protein: 12.0, fat: 5.3, carbs: 19.8 }
-nutrition_per_100g: { kcal: 33, protein: 2.5, fat: 1.1, carbs: 4.1 }
-cooked_g_est: 489
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 743, protein: 34.8, fat: 27.8, carbs: 97.2 }
+nutrition_per_100g: { kcal: 109, protein: 5.1, fat: 4.1, carbs: 14.3 }
+cooked_g_est: 680
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Варіація: замість капусти можна взяти руколу.
 - За даними автора: 712 ккал на порцію, Б/Ж/В 30/32/82 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозернова піта (немає у словнику); фалафель (немає у словнику); мелений кмин (немає у словнику); сушений часник (немає у словнику).

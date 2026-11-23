@@ -24,10 +24,10 @@ ingredients:
   - { name: лимон, qty: 15, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/nut-z-baklazhanom-ta-chasnykom.jpg
-nutrition_per_serving: { kcal: 489, protein: 20.8, fat: 15.9, carbs: 69.7 }
-nutrition_per_100g: { kcal: 151, protein: 6.4, fat: 4.9, carbs: 21.6 }
-cooked_g_est: 323
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 588, protein: 25.0, fat: 16.7, carbs: 92.2 }
+nutrition_per_100g: { kcal: 83, protein: 3.5, fat: 2.4, carbs: 13.1 }
+cooked_g_est: 705
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - P.S. Баклажан спочатку обсмажуємо окремо, так смак глибший і текстура краща.
 - За даними автора: 511 ккал на порцію, Б/Ж/В 20/13/71 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано баклажан (немає у словнику); томати (немає у словнику).

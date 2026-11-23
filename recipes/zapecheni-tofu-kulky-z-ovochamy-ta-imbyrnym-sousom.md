@@ -28,10 +28,10 @@ ingredients:
   - { name: імбир, qty: 1, unit: г, note: "для соусу" }
   - { name: кукурудзяний крохмаль, qty: 2, unit: г, note: "для соусу" }
 photo: img/zapecheni-tofu-kulky-z-ovochamy-ta-imbyrnym-sousom.jpg
-nutrition_per_serving: { kcal: 122, protein: 4.2, fat: 1.4, carbs: 24.2 }
-nutrition_per_100g: { kcal: 126, protein: 4.3, fat: 1.4, carbs: 24.9 }
-cooked_g_est: 97
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 389, protein: 32.2, fat: 18.4, carbs: 31.0 }
+nutrition_per_100g: { kcal: 130, protein: 10.8, fat: 6.2, carbs: 10.4 }
+cooked_g_est: 299
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 370 ккал на порцію, Б/Ж/В 28/18/28 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано твердий тофу (немає у словнику); солодкий перець (немає у словнику); кунжутна олія (немає у словнику); рисовий оцет (немає у словнику).

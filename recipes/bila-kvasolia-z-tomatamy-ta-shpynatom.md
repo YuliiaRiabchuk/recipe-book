@@ -25,10 +25,10 @@ ingredients:
   - { name: лимон, qty: 15, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/bila-kvasolia-z-tomatamy-ta-shpynatom.jpg
-nutrition_per_serving: { kcal: 150, protein: 4.1, fat: 10.6, carbs: 12.7 }
-nutrition_per_100g: { kcal: 62, protein: 1.7, fat: 4.4, carbs: 5.2 }
-cooked_g_est: 243
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 501, protein: 27.7, fat: 11.8, carbs: 77.6 }
+nutrition_per_100g: { kcal: 74, protein: 4.1, fat: 1.8, carbs: 11.5 }
+cooked_g_est: 676
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,4 +46,3 @@ added: 2026-11-15
 - P.S. Лимон наприкінці робить смак свіжим і прибирає відчуття важкості від бобових.
 - За даними автора: 463 ккал на порцію, Б/Ж/В 24/13/68 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано квасоля біла (немає у словнику); томати (немає у словнику).

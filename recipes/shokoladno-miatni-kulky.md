@@ -17,10 +17,10 @@ ingredients:
   - { name: мʼятний екстракт, qty: null, unit: "", note: "кілька крапель; або свіжа мʼята, дрібно" }
   - { name: вода, qty: 20, unit: мл, note: "" }
 photo: img/shokoladno-miatni-kulky.jpg
-nutrition_per_serving: { kcal: 171, protein: 2.6, fat: 1.2, carbs: 45.9 }
-nutrition_per_100g: { kcal: 206, protein: 3.1, fat: 1.4, carbs: 55.3 }
-cooked_g_est: 83
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 276, protein: 26.0, fat: 1.6, carbs: 47.7 }
+nutrition_per_100g: { kcal: 244, protein: 23.0, fat: 1.5, carbs: 42.2 }
+cooked_g_est: 113
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Трюфелі та кульки на шпажках.
 - За даними автора: 287 ккал на порцію, Б/Ж/В 24/2/47 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано казеїн шоколадний (немає у словнику).

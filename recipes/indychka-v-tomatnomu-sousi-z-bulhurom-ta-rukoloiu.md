@@ -24,10 +24,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/indychka-v-tomatnomu-sousi-z-bulhurom-ta-rukoloiu.jpg
-nutrition_per_serving: { kcal: 249, protein: 45.4, fat: 3.1, carbs: 9.2 }
-nutrition_per_100g: { kcal: 115, protein: 21.0, fat: 1.5, carbs: 4.3 }
-cooked_g_est: 216
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 537, protein: 53.1, fat: 14.1, carbs: 53.3 }
+nutrition_per_100g: { kcal: 105, protein: 10.4, fat: 2.8, carbs: 10.5 }
+cooked_g_est: 510
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Курка та індичка.
 - За даними автора: 535 ккал на порцію, Б/Ж/В 52/14/55 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано булгур (немає у словнику); томати (немає у словнику); петрушка (немає у словнику); соняшникова олія (немає у словнику).

@@ -20,10 +20,10 @@ ingredients:
   - { name: розпушувач, qty: 6, unit: г, note: "" }
   - { name: сіль, qty: 3, unit: г, note: "" }
 photo: img/myhdalnyi-khlib.jpg
-nutrition_per_serving: { kcal: 98, protein: 3.4, fat: 3.8, carbs: 12.0 }
-nutrition_per_100g: { kcal: 268, protein: 9.5, fat: 10.4, carbs: 32.9 }
-cooked_g_est: 438
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 158, protein: 5.9, fat: 7.8, carbs: 15.6 }
+nutrition_per_100g: { kcal: 341, protein: 12.7, fat: 16.9, carbs: 33.6 }
+cooked_g_est: 555
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Порція 45 г: 147 ккал; вихід 545 г. Підготовка 20 хв, випікання 38 хв.
 - За даними автора: 327 ккал на 100 г, Б/Ж/В 12.4/18.1/28.6 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно мигдальне (немає у словнику); борошно кокосове (немає у словнику).

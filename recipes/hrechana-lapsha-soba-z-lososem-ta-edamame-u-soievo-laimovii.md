@@ -23,10 +23,10 @@ ingredients:
   - { name: кунжут, qty: 3, unit: г, note: "1 ч.л., 3–4 г" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/hrechana-lapsha-soba-z-lososem-ta-edamame-u-soievo-laimovii.jpg
-nutrition_per_serving: { kcal: 319, protein: 26.6, fat: 20.5, carbs: 9.1 }
-nutrition_per_100g: { kcal: 128, protein: 10.7, fat: 8.2, carbs: 3.6 }
-cooked_g_est: 249
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 586, protein: 42.0, fat: 23.8, carbs: 58.4 }
+nutrition_per_100g: { kcal: 131, protein: 9.4, fat: 5.3, carbs: 13.1 }
+cooked_g_est: 447
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Азійська лапша.
 - За даними автора: 609 ккал на порцію, Б/Ж/В 41/26/58 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гречана лапша (немає у словнику); едамаме (немає у словнику).

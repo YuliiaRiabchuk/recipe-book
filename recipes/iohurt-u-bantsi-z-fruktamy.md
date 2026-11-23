@@ -16,10 +16,10 @@ ingredients:
   - { name: яблуко, qty: 0.5, unit: шт, note: "" }
   - { name: мед, qty: 1, unit: ч.л., note: "" }
 photo: img/iohurt-u-bantsi-z-fruktamy.jpg
-nutrition_per_serving: { kcal: 121, protein: 0.9, fat: 0.3, carbs: 31.8 }
-nutrition_per_100g: { kcal: 77, protein: 0.6, fat: 0.2, carbs: 20.3 }
-cooked_g_est: 157
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 243, protein: 7.8, fat: 6.8, carbs: 41.1 }
+nutrition_per_100g: { kcal: 68, protein: 2.2, fat: 1.9, carbs: 11.5 }
+cooked_g_est: 357
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Сніданок у банці.
 - За даними автора: 235 ккал на порцію, Б/Ж/В 8/5/41 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано натуральний йогурт (немає у словнику).

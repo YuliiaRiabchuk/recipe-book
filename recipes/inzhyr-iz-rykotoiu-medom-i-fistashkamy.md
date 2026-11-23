@@ -19,10 +19,10 @@ ingredients:
   - { name: кориця, qty: 0.2, unit: г, note: "мелена" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/inzhyr-iz-rykotoiu-medom-i-fistashkamy.jpg
-nutrition_per_serving: { kcal: 21, protein: 0.0, fat: 0.0, carbs: 5.8 }
-nutrition_per_100g: { kcal: 304, protein: 0.3, fat: 0.0, carbs: 82.4 }
-cooked_g_est: 7
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 405, protein: 18.1, fat: 16.8, carbs: 50.7 }
+nutrition_per_100g: { kcal: 125, protein: 5.6, fat: 5.2, carbs: 15.7 }
+cooked_g_est: 323
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Йогуртові, сирні та фруктові чашки.
 - За даними автора: 381 ккал на порцію, Б/Ж/В 16/15/51 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано інжир (немає у словнику); рикота (немає у словнику); фісташки (немає у словнику); апельсинова цедра (немає у словнику).

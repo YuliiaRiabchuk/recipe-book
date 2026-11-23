@@ -22,10 +22,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: італійські трави, qty: 2, unit: г, note: "" }
 photo: img/baklazhan-parmidzhana-lait-z-kurkoiu.jpg
-nutrition_per_serving: { kcal: 377, protein: 38.5, fat: 21.6, carbs: 5.9 }
-nutrition_per_100g: { kcal: 207, protein: 21.1, fat: 11.8, carbs: 3.2 }
-cooked_g_est: 182
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 518, protein: 44.3, fat: 22.5, carbs: 39.1 }
+nutrition_per_100g: { kcal: 86, protein: 7.3, fat: 3.7, carbs: 6.5 }
+cooked_g_est: 605
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Розділ книги: Овочеві запіканки з білком.
 - За даними автора: 5210 ккал на порцію, Б/Ж/В 45/25/29 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано баклажан (немає у словнику); пасата (немає у словнику); італійські трави (немає у словнику).

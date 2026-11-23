@@ -19,10 +19,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: копчена паприка, qty: 0.3, unit: г, note: "" }
 photo: img/krekery-z-indychkoiu-khumusom-i-pechenym-pertsem.jpg
-nutrition_per_serving: { kcal: 238, protein: 26.0, fat: 11.2, carbs: 9.2 }
-nutrition_per_100g: { kcal: 145, protein: 15.8, fat: 6.9, carbs: 5.6 }
-cooked_g_est: 164
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 342, protein: 28.5, fat: 11.8, carbs: 32.5 }
+nutrition_per_100g: { kcal: 132, protein: 11.0, fat: 4.5, carbs: 12.5 }
+cooked_g_est: 259
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 373 ккал на порцію, Б/Ж/В 34/14/25 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гречані крекери (немає у словнику); печений солодкий перець (немає у словнику); копчена паприка (немає у словнику).

@@ -16,10 +16,10 @@ ingredients:
   - { name: молоко, qty: 80, unit: мл, note: "1,5%" }
   - { name: кориця, qty: 2, unit: г, note: "" }
 photo: img/harbuzovo-proteinovyi-pudynh-teplyi.jpg
-nutrition_per_serving: { kcal: 64, protein: 3.5, fat: 1.7, carbs: 9.7 }
-nutrition_per_100g: { kcal: 35, protein: 1.9, fat: 0.9, carbs: 5.3 }
-cooked_g_est: 182
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 170, protein: 26.9, fat: 2.1, carbs: 11.6 }
+nutrition_per_100g: { kcal: 81, protein: 12.9, fat: 1.0, carbs: 5.5 }
+cooked_g_est: 209
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Теплі.
 - За даними автора: 200 ккал на порцію, Б/Ж/В 27/4/18 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано казеїн ванільний (немає у словнику).

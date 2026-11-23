@@ -25,10 +25,10 @@ ingredients:
   - { name: імбир, qty: 4, unit: г, note: "" }
   - { name: крохмаль, qty: 2, unit: г, note: "не обовʼязково" }
 photo: img/kurka-z-brokoli-ta-pertsem-u-soievo-lymonnomu-sousi.jpg
-nutrition_per_serving: { kcal: 527, protein: 59.3, fat: 9.3, carbs: 51.3 }
-nutrition_per_100g: { kcal: 99, protein: 11.2, fat: 1.8, carbs: 9.6 }
-cooked_g_est: 532
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 619, protein: 62.1, fat: 14.9, carbs: 61.1 }
+nutrition_per_100g: { kcal: 91, protein: 9.1, fat: 2.2, carbs: 9.0 }
+cooked_g_est: 681
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Розділ книги: Wok-обіди.
 - За даними автора: 601 ккал на порцію, Б/Ж/В 61/16/57 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано перець солодкий (немає у словнику); соняшникова олія (немає у словнику); соєвий соус лайт (немає у словнику).

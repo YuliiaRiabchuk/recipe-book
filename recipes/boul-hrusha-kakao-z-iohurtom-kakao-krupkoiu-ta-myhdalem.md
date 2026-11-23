@@ -20,10 +20,10 @@ ingredients:
   - { name: кориця, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/boul-hrusha-kakao-z-iohurtom-kakao-krupkoiu-ta-myhdalem.jpg
-nutrition_per_serving: { kcal: 414, protein: 21.9, fat: 17.7, carbs: 46.8 }
-nutrition_per_100g: { kcal: 102, protein: 5.4, fat: 4.4, carbs: 11.5 }
-cooked_g_est: 406
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 478, protein: 23.3, fat: 23.0, carbs: 49.7 }
+nutrition_per_100g: { kcal: 114, protein: 5.6, fat: 5.5, carbs: 11.9 }
+cooked_g_est: 418
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Варіація: замість груші яблуко.
 - За даними автора: 472 ккал на порцію, Б/Ж/В 17/25/49 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано какао-крупка (немає у словнику); ваніль (немає у словнику).

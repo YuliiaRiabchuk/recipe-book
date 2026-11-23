@@ -27,10 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zapecheni-samosa-baits-iz-nutom-ta-kartopleiu.jpg
-nutrition_per_serving: { kcal: 356, protein: 16.9, fat: 9.1, carbs: 53.6 }
-nutrition_per_100g: { kcal: 115, protein: 5.5, fat: 3.0, carbs: 17.4 }
-cooked_g_est: 308
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 357, protein: 17.1, fat: 9.2, carbs: 53.9 }
+nutrition_per_100g: { kcal: 114, protein: 5.4, fat: 2.9, carbs: 17.2 }
+cooked_g_est: 314
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 446 ккал на порцію, Б/Ж/В 18/8/79 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано карі (немає у словнику); мелений кумин (немає у словнику); мелений коріандр (немає у словнику); м’ята (немає у словнику).

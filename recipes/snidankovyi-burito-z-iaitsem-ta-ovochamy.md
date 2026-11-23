@@ -22,10 +22,10 @@ ingredients:
   - { name: сушений часник, qty: 0.25, unit: ч.л., note: "або сушена цибуля, за бажанням" }
   - { name: лимонний сік, qty: 0.5, unit: ч.л., note: "або лайм, за бажанням" }
 photo: img/snidankovyi-burito-z-iaitsem-ta-ovochamy.jpg
-nutrition_per_serving: { kcal: 324, protein: 22.8, fat: 22.6, carbs: 7.3 }
-nutrition_per_100g: { kcal: 156, protein: 11.0, fat: 10.9, carbs: 3.5 }
-cooked_g_est: 207
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 502, protein: 27.6, fat: 27.2, carbs: 36.9 }
+nutrition_per_100g: { kcal: 188, protein: 10.3, fat: 10.2, carbs: 13.8 }
+cooked_g_est: 267
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Розділ книги: Street-style сніданки.
 - За даними автора: 530 ккал на порцію, Б/Ж/В 31/29/45 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пшенична тортилья (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

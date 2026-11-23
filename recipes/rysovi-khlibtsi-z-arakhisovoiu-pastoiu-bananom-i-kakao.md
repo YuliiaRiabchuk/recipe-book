@@ -18,10 +18,10 @@ ingredients:
   - { name: кориця, qty: 0.3, unit: г, note: "" }
   - { name: морська сіль, qty: 0.1, unit: г, note: "" }
 photo: img/rysovi-khlibtsi-z-arakhisovoiu-pastoiu-bananom-i-kakao.jpg
-nutrition_per_serving: { kcal: 308, protein: 7.9, fat: 12.3, carbs: 45.8 }
-nutrition_per_100g: { kcal: 225, protein: 5.8, fat: 9.0, carbs: 33.5 }
-cooked_g_est: 137
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 353, protein: 8.9, fat: 16.0, carbs: 47.8 }
+nutrition_per_100g: { kcal: 245, protein: 6.2, fat: 11.1, carbs: 33.2 }
+cooked_g_est: 144
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Крекери, хлібці та хрусткі основи.
 - За даними автора: 360 ккал на порцію, Б/Ж/В 10/16/46 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано какао-крупка (немає у словнику).

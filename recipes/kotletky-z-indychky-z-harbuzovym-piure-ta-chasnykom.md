@@ -24,10 +24,11 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком, для пюре" }
   - { name: грецький йогурт, qty: 50, unit: г, note: "2%, ≈3 ст.л., опційно" }
 photo: img/kotletky-z-indychky-z-harbuzovym-piure-ta-chasnykom.jpg
-nutrition_per_serving: { kcal: 261, protein: 13.7, fat: 14.5, carbs: 21.7 }
-nutrition_per_100g: { kcal: 77, protein: 4.0, fat: 4.3, carbs: 6.4 }
-cooked_g_est: 339
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 543, protein: 48.7, fat: 27.1, carbs: 28.9 }
+nutrition_per_100g: { kcal: 112, protein: 10.1, fat: 5.6, carbs: 6.0 }
+cooked_g_est: 484
+nutrition_status: повний
+nutrition_notes: ["фарш індички: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +43,3 @@ added: 2026-11-15
 - Морква по-корейськи (30 г) дасть пікантний контраст і «кафе-стайл» подачу; порція невелика, калорійність зміниться незначно.
 - За даними автора: 449 ккал на порцію, Б/Ж/В 45/17/26 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фарш індички (немає у словнику); панірувальні сухарі (немає у словнику).

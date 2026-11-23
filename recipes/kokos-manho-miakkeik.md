@@ -17,10 +17,10 @@ ingredients:
   - { name: борошно вівсяне, qty: 30, unit: г, note: "" }
   - { name: йогурт густий, qty: 40, unit: г, note: "3%" }
 photo: img/kokos-manho-miakkeik.jpg
-nutrition_per_serving: { kcal: 218, protein: 8.0, fat: 14.7, carbs: 15.9 }
-nutrition_per_100g: { kcal: 168, protein: 6.1, fat: 11.3, carbs: 12.2 }
-cooked_g_est: 130
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 364, protein: 15.9, fat: 17.4, carbs: 38.4 }
+nutrition_per_100g: { kcal: 188, protein: 8.2, fat: 9.0, carbs: 19.8 }
+cooked_g_est: 194
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Десерти у мікрохвильовці.
 - За даними автора: 256 ккал на порцію, Б/Ж/В 11.2/10.5/28.7 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); йогурт густий (немає у словнику).

@@ -17,10 +17,10 @@ ingredients:
   - { name: насіння гарбуза або соняшника, qty: 10, unit: г, note: "" }
   - { name: мед, qty: 7, unit: г, note: "1 ч.л., за бажанням" }
 photo: img/iohurt-boul-iohurt-frukty-horikhy.jpg
-nutrition_per_serving: { kcal: 362, protein: 24.8, fat: 22.3, carbs: 17.8 }
-nutrition_per_100g: { kcal: 133, protein: 9.1, fat: 8.2, carbs: 6.5 }
-cooked_g_est: 272
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 464, protein: 28.7, fat: 27.6, carbs: 29.8 }
+nutrition_per_100g: { kcal: 130, protein: 8.0, fat: 7.7, carbs: 8.4 }
+cooked_g_est: 357
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Варіація: ківі можна замінити ягодами.
 - За даними автора: 509 ккал на порцію, Б/Ж/В 15/26/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано ківі (невідома вага одиниці «шт» (додай --per шт=<г> у confirm)); насіння гарбуза або соняшника (немає у словнику).

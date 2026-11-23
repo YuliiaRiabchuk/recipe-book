@@ -28,10 +28,10 @@ ingredients:
   - { name: часник, qty: 1, unit: г, note: "для соусу" }
   - { name: сіль, qty: null, unit: "", note: "за смаком, для соусу" }
 photo: img/shpazhky-z-falafelem-ohirkom-i-tomatamy.jpg
-nutrition_per_serving: { kcal: 369, protein: 19.1, fat: 11.8, carbs: 49.5 }
-nutrition_per_100g: { kcal: 106, protein: 5.5, fat: 3.4, carbs: 14.3 }
-cooked_g_est: 347
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 443, protein: 22.6, fat: 13.3, carbs: 62.4 }
+nutrition_per_100g: { kcal: 95, protein: 4.8, fat: 2.8, carbs: 13.3 }
+cooked_g_est: 468
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 419 ккал на порцію, Б/Ж/В 22/11/61 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано петрушка (немає у словнику); кумин (зіра) (немає у словнику); коріандр мелений (немає у словнику); борошно нутове (немає у словнику); томати черрі (немає у словнику).

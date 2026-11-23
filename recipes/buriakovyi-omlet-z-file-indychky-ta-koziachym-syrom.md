@@ -27,10 +27,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: кумин мелений, qty: 0.5, unit: г, note: "" }
 photo: img/buriakovyi-omlet-z-file-indychky-ta-koziachym-syrom.jpg
-nutrition_per_serving: { kcal: 329, protein: 33.8, fat: 16.0, carbs: 12.1 }
-nutrition_per_100g: { kcal: 97, protein: 10.0, fat: 4.7, carbs: 3.6 }
-cooked_g_est: 338
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 484, protein: 43.0, fat: 23.4, carbs: 24.9 }
+nutrition_per_100g: { kcal: 121, protein: 10.8, fat: 5.9, carbs: 6.2 }
+cooked_g_est: 400
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,4 +46,3 @@ added: 2026-11-15
 - Варіація: замість козячого сиру — фета.
 - За даними автора: 580 ккал на порцію, Б/Ж/В 48/29/27 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано козячий сир (немає у словнику); хліб цільнозерновий (немає у словнику); сушений часник (немає у словнику); кумин мелений (немає у словнику).

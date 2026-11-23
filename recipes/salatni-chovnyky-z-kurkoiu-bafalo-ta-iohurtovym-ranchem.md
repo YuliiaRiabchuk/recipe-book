@@ -26,10 +26,10 @@ ingredients:
   - { name: зелена цибуля, qty: 5, unit: г, note: "для ранчу" }
   - { name: сушений часник, qty: 0.3, unit: г, note: "для ранчу" }
 photo: img/salatni-chovnyky-z-kurkoiu-bafalo-ta-iohurtovym-ranchem.jpg
-nutrition_per_serving: { kcal: 278, protein: 35.4, fat: 9.6, carbs: 11.5 }
-nutrition_per_100g: { kcal: 106, protein: 13.6, fat: 3.7, carbs: 4.4 }
-cooked_g_est: 261
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 310, protein: 36.7, fat: 10.0, carbs: 18.1 }
+nutrition_per_100g: { kcal: 82, protein: 9.7, fat: 2.6, carbs: 4.8 }
+cooked_g_est: 380
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 266 ккал на порцію, Б/Ж/В 34/8/15 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано листя салату романо (немає у словнику); стебло селери (немає у словнику); гострий соус (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

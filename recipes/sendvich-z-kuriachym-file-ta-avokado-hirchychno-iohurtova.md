@@ -25,10 +25,10 @@ ingredients:
   - { name: копчена паприка, qty: 1, unit: г, note: "" }
   - { name: сушений часник, qty: 1, unit: г, note: "" }
 photo: img/sendvich-z-kuriachym-file-ta-avokado-hirchychno-iohurtova.jpg
-nutrition_per_serving: { kcal: 608, protein: 55.0, fat: 24.6, carbs: 42.5 }
-nutrition_per_100g: { kcal: 134, protein: 12.2, fat: 5.4, carbs: 9.4 }
-cooked_g_est: 452
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 621, protein: 56.0, fat: 24.9, carbs: 44.8 }
+nutrition_per_100g: { kcal: 119, protein: 10.8, fat: 4.8, carbs: 8.6 }
+cooked_g_est: 520
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Варіація: замість курки можна взяти індичку.
 - За даними автора: 634 ккал на порцію, Б/Ж/В 55/28/51 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано салат ромен (немає у словнику); діжонська гірчиця (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

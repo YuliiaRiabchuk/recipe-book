@@ -17,10 +17,10 @@ ingredients:
   - { name: какао-порошок, qty: 30, unit: г, note: "" }
   - { name: еритритол, qty: 60, unit: г, note: "" }
 photo: img/shokoladnyi-lehkyi-chyzkeik.jpg
-nutrition_per_serving: { kcal: 201, protein: 5.4, fat: 18.9, carbs: 5.0 }
-nutrition_per_100g: { kcal: 338, protein: 9.0, fat: 31.7, carbs: 8.4 }
-cooked_g_est: 477
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 215, protein: 7.2, fat: 19.3, carbs: 5.8 }
+nutrition_per_100g: { kcal: 258, protein: 8.7, fat: 23.2, carbs: 6.9 }
+cooked_g_est: 666
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Чізкейки із запіканням.
 - За даними автора: 100 ккал на порцію, Б/Ж/В 10.6/4.7/3.4 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано йогурт густий (немає у словнику); еритритол (немає у словнику).

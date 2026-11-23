@@ -16,8 +16,10 @@ ingredients:
   - { name: агар-агар, qty: 8, unit: г, note: "" }
   - { name: вода, qty: 50, unit: мл, note: "тепла, для розведення агару" }
 photo: img/fruktovi-zheleiky.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 8, protein: 0.1, fat: 0.0, carbs: 2.0 }
+nutrition_per_100g: { kcal: 40, protein: 0.7, fat: 0.2, carbs: 9.5 }
+cooked_g_est: 412
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

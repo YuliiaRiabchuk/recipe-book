@@ -28,10 +28,10 @@ ingredients:
   - { name: чебрець, qty: null, unit: "", note: "за смаком" }
   - { name: розмарин, qty: null, unit: "", note: "за смаком" }
 photo: img/rahu-z-ialovychynoiu-ovochamy-tomatamy-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: 483, protein: 53.3, fat: 23.2, carbs: 18.8 }
-nutrition_per_100g: { kcal: 98, protein: 10.8, fat: 4.7, carbs: 3.8 }
-cooked_g_est: 493
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 540, protein: 56.0, fat: 23.9, carbs: 31.3 }
+nutrition_per_100g: { kcal: 74, protein: 7.7, fat: 3.3, carbs: 4.3 }
+cooked_g_est: 730
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - Розділ книги: Середземноморські та «кафешні».
 - За даними автора: 624 ккал на порцію, Б/Ж/В 52/33/31 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано солодкий перець (немає у словнику); помідори свіжі (немає у словнику); петрушка (немає у словнику).

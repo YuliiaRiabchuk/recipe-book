@@ -16,10 +16,10 @@ ingredients:
   - { name: вівсяні пластівці, qty: 20, unit: г, note: "" }
   - { name: мед, qty: 5, unit: г, note: "" }
 photo: img/kalynovyi-iohurtovyi-parfe.jpg
-nutrition_per_serving: { kcal: 236, protein: 16.1, fat: 8.8, carbs: 23.6 }
-nutrition_per_100g: { kcal: 150, protein: 10.2, fat: 5.6, carbs: 15.0 }
-cooked_g_est: 158
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 255, protein: 16.3, fat: 8.9, carbs: 28.4 }
+nutrition_per_100g: { kcal: 131, protein: 8.4, fat: 4.6, carbs: 14.6 }
+cooked_g_est: 194
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Фрукти, ягоди, мед.
 - За даними автора: 259 ккал на порцію, Б/Ж/В 15/4/41 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано калина (немає у словнику).

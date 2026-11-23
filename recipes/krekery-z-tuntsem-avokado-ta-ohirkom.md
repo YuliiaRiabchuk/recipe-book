@@ -21,10 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-tuntsem-avokado-ta-ohirkom.jpg
-nutrition_per_serving: { kcal: 119, protein: 3.4, fat: 9.1, carbs: 8.4 }
-nutrition_per_100g: { kcal: 83, protein: 2.4, fat: 6.3, carbs: 5.8 }
-cooked_g_est: 144
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 294, protein: 21.6, fat: 13.4, carbs: 25.8 }
+nutrition_per_100g: { kcal: 118, protein: 8.7, fat: 5.4, carbs: 10.3 }
+cooked_g_est: 249
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 306 ккал на порцію, Б/Ж/В 25/13/25 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); тунець у власному соку (немає у словнику).

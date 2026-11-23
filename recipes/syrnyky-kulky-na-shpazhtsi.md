@@ -17,10 +17,10 @@ ingredients:
   - { name: ягоди, qty: 60, unit: г, note: "для соусу" }
   - { name: ванілін, qty: 1, unit: дрібка, note: "" }
 photo: img/syrnyky-kulky-na-shpazhtsi.jpg
-nutrition_per_serving: { kcal: 247, protein: 27.7, fat: 5.7, carbs: 20.8 }
-nutrition_per_100g: { kcal: 88, protein: 9.9, fat: 2.1, carbs: 7.5 }
-cooked_g_est: 279
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 398, protein: 32.9, fat: 8.3, carbs: 47.9 }
+nutrition_per_100g: { kcal: 126, protein: 10.5, fat: 2.6, carbs: 15.2 }
+cooked_g_est: 315
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Сирне та молочне.
 - За даними автора: 470 ккал на порцію, Б/Ж/В 40/17/37 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано дрібні вівсяні пластівці (немає у словнику).

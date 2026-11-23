@@ -23,10 +23,10 @@ ingredients:
   - { name: сіль, qty: 3, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/kinoa-z-nutom-i-takhini-seredzemnomorskyi-boul.jpg
-nutrition_per_serving: { kcal: 162, protein: 3.1, fat: 13.7, carbs: 10.1 }
-nutrition_per_100g: { kcal: 80, protein: 1.5, fat: 6.7, carbs: 5.0 }
-cooked_g_est: 203
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 785, protein: 36.4, fat: 25.1, carbs: 110.6 }
+nutrition_per_100g: { kcal: 91, protein: 4.2, fat: 2.9, carbs: 12.8 }
+cooked_g_est: 866
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Прогрів нуту 2–3 хв — дрібниця, але смак стає в рази кращий.
 - За даними автора: 762 ккал на порцію, Б/Ж/В 34/29/95 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кіноа (немає у словнику); нут консервований (немає у словнику); томати черрі (немає у словнику); салат мікс (немає у словнику); йогурт грецький (немає у словнику).

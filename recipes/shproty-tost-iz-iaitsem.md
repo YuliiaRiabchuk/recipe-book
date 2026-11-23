@@ -16,10 +16,10 @@ ingredients:
   - { name: житній хліб, qty: null, unit: "", note: "1 скибка" }
   - { name: зелена цибуля, qty: null, unit: "", note: "1 перо" }
 photo: img/shproty-tost-iz-iaitsem.jpg
-nutrition_per_serving: { kcal: 72, protein: 6.3, fat: 4.8, carbs: 0.4 }
-nutrition_per_100g: { kcal: 143, protein: 12.6, fat: 9.5, carbs: 0.7 }
-cooked_g_est: 50
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 155, protein: 16.1, fat: 9.3, carbs: 0.4 }
+nutrition_per_100g: { kcal: 172, protein: 17.9, fat: 10.4, carbs: 0.4 }
+cooked_g_est: 90
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Рибне.
 - За даними автора: 245 ккал на порцію, Б/Ж/В 15/17/9 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано шпроти (немає у словнику).

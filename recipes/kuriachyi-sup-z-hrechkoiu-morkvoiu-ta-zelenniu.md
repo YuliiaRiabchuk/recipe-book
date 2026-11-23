@@ -24,10 +24,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kuriachyi-sup-z-hrechkoiu-morkvoiu-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: 417, protein: 47.0, fat: 6.1, carbs: 44.4 }
-nutrition_per_100g: { kcal: 59, protein: 6.6, fat: 0.9, carbs: 6.3 }
-cooked_g_est: 708
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 463, protein: 47.1, fat: 11.2, carbs: 44.8 }
+nutrition_per_100g: { kcal: 64, protein: 6.6, fat: 1.6, carbs: 6.2 }
+cooked_g_est: 719
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Білкові супи.
 - За даними автора: 443 ккал на порцію, Б/Ж/В 49/10/43 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано соняшникова олія (немає у словнику); петрушка (немає у словнику).

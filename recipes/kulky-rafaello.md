@@ -16,10 +16,10 @@ ingredients:
   - { name: еритритол, qty: 20, unit: г, note: "" }
   - { name: мигдаль, qty: 12, unit: шт, note: "мигдальні горіхи" }
 photo: img/kulky-rafaello.jpg
-nutrition_per_serving: { kcal: 66, protein: 0.7, fat: 6.5, carbs: 2.4 }
-nutrition_per_100g: { kcal: 660, protein: 6.9, fat: 64.5, carbs: 23.6 }
-cooked_g_est: 120
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 102, protein: 1.5, fat: 9.9, carbs: 3.1 }
+nutrition_per_100g: { kcal: 482, protein: 6.9, fat: 46.9, carbs: 14.6 }
+cooked_g_est: 254
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Цукерки.
 - За даними автора: 84 ккал на порцію, Б/Ж/В 2.4/7.5/2.8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сир м'який (немає у словнику); еритритол (немає у словнику); мигдаль (невідома вага одиниці «шт» (додай --per шт=<г> у confirm)).

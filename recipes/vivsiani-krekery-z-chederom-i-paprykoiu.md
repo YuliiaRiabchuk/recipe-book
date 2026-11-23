@@ -21,10 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/vivsiani-krekery-z-chederom-i-paprykoiu.jpg
-nutrition_per_serving: { kcal: 310, protein: 11.7, fat: 9.8, carbs: 45.0 }
-nutrition_per_100g: { kcal: 364, protein: 13.8, fat: 11.5, carbs: 53.0 }
-cooked_g_est: 85
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 412, protein: 17.8, fat: 18.3, carbs: 45.6 }
+nutrition_per_100g: { kcal: 382, protein: 16.4, fat: 16.9, carbs: 42.2 }
+cooked_g_est: 108
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Хрусткі домашні снеки.
 - За даними автора: 416 ккал на порцію, Б/Ж/В 19/18/44 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чедер (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

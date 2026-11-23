@@ -22,10 +22,11 @@ ingredients:
   - { name: паприка, qty: 2, unit: г, note: "" }
   - { name: кумин, qty: 1, unit: г, note: "" }
 photo: img/zapikanka-z-batatom-ta-farshem-indychky.jpg
-nutrition_per_serving: { kcal: 142, protein: 6.6, fat: 10.0, carbs: 7.0 }
-nutrition_per_100g: { kcal: 163, protein: 7.6, fat: 11.5, carbs: 8.0 }
-cooked_g_est: 87
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 656, protein: 45.2, fat: 21.8, carbs: 73.7 }
+nutrition_per_100g: { kcal: 110, protein: 7.6, fat: 3.7, carbs: 12.4 }
+cooked_g_est: 596
+nutrition_status: повний
+nutrition_notes: ["фарш індички: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Ситні запечені обіди.
 - За даними автора: 603 ккал на порцію, Б/Ж/В 43/20/64 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано батат (немає у словнику); фарш індички (немає у словнику); пасата (немає у словнику).

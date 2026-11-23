@@ -21,10 +21,10 @@ ingredients:
   - { name: шпинат, qty: 40, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "до смаку" }
 photo: img/krok-madam-z-indychkoiu-hriuierom-ta-iaitsem.jpg
-nutrition_per_serving: { kcal: 499, protein: 42.4, fat: 15.7, carbs: 46.2 }
-nutrition_per_100g: { kcal: 173, protein: 14.7, fat: 5.4, carbs: 16.0 }
-cooked_g_est: 289
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 646, protein: 53.0, fat: 27.1, carbs: 46.6 }
+nutrition_per_100g: { kcal: 197, protein: 16.2, fat: 8.3, carbs: 14.2 }
+cooked_g_est: 328
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - P.S.: спочатку запеки сендвіч, а потім додай підсмажене яйце, так жовток лишиться м'яким, а хліб хрустким.
 - За даними автора: 620 ккал на порцію, Б/Ж/В 49/28/47 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сир грюєр (немає у словнику); діжонська гірчиця (немає у словнику).

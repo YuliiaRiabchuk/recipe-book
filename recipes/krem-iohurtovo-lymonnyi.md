@@ -17,9 +17,9 @@ ingredients:
   - { name: цедра лимона, qty: 3, unit: г, note: "зі шкірки свіжого лимона, дрібно натерта, без білого прошарку" }
 photo: img/krem-iohurtovo-lymonnyi.jpg
 nutrition_per_serving: { kcal: 40, protein: 3.6, fat: 2.0, carbs: 2.0 }
-nutrition_per_100g: { kcal: 89, protein: 8.1, fat: 4.5, carbs: 4.4 }
-cooked_g_est: 224
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 79, protein: 7.1, fat: 4.0, carbs: 3.9 }
+cooked_g_est: 254
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,4 +32,3 @@ added: 2026-11-15
 - Розділ книги: Топінги та креми.
 - За даними автора: 96 ккал на 100 г, Б/Ж/В 7.2/8/3.4 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано еритритол (немає у словнику).

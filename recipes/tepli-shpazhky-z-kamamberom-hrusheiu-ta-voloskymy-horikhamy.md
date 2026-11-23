@@ -21,9 +21,9 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tepli-shpazhky-z-kamamberom-hrusheiu-ta-voloskymy-horikhamy.jpg
 nutrition_per_serving: { kcal: 476, protein: 21.3, fat: 32.0, carbs: 30.6 }
-nutrition_per_100g: { kcal: 165, protein: 7.4, fat: 11.1, carbs: 10.6 }
-cooked_g_est: 289
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 164, protein: 7.4, fat: 11.0, carbs: 10.6 }
+cooked_g_est: 290
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 476 ккал на порцію, Б/Ж/В 21/32/31 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано свіжий чебрець (немає у словнику).

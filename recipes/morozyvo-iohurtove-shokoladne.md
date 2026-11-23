@@ -17,9 +17,9 @@ ingredients:
   - { name: молоко, qty: 100, unit: мл, note: "2,5 %" }
 photo: img/morozyvo-iohurtove-shokoladne.jpg
 nutrition_per_serving: { kcal: 82, protein: 7.2, fat: 4.2, carbs: 6.8 }
-nutrition_per_100g: { kcal: 95, protein: 8.4, fat: 4.9, carbs: 7.9 }
-cooked_g_est: 430
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 87, protein: 7.7, fat: 4.5, carbs: 7.3 }
+cooked_g_est: 470
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Морозиво та сорбети без цукру.
 - За даними автора: 110 ккал на 100 г, Б/Ж/В 5.4/3.1/5.2 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано еритритол (немає у словнику).

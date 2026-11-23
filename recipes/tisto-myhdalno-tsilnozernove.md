@@ -19,10 +19,10 @@ ingredients:
   - { name: підсолоджувач, qty: 10, unit: г, note: "або мед" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/tisto-myhdalno-tsilnozernove.jpg
-nutrition_per_serving: { kcal: 555, protein: 19.7, fat: 23.5, carbs: 72.3 }
-nutrition_per_100g: { kcal: 326, protein: 11.6, fat: 13.8, carbs: 42.6 }
-cooked_g_est: 170
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 833, protein: 34.1, fat: 44.3, carbs: 80.4 }
+nutrition_per_100g: { kcal: 320, protein: 13.1, fat: 17.1, carbs: 30.9 }
+cooked_g_est: 260
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Вихід 220 г (823 ккал). Підготовка 5 хв, випікання 25 хв.
 - За даними автора: 374 ккал на 100 г, Б/Ж/В 13.3/20.4/33.6 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно мигдальне (немає у словнику); йогурт густий (немає у словнику); підсолоджувач (немає у словнику).

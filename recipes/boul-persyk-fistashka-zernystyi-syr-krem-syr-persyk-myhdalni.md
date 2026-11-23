@@ -20,10 +20,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/boul-persyk-fistashka-zernystyi-syr-krem-syr-persyk-myhdalni.jpg
-nutrition_per_serving: { kcal: 193, protein: 4.0, fat: 15.3, carbs: 12.1 }
-nutrition_per_100g: { kcal: 387, protein: 8.0, fat: 30.6, carbs: 24.1 }
-cooked_g_est: 50
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 551, protein: 31.1, fat: 31.2, carbs: 42.0 }
+nutrition_per_100g: { kcal: 118, protein: 6.7, fat: 6.7, carbs: 9.0 }
+cooked_g_est: 466
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Варіація: замість персика нектарин.
 - За даними автора: 588 ккал на порцію, Б/Ж/В 33/31/43 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано зернистий сир (немає у словнику); персик свіжий (немає у словнику); фісташки (немає у словнику); ваніль (немає у словнику).

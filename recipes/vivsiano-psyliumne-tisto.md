@@ -18,10 +18,10 @@ ingredients:
   - { name: оливкова олія, qty: 20, unit: мл, note: "" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/vivsiano-psyliumne-tisto.jpg
-nutrition_per_serving: { kcal: 234, protein: 6.3, fat: 23.2, carbs: 0.4 }
-nutrition_per_100g: { kcal: 300, protein: 8.1, fat: 29.7, carbs: 0.5 }
-cooked_g_est: 78
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 738, protein: 27.1, fat: 31.7, carbs: 86.2 }
+nutrition_per_100g: { kcal: 297, protein: 10.9, fat: 12.8, carbs: 34.8 }
+cooked_g_est: 248
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Вихід 200 г (710 ккал). Підготовка 5 хв, випікання 13 хв.
 - За даними автора: 355 ккал на 100 г, Б/Ж/В 11.8/16.6/41.8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); йогурт густий (немає у словнику).

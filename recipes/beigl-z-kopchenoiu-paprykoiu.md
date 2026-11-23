@@ -25,10 +25,10 @@ ingredients:
   - { name: цибуля сушена, qty: null, unit: "", note: "за бажанням для посипання" }
   - { name: часник сушений, qty: null, unit: "", note: "за бажанням для посипання" }
 photo: img/beigl-z-kopchenoiu-paprykoiu.jpg
-nutrition_per_serving: { kcal: 211, protein: 7.3, fat: 4.1, carbs: 39.6 }
-nutrition_per_100g: { kcal: 230, protein: 7.9, fat: 4.5, carbs: 43.0 }
-cooked_g_est: 92
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 225, protein: 8.4, fat: 4.4, carbs: 43.2 }
+nutrition_per_100g: { kcal: 232, protein: 8.7, fat: 4.6, carbs: 44.6 }
+cooked_g_est: 97
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,4 +46,3 @@ added: 2026-11-15
 - Порція 100 г: 239 ккал. Приготування 1 год 57 хв, випікання 19 хв.
 - За даними автора: 239 ккал на 100 г, Б/Ж/В 8/4.3/42.7 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано висівки (немає у словнику); дріжджі сухі (немає у словнику).

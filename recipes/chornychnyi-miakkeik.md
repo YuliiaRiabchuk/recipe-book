@@ -16,10 +16,10 @@ ingredients:
   - { name: борошно вівсяне, qty: 30, unit: г, note: "" }
   - { name: яйце, qty: 1, unit: шт, note: "50 г" }
 photo: img/chornychnyi-miakkeik.jpg
-nutrition_per_serving: { kcal: 72, protein: 6.3, fat: 4.8, carbs: 0.4 }
-nutrition_per_100g: { kcal: 159, protein: 14.0, fat: 10.6, carbs: 0.8 }
-cooked_g_est: 45
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 259, protein: 15.6, fat: 7.8, carbs: 32.0 }
+nutrition_per_100g: { kcal: 151, protein: 9.2, fat: 4.6, carbs: 18.7 }
+cooked_g_est: 171
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Десерти у мікрохвильовці.
 - За даними автора: 221 ккал на порцію, Б/Ж/В 11.6/7.7/27.3 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чорниця (немає у словнику); йогурт густий (немає у словнику); борошно вівсяне (немає у словнику).

@@ -19,10 +19,10 @@ ingredients:
   - { name: соус bbq, qty: 40, unit: г, note: "лайт" }
   - { name: селера листова, qty: 5, unit: г, note: "для подачі" }
 photo: img/pitsa-teliatyna-bbq-lait.jpg
-nutrition_per_serving: { kcal: 25, protein: 2.7, fat: 0.3, carbs: 2.9 }
-nutrition_per_100g: { kcal: 146, protein: 15.7, fat: 2.0, carbs: 16.8 }
-cooked_g_est: 136
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 93, protein: 4.7, fat: 0.6, carbs: 17.1 }
+nutrition_per_100g: { kcal: 182, protein: 9.2, fat: 1.3, carbs: 33.4 }
+cooked_g_est: 410
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Начинки для піци.
 - За даними автора: 92 ккал на порцію, Б/Ж/В 6.5/3.8/7.1 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано основа для піци (немає у словнику); томати (немає у словнику); соус bbq (немає у словнику); селера листова (немає у словнику).

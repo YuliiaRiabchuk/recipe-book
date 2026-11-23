@@ -18,10 +18,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: дрібка, note: "" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/mus-shokolad-avokado.jpg
-nutrition_per_serving: { kcal: 226, protein: 5.3, fat: 19.6, carbs: 18.9 }
-nutrition_per_100g: { kcal: 168, protein: 4.0, fat: 14.6, carbs: 14.0 }
-cooked_g_est: 135
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 297, protein: 12.0, fat: 23.3, carbs: 21.8 }
+nutrition_per_100g: { kcal: 136, protein: 5.5, fat: 10.7, carbs: 10.0 }
+cooked_g_est: 218
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Десерти без запікання.
 - За даними автора: 345 ккал на порцію, Б/Ж/В 10.8/23.6/21.5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано грецький йогурт (невідома густина для «мл»); еритритол (немає у словнику); ваніль (немає у словнику).

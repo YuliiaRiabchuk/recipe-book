@@ -27,10 +27,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/fritata-z-kuriachym-file-brokoli-ta-parmezanom-i-zelenyi.jpg
-nutrition_per_serving: { kcal: 512, protein: 45.7, fat: 23.0, carbs: 33.4 }
-nutrition_per_100g: { kcal: 99, protein: 8.9, fat: 4.5, carbs: 6.5 }
-cooked_g_est: 516
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 516, protein: 46.0, fat: 23.1, carbs: 34.0 }
+nutrition_per_100g: { kcal: 98, protein: 8.7, fat: 4.4, carbs: 6.4 }
+cooked_g_est: 528
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -47,4 +47,3 @@ added: 2026-11-15
 - Варіація: замість руколи можна взяти листя салату.
 - За даними автора: 540 ккал на порцію, Б/Ж/В 49/25/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано петрушка (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

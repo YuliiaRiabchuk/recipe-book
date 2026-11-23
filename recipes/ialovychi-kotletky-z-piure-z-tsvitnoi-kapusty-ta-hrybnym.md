@@ -26,10 +26,11 @@ ingredients:
   - { name: вершки, qty: 80, unit: г, note: "10%, ≈5 ст.л." }
   - { name: зелень, qty: 5, unit: г, note: "" }
 photo: img/ialovychi-kotletky-z-piure-z-tsvitnoi-kapusty-ta-hrybnym.jpg
-nutrition_per_serving: { kcal: 363, protein: 20.6, fat: 21.4, carbs: 28.0 }
-nutrition_per_100g: { kcal: 70, protein: 4.0, fat: 4.1, carbs: 5.4 }
-cooked_g_est: 518
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 687, protein: 57.9, fat: 36.3, carbs: 35.2 }
+nutrition_per_100g: { kcal: 104, protein: 8.7, fat: 5.5, carbs: 5.3 }
+cooked_g_est: 663
+nutrition_status: повний
+nutrition_notes: ["фарш яловичий: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +46,3 @@ added: 2026-11-15
 - Квашена капуста (50 г) працює як «кислий гарнір»: підкреслює грибний соус і дає клітковину, не обтяжуючи вечерю калоріями.
 - За даними автора: 764 ккал на порцію, Б/Ж/В 53/47/36 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фарш яловичий (немає у словнику); панірувальні сухарі (немає у словнику).

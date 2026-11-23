@@ -25,10 +25,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/rol-u-lavashi-z-kuriachym-file-khumusom-i-ovochamy.jpg
-nutrition_per_serving: { kcal: 449, protein: 48.1, fat: 19.4, carbs: 23.0 }
-nutrition_per_100g: { kcal: 79, protein: 8.4, fat: 3.4, carbs: 4.0 }
-cooked_g_est: 570
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 614, protein: 53.6, fat: 20.1, carbs: 56.5 }
+nutrition_per_100g: { kcal: 97, protein: 8.5, fat: 3.2, carbs: 8.9 }
+cooked_g_est: 632
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - Варіація: замість курки можна взяти індичку.
 - За даними автора: 612 ккал на порцію, Б/Ж/В 50/18/67 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тонкий лаваш (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

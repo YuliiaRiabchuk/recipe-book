@@ -17,10 +17,10 @@ ingredients:
   - { name: насіння чіа, qty: 8, unit: г, note: "" }
   - { name: арахісова паста, qty: 10, unit: г, note: "" }
 photo: img/aussie-yogurt-boul-z-hranoloiu-ta-iahodamy.jpg
-nutrition_per_serving: { kcal: 400, protein: 25.4, fat: 19.7, carbs: 34.7 }
-nutrition_per_100g: { kcal: 98, protein: 6.2, fat: 4.8, carbs: 8.5 }
-cooked_g_est: 408
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 572, protein: 30.2, fat: 28.2, carbs: 53.5 }
+nutrition_per_100g: { kcal: 129, protein: 6.8, fat: 6.4, carbs: 12.1 }
+cooked_g_est: 443
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Сніданки країн світу.
 - За даними автора: 624 ккал на порцію, Б/Ж/В 18/36/57 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гранола (немає у словнику).

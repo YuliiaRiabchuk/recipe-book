@@ -18,10 +18,10 @@ ingredients:
   - { name: мед, qty: 40, unit: г, note: "або еритритол" }
   - { name: оливкова олія, qty: 20, unit: мл, note: "" }
 photo: img/hranola-z-horikhamy-ta-zhuravlynoiu.jpg
-nutrition_per_serving: { kcal: 281, protein: 6.2, fat: 13.0, carbs: 37.9 }
-nutrition_per_100g: { kcal: 434, protein: 9.6, fat: 20.0, carbs: 58.7 }
-cooked_g_est: 388
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 308, protein: 7.1, fat: 15.1, carbs: 39.4 }
+nutrition_per_100g: { kcal: 441, protein: 10.2, fat: 21.6, carbs: 56.5 }
+cooked_g_est: 418
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Гранола.
 - За даними автора: 440 ккал на 100 г, Б/Ж/В 11/18/56 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано насіння льону (немає у словнику).

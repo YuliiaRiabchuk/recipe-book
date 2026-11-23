@@ -25,10 +25,10 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/tempe-z-pechenymy-ovochamy-ta-takhini-sousom.jpg
-nutrition_per_serving: { kcal: 329, protein: 14.3, fat: 22.1, carbs: 23.8 }
-nutrition_per_100g: { kcal: 74, protein: 3.2, fat: 5.0, carbs: 5.4 }
-cooked_g_est: 442
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 669, protein: 47.6, fat: 39.5, carbs: 43.5 }
+nutrition_per_100g: { kcal: 100, protein: 7.1, fat: 5.9, carbs: 6.5 }
+cooked_g_est: 670
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - P.S. Тахіні дуже концентрований, 12 г достатньо, і смак буде дорогий без перевантаження калоріями.
 - За даними автора: 711 ккал на порцію, Б/Ж/В 51/40/46 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано темпе (немає у словнику); червона цибуля (немає у словнику); петрушка (немає у словнику).

@@ -22,10 +22,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: насіння гарбуза, qty: 10, unit: г, note: "1 ст.л." }
 photo: img/kalmar-z-rukoloiu-ta-harbuzovym-nasinniam.jpg
-nutrition_per_serving: { kcal: 175, protein: 4.0, fat: 11.6, carbs: 18.3 }
-nutrition_per_100g: { kcal: 46, protein: 1.1, fat: 3.1, carbs: 4.9 }
-cooked_g_est: 377
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 396, protein: 35.0, fat: 19.0, carbs: 24.9 }
+nutrition_per_100g: { kcal: 73, protein: 6.5, fat: 3.5, carbs: 4.6 }
+cooked_g_est: 540
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - P.S. Кальмара готують або дуже швидко (до 2 хв), або дуже довго; на вечерю тільки швидко.
 - За даними автора: 388 ккал на порцію, Б/Ж/В 36/18/24 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кальмар (немає у словнику); насіння гарбуза (немає у словнику).

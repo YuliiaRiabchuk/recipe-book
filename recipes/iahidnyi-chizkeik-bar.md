@@ -17,10 +17,10 @@ ingredients:
   - { name: фініки, qty: 40, unit: г, note: "для основи" }
   - { name: ягоди, qty: 60, unit: г, note: "" }
 photo: img/iahidnyi-chizkeik-bar.jpg
-nutrition_per_serving: { kcal: 256, protein: 11.5, fat: 13.5, carbs: 26.3 }
-nutrition_per_100g: { kcal: 176, protein: 7.9, fat: 9.3, carbs: 18.1 }
-cooked_g_est: 290
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 326, protein: 27.1, fat: 13.8, carbs: 27.6 }
+nutrition_per_100g: { kcal: 198, protein: 16.5, fat: 8.4, carbs: 16.7 }
+cooked_g_est: 330
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Батончики і бари.
 - За даними автора: 730 ккал на порцію, Б/Ж/В 59/37/48 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано казеїн ванільний (немає у словнику).

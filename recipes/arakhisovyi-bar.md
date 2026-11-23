@@ -17,10 +17,10 @@ ingredients:
   - { name: арахісова паста, qty: 25, unit: г, note: "" }
   - { name: гіркий шоколад, qty: 15, unit: г, note: "для топінгу" }
 photo: img/arakhisovyi-bar.jpg
-nutrition_per_serving: { kcal: 268, protein: 10.3, fat: 17.7, carbs: 20.6 }
-nutrition_per_100g: { kcal: 510, protein: 19.6, fat: 33.6, carbs: 39.2 }
-cooked_g_est: 105
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 382, protein: 26.4, fat: 20.8, carbs: 25.8 }
+nutrition_per_100g: { kcal: 477, protein: 33.0, fat: 26.1, carbs: 32.2 }
+cooked_g_est: 160
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Батончики і бари.
 - За даними автора: 749 ккал на порцію, Б/Ж/В 54/43/42 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано протеїн ванільний (немає у словнику); гіркий шоколад (немає у словнику).

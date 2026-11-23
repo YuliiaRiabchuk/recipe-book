@@ -25,10 +25,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: трави, qty: 2, unit: г, note: "" }
 photo: img/tunets-pasta-beik.jpg
-nutrition_per_serving: { kcal: 338, protein: 13.0, fat: 25.7, carbs: 16.2 }
-nutrition_per_100g: { kcal: 142, protein: 5.5, fat: 10.8, carbs: 6.8 }
-cooked_g_est: 238
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 640, protein: 43.2, fat: 28.3, carbs: 56.4 }
+nutrition_per_100g: { kcal: 113, protein: 7.6, fat: 5.0, carbs: 10.0 }
+cooked_g_est: 565
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Ситні запечені обіди.
 - За даними автора: 692 ккал на порцію, Б/Ж/В 50/32/51 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано паста (немає у словнику); тунець у власному соку (немає у словнику); томати черрі (немає у словнику); трави (немає у словнику).

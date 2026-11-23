@@ -18,10 +18,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: дрібка, note: "≈0,2 г" }
   - { name: ваніль або кориця, qty: 1, unit: дрібка, note: "≈0,2 г, за бажанням" }
 photo: img/rysova-kasha-na-molotsi-z-vershkovym-maslom.jpg
-nutrition_per_serving: { kcal: 241, protein: 10.0, fat: 14.1, carbs: 19.4 }
-nutrition_per_100g: { kcal: 107, protein: 4.4, fat: 6.2, carbs: 8.6 }
-cooked_g_est: 225
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 457, protein: 14.0, fat: 14.4, carbs: 67.0 }
+nutrition_per_100g: { kcal: 116, protein: 3.5, fat: 3.7, carbs: 17.1 }
+cooked_g_est: 393
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 467 ккал на порцію, Б/Ж/В 13/16/67 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано рис круглозернистий (немає у словнику); ваніль або кориця (немає у словнику).

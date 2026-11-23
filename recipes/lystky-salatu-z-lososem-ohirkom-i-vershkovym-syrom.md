@@ -21,10 +21,10 @@ ingredients:
   - { name: кріп, qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/lystky-salatu-z-lososem-ohirkom-i-vershkovym-syrom.jpg
-nutrition_per_serving: { kcal: 206, protein: 19.3, fat: 12.3, carbs: 4.4 }
-nutrition_per_100g: { kcal: 104, protein: 9.8, fat: 6.2, carbs: 2.2 }
-cooked_g_est: 198
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 282, protein: 29.0, fat: 13.1, carbs: 12.2 }
+nutrition_per_100g: { kcal: 78, protein: 8.0, fat: 3.6, carbs: 3.4 }
+cooked_g_est: 363
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Листки салату, норі та спрінг-роли.
 - За даними автора: 219 ккал на порцію, Б/Ж/В 23/11/8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано листя салату романо (немає у словнику); вершковий сир (немає у словнику); редиска (немає у словнику).

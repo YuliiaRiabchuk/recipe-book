@@ -24,10 +24,10 @@ ingredients:
   - { name: часник, qty: 3, unit: г, note: "" }
   - { name: базилік, qty: 8, unit: г, note: "або петрушка" }
 photo: img/kurka-v-tomatakh-z-baklazhanom.jpg
-nutrition_per_serving: { kcal: 330, protein: 39.5, fat: 14.6, carbs: 8.8 }
-nutrition_per_100g: { kcal: 144, protein: 17.3, fat: 6.4, carbs: 3.8 }
-cooked_g_est: 229
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 438, protein: 44.2, fat: 15.6, carbs: 33.2 }
+nutrition_per_100g: { kcal: 67, protein: 6.8, fat: 2.4, carbs: 5.1 }
+cooked_g_est: 654
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,4 +46,3 @@ added: 2026-11-15
 - P.S. Баклажан любить гарячу сковороду: на холодній він вбирає багато олії й стає важким.
 - За даними автора: 449 ккал на порцію, Б/Ж/В 46/14/35 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано баклажан (немає у словнику); томати (немає у словнику).

@@ -20,10 +20,10 @@ ingredients:
   - { name: пластівці чилі, qty: 0.2, unit: г, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/keshiu-z-harbuzovym-nasinniam-i-kopchenoiu-paprykoiu.jpg
-nutrition_per_serving: { kcal: 387, protein: 14.2, fat: 32.5, carbs: 15.7 }
-nutrition_per_100g: { kcal: 569, protein: 20.9, fat: 47.9, carbs: 23.1 }
-cooked_g_est: 68
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 398, protein: 14.2, fat: 32.5, carbs: 18.4 }
+nutrition_per_100g: { kcal: 545, protein: 19.5, fat: 44.6, carbs: 25.2 }
+cooked_g_est: 73
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Хрусткі снеки.
 - За даними автора: 400 ккал на порцію, Б/Ж/В 14/32/20 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кленовий сироп (немає у словнику); копчена паприка (немає у словнику); пластівці чилі (немає у словнику).

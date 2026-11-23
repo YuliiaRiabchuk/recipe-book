@@ -21,10 +21,10 @@ ingredients:
   - { name: кріп, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zhytni-krekery-z-lososem-i-lymonnoiu-rykotoiu.jpg
-nutrition_per_serving: { kcal: 157, protein: 14.9, fat: 9.6, carbs: 2.7 }
-nutrition_per_100g: { kcal: 117, protein: 11.0, fat: 7.1, carbs: 2.0 }
-cooked_g_est: 135
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 332, protein: 23.7, fat: 14.6, carbs: 26.4 }
+nutrition_per_100g: { kcal: 151, protein: 10.8, fat: 6.6, carbs: 12.0 }
+cooked_g_est: 220
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 281 ккал на порцію, Б/Ж/В 22/15/15 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано житні крекери (немає у словнику); рикота (немає у словнику); лимонна цедра (немає у словнику).

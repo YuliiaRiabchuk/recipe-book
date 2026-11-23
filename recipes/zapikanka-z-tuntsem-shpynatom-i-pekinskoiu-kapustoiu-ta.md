@@ -25,10 +25,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: сушений кріп, qty: 0.5, unit: г, note: "" }
 photo: img/zapikanka-z-tuntsem-shpynatom-i-pekinskoiu-kapustoiu-ta.jpg
-nutrition_per_serving: { kcal: 393, protein: 27.8, fat: 21.6, carbs: 23.6 }
-nutrition_per_100g: { kcal: 103, protein: 7.3, fat: 5.6, carbs: 6.2 }
-cooked_g_est: 383
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 445, protein: 39.5, fat: 22.2, carbs: 23.6 }
+nutrition_per_100g: { kcal: 100, protein: 8.9, fat: 5.0, carbs: 5.3 }
+cooked_g_est: 446
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 505 ккал на порцію, Б/Ж/В 42/29/23 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тунець (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику); сушений кріп (немає у словнику).

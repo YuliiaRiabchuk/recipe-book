@@ -18,10 +18,10 @@ ingredients:
   - { name: розпушувач, qty: 5, unit: г, note: "" }
   - { name: ванільний екстракт, qty: 2, unit: мл, note: "" }
 photo: img/keksy-rysovo-iohurtovi.jpg
-nutrition_per_serving: { kcal: 12, protein: 1.0, fat: 0.8, carbs: 0.1 }
-nutrition_per_100g: { kcal: 154, protein: 13.1, fat: 9.9, carbs: 1.0 }
-cooked_g_est: 96
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 65, protein: 2.8, fat: 1.2, carbs: 10.5 }
+nutrition_per_100g: { kcal: 209, protein: 8.9, fat: 3.7, carbs: 33.6 }
+cooked_g_est: 375
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Фітнес-випічка для сніданку.
 - За даними автора: 61 ккал на порцію, Б/Ж/В 2.9/1.6/7.1 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно рисове (немає у словнику); йогурт густий (немає у словнику); еритритол (немає у словнику).

@@ -21,10 +21,10 @@ ingredients:
   - { name: пластівці чилі, qty: 0.2, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/shpazhky-z-lososem-ohirkom-ta-avokado.jpg
-nutrition_per_serving: { kcal: 203, protein: 3.7, fat: 17.4, carbs: 12.5 }
-nutrition_per_100g: { kcal: 101, protein: 1.8, fat: 8.6, carbs: 6.2 }
-cooked_g_est: 201
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 473, protein: 30.2, fat: 34.8, carbs: 12.5 }
+nutrition_per_100g: { kcal: 154, protein: 9.8, fat: 11.3, carbs: 4.1 }
+cooked_g_est: 308
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 398 ккал на порцію, Б/Ж/В 27/28/13 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано філе лосося (немає у словнику); пластівці чилі (немає у словнику).

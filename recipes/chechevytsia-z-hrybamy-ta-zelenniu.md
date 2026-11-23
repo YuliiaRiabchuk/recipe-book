@@ -24,10 +24,10 @@ ingredients:
   - { name: лимон, qty: 20, unit: г, note: "" }
   - { name: петрушка, qty: 10, unit: г, note: "" }
 photo: img/chechevytsia-z-hrybamy-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: 178, protein: 7.9, fat: 10.9, carbs: 17.0 }
-nutrition_per_100g: { kcal: 25, protein: 1.1, fat: 1.5, carbs: 2.4 }
-cooked_g_est: 714
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 463, protein: 27.9, fat: 11.8, carbs: 68.3 }
+nutrition_per_100g: { kcal: 57, protein: 3.5, fat: 1.5, carbs: 8.5 }
+cooked_g_est: 805
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - P.S. Зелена чечевиця тримає форму, виходить салат-рагу, дуже комфортно для вечері.
 - За даними автора: 475 ккал на порцію, Б/Ж/В 29/12/71 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано зелена чечевиця (немає у словнику); чебрець (немає у словнику); петрушка (немає у словнику).

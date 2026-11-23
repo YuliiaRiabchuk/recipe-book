@@ -16,10 +16,10 @@ ingredients:
   - { name: мед, qty: 10, unit: г, note: "" }
   - { name: кокосова стружка, qty: 15, unit: г, note: "для обкачування" }
 photo: img/pshoniani-kulky-z-rodzynkamy.jpg
-nutrition_per_serving: { kcal: 189, protein: 1.7, fat: 9.7, carbs: 27.7 }
-nutrition_per_100g: { kcal: 420, protein: 3.8, fat: 21.6, carbs: 61.4 }
-cooked_g_est: 45
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 756, protein: 18.3, fat: 16.1, carbs: 136.9 }
+nutrition_per_100g: { kcal: 388, protein: 9.4, fat: 8.2, carbs: 70.2 }
+cooked_g_est: 195
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Тісто здорове / традиційне.
 - За даними автора: 368 ккал на порцію, Б/Ж/В 7/11/63 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пшоно (немає у словнику).

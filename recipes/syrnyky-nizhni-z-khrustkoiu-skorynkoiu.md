@@ -19,10 +19,10 @@ ingredients:
   - { name: олія для смаження, qty: 10, unit: г, note: "≈1 ч.л." }
   - { name: сіль, qty: 1, unit: дрібка, note: "≈0,3 г" }
 photo: img/syrnyky-nizhni-z-khrustkoiu-skorynkoiu.jpg
-nutrition_per_serving: { kcal: 314, protein: 28.5, fat: 13.4, carbs: 19.1 }
-nutrition_per_100g: { kcal: 120, protein: 10.9, fat: 5.1, carbs: 7.3 }
-cooked_g_est: 262
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 475, protein: 30.6, fat: 23.6, carbs: 34.4 }
+nutrition_per_100g: { kcal: 163, protein: 10.5, fat: 8.1, carbs: 11.8 }
+cooked_g_est: 292
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 605 ккал на порцію, Б/Ж/В 42/30/32 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); ваніль (немає у словнику); олія для смаження (немає у словнику).

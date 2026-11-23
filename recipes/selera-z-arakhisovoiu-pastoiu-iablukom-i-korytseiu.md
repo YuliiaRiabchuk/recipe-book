@@ -19,10 +19,10 @@ ingredients:
   - { name: гарбузове насіння, qty: 8, unit: г, note: "" }
   - { name: мелена кориця, qty: 0.4, unit: г, note: "" }
 photo: img/selera-z-arakhisovoiu-pastoiu-iablukom-i-korytseiu.jpg
-nutrition_per_serving: { kcal: 289, protein: 11.2, fat: 19.7, carbs: 22.2 }
-nutrition_per_100g: { kcal: 175, protein: 6.8, fat: 12.0, carbs: 13.4 }
-cooked_g_est: 165
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 307, protein: 12.1, fat: 20.0, carbs: 26.0 }
+nutrition_per_100g: { kcal: 104, protein: 4.1, fat: 6.8, carbs: 8.8 }
+cooked_g_est: 295
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 308 ккал на порцію, Б/Ж/В 13/19/27 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано стебла селери (немає у словнику); мелена кориця (немає у словнику).

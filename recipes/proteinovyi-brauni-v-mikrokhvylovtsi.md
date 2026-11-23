@@ -16,10 +16,10 @@ ingredients:
   - { name: протеїн шоколадний, qty: 20, unit: г, note: "" }
   - { name: йогурт густий, qty: 40, unit: г, note: "3%" }
 photo: img/proteinovyi-brauni-v-mikrokhvylovtsi.jpg
-nutrition_per_serving: { kcal: 69, protein: 10.1, fat: 2.2, carbs: 9.2 }
-nutrition_per_100g: { kcal: 94, protein: 13.9, fat: 3.0, carbs: 12.6 }
-cooked_g_est: 73
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 168, protein: 29.7, fat: 3.2, carbs: 12.0 }
+nutrition_per_100g: { kcal: 132, protein: 23.4, fat: 2.6, carbs: 9.4 }
+cooked_g_est: 127
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Десерти у мікрохвильовці.
 - За даними автора: 257 ккал на порцію, Б/Ж/В 27.7/5.4/16.2 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано протеїн шоколадний (немає у словнику); йогурт густий (немає у словнику).

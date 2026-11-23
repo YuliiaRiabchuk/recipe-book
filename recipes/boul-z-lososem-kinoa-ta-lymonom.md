@@ -23,10 +23,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/boul-z-lososem-kinoa-ta-lymonom.jpg
-nutrition_per_serving: { kcal: 498, protein: 37.6, fat: 34.9, carbs: 9.9 }
-nutrition_per_100g: { kcal: 109, protein: 8.3, fat: 7.7, carbs: 2.2 }
-cooked_g_est: 455
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 663, protein: 43.9, fat: 37.6, carbs: 38.7 }
+nutrition_per_100g: { kcal: 126, protein: 8.3, fat: 7.1, carbs: 7.4 }
+cooked_g_est: 527
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Салати-боули.
 - За даними автора: 666 ккал на порцію, Б/Ж/В 45/38/38 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кіноа (немає у словнику).

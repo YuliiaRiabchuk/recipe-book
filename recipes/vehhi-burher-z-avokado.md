@@ -17,10 +17,10 @@ ingredients:
   - { name: томат, qty: 40, unit: г, note: "" }
   - { name: листя салату, qty: 15, unit: г, note: "" }
 photo: img/vehhi-burher-z-avokado.jpg
-nutrition_per_serving: { kcal: 82, protein: 1.2, fat: 7.4, carbs: 4.7 }
-nutrition_per_100g: { kcal: 127, protein: 1.9, fat: 11.3, carbs: 7.2 }
-cooked_g_est: 65
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 428, protein: 24.7, fat: 16.4, carbs: 47.5 }
+nutrition_per_100g: { kcal: 165, protein: 9.5, fat: 6.3, carbs: 18.3 }
+cooked_g_est: 259
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Порція 305 г: 551 ккал. Приготування 7 хв, обсмажування 12 хв.
 - За даними автора: 181 ккал на 100 г, Б/Ж/В 11.1/6.5/19.5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано високопротеїнова булочка (немає у словнику); веггі-паті (немає у словнику); томат (немає у словнику).

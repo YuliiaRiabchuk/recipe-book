@@ -16,10 +16,10 @@ ingredients:
   - { name: кава міцна, qty: 50, unit: мл, note: "остигла" }
   - { name: молоко, qty: 30, unit: мл, note: "1,5%" }
 photo: img/kavove-protein-morozyvo.jpg
-nutrition_per_serving: { kcal: 15, protein: 1.0, fat: 0.6, carbs: 1.4 }
-nutrition_per_100g: { kcal: 50, protein: 3.3, fat: 2.0, carbs: 4.8 }
-cooked_g_est: 30
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 214, protein: 25.6, fat: 1.5, carbs: 27.0 }
+nutrition_per_100g: { kcal: 102, protein: 12.2, fat: 0.7, carbs: 12.9 }
+cooked_g_est: 210
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Заморожене/морозиво.
 - За даними автора: 210 ккал на порцію, Б/Ж/В 26/0.9/26 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано казеїн ванільний (немає у словнику); заморожений банан (немає у словнику); кава міцна (немає у словнику).

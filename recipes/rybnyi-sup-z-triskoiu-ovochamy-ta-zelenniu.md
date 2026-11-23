@@ -25,10 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/rybnyi-sup-z-triskoiu-ovochamy-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: 27, protein: 1.4, fat: 0.2, carbs: 6.0 }
-nutrition_per_100g: { kcal: 8, protein: 0.4, fat: 0.1, carbs: 1.6 }
-cooked_g_est: 364
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 271, protein: 32.5, fat: 11.6, carbs: 9.5 }
+nutrition_per_100g: { kcal: 46, protein: 5.5, fat: 2.0, carbs: 1.6 }
+cooked_g_est: 586
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Розділ книги: Білкові супи.
 - За даними автора: 265 ккал на порцію, Б/Ж/В 32/11/8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тріска (немає у словнику); солодкий перець (немає у словнику); селера (немає у словнику); соняшникова олія (немає у словнику); петрушка (немає у словнику).

@@ -22,10 +22,10 @@ ingredients:
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/vivsiani-batonchyky-bananovyi-khlib-iz-horikhamy.jpg
-nutrition_per_serving: { kcal: 492, protein: 15.5, fat: 18.8, carbs: 70.3 }
-nutrition_per_100g: { kcal: 255, protein: 8.0, fat: 9.8, carbs: 36.4 }
-cooked_g_est: 193
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 584, protein: 18.6, fat: 27.2, carbs: 73.1 }
+nutrition_per_100g: { kcal: 282, protein: 9.0, fat: 13.1, carbs: 35.3 }
+cooked_g_est: 207
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Кульки, трюфелі та домашні батончики.
 - За даними автора: 593 ккал на порцію, Б/Ж/В 21/27/72 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мигдальна паста (немає у словнику).

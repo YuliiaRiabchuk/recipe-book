@@ -18,10 +18,10 @@ ingredients:
   - { name: розпушувач, qty: 5, unit: г, note: "" }
   - { name: сіль, qty: 3, unit: г, note: "" }
 photo: img/zernovi-bulochky.jpg
-nutrition_per_serving: { kcal: 63, protein: 2.7, fat: 0.8, carbs: 12.0 }
-nutrition_per_100g: { kcal: 324, protein: 14.1, fat: 4.2, carbs: 62.2 }
-cooked_g_est: 232
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 109, protein: 5.1, fat: 4.4, carbs: 13.8 }
+nutrition_per_100g: { kcal: 317, protein: 14.9, fat: 12.9, carbs: 40.1 }
+cooked_g_est: 412
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Фітнес-випічка для сніданку.
 - За даними автора: 101 ккал на порцію, Б/Ж/В 4.3/4.7/9.6 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано йогурт густий (немає у словнику); суміш насіння (немає у словнику).

@@ -22,10 +22,10 @@ ingredients:
   - { name: лавровий лист, qty: 1, unit: шт, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/rybnyi-sup-triska-ovochi.jpg
-nutrition_per_serving: { kcal: 225, protein: 4.4, fat: 7.5, carbs: 37.5 }
-nutrition_per_100g: { kcal: 38, protein: 0.7, fat: 1.3, carbs: 6.4 }
-cooked_g_est: 588
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 373, protein: 36.4, fat: 8.7, carbs: 37.5 }
+nutrition_per_100g: { kcal: 51, protein: 5.0, fat: 1.2, carbs: 5.1 }
+cooked_g_est: 735
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Якщо кипить сильно, риба розпадається: тримай «ледь-ледь».
 - За даними автора: 378 ккал на порцію, Б/Ж/В 37/8/38 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тріска (немає у словнику).

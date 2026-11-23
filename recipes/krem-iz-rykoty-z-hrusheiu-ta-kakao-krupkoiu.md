@@ -20,10 +20,10 @@ ingredients:
   - { name: кориця, qty: 0.3, unit: г, note: "мелена" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/krem-iz-rykoty-z-hrusheiu-ta-kakao-krupkoiu.jpg
-nutrition_per_serving: { kcal: 202, protein: 5.4, fat: 9.2, carbs: 28.1 }
-nutrition_per_100g: { kcal: 110, protein: 3.0, fat: 5.0, carbs: 15.4 }
-cooked_g_est: 183
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 473, protein: 23.9, fat: 26.3, carbs: 38.7 }
+nutrition_per_100g: { kcal: 138, protein: 7.0, fat: 7.7, carbs: 11.3 }
+cooked_g_est: 343
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Йогуртові, сирні та фруктові чашки.
 - За даними автора: 427 ккал на порцію, Б/Ж/В 20/23/37 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано рикота (немає у словнику); какао-крупка (немає у словнику).

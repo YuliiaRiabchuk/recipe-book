@@ -19,10 +19,10 @@ ingredients:
   - { name: кориця, qty: 0.3, unit: г, note: "мелена" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/persyk-hryl-iz-iohurtovym-kremom-ta-voloskymy-horikhamy.jpg
-nutrition_per_serving: { kcal: 243, protein: 14.0, fat: 16.3, carbs: 12.5 }
-nutrition_per_100g: { kcal: 174, protein: 10.0, fat: 11.6, carbs: 8.9 }
-cooked_g_est: 140
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 360, protein: 16.7, fat: 17.0, carbs: 41.1 }
+nutrition_per_100g: { kcal: 88, protein: 4.1, fat: 4.2, carbs: 10.0 }
+cooked_g_est: 410
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Йогуртові, сирні та фруктові чашки.
 - За даними автора: 291 ккал на порцію, Б/Ж/В 15/13/34 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано персики (немає у словнику).

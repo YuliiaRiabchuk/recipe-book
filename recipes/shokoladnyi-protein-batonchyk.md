@@ -17,10 +17,10 @@ ingredients:
   - { name: арахісова паста, qty: 20, unit: г, note: "" }
   - { name: какао-порошок, qty: 5, unit: г, note: "" }
 photo: img/shokoladnyi-protein-batonchyk.jpg
-nutrition_per_serving: { kcal: 274, protein: 5.7, fat: 15.3, carbs: 35.7 }
-nutrition_per_100g: { kcal: 407, protein: 8.5, fat: 22.7, carbs: 52.9 }
-cooked_g_est: 135
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 345, protein: 21.3, fat: 15.6, carbs: 37.0 }
+nutrition_per_100g: { kcal: 394, protein: 24.4, fat: 17.9, carbs: 42.3 }
+cooked_g_est: 175
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Батончики і бари.
 - За даними автора: 681 ккал на порцію, Б/Ж/В 43/27/75 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано казеїн шоколадний (немає у словнику).

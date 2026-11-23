@@ -22,10 +22,10 @@ ingredients:
   - { name: грецький йогурт, qty: 150, unit: г, note: "" }
   - { name: горіхи, qty: 10, unit: г, note: "" }
 photo: img/vivsianka-kafe-versiia-2-0-z-iablukom-i-korytseiu-iohurt.jpg
-nutrition_per_serving: { kcal: 600, protein: 27.1, fat: 20.6, carbs: 81.8 }
-nutrition_per_100g: { kcal: 104, protein: 4.7, fat: 3.6, carbs: 14.2 }
-cooked_g_est: 577
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 622, protein: 27.1, fat: 23.0, carbs: 81.8 }
+nutrition_per_100g: { kcal: 107, protein: 4.7, fat: 4.0, carbs: 14.1 }
+cooked_g_est: 580
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Варіація: замість яблука взяти грушу.
 - За даними автора: 675 ккал на порцію, Б/Ж/В 21/32/80 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано вершкове масло або олія (немає у словнику).

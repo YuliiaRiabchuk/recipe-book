@@ -26,10 +26,10 @@ ingredients:
   - { name: оливкова олія, qty: 4, unit: г, note: "" }
   - { name: копчена паприка, qty: 0.5, unit: г, note: "" }
 photo: img/teplyi-shpynatno-artyshokovyi-dyp-z-ovochevymy-chypsamy.jpg
-nutrition_per_serving: { kcal: 242, protein: 17.0, fat: 16.3, carbs: 8.4 }
-nutrition_per_100g: { kcal: 133, protein: 9.4, fat: 9.0, carbs: 4.6 }
-cooked_g_est: 181
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 464, protein: 32.3, fat: 17.7, carbs: 48.8 }
+nutrition_per_100g: { kcal: 88, protein: 6.1, fat: 3.3, carbs: 9.2 }
+cooked_g_est: 529
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 430 ккал на порцію, Б/Ж/В 27/19/41 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано серцевини артишоків консервовані (немає у словнику); вершковий сир (немає у словнику); сушений орегано (немає у словнику); цукіні (немає у словнику); батат (немає у словнику); копчена паприка (немає у словнику).

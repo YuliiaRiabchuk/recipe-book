@@ -17,10 +17,10 @@ ingredients:
   - { name: гранола, qty: 30, unit: г, note: "" }
   - { name: мед, qty: 7, unit: г, note: "1 ч.л." }
 photo: img/boul-z-iohurtom-fruktamy-ta-hranoloiu.jpg
-nutrition_per_serving: { kcal: 294, protein: 19.3, fat: 10.5, carbs: 33.2 }
-nutrition_per_100g: { kcal: 93, protein: 6.1, fat: 3.3, carbs: 10.5 }
-cooked_g_est: 316
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 440, protein: 23.4, fat: 17.8, carbs: 49.3 }
+nutrition_per_100g: { kcal: 127, protein: 6.8, fat: 5.1, carbs: 14.3 }
+cooked_g_est: 346
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 498 ккал на порцію, Б/Ж/В 16/22/50 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гранола (немає у словнику).

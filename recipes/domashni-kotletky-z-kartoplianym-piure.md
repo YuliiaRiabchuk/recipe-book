@@ -24,10 +24,11 @@ ingredients:
   - { name: вершкове масло, qty: 5, unit: г, note: "1 ч.л., опційно" }
   - { name: зелень, qty: 5, unit: г, note: "" }
 photo: img/domashni-kotletky-z-kartoplianym-piure.jpg
-nutrition_per_serving: { kcal: 374, protein: 13.7, fat: 15.5, carbs: 46.3 }
-nutrition_per_100g: { kcal: 112, protein: 4.1, fat: 4.6, carbs: 13.8 }
-cooked_g_est: 335
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 683, protein: 52.5, fat: 29.3, carbs: 53.5 }
+nutrition_per_100g: { kcal: 138, protein: 10.6, fat: 5.9, carbs: 10.8 }
+cooked_g_est: 495
+nutrition_status: повний
+nutrition_notes: ["фарш індички: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +43,3 @@ added: 2026-11-15
 - Додай квашену капусту (50 г): вона балансує пюре кислинкою, дає клітковину й майже не піднімає калорійність.
 - За даними автора: 611 ккал на порцію, Б/Ж/В 53/19/51 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фарш індички (немає у словнику); панірувальні сухарі (немає у словнику).

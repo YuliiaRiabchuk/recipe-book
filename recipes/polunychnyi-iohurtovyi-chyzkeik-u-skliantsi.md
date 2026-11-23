@@ -21,10 +21,10 @@ ingredients:
   - { name: лимонна цедра, qty: 0.5, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/polunychnyi-iohurtovyi-chyzkeik-u-skliantsi.jpg
-nutrition_per_serving: { kcal: 227, protein: 13.4, fat: 10.4, carbs: 22.6 }
-nutrition_per_100g: { kcal: 84, protein: 5.0, fat: 3.9, carbs: 8.4 }
-cooked_g_est: 270
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 397, protein: 25.8, fat: 12.5, carbs: 47.5 }
+nutrition_per_100g: { kcal: 108, protein: 7.1, fat: 3.4, carbs: 13.0 }
+cooked_g_est: 366
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - На сторінці вказано ще 2 години охолодження окремо від 15 хв роботи.
 - За даними автора: 365 ккал на порцію, Б/Ж/В 20/15/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано вершковий сир (немає у словнику); печиво цільнозернове (немає у словнику); лимонна цедра (немає у словнику).

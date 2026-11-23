@@ -20,10 +20,10 @@ ingredients:
   - { name: лимонна цедра, qty: 0.5, unit: г, note: "" }
   - { name: мелена кориця, qty: 0.3, unit: г, note: "" }
 photo: img/tsilnozernovi-krostini-z-rykotoiu-hrusheiu-ta-voloskymy.jpg
-nutrition_per_serving: { kcal: 157, protein: 2.1, fat: 9.9, carbs: 17.9 }
-nutrition_per_100g: { kcal: 159, protein: 2.2, fat: 10.0, carbs: 18.1 }
-cooked_g_est: 99
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 405, protein: 17.6, fat: 17.6, carbs: 47.3 }
+nutrition_per_100g: { kcal: 176, protein: 7.6, fat: 7.6, carbs: 20.5 }
+cooked_g_est: 230
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Тости, роли та мінісендвічі.
 - За даними автора: 393 ккал на порцію, Б/Ж/В 15/16/51 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозерновий багет (немає у словнику); рикота (немає у словнику); лимонна цедра (немає у словнику); мелена кориця (немає у словнику).

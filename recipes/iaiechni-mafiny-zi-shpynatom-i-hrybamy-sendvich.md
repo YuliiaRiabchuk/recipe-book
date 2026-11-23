@@ -24,10 +24,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/iaiechni-mafiny-zi-shpynatom-i-hrybamy-sendvich.jpg
-nutrition_per_serving: { kcal: 440, protein: 34.6, fat: 28.5, carbs: 14.3 }
-nutrition_per_100g: { kcal: 99, protein: 7.8, fat: 6.4, carbs: 3.2 }
-cooked_g_est: 443
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 515, protein: 38.3, fat: 29.5, carbs: 27.1 }
+nutrition_per_100g: { kcal: 108, protein: 8.1, fat: 6.2, carbs: 5.7 }
+cooked_g_est: 475
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Варіація: замість шпинату — зелена цибуля (додай в яйця).
 - За даними автора: 422 ккал на порцію, Б/Ж/В 32/18/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано хліб цільнозерновий (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

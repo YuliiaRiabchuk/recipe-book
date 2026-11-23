@@ -24,9 +24,9 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/morkviani-fri-z-kari-iohurtom.jpg
 nutrition_per_serving: { kcal: 243, protein: 8.4, fat: 9.0, carbs: 34.0 }
-nutrition_per_100g: { kcal: 87, protein: 3.0, fat: 3.3, carbs: 12.2 }
-cooked_g_est: 278
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 87, protein: 3.0, fat: 3.2, carbs: 12.1 }
+cooked_g_est: 280
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 228 ккал на порцію, Б/Ж/В 8/7/35 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано солодка паприка (немає у словнику); сушений часник (немає у словнику); карі (немає у словнику).

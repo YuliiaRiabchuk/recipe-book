@@ -18,10 +18,10 @@ ingredients:
   - { name: кориця, qty: 0.5, unit: ч.л., note: "≈1 г, за смаком" }
   - { name: сіль, qty: 1, unit: дрібка, note: "≈0,2 г" }
 photo: img/vivsianka-z-iablukom-i-korytseiu.jpg
-nutrition_per_serving: { kcal: 352, protein: 13.5, fat: 7.4, carbs: 60.0 }
-nutrition_per_100g: { kcal: 114, protein: 4.4, fat: 2.4, carbs: 19.4 }
-cooked_g_est: 310
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 373, protein: 13.5, fat: 7.4, carbs: 65.8 }
+nutrition_per_100g: { kcal: 118, protein: 4.3, fat: 2.3, carbs: 20.8 }
+cooked_g_est: 317
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 374 ккал на порцію, Б/Ж/В 15/8/61 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мед або цукор (немає у словнику).

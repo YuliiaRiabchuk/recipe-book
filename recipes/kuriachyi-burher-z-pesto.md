@@ -22,10 +22,10 @@ ingredients:
   - { name: часник, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/kuriachyi-burher-z-pesto.jpg
-nutrition_per_serving: { kcal: 205, protein: 24.7, fat: 10.6, carbs: 1.8 }
-nutrition_per_100g: { kcal: 209, protein: 25.2, fat: 10.9, carbs: 1.8 }
-cooked_g_est: 98
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 484, protein: 37.7, fat: 15.2, carbs: 48.6 }
+nutrition_per_100g: { kcal: 200, protein: 15.6, fat: 6.3, carbs: 20.1 }
+cooked_g_est: 242
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Порція 275 г: 529 ккал. Приготування 8 хв, обсмажування або запікання 20 хв.
 - За даними автора: 193 ккал на 100 г, Б/Ж/В 15.7/7.3/16.1 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано повнозернова булочка (немає у словнику); томат (немає у словнику); базилік свіжий (немає у словнику).

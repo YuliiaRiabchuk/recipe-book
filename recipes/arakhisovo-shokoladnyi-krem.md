@@ -17,10 +17,10 @@ ingredients:
   - { name: молоко, qty: 60, unit: мл, note: "1,5%" }
   - { name: арахіс подрібнений, qty: 8, unit: г, note: "для подачі" }
 photo: img/arakhisovo-shokoladnyi-krem.jpg
-nutrition_per_serving: { kcal: 206, protein: 17.7, fat: 9.2, carbs: 14.2 }
-nutrition_per_100g: { kcal: 106, protein: 9.1, fat: 4.7, carbs: 7.3 }
-cooked_g_est: 195
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 359, protein: 43.1, fat: 13.7, carbs: 17.8 }
+nutrition_per_100g: { kcal: 154, protein: 18.5, fat: 5.9, carbs: 7.6 }
+cooked_g_est: 233
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Муси і креми в склянках.
 - За даними автора: 403 ккал на порцію, Б/Ж/В 46/19/14 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано казеїн шоколадний (немає у словнику); арахіс подрібнений (немає у словнику).

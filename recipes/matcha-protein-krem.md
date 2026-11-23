@@ -17,8 +17,10 @@ ingredients:
   - { name: вода, qty: 20, unit: мл, note: "тепла" }
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
 photo: img/matcha-protein-krem.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 146, protein: 19.2, fat: 5.4, carbs: 5.0 }
+nutrition_per_100g: { kcal: 112, protein: 14.8, fat: 4.2, carbs: 3.8 }
+cooked_g_est: 260
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

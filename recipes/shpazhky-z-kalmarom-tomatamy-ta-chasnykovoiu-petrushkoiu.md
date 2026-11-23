@@ -23,10 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/shpazhky-z-kalmarom-tomatamy-ta-chasnykovoiu-petrushkoiu.jpg
-nutrition_per_serving: { kcal: 49, protein: 0.2, fat: 5.0, carbs: 1.1 }
-nutrition_per_100g: { kcal: 348, protein: 1.1, fat: 35.9, carbs: 8.2 }
-cooked_g_est: 14
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 252, protein: 27.1, fat: 8.3, carbs: 18.0 }
+nutrition_per_100g: { kcal: 77, protein: 8.3, fat: 2.5, carbs: 5.5 }
+cooked_g_est: 328
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 222 ккал на порцію, Б/Ж/В 25/8/14 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кальмар (немає у словнику); томати черрі (немає у словнику); солодкий перець (немає у словнику); петрушка (немає у словнику); копчена паприка (немає у словнику); пластівці чилі (немає у словнику).

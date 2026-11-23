@@ -28,10 +28,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/ovochevyi-pyrih.jpg
-nutrition_per_serving: { kcal: 49, protein: 2.0, fat: 3.6, carbs: 2.6 }
-nutrition_per_100g: { kcal: 88, protein: 3.5, fat: 6.4, carbs: 4.5 }
-cooked_g_est: 451
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 115, protein: 4.8, fat: 4.3, carbs: 14.5 }
+nutrition_per_100g: { kcal: 131, protein: 5.5, fat: 4.9, carbs: 16.4 }
+cooked_g_est: 703
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -48,4 +48,3 @@ added: 2026-11-15
 - Порція 87 г: 112 ккал; вихід 700 г. Підготовка 30 хв, випікання 30 хв.
 - За даними автора: 128 ккал на 100 г, Б/Ж/В 6/4.5/16 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно рисове (немає у словнику); борошно нутове (немає у словнику); перець солодкий (немає у словнику); йогурт густий (немає у словнику).

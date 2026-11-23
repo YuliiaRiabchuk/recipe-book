@@ -18,8 +18,10 @@ ingredients:
   - { name: сіль, qty: 5, unit: г, note: "" }
   - { name: вода, qty: 270, unit: мл, note: "тепла, 35–38 °C; 100 мл на пластівці, решта в тісто" }
 photo: img/vivsianyi-khlib.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 110, protein: 4.1, fat: 2.6, carbs: 18.7 }
+nutrition_per_100g: { kcal: 235, protein: 8.9, fat: 5.5, carbs: 40.0 }
+cooked_g_est: 560
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

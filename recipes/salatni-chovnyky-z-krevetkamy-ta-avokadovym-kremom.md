@@ -24,10 +24,10 @@ ingredients:
   - { name: пластівці чилі, qty: 0.2, unit: г, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/salatni-chovnyky-z-krevetkamy-ta-avokadovym-kremom.jpg
-nutrition_per_serving: { kcal: 292, protein: 30.8, fat: 15.5, carbs: 10.5 }
-nutrition_per_100g: { kcal: 102, protein: 10.7, fat: 5.4, carbs: 3.7 }
-cooked_g_est: 287
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 321, protein: 32.1, fat: 16.1, carbs: 16.4 }
+nutrition_per_100g: { kcal: 79, protein: 7.9, fat: 4.0, carbs: 4.0 }
+cooked_g_est: 407
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Розділ книги: Листки салату, норі та спрінг-роли.
 - За даними автора: 290 ккал на порцію, Б/Ж/В 29/15/14 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано листя салату little gem (немає у словнику); томати черрі (немає у словнику); пластівці чилі (немає у словнику).

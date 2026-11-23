@@ -24,9 +24,9 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zapikanka-kari-rys-z-kurkoiu-ta-zelenym-horoshkom.jpg
 nutrition_per_serving: { kcal: 706, protein: 57.8, fat: 18.3, carbs: 74.6 }
-nutrition_per_100g: { kcal: 124, protein: 10.1, fat: 3.2, carbs: 13.1 }
-cooked_g_est: 570
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 123, protein: 10.1, fat: 3.2, carbs: 13.0 }
+cooked_g_est: 572
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Розділ книги: Ситні запечені обіди.
 - За даними автора: 681 ккал на порцію, Б/Ж/В 52/20/75 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано карі (немає у словнику).

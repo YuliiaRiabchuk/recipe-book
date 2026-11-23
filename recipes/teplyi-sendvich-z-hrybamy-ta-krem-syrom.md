@@ -20,10 +20,10 @@ ingredients:
   - { name: орегано, qty: 0.25, unit: ч.л., note: "сушений, або базилік, за бажанням" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "петрушка, кріп, за бажанням" }
 photo: img/teplyi-sendvich-z-hrybamy-ta-krem-syrom.jpg
-nutrition_per_serving: { kcal: 238, protein: 6.3, fat: 22.3, carbs: 6.1 }
-nutrition_per_100g: { kcal: 157, protein: 4.1, fat: 14.7, carbs: 4.0 }
-cooked_g_est: 152
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 361, protein: 10.6, fat: 23.9, carbs: 28.6 }
+nutrition_per_100g: { kcal: 179, protein: 5.3, fat: 11.9, carbs: 14.1 }
+cooked_g_est: 202
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 316 ккал на порцію, Б/Ж/В 12/20/23 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано хліб тостовий (немає у словнику); свіжа зелень (немає у словнику).

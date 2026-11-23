@@ -27,10 +27,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: кмин, qty: null, unit: "", note: "за смаком" }
 photo: img/indychka-z-kapustoiu-ta-hrechkoiu-v-lymonno-paprykovomu.jpg
-nutrition_per_serving: { kcal: 509, protein: 65.0, fat: 8.6, carbs: 43.5 }
-nutrition_per_100g: { kcal: 105, protein: 13.5, fat: 1.8, carbs: 9.0 }
-cooked_g_est: 483
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 616, protein: 68.2, fat: 13.9, carbs: 58.0 }
+nutrition_per_100g: { kcal: 88, protein: 9.7, fat: 2.0, carbs: 8.3 }
+cooked_g_est: 702
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 636 ккал на порцію, Б/Ж/В 61/18/58 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано капуста білокачанна (немає у словнику); соняшникова олія (немає у словнику); копчена паприка (немає у словнику).

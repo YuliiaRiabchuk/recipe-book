@@ -23,10 +23,10 @@ ingredients:
   - { name: морква, qty: 80, unit: г, note: "" }
   - { name: огірок, qty: 100, unit: г, note: "" }
 photo: img/khumus-iz-chervonoi-sochevytsi-ta-pechenoho-pertsiu.jpg
-nutrition_per_serving: { kcal: 176, protein: 4.0, fat: 12.4, carbs: 15.4 }
-nutrition_per_100g: { kcal: 90, protein: 2.1, fat: 6.3, carbs: 7.8 }
-cooked_g_est: 196
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 707, protein: 40.0, fat: 14.3, carbs: 113.1 }
+nutrition_per_100g: { kcal: 152, protein: 8.6, fat: 3.1, carbs: 24.4 }
+cooked_g_est: 464
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 387 ккал на порцію, Б/Ж/В 18/13/53 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано червона сочевиця (немає у словнику); червоний солодкий перець (немає у словнику); мелений кумин (немає у словнику); копчена паприка (немає у словнику).

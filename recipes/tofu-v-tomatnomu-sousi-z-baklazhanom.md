@@ -24,10 +24,10 @@ ingredients:
   - { name: базилік, qty: 8, unit: г, note: "або петрушка" }
   - { name: лимон, qty: 15, unit: г, note: "" }
 photo: img/tofu-v-tomatnomu-sousi-z-baklazhanom.jpg
-nutrition_per_serving: { kcal: 414, protein: 35.8, fat: 27.6, carbs: 14.3 }
-nutrition_per_100g: { kcal: 137, protein: 11.9, fat: 9.1, carbs: 4.7 }
-cooked_g_est: 302
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 522, protein: 40.5, fat: 28.6, carbs: 38.8 }
+nutrition_per_100g: { kcal: 72, protein: 5.6, fat: 3.9, carbs: 5.3 }
+cooked_g_est: 727
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - P.S. Тофу додавай уже в готовий густий соус, так він краще тримає форму й смак виходить насиченіший.
 - За даними автора: 550 ккал на порцію, Б/Ж/В 36/34/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано баклажан (немає у словнику); томати (немає у словнику).

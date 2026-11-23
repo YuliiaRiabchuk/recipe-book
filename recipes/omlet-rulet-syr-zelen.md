@@ -20,10 +20,10 @@ ingredients:
   - { name: кріп, qty: 8, unit: г, note: "" }
   - { name: зелена цибуля, qty: 8, unit: г, note: "" }
 photo: img/omlet-rulet-syr-zelen.jpg
-nutrition_per_serving: { kcal: 358, protein: 29.7, fat: 23.1, carbs: 6.9 }
-nutrition_per_100g: { kcal: 130, protein: 10.8, fat: 8.4, carbs: 2.5 }
-cooked_g_est: 275
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 420, protein: 42.7, fat: 23.3, carbs: 7.8 }
+nutrition_per_100g: { kcal: 106, protein: 10.8, fat: 5.9, carbs: 2.0 }
+cooked_g_est: 395
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Дуже «інстаграмний» варіант вечері: виглядає дорого, робиться швидко.
 - За даними автора: 488 ккал на порцію, Б/Ж/В 54/26/10 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано яєчні білки (немає у словнику).

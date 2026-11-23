@@ -19,10 +19,10 @@ ingredients:
   - { name: чорний перець, qty: 0.12, unit: ч.л., note: "мелений, за бажанням" }
   - { name: базилік, qty: 0.25, unit: ч.л., note: "сушений, або орегано, за бажанням" }
 photo: img/iaiechni-mafiny-z-ovochamy-u-dukhovtsi.jpg
-nutrition_per_serving: { kcal: 277, protein: 22.7, fat: 17.6, carbs: 6.5 }
-nutrition_per_100g: { kcal: 145, protein: 11.9, fat: 9.2, carbs: 3.4 }
-cooked_g_est: 191
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 283, protein: 23.5, fat: 17.7, carbs: 7.6 }
+nutrition_per_100g: { kcal: 131, protein: 10.9, fat: 8.2, carbs: 3.5 }
+cooked_g_est: 216
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Яєчні сніданки.
 - За даними автора: 322 ккал на порцію, Б/Ж/В 25/24/6 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано шпинат свіжий (немає у словнику).

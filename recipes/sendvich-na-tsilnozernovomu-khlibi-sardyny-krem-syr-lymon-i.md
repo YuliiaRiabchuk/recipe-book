@@ -25,10 +25,10 @@ ingredients:
   - { name: сушений часник, qty: 0.5, unit: г, note: "" }
   - { name: чилі пластівці, qty: 0.3, unit: г, note: "" }
 photo: img/sendvich-na-tsilnozernovomu-khlibi-sardyny-krem-syr-lymon-i.jpg
-nutrition_per_serving: { kcal: 305, protein: 11.8, fat: 13.0, carbs: 37.1 }
-nutrition_per_100g: { kcal: 124, protein: 4.8, fat: 5.3, carbs: 15.1 }
-cooked_g_est: 246
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 534, protein: 38.8, fat: 25.6, carbs: 37.1 }
+nutrition_per_100g: { kcal: 149, protein: 10.9, fat: 7.2, carbs: 10.4 }
+cooked_g_est: 358
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Варіація: замість сардин можна взяти тунець у власному соку (злити).
 - За даними автора: 516 ккал на порцію, Б/Ж/В 31/28/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сардини консервовані (немає у словнику); лимонний перець (немає у словнику); сушений часник (немає у словнику); чилі пластівці (немає у словнику).

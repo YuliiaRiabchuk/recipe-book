@@ -22,7 +22,7 @@ photo: img/sendvich-syr-kyslomolochnyi-iahody-solodkyi-ale-bilkovyi.jpg
 nutrition_per_serving: { kcal: 431, protein: 26.7, fat: 16.0, carbs: 47.7 }
 nutrition_per_100g: { kcal: 138, protein: 8.6, fat: 5.1, carbs: 15.3 }
 cooked_g_est: 312
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Варіація: замість меду кленовий або фініковий сироп.
 - За даними автора: 403 ккал на порцію, Б/Ж/В 30/10/50 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано ваніль (немає у словнику).

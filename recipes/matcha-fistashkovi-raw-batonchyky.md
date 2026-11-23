@@ -16,10 +16,10 @@ ingredients:
   - { name: матча, qty: 3, unit: г, note: "порошок" }
   - { name: кунжут, qty: 15, unit: г, note: "" }
 photo: img/matcha-fistashkovi-raw-batonchyky.jpg
-nutrition_per_serving: { kcal: 70, protein: 0.8, fat: 1.3, carbs: 15.6 }
-nutrition_per_100g: { kcal: 310, protein: 3.6, fat: 5.7, carbs: 69.2 }
-cooked_g_est: 135
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 126, protein: 2.8, fat: 5.8, carbs: 18.3 }
+nutrition_per_100g: { kcal: 381, protein: 8.5, fat: 17.6, carbs: 55.4 }
+cooked_g_est: 198
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Raw батончики.
 - За даними автора: 154 ккал на порцію, Б/Ж/В 3.8/7/17.2 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фісташки (немає у словнику); матча (немає у словнику).

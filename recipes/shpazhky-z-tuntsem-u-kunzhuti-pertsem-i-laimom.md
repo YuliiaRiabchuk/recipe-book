@@ -22,10 +22,10 @@ ingredients:
   - { name: пластівці чилі, qty: 0.2, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/shpazhky-z-tuntsem-u-kunzhuti-pertsem-i-laimom.jpg
-nutrition_per_serving: { kcal: 110, protein: 2.9, fat: 8.1, carbs: 8.7 }
-nutrition_per_100g: { kcal: 100, protein: 2.6, fat: 7.4, carbs: 7.9 }
-cooked_g_est: 110
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 278, protein: 35.6, fat: 9.0, carbs: 14.7 }
+nutrition_per_100g: { kcal: 92, protein: 11.8, fat: 3.0, carbs: 4.9 }
+cooked_g_est: 302
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 302 ккал на порцію, Б/Ж/В 36/12/15 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано філе свіжого тунця (немає у словнику); солодкий перець (немає у словнику); пластівці чилі (немає у словнику).

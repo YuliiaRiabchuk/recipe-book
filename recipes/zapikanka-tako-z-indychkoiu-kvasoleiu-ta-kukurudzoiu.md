@@ -25,10 +25,10 @@ ingredients:
   - { name: сіль, qty: 3, unit: г, note: "" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/zapikanka-tako-z-indychkoiu-kvasoleiu-ta-kukurudzoiu.jpg
-nutrition_per_serving: { kcal: 540, protein: 54.3, fat: 14.0, carbs: 55.1 }
-nutrition_per_100g: { kcal: 117, protein: 11.8, fat: 3.0, carbs: 12.0 }
-cooked_g_est: 460
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 639, protein: 58.5, fat: 14.7, carbs: 78.5 }
+nutrition_per_100g: { kcal: 86, protein: 7.9, fat: 2.0, carbs: 10.6 }
+cooked_g_est: 742
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - Розділ книги: Ситні запечені обіди.
 - За даними автора: 685 ккал на порцію, Б/Ж/В 62/17/68 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пасата (немає у словнику); перець солодкий (немає у словнику).

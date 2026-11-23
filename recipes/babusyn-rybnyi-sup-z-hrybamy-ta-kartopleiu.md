@@ -22,10 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/babusyn-rybnyi-sup-z-hrybamy-ta-kartopleiu.jpg
-nutrition_per_serving: { kcal: 235, protein: 9.2, fat: 5.9, carbs: 40.6 }
-nutrition_per_100g: { kcal: 29, protein: 1.1, fat: 0.7, carbs: 5.0 }
-cooked_g_est: 808
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 374, protein: 39.5, fat: 7.1, carbs: 40.6 }
+nutrition_per_100g: { kcal: 39, protein: 4.2, fat: 0.7, carbs: 4.3 }
+cooked_g_est: 947
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - P.S. Щоб смак був максимально «домашнім», не переварюй рибу й додавай зелень щедро.
 - За даними автора: 379 ккал на порцію, Б/Ж/В 40/8/40 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано біла риба (немає у словнику).

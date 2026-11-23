@@ -17,10 +17,10 @@ ingredients:
   - { name: базилік свіжий, qty: 5, unit: г, note: "" }
   - { name: бальзамічний соус, qty: 5, unit: мл, note: "" }
 photo: img/beigl-z-tomatom-i-motsareloiu.jpg
-nutrition_per_serving: { kcal: 150, protein: 11.1, fat: 11.1, carbs: 1.2 }
-nutrition_per_100g: { kcal: 299, protein: 22.2, fat: 22.1, carbs: 2.4 }
-cooked_g_est: 50
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 417, protein: 21.8, fat: 12.5, carbs: 54.3 }
+nutrition_per_100g: { kcal: 202, protein: 10.6, fat: 6.1, carbs: 26.4 }
+cooked_g_est: 206
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Порція 220 г: 380 ккал. Приготування 6 хв, підсушування 4 хв.
 - За даними автора: 173 ккал на 100 г, Б/Ж/В 8.9/5.1/22.2 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано бейґл із розмарином і часником (немає у словнику); томат (немає у словнику); базилік свіжий (немає у словнику); бальзамічний соус (немає у словнику).

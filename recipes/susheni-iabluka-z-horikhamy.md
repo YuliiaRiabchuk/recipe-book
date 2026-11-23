@@ -15,10 +15,10 @@ ingredients:
   - { name: волоські горіхи, qty: 20, unit: г, note: "" }
   - { name: мигдаль, qty: 10, unit: г, note: "" }
 photo: img/susheni-iabluka-z-horikhamy.jpg
-nutrition_per_serving: { kcal: 189, protein: 5.2, fat: 18.0, carbs: 4.9 }
-nutrition_per_100g: { kcal: 629, protein: 17.2, fat: 60.1, carbs: 16.3 }
-cooked_g_est: 30
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 286, protein: 5.5, fat: 18.2, carbs: 31.3 }
+nutrition_per_100g: { kcal: 408, protein: 7.9, fat: 25.9, carbs: 44.6 }
+cooked_g_est: 70
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,4 +32,3 @@ added: 2026-11-15
 - Розділ книги: Фрукти, ягоди, мед.
 - За даними автора: 286 ккал на порцію, Б/Ж/В 6/18/29 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сушені яблука (немає у словнику).

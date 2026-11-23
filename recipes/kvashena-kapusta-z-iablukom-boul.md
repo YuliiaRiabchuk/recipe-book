@@ -15,10 +15,10 @@ ingredients:
   - { name: нерафінована олія, qty: 7, unit: мл, note: "" }
   - { name: гарбузове насіння, qty: 10, unit: г, note: "" }
 photo: img/kvashena-kapusta-z-iablukom-boul.jpg
-nutrition_per_serving: { kcal: 103, protein: 3.3, fat: 5.1, carbs: 13.6 }
-nutrition_per_100g: { kcal: 102, protein: 3.2, fat: 5.0, carbs: 13.5 }
-cooked_g_est: 101
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 183, protein: 4.4, fat: 11.7, carbs: 18.8 }
+nutrition_per_100g: { kcal: 81, protein: 1.9, fat: 5.1, carbs: 8.3 }
+cooked_g_est: 227
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,4 +32,3 @@ added: 2026-11-15
 - Розділ книги: Овочеве та квашене.
 - За даними автора: 183 ккал на порцію, Б/Ж/В 5/11/19 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано квашена капуста (немає у словнику); нерафінована олія (немає у словнику).

@@ -21,10 +21,10 @@ ingredients:
   - { name: помідор, qty: 1, unit: шт, note: "120 г" }
   - { name: хліб цільнозерновий, qty: 60, unit: г, note: "1 скибка" }
 photo: img/frantsuzkyi-omlet-salat-sendvich.jpg
-nutrition_per_serving: { kcal: 216, protein: 14.5, fat: 14.2, carbs: 8.1 }
-nutrition_per_100g: { kcal: 79, protein: 5.3, fat: 5.2, carbs: 3.0 }
-cooked_g_est: 272
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 379, protein: 23.1, fat: 16.4, carbs: 36.0 }
+nutrition_per_100g: { kcal: 92, protein: 5.6, fat: 4.0, carbs: 8.7 }
+cooked_g_est: 412
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Варіація: молоко можна замінити водою.
 - За даними автора: 445 ккал на порцію, Б/Ж/В 20/24/40 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мікс салату (немає у словнику); хліб цільнозерновий (немає у словнику).

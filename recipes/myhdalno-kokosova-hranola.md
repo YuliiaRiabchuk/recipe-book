@@ -18,10 +18,10 @@ ingredients:
   - { name: мед, qty: 40, unit: г, note: "або еритритол" }
   - { name: оливкова олія, qty: 20, unit: мл, note: "" }
 photo: img/myhdalno-kokosova-hranola.jpg
-nutrition_per_serving: { kcal: 295, protein: 7.7, fat: 16.2, carbs: 32.5 }
-nutrition_per_100g: { kcal: 468, protein: 12.2, fat: 25.7, carbs: 51.6 }
-cooked_g_est: 378
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 332, protein: 9.7, fat: 19.5, carbs: 33.2 }
+nutrition_per_100g: { kcal: 477, protein: 13.9, fat: 27.9, carbs: 47.7 }
+cooked_g_est: 418
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Гранола.
 - За даними автора: 460 ккал на 100 г, Б/Ж/В 12/26/44.5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано насіння гарбуза (немає у словнику).

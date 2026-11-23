@@ -24,10 +24,10 @@ ingredients:
   - { name: часник, qty: 1, unit: зубчик, note: "5 г" }
   - { name: зелень, qty: 5, unit: г, note: "" }
 photo: img/kroketky-z-chervonoi-sochevytsi-v-tomatnomu-sousi.jpg
-nutrition_per_serving: { kcal: 171, protein: 7.8, fat: 10.0, carbs: 13.1 }
-nutrition_per_100g: { kcal: 103, protein: 4.7, fat: 6.1, carbs: 7.9 }
-cooked_g_est: 165
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 540, protein: 30.0, fat: 11.8, carbs: 84.4 }
+nutrition_per_100g: { kcal: 116, protein: 6.5, fat: 2.5, carbs: 18.1 }
+cooked_g_est: 465
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Морква по-корейськи (30 г) зверху додасть яскравого смаку та хрусту; це маленький акцент, який майже не впливає на калорійність, але робить подачу цікавішою.
 - За даними автора: 507 ккал на порцію, Б/Ж/В 28/11/76 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сочевиця червона (немає у словнику); панірувальні сухарі (немає у словнику); пасата (немає у словнику).

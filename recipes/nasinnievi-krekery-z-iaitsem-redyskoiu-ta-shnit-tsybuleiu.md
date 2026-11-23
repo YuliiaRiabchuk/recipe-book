@@ -21,10 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/nasinnievi-krekery-z-iaitsem-redyskoiu-ta-shnit-tsybuleiu.jpg
-nutrition_per_serving: { kcal: 173, protein: 15.3, fat: 11.0, carbs: 2.2 }
-nutrition_per_100g: { kcal: 129, protein: 11.4, fat: 8.2, carbs: 1.6 }
-cooked_g_est: 134
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 273, protein: 17.2, fat: 14.9, carbs: 16.8 }
+nutrition_per_100g: { kcal: 124, protein: 7.8, fat: 6.8, carbs: 7.6 }
+cooked_g_est: 220
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Крекери, хлібці та хрусткі основи.
 - За даними автора: 281 ккал на порцію, Б/Ж/В 18/15/17 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано насіннєві крекери (немає у словнику); редиска (немає у словнику); діжонська гірчиця (немає у словнику); шніт-цибуля (немає у словнику).

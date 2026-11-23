@@ -22,10 +22,10 @@ ingredients:
   - { name: пластівці чилі, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/kukurudziani-krekery-z-krevetkamy-ta-avokadovoiu-salsoiu.jpg
-nutrition_per_serving: { kcal: 225, protein: 23.7, fat: 12.4, carbs: 7.3 }
-nutrition_per_100g: { kcal: 108, protein: 11.4, fat: 6.0, carbs: 3.5 }
-cooked_g_est: 208
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 332, protein: 26.2, fat: 13.1, carbs: 30.5 }
+nutrition_per_100g: { kcal: 117, protein: 9.2, fat: 4.6, carbs: 10.7 }
+cooked_g_est: 284
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 363 ккал на порцію, Б/Ж/В 34/15/24 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кукурудзяні крекери (немає у словнику); томати (немає у словнику).

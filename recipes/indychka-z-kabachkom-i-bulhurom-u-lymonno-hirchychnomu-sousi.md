@@ -25,10 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/indychka-z-kabachkom-i-bulhurom-u-lymonno-hirchychnomu-sousi.jpg
-nutrition_per_serving: { kcal: 357, protein: 56.8, fat: 4.6, carbs: 22.8 }
-nutrition_per_100g: { kcal: 61, protein: 9.7, fat: 0.8, carbs: 3.9 }
-cooked_g_est: 587
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 538, protein: 61.8, fat: 10.1, carbs: 53.2 }
+nutrition_per_100g: { kcal: 82, protein: 9.4, fat: 1.5, carbs: 8.1 }
+cooked_g_est: 656
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Розділ книги: Wok-обіди.
 - За даними автора: 534 ккал на порцію, Б/Ж/В 57/10/55 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано булгур (немає у словнику); соняшникова олія (немає у словнику).

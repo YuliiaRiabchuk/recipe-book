@@ -19,9 +19,9 @@ ingredients:
   - { name: вода, qty: 30, unit: мл, note: "" }
 photo: img/shokoladna-lait-hranola.jpg
 nutrition_per_serving: { kcal: 245, protein: 7.0, fat: 13.8, carbs: 26.7 }
-nutrition_per_100g: { kcal: 433, protein: 12.4, fat: 24.4, carbs: 47.3 }
-cooked_g_est: 339
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 388, protein: 11.1, fat: 21.8, carbs: 42.3 }
+cooked_g_est: 379
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Гранола.
 - За даними автора: 440 ккал на 100 г, Б/Ж/В 12/23/46.3 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано еритритол (немає у словнику).

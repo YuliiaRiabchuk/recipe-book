@@ -19,10 +19,10 @@ ingredients:
   - { name: сік лайма, qty: 5, unit: г, note: "" }
   - { name: цедра лайма, qty: 0.5, unit: г, note: "" }
 photo: img/iohurtova-chashka-z-kivi-laimom-i-kokosom.jpg
-nutrition_per_serving: { kcal: 356, protein: 18.7, fat: 17.5, carbs: 35.1 }
-nutrition_per_100g: { kcal: 104, protein: 5.5, fat: 5.1, carbs: 10.3 }
-cooked_g_est: 342
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 412, protein: 20.7, fat: 22.0, carbs: 37.9 }
+nutrition_per_100g: { kcal: 117, protein: 5.9, fat: 6.3, carbs: 10.8 }
+cooked_g_est: 352
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Йогуртові, сирні та фруктові чашки.
 - За даними автора: 358 ккал на порцію, Б/Ж/В 19/17/38 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фісташки (немає у словнику); цедра лайма (немає у словнику).

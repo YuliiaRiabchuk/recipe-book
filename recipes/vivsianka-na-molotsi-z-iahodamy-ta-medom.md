@@ -21,7 +21,7 @@ photo: img/vivsianka-na-molotsi-z-iahodamy-ta-medom.jpg
 nutrition_per_serving: { kcal: 347, protein: 14.0, fat: 7.7, carbs: 57.6 }
 nutrition_per_100g: { kcal: 130, protein: 5.3, fat: 2.9, carbs: 21.6 }
 cooked_g_est: 267
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 381 ккал на порцію, Б/Ж/В 16/9/47 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кориця або ваніль (немає у словнику).

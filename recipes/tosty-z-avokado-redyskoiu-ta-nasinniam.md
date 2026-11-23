@@ -21,10 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tosty-z-avokado-redyskoiu-ta-nasinniam.jpg
-nutrition_per_serving: { kcal: 394, protein: 19.0, fat: 18.3, carbs: 42.0 }
-nutrition_per_100g: { kcal: 176, protein: 8.5, fat: 8.2, carbs: 18.7 }
-cooked_g_est: 224
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 403, protein: 19.4, fat: 18.4, carbs: 44.0 }
+nutrition_per_100g: { kcal: 142, protein: 6.8, fat: 6.5, carbs: 15.5 }
+cooked_g_est: 284
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 425 ккал на порцію, Б/Ж/В 20/21/42 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано редиска (немає у словнику); пластівці чилі (немає у словнику).

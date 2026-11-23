@@ -28,10 +28,10 @@ ingredients:
   - { name: грибна приправа натуральна, qty: 1, unit: г, note: "" }
   - { name: чебрець, qty: 0.5, unit: г, note: "або орегано" }
 photo: img/perlovyi-boul-z-kuriachym-file-hrybamy-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: 386, protein: 48.8, fat: 13.5, carbs: 20.4 }
-nutrition_per_100g: { kcal: 71, protein: 9.0, fat: 2.5, carbs: 3.7 }
-cooked_g_est: 544
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 527, protein: 52.8, fat: 14.0, carbs: 51.5 }
+nutrition_per_100g: { kcal: 52, protein: 5.2, fat: 1.4, carbs: 5.1 }
+cooked_g_est: 1017
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -50,4 +50,3 @@ added: 2026-11-15
 - Варіація: курку можна замінити індичкою.
 - За даними автора: 530 ккал на порцію, Б/Ж/В 48/20/48 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано перлова крупа (немає у словнику); вода для перловки (немає у словнику); часник сушений (немає у словнику); грибна приправа натуральна (немає у словнику); чебрець (немає у словнику).

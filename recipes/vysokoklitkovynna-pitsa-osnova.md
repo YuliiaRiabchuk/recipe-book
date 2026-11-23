@@ -19,10 +19,10 @@ ingredients:
   - { name: олія оливкова, qty: 5, unit: мл, note: "" }
   - { name: сіль, qty: 2, unit: г, note: "" }
 photo: img/vysokoklitkovynna-pitsa-osnova.jpg
-nutrition_per_serving: { kcal: 51, protein: 2.0, fat: 0.4, carbs: 10.8 }
-nutrition_per_100g: { kcal: 231, protein: 9.0, fat: 1.7, carbs: 48.8 }
-cooked_g_est: 177
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 61, protein: 2.4, fat: 1.1, carbs: 12.2 }
+nutrition_per_100g: { kcal: 248, protein: 9.8, fat: 4.3, carbs: 49.1 }
+cooked_g_est: 198
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Піца основи.
 - За даними автора: 55 ккал на порцію, Б/Ж/В 2.1/0.9/10.5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано висівки (немає у словнику); дріжджі сухі (немає у словнику); олія оливкова (немає у словнику).

@@ -20,10 +20,10 @@ ingredients:
   - { name: мед, qty: 10, unit: г, note: "або підсолоджувач" }
   - { name: какао-порошок, qty: 5, unit: г, note: "для посипки" }
 photo: img/banofi-z-proteinom.jpg
-nutrition_per_serving: { kcal: 122, protein: 2.7, fat: 1.3, carbs: 27.3 }
-nutrition_per_100g: { kcal: 207, protein: 4.7, fat: 2.2, carbs: 46.4 }
-cooked_g_est: 235
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 178, protein: 9.1, fat: 4.1, carbs: 28.6 }
+nutrition_per_100g: { kcal: 195, protein: 10.0, fat: 4.5, carbs: 31.4 }
+cooked_g_est: 364
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Пироги солодкі.
 - За даними автора: 171 ккал на порцію, Б/Ж/В 9.6/6.5/16.5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано протеїн ванільний (немає у словнику); олія оливкова (немає у словнику); йогурт густий (немає у словнику).

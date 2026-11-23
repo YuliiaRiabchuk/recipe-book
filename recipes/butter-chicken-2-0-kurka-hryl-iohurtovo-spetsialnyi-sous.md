@@ -23,10 +23,10 @@ ingredients:
   - { name: часник, qty: 0.5, unit: зубчик, note: "2–3 г, натерти дрібно, для соусу" }
   - { name: лимонний сік, qty: 5, unit: г, note: "1 ч.л., для соусу" }
 photo: img/butter-chicken-2-0-kurka-hryl-iohurtovo-spetsialnyi-sous.jpg
-nutrition_per_serving: { kcal: 365, protein: 42.6, fat: 17.4, carbs: 8.7 }
-nutrition_per_100g: { kcal: 119, protein: 13.8, fat: 5.6, carbs: 2.8 }
-cooked_g_est: 308
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 377, protein: 43.7, fat: 17.5, carbs: 11.0 }
+nutrition_per_100g: { kcal: 97, protein: 11.2, fat: 4.5, carbs: 2.8 }
+cooked_g_est: 390
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Варіація: замість огірка можна взяти помідор скибками 4–5 мм.
 - За даними автора: 548 ккал на порцію, Б/Ж/В 48/25/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мікс салату (немає у словнику); карі (немає у словнику).

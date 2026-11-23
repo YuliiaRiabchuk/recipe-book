@@ -17,8 +17,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: куркума, qty: 1, unit: г, note: "за бажанням" }
 photo: img/nutova-pitsa-osnova.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 63, protein: 3.4, fat: 1.6, carbs: 8.7 }
+nutrition_per_100g: { kcal: 226, protein: 12.0, fat: 5.6, carbs: 31.1 }
+cooked_g_est: 223
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

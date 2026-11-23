@@ -17,10 +17,10 @@ ingredients:
   - { name: молоко, qty: 20, unit: мл, note: "1,5%; 20–30 мл" }
   - { name: арахіс подрібнений, qty: 10, unit: г, note: "для обкачування" }
 photo: img/arakhisovi-kulky.jpg
-nutrition_per_serving: { kcal: 170, protein: 6.3, fat: 9.2, carbs: 17.4 }
-nutrition_per_100g: { kcal: 379, protein: 14.0, fat: 20.5, carbs: 38.6 }
-cooked_g_est: 90
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 253, protein: 19.2, fat: 11.9, carbs: 19.4 }
+nutrition_per_100g: { kcal: 389, protein: 29.6, fat: 18.3, carbs: 29.8 }
+cooked_g_est: 130
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Трюфелі та кульки на шпажках.
 - За даними автора: 515 ккал на порцію, Б/Ж/В 40/24/37 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано протеїн ванільний (немає у словнику); арахіс подрібнений (немає у словнику).

@@ -20,10 +20,10 @@ ingredients:
   - { name: копчена паприка, qty: 0.3, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/rysovi-khlibtsi-z-indychkoiu-khumusom-i-pechenym-pertsem.jpg
-nutrition_per_serving: { kcal: 324, protein: 27.8, fat: 11.1, carbs: 29.0 }
-nutrition_per_100g: { kcal: 171, protein: 14.7, fat: 5.9, carbs: 15.3 }
-cooked_g_est: 189
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 336, protein: 28.3, fat: 11.3, carbs: 31.7 }
+nutrition_per_100g: { kcal: 130, protein: 10.9, fat: 4.4, carbs: 12.3 }
+cooked_g_est: 259
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Крекери, хлібці та хрусткі основи.
 - За даними автора: 389 ккал на порцію, Б/Ж/В 34/13/32 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано печений солодкий перець (немає у словнику); копчена паприка (немає у словнику).

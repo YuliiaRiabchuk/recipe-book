@@ -21,10 +21,10 @@ ingredients:
   - { name: сушений базилік, qty: 0.25, unit: ч.л., note: "або орегано, за бажанням" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "5–10 г, петрушка, базилік, за бажанням" }
 photo: img/teplyi-boul-z-iaitsem-ovochamy-ta-syrom.jpg
-nutrition_per_serving: { kcal: 676, protein: 21.7, fat: 19.5, carbs: 100.9 }
-nutrition_per_100g: { kcal: 132, protein: 4.2, fat: 3.8, carbs: 19.6 }
-cooked_g_est: 514
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 678, protein: 21.9, fat: 19.5, carbs: 101.2 }
+nutrition_per_100g: { kcal: 131, protein: 4.2, fat: 3.8, carbs: 19.5 }
+cooked_g_est: 519
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Здорові сніданкові тарілки.
 - За даними автора: 411 ккал на порцію, Б/Ж/В 17/19/40 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чорний мелений перець (немає у словнику); сушений базилік (немає у словнику); свіжа зелень (немає у словнику).

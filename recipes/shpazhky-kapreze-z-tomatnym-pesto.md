@@ -21,10 +21,10 @@ ingredients:
   - { name: часник, qty: 1, unit: г, note: "для песто" }
   - { name: чорний перець, qty: null, unit: "", note: "для песто, за смаком" }
 photo: img/shpazhky-kapreze-z-tomatnym-pesto.jpg
-nutrition_per_serving: { kcal: 109, protein: 3.5, fat: 7.1, carbs: 9.4 }
-nutrition_per_100g: { kcal: 70, protein: 2.2, fat: 4.5, carbs: 6.0 }
-cooked_g_est: 157
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 434, protein: 25.0, fat: 30.6, carbs: 17.7 }
+nutrition_per_100g: { kcal: 154, protein: 8.9, fat: 10.9, carbs: 6.3 }
+cooked_g_est: 282
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 434 ккал на порцію, Б/Ж/В 28/28/23 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано міні-моцарела (немає у словнику); листя базиліку (немає у словнику); в'ялені томати (немає у словнику).

@@ -22,10 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/farshyrovani-iaitsia-z-avokado-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: 246, protein: 15.6, fat: 17.9, carbs: 6.7 }
-nutrition_per_100g: { kcal: 135, protein: 8.6, fat: 9.8, carbs: 3.7 }
-cooked_g_est: 182
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 248, protein: 15.7, fat: 18.0, carbs: 6.9 }
+nutrition_per_100g: { kcal: 133, protein: 8.4, fat: 9.7, carbs: 3.7 }
+cooked_g_est: 186
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 247 ккал на порцію, Б/Ж/В 16/18/8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано діжонська гірчиця (немає у словнику); копчена паприка (немає у словнику).

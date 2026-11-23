@@ -18,10 +18,10 @@ ingredients:
   - { name: какао, qty: 2, unit: г, note: "" }
   - { name: кориця, qty: 0.3, unit: г, note: "" }
 photo: img/krekery-z-arakhisovoiu-pastoiu-bananom-i-kakao.jpg
-nutrition_per_serving: { kcal: 277, protein: 10.2, fat: 15.2, carbs: 31.0 }
-nutrition_per_100g: { kcal: 171, protein: 6.3, fat: 9.4, carbs: 19.1 }
-cooked_g_est: 162
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 384, protein: 12.8, fat: 18.7, carbs: 48.4 }
+nutrition_per_100g: { kcal: 205, protein: 6.9, fat: 10.0, carbs: 25.9 }
+cooked_g_est: 187
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 384 ккал на порцію, Б/Ж/В 14/18/48 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику).

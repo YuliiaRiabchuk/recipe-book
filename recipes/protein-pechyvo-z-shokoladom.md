@@ -20,10 +20,10 @@ ingredients:
   - { name: розпушувач, qty: 3, unit: г, note: "" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/protein-pechyvo-z-shokoladom.jpg
-nutrition_per_serving: { kcal: 74, protein: 2.1, fat: 2.6, carbs: 10.9 }
-nutrition_per_100g: { kcal: 388, protein: 10.8, fat: 13.4, carbs: 56.8 }
-cooked_g_est: 192
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 91, protein: 5.5, fat: 2.7, carbs: 11.3 }
+nutrition_per_100g: { kcal: 356, protein: 21.5, fat: 10.6, carbs: 44.2 }
+cooked_g_est: 255
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 98 ккал на порцію, Б/Ж/В 6.9/3.6/8.7 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано протеїн (немає у словнику); йогурт густий (немає у словнику).

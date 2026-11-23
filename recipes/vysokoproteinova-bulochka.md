@@ -21,10 +21,10 @@ ingredients:
   - { name: яйце, qty: 5, unit: г, note: "збите, для змащування" }
   - { name: кунжут, qty: 3, unit: г, note: "для прикраси" }
 photo: img/vysokoproteinova-bulochka.jpg
-nutrition_per_serving: { kcal: 32, protein: 2.8, fat: 2.0, carbs: 0.8 }
-nutrition_per_100g: { kcal: 92, protein: 8.0, fat: 5.7, carbs: 2.4 }
-cooked_g_est: 35
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 310, protein: 23.5, fat: 7.4, carbs: 36.9 }
+nutrition_per_100g: { kcal: 313, protein: 23.7, fat: 7.5, carbs: 37.2 }
+cooked_g_est: 99
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Порція 100 г: 328 ккал. Час приготування 1 год 57 хв, випікання 19 хв.
 - За даними автора: 328 ккал на 100 г, Б/Ж/В 25.8/8.2/37.8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); сироватковий протеїн (немає у словнику); соняшникова олія (немає у словнику); дріжджі сухі (немає у словнику).

@@ -19,10 +19,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/iohurtovyi-salat-z-tuntsem-i-ohirkom.jpg
-nutrition_per_serving: { kcal: 227, protein: 15.1, fat: 12.8, carbs: 15.3 }
-nutrition_per_100g: { kcal: 59, protein: 3.9, fat: 3.3, carbs: 4.0 }
-cooked_g_est: 388
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 330, protein: 38.4, fat: 13.9, carbs: 15.3 }
+nutrition_per_100g: { kcal: 65, protein: 7.6, fat: 2.7, carbs: 3.0 }
+cooked_g_est: 508
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - P.S. Для більшої ситості додай 60 г цільнозернового хліба (2 скибки) або 120 г вареного рису.
 - За даними автора: 370 ккал на порцію, Б/Ж/В 42/16/16 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тунець (немає у словнику).

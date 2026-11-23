@@ -18,10 +18,10 @@ ingredients:
   - { name: желатин, qty: 6, unit: г, note: "" }
   - { name: вода, qty: 30, unit: мл, note: "для желатину" }
 photo: img/iahidnyi-mus.jpg
-nutrition_per_serving: { kcal: 26, protein: 1.7, fat: 0.2, carbs: 4.5 }
-nutrition_per_100g: { kcal: 55, protein: 3.7, fat: 0.5, carbs: 9.6 }
-cooked_g_est: 188
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 62, protein: 6.7, fat: 1.2, carbs: 6.5 }
+nutrition_per_100g: { kcal: 60, protein: 6.4, fat: 1.2, carbs: 6.2 }
+cooked_g_est: 418
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Десерти з підсолоджувачем.
 - За даними автора: 59 ккал на порцію, Б/Ж/В 3.2/1.8/5.9 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано йогурт густий (немає у словнику); еритритол (немає у словнику).

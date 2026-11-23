@@ -27,10 +27,10 @@ ingredients:
   - { name: кінза, qty: 4, unit: г, note: "для сальси" }
   - { name: сіль, qty: null, unit: "", note: "для сальси, за смаком" }
 photo: img/syrni-vafli-z-tsvitnoi-kapusty-z-tomatnoiu-salsoiu.jpg
-nutrition_per_serving: { kcal: 359, protein: 23.1, fat: 19.6, carbs: 24.4 }
-nutrition_per_100g: { kcal: 133, protein: 8.6, fat: 7.3, carbs: 9.1 }
-cooked_g_est: 269
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 380, protein: 24.0, fat: 19.7, carbs: 29.1 }
+nutrition_per_100g: { kcal: 107, protein: 6.8, fat: 5.5, carbs: 8.2 }
+cooked_g_est: 356
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 383 ккал на порцію, Б/Ж/В 25/21/28 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано томат (немає у словнику); червона цибуля (немає у словнику).

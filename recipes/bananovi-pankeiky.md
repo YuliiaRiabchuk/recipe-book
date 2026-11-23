@@ -19,10 +19,10 @@ ingredients:
   - { name: олія для смаження, qty: 5, unit: г, note: "≈1 ч.л." }
   - { name: кориця або ваніль, qty: 0.25, unit: ч.л., note: "за бажанням" }
 photo: img/bananovi-pankeiky.jpg
-nutrition_per_serving: { kcal: 227, protein: 10.9, fat: 7.1, carbs: 32.1 }
-nutrition_per_100g: { kcal: 95, protein: 4.6, fat: 3.0, carbs: 13.5 }
-cooked_g_est: 238
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 526, protein: 18.1, fat: 12.8, carbs: 85.5 }
+nutrition_per_100g: { kcal: 168, protein: 5.8, fat: 4.1, carbs: 27.3 }
+cooked_g_est: 313
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 513 ккал на порцію, Б/Ж/В 18/13/81 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); олія для смаження (немає у словнику); кориця або ваніль (немає у словнику).

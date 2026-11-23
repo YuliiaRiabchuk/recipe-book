@@ -20,10 +20,10 @@ ingredients:
   - { name: кориця, qty: 0.3, unit: г, note: "мелена" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/abrykosovi-kulky-z-harbuzovym-nasinniam.jpg
-nutrition_per_serving: { kcal: 485, protein: 15.2, fat: 23.1, carbs: 63.2 }
-nutrition_per_100g: { kcal: 373, protein: 11.7, fat: 17.8, carbs: 48.6 }
-cooked_g_est: 130
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 578, protein: 18.4, fat: 31.5, carbs: 66.2 }
+nutrition_per_100g: { kcal: 396, protein: 12.6, fat: 21.5, carbs: 45.3 }
+cooked_g_est: 146
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Додатково потрібно 20 хв на охолодження.
 - За даними автора: 580 ккал на порцію, Б/Ж/В 19/30/64 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мигдальна паста (немає у словнику); апельсинова цедра (немає у словнику).

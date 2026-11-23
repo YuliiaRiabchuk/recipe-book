@@ -20,10 +20,10 @@ ingredients:
   - { name: насіння соняшника, qty: 30, unit: г, note: "або гарбуза" }
   - { name: вода, qty: 50, unit: мл, note: "тепла, 35–38 °C" }
 photo: img/proteinovyi-khlib.jpg
-nutrition_per_serving: { kcal: 55, protein: 4.5, fat: 3.6, carbs: 1.2 }
-nutrition_per_100g: { kcal: 150, protein: 12.2, fat: 9.8, carbs: 3.2 }
-cooked_g_est: 439
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 90, protein: 9.2, fat: 4.2, carbs: 7.0 }
+nutrition_per_100g: { kcal: 188, protein: 19.2, fat: 8.9, carbs: 14.6 }
+cooked_g_est: 574
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Порція 45 г: 100 ккал; вихід 560 г готового хліба. Підготовка 15 хв, випікання 37 хв.
 - За даними автора: 222 ккал на 100 г, Б/Ж/В 21.8/9.7/11.9 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано вівсяні висівки (немає у словнику); протеїн (немає у словнику).

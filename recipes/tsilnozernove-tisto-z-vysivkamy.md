@@ -18,10 +18,10 @@ ingredients:
   - { name: яйце, qty: 1, unit: шт, note: "50 г" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/tsilnozernove-tisto-z-vysivkamy.jpg
-nutrition_per_serving: { kcal: 825, protein: 26.1, fat: 36.1, carbs: 108.3 }
-nutrition_per_100g: { kcal: 306, protein: 9.7, fat: 13.4, carbs: 40.1 }
-cooked_g_est: 270
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 890, protein: 30.8, fat: 37.4, carbs: 127.7 }
+nutrition_per_100g: { kcal: 297, protein: 10.3, fat: 12.5, carbs: 42.6 }
+cooked_g_est: 300
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - На форму Ø 26 см; вихід 270 г (794 ккал). Підготовка 8 хв, випікання 22 хв.
 - За даними автора: 294 ккал на 100 г, Б/Ж/В 10.2/13.4/31.6 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано висівки пшеничні (немає у словнику).

@@ -24,10 +24,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: сіль, qty: null, unit: "", note: "за потреби" }
 photo: img/ialovychyna-z-rysom-hrybamy-ta-tsybuleiu-v-soievo-lymonnii.jpg
-nutrition_per_serving: { kcal: 216, protein: 10.5, fat: 1.1, carbs: 44.6 }
-nutrition_per_100g: { kcal: 52, protein: 2.5, fat: 0.3, carbs: 10.7 }
-cooked_g_est: 418
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 619, protein: 59.8, fat: 23.7, carbs: 45.6 }
+nutrition_per_100g: { kcal: 104, protein: 10.0, fat: 4.0, carbs: 7.6 }
+cooked_g_est: 597
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Wok-обіди.
 - За даними автора: 694 ккал на порцію, Б/Ж/В 58/33/45 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано яловичина пісна (немає у словнику); соняшникова олія (немає у словнику); соєвий соус лайт (немає у словнику).

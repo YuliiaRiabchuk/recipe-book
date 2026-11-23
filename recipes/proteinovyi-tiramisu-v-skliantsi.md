@@ -20,10 +20,10 @@ ingredients:
   - { name: мед, qty: 5, unit: г, note: "" }
   - { name: ваніль, qty: null, unit: "", note: "за смаком" }
 photo: img/proteinovyi-tiramisu-v-skliantsi.jpg
-nutrition_per_serving: { kcal: 149, protein: 3.1, fat: 12.7, carbs: 8.9 }
-nutrition_per_100g: { kcal: 331, protein: 7.0, fat: 28.3, carbs: 19.9 }
-cooked_g_est: 45
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 425, protein: 31.8, fat: 15.3, carbs: 43.5 }
+nutrition_per_100g: { kcal: 152, protein: 11.3, fat: 5.5, carbs: 15.6 }
+cooked_g_est: 280
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Плюс 1 година на охолодження.
 - За даними автора: 473 ккал на порцію, Б/Ж/В 39/21/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано скір (немає у словнику); сироватковий ізолят (немає у словнику); цільнозернове печиво (немає у словнику); кава (немає у словнику).

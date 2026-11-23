@@ -26,10 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/palychky-z-tsukini-z-parmezanom-i-tomatnym-dypom.jpg
-nutrition_per_serving: { kcal: 172, protein: 9.4, fat: 12.9, carbs: 4.7 }
-nutrition_per_100g: { kcal: 260, protein: 14.3, fat: 19.6, carbs: 7.1 }
-cooked_g_est: 66
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 340, protein: 17.1, fat: 15.2, carbs: 36.8 }
+nutrition_per_100g: { kcal: 90, protein: 4.5, fat: 4.0, carbs: 9.7 }
+cooked_g_est: 379
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 337 ккал на порцію, Б/Ж/В 18/15/34 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цукіні (немає у словнику); цільнозернові панірувальні сухарі (немає у словнику); сушений орегано (немає у словнику); сушений часник (немає у словнику); подрібнені томати (немає у словнику).

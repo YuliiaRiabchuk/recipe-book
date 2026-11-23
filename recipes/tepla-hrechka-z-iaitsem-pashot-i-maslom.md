@@ -21,7 +21,7 @@ photo: img/tepla-hrechka-z-iaitsem-pashot-i-maslom.jpg
 nutrition_per_serving: { kcal: 663, protein: 24.0, fat: 16.9, carbs: 113.0 }
 nutrition_per_100g: { kcal: 129, protein: 4.7, fat: 3.3, carbs: 22.1 }
 cooked_g_est: 512
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Здорові сніданкові тарілки.
 - За даними автора: 439 ккал на порцію, Б/Ж/В 18/25/37 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чорний мелений перець (немає у словнику).

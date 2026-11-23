@@ -24,10 +24,10 @@ ingredients:
   - { name: мед, qty: 3, unit: г, note: "для соусу" }
   - { name: зелена цибуля, qty: 5, unit: г, note: "для соусу" }
 photo: img/salatni-chovnyky-z-indychkoiu-iablukom-i-seleroiu.jpg
-nutrition_per_serving: { kcal: 260, protein: 33.2, fat: 7.4, carbs: 15.1 }
-nutrition_per_100g: { kcal: 115, protein: 14.7, fat: 3.3, carbs: 6.7 }
-cooked_g_est: 226
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 278, protein: 34.3, fat: 7.8, carbs: 18.3 }
+nutrition_per_100g: { kcal: 87, protein: 10.7, fat: 2.4, carbs: 5.7 }
+cooked_g_est: 320
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Розділ книги: Листки салату, норі та спрінг-роли.
 - За даними автора: 246 ккал на порцію, Б/Ж/В 33/5/17 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано листя салату романо (немає у словнику); стебло селери (немає у словнику); діжонська гірчиця (немає у словнику).

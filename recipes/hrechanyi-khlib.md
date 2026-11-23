@@ -18,10 +18,10 @@ ingredients:
   - { name: мед, qty: 15, unit: г, note: "" }
   - { name: вода, qty: 270, unit: мл, note: "тепла, 35–38 °C" }
 photo: img/hrechanyi-khlib.jpg
-nutrition_per_serving: { kcal: 46, protein: 1.2, fat: 0.1, carbs: 9.8 }
-nutrition_per_100g: { kcal: 149, protein: 3.9, fat: 0.4, carbs: 32.0 }
-cooked_g_est: 396
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 104, protein: 3.5, fat: 0.7, carbs: 21.9 }
+nutrition_per_100g: { kcal: 225, protein: 7.7, fat: 1.5, carbs: 47.5 }
+cooked_g_est: 600
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Порція 45 г: 99 ккал; вихід 580 г. Підготовка 1 год 30 хв, випікання 38 хв.
 - За даними автора: 220 ккал на 100 г, Б/Ж/В 8.1/1.6/43.3 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно гречане цільнозернове (немає у словнику); дріжджі сухі (немає у словнику).

@@ -16,10 +16,10 @@ ingredients:
   - { name: молоко, qty: 40, unit: мл, note: "1,5%; 40–60 мл" }
   - { name: какао-нібси, qty: 5, unit: г, note: "для подачі" }
 photo: img/proteinovyi-naiskrim.jpg
-nutrition_per_serving: { kcal: 20, protein: 1.3, fat: 0.8, carbs: 1.9 }
-nutrition_per_100g: { kcal: 50, protein: 3.3, fat: 2.0, carbs: 4.8 }
-cooked_g_est: 40
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 264, protein: 26.8, fat: 4.3, carbs: 32.6 }
+nutrition_per_100g: { kcal: 136, protein: 13.7, fat: 2.2, carbs: 16.7 }
+cooked_g_est: 195
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Заморожене/морозиво.
 - За даними автора: 278 ккал на порцію, Б/Ж/В 26/6/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано казеїн (немає у словнику); заморожений банан (немає у словнику); какао-нібси (немає у словнику).

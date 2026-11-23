@@ -20,10 +20,10 @@ ingredients:
   - { name: лимонний сік, qty: 0.5, unit: ч.л., note: "за бажанням, для авокадо" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "петрушка або кріп, за бажанням" }
 photo: img/boul-z-hrechkoiu-iaitsem-i-avokado.jpg
-nutrition_per_serving: { kcal: 755, protein: 25.4, fat: 24.8, carbs: 119.4 }
-nutrition_per_100g: { kcal: 130, protein: 4.4, fat: 4.3, carbs: 20.5 }
-cooked_g_est: 582
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 757, protein: 25.5, fat: 24.9, carbs: 119.7 }
+nutrition_per_100g: { kcal: 129, protein: 4.3, fat: 4.2, carbs: 20.4 }
+cooked_g_est: 588
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Здорові сніданкові тарілки.
 - За даними автора: 411 ккал на порцію, Б/Ж/В 12/26/37 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чорний мелений перець (немає у словнику); свіжа зелень (немає у словнику).

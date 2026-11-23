@@ -19,10 +19,10 @@ ingredients:
   - { name: підсолоджувач, qty: 10, unit: г, note: "або мед" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/pisochne-tisto-lait.jpg
-nutrition_per_serving: { kcal: 555, protein: 19.7, fat: 23.5, carbs: 72.3 }
-nutrition_per_100g: { kcal: 326, protein: 11.6, fat: 13.8, carbs: 42.6 }
-cooked_g_est: 170
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 771, protein: 31.5, fat: 39.3, carbs: 78.8 }
+nutrition_per_100g: { kcal: 308, protein: 12.6, fat: 15.7, carbs: 31.5 }
+cooked_g_est: 250
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Вихід 200 г (766 ккал). Підготовка 5 хв, випікання 22 хв.
 - За даними автора: 383 ккал на 100 г, Б/Ж/В 13.6/20/36.5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно мигдальне (немає у словнику); йогурт густий (немає у словнику); підсолоджувач (немає у словнику).

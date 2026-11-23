@@ -17,10 +17,10 @@ ingredients:
   - { name: кокосова стружка, qty: 15, unit: г, note: "" }
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
 photo: img/kokosovyi-protein-krem.jpg
-nutrition_per_serving: { kcal: 197, protein: 2.0, fat: 20.8, carbs: 3.9 }
-nutrition_per_100g: { kcal: 239, protein: 2.5, fat: 25.3, carbs: 4.7 }
-cooked_g_est: 165
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 260, protein: 14.3, fat: 21.5, carbs: 5.6 }
+nutrition_per_100g: { kcal: 216, protein: 11.9, fat: 17.9, carbs: 4.7 }
+cooked_g_est: 240
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 198 ккал на порцію, Б/Ж/В 14.5/11.2/7.3 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано протеїн (немає у словнику); йогурт густий (немає у словнику).

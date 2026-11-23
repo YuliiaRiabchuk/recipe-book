@@ -25,10 +25,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "до смаку" }
 photo: img/tortilia-z-tomatnoiu-salsoiu.jpg
-nutrition_per_serving: { kcal: 354, protein: 15.3, fat: 28.1, carbs: 13.0 }
-nutrition_per_100g: { kcal: 120, protein: 5.2, fat: 9.5, carbs: 4.4 }
-cooked_g_est: 295
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 615, protein: 27.0, fat: 30.3, carbs: 63.6 }
+nutrition_per_100g: { kcal: 132, protein: 5.8, fat: 6.5, carbs: 13.6 }
+cooked_g_est: 466
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - Залиш жовтки трохи рідкими: вони правитимуть за соус для тортильї та квасолі.
 - За даними автора: 620 ккал на порцію, Б/Ж/В 27/30/64 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кукурудзяні тортильї (немає у словнику); чорна квасоля (немає у словнику); червона цибуля (немає у словнику).

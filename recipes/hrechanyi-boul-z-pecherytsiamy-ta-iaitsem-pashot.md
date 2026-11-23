@@ -27,10 +27,10 @@ ingredients:
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
   - { name: кріп, qty: null, unit: "", note: "свіжий" }
 photo: img/hrechanyi-boul-z-pecherytsiamy-ta-iaitsem-pashot.jpg
-nutrition_per_serving: { kcal: 498, protein: 20.6, fat: 25.9, carbs: 53.3 }
-nutrition_per_100g: { kcal: 128, protein: 5.3, fat: 6.7, carbs: 13.7 }
-cooked_g_est: 388
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 627, protein: 27.0, fat: 35.0, carbs: 59.5 }
+nutrition_per_100g: { kcal: 125, protein: 5.4, fat: 7.0, carbs: 11.9 }
+cooked_g_est: 500
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,4 +46,3 @@ added: 2026-11-15
 - Розділ книги: Поживні сніданки.
 - За даними автора: 618 ккал на порцію, Б/Ж/В 28/35/56 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано бринза (немає у словнику); помідори чері (немає у словнику).

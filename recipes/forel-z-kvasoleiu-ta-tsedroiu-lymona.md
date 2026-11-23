@@ -20,11 +20,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/forel-z-kvasoleiu-ta-tsedroiu-lymona.jpg
-nutrition_per_serving: { kcal: 41, protein: 0.3, fat: 3.4, carbs: 3.4 }
-nutrition_per_100g: { kcal: 94, protein: 0.7, fat: 7.7, carbs: 7.7 }
-cooked_g_est: 44
-nutrition_status: частковий
-nutrition_notes: ["олія для смаження: враховано 3 г із 10 г"]
+nutrition_per_serving: { kcal: 350, protein: 29.1, fat: 18.1, carbs: 21.3 }
+nutrition_per_100g: { kcal: 86, protein: 7.1, fat: 4.5, carbs: 5.2 }
+cooked_g_est: 407
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +40,3 @@ added: 2026-11-15
 - P.S. Цедру додавай наприкінці: аромат яскравіший, гіркоти немає.
 - За даними автора: 414 ккал на порцію, Б/Ж/В 29/24/24 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано форель (немає у словнику); квасоля стручкова (немає у словнику); петрушка (немає у словнику).

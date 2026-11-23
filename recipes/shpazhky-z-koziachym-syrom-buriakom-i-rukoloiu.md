@@ -20,10 +20,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/shpazhky-z-koziachym-syrom-buriakom-i-rukoloiu.jpg
-nutrition_per_serving: { kcal: 185, protein: 5.2, fat: 11.3, carbs: 19.0 }
-nutrition_per_100g: { kcal: 90, protein: 2.5, fat: 5.5, carbs: 9.3 }
-cooked_g_est: 205
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 396, protein: 20.0, fat: 28.2, carbs: 19.0 }
+nutrition_per_100g: { kcal: 139, protein: 7.0, fat: 9.9, carbs: 6.7 }
+cooked_g_est: 285
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 512 ккал на порцію, Б/Ж/В 23/36/23 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано козячий сир (немає у словнику).

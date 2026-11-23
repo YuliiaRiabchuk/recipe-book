@@ -19,10 +19,10 @@ ingredients:
   - { name: кориця мелена, qty: 5, unit: г, note: "" }
   - { name: розпушувач, qty: 5, unit: г, note: "" }
 photo: img/zapechena-vivsianka-iabluko-korytsia.jpg
-nutrition_per_serving: { kcal: 136, protein: 5.5, fat: 3.3, carbs: 21.6 }
-nutrition_per_100g: { kcal: 199, protein: 8.0, fat: 4.8, carbs: 31.7 }
-cooked_g_est: 410
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 154, protein: 8.0, fat: 3.8, carbs: 22.6 }
+nutrition_per_100g: { kcal: 158, protein: 8.2, fat: 3.8, carbs: 23.2 }
+cooked_g_est: 585
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Фітнес-випічка для сніданку.
 - За даними автора: 155 ккал на порцію, Б/Ж/В 7/5.2/18.2 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано йогурт густий (немає у словнику); еритритол (немає у словнику); кориця мелена (немає у словнику).

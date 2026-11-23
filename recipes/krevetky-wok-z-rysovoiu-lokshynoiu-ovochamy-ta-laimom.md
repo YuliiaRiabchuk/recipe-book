@@ -31,10 +31,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krevetky-wok-z-rysovoiu-lokshynoiu-ovochamy-ta-laimom.jpg
-nutrition_per_serving: { kcal: 119, protein: 5.8, fat: 3.1, carbs: 20.2 }
-nutrition_per_100g: { kcal: 71, protein: 3.4, fat: 1.8, carbs: 12.0 }
-cooked_g_est: 168
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 555, protein: 34.4, fat: 14.3, carbs: 75.0 }
+nutrition_per_100g: { kcal: 104, protein: 6.5, fat: 2.7, carbs: 14.1 }
+cooked_g_est: 532
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -50,4 +50,3 @@ added: 2026-11-15
 - Розділ книги: Риба та морепродукти.
 - За даними автора: 578 ккал на порцію, Б/Ж/В 40/14/73 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано креветки очищені (немає у словнику); локшина рисова (немає у словнику); перець солодкий (немає у словнику); лаймовий сік (немає у словнику); імбир свіжий (немає у словнику); кунжутна олія (немає у словнику); соняшникова олія (немає у словнику).

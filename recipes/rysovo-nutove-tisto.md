@@ -17,10 +17,10 @@ ingredients:
   - { name: вода, qty: 60, unit: мл, note: "тепла" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/rysovo-nutove-tisto.jpg
-nutrition_per_serving: { kcal: 163, protein: 0.0, fat: 18.4, carbs: 0.0 }
-nutrition_per_100g: { kcal: 271, protein: 0.0, fat: 30.7, carbs: 0.0 }
-cooked_g_est: 60
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 610, protein: 13.7, fat: 22.2, carbs: 87.2 }
+nutrition_per_100g: { kcal: 339, protein: 7.6, fat: 12.3, carbs: 48.5 }
+cooked_g_est: 180
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Вихід 180 г (596 ккал). Підготовка 5 хв, випікання 5 хв.
 - За даними автора: 331 ккал на 100 г, Б/Ж/В 7.6/11.8/48.2 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно рисове (немає у словнику); борошно нутове (немає у словнику).

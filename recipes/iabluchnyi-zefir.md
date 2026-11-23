@@ -17,10 +17,10 @@ ingredients:
   - { name: агар-агар, qty: 6, unit: г, note: "" }
   - { name: вода, qty: 60, unit: мл, note: "" }
 photo: img/iabluchnyi-zefir.jpg
-nutrition_per_serving: { kcal: 1, protein: 0.2, fat: 0.0, carbs: 0.0 }
-nutrition_per_100g: { kcal: 18, protein: 3.9, fat: 0.1, carbs: 0.3 }
-cooked_g_est: 93
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 9, protein: 0.3, fat: 0.0, carbs: 2.1 }
+nutrition_per_100g: { kcal: 31, protein: 1.0, fat: 0.1, carbs: 7.4 }
+cooked_g_est: 449
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Десерти з підсолоджувачем.
 - За даними автора: 9 ккал на порцію, Б/Ж/В 0.3/0/2.1 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано яблучне пюре (немає у словнику); еритритол (немає у словнику); агар-агар (немає у словнику).

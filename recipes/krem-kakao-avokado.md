@@ -17,9 +17,9 @@ ingredients:
   - { name: ванільний екстракт, qty: 2, unit: мл, note: "" }
 photo: img/krem-kakao-avokado.jpg
 nutrition_per_serving: { kcal: 119, protein: 2.3, fat: 10.5, carbs: 8.6 }
-nutrition_per_100g: { kcal: 165, protein: 3.2, fat: 14.5, carbs: 12.0 }
-cooked_g_est: 432
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 151, protein: 2.9, fat: 13.3, carbs: 11.0 }
+cooked_g_est: 472
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Топінги та креми.
 - За даними автора: 160 ккал на 100 г, Б/Ж/В 3.3/12.2/10.9 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано еритритол (немає у словнику).

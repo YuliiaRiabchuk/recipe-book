@@ -25,10 +25,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: кмин, qty: null, unit: "", note: "за смаком" }
 photo: img/zapecheni-ovochi-z-nutom-ta-takhini-lymonnym-sousom.jpg
-nutrition_per_serving: { kcal: 598, protein: 24.4, fat: 25.8, carbs: 72.9 }
-nutrition_per_100g: { kcal: 146, protein: 6.0, fat: 6.3, carbs: 17.8 }
-cooked_g_est: 410
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 632, protein: 25.9, fat: 26.3, carbs: 80.7 }
+nutrition_per_100g: { kcal: 121, protein: 5.0, fat: 5.0, carbs: 15.5 }
+cooked_g_est: 521
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Бобові та зернові як основа.
 - За даними автора: 638 ккал на порцію, Б/Ж/В 27/28/79 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано перець солодкий (немає у словнику); копчена паприка (немає у словнику); петрушка (немає у словнику).

@@ -21,10 +21,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "до смаку" }
 photo: img/kesadylia-z-iaitsiamy-indychkoiu-shpynatom-ta-motsareloiu.jpg
-nutrition_per_serving: { kcal: 409, protein: 43.2, fat: 23.9, carbs: 4.1 }
-nutrition_per_100g: { kcal: 157, protein: 16.6, fat: 9.2, carbs: 1.6 }
-cooked_g_est: 260
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 648, protein: 50.7, fat: 31.2, carbs: 40.6 }
+nutrition_per_100g: { kcal: 163, protein: 12.7, fat: 7.8, carbs: 10.2 }
+cooked_g_est: 398
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - P.S.: перед складанням кесадильї лиши яйця трохи недоготовленими, вони дійдуть до готовності, поки підсмажуватиметься тортилья.
 - За даними автора: 712 ккал на порцію, Б/Ж/В 30/32/82 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозернова тортилья (немає у словнику); помідори чері (немає у словнику).

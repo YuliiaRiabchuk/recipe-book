@@ -21,10 +21,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/boul-tunets-iaitse-super-syto-super-shvydko.jpg
-nutrition_per_serving: { kcal: 270, protein: 14.2, fat: 19.9, carbs: 10.2 }
-nutrition_per_100g: { kcal: 78, protein: 4.1, fat: 5.7, carbs: 2.9 }
-cooked_g_est: 347
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 409, protein: 39.3, fat: 21.4, carbs: 18.0 }
+nutrition_per_100g: { kcal: 64, protein: 6.2, fat: 3.4, carbs: 2.8 }
+cooked_g_est: 637
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Ідеальна вечеря «коли нема сил», але треба якісно.
 - За даними автора: 481 ккал на порцію, Б/Ж/В 49/22/20 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тунець у власному соку (немає у словнику); томати (немає у словнику).

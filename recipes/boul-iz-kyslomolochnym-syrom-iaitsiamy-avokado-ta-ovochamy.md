@@ -23,10 +23,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: перець чорний, qty: null, unit: "", note: "до смаку" }
 photo: img/boul-iz-kyslomolochnym-syrom-iaitsiamy-avokado-ta-ovochamy.jpg
-nutrition_per_serving: { kcal: 530, protein: 37.2, fat: 32.8, carbs: 25.2 }
-nutrition_per_100g: { kcal: 109, protein: 7.6, fat: 6.7, carbs: 5.2 }
-cooked_g_est: 488
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 557, protein: 38.1, fat: 33.5, carbs: 30.7 }
+nutrition_per_100g: { kcal: 95, protein: 6.5, fat: 5.7, carbs: 5.2 }
+cooked_g_est: 588
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Додавай авокадо безпосередньо перед подаванням, щоб воно зберегло колір і текстуру.
 - За даними автора: 600 ккал на порцію, Б/Ж/В 40/40/23 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано помідори чері (немає у словнику).

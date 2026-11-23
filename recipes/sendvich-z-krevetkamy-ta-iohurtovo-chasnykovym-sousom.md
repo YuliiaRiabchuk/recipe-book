@@ -24,10 +24,10 @@ ingredients:
   - { name: лимонний сік, qty: 1, unit: ч.л., note: "5 г, для соусу" }
   - { name: сіль, qty: 1, unit: дрібка, note: "щіпка, для соусу" }
 photo: img/sendvich-z-krevetkamy-ta-iohurtovo-chasnykovym-sousom.jpg
-nutrition_per_serving: { kcal: 267, protein: 13.4, fat: 10.2, carbs: 31.3 }
-nutrition_per_100g: { kcal: 142, protein: 7.1, fat: 5.4, carbs: 16.7 }
-cooked_g_est: 188
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 398, protein: 42.7, fat: 11.0, carbs: 33.6 }
+nutrition_per_100g: { kcal: 103, protein: 11.0, fat: 2.8, carbs: 8.7 }
+cooked_g_est: 387
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - P.S.: якщо соус подавати окремо, сендвіч буде менш соковитим і зручнішим для їжі руками.
 - За даними автора: 381 ккал на порцію, Б/Ж/В 35/14/34 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано креветки очищені (немає у словнику); мікс салату (немає у словнику).

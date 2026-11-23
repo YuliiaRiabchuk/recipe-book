@@ -21,10 +21,10 @@ ingredients:
   - { name: діжонська гірчиця, qty: 3, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kruasan-z-iaitsem-ta-indychkoiu.jpg
-nutrition_per_serving: { kcal: 196, protein: 26.6, fat: 7.5, carbs: 4.7 }
-nutrition_per_100g: { kcal: 96, protein: 13.0, fat: 3.7, carbs: 2.3 }
-cooked_g_est: 204
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 605, protein: 39.7, fat: 32.5, carbs: 37.6 }
+nutrition_per_100g: { kcal: 198, protein: 13.0, fat: 10.6, carbs: 12.3 }
+cooked_g_est: 306
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Не притискай круасан надто сильно під час прогрівання: він має лишитися шаруватим, а не пласким.
 - За даними автора: 590 ккал на порцію, Б/Ж/В 36/32/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано круасан (немає у словнику); сир чедер (немає у словнику); діжонська гірчиця (немає у словнику).

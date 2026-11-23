@@ -20,10 +20,10 @@ ingredients:
   - { name: вершкове масло, qty: 5, unit: г, note: "" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/manna-kasha-na-molotsi-z-proteinom.jpg
-nutrition_per_serving: { kcal: 304, protein: 11.4, fat: 16.8, carbs: 29.7 }
-nutrition_per_100g: { kcal: 104, protein: 3.9, fat: 5.8, carbs: 10.2 }
-cooked_g_est: 292
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 519, protein: 32.1, fat: 17.6, carbs: 60.1 }
+nutrition_per_100g: { kcal: 150, protein: 9.3, fat: 5.1, carbs: 17.4 }
+cooked_g_est: 346
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 520 ккал на порцію, Б/Ж/В 29/22/62 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано манна крупа (немає у словнику); протеїн (немає у словнику).

@@ -19,10 +19,10 @@ ingredients:
   - { name: кориця, qty: 1, unit: г, note: "або ваніль 1 г" }
   - { name: сіль, qty: 1, unit: г, note: "" }
 photo: img/pshoniana-kasha-z-tvorohom-20-rodzynkamy-ta-medom-abo.jpg
-nutrition_per_serving: { kcal: 323, protein: 22.3, fat: 5.9, carbs: 47.2 }
-nutrition_per_100g: { kcal: 92, protein: 6.4, fat: 1.7, carbs: 13.5 }
-cooked_g_est: 350
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 549, protein: 29.0, fat: 8.5, carbs: 90.9 }
+nutrition_per_100g: { kcal: 104, protein: 5.5, fat: 1.6, carbs: 17.1 }
+cooked_g_est: 530
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Варіація: родзинки можна замінити курагою, нарізаною дрібним кубиком 5 мм.
 - За даними автора: 747 ккал на порцію, Б/Ж/В 35/34/86 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пшоно (немає у словнику).

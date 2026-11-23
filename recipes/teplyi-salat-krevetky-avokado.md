@@ -21,10 +21,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: часник, qty: 2, unit: г, note: "" }
 photo: img/teplyi-salat-krevetky-avokado.jpg
-nutrition_per_serving: { kcal: 343, protein: 32.5, fat: 19.8, carbs: 12.9 }
-nutrition_per_100g: { kcal: 86, protein: 8.1, fat: 4.9, carbs: 3.2 }
-cooked_g_est: 400
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 395, protein: 34.9, fat: 20.9, carbs: 23.5 }
+nutrition_per_100g: { kcal: 63, protein: 5.5, fat: 3.3, carbs: 3.7 }
+cooked_g_est: 630
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Креветки готуй коротко: тоді вони соковиті, а салат реально «ресторанний».
 - За даними автора: 408 ккал на порцію, Б/Ж/В 41/20/22 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано салат мікс (немає у словнику); томати черрі (немає у словнику).

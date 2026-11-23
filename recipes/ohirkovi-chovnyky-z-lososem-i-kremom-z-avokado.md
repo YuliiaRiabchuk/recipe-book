@@ -20,10 +20,10 @@ ingredients:
   - { name: каперси, qty: 8, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/ohirkovi-chovnyky-z-lososem-i-kremom-z-avokado.jpg
-nutrition_per_serving: { kcal: 109, protein: 1.7, fat: 9.6, carbs: 6.7 }
-nutrition_per_100g: { kcal: 131, protein: 2.0, fat: 11.6, carbs: 8.1 }
-cooked_g_est: 83
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 253, protein: 20.6, fat: 13.4, carbs: 15.9 }
+nutrition_per_100g: { kcal: 66, protein: 5.4, fat: 3.5, carbs: 4.2 }
+cooked_g_est: 383
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 252 ккал на порцію, Б/Ж/В 19/15/15 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано довгий огірок (немає у словнику); копчений лосось (немає у словнику); вершковий сир (немає у словнику).

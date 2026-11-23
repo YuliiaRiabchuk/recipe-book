@@ -24,10 +24,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: зелень, qty: 10, unit: г, note: "" }
 photo: img/shakshuka-kaserol-z-fetoiu.jpg
-nutrition_per_serving: { kcal: 293, protein: 16.9, fat: 15.6, carbs: 24.4 }
-nutrition_per_100g: { kcal: 58, protein: 3.3, fat: 3.1, carbs: 4.8 }
-cooked_g_est: 505
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 385, protein: 21.8, fat: 23.1, carbs: 25.8 }
+nutrition_per_100g: { kcal: 71, protein: 4.0, fat: 4.3, carbs: 4.8 }
+cooked_g_est: 540
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Розділ книги: Овочеві запіканки з білком.
 - За даними автора: 403 ккал на порцію, Б/Ж/В 25/20/30 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фета (немає у словнику).

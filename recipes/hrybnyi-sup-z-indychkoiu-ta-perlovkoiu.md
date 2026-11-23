@@ -22,10 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/hrybnyi-sup-z-indychkoiu-ta-perlovkoiu.jpg
-nutrition_per_serving: { kcal: 292, protein: 57.3, fat: 3.8, carbs: 6.8 }
-nutrition_per_100g: { kcal: 37, protein: 7.3, fat: 0.5, carbs: 0.9 }
-cooked_g_est: 789
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 463, protein: 60.9, fat: 9.3, carbs: 34.9 }
+nutrition_per_100g: { kcal: 53, protein: 7.0, fat: 1.1, carbs: 4.0 }
+cooked_g_est: 866
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Білкові супи.
 - За даними автора: 454 ккал на порцію, Б/Ж/В 59/8/35 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано перлова крупа (немає у словнику); цибуля порей (немає у словнику); олія кукурудзяна (немає у словнику); петрушка (немає у словнику).

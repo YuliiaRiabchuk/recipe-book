@@ -18,10 +18,10 @@ ingredients:
   - { name: цедра лимона, qty: 2, unit: г, note: "" }
   - { name: борошно вівсяне, qty: 30, unit: г, note: "" }
 photo: img/makovyi-lymonnyi-miakkeik.jpg
-nutrition_per_serving: { kcal: 153, protein: 9.0, fat: 11.0, carbs: 5.6 }
-nutrition_per_100g: { kcal: 219, protein: 12.9, fat: 15.7, carbs: 8.0 }
-cooked_g_est: 70
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 307, protein: 18.0, fat: 13.9, carbs: 28.6 }
+nutrition_per_100g: { kcal: 216, protein: 12.7, fat: 9.8, carbs: 20.1 }
+cooked_g_est: 142
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Десерти у мікрохвильовці.
 - За даними автора: 247 ккал на порцію, Б/Ж/В 12/9.4/26.1 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано йогурт густий (немає у словнику); борошно вівсяне (немає у словнику).

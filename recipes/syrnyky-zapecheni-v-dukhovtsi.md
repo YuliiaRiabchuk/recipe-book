@@ -18,10 +18,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
   - { name: ваніль або кориця, qty: 0.25, unit: ч.л., note: "за бажанням, без калорій" }
 photo: img/syrnyky-zapecheni-v-dukhovtsi.jpg
-nutrition_per_serving: { kcal: 303, protein: 28.6, fat: 17.4, carbs: 7.1 }
-nutrition_per_100g: { kcal: 119, protein: 11.2, fat: 6.8, carbs: 2.8 }
-cooked_g_est: 255
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 376, protein: 30.6, fat: 17.6, carbs: 22.4 }
+nutrition_per_100g: { kcal: 137, protein: 11.1, fat: 6.4, carbs: 8.1 }
+cooked_g_est: 275
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 439 ккал на порцію, Б/Ж/В 44/21/20 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); ваніль або кориця (немає у словнику).

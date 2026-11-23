@@ -26,9 +26,9 @@ ingredients:
   - { name: сіль, qty: 1.5, unit: г, note: "" }
   - { name: перець чорний, qty: 0.1, unit: г, note: "" }
 photo: img/tomatnyi-sup-iz-ialovychymy-frykadelkamy-ta-bulhurom.jpg
-nutrition_per_serving: { kcal: 304, protein: 25.8, fat: 17.4, carbs: 11.0 }
-nutrition_per_100g: { kcal: 53, protein: 4.5, fat: 3.0, carbs: 1.9 }
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 449, protein: 31.6, fat: 19.2, carbs: 39.6 }
+nutrition_per_100g: { kcal: 78, protein: 5.5, fat: 3.3, carbs: 6.9 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Вихід — близько 575 г на порцію.
 - За даними автора: 471 ккал на порцію, Б/Ж/В 33.1/18.8/45.5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано булгур (немає у словнику); натуральний йогурт (немає у словнику); петрушка (немає у словнику); орегано сушений (немає у словнику).

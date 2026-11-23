@@ -21,10 +21,10 @@ ingredients:
   - { name: імбир, qty: 0.3, unit: г, note: "мелений" }
   - { name: мускатний горіх, qty: 1, unit: дрібка, note: "" }
 photo: img/morkviani-kulky-z-voloskymy-horikhamy.jpg
-nutrition_per_serving: { kcal: 547, protein: 10.2, fat: 29.2, carbs: 70.9 }
-nutrition_per_100g: { kcal: 299, protein: 5.6, fat: 15.9, carbs: 38.7 }
+nutrition_per_serving: { kcal: 548, protein: 10.2, fat: 29.2, carbs: 71.0 }
+nutrition_per_100g: { kcal: 299, protein: 5.6, fat: 15.9, carbs: 38.8 }
 cooked_g_est: 183
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Додатково потрібно 30 хв на охолодження.
 - За даними автора: 561 ккал на порцію, Б/Ж/В 11/29/69 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано апельсинова цедра (немає у словнику).

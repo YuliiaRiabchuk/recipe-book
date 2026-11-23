@@ -25,9 +25,9 @@ ingredients:
   - { name: сіль, qty: 2.5, unit: г, note: "" }
   - { name: перець чорний, qty: 0.2, unit: г, note: "" }
 photo: img/harbuzovi-nalysnyky-z-kurkoiu-ta-nizhnym-syrom.jpg
-nutrition_per_serving: { kcal: 392, protein: 43.2, fat: 17.2, carbs: 14.5 }
-nutrition_per_100g: { kcal: 87, protein: 9.6, fat: 3.8, carbs: 3.2 }
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 539, protein: 47.5, fat: 17.6, carbs: 45.3 }
+nutrition_per_100g: { kcal: 120, protein: 10.6, fat: 3.9, carbs: 10.1 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - За даними автора на 2 порції: 1155 ккал, Б/Ж/В 103,2/42,5/87,1 г, близько 900 г.
 - За даними автора: 577 ккал на порцію, Б/Ж/В 51.6/21.2/43.5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); кріп і петрушка (немає у словнику); паприка солодка (немає у словнику).

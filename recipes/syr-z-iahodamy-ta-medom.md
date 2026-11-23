@@ -19,7 +19,7 @@ photo: img/syr-z-iahodamy-ta-medom.jpg
 nutrition_per_serving: { kcal: 248, protein: 23.0, fat: 9.0, carbs: 19.7 }
 nutrition_per_100g: { kcal: 93, protein: 8.6, fat: 3.4, carbs: 7.4 }
 cooked_g_est: 267
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,4 +32,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 365 ккал на порцію, Б/Ж/В 33/18/19 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано ваніль або кориця (немає у словнику).

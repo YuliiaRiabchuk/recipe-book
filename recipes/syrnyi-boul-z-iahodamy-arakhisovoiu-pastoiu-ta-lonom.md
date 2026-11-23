@@ -20,10 +20,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/syrnyi-boul-z-iahodamy-arakhisovoiu-pastoiu-ta-lonom.jpg
-nutrition_per_serving: { kcal: 445, protein: 32.4, fat: 18.9, carbs: 40.4 }
-nutrition_per_100g: { kcal: 98, protein: 7.2, fat: 4.2, carbs: 8.9 }
-cooked_g_est: 452
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 487, protein: 33.8, fat: 22.2, carbs: 42.7 }
+nutrition_per_100g: { kcal: 106, protein: 7.3, fat: 4.8, carbs: 9.2 }
+cooked_g_est: 462
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Варіація: замість меду кленовий сироп.
 - За даними автора: 530 ккал на порцію, Б/Ж/В 43/26/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано насіння льону (немає у словнику); ваніль (немає у словнику).

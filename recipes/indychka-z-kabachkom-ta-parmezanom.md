@@ -22,10 +22,10 @@ ingredients:
   - { name: часник, qty: 2, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/indychka-z-kabachkom-ta-parmezanom.jpg
-nutrition_per_serving: { kcal: 460, protein: 54.1, fat: 20.3, carbs: 16.2 }
-nutrition_per_100g: { kcal: 91, protein: 10.6, fat: 4.0, carbs: 3.2 }
-cooked_g_est: 508
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 463, protein: 54.3, fat: 20.4, carbs: 16.7 }
+nutrition_per_100g: { kcal: 90, protein: 10.5, fat: 3.9, carbs: 3.2 }
+cooked_g_est: 516
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - P.S. Пармезан дає смак умамі, 10 г достатньо, більше не треба.
 - За даними автора: 462 ккал на порцію, Б/Ж/В 55/21/16 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано петрушка (немає у словнику).

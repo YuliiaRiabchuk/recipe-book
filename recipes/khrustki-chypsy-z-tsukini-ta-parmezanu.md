@@ -21,10 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/khrustki-chypsy-z-tsukini-ta-parmezanu.jpg
-nutrition_per_serving: { kcal: 175, protein: 10.9, fat: 12.8, carbs: 3.8 }
-nutrition_per_100g: { kcal: 297, protein: 18.5, fat: 21.7, carbs: 6.5 }
-cooked_g_est: 59
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 291, protein: 16.2, fat: 14.6, carbs: 25.1 }
+nutrition_per_100g: { kcal: 110, protein: 6.1, fat: 5.5, carbs: 9.4 }
+cooked_g_est: 266
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Хрусткі снеки.
 - За даними автора: 287 ккал на порцію, Б/Ж/В 18/15/22 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цукіні (немає у словнику); панірувальні сухарі (немає у словнику).

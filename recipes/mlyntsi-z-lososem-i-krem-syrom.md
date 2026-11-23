@@ -24,10 +24,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "до смаку" }
 photo: img/mlyntsi-z-lososem-i-krem-syrom.jpg
-nutrition_per_serving: { kcal: 440, protein: 25.6, fat: 17.7, carbs: 48.4 }
-nutrition_per_100g: { kcal: 116, protein: 6.8, fat: 4.7, carbs: 12.8 }
-cooked_g_est: 379
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 691, protein: 43.0, fat: 36.6, carbs: 50.9 }
+nutrition_per_100g: { kcal: 137, protein: 8.5, fat: 7.3, carbs: 10.1 }
+cooked_g_est: 504
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - P.S.: після відпочинку борошно краще вбирає рідину, тому млинці виходять еластичнішими.
 - За даними автора: 660 ккал на порцію, Б/Ж/В 43/32/51 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано вершковий крем-сир (немає у словнику); слабокопчений лосось (немає у словнику).

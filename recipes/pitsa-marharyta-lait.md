@@ -19,10 +19,10 @@ ingredients:
   - { name: оливкова олія, qty: 5, unit: мл, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець чорний, qty: null, unit: "", note: "за смаком" }
-nutrition_per_serving: { kcal: 20, protein: 1.1, fat: 1.7, carbs: 0.2 }
-nutrition_per_100g: { kcal: 332, protein: 18.7, fat: 27.6, carbs: 2.5 }
-cooked_g_est: 49
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 83, protein: 3.3, fat: 2.0, carbs: 12.9 }
+nutrition_per_100g: { kcal: 187, protein: 7.4, fat: 4.5, carbs: 29.1 }
+cooked_g_est: 355
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Вихід 355 г, на 8 порцій по 44 г (86 ккал на порцію).
 - За даними автора: 193 ккал на 100 г, Б/Ж/В 1.2/8/17.2 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано високопротеїнова основа (немає у словнику); томати (немає у словнику); легкий томатний соус (немає у словнику).

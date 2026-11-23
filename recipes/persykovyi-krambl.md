@@ -16,10 +16,10 @@ ingredients:
   - { name: волоські горіхи, qty: 15, unit: г, note: "" }
   - { name: мед, qty: 10, unit: г, note: "або підсолоджувач" }
 photo: img/persykovyi-krambl.jpg
-nutrition_per_serving: { kcal: 242, protein: 6.3, fat: 11.7, carbs: 30.6 }
-nutrition_per_100g: { kcal: 484, protein: 12.5, fat: 23.5, carbs: 61.2 }
-cooked_g_est: 50
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 289, protein: 7.4, fat: 12.0, carbs: 42.1 }
+nutrition_per_100g: { kcal: 183, protein: 4.7, fat: 7.6, carbs: 26.6 }
+cooked_g_est: 158
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Десерти у мікрохвильовці.
 - За даними автора: 262 ккал на порцію, Б/Ж/В 7.4/12.2/32.6 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано персик (немає у словнику).

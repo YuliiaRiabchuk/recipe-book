@@ -22,7 +22,7 @@ photo: img/skrembl-z-vershkovoiu-teksturoiu-ta-zelenniu.jpg
 nutrition_per_serving: { kcal: 341, protein: 20.3, fat: 27.1, carbs: 3.2 }
 nutrition_per_100g: { kcal: 174, protein: 10.3, fat: 13.8, carbs: 1.6 }
 cooked_g_est: 196
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Яєчні сніданки.
 - За даними автора: 367 ккал на порцію, Б/Ж/В 22/29/3 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сушена цибуля (немає у словнику).

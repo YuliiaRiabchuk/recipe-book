@@ -22,10 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/minibruskety-z-kremom-iz-biloi-kvasoli-ta-tomatamy.jpg
-nutrition_per_serving: { kcal: 48, protein: 0.2, fat: 5.1, carbs: 0.9 }
-nutrition_per_100g: { kcal: 283, protein: 1.4, fat: 29.7, carbs: 5.2 }
-cooked_g_est: 17
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 346, protein: 17.1, fat: 8.0, carbs: 53.5 }
+nutrition_per_100g: { kcal: 147, protein: 7.3, fat: 3.4, carbs: 22.8 }
+cooked_g_est: 235
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Тости, роли та мінісендвічі.
 - За даними автора: 297 ккал на порцію, Б/Ж/В 11/7/49 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозерновий багет (немає у словнику); біла квасоля (немає у словнику); томати черрі (немає у словнику); сушений орегано (немає у словнику).

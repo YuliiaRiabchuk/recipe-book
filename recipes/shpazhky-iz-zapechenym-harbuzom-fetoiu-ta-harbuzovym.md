@@ -22,10 +22,10 @@ ingredients:
   - { name: сушений чебрець, qty: 0.5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/shpazhky-iz-zapechenym-harbuzom-fetoiu-ta-harbuzovym.jpg
-nutrition_per_serving: { kcal: 170, protein: 6.2, fat: 10.3, carbs: 17.7 }
-nutrition_per_100g: { kcal: 82, protein: 3.0, fat: 4.9, carbs: 8.5 }
-cooked_g_est: 208
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 369, protein: 16.9, fat: 26.4, carbs: 20.6 }
+nutrition_per_100g: { kcal: 130, protein: 5.9, fat: 9.3, carbs: 7.3 }
+cooked_g_est: 284
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 361 ккал на порцію, Б/Ж/В 18/25/21 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фета (немає у словнику); копчена паприка (немає у словнику); сушений чебрець (немає у словнику).

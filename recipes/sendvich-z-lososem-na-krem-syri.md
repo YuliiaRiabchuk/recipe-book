@@ -20,10 +20,10 @@ ingredients:
   - { name: лимонний сік, qty: 1, unit: ч.л., note: "5 г" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvich-z-lososem-na-krem-syri.jpg
-nutrition_per_serving: { kcal: 284, protein: 20.8, fat: 18.7, carbs: 8.3 }
-nutrition_per_100g: { kcal: 139, protein: 10.2, fat: 9.2, carbs: 4.1 }
-cooked_g_est: 204
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 448, protein: 27.3, fat: 20.1, carbs: 39.5 }
+nutrition_per_100g: { kcal: 170, protein: 10.3, fat: 7.6, carbs: 15.0 }
+cooked_g_est: 264
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 399 ккал на порцію, Б/Ж/В 30/20/30 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано хліб на заквасці (немає у словнику).

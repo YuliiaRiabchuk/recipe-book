@@ -20,10 +20,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/iohurt-boul-z-manho-chia-ta-keshiu-protein.jpg
-nutrition_per_serving: { kcal: 244, protein: 6.1, fat: 10.9, carbs: 35.4 }
-nutrition_per_100g: { kcal: 121, protein: 3.0, fat: 5.4, carbs: 17.5 }
-cooked_g_est: 202
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 478, protein: 45.6, fat: 15.2, carbs: 44.8 }
+nutrition_per_100g: { kcal: 112, protein: 10.6, fat: 3.5, carbs: 10.5 }
+cooked_g_est: 428
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Варіація: замість манго ананас.
 - За даними автора: 484 ккал на порцію, Б/Ж/В 46/18/46 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано грецький йогурт безлактозний (немає у словнику); протеїн (немає у словнику); ваніль (немає у словнику).

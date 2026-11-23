@@ -23,10 +23,10 @@ ingredients:
   - { name: часник, qty: 3, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/shakshuka-vechirnia-z-iaitsiamy-ta-pertsem.jpg
-nutrition_per_serving: { kcal: 288, protein: 15.2, fat: 18.1, carbs: 17.8 }
-nutrition_per_100g: { kcal: 92, protein: 4.9, fat: 5.8, carbs: 5.7 }
-cooked_g_est: 313
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 333, protein: 17.4, fat: 18.6, carbs: 27.5 }
+nutrition_per_100g: { kcal: 63, protein: 3.3, fat: 3.5, carbs: 5.2 }
+cooked_g_est: 525
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - P.S. Яйця додавай тільки в густий соус, тоді вони не тонуть і виглядають красиво.
 - За даними автора: 397 ккал на порцію, Б/Ж/В 27/20/30 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано томати (немає у словнику).

@@ -21,10 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvichi-z-tuntsem-iaitsem-i-krem-syrom.jpg
-nutrition_per_serving: { kcal: 517, protein: 24.9, fat: 30.4, carbs: 36.3 }
-nutrition_per_100g: { kcal: 186, protein: 8.9, fat: 10.9, carbs: 13.1 }
-cooked_g_est: 278
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 620, protein: 48.2, fat: 31.5, carbs: 36.3 }
+nutrition_per_100g: { kcal: 156, protein: 12.1, fat: 7.9, carbs: 9.1 }
+cooked_g_est: 398
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Варіація: замість зеленої цибулі можна взяти кріп.
 - За даними автора: 645 ккал на порцію, Б/Ж/В 55/29/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тунець у власному соку (немає у словнику).

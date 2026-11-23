@@ -25,10 +25,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: паприка, qty: null, unit: "", note: "за смаком" }
 photo: img/omlet-z-kabachkom-brynzoiu-ta-file-indychky-marynovanyi.jpg
-nutrition_per_serving: { kcal: 387, protein: 36.2, fat: 17.5, carbs: 19.7 }
-nutrition_per_100g: { kcal: 135, protein: 12.6, fat: 6.1, carbs: 6.9 }
-cooked_g_est: 287
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 534, protein: 43.4, fat: 27.0, carbs: 29.9 }
+nutrition_per_100g: { kcal: 109, protein: 8.8, fat: 5.5, carbs: 6.1 }
+cooked_g_est: 492
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -47,4 +47,3 @@ added: 2026-11-15
 - Варіація: індичку можна замінити курячим філе.
 - За даними автора: 541 ккал на порцію, Б/Ж/В 46/29/31 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано помідори чері (немає у словнику); маринований солодкий перець (немає у словнику); бринза (немає у словнику).

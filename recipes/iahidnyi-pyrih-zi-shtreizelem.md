@@ -23,10 +23,10 @@ ingredients:
   - { name: вівсяні пластівці, qty: 30, unit: г, note: "" }
   - { name: горіхи волоські, qty: 20, unit: г, note: "" }
 photo: img/iahidnyi-pyrih-zi-shtreizelem.jpg
-nutrition_per_serving: { kcal: 66, protein: 2.9, fat: 1.2, carbs: 11.6 }
-nutrition_per_100g: { kcal: 324, protein: 14.5, fat: 5.7, carbs: 57.2 }
-cooked_g_est: 162
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 155, protein: 4.9, fat: 7.9, carbs: 17.9 }
+nutrition_per_100g: { kcal: 217, protein: 6.9, fat: 11.0, carbs: 25.0 }
+cooked_g_est: 574
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Пироги солодкі.
 - За даними автора: 128 ккал на порцію, Б/Ж/В 5.9/4.8/15.3 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно мигдальне (немає у словнику); масло вершкове (немає у словнику); йогурт густий (немає у словнику); підсолоджувач (немає у словнику); яблука (немає у словнику); кориця мелена (немає у словнику); горіхи волоські (немає у словнику).

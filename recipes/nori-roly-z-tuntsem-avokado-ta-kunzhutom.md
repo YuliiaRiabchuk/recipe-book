@@ -22,10 +22,10 @@ ingredients:
   - { name: зелена цибуля, qty: 5, unit: г, note: "" }
   - { name: пластівці чилі, qty: null, unit: "", note: "за смаком" }
 photo: img/nori-roly-z-tuntsem-avokado-ta-kunzhutom.jpg
-nutrition_per_serving: { kcal: 198, protein: 6.7, fat: 15.1, carbs: 12.8 }
-nutrition_per_100g: { kcal: 96, protein: 3.2, fat: 7.3, carbs: 6.2 }
-cooked_g_est: 207
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 286, protein: 26.4, fat: 16.1, carbs: 13.1 }
+nutrition_per_100g: { kcal: 92, protein: 8.5, fat: 5.2, carbs: 4.2 }
+cooked_g_est: 312
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 309 ккал на порцію, Б/Ж/В 33/15/15 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано листи норі (немає у словнику); тунець у власному соку (немає у словнику).

@@ -29,10 +29,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/hretska-tarilka-z-sokovytoiu-kurkoiu-fetoiu-ta-olyvkamy.jpg
-nutrition_per_serving: { kcal: 313, protein: 42.6, fat: 10.1, carbs: 12.0 }
-nutrition_per_100g: { kcal: 73, protein: 10.0, fat: 2.4, carbs: 2.8 }
-cooked_g_est: 427
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 541, protein: 51.5, fat: 28.4, carbs: 21.3 }
+nutrition_per_100g: { kcal: 86, protein: 8.2, fat: 4.5, carbs: 3.4 }
+cooked_g_est: 630
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -47,4 +47,3 @@ added: 2026-11-15
 - Розділ книги: Середземноморські та «кафешні».
 - За даними автора: 524 ккал на порцію, Б/Ж/В 53/26/21 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано солодкий перець (немає у словнику); салат-мікс (немає у словнику); петрушка (немає у словнику); фета (немає у словнику); оливки (немає у словнику); соняшникова олія (немає у словнику).

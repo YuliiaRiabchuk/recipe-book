@@ -18,10 +18,10 @@ ingredients:
   - { name: желатин, qty: 8, unit: г, note: "" }
   - { name: вода, qty: 40, unit: мл, note: "" }
 photo: img/lymonnyi-chyzkeik.jpg
-nutrition_per_serving: { kcal: 151, protein: 3.7, fat: 14.4, carbs: 2.7 }
-nutrition_per_100g: { kcal: 276, protein: 6.8, fat: 26.2, carbs: 4.8 }
-cooked_g_est: 329
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 152, protein: 3.7, fat: 14.4, carbs: 2.8 }
+nutrition_per_100g: { kcal: 244, protein: 6.0, fat: 23.0, carbs: 4.5 }
+cooked_g_est: 374
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Чізкейки без запікання.
 - За даними автора: 89 ккал на порцію, Б/Ж/В 13/3.4/2.2 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано лимонна цедра (немає у словнику); еритритол (немає у словнику).

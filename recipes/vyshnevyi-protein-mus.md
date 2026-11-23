@@ -18,10 +18,10 @@ ingredients:
   - { name: желатин, qty: 3, unit: г, note: "або агар-агар 1,5 г" }
   - { name: вода, qty: 20, unit: мл, note: "для желатину; для агару 40 мл" }
 photo: img/vyshnevyi-protein-mus.jpg
-nutrition_per_serving: { kcal: 33, protein: 1.8, fat: 0.3, carbs: 6.6 }
-nutrition_per_100g: { kcal: 46, protein: 2.6, fat: 0.4, carbs: 9.2 }
-cooked_g_est: 143
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 120, protein: 17.6, fat: 1.6, carbs: 9.8 }
+nutrition_per_100g: { kcal: 84, protein: 12.2, fat: 1.1, carbs: 6.8 }
+cooked_g_est: 288
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 120 ккал на порцію, Б/Ж/В 14.3/2.2/10.4 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано протеїн (немає у словнику); йогурт густий (немає у словнику).

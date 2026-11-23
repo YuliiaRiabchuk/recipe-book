@@ -24,10 +24,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/bilkovi-takos-z-indychkoiu.jpg
-nutrition_per_serving: { kcal: 406, protein: 37.2, fat: 25.0, carbs: 8.4 }
-nutrition_per_100g: { kcal: 146, protein: 13.3, fat: 9.0, carbs: 3.0 }
-cooked_g_est: 279
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 602, protein: 42.4, fat: 27.7, carbs: 48.4 }
+nutrition_per_100g: { kcal: 135, protein: 9.6, fat: 6.2, carbs: 10.9 }
+cooked_g_est: 444
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Прогрівай тортильї безпосередньо перед наповненням: так вони м’якші й ароматніші.
 - За даними автора: 570 ккал на порцію, Б/Ж/В 38/27/49 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кукурудзяні тортильї (немає у словнику); помідори чері (немає у словнику); червона цибуля (немає у словнику); кінза свіжа (немає у словнику).

@@ -16,8 +16,10 @@ ingredients:
   - { name: агар-агар, qty: 4, unit: г, note: "або желатин 8 г + вода 50 мл" }
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
 photo: img/persykove-zhele.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 90, protein: 2.1, fat: 0.5, carbs: 22.3 }
+nutrition_per_100g: { kcal: 30, protein: 0.7, fat: 0.2, carbs: 7.3 }
+cooked_g_est: 304
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

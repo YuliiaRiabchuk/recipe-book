@@ -16,9 +16,9 @@ ingredients:
   - { name: еритритол, qty: 40, unit: г, note: "" }
 photo: img/morozyvo-krio-ananas-kokos.jpg
 nutrition_per_serving: { kcal: 89, protein: 0.9, fat: 6.5, carbs: 8.7 }
-nutrition_per_100g: { kcal: 99, protein: 1.0, fat: 7.2, carbs: 9.7 }
-cooked_g_est: 450
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 91, protein: 0.9, fat: 6.6, carbs: 8.9 }
+cooked_g_est: 490
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Морозиво та сорбети без цукру.
 - За даними автора: 105 ккал на 100 г, Б/Ж/В 0.9/6.7/9.7 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано еритритол (немає у словнику).

@@ -20,7 +20,7 @@ photo: img/chia-pudynh-z-bananom.jpg
 nutrition_per_serving: { kcal: 250, protein: 10.6, fat: 10.3, carbs: 31.5 }
 nutrition_per_100g: { kcal: 90, protein: 3.8, fat: 3.7, carbs: 11.3 }
 cooked_g_est: 279
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Десертні, але збалансовані.
 - За даними автора: 310 ккал на порцію, Б/Ж/В 11/14/35 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мускатний горіх мелений (немає у словнику).

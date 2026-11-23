@@ -18,10 +18,10 @@ ingredients:
   - { name: еритритол, qty: 50, unit: г, note: "" }
   - { name: розпушувач, qty: 5, unit: г, note: "" }
 photo: img/khlibets-banan-horikh.jpg
-nutrition_per_serving: { kcal: 89, protein: 3.0, fat: 6.2, carbs: 6.8 }
-nutrition_per_100g: { kcal: 218, protein: 7.3, fat: 15.0, carbs: 16.7 }
-cooked_g_est: 328
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 162, protein: 5.5, fat: 7.3, carbs: 19.9 }
+nutrition_per_100g: { kcal: 255, protein: 8.6, fat: 11.6, carbs: 31.4 }
+cooked_g_est: 508
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Фітнес-випічка для сніданку.
 - За даними автора: 179 ккал на порцію, Б/Ж/В 6.6/7.1/21.1 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); еритритол (немає у словнику).

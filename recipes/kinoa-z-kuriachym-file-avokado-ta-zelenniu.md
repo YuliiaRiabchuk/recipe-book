@@ -20,10 +20,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kinoa-z-kuriachym-file-avokado-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: 329, protein: 30.9, fat: 20.1, carbs: 7.2 }
-nutrition_per_100g: { kcal: 175, protein: 16.4, fat: 10.7, carbs: 3.8 }
-cooked_g_est: 188
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 554, protein: 39.6, fat: 23.9, carbs: 46.3 }
+nutrition_per_100g: { kcal: 146, protein: 10.5, fat: 6.3, carbs: 12.2 }
+cooked_g_est: 378
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Варіація: замість кіноа — гречка.
 - За даними автора: 613 ккал на порцію, Б/Ж/В 51/25/46 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кіноа (немає у словнику); петрушка (немає у словнику).

@@ -20,10 +20,10 @@ ingredients:
   - { name: пластівці чилі, qty: 0.3, unit: г, note: "" }
   - { name: сушений часник, qty: 0.4, unit: г, note: "" }
 photo: img/zapechene-edamame-z-chyli-laimom-i-kunzhutom.jpg
-nutrition_per_serving: { kcal: 64, protein: 1.4, fat: 2.5, carbs: 9.3 }
-nutrition_per_100g: { kcal: 255, protein: 5.7, fat: 10.1, carbs: 37.1 }
-cooked_g_est: 25
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 295, protein: 21.6, fat: 15.0, carbs: 23.0 }
+nutrition_per_100g: { kcal: 141, protein: 10.3, fat: 7.2, carbs: 10.9 }
+cooked_g_est: 210
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 319 ккал на порцію, Б/Ж/В 23/16/26 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано очищене едамаме (немає у словнику); кунжутна олія (немає у словнику); пластівці чилі (немає у словнику); сушений часник (немає у словнику).

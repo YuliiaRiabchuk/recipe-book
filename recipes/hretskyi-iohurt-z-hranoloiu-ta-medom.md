@@ -16,10 +16,10 @@ ingredients:
   - { name: мед, qty: 7, unit: г, note: "1 ч.л." }
   - { name: кориця, qty: 0.2, unit: г, note: "щіпка, або ваніль, за бажанням" }
 photo: img/hretskyi-iohurt-z-hranoloiu-ta-medom.jpg
-nutrition_per_serving: { kcal: 215, protein: 18.0, fat: 10.0, carbs: 13.7 }
-nutrition_per_100g: { kcal: 104, protein: 8.7, fat: 4.8, carbs: 6.6 }
-cooked_g_est: 207
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 411, protein: 23.5, fat: 19.7, carbs: 35.3 }
+nutrition_per_100g: { kcal: 166, protein: 9.5, fat: 8.0, carbs: 14.3 }
+cooked_g_est: 247
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -32,4 +32,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 477 ккал на порцію, Б/Ж/В 17/25/49 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гранола (немає у словнику).

@@ -21,10 +21,10 @@ ingredients:
   - { name: розпушувач, qty: 3, unit: г, note: "" }
   - { name: горіхи або темний шоколад, qty: 20, unit: г, note: "за бажанням" }
 photo: img/harbuzove-protein-pechyvo.jpg
-nutrition_per_serving: { kcal: 55, protein: 2.0, fat: 1.1, carbs: 9.8 }
-nutrition_per_100g: { kcal: 189, protein: 6.8, fat: 3.6, carbs: 33.5 }
-cooked_g_est: 292
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 84, protein: 5.6, fat: 2.5, carbs: 10.4 }
+nutrition_per_100g: { kcal: 230, protein: 15.4, fat: 6.8, carbs: 28.5 }
+cooked_g_est: 364
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 109 ккал на порцію, Б/Ж/В 7.3/5/7.6 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано протеїн (немає у словнику); йогурт густий (немає у словнику); горіхи або темний шоколад (немає у словнику).

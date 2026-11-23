@@ -23,10 +23,10 @@ ingredients:
   - { name: петрушка, qty: 10, unit: г, note: "" }
   - { name: часник, qty: 2, unit: г, note: "" }
 photo: img/hrechka-sokovyta-kurka-z-lymonnoiu-zelenniu.jpg
-nutrition_per_serving: { kcal: 566, protein: 47.7, fat: 16.6, carbs: 60.3 }
-nutrition_per_100g: { kcal: 107, protein: 9.0, fat: 3.1, carbs: 11.4 }
-cooked_g_est: 530
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 610, protein: 49.2, fat: 17.6, carbs: 69.2 }
+nutrition_per_100g: { kcal: 91, protein: 7.4, fat: 2.6, carbs: 10.4 }
+cooked_g_est: 668
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Для ще смачнішої гречки додай після варіння 5 г масла (1 ч.л.), але це додаткові калорії.
 - За даними автора: 587 ккал на порцію, Б/Ж/В 52/15/67 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано томати черрі (немає у словнику); петрушка (немає у словнику).

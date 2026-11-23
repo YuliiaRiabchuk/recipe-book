@@ -21,7 +21,7 @@ photo: img/kavovyi-mus.jpg
 nutrition_per_serving: { kcal: 213, protein: 21.5, fat: 10.1, carbs: 9.0 }
 nutrition_per_100g: { kcal: 72, protein: 7.3, fat: 3.4, carbs: 3.0 }
 cooked_g_est: 294
-nutrition_status: частковий
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Десерти без запікання.
 - За даними автора: 278 ккал на порцію, Б/Ж/В 17.2/13.2/22.5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано ваніль (немає у словнику).

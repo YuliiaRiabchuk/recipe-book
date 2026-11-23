@@ -18,10 +18,10 @@ ingredients:
   - { name: мед, qty: 7, unit: г, note: "1 ч.л." }
   - { name: сіль, qty: 1, unit: дрібка, note: "за бажанням, підсилює солодкий смак" }
 photo: img/fruktovyi-salat-z-iohurtom.jpg
-nutrition_per_serving: { kcal: 164, protein: 1.8, fat: 0.5, carbs: 42.6 }
-nutrition_per_100g: { kcal: 66, protein: 0.7, fat: 0.2, carbs: 17.1 }
-cooked_g_est: 249
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 256, protein: 7.0, fat: 5.3, carbs: 49.6 }
+nutrition_per_100g: { kcal: 64, protein: 1.7, fat: 1.3, carbs: 12.4 }
+cooked_g_est: 399
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Десертні, але збалансовані.
 - За даними автора: 249 ккал на порцію, Б/Ж/В 7/4/56 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано натуральний йогурт (немає у словнику).

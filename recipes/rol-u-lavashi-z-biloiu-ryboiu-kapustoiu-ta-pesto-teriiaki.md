@@ -24,10 +24,10 @@ ingredients:
   - { name: копчена паприка, qty: 1, unit: г, note: "" }
   - { name: сушений часник, qty: 1, unit: г, note: "" }
 photo: img/rol-u-lavashi-z-biloiu-ryboiu-kapustoiu-ta-pesto-teriiaki.jpg
-nutrition_per_serving: { kcal: 288, protein: 34.9, fat: 11.1, carbs: 12.6 }
-nutrition_per_100g: { kcal: 67, protein: 8.2, fat: 2.6, carbs: 3.0 }
-cooked_g_est: 427
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 494, protein: 41.6, fat: 12.8, carbs: 54.3 }
+nutrition_per_100g: { kcal: 80, protein: 6.7, fat: 2.1, carbs: 8.8 }
+cooked_g_est: 616
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Варіація: замість песто можна взяти хумус.
 - За даними автора: 479 ккал на порцію, Б/Ж/В 44/16/42 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тонкий лаваш (немає у словнику); помідори чері (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

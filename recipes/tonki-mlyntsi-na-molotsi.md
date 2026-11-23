@@ -19,10 +19,10 @@ ingredients:
   - { name: сіль, qty: 1, unit: дрібка, note: "≈0,2 г" }
   - { name: ваніль або кориця, qty: 0.2, unit: г, note: "за бажанням" }
 photo: img/tonki-mlyntsi-na-molotsi.jpg
-nutrition_per_serving: { kcal: 235, protein: 14.5, fat: 9.7, carbs: 22.4 }
-nutrition_per_100g: { kcal: 100, protein: 6.2, fat: 4.1, carbs: 9.5 }
-cooked_g_est: 235
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 681, protein: 24.9, fat: 19.9, carbs: 98.7 }
+nutrition_per_100g: { kcal: 198, protein: 7.2, fat: 5.8, carbs: 28.7 }
+cooked_g_est: 344
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 673 ккал на порцію, Б/Ж/В 25/22/98 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); олія для тіста (немає у словнику); ваніль або кориця (немає у словнику).

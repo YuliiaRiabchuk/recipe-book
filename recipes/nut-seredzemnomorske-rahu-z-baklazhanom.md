@@ -26,11 +26,10 @@ ingredients:
   - { name: лимон, qty: 10, unit: г, note: "" }
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/nut-seredzemnomorske-rahu-z-baklazhanom.jpg
-nutrition_per_serving: { kcal: 110, protein: 1.3, fat: 8.2, carbs: 9.1 }
-nutrition_per_100g: { kcal: 75, protein: 0.9, fat: 5.6, carbs: 6.2 }
-cooked_g_est: 146
-nutrition_status: частковий
-nutrition_notes: ["олія для смаження: враховано 8 г із 10 г"]
+nutrition_per_serving: { kcal: 503, protein: 19.7, fat: 16.0, carbs: 77.5 }
+nutrition_per_100g: { kcal: 67, protein: 2.6, fat: 2.1, carbs: 10.4 }
+cooked_g_est: 747
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -47,4 +46,3 @@ added: 2026-11-15
 - Для «ефекту ресторану» обсмажуй баклажан саме до рум’янцю, а не просто туши.
 - За даними автора: 491 ккал на порцію, Б/Ж/В 18/15/69 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано нут консервований (немає у словнику); баклажан (немає у словнику); томати (немає у словнику).

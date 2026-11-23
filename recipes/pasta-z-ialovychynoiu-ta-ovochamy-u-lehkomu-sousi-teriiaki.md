@@ -23,10 +23,10 @@ ingredients:
   - { name: кунжут, qty: 3, unit: г, note: "1 ч.л.; 3–4 г" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/pasta-z-ialovychynoiu-ta-ovochamy-u-lehkomu-sousi-teriiaki.jpg
-nutrition_per_serving: { kcal: 356, protein: 36.7, fat: 15.1, carbs: 21.7 }
-nutrition_per_100g: { kcal: 89, protein: 9.1, fat: 3.8, carbs: 5.4 }
-cooked_g_est: 401
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 579, protein: 44.5, fat: 16.0, carbs: 66.5 }
+nutrition_per_100g: { kcal: 107, protein: 8.3, fat: 3.0, carbs: 12.3 }
+cooked_g_est: 539
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Паста й локшина з білком.
 - За даними автора: 657 ккал на порцію, Б/Ж/В 45/22/74 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано паста (немає у словнику).

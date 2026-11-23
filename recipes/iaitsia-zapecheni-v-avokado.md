@@ -20,10 +20,10 @@ ingredients:
   - { name: зелень, qty: 10, unit: г, note: "10–15 г, петрушка, кріп, зелена цибуля, за апетитом" }
   - { name: свіжі овочі для подачі, qty: 100, unit: г, note: "100–150 г: огірок, томати, рукола, редис" }
 photo: img/iaitsia-zapecheni-v-avokado.jpg
-nutrition_per_serving: { kcal: 387, protein: 15.9, fat: 31.6, carbs: 14.3 }
-nutrition_per_100g: { kcal: 148, protein: 6.1, fat: 12.1, carbs: 5.5 }
-cooked_g_est: 262
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 413, protein: 16.9, fat: 31.9, carbs: 20.4 }
+nutrition_per_100g: { kcal: 119, protein: 4.8, fat: 9.2, carbs: 5.8 }
+cooked_g_est: 348
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 432 ккал на порцію, Б/Ж/В 19/33/20 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано свіжі овочі для подачі (немає у словнику).

@@ -25,10 +25,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tofu-z-brokoli-ta-rysom-pid-lymonno-iohurtovym-sousom.jpg
-nutrition_per_serving: { kcal: 601, protein: 51.5, fat: 22.6, carbs: 59.2 }
-nutrition_per_100g: { kcal: 88, protein: 7.5, fat: 3.3, carbs: 8.6 }
-cooked_g_est: 686
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 646, protein: 51.5, fat: 27.6, carbs: 59.2 }
+nutrition_per_100g: { kcal: 93, protein: 7.4, fat: 4.0, carbs: 8.6 }
+cooked_g_est: 691
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Розділ книги: Wok-обіди.
 - За даними автора: 624 ккал на порцію, Б/Ж/В 39/25/62 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано соняшникова олія (немає у словнику).

@@ -21,10 +21,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: гірчиця дижонська, qty: 8, unit: г, note: "1,5 ч.л." }
 photo: img/ialovychyna-hryl-z-rukoloiu.jpg
-nutrition_per_serving: { kcal: 396, protein: 39.0, fat: 20.7, carbs: 18.0 }
-nutrition_per_100g: { kcal: 81, protein: 7.9, fat: 4.2, carbs: 3.7 }
-cooked_g_est: 491
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 401, protein: 39.3, fat: 21.0, carbs: 18.4 }
+nutrition_per_100g: { kcal: 80, protein: 7.9, fat: 4.2, carbs: 3.7 }
+cooked_g_est: 499
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - P.S. Відпочинок мʼяса обовʼязковий, інакше соки витечуть і стейк стане сухішим.
 - За даними автора: 440 ккал на порцію, Б/Ж/В 48/22/17 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гірчиця дижонська (немає у словнику).

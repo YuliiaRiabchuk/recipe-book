@@ -19,10 +19,10 @@ ingredients:
   - { name: олія для смаження, qty: 5, unit: г, note: "1 ч.л." }
   - { name: сметана, qty: 20, unit: г, note: "10%, для подачі; можна замінити на йогурт без цукру" }
 photo: img/solonyi-syrnyk-iz-zelenniu-ta-smetanoiu.jpg
-nutrition_per_serving: { kcal: 157, protein: 8.7, fat: 7.4, carbs: 13.3 }
-nutrition_per_100g: { kcal: 176, protein: 9.8, fat: 8.3, carbs: 14.9 }
-cooked_g_est: 89
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 397, protein: 31.0, fat: 21.0, carbs: 20.1 }
+nutrition_per_100g: { kcal: 135, protein: 10.5, fat: 7.1, carbs: 6.8 }
+cooked_g_est: 294
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 526 ккал на порцію, Б/Ж/В 38/35/19 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сир домашній (немає у словнику); олія для смаження (немає у словнику).

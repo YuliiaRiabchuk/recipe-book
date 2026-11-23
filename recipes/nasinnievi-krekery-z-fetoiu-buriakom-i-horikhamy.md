@@ -19,10 +19,10 @@ ingredients:
   - { name: бальзамічний крем, qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/nasinnievi-krekery-z-fetoiu-buriakom-i-horikhamy.jpg
-nutrition_per_serving: { kcal: 129, protein: 4.9, fat: 7.7, carbs: 12.0 }
-nutrition_per_100g: { kcal: 103, protein: 3.9, fat: 6.1, carbs: 9.6 }
-cooked_g_est: 125
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 397, protein: 15.5, fat: 25.7, carbs: 28.0 }
+nutrition_per_100g: { kcal: 189, protein: 7.4, fat: 12.3, carbs: 13.3 }
+cooked_g_est: 210
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 407 ккал на порцію, Б/Ж/В 17/26/29 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано насіннєві крекери (немає у словнику); фета (немає у словнику).

@@ -21,10 +21,10 @@ ingredients:
   - { name: лимонний сік, qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/shpazhky-z-chederom-iablukom-i-voloskymy-horikhamy.jpg
-nutrition_per_serving: { kcal: 223, protein: 5.9, fat: 11.8, carbs: 27.8 }
-nutrition_per_100g: { kcal: 107, protein: 2.8, fat: 5.6, carbs: 13.3 }
-cooked_g_est: 209
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 616, protein: 26.1, fat: 39.1, carbs: 46.0 }
+nutrition_per_100g: { kcal: 161, protein: 6.8, fat: 10.2, carbs: 12.0 }
+cooked_g_est: 383
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 612 ккал на порцію, Б/Ж/В 27/39/45 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чедер (немає у словнику); виноград (немає у словнику); діжонська гірчиця (немає у словнику).

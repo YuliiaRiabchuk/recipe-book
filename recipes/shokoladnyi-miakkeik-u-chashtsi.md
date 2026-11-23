@@ -16,10 +16,10 @@ ingredients:
   - { name: какао-порошок, qty: 10, unit: г, note: "" }
   - { name: підсолоджувач, qty: 5, unit: г, note: "за бажанням" }
 photo: img/shokoladnyi-miakkeik-u-chashtsi.jpg
-nutrition_per_serving: { kcal: 94, protein: 8.2, fat: 6.1, carbs: 6.2 }
-nutrition_per_100g: { kcal: 175, protein: 15.3, fat: 11.3, carbs: 11.4 }
-cooked_g_est: 54
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 131, protein: 13.2, fat: 7.1, carbs: 8.1 }
+nutrition_per_100g: { kcal: 126, protein: 12.7, fat: 6.8, carbs: 7.8 }
+cooked_g_est: 104
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Десерти у мікрохвильовці.
 - За даними автора: 178 ккал на порцію, Б/Ж/В 11/11.9/4.9 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано йогурт грецький (немає у словнику); підсолоджувач (немає у словнику).

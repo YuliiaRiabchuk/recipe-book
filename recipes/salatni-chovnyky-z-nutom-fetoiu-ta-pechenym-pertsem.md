@@ -22,10 +22,10 @@ ingredients:
   - { name: сушений орегано, qty: 0.5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/salatni-chovnyky-z-nutom-fetoiu-ta-pechenym-pertsem.jpg
-nutrition_per_serving: { kcal: 226, protein: 10.2, fat: 6.9, carbs: 32.8 }
-nutrition_per_100g: { kcal: 125, protein: 5.6, fat: 3.8, carbs: 18.1 }
-cooked_g_est: 181
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 424, protein: 19.8, fat: 21.4, carbs: 42.0 }
+nutrition_per_100g: { kcal: 103, protein: 4.8, fat: 5.2, carbs: 10.2 }
+cooked_g_est: 412
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 426 ккал на порцію, Б/Ж/В 20/22/41 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано листя салату романо (немає у словнику); печений солодкий перець (немає у словнику); фета (немає у словнику); оливки без кісточок (немає у словнику); петрушка (немає у словнику); сушений орегано (немає у словнику).

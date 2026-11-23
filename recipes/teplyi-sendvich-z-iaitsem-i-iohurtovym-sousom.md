@@ -19,10 +19,10 @@ ingredients:
   - { name: чорний перець, qty: 0.12, unit: ч.л., note: "мелений, за бажанням" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "кріп, петрушка, за бажанням" }
 photo: img/teplyi-sendvich-z-iaitsem-i-iohurtovym-sousom.jpg
-nutrition_per_serving: { kcal: 121, protein: 10.8, fat: 7.3, carbs: 2.5 }
-nutrition_per_100g: { kcal: 118, protein: 10.6, fat: 7.1, carbs: 2.5 }
-cooked_g_est: 102
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 244, protein: 15.2, fat: 8.9, carbs: 25.0 }
+nutrition_per_100g: { kcal: 160, protein: 10.0, fat: 5.9, carbs: 16.4 }
+cooked_g_est: 152
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 242 ккал на порцію, Б/Ж/В 14/12/19 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано хліб тостовий (немає у словнику); свіжа зелень (немає у словнику).

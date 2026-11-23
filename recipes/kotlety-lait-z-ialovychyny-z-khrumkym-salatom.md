@@ -30,10 +30,11 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kotlety-lait-z-ialovychyny-z-khrumkym-salatom.jpg
-nutrition_per_serving: { kcal: 104, protein: 4.2, fat: 0.5, carbs: 24.1 }
-nutrition_per_100g: { kcal: 31, protein: 1.2, fat: 0.2, carbs: 7.2 }
-cooked_g_est: 334
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 597, protein: 46.8, fat: 34.9, carbs: 25.1 }
+nutrition_per_100g: { kcal: 110, protein: 8.6, fat: 6.4, carbs: 4.6 }
+cooked_g_est: 544
+nutrition_status: повний
+nutrition_notes: ["фарш з яловичини: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -47,4 +48,3 @@ added: 2026-11-15
 - Розділ книги: Яловичина та телятина.
 - За даними автора: 628 ккал на порцію, Б/Ж/В 47/36/31 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фарш з яловичини (немає у словнику); яйце куряче (немає у словнику); соняшникова олія (немає у словнику); українська гірчиця (немає у словнику); петрушка (немає у словнику); олія льону (немає у словнику).

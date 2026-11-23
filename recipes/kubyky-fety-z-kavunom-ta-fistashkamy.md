@@ -19,10 +19,10 @@ ingredients:
   - { name: "м'ята", qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kubyky-fety-z-kavunom-ta-fistashkamy.jpg
-nutrition_per_serving: { kcal: 12, protein: 0.5, fat: 0.1, carbs: 3.0 }
-nutrition_per_100g: { kcal: 16, protein: 0.6, fat: 0.1, carbs: 4.0 }
-cooked_g_est: 76
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 333, protein: 14.4, fat: 20.9, carbs: 26.1 }
+nutrition_per_100g: { kcal: 87, protein: 3.7, fat: 5.5, carbs: 6.8 }
+cooked_g_est: 383
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 325 ккал на порцію, Б/Ж/В 15/20/25 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кавун (немає у словнику); фета (немає у словнику); фісташки (немає у словнику); м'ята (немає у словнику).

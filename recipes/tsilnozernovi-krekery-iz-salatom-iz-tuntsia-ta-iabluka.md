@@ -22,10 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/tsilnozernovi-krekery-iz-salatom-iz-tuntsia-ta-iabluka.jpg
-nutrition_per_serving: { kcal: 73, protein: 3.9, fat: 2.1, carbs: 10.6 }
-nutrition_per_100g: { kcal: 66, protein: 3.5, fat: 1.9, carbs: 9.6 }
-cooked_g_est: 110
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 306, protein: 25.4, fat: 8.1, carbs: 36.1 }
+nutrition_per_100g: { kcal: 114, protein: 9.5, fat: 3.0, carbs: 13.4 }
+cooked_g_est: 269
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 283 ккал на порцію, Б/Ж/В 29/8/24 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозернові крекери (немає у словнику); тунець у власному соку (немає у словнику); селера (немає у словнику); діжонська гірчиця (немає у словнику).

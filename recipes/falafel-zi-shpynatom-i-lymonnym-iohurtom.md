@@ -27,10 +27,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/falafel-zi-shpynatom-i-lymonnym-iohurtom.jpg
-nutrition_per_serving: { kcal: 413, protein: 22.1, fat: 12.1, carbs: 56.9 }
-nutrition_per_100g: { kcal: 140, protein: 7.5, fat: 4.1, carbs: 19.2 }
-cooked_g_est: 296
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 415, protein: 22.3, fat: 12.1, carbs: 57.3 }
+nutrition_per_100g: { kcal: 137, protein: 7.3, fat: 4.0, carbs: 18.9 }
+cooked_g_est: 304
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 402 ккал на порцію, Б/Ж/В 22/11/57 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано петрушка (немає у словнику); мелений кумин (немає у словнику); мелений коріандр (немає у словнику); лимонна цедра (немає у словнику).

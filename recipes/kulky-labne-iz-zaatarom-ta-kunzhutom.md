@@ -22,10 +22,10 @@ ingredients:
   - { name: огірок, qty: 100, unit: г, note: "" }
   - { name: томати чері, qty: 100, unit: г, note: "" }
 photo: img/kulky-labne-iz-zaatarom-ta-kunzhutom.jpg
-nutrition_per_serving: { kcal: 126, protein: 3.3, fat: 8.7, carbs: 11.5 }
-nutrition_per_100g: { kcal: 59, protein: 1.5, fat: 4.1, carbs: 5.4 }
-cooked_g_est: 213
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 454, protein: 15.6, fat: 35.0, carbs: 23.3 }
+nutrition_per_100g: { kcal: 125, protein: 4.3, fat: 9.7, carbs: 6.4 }
+cooked_g_est: 362
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси з яєць, сиру та йогурту.
 - За даними автора: 321 ккал на порцію, Б/Ж/В 10/27/16 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано лабне (немає у словнику); заатар (немає у словнику); фісташки (немає у словнику); петрушка (немає у словнику); лимонна цедра (немає у словнику).

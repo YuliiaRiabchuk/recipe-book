@@ -21,10 +21,10 @@ ingredients:
   - { name: пластівці чилі, qty: 0.2, unit: г, note: "" }
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
 photo: img/tomaty-cheri-z-prianym-kremom-iz-kyslomolochnoho-syru.jpg
-nutrition_per_serving: { kcal: 106, protein: 13.8, fat: 1.6, carbs: 9.1 }
-nutrition_per_100g: { kcal: 73, protein: 9.4, fat: 1.1, carbs: 6.2 }
-cooked_g_est: 146
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 162, protein: 15.5, fat: 2.8, carbs: 20.5 }
+nutrition_per_100g: { kcal: 46, protein: 4.4, fat: 0.8, carbs: 5.8 }
+cooked_g_est: 352
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Овочеві перекуси, дипи та намазки.
 - За даними автора: 184 ккал на порцію, Б/Ж/В 20/6/14 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано великі томати чері (немає у словнику); солодкий перець (немає у словнику); копчена паприка (немає у словнику); пластівці чилі (немає у словнику).

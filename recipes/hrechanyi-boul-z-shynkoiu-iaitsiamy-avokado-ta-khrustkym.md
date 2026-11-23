@@ -27,10 +27,10 @@ ingredients:
   - { name: часник сушений, qty: 1, unit: г, note: "" }
   - { name: орегано, qty: 0.5, unit: г, note: "" }
 photo: img/hrechanyi-boul-z-shynkoiu-iaitsiamy-avokado-ta-khrustkym.jpg
-nutrition_per_serving: { kcal: 770, protein: 40.9, fat: 44.0, carbs: 57.8 }
-nutrition_per_100g: { kcal: 142, protein: 7.5, fat: 8.1, carbs: 10.6 }
-cooked_g_est: 544
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 810, protein: 42.2, fat: 45.0, carbs: 66.1 }
+nutrition_per_100g: { kcal: 93, protein: 4.8, fat: 5.2, carbs: 7.6 }
+cooked_g_est: 872
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -48,4 +48,3 @@ added: 2026-11-15
 - Варіація: замість шинки — куряче філе шматочками.
 - За даними автора: 848 ккал на порцію, Б/Ж/В 55/49/63 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано вода для гречки (немає у словнику); помідори чері (немає у словнику); часник сушений (немає у словнику).

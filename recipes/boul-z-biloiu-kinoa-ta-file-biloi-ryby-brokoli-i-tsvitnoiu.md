@@ -27,10 +27,10 @@ ingredients:
   - { name: паприка копчена, qty: 1, unit: г, note: "" }
   - { name: часник сушений, qty: 1, unit: г, note: "" }
 photo: img/boul-z-biloiu-kinoa-ta-file-biloi-ryby-brokoli-i-tsvitnoiu.jpg
-nutrition_per_serving: { kcal: 315, protein: 37.0, fat: 12.5, carbs: 14.7 }
-nutrition_per_100g: { kcal: 88, protein: 10.3, fat: 3.5, carbs: 4.1 }
-cooked_g_est: 358
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 497, protein: 43.9, fat: 16.7, carbs: 44.3 }
+nutrition_per_100g: { kcal: 77, protein: 6.8, fat: 2.6, carbs: 6.9 }
+cooked_g_est: 647
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -47,4 +47,3 @@ added: 2026-11-15
 - Варіація: рибу можна замінити креветками, обсмаж їх 2–3 хв.
 - За даними автора: 509 ккал на порцію, Б/Ж/В 43/19/44 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кіноа біла (немає у словнику); вода для кіноа (немає у словнику); кунжут чорний (немає у словнику); часник сушений (немає у словнику).

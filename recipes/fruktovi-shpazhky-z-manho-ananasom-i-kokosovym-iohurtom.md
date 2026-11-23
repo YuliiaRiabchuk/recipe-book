@@ -21,10 +21,10 @@ ingredients:
   - { name: цедра лайма, qty: 0.5, unit: г, note: "" }
   - { name: "м'ята", qty: 4, unit: г, note: "" }
 photo: img/fruktovi-shpazhky-z-manho-ananasom-i-kokosovym-iohurtom.jpg
-nutrition_per_serving: { kcal: 242, protein: 3.2, fat: 7.4, carbs: 47.1 }
-nutrition_per_100g: { kcal: 64, protein: 0.8, fat: 2.0, carbs: 12.5 }
-cooked_g_est: 376
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 361, protein: 8.8, fat: 15.2, carbs: 54.9 }
+nutrition_per_100g: { kcal: 74, protein: 1.8, fat: 3.1, carbs: 11.2 }
+cooked_g_est: 490
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 521 ккал на порцію, Б/Ж/В 11/32/54 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кокосовий йогурт (немає у словнику); фісташки (немає у словнику); цедра лайма (немає у словнику); м'ята (немає у словнику).

@@ -20,10 +20,10 @@ ingredients:
   - { name: мед, qty: 20, unit: г, note: "або підсолоджувач" }
   - { name: розпушувач, qty: 3, unit: г, note: "" }
 photo: img/brauni-z-proteinom.jpg
-nutrition_per_serving: { kcal: 18, protein: 1.0, fat: 0.8, carbs: 2.8 }
-nutrition_per_100g: { kcal: 211, protein: 11.7, fat: 8.6, carbs: 32.3 }
-cooked_g_est: 79
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 87, protein: 5.4, fat: 3.1, carbs: 10.3 }
+nutrition_per_100g: { kcal: 312, protein: 19.6, fat: 11.0, carbs: 37.1 }
+cooked_g_est: 250
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Пироги солодкі.
 - За даними автора: 127 ккал на порцію, Б/Ж/В 8.3/5.4/9 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); протеїн шоколадний (немає у словнику); шоколад темний (немає у словнику); йогурт густий (немає у словнику).

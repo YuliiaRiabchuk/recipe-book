@@ -21,10 +21,11 @@ ingredients:
   - { name: сушений часник, qty: 0.25, unit: ч.л., note: "" }
   - { name: лимонний сік, qty: 0.5, unit: ч.л., note: "за бажанням, наприкінці" }
 photo: img/iaiechnia-z-kovbaskamy-ta-pecherytsiamy.jpg
-nutrition_per_serving: { kcal: 210, protein: 15.7, fat: 14.9, carbs: 4.2 }
-nutrition_per_100g: { kcal: 109, protein: 8.2, fat: 7.7, carbs: 2.2 }
-cooked_g_est: 192
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 334, protein: 28.4, fat: 21.5, carbs: 6.7 }
+nutrition_per_100g: { kcal: 133, protein: 11.3, fat: 8.5, carbs: 2.7 }
+cooked_g_est: 252
+nutrition_status: повний
+nutrition_notes: ["сніданкові ковбаски: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Сніданки з яєць.
 - За даними автора: 413 ккал на порцію, Б/Ж/В 27/31/6 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сніданкові ковбаски (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

@@ -17,10 +17,10 @@ ingredients:
   - { name: насіння льону, qty: 8, unit: г, note: "" }
   - { name: кориця, qty: 1, unit: г, note: "" }
 photo: img/frantsuzkyi-iohurt-boul-z-iahodamy-ta-myhdalem.jpg
-nutrition_per_serving: { kcal: 386, protein: 25.4, fat: 18.7, carbs: 33.2 }
-nutrition_per_100g: { kcal: 91, protein: 6.0, fat: 4.4, carbs: 7.9 }
-cooked_g_est: 423
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 429, protein: 26.9, fat: 22.0, carbs: 35.5 }
+nutrition_per_100g: { kcal: 100, protein: 6.2, fat: 5.1, carbs: 8.2 }
+cooked_g_est: 431
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Сніданки країн світу.
 - За даними автора: 476 ккал на порцію, Б/Ж/В 20/29/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано насіння льону (немає у словнику).

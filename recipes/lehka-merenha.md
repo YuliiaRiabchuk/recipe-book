@@ -16,9 +16,9 @@ ingredients:
   - { name: ванільний екстракт, qty: 2, unit: мл, note: "" }
 photo: img/lehka-merenha.jpg
 nutrition_per_serving: { kcal: 4, protein: 0.7, fat: 0.0, carbs: 0.1 }
-nutrition_per_100g: { kcal: 65, protein: 11.8, fat: 0.2, carbs: 1.2 }
-cooked_g_est: 61
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 34, protein: 6.3, fat: 0.1, carbs: 0.6 }
+cooked_g_est: 115
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Десерти з підсолоджувачем.
 - За даними автора: 3 ккал на порцію, Б/Ж/В 0.7/0/0 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано еритритол (немає у словнику).

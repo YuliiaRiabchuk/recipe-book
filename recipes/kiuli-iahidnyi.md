@@ -16,9 +16,9 @@ ingredients:
   - { name: еритритол, qty: 20, unit: г, note: "" }
 photo: img/kiuli-iahidnyi.jpg
 nutrition_per_serving: { kcal: 20, protein: 0.5, fat: 0.2, carbs: 4.7 }
-nutrition_per_100g: { kcal: 50, protein: 1.1, fat: 0.6, carbs: 11.6 }
-cooked_g_est: 160
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 45, protein: 1.0, fat: 0.6, carbs: 10.3 }
+cooked_g_est: 180
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Топінги та креми.
 - За даними автора: 56 ккал на 100 г, Б/Ж/В 0.8/0.2/6.3 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано еритритол (немає у словнику).

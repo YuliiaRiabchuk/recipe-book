@@ -17,10 +17,10 @@ ingredients:
   - { name: огірок свіжий, qty: 30, unit: г, note: "" }
   - { name: айсберг, qty: 20, unit: г, note: "" }
 photo: img/sochevychnyi-burher-z-indychkoiu.jpg
-nutrition_per_serving: { kcal: 184, protein: 24.9, fat: 8.4, carbs: 1.2 }
-nutrition_per_100g: { kcal: 194, protein: 26.2, fat: 8.8, carbs: 1.3 }
-cooked_g_est: 95
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 541, protein: 41.4, fat: 14.1, carbs: 61.3 }
+nutrition_per_100g: { kcal: 197, protein: 15.0, fat: 5.1, carbs: 22.3 }
+cooked_g_est: 275
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Порція 300 г: 485 ккал. Приготування 5 хв, обсмажування 15 хв.
 - За даними автора: 162 ккал на 100 г, Б/Ж/В 14.6/5.8/12.8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сочевична булочка (немає у словнику); огірок свіжий (немає у словнику); айсберг (немає у словнику).

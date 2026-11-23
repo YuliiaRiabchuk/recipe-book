@@ -22,10 +22,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/boul-z-kurkoiu-ta-iohurtovoiu-zapravkoiu.jpg
-nutrition_per_serving: { kcal: 509, protein: 54.1, fat: 24.8, carbs: 18.5 }
-nutrition_per_100g: { kcal: 93, protein: 9.9, fat: 4.5, carbs: 3.4 }
-cooked_g_est: 546
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 530, protein: 55.7, fat: 25.1, carbs: 22.7 }
+nutrition_per_100g: { kcal: 78, protein: 8.2, fat: 3.7, carbs: 3.4 }
+cooked_g_est: 676
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Салати-боули.
 - За даними автора: 556 ккал на порцію, Б/Ж/В 50/30/23 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано капуста пекінська (немає у словнику).

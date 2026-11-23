@@ -17,8 +17,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: псиліум, qty: 5, unit: г, note: "" }
 photo: img/sochevychna-pitsa-osnova.jpg
-nutrition_per_serving: { kcal: null, protein: null, fat: null, carbs: null }
-nutrition_status: немає
+nutrition_per_serving: { kcal: 47, protein: 2.9, fat: 0.7, carbs: 7.5 }
+nutrition_per_100g: { kcal: 120, protein: 7.5, fat: 1.8, carbs: 19.3 }
+cooked_g_est: 312
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15

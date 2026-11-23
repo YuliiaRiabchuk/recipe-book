@@ -19,10 +19,10 @@ ingredients:
   - { name: сода, qty: 2, unit: г, note: "" }
   - { name: сік лимона, qty: 5, unit: мл, note: "" }
 photo: img/vehanska-pitsa-osnova.jpg
-nutrition_per_serving: { kcal: 50, protein: 1.4, fat: 0.1, carbs: 10.5 }
-nutrition_per_100g: { kcal: 236, protein: 6.7, fat: 0.6, carbs: 49.6 }
-cooked_g_est: 170
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 55, protein: 1.4, fat: 0.7, carbs: 10.5 }
+nutrition_per_100g: { kcal: 254, protein: 6.5, fat: 3.3, carbs: 48.4 }
+cooked_g_est: 174
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Піца основи.
 - За даними автора: 55 ккал на порцію, Б/Ж/В 1.7/1.5/8.7 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано олія оливкова (немає у словнику).

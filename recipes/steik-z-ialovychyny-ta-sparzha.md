@@ -20,10 +20,10 @@ ingredients:
   - { name: часник, qty: 3, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/steik-z-ialovychyny-ta-sparzha.jpg
-nutrition_per_serving: { kcal: 363, protein: 39.8, fat: 19.4, carbs: 10.8 }
-nutrition_per_100g: { kcal: 111, protein: 12.2, fat: 6.0, carbs: 3.3 }
-cooked_g_est: 326
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 365, protein: 40.1, fat: 19.5, carbs: 11.3 }
+nutrition_per_100g: { kcal: 109, protein: 12.0, fat: 5.8, carbs: 3.4 }
+cooked_g_est: 334
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - P.S. Якщо любиш більш прожарене, додай по 1 хв з кожного боку, але не пересуши.
 - За даними автора: 417 ккал на порцію, Б/Ж/В 47/20/12 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано петрушка (немає у словнику).

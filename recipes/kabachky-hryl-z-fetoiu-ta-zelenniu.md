@@ -20,10 +20,10 @@ ingredients:
   - { name: кріп, qty: 8, unit: г, note: "" }
   - { name: петрушка, qty: 8, unit: г, note: "" }
 photo: img/kabachky-hryl-z-fetoiu-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: 156, protein: 4.6, fat: 11.3, carbs: 12.8 }
-nutrition_per_100g: { kcal: 46, protein: 1.4, fat: 3.3, carbs: 3.8 }
-cooked_g_est: 338
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 291, protein: 11.9, fat: 22.1, carbs: 15.3 }
+nutrition_per_100g: { kcal: 74, protein: 3.0, fat: 5.6, carbs: 3.9 }
+cooked_g_est: 396
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Кабачок має бути з легким «хрустом»: якщо пересмажити, стане водянистим і нецікавим.
 - За даними автора: 294 ккал на порцію, Б/Ж/В 12/22/16 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фета (немає у словнику); петрушка (немає у словнику).

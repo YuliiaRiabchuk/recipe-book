@@ -22,10 +22,10 @@ ingredients:
   - { name: сушений часник, qty: 0.4, unit: г, note: "" }
   - { name: сіль, qty: 1, unit: г, note: "" }
 photo: img/domashni-hrechano-nasinnievi-krekery-bez-hliutenu.jpg
-nutrition_per_serving: { kcal: 108, protein: 3.6, fat: 10.0, carbs: 2.6 }
-nutrition_per_100g: { kcal: 237, protein: 7.8, fat: 22.0, carbs: 5.7 }
-cooked_g_est: 91
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 198, protein: 6.9, fat: 13.1, carbs: 16.7 }
+nutrition_per_100g: { kcal: 296, protein: 10.3, fat: 19.5, carbs: 24.9 }
+cooked_g_est: 134
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Одна порція це приблизно половина готових крекерів, решту зберігай у герметичному контейнері до 5 днів.
 - За даними автора: 399 ккал на порцію, Б/Ж/В 14/26/35 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гречане борошно (немає у словнику); мелене насіння льону (немає у словнику); сушений розмарин (немає у словнику); сушений часник (немає у словнику).

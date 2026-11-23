@@ -23,10 +23,10 @@ ingredients:
   - { name: чорний перець, qty: 1, unit: г, note: "" }
   - { name: кумин, qty: 1, unit: г, note: "" }
 photo: img/meksykanskyi-boul-z-rysom-ta-kvasoleiu-light.jpg
-nutrition_per_serving: { kcal: 652, protein: 13.5, fat: 13.8, carbs: 121.5 }
-nutrition_per_100g: { kcal: 117, protein: 2.4, fat: 2.5, carbs: 21.9 }
-cooked_g_est: 555
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 784, protein: 22.3, fat: 14.3, carbs: 145.2 }
+nutrition_per_100g: { kcal: 120, protein: 3.4, fat: 2.2, carbs: 22.2 }
+cooked_g_est: 655
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 519 ккал на порцію, Б/Ж/В 18/14/86 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чорна квасоля (немає у словнику).

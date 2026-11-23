@@ -22,10 +22,10 @@ ingredients:
   - { name: сушений часник, qty: 0.4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/khrustki-klastery-iz-sochevytsi-horikhiv-i-nasinnia.jpg
-nutrition_per_serving: { kcal: 251, protein: 9.4, fat: 22.6, carbs: 6.8 }
-nutrition_per_100g: { kcal: 534, protein: 19.9, fat: 48.0, carbs: 14.5 }
-cooked_g_est: 47
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 673, protein: 38.9, fat: 23.8, carbs: 82.8 }
+nutrition_per_100g: { kcal: 349, protein: 20.2, fat: 12.3, carbs: 42.9 }
+cooked_g_est: 193
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Ситні рослинні перекуси.
 - За даними автора: 397 ккал на порцію, Б/Ж/В 20/23/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано зелена або коричнева сочевиця (немає у словнику); аквафаба (немає у словнику); копчена паприка (немає у словнику); сушений часник (немає у словнику).

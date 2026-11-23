@@ -23,10 +23,10 @@ ingredients:
   - { name: кінза, qty: 5, unit: г, note: "для подачі" }
   - { name: кунжут, qty: 3, unit: г, note: "для подачі" }
 photo: img/shpazhky-z-krevetkamy-i-ananasom-u-chyli-laimovii-hlazuri.jpg
-nutrition_per_serving: { kcal: 226, protein: 27.8, fat: 5.3, carbs: 19.2 }
-nutrition_per_100g: { kcal: 98, protein: 12.0, fat: 2.3, carbs: 8.3 }
-cooked_g_est: 232
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 242, protein: 28.4, fat: 5.5, carbs: 22.8 }
+nutrition_per_100g: { kcal: 85, protein: 10.0, fat: 1.9, carbs: 8.0 }
+cooked_g_est: 284
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 238 ккал на порцію, Б/Ж/В 26/6/24 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано солодкий перець (немає у словнику); пластівці чилі (немає у словнику).

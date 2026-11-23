@@ -23,10 +23,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/salat-boul-losos-iaitse-avokado-bez-khliba.jpg
-nutrition_per_serving: { kcal: 463, protein: 24.8, fat: 36.6, carbs: 11.1 }
-nutrition_per_100g: { kcal: 149, protein: 8.0, fat: 11.8, carbs: 3.6 }
-cooked_g_est: 311
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 740, protein: 35.9, fat: 41.4, carbs: 60.7 }
+nutrition_per_100g: { kcal: 103, protein: 5.0, fat: 5.8, carbs: 8.5 }
+cooked_g_est: 718
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Розділ книги: Поживні сніданки.
 - За даними автора: 736 ккал на порцію, Б/Ж/В 38/41/59 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кіноа суміш (немає у словнику); мікс салату (немає у словнику); помідори чері (немає у словнику).

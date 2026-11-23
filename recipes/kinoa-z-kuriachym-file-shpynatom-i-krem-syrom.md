@@ -19,10 +19,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kinoa-z-kuriachym-file-shpynatom-i-krem-syrom.jpg
-nutrition_per_serving: { kcal: 419, protein: 34.1, fat: 29.2, carbs: 4.8 }
-nutrition_per_100g: { kcal: 214, protein: 17.4, fat: 14.9, carbs: 2.4 }
-cooked_g_est: 196
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 640, protein: 42.6, fat: 32.9, carbs: 43.3 }
+nutrition_per_100g: { kcal: 170, protein: 11.3, fat: 8.7, carbs: 11.5 }
+cooked_g_est: 376
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Варіація: замість шпинату — рукола, додай її при подачі.
 - За даними автора: 645 ккал на порцію, Б/Ж/В 52/29/43 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кіноа (немає у словнику).

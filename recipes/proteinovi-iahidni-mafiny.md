@@ -20,10 +20,10 @@ ingredients:
   - { name: еритритол, qty: 40, unit: г, note: "" }
   - { name: розпушувач, qty: 5, unit: г, note: "" }
 photo: img/proteinovi-iahidni-mafiny.jpg
-nutrition_per_serving: { kcal: 12, protein: 1.2, fat: 0.4, carbs: 0.9 }
-nutrition_per_100g: { kcal: 81, protein: 8.0, fat: 3.0, carbs: 5.7 }
-cooked_g_est: 181
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 69, protein: 6.0, fat: 1.3, carbs: 8.4 }
+nutrition_per_100g: { kcal: 184, protein: 15.8, fat: 3.4, carbs: 22.3 }
+cooked_g_est: 451
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Фітнес-випічка для сніданку.
 - За даними автора: 65 ккал на порцію, Б/Ж/В 5/1.4/7.8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно вівсяне (немає у словнику); протеїн ванільний (немає у словнику); йогурт густий (немає у словнику); еритритол (немає у словнику).

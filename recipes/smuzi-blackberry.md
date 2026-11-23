@@ -18,10 +18,10 @@ ingredients:
   - { name: йогурт питний, qty: 100, unit: г, note: "100–120 г" }
   - { name: активоване вугілля, qty: null, unit: "", note: "3–6 таблеток, не обовʼязково" }
 photo: img/smuzi-blackberry.jpg
-nutrition_per_serving: { kcal: 92, protein: 1.8, fat: 0.7, carbs: 22.0 }
-nutrition_per_100g: { kcal: 88, protein: 1.7, fat: 0.6, carbs: 20.9 }
-cooked_g_est: 105
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 206, protein: 6.5, fat: 4.2, carbs: 39.5 }
+nutrition_per_100g: { kcal: 68, protein: 2.1, fat: 1.4, carbs: 13.0 }
+cooked_g_est: 305
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Смузі.
 - За даними автора: 207 ккал на порцію, Б/Ж/В 7/3/43 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано черешня (немає у словнику); шовковиця (немає у словнику); йогурт питний (немає у словнику).

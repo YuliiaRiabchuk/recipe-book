@@ -28,10 +28,11 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/kebab-lait-z-indychky-z-sousom-takhini-lymon.jpg
-nutrition_per_serving: { kcal: 119, protein: 4.9, fat: 8.4, carbs: 9.1 }
-nutrition_per_100g: { kcal: 45, protein: 1.8, fat: 3.2, carbs: 3.4 }
-cooked_g_est: 266
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 598, protein: 47.2, fat: 29.2, carbs: 41.0 }
+nutrition_per_100g: { kcal: 104, protein: 8.2, fat: 5.1, carbs: 7.2 }
+cooked_g_est: 573
+nutrition_status: повний
+nutrition_notes: ["фарш з філе індички: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -47,4 +48,3 @@ added: 2026-11-15
 - Розділ книги: Середземноморські та «кафешні».
 - За даними автора: 542 ккал на порцію, Б/Ж/В 55/20/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фарш з філе індички (немає у словнику); кіноа (немає у словнику); помідори чері (немає у словнику); петрушка (немає у словнику); мʼята (немає у словнику); олія кунжутна (немає у словнику).

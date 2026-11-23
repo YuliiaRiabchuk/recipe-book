@@ -19,10 +19,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: кориця, qty: 0.3, unit: г, note: "" }
 photo: img/zhytni-krispy-z-kyslomolochnym-syrom-hrusheiu-ta-horikhamy.jpg
-nutrition_per_serving: { kcal: 200, protein: 11.2, fat: 6.9, carbs: 26.2 }
-nutrition_per_100g: { kcal: 96, protein: 5.4, fat: 3.3, carbs: 12.6 }
-cooked_g_est: 208
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 292, protein: 13.2, fat: 7.3, carbs: 46.7 }
+nutrition_per_100g: { kcal: 125, protein: 5.7, fat: 3.1, carbs: 20.1 }
+cooked_g_est: 233
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Крекери, хлібці та хрусткі основи.
 - За даними автора: 316 ккал на порцію, Б/Ж/В 17/11/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано житні цільнозернові кріспи (немає у словнику).

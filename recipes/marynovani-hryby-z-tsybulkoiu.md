@@ -16,10 +16,11 @@ ingredients:
   - { name: нерафінована олія, qty: 7, unit: мл, note: "" }
   - { name: петрушка, qty: null, unit: "", note: "кілька гілочок" }
 photo: img/marynovani-hryby-z-tsybulkoiu.jpg
-nutrition_per_serving: { kcal: 33, protein: 4.6, fat: 0.5, carbs: 4.9 }
-nutrition_per_100g: { kcal: 22, protein: 3.1, fat: 0.3, carbs: 3.3 }
-cooked_g_est: 150
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 59, protein: 4.9, fat: 2.1, carbs: 7.6 }
+nutrition_per_100g: { kcal: 33, protein: 2.7, fat: 1.2, carbs: 4.3 }
+cooked_g_est: 179
+nutrition_status: повний
+nutrition_notes: ["нерафінована олія: у розсолі, враховано 25 %"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +35,3 @@ added: 2026-11-15
 - Час 5 хв без маринування: гриби мають бути вже готові.
 - За даними автора: 112 ккал на порцію, Б/Ж/В 4/7/9 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано червона цибуля (немає у словнику); нерафінована олія (немає у словнику).

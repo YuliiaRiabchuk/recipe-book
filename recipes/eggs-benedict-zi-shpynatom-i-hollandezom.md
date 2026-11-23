@@ -23,10 +23,10 @@ ingredients:
   - { name: лимонний сік, qty: 2, unit: ч.л., note: "10 г, для соусу" }
   - { name: гірчиця, qty: 0.5, unit: ч.л., note: "3 г, для соусу" }
 photo: img/eggs-benedict-zi-shpynatom-i-hollandezom.jpg
-nutrition_per_serving: { kcal: 260, protein: 20.8, fat: 17.1, carbs: 4.6 }
-nutrition_per_100g: { kcal: 137, protein: 10.9, fat: 9.0, carbs: 2.4 }
-cooked_g_est: 190
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 410, protein: 28.6, fat: 18.8, carbs: 33.8 }
+nutrition_per_100g: { kcal: 130, protein: 9.1, fat: 6.0, carbs: 10.7 }
+cooked_g_est: 315
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Розділ книги: Яєчні сніданки.
 - За даними автора: 500 ккал на порцію, Б/Ж/В 30/20/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано англійський мафін цільнозерновий (немає у словнику); шпинат свіжий (немає у словнику).

@@ -19,10 +19,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: хліб цільнозерновий, qty: 60, unit: г, note: "1 скибка, за бажанням" }
 photo: img/omlet-z-hrybamy-ta-shpynatom.jpg
-nutrition_per_serving: { kcal: 278, protein: 18.9, fat: 20.3, carbs: 7.8 }
-nutrition_per_100g: { kcal: 97, protein: 6.6, fat: 7.0, carbs: 2.7 }
-cooked_g_est: 288
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 429, protein: 26.4, fat: 22.4, carbs: 33.4 }
+nutrition_per_100g: { kcal: 123, protein: 7.6, fat: 6.4, carbs: 9.6 }
+cooked_g_est: 348
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Варіація: замість шпинату — рукола або мікс салату (додай в самому кінці).
 - За даними автора: 308 ккал на порцію, Б/Ж/В 22/22/8 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано хліб цільнозерновий (немає у словнику).

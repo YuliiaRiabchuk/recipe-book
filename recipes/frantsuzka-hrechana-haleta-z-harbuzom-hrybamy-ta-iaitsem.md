@@ -26,10 +26,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: чебрець, qty: null, unit: "", note: "за смаком" }
 photo: img/frantsuzka-hrechana-haleta-z-harbuzom-hrybamy-ta-iaitsem.jpg
-nutrition_per_serving: { kcal: 193, protein: 18.4, fat: 8.7, carbs: 13.3 }
-nutrition_per_100g: { kcal: 53, protein: 5.1, fat: 2.4, carbs: 3.7 }
-cooked_g_est: 362
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 338, protein: 24.8, fat: 12.0, carbs: 38.2 }
+nutrition_per_100g: { kcal: 82, protein: 6.0, fat: 2.9, carbs: 9.3 }
+cooked_g_est: 410
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - Для рідкого жовтка використовуй пастеризоване яйце.
 - За даними автора: 352 ккал на порцію, Б/Ж/В 26/13/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гречане борошно (немає у словнику); козячий сир (немає у словнику); дижонська гірчиця (немає у словнику).

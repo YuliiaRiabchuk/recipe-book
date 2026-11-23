@@ -26,9 +26,9 @@ ingredients:
   - { name: часник сушений, qty: 1, unit: г, note: "" }
 photo: img/veha-tofu-skrembl-z-hrybamy-ta-kurkumoiu-lavash-khrustyky.jpg
 nutrition_per_serving: { kcal: 552, protein: 50.6, fat: 25.8, carbs: 43.0 }
-nutrition_per_100g: { kcal: 84, protein: 7.7, fat: 3.9, carbs: 6.5 }
-cooked_g_est: 658
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 84, protein: 7.6, fat: 3.9, carbs: 6.5 }
+cooked_g_est: 661
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - Варіація: замість шпинату — рукола (додавай вже при подачі).
 - За даними автора: 451 ккал на порцію, Б/Ж/В 31/23/32 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано перець духмяний (немає у словнику); грибна приправа натуральна (немає у словнику); часник сушений (немає у словнику).

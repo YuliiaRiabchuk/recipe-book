@@ -23,9 +23,9 @@ ingredients:
   - { name: ванільний екстракт, qty: 2, unit: мл, note: "½ ч.л." }
   - { name: сіль, qty: 2, unit: г, note: "" }
 photo: img/harbuzovi-bulochky-z-korytseiu-ta-iohurtovym-kremom.jpg
-nutrition_per_serving: { kcal: 96, protein: 4.3, fat: 5.7, carbs: 7.4 }
-nutrition_per_100g: { kcal: 74, protein: 3.3, fat: 4.4, carbs: 5.7 }
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 262, protein: 9.2, fat: 6.2, carbs: 42.0 }
+nutrition_per_100g: { kcal: 201, protein: 7.1, fat: 4.7, carbs: 32.3 }
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - За даними автора на 6 порцій: 1538 ккал, близько 780 г.
 - За даними автора: 256 ккал на порцію, Б/Ж/В 9.7/5/43.1 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); дріжджі сухі (немає у словнику).

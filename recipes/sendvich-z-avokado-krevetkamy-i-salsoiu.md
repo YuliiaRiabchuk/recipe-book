@@ -23,10 +23,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: паприка, qty: null, unit: "", note: "за смаком" }
 photo: img/sendvich-z-avokado-krevetkamy-i-salsoiu.jpg
-nutrition_per_serving: { kcal: 340, protein: 10.1, fat: 18.3, carbs: 37.5 }
-nutrition_per_100g: { kcal: 135, protein: 4.0, fat: 7.3, carbs: 14.9 }
-cooked_g_est: 252
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 453, protein: 34.7, fat: 19.1, carbs: 40.0 }
+nutrition_per_100g: { kcal: 119, protein: 9.1, fat: 5.0, carbs: 10.5 }
+cooked_g_est: 380
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Варіації: замість креветок — смажені кальмари або тунець; замість сальси — гуакамоле з кінзою.
 - За даними автора: 441 ккал на порцію, Б/Ж/В 32/19/39 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано креветки очищені (немає у словнику); червона цибуля (немає у словнику); петрушка (немає у словнику).

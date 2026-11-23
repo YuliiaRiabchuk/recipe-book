@@ -21,10 +21,10 @@ ingredients:
   - { name: яйце, qty: 5, unit: г, note: "збите, для змащування" }
   - { name: кунжут, qty: 3, unit: г, note: "для прикраси" }
 photo: img/sochevychna-bulochka.jpg
-nutrition_per_serving: { kcal: 109, protein: 7.3, fat: 3.1, carbs: 13.5 }
-nutrition_per_100g: { kcal: 206, protein: 13.9, fat: 5.9, carbs: 25.4 }
-cooked_g_est: 53
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 361, protein: 13.4, fat: 9.3, carbs: 55.9 }
+nutrition_per_100g: { kcal: 335, protein: 12.4, fat: 8.6, carbs: 51.7 }
+cooked_g_est: 108
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Порція 130 г: 303 ккал. Замочування 7 год, робота 1 год 13 хв, випікання 19 хв.
 - За даними автора: 233 ккал на 100 г, Б/Ж/В 9.9/8.3/28.1 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пшеничне борошно (немає у словнику); соняшникова олія (немає у словнику); дріжджі сухі (немає у словнику).

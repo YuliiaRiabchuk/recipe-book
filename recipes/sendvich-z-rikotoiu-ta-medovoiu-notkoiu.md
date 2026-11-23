@@ -18,10 +18,10 @@ ingredients:
   - { name: мигдаль, qty: 10, unit: г, note: "" }
   - { name: кориця, qty: 1, unit: г, note: "" }
 photo: img/sendvich-z-rikotoiu-ta-medovoiu-notkoiu.jpg
-nutrition_per_serving: { kcal: 307, protein: 11.9, fat: 7.9, carbs: 50.2 }
-nutrition_per_100g: { kcal: 128, protein: 5.0, fat: 3.3, carbs: 21.0 }
-cooked_g_est: 239
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 445, protein: 23.2, fat: 15.8, carbs: 55.3 }
+nutrition_per_100g: { kcal: 131, protein: 6.9, fat: 4.7, carbs: 16.3 }
+cooked_g_est: 339
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 450 ккал на порцію, Б/Ж/В 20/17/55 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано рікота (немає у словнику).

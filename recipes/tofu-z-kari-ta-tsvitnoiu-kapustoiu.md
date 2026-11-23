@@ -24,9 +24,9 @@ ingredients:
   - { name: зелень, qty: 8, unit: г, note: "" }
 photo: img/tofu-z-kari-ta-tsvitnoiu-kapustoiu.jpg
 nutrition_per_serving: { kcal: 632, protein: 43.4, fat: 43.6, carbs: 32.1 }
-nutrition_per_100g: { kcal: 101, protein: 6.9, fat: 6.9, carbs: 5.1 }
-cooked_g_est: 628
-nutrition_status: частковий
+nutrition_per_100g: { kcal: 100, protein: 6.9, fat: 6.9, carbs: 5.1 }
+cooked_g_est: 632
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - P.S. Тофу додаємо в кінці, щоб не розвалився й не з’їв соус.
 - За даними автора: 643 ккал на порцію, Б/Ж/В 41/42/38 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано карі (немає у словнику).

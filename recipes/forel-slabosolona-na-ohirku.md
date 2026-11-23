@@ -16,10 +16,10 @@ ingredients:
   - { name: крем-сир, qty: 30, unit: г, note: "" }
   - { name: кріп, qty: null, unit: "", note: "для подачі" }
 photo: img/forel-slabosolona-na-ohirku.jpg
-nutrition_per_serving: { kcal: 122, protein: 2.6, fat: 10.5, carbs: 5.6 }
-nutrition_per_100g: { kcal: 87, protein: 1.8, fat: 7.5, carbs: 4.0 }
-cooked_g_est: 140
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 206, protein: 14.5, fat: 14.2, carbs: 5.6 }
+nutrition_per_100g: { kcal: 103, protein: 7.3, fat: 7.1, carbs: 2.8 }
+cooked_g_est: 200
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Рибне.
 - За даними автора: 236 ккал на порцію, Б/Ж/В 15/16/5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано форель або лосось (немає у словнику).

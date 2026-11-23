@@ -21,10 +21,10 @@ ingredients:
   - { name: сушений базилік, qty: 0.25, unit: ч.л., note: "або орегано, за бажанням" }
   - { name: свіжа зелень, qty: 5, unit: г, note: "5–10 г, петрушка, кріп, за бажанням" }
 photo: img/fritata-z-ovochamy-ta-syrom.jpg
-nutrition_per_serving: { kcal: 438, protein: 32.5, fat: 29.6, carbs: 10.5 }
-nutrition_per_100g: { kcal: 129, protein: 9.6, fat: 8.7, carbs: 3.1 }
-cooked_g_est: 339
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 440, protein: 32.6, fat: 29.7, carbs: 10.8 }
+nutrition_per_100g: { kcal: 128, protein: 9.5, fat: 8.6, carbs: 3.1 }
+cooked_g_est: 344
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 525 ккал на порцію, Б/Ж/В 37/40/10 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано чорний мелений перець (немає у словнику); сушений базилік (немає у словнику); свіжа зелень (немає у словнику).

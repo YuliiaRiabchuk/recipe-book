@@ -17,10 +17,10 @@ ingredients:
   - { name: борошно вівсяне, qty: 30, unit: г, note: "" }
   - { name: ванільний екстракт, qty: 2, unit: мл, note: "" }
 photo: img/fitnes-syrnyky-u-dukhovtsi.jpg
-nutrition_per_serving: { kcal: 47, protein: 5.1, fat: 2.2, carbs: 1.4 }
-nutrition_per_100g: { kcal: 115, protein: 12.5, fat: 5.4, carbs: 3.5 }
-cooked_g_est: 407
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 59, protein: 5.5, fat: 2.4, carbs: 3.5 }
+nutrition_per_100g: { kcal: 125, protein: 11.6, fat: 5.1, carbs: 7.5 }
+cooked_g_est: 470
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Фітнес-випічка для сніданку.
 - За даними автора: 62 ккал на порцію, Б/Ж/В 5.2/2.4/4.2 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано еритритол (немає у словнику); борошно вівсяне (немає у словнику).

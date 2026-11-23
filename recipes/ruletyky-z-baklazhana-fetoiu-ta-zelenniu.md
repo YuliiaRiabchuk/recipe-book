@@ -22,10 +22,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/ruletyky-z-baklazhana-fetoiu-ta-zelenniu.jpg
-nutrition_per_serving: { kcal: 134, protein: 4.4, fat: 12.1, carbs: 3.5 }
-nutrition_per_100g: { kcal: 253, protein: 8.4, fat: 22.8, carbs: 6.5 }
-cooked_g_est: 53
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 376, protein: 16.7, fat: 27.6, carbs: 19.4 }
+nutrition_per_100g: { kcal: 119, protein: 5.3, fat: 8.7, carbs: 6.2 }
+cooked_g_est: 315
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Тости, роли та мінісендвічі.
 - За даними автора: 358 ккал на порцію, Б/Ж/В 17/26/19 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано баклажан (немає у словнику); фета (немає у словнику); петрушка (немає у словнику).

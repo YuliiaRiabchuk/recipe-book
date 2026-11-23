@@ -17,10 +17,10 @@ ingredients:
   - { name: йогурт густий, qty: 100, unit: г, note: "3 %" }
   - { name: ваніль, qty: 1, unit: дрібка, note: "" }
 photo: img/bananovo-arakhisovyi-protein-krem.jpg
-nutrition_per_serving: { kcal: 179, protein: 4.4, fat: 8.0, carbs: 26.2 }
-nutrition_per_100g: { kcal: 155, protein: 3.8, fat: 7.0, carbs: 22.8 }
-cooked_g_est: 115
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 340, protein: 33.9, fat: 10.3, carbs: 31.7 }
+nutrition_per_100g: { kcal: 142, protein: 14.1, fat: 4.3, carbs: 13.2 }
+cooked_g_est: 240
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 365 ккал на порцію, Б/Ж/В 30.1/13.1/29.2 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано протеїн (немає у словнику); йогурт густий (немає у словнику); ваніль (немає у словнику).

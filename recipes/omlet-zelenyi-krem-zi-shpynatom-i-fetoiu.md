@@ -19,10 +19,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/omlet-zelenyi-krem-zi-shpynatom-i-fetoiu.jpg
-nutrition_per_serving: { kcal: 238, protein: 16.4, fat: 15.2, carbs: 10.6 }
-nutrition_per_100g: { kcal: 72, protein: 5.0, fat: 4.6, carbs: 3.2 }
-cooked_g_est: 329
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 344, protein: 22.1, fat: 23.8, carbs: 12.2 }
+nutrition_per_100g: { kcal: 93, protein: 6.0, fat: 6.4, carbs: 3.3 }
+cooked_g_est: 369
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - P.S. Омлет любить низький вогонь, так він ніжний, а не гумовий.
 - За даними автора: 375 ккал на порцію, Б/Ж/В 25/26/13 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фета (немає у словнику).

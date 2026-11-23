@@ -28,10 +28,10 @@ ingredients:
   - { name: часник сушений, qty: 1, unit: г, note: "для заправки" }
   - { name: орегано, qty: 0.5, unit: г, note: "для заправки" }
 photo: img/boul-z-kvasoleiu-iaitsiamy-ta-avokado-iohurtno-hirchychna.jpg
-nutrition_per_serving: { kcal: 547, protein: 30.3, fat: 29.9, carbs: 47.4 }
-nutrition_per_100g: { kcal: 90, protein: 5.0, fat: 4.9, carbs: 7.8 }
-cooked_g_est: 609
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 666, protein: 35.5, fat: 32.0, carbs: 68.8 }
+nutrition_per_100g: { kcal: 86, protein: 4.6, fat: 4.1, carbs: 8.9 }
+cooked_g_est: 772
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,4 +46,3 @@ added: 2026-11-15
 - Розділ книги: Поживні сніданки.
 - За даними автора: 726 ккал на порцію, Б/Ж/В 37/38/62 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано помідори чері (немає у словнику); хліб цільнозерновий (немає у словнику); діжонська гірчиця (немає у словнику); часник сушений (немає у словнику).

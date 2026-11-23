@@ -22,10 +22,10 @@ ingredients:
   - { name: зелень, qty: 10, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/turetskyi-snidanok-light-tarilka-balansu.jpg
-nutrition_per_serving: { kcal: 535, protein: 28.2, fat: 24.3, carbs: 52.7 }
-nutrition_per_100g: { kcal: 89, protein: 4.7, fat: 4.1, carbs: 8.8 }
-cooked_g_est: 599
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 564, protein: 28.4, fat: 27.1, carbs: 54.2 }
+nutrition_per_100g: { kcal: 90, protein: 4.6, fat: 4.3, carbs: 8.7 }
+cooked_g_est: 624
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 586 ккал на порцію, Б/Ж/В 31/30/48 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано оливки (немає у словнику).

@@ -18,10 +18,10 @@ ingredients:
   - { name: мигдаль, qty: 10, unit: г, note: "" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/finiky-z-myhdalnoiu-pastoiu-ta-malynoiu.jpg
-nutrition_per_serving: { kcal: 420, protein: 5.3, fat: 11.2, carbs: 83.5 }
-nutrition_per_100g: { kcal: 255, protein: 3.2, fat: 6.8, carbs: 50.6 }
-cooked_g_est: 165
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 604, protein: 11.5, fat: 27.8, carbs: 89.1 }
+nutrition_per_100g: { kcal: 310, protein: 5.9, fat: 14.3, carbs: 45.7 }
+cooked_g_est: 195
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Плюс 20 хвилин на охолодження.
 - За даними автора: 620 ккал на порцію, Б/Ж/В 12/29/84 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мигдальна паста (немає у словнику).

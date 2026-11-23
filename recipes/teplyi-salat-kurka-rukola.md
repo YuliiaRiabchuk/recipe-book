@@ -20,10 +20,10 @@ ingredients:
   - { name: сіль, qty: 3, unit: г, note: "" }
   - { name: перець чорний, qty: 1, unit: г, note: "" }
 photo: img/teplyi-salat-kurka-rukola.jpg
-nutrition_per_serving: { kcal: 340, protein: 41.2, fat: 15.3, carbs: 9.8 }
-nutrition_per_100g: { kcal: 80, protein: 9.6, fat: 3.6, carbs: 2.3 }
-cooked_g_est: 427
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 381, protein: 42.4, fat: 16.3, carbs: 18.1 }
+nutrition_per_100g: { kcal: 66, protein: 7.3, fat: 2.8, carbs: 3.1 }
+cooked_g_est: 577
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Тепла курка «розкриває» рукколу: смак стає яскравішим без зайвих калорій.
 - За даними автора: 354 ккал на порцію, Б/Ж/В 44/16/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано томати черрі (немає у словнику).

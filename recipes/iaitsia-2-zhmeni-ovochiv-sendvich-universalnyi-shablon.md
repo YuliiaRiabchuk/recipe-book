@@ -21,10 +21,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: хліб цільнозерновий, qty: 60, unit: г, note: "1 скибка" }
 photo: img/iaitsia-2-zhmeni-ovochiv-sendvich-universalnyi-shablon.jpg
-nutrition_per_serving: { kcal: 237, protein: 15.4, fat: 15.0, carbs: 11.7 }
-nutrition_per_100g: { kcal: 60, protein: 3.9, fat: 3.8, carbs: 3.0 }
-cooked_g_est: 392
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 388, protein: 22.8, fat: 17.1, carbs: 37.3 }
+nutrition_per_100g: { kcal: 86, protein: 5.1, fat: 3.8, carbs: 8.2 }
+cooked_g_est: 452
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 - Варіація: замість лимона — яблучний чи винний оцет; для м'якшого смаку додай 1 ч.л. гірчиці.
 - За даними автора: 338 ккал на порцію, Б/Ж/В 19/17/44 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано хліб цільнозерновий (немає у словнику).

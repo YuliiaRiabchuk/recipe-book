@@ -17,10 +17,10 @@ ingredients:
   - { name: мінеральна газована вода, qty: 50, unit: мл, note: "50–100 мл; можна звичайну газовану, рослинне молоко, кокосову чи звичайну воду" }
   - { name: лимонний сік, qty: null, unit: "", note: "або лаймовий, за смаком" }
 photo: img/smuzi-dr-peper.jpg
-nutrition_per_serving: { kcal: 67, protein: 1.4, fat: 0.6, carbs: 15.9 }
-nutrition_per_100g: { kcal: 45, protein: 1.0, fat: 0.4, carbs: 10.6 }
-cooked_g_est: 150
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 130, protein: 2.5, fat: 0.8, carbs: 31.9 }
+nutrition_per_100g: { kcal: 43, protein: 0.8, fat: 0.3, carbs: 10.6 }
+cooked_g_est: 300
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Смузі.
 - За даними автора: 136 ккал на порцію, Б/Ж/В 2/1/33 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано черешня (немає у словнику); мінеральна газована вода (немає у словнику).

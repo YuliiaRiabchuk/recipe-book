@@ -21,10 +21,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: паприка, qty: 2, unit: г, note: "" }
 photo: img/triska-z-travamy-ta-pechenoiu-tsvitnoiu-kapustoiu.jpg
-nutrition_per_serving: { kcal: 179, protein: 6.4, fat: 11.0, carbs: 19.0 }
-nutrition_per_100g: { kcal: 56, protein: 2.0, fat: 3.4, carbs: 5.9 }
-cooked_g_est: 320
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 330, protein: 38.7, fat: 12.3, carbs: 19.5 }
+nutrition_per_100g: { kcal: 69, protein: 8.2, fat: 2.6, carbs: 4.1 }
+cooked_g_est: 475
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - P.S. Для яскравішого аромату натри цедру лимона прямо перед подачею.
 - За даними автора: 340 ккал на порцію, Б/Ж/В 40/13/22 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тріска (немає у словнику); петрушка (немає у словнику).

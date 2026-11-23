@@ -20,10 +20,10 @@ ingredients:
   - { name: бальзамічний крем, qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/lystky-radychio-z-hrusheiu-koziachym-syrom-i-horikhamy.jpg
-nutrition_per_serving: { kcal: 198, protein: 3.3, fat: 10.1, carbs: 27.9 }
-nutrition_per_100g: { kcal: 110, protein: 1.8, fat: 5.6, carbs: 15.5 }
-cooked_g_est: 180
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 396, protein: 17.1, fat: 25.0, carbs: 30.6 }
+nutrition_per_100g: { kcal: 128, protein: 5.5, fat: 8.1, carbs: 9.9 }
+cooked_g_est: 310
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 391 ккал на порцію, Б/Ж/В 16/25/31 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано листя радичіо (немає у словнику); козячий сир (немає у словнику).

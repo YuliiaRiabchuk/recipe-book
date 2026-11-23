@@ -26,8 +26,8 @@ ingredients:
 photo: img/zapikanka-papiliot-z-biloiu-ryboiu-tomatamy-ta-olyvkamy.jpg
 nutrition_per_serving: { kcal: 313, protein: 35.1, fat: 11.3, carbs: 19.7 }
 nutrition_per_100g: { kcal: 77, protein: 8.6, fat: 2.8, carbs: 4.8 }
-cooked_g_est: 406
-nutrition_status: частковий
+cooked_g_est: 408
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Овочеві запіканки з білком.
 - За даними автора: 313 ккал на порцію, Б/Ж/В 36/13/17 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано італійські трави (немає у словнику).

@@ -22,10 +22,10 @@ ingredients:
   - { name: сіль, qty: 2, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "до смаку" }
 photo: img/iaitsia-po-turetsky-z-chasnykovym-iohurtom-ta-oliieiu-z.jpg
-nutrition_per_serving: { kcal: 385, protein: 26.4, fat: 27.1, carbs: 8.4 }
-nutrition_per_100g: { kcal: 140, protein: 9.6, fat: 9.9, carbs: 3.1 }
-cooked_g_est: 275
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 536, protein: 33.9, fat: 29.2, carbs: 34.0 }
+nutrition_per_100g: { kcal: 159, protein: 10.1, fat: 8.7, carbs: 10.1 }
+cooked_g_est: 336
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Не перегрівай олію з паприкою: паприка швидко підгорає та стає гіркою.
 - За даними автора: 500 ккал на порцію, Б/Ж/В 36/25/34 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано хліб цільнозерновий (немає у словнику); солодка паприка (немає у словнику).

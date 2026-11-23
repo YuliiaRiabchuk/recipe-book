@@ -26,10 +26,10 @@ ingredients:
   - { name: часник, qty: 1, unit: г, note: "для соусу" }
   - { name: кукурудзяний крохмаль, qty: 2, unit: г, note: "для соусу" }
 photo: img/lystky-aisberha-z-kurkoiu-teriiaki-ta-kunzhutom.jpg
-nutrition_per_serving: { kcal: 252, protein: 32.2, fat: 6.2, carbs: 16.7 }
-nutrition_per_100g: { kcal: 103, protein: 13.2, fat: 2.5, carbs: 6.8 }
-cooked_g_est: 244
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 291, protein: 33.0, fat: 9.3, carbs: 19.4 }
+nutrition_per_100g: { kcal: 85, protein: 9.7, fat: 2.7, carbs: 5.7 }
+cooked_g_est: 342
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Розділ книги: Листки салату, норі та спрінг-роли.
 - За даними автора: 269 ккал на порцію, Б/Ж/В 31/9/17 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано листя салату айсберг (немає у словнику); кунжутна олія (немає у словнику); рисовий оцет (немає у словнику).

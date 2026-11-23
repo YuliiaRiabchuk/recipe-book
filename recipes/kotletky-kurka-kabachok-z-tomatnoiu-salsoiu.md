@@ -23,10 +23,10 @@ ingredients:
   - { name: лимонний сік, qty: 5, unit: г, note: "1 ч.л." }
   - { name: зелень, qty: 5, unit: г, note: "" }
 photo: img/kotletky-kurka-kabachok-z-tomatnoiu-salsoiu.jpg
-nutrition_per_serving: { kcal: 193, protein: 10.6, fat: 10.8, carbs: 16.3 }
-nutrition_per_100g: { kcal: 48, protein: 2.6, fat: 2.7, carbs: 4.0 }
-cooked_g_est: 405
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 433, protein: 50.9, fat: 14.9, carbs: 27.1 }
+nutrition_per_100g: { kcal: 79, protein: 9.3, fat: 2.7, carbs: 4.9 }
+cooked_g_est: 548
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Квашені помідори (80 г) зроблять смак яскравішим і «рестораннішим»: це легкий низькокалорійний акомпанемент до котлет.
 - За даними автора: 512 ккал на порцію, Б/Ж/В 42/26/26 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фарш курячий (немає у словнику); панірувальні сухарі (немає у словнику).

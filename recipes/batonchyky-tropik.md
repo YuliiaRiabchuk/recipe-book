@@ -16,10 +16,10 @@ ingredients:
   - { name: кокосова стружка, qty: 60, unit: г, note: "" }
   - { name: мед, qty: 100, unit: г, note: "або сироп еритритолу" }
 photo: img/batonchyky-tropik.jpg
-nutrition_per_serving: { kcal: 122, protein: 2.6, fat: 4.3, carbs: 19.3 }
-nutrition_per_100g: { kcal: 405, protein: 8.5, fat: 14.4, carbs: 64.4 }
-cooked_g_est: 360
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 154, protein: 2.6, fat: 4.3, carbs: 27.6 }
+nutrition_per_100g: { kcal: 384, protein: 6.5, fat: 10.8, carbs: 69.0 }
+cooked_g_est: 480
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -35,4 +35,3 @@ added: 2026-11-15
 - Розділ книги: Енергетичні батончики.
 - За даними автора: 138 ккал на порцію, Б/Ж/В 3.7/4.5/22.1 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сушений ананас (немає у словнику).

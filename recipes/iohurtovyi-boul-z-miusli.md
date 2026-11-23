@@ -17,10 +17,10 @@ ingredients:
   - { name: насіння чіа, qty: 8, unit: г, note: "" }
   - { name: кориця, qty: 1, unit: г, note: "" }
 photo: img/iohurtovyi-boul-z-miusli.jpg
-nutrition_per_serving: { kcal: 316, protein: 19.7, fat: 12.7, carbs: 33.4 }
-nutrition_per_100g: { kcal: 86, protein: 5.3, fat: 3.5, carbs: 9.1 }
-cooked_g_est: 369
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 451, protein: 22.2, fat: 14.7, carbs: 60.1 }
+nutrition_per_100g: { kcal: 112, protein: 5.5, fat: 3.6, carbs: 14.9 }
+cooked_g_est: 404
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Сніданки країн світу.
 - За даними автора: 507 ккал на порцію, Б/Ж/В 22/25/56 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано мюслі (немає у словнику).

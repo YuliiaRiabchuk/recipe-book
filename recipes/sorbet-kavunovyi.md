@@ -15,10 +15,10 @@ ingredients:
   - { name: сік лайма, qty: 20, unit: мл, note: "" }
   - { name: еритритол, qty: 30, unit: г, note: "" }
 photo: img/sorbet-kavunovyi.jpg
-nutrition_per_serving: { kcal: 1, protein: 0.0, fat: 0.0, carbs: 0.3 }
-nutrition_per_100g: { kcal: 26, protein: 0.4, fat: 0.1, carbs: 8.6 }
-cooked_g_est: 20
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 25, protein: 0.5, fat: 0.1, carbs: 6.4 }
+nutrition_per_100g: { kcal: 28, protein: 0.6, fat: 0.1, carbs: 7.1 }
+cooked_g_est: 450
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Морозиво та сорбети без цукру.
 - За даними автора: 65 ккал на 100 г, Б/Ж/В 0.5/0.2/7.2 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано м'якоть кавуна (немає у словнику); еритритол (немає у словнику).

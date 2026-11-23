@@ -21,10 +21,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/krekery-z-kremom-iz-biloi-kvasoli-ta-pechenymy-tomatamy.jpg
-nutrition_per_serving: { kcal: 38, protein: 0.1, fat: 4.0, carbs: 0.7 }
-nutrition_per_100g: { kcal: 347, protein: 0.8, fat: 36.5, carbs: 6.8 }
-cooked_g_est: 11
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 310, protein: 13.6, fat: 5.4, carbs: 54.4 }
+nutrition_per_100g: { kcal: 134, protein: 5.9, fat: 2.3, carbs: 23.6 }
+cooked_g_est: 231
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Розділ книги: Хрумкі перекуси на крекерах.
 - За даними автора: 395 ккал на порцію, Б/Ж/В 21/7/61 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано гречані крекери (немає у словнику); біла квасоля (немає у словнику); томати черрі (немає у словнику); розмарин (немає у словнику).

@@ -21,10 +21,10 @@ ingredients:
   - { name: перець, qty: null, unit: "", note: "за смаком" }
   - { name: орегано, qty: null, unit: "", note: "за смаком" }
 photo: img/fritata-z-pertsem-tomatamy-hrybamy-i-motsareloiu.jpg
-nutrition_per_serving: { kcal: 477, protein: 32.0, fat: 33.7, carbs: 14.6 }
-nutrition_per_100g: { kcal: 117, protein: 7.8, fat: 8.3, carbs: 3.6 }
-cooked_g_est: 408
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 499, protein: 32.7, fat: 34.2, carbs: 19.0 }
+nutrition_per_100g: { kcal: 105, protein: 6.9, fat: 7.2, carbs: 4.0 }
+cooked_g_est: 476
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Роби одразу кілька порцій в одній ємності, якщо готуєш для кількох людей чи собі на потім: так економиш час.
 - За даними автора: 512 ккал на порцію, Б/Ж/В 34/37/18 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано помідори чері (немає у словнику).

@@ -23,10 +23,10 @@ ingredients:
   - { name: ваніль, qty: 1, unit: г, note: "" }
   - { name: сіль, qty: 0.5, unit: г, note: "" }
 photo: img/kinoa-z-iohurtom-hrusheiu-ta-rodzynkamy-myhdal.jpg
-nutrition_per_serving: { kcal: 461, protein: 18.5, fat: 20.4, carbs: 58.0 }
-nutrition_per_100g: { kcal: 130, protein: 5.2, fat: 5.8, carbs: 16.4 }
-cooked_g_est: 354
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 682, protein: 26.9, fat: 24.1, carbs: 96.5 }
+nutrition_per_100g: { kcal: 98, protein: 3.9, fat: 3.5, carbs: 13.9 }
+cooked_g_est: 696
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -42,4 +42,3 @@ added: 2026-11-15
 - Варіація: замість родзинок курага, нарізана кубиком 5 мм.
 - За даними автора: 682 ккал на порцію, Б/Ж/В 26/24/97 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано кіноа (немає у словнику); вода для кіноа (немає у словнику); ваніль (немає у словнику).

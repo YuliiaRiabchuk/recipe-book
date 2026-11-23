@@ -20,10 +20,10 @@ ingredients:
   - { name: зелень, qty: 10, unit: г, note: "" }
   - { name: чорний перець, qty: 1, unit: г, note: "" }
 photo: img/nimetskyi-snidanok-light.jpg
-nutrition_per_serving: { kcal: 244, protein: 25.0, fat: 12.3, carbs: 9.0 }
-nutrition_per_100g: { kcal: 81, protein: 8.3, fat: 4.1, carbs: 3.0 }
-cooked_g_est: 301
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 425, protein: 31.0, fat: 14.6, carbs: 42.8 }
+nutrition_per_100g: { kcal: 115, protein: 8.4, fat: 3.9, carbs: 11.5 }
+cooked_g_est: 371
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Розділ книги: Сніданки країн світу.
 - За даними автора: 394 ккал на порцію, Б/Ж/В 35/13/34 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано житній хліб (немає у словнику).

@@ -26,10 +26,11 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/caesar-mcmuffin-z-kotletkoiu-z-indychky.jpg
-nutrition_per_serving: { kcal: 110, protein: 9.2, fat: 6.2, carbs: 4.5 }
-nutrition_per_100g: { kcal: 81, protein: 6.8, fat: 4.6, carbs: 3.3 }
-cooked_g_est: 135
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 321, protein: 26.8, fat: 14.0, carbs: 23.8 }
+nutrition_per_100g: { kcal: 123, protein: 10.3, fat: 5.3, carbs: 9.1 }
+cooked_g_est: 261
+nutrition_status: повний
+nutrition_notes: ["фарш з індички: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +46,3 @@ added: 2026-11-15
 - Для кремового жовтка використовуй пастеризоване яйце.
 - За даними автора: 360 ккал на порцію, Б/Ж/В 30/14/25 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано цільнозерновий англійський мафін (немає у словнику); фарш з індички (немає у словнику); сир чедер (немає у словнику); салат латук (немає у словнику); діжонська гірчиця (немає у словнику).

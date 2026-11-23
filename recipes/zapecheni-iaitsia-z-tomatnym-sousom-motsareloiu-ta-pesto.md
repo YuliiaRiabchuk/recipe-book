@@ -25,10 +25,10 @@ ingredients:
   - { name: сушений часник, qty: 1, unit: г, note: "" }
   - { name: чилі пластівці, qty: 0.3, unit: г, note: "" }
 photo: img/zapecheni-iaitsia-z-tomatnym-sousom-motsareloiu-ta-pesto.jpg
-nutrition_per_serving: { kcal: 394, protein: 25.4, fat: 30.2, carbs: 4.4 }
-nutrition_per_100g: { kcal: 205, protein: 13.2, fat: 15.7, carbs: 2.3 }
-cooked_g_est: 192
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 531, protein: 31.7, fat: 31.6, carbs: 31.6 }
+nutrition_per_100g: { kcal: 138, protein: 8.3, fat: 8.2, carbs: 8.2 }
+cooked_g_est: 384
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -44,4 +44,3 @@ added: 2026-11-15
 - Замість пасати можна взяти дрібно нарізані помідори; підійдуть і мариновані, якщо не надто солоні.
 - За даними автора: 550 ккал на порцію, Б/Ж/В 32/35/27 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано пасата (немає у словнику); хліб цільнозерновий (немає у словнику); сушений часник (немає у словнику); чилі пластівці (немає у словнику).

@@ -23,11 +23,10 @@ ingredients:
   - { name: часник, qty: 4, unit: г, note: "" }
   - { name: петрушка, qty: 10, unit: г, note: "" }
 photo: img/baklazhan-tomat-chasnyk-z-zelenniu.jpg
-nutrition_per_serving: { kcal: 105, protein: 1.1, fat: 7.8, carbs: 8.9 }
-nutrition_per_100g: { kcal: 113, protein: 1.2, fat: 8.4, carbs: 9.6 }
-cooked_g_est: 93
-nutrition_status: частковий
-nutrition_notes: ["олія для смаження: враховано 8 г із 10 г"]
+nutrition_per_serving: { kcal: 249, protein: 6.5, fat: 11.2, carbs: 36.9 }
+nutrition_per_100g: { kcal: 44, protein: 1.1, fat: 2.0, carbs: 6.4 }
+cooked_g_est: 572
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +44,3 @@ added: 2026-11-15
 - Баклажан завжди спочатку обсмажуємо: так він дає «м’ясну» текстуру й глибший смак.
 - За даними автора: 265 ккал на порцію, Б/Ж/В 7/12/38 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано баклажан (немає у словнику); томати (немає у словнику); петрушка (немає у словнику).

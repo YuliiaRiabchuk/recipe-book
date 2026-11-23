@@ -23,10 +23,10 @@ ingredients:
   - { name: соєвий соус, qty: 5, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/sinhapurskyi-kaya-toast-set-iz-hrusheiu.jpg
-nutrition_per_serving: { kcal: 259, protein: 10.0, fat: 16.9, carbs: 18.6 }
-nutrition_per_100g: { kcal: 152, protein: 5.9, fat: 9.9, carbs: 10.9 }
-cooked_g_est: 170
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 394, protein: 14.7, fat: 18.7, carbs: 43.2 }
+nutrition_per_100g: { kcal: 179, protein: 6.7, fat: 8.5, carbs: 19.6 }
+cooked_g_est: 220
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -40,4 +40,3 @@ added: 2026-11-15
 ## Поради
 - За даними автора: 359 ккал на порцію, Б/Ж/В 17/15/40 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано тостовий хліб (немає у словнику).

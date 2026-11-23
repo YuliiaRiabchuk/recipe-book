@@ -22,10 +22,10 @@ ingredients:
   - { name: лимонний сік, qty: 0.5, unit: ч.л., note: "за бажанням" }
   - { name: діжонська гірчиця, qty: 0.5, unit: ч.л., note: "за бажанням" }
 photo: img/iaitsia-pashot-na-tosti-z-krem-syrom.jpg
-nutrition_per_serving: { kcal: 379, protein: 20.3, fat: 23.1, carbs: 22.0 }
-nutrition_per_100g: { kcal: 202, protein: 10.8, fat: 12.3, carbs: 11.7 }
-cooked_g_est: 188
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 412, protein: 21.6, fat: 23.6, carbs: 29.4 }
+nutrition_per_100g: { kcal: 141, protein: 7.4, fat: 8.1, carbs: 10.1 }
+cooked_g_est: 292
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Хлібні сніданки.
 - За даними автора: 439 ккал на порцію, Б/Ж/В 21/20/44 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано овочі до подачі (немає у словнику); сушена цибуля (немає у словнику); діжонська гірчиця (немає у словнику).

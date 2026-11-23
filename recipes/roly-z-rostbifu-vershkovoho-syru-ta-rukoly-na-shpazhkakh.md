@@ -20,10 +20,10 @@ ingredients:
   - { name: лимонний сік, qty: 4, unit: г, note: "" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/roly-z-rostbifu-vershkovoho-syru-ta-rukoly-na-shpazhkakh.jpg
-nutrition_per_serving: { kcal: 19, protein: 1.2, fat: 0.3, carbs: 3.9 }
-nutrition_per_100g: { kcal: 18, protein: 1.2, fat: 0.3, carbs: 3.8 }
-cooked_g_est: 104
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 237, protein: 29.7, fat: 7.5, carbs: 13.7 }
+nutrition_per_100g: { kcal: 84, protein: 10.5, fat: 2.6, carbs: 4.8 }
+cooked_g_est: 283
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -36,4 +36,3 @@ added: 2026-11-15
 - Розділ книги: Перекуси на шпажках.
 - За даними автора: 236 ккал на порцію, Б/Ж/В 29/7/18 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано ростбіф (немає у словнику); вершковий сир (немає у словнику); в'ялені томати (немає у словнику); діжонська гірчиця (немає у словнику).

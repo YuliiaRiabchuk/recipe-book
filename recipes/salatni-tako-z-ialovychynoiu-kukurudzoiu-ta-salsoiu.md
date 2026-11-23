@@ -26,10 +26,10 @@ ingredients:
   - { name: сіль, qty: null, unit: "", note: "за смаком" }
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
 photo: img/salatni-tako-z-ialovychynoiu-kukurudzoiu-ta-salsoiu.jpg
-nutrition_per_serving: { kcal: 366, protein: 28.5, fat: 22.8, carbs: 13.4 }
-nutrition_per_100g: { kcal: 164, protein: 12.8, fat: 10.2, carbs: 6.0 }
-cooked_g_est: 223
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 399, protein: 30.2, fat: 23.1, carbs: 20.7 }
+nutrition_per_100g: { kcal: 101, protein: 7.6, fat: 5.9, carbs: 5.2 }
+cooked_g_est: 395
+nutrition_status: повний
 nutrition_notes: ["яловичий фарш: −20 % жиру (стікає)"]
 status: спробувати
 rating: null
@@ -43,4 +43,3 @@ added: 2026-11-15
 - Розділ книги: Листки салату, норі та спрінг-роли.
 - За даними автора: 413 ккал на порцію, Б/Ж/В 29/27/17 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано листя салату айсберг (немає у словнику); томати (немає у словнику); червона цибуля (немає у словнику); копчена паприка (немає у словнику); мелений кумин (немає у словнику).

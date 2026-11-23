@@ -25,10 +25,10 @@ ingredients:
   - { name: лимон, qty: 15, unit: г, note: "" }
   - { name: зелень, qty: 6, unit: г, note: "" }
 photo: img/sochevychnyi-sup-indychka-rahu.jpg
-nutrition_per_serving: { kcal: 314, protein: 39.7, fat: 9.7, carbs: 16.5 }
-nutrition_per_100g: { kcal: 57, protein: 7.2, fat: 1.8, carbs: 3.0 }
-cooked_g_est: 551
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 561, protein: 56.2, fat: 10.8, carbs: 62.3 }
+nutrition_per_100g: { kcal: 70, protein: 7.0, fat: 1.3, carbs: 7.8 }
+cooked_g_est: 801
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -45,4 +45,3 @@ added: 2026-11-15
 - Це не «суп-вода», а густе рагу в мисці: так і має бути.
 - За даними автора: 571 ккал на порцію, Б/Ж/В 57/11/62 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано червона сочевиця (немає у словнику); томати (немає у словнику).

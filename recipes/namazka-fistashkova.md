@@ -15,10 +15,10 @@ ingredients:
   - { name: густий йогурт, qty: 80, unit: г, note: "3 %" }
   - { name: еритритол, qty: 20, unit: г, note: "" }
 photo: img/namazka-fistashkova.jpg
-nutrition_per_serving: { kcal: 13, protein: 1.2, fat: 0.7, carbs: 0.5 }
-nutrition_per_100g: { kcal: 97, protein: 9.0, fat: 5.0, carbs: 4.0 }
-cooked_g_est: 80
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 153, protein: 6.2, fat: 12.0, carbs: 7.3 }
+nutrition_per_100g: { kcal: 367, protein: 15.0, fat: 28.8, carbs: 17.6 }
+cooked_g_est: 250
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Топінги та креми.
 - За даними автора: 355 ккал на 100 г, Б/Ж/В 13.3/28/18.1 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано фісташки (немає у словнику); еритритол (немає у словнику).

@@ -17,10 +17,10 @@ ingredients:
   - { name: "м'ята", qty: null, unit: "", note: "кілька листочків" }
   - { name: лимонна цедра, qty: 2, unit: г, note: "" }
 photo: img/iahidne-parfe.jpg
-nutrition_per_serving: { kcal: 246, protein: 19.2, fat: 10.7, carbs: 19.9 }
-nutrition_per_100g: { kcal: 82, protein: 6.4, fat: 3.6, carbs: 6.6 }
-cooked_g_est: 300
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 247, protein: 19.2, fat: 10.7, carbs: 20.2 }
+nutrition_per_100g: { kcal: 82, protein: 6.4, fat: 3.5, carbs: 6.7 }
+cooked_g_est: 302
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Десерти без запікання.
 - За даними автора: 430 ккал на порцію, Б/Ж/В 19.5/21/40.5 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано лимонна цедра (немає у словнику).

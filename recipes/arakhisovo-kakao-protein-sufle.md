@@ -18,10 +18,10 @@ ingredients:
   - { name: арахісова паста, qty: 15, unit: г, note: "" }
   - { name: підсолоджувач, qty: null, unit: "", note: "за смаком" }
 photo: img/arakhisovo-kakao-protein-sufle.jpg
-nutrition_per_serving: { kcal: 112, protein: 5.3, fat: 9.1, carbs: 9.1 }
-nutrition_per_100g: { kcal: 511, protein: 24.1, fat: 41.2, carbs: 41.5 }
-cooked_g_est: 22
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 212, protein: 24.9, fat: 10.2, carbs: 12.0 }
+nutrition_per_100g: { kcal: 279, protein: 32.8, fat: 13.4, carbs: 15.7 }
+cooked_g_est: 76
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Десерти з протеїном.
 - За даними автора: 343 ккал на порцію, Б/Ж/В 38.7/12/18.7 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано протеїн (немає у словнику); йогурт густий (немає у словнику).

@@ -17,10 +17,10 @@ ingredients:
   - { name: молоко, qty: 60, unit: мл, note: "1,5% або рослинне питво; 60–80 мл" }
   - { name: какао-нібси, qty: 5, unit: г, note: "для подачі" }
 photo: img/shokoladnyi-kazein-mus.jpg
-nutrition_per_serving: { kcal: 41, protein: 3.0, fat: 1.9, carbs: 5.8 }
-nutrition_per_100g: { kcal: 64, protein: 4.6, fat: 2.9, carbs: 8.9 }
-cooked_g_est: 65
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 326, protein: 43.8, fat: 11.4, carbs: 14.1 }
+nutrition_per_100g: { kcal: 130, protein: 17.5, fat: 4.6, carbs: 5.7 }
+cooked_g_est: 250
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -34,4 +34,3 @@ added: 2026-11-15
 - Розділ книги: Муси і креми в склянках.
 - За даними автора: 341 ккал на порцію, Б/Ж/В 45/12/14 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано казеїн шоколадний (немає у словнику); мʼякий кисломолочний сир (немає у словнику); какао-нібси (немає у словнику).

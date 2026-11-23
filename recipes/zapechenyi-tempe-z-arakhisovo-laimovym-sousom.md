@@ -25,10 +25,10 @@ ingredients:
   - { name: мед, qty: 4, unit: г, note: "для соусу" }
   - { name: імбир, qty: 1, unit: г, note: "для соусу" }
 photo: img/zapechenyi-tempe-z-arakhisovo-laimovym-sousom.jpg
-nutrition_per_serving: { kcal: 196, protein: 6.6, fat: 14.9, carbs: 12.5 }
-nutrition_per_100g: { kcal: 143, protein: 4.8, fat: 10.9, carbs: 9.1 }
-cooked_g_est: 137
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 445, protein: 32.9, fat: 29.0, carbs: 22.4 }
+nutrition_per_100g: { kcal: 167, protein: 12.3, fat: 10.9, carbs: 8.4 }
+cooked_g_est: 267
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -41,4 +41,3 @@ added: 2026-11-15
 - Розділ книги: Ситні білкові перекуси.
 - За даними автора: 450 ккал на порцію, Б/Ж/В 32/28/17 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано темпе (немає у словнику); копчена паприка (немає у словнику).

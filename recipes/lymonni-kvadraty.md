@@ -19,10 +19,10 @@ ingredients:
   - { name: цедра лимона, qty: 5, unit: г, note: "" }
   - { name: кукурудзяний крохмаль, qty: 10, unit: г, note: "" }
 photo: img/lymonni-kvadraty.jpg
-nutrition_per_serving: { kcal: 17, protein: 1.1, fat: 0.8, carbs: 1.4 }
-nutrition_per_100g: { kcal: 113, protein: 7.3, fat: 5.5, carbs: 9.2 }
-cooked_g_est: 178
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 109, protein: 3.7, fat: 9.2, carbs: 3.0 }
+nutrition_per_100g: { kcal: 324, protein: 11.1, fat: 27.4, carbs: 8.9 }
+cooked_g_est: 403
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -37,4 +37,3 @@ added: 2026-11-15
 - Розділ книги: Десерти з підсолоджувачем.
 - За даними автора: 104 ккал на порцію, Б/Ж/В 2.9/8.8/2.3 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано борошно мигдальне (немає у словнику); масло вершкове (немає у словнику); еритритол (немає у словнику).

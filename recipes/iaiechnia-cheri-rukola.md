@@ -19,10 +19,10 @@ ingredients:
   - { name: перець чорний, qty: 1, unit: г, note: "" }
   - { name: лимон, qty: 10, unit: г, note: "" }
 photo: img/iaiechnia-cheri-rukola.jpg
-nutrition_per_serving: { kcal: 220, protein: 13.9, fat: 16.9, carbs: 3.2 }
-nutrition_per_100g: { kcal: 129, protein: 8.2, fat: 9.9, carbs: 1.9 }
-cooked_g_est: 170
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 268, protein: 15.4, fat: 18.0, carbs: 13.2 }
+nutrition_per_100g: { kcal: 83, protein: 4.8, fat: 5.6, carbs: 4.1 }
+cooked_g_est: 323
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Секрет ніжної яєчні: нижчий вогонь і кришка наприкінці на пів хвилини.
 - За даними автора: 285 ккал на порцію, Б/Ж/В 16/20/14 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано томати черрі (немає у словнику).

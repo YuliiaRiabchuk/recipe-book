@@ -28,10 +28,10 @@ ingredients:
   - { name: чорний перець, qty: null, unit: "", note: "за смаком" }
   - { name: кмин, qty: null, unit: "", note: "за смаком" }
 photo: img/boul-z-nutom-pechenym-harbuzom-i-takhini.jpg
-nutrition_per_serving: { kcal: 457, protein: 20.9, fat: 14.3, carbs: 70.3 }
-nutrition_per_100g: { kcal: 79, protein: 3.6, fat: 2.5, carbs: 12.1 }
-cooked_g_est: 579
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 533, protein: 22.2, fat: 21.9, carbs: 71.8 }
+nutrition_per_100g: { kcal: 89, protein: 3.7, fat: 3.7, carbs: 12.0 }
+cooked_g_est: 598
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -46,4 +46,3 @@ added: 2026-11-15
 - Розділ книги: Салати-боули.
 - За даними автора: 537 ккал на порцію, Б/Ж/В 21/26/71 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано петрушка (немає у словнику); копчена паприка (немає у словнику); соняшникова олія (немає у словнику); смажене насіння соняшнику (немає у словнику).

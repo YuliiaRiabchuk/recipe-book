@@ -21,10 +21,10 @@ ingredients:
   - { name: імбир, qty: 0.2, unit: г, note: "мелений" }
   - { name: сіль, qty: 1, unit: дрібка, note: "" }
 photo: img/manhovo-kokosovi-kulky-z-kurkumoiu.jpg
-nutrition_per_serving: { kcal: 394, protein: 10.2, fat: 27.7, carbs: 31.3 }
-nutrition_per_100g: { kcal: 481, protein: 12.4, fat: 33.8, carbs: 38.1 }
-cooked_g_est: 82
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 685, protein: 12.7, fat: 38.1, carbs: 81.9 }
+nutrition_per_100g: { kcal: 439, protein: 8.1, fat: 24.4, carbs: 52.5 }
+cooked_g_est: 156
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -38,4 +38,3 @@ added: 2026-11-15
 - Додатково потрібно 30 хв на охолодження.
 - За даними автора: 690 ккал на порцію, Б/Ж/В 13/38/81 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сушене манго (немає у словнику); кокосова паста (немає у словнику).

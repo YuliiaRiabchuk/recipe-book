@@ -19,10 +19,10 @@ ingredients:
   - { name: оливкова олія, qty: 3, unit: мл, note: "" }
   - { name: сіль, qty: 1, unit: г, note: "" }
 photo: img/beigl-iz-tomatom-i-bazylikom.jpg
-nutrition_per_serving: { kcal: 225, protein: 5.7, fat: 3.3, carbs: 42.0 }
-nutrition_per_100g: { kcal: 250, protein: 6.3, fat: 3.7, carbs: 46.7 }
-cooked_g_est: 90
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 245, protein: 6.5, fat: 4.5, carbs: 44.3 }
+nutrition_per_100g: { kcal: 250, protein: 6.7, fat: 4.6, carbs: 45.2 }
+cooked_g_est: 98
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -39,4 +39,3 @@ added: 2026-11-15
 - Порція 100 г: 239 ккал. Приготування 1 год 9 хв, випікання 19 хв.
 - За даними автора: 239 ккал на 100 г, Б/Ж/В 7.2/4.1/43.1 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано сухі томати (немає у словнику); дріжджі сухі (немає у словнику).

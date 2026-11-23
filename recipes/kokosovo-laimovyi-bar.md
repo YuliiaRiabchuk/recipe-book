@@ -16,10 +16,10 @@ ingredients:
   - { name: лайм, qty: 1, unit: шт, note: "сік і цедра" }
   - { name: кокосове молоко, qty: 60, unit: мл, note: "17%" }
 photo: img/kokosovo-laimovyi-bar.jpg
-nutrition_per_serving: { kcal: 230, protein: 2.4, fat: 22.5, carbs: 8.6 }
-nutrition_per_100g: { kcal: 298, protein: 3.1, fat: 29.3, carbs: 11.2 }
-cooked_g_est: 154
-nutrition_status: частковий
+nutrition_per_serving: { kcal: 300, protein: 18.0, fat: 22.9, carbs: 9.9 }
+nutrition_per_100g: { kcal: 309, protein: 18.6, fat: 23.6, carbs: 10.2 }
+cooked_g_est: 194
+nutrition_status: повний
 status: спробувати
 rating: null
 added: 2026-11-15
@@ -33,4 +33,3 @@ added: 2026-11-15
 - Розділ книги: Батончики і бари.
 - За даними автора: 595 ккал на порцію, Б/Ж/В 34/46/20 г.
 ## Мої нотатки
-> КБЖВ частковий: не пораховано казеїн ванільний (немає у словнику).
