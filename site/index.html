@@ -429,6 +429,14 @@ ul.log li:first-child { border-top: 0; }
 .day h3 { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 8px; margin: 0 2px 8px; font-size: 17px; }
 .day h3 .d { color: var(--muted); font-weight: 400; font-size: 14px; }
 .day h3 .k { margin-left: auto; font-weight: 400; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.day h3 .k b { font-weight: 600; color: var(--text); }
+.day h3 .k .ok { color: var(--ok); }
+.day h3 .k .off { color: var(--warn); font-weight: 600; }
+.goal { display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 10px; margin-top: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
+.goal label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
+.goal input { height: 40px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); padding: 0 10px; font-size: 16px; min-width: 0; font-variant-numeric: tabular-nums; }
+.goal .goal-hint { grid-column: 1 / -1; font-size: 13px; color: var(--muted); margin: 0; }
+.goal .goal-hint .off { color: var(--warn); }
 .day.today h3 > span:first-child { color: var(--accent); }
 ul.mday { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 ul.mday > li { display: grid; grid-template-columns: 70px minmax(0, 1fr) 44px; gap: 4px 8px; align-items: center; padding: 8px 4px 8px 14px; border-top: 1px solid var(--line); min-height: 60px; }
@@ -1687,7 +1695,12 @@ ul.ings li > span:first-child { min-width: 0; }
   var DAYS = ['Понеділок', 'Вівторок', 'Середа', 'Четвер', 'Пʼятниця', 'Субота', 'Неділя'];
   var DAYS_SHORT = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Нд'];
   var MEALS = ['Сніданок', 'Обід', 'Вечеря'];
-  var MEAL_CATS = [['сніданки'], ['супи', 'основні', 'салати'], ['основні', 'салати', 'закуски']];
+  var MEAL_CATS = [['сніданки'], ['супи', 'основні', 'салати'], ['основні', 'салати']];
+  // частка денних калорій на прийом їжі (SPEC.md, етап 2): сніданок ~30 %, обід ~40 %, вечеря ~30 %
+  var MEAL_SHARE = [0.3, 0.4, 0.3];
+  var WEEKEND_MAX = 90;  // хв у вихідні
+  var PLAN_SKIP_TAGS = ['святкове', 'на-вихідні', 'великдень'];
+  var PORTION_MIN = 0.75, PORTION_MAX = 1.5;
   var WEEKDAY_MAX = 40;  // хв у будні; рецепти без указаного часу вважаються такими, що вкладаються
   function mondayOf(d) {
     var x = new Date(d.getFullYear(), d.getMonth(), d.getDate());
@@ -1697,6 +1710,11 @@ ul.ings li > span:first-child { min-width: 0; }
   function emptyCells() { return DAYS.map(function () { return [null, null, null]; }); }
   var menu = loadKey('weekMenu', null, function (v) { return isObj(v) && Array.isArray(v.cells) && v.cells.length === 7; });
   if (!menu) menu = { start: mondayOf(new Date()), people: 2, cells: emptyCells(), fallback: 0, short: 0 };
+  // ціль на одну людину на день; за замовчуванням — SPEC.md (60 кг, 1500 ккал, білок 1,2–1,4 г/кг)
+  var GOAL_DEF = { kcal: 1500, protein: 78, fat: 55, carbs: 170 };
+  if (!isObj(menu.goal)) menu.goal = {};
+  ['kcal', 'protein', 'fat', 'carbs'].forEach(function (k) { menu.goal[k] = clampInt(menu.goal[k], 0, 9999, GOAL_DEF[k]); });
+  if (!menu.goal.kcal) menu.goal.kcal = GOAL_DEF.kcal;
   if (!ISO_RE.test(menu.start)) menu.start = mondayOf(new Date());
   menu.people = clampInt(menu.people, 1, SERV_MAX, 2);
   menu.fallback = clampInt(menu.fallback, 0, 21, 0); menu.short = clampInt(menu.short, 0, 21, 0);
@@ -1704,7 +1722,9 @@ ul.ings li > span:first-child { min-width: 0; }
   menu.cells = menu.cells.map(function (day) {
     return [0, 1, 2].map(function (m) {
       var c = Array.isArray(day) ? day[m] : null;
-      return isObj(c) && typeof c.id === 'string' ? { id: c.id, servings: clampInt(c.servings, 1, SERV_MAX, menu.people), pinned: !!c.pinned } : null;
+      if (!isObj(c) || typeof c.id !== 'string') return null;
+      var pt = Math.min(2, Math.max(0.5, Math.round((+c.portion || 1) * 4) / 4));
+      return { id: c.id, servings: clampInt(c.servings, 1, SERV_MAX, menu.people), pinned: !!c.pinned, portion: pt };
     });
   });
   var menuUi = { open: null, mode: null, q: '', msg: '' };
@@ -1720,9 +1740,71 @@ ul.ings li > span:first-child { min-width: 0; }
     return n;
   }
   function isTry(r) { return effStatus(r) === 'спробувати'; }
+  // прості щоденні страви з повним КБЖВ: без святкових, багатоетапних і «не сподобалось», у будні до 40 хв, у вихідні до 90
   function fitsSlot(r, d, m) {
+    var n = r.nutrition_per_serving;
     return MEAL_CATS[m].indexOf(r.category) !== -1 && effStatus(r) !== 'не-сподобалось' &&
-      (d >= 5 || totalTime(r) <= WEEKDAY_MAX);
+      totalTime(r) <= (d >= 5 ? WEEKEND_MAX : WEEKDAY_MAX) &&
+      !(r.tags || []).some(function (x) { return PLAN_SKIP_TAGS.indexOf(x) !== -1; }) && !r.stages &&
+      r.nutrition_status === 'повний' && n && n.kcal > 80 && typeof n.protein === 'number';
+  }
+  // КБЖВ однієї людини за страву з урахуванням порції
+  function cellNut(c) {
+    var r = c && BY_ID[c.id], n = r && r.nutrition_per_serving;
+    if (!n || typeof n.kcal !== 'number') return null;
+    var p = c.portion || 1;
+    return { kcal: n.kcal * p, protein: (n.protein || 0) * p, fat: (n.fat || 0) * p, carbs: (n.carbs || 0) * p, part: r.nutrition_status !== 'повний' };
+  }
+  function portionFor(r, m) {
+    var want = menu.goal.kcal * MEAL_SHARE[m], k = r.nutrition_per_serving.kcal;
+    return Math.min(PORTION_MAX, Math.max(PORTION_MIN, Math.round(want / k * 4) / 4));
+  }
+  function fmtPortion(x) {  // 0.75 → ¾, 1.25 → 1¼
+    var w = Math.floor(x + 1e-9), f = Math.round((x - w) * 4), fr = ['', '¼', '½', '¾'][f] || '';
+    return (w ? String(w) : (fr ? '' : '0')) + fr;
+  }
+  function isFish(r) { return (r.tags || []).indexOf('з-рибою') !== -1; }
+  // оцінка дня: відхилення від цілі (менше — краще); білок не нижче цілі й рівномірно, жир не вище, без солодкого щодня
+  function dayScore(cells, fishNeed) {
+    var g = menu.goal, T = { kcal: 0, protein: 0, fat: 0, carbs: 0 }, s = 0;
+    cells.forEach(function (c) {
+      var n = cellNut(c); if (!n) return;
+      T.kcal += n.kcal; T.protein += n.protein; T.fat += n.fat; T.carbs += n.carbs;
+      if (n.protein < 20) s += 0.15;
+      var r = BY_ID[c.id];
+      if ((r.tags || []).indexOf('хелзі') !== -1) s -= 0.03;
+      if (effStatus(r) === 'улюблене') s -= 0.08; else if (effStatus(r) === 'приготовано') s -= 0.04;
+      if (fishNeed && isFish(r)) s -= 0.1;
+    });
+    s += 3 * Math.abs(T.kcal - g.kcal) / g.kcal;
+    if (g.protein) s += 2 * Math.max(0, g.protein - T.protein) / g.protein + 0.5 * Math.max(0, T.protein - g.protein * 1.3) / g.protein;
+    if (g.fat) s += 1.5 * Math.max(0, T.fat - g.fat) / g.fat + 0.5 * Math.max(0, g.fat * 0.7 - T.fat) / g.fat;
+    if (g.carbs) s += Math.abs(T.carbs - g.carbs) / g.carbs;
+    return s;
+  }
+  function slotPool(d, m, used) {
+    return RECIPES.filter(function (r) { return used.indexOf(r.id) === -1 && fitsSlot(r, d, m); });
+  }
+  function makeCell(r, m, pinned) {
+    var pt = portionFor(r, m);
+    return { id: r.id, portion: pt, servings: Math.max(1, Math.round(menu.people * pt)), pinned: !!pinned };
+  }
+  // день: кілька сотень випадкових комбінацій з пулів, береться найближча до цілі
+  function bestDay(d, fixed, used, fishNeed) {
+    var pools = [0, 1, 2].map(function (m) { return fixed[m] ? null : slotPool(d, m, used); });
+    var best = null, bestS = Infinity;
+    for (var k = 0; k < 400; k++) {
+      var cells = [], ids = [];
+      for (var m = 0; m < 3; m++) {
+        if (fixed[m]) { cells.push(fixed[m]); continue; }
+        var pool = pools[m].filter(function (r) { return ids.indexOf(r.id) === -1; });
+        if (!pool.length) { cells.push(null); continue; }
+        var r = randomOf(pool); ids.push(r.id); cells.push(makeCell(r, m, false));
+      }
+      var sc = dayScore(cells.filter(Boolean), fishNeed) + cells.filter(function (c) { return !c; }).length * 5;
+      if (sc < bestS) { bestS = sc; best = cells; }
+    }
+    return best || [null, null, null];
   }
   function randomOf(list) { return list[Math.floor(Math.random() * list.length)]; }
   function pickWeighted(list) {  // улюблене втричі частіше
@@ -1731,67 +1813,57 @@ ul.ings li > span:first-child { min-width: 0; }
     for (var i = 0; i < list.length; i++) { x -= w[i]; if (x < 0) return list[i]; }
     return list[list.length - 1];
   }
-  // перевірене (приготовано / улюблене) першим; нове — коли просимо або перевіреного бракує
-  function pickFor(d, m, used, wantTry) {
-    var pool = RECIPES.filter(function (r) { return used.indexOf(r.id) === -1 && fitsSlot(r, d, m); });
-    var known = pool.filter(function (r) { return !isTry(r); }), tries = pool.filter(isTry);
-    if (wantTry && tries.length) return randomOf(tries);
-    if (known.length) return pickWeighted(known);
-    return tries.length ? randomOf(tries) : null;
-  }
-  function shuffle(a) {
-    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; }
-    return a;
-  }
-  function triesInMenu(skipD, skipM) {
-    var n = 0;
-    menu.cells.forEach(function (day, d) { day.forEach(function (c, m) { if (c && BY_ID[c.id] && !(d === skipD && m === skipM) && isTry(BY_ID[c.id])) n++; }); });
-    return n;
-  }
   function generateMenu() {
-    var used = [], weekday = [], weekend = [], tries = 0, fallback = 0;
+    var used = [], fish = 0, short = 0;
+    menu.cells.forEach(function (day) { day.forEach(function (c) { if (c && c.pinned && BY_ID[c.id]) { used.push(c.id); if (isFish(BY_ID[c.id])) fish++; } }); });
+    // будні першими: їм потрібні короткі рецепти; риба 2–3 рази на тиждень
     menu.cells.forEach(function (day, d) {
-      day.forEach(function (c, m) {
-        if (c && c.pinned && BY_ID[c.id]) { used.push(c.id); if (isTry(BY_ID[c.id])) tries++; }
-        else { day[m] = null; (d < 5 ? weekday : weekend).push([d, m]); }
+      var fixed = day.map(function (c) { return c && c.pinned && BY_ID[c.id] ? c : null; });
+      var cells = bestDay(d, fixed, used, fish < 3);
+      cells.forEach(function (c, m) {
+        if (!c) { short++; menu.cells[d][m] = null; return; }
+        menu.cells[d][m] = c;
+        if (!fixed[m]) { used.push(c.id); if (isFish(BY_ID[c.id])) fish++; }
       });
     });
-    // будні з обмеженням часу заповнюються першими, щоб їм вистачило коротких рецептів
-    var slots = shuffle(weekday).concat(shuffle(weekend));
-    var quota = Math.max(0, (Math.random() < 0.5 ? 1 : 2) - tries), short = 0;
-    // кожен слот пробується один раз: рецептів замало — клітинка лишається порожньою, без повторів і без циклу
-    slots.forEach(function (s) {
-      var r = pickFor(s[0], s[1], used, quota > 0);
-      if (!r) { short++; return; }
-      if (isTry(r)) { if (quota > 0) quota--; else fallback++; }
-      used.push(r.id);
-      menu.cells[s[0]][s[1]] = { id: r.id, servings: menu.people, pinned: false };
-    });
-    menu.fallback = fallback; menu.short = short;
+    menu.fallback = 0; menu.short = short;
     menu.start = mondayOf(new Date());
     saveMenu();
   }
+  // заміна однієї страви: найкраща під ціль разом з іншими двома стравами дня
   function regenCell(d, m) {
     var c = menu.cells[d][m], used = menuIds();
-    var r = pickFor(d, m, used, triesInMenu(d, m) < 1);
-    if (!r) { menuUi.msg = 'Більше немає рецептів, що підходять сюди. Спробуй «Знайти».'; return; }
-    menu.cells[d][m] = { id: r.id, servings: c ? c.servings : menu.people, pinned: false };
+    var pool = slotPool(d, m, used);
+    if (!pool.length) { menuUi.msg = 'Більше немає рецептів, що підходять сюди. Спробуй «Знайти».'; return; }
+    var others = menu.cells[d].map(function (x, i) { return i === m ? null : x; }).filter(function (x) { return x && BY_ID[x.id]; });
+    var cand = shuffle(pool.slice()).slice(0, 60).map(function (r) {
+      var cell = makeCell(r, m, false);
+      return { cell: cell, s: dayScore(others.concat([cell]), false) + Math.random() * 0.05 };
+    }).sort(function (a, b) { return a.s - b.s; });
+    menu.cells[d][m] = cand[0].cell;
     menuUi.msg = ''; saveMenu();
   }
-  // ккал дня: страви без КБЖВ не рахуються нулем, часткове КБЖВ позначається як неповне
+  // підсумок дня на одну людину проти цілі: ккал ±5 %, білок не нижче 95 %, жир не вище 105 %, вуглеводи ±15 %
   function dayKcal(day) {
-    var sum = 0, has = 0, miss = 0, part = 0;
+    var T = { kcal: 0, protein: 0, fat: 0, carbs: 0 }, has = 0, miss = 0, part = 0, g = menu.goal;
     day.forEach(function (c) {
-      var r = c && BY_ID[c.id]; if (!r) return;
-      var n = r.nutrition_per_serving, k = n && n.kcal;
-      if (typeof k === 'number' && isFinite(k)) { sum += k; has++; if (r.nutrition_status === 'частковий') part++; } else miss++;
+      if (!c || !BY_ID[c.id]) return;
+      var n = cellNut(c);
+      if (!n) { miss++; return; }
+      has++; if (n.part) part++;
+      T.kcal += n.kcal; T.protein += n.protein; T.fat += n.fat; T.carbs += n.carbs;
     });
     if (!has && !miss) return '';
     if (!has) return '<span class="nokcal">без КБЖВ</span>';
+    var mark = function (ok, txt, why) { return '<span class="' + (ok ? 'ok' : 'off') + '"' + (ok ? '' : ' title="' + why + '"') + '>' + txt + '</span>'; };
+    var html = mark(Math.abs(T.kcal - g.kcal) <= g.kcal * 0.05, '<b>' + Math.round(T.kcal) + '</b> ккал', 'ціль ' + g.kcal + ' ккал ±5 %') +
+      ' · ' + mark(!g.protein || T.protein >= g.protein * 0.95, 'Б ' + Math.round(T.protein), 'ціль ≥ ' + g.protein + ' г') +
+      ' · ' + mark(!g.fat || T.fat <= g.fat * 1.05, 'Ж ' + Math.round(T.fat), 'ціль ≤ ' + g.fat + ' г') +
+      ' · ' + mark(!g.carbs || Math.abs(T.carbs - g.carbs) <= g.carbs * 0.15, 'В ' + Math.round(T.carbs), 'ціль ≈ ' + g.carbs + ' г');
     var gaps = [];
     if (miss) gaps.push(miss + ' без КБЖВ');
     if (part) gaps.push(part + ' частково');
-    return (gaps.length ? 'від ' : '≈ ') + Math.round(sum) + ' ккал на людину' + (gaps.length ? ' · <span class="nokcal">неповне: ' + gaps.join(', ') + '</span>' : '');
+    return html + ' на людину' + (gaps.length ? ' · <span class="nokcal">неповне: ' + gaps.join(', ') + '</span>' : '');
   }
   function weekRange() {
     var p = menu.start.split('-'), a = new Date(+p[0], p[1] - 1, +p[2]), b = new Date(+p[0], p[1] - 1, +p[2] + 6);
@@ -1819,9 +1891,9 @@ ul.ings li > span:first-child { min-width: 0; }
     if (r) {
       var t = totalTime(r), bits = [];
       if (t) bits.push('<span' + (d < 5 && t > WEEKDAY_MAX ? ' class="tlong" title="Довше за 40 хв для буднього дня"' : '') + '>⏱ ' + fmtTime(t) + '</span>');
-      bits.push(c.servings + ' ' + plural(c.servings, 'порція', 'порції', 'порцій'));
-      var k = r.nutrition_per_serving && r.nutrition_per_serving.kcal;
-      bits.push(typeof k === 'number' ? k + ' ккал' + (r.nutrition_status === 'частковий' ? '<span class="nokcal" title="КБЖВ неповне">*</span>' : '') : '<span class="nokcal">без КБЖВ</span>');
+      var cn = cellNut(c);
+      bits.push(fmtPortion(c.portion || 1) + ' порц. на людину');
+      bits.push(cn ? Math.round(cn.kcal) + ' ккал · Б ' + Math.round(cn.protein) + (cn.part ? '<span class="nokcal" title="КБЖВ неповне">*</span>' : '') : '<span class="nokcal">без КБЖВ</span>');
       if (isTry(r)) bits.push('<span class="badge new">нове</span>');
       if (c.pinned) bits.push('📌');
       body = '<a href="#' + esc(r.id) + '">' + esc(r.title) + '</a><div class="meta">' + bits.join('<span>·</span>') + '</div>';
@@ -1848,8 +1920,8 @@ ul.ings li > span:first-child { min-width: 0; }
           '<button type="button" class="icon-btn" data-act="search">🔍 Знайти</button>' +
           '<button type="button" class="icon-btn" data-act="move">⇄ Інший день</button>' +
           '<button type="button" class="icon-btn" data-act="pin" aria-pressed="' + c.pinned + '">📌 ' + (c.pinned ? 'Закріплено' : 'Закріпити') + '</button>' +
-          '<span class="servings"><button type="button" data-act="minus" aria-label="Менше порцій"' + (c.servings <= 1 ? ' disabled' : '') + '>−</button><output>' + c.servings + ' ' + plural(c.servings, 'порція', 'порції', 'порцій') + '</output>' +
-          '<button type="button" data-act="plus" aria-label="Більше порцій"' + (c.servings >= SERV_MAX ? ' disabled' : '') + '>+</button></span>' +
+          '<span class="servings"><button type="button" data-act="minus" aria-label="Менша порція"' + ((c.portion || 1) <= 0.5 ? ' disabled' : '') + '>−</button><output>' + fmtPortion(c.portion || 1) + ' на людину' + '</output>' +
+          '<button type="button" data-act="plus" aria-label="Більша порція"' + ((c.portion || 1) >= 2 ? ' disabled' : '') + '>+</button></span>' +
           '<button type="button" class="icon-btn" data-act="clear">✕ Очистити</button>';
       } else {
         acts = '<button type="button" class="icon-btn" data-act="regen">↻ Підібрати</button>' +
@@ -1868,15 +1940,24 @@ ul.ings li > span:first-child { min-width: 0; }
     var bar = '<div class="bar"><div class="wrap row"><button class="icon-btn" id="backBtn">← Назад</button><span style="flex:1"></span>' +
       (n ? '<button class="icon-btn" id="menuShop" aria-pressed="' + cartMenu + '">' + (cartMenu ? '✓ У покупках' : '🛒 Покупки') + '</button>' : '') +
       '<button class="primary" id="menuGen">' + (n ? 'Перескласти' : 'Скласти') + '</button></div></div>';
-    var html = '<article style="max-width:1100px"><h2>Меню на тиждень</h2>';
+    var g = menu.goal, mk = g.protein * 4 + g.fat * 9 + g.carbs * 4, fatPct = g.kcal ? Math.round(g.fat * 9 / g.kcal * 100) : 0;
+    var goalHtml = '<div class="goal" id="goal">' +
+      '<label>Калорії на день<input type="number" inputmode="numeric" min="800" max="5000" step="50" data-goal="kcal" value="' + g.kcal + '"></label>' +
+      '<label>Білки, г<input type="number" inputmode="numeric" min="0" max="400" data-goal="protein" value="' + g.protein + '"></label>' +
+      '<label>Жири, г<input type="number" inputmode="numeric" min="0" max="300" data-goal="fat" value="' + g.fat + '"></label>' +
+      '<label>Вуглеводи, г<input type="number" inputmode="numeric" min="0" max="800" data-goal="carbs" value="' + g.carbs + '"></label>' +
+      '<label>Людей<input type="number" inputmode="numeric" min="1" max="20" id="goalPeople" value="' + menu.people + '"></label>' +
+      '<p class="goal-hint">Ціль на одну людину. Б·Ж·В дають ' + Math.round(mk) + ' ккал' +
+      (Math.abs(mk - g.kcal) > g.kcal * 0.05 ? ' <span class="off">(не збігається з калоріями більш ніж на 5 %)</span>' : '') +
+      ' · жири ' + fatPct + ' % калорій' + (fatPct > 30 ? ' <span class="off">(ВООЗ радить до 30 %)</span>' : '') +
+      ' · <button type="button" class="link-btn" id="goalCarbs" style="padding:0;min-height:0">вуглеводи як залишок</button></p></div>';
+    var html = '<article style="max-width:1100px"><h2>Меню на тиждень</h2>' + goalHtml;
     if (!nAll) {
-      html += '<div class="menu-empty"><p style="margin:0">Меню ще не складене. Страви підберуться з книги: сніданок, обід і вечеря на 7 днів.</p>' +
-        '<p class="menu-note">У будні тільки страви до 40 хв, улюблене трапляється частіше, «не сподобалось» не потрапляє зовсім, нових рецептів 1–2 на тиждень.</p>' +
+      html += '<div class="menu-empty"><p style="margin:0">Меню ще не складене. Під ціль вище підберуться прості щоденні страви з книги: сніданок, обід і вечеря на 7 днів, з масштабуванням порцій.</p>' +
+        '<p class="menu-note">Тільки страви з повним КБЖВ, без святкових і багатоетапних; у будні до 40 хв, у вихідні до 90. Білок рівномірно (від 20 г у кожному прийомі), риба 2–3 рази на тиждень, без повторів за тиждень; улюблене й приготоване мають перевагу, «не сподобалось» не потрапляє.</p>' +
         '<button class="primary" id="menuGen2">Скласти меню</button></div>';
     } else {
       html += '<div class="meta">' + weekRange() + ' · ' + n + ' ' + plural(n, 'страва', 'страви', 'страв') + '</div>' +
-        '<div class="menu-tools"><span class="lbl2">Порцій на страву</span><div class="servings"><button id="pMinus" aria-label="Менше порцій на страву"' + (menu.people <= 1 ? ' disabled' : '') + '>−</button><output>' +
-        menu.people + ' ' + plural(menu.people, 'порція', 'порції', 'порцій') + '</output><button id="pPlus" aria-label="Більше порцій на страву"' + (menu.people >= SERV_MAX ? ' disabled' : '') + '>+</button></div></div>' +
         '<p class="menu-note">«⋯» біля страви: інша страва, пошук, перенесення на інший день, порції. Закріплене 📌 лишається, коли меню перескладаєш.</p>' +
         (menu.fallback ? '<p class="menu-note warn">Перевірених рецептів поки мало, тому нових у меню більше, ніж 1–2: ' +
           triesInMenu(-1, -1) + ' з ' + n + '. Відмічай «готувала» під рецептами, і меню поступово складатиметься з перевіреного.</p>' : '') +
@@ -1901,19 +1982,25 @@ ul.ings li > span:first-child { min-width: 0; }
       generateMenu(); menuUi = { open: null, mode: null, q: '', msg: '' }; renderMenu();
     };
     $('menuGen').onclick = gen;
+    // ціль і кількість людей зберігаються одразу; підсумки днів перераховуються, страви лишаються
+    $('goal').onchange = function (e) {
+      var el = e.target, k = el.getAttribute('data-goal');
+      if (k) menu.goal[k] = clampInt(el.value, k === 'kcal' ? 800 : 0, 9999, menu.goal[k]);
+      else if (el.id === 'goalPeople') {
+        menu.people = clampInt(el.value, 1, 20, menu.people);
+        menu.cells.forEach(function (day) { day.forEach(function (c) { if (c) c.servings = Math.max(1, Math.round(menu.people * (c.portion || 1))); }); });
+      }
+      saveMenu(); renderMenu();
+    };
+    $('goalCarbs').onclick = function () {
+      var g = menu.goal; g.carbs = Math.max(0, Math.round((g.kcal - g.protein * 4 - g.fat * 9) / 4)); saveMenu(); renderMenu();
+    };
     if ($('menuGen2')) $('menuGen2').onclick = gen;
     if ($('menuShop')) $('menuShop').onclick = function () {
       cartMenu = !cartMenu; saveCart();
       if (cartMenu) location.hash = 'cart'; else renderMenu();
     };
     if (!nAll) return;
-    var people = function (dlt) {
-      var p = clampInt(menu.people + dlt, 1, SERV_MAX, menu.people);
-      menu.cells.forEach(function (day) { day.forEach(function (c) { if (c) c.servings = p; }); });
-      menu.people = p; saveMenu(); renderMenu();
-    };
-    $('pMinus').onclick = function () { people(-1); };
-    $('pPlus').onclick = function () { people(1); };
     var days = $('sheet').querySelector('.days');
     days.onclick = function (e) {
       var b = e.target.closest('button'), li = e.target.closest('li[data-cell]');
@@ -1921,7 +2008,8 @@ ul.ings li > span:first-child { min-width: 0; }
       var dm = li.getAttribute('data-cell').split('-'), d = +dm[0], m = +dm[1], key = d + '-' + m, c = menu.cells[d][m];
       var act = b.getAttribute('data-act'), v;
       if ((v = b.getAttribute('data-pick'))) {
-        menu.cells[d][m] = { id: v, servings: c ? c.servings : menu.people, pinned: c ? c.pinned : false };
+        var pr = BY_ID[v], nc = pr && pr.nutrition_per_serving && pr.nutrition_per_serving.kcal ? makeCell(pr, m, c && c.pinned) : { id: v, portion: 1, servings: menu.people, pinned: c ? c.pinned : false };
+        menu.cells[d][m] = nc;
         menuUi.mode = null; menuUi.q = ''; saveMenu(); renderMenu(); return;
       }
       if ((v = b.getAttribute('data-move')) != null && v !== '') {
@@ -1942,8 +2030,10 @@ ul.ings li > span:first-child { min-width: 0; }
       }
       if (act === 'regen') regenCell(d, m);
       else if (act === 'pin' && c) { c.pinned = !c.pinned; saveMenu(); }
-      else if (act === 'minus' && c) { c.servings = Math.max(1, c.servings - 1); saveMenu(); }
-      else if (act === 'plus' && c) { c.servings = Math.min(SERV_MAX, c.servings + 1); saveMenu(); }
+      else if ((act === 'minus' || act === 'plus') && c) {
+        c.portion = Math.min(2, Math.max(0.5, (c.portion || 1) + (act === 'plus' ? 0.25 : -0.25)));
+        c.servings = Math.max(1, Math.round(menu.people * c.portion)); saveMenu();
+      }
       else if (act === 'clear') { menu.cells[d][m] = null; saveMenu(); }
       else return;
       renderMenu();
