@@ -6,6 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 81"
 category: салати
+subcategory: боули й салатні човники
 tags: [вегетаріанське, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }

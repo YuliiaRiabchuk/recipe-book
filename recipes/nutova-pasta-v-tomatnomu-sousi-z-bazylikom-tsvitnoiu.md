@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 70"
 category: основні
-subcategory: паста й локшина
+subcategory: бобові та зернові
 tags: [з-птицею, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }

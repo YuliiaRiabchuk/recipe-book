@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 164"
 category: основні
-subcategory: "котлети, фарш і запіканки"
+subcategory: ситні запечені обіди
 tags: [з-рибою, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 55 }

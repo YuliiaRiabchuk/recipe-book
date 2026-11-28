@@ -6,6 +6,7 @@ source:
   name: допис із соцмереж (автора не вказано), рецепт з майбутньої книги авторки
   ref: ""
 category: супи
+subcategory: крем-супи
 tags: [з-птицею, високобілкове]
 servings: 1
 time: { prep: null, cook: 40 }

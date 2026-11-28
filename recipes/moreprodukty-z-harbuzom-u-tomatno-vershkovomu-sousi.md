@@ -6,7 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 2
   ref: "с. 30"
 category: основні
-subcategory: риба й морепродукти
+subcategory: риба та морепродукти
 tags: [раціон-1550, з-рибою, на-сковороді, легке]
 servings: 1
 time: { prep: null, cook: null }

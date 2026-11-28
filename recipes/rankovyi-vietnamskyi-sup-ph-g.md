@@ -6,6 +6,7 @@ source:
   name: Корисні і смачні сніданки дієтолога (Андрій Маковецький)
   ref: "с. 229"
 category: супи
+subcategory: білкові супи
 tags: [з-птицею, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 35 }

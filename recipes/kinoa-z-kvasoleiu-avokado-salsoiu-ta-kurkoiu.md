@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 65"
 category: основні
-subcategory: "крупи, рис і боули"
+subcategory: бобові та зернові
 tags: [з-птицею, високобілкове, без-лактози, хелзі]
 servings: 1
 time: { prep: null, cook: 40 }

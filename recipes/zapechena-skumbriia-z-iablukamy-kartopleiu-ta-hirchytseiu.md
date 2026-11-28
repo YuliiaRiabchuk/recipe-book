@@ -6,7 +6,7 @@ source:
   name: "слайди з чату, 15.11 (Андрій Маковецький)"
   ref: "photo_2026-11-14_08-30-49 (2).jpg"
 category: основні
-subcategory: риба й морепродукти
+subcategory: ситні запечені обіди
 tags: [з-рибою, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 50 }

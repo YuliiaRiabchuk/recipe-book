@@ -6,6 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 110"
 category: салати
+subcategory: з птицею
 tags: [з-птицею, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }

@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 46"
 category: основні
-subcategory: риба й морепродукти
+subcategory: риба та морепродукти
 tags: [з-рибою, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }

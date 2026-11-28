@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 170"
 category: основні
-subcategory: паста й локшина
+subcategory: ситні запечені обіди
 tags: [з-рибою, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 40 }

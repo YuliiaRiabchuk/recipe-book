@@ -6,7 +6,7 @@ source:
   name: Корисні та смачні вечері. Великий збірник (Андрій Маковецький)
   ref: "с. 31"
 category: основні
-subcategory: мʼясо й птиця
+subcategory: курка та індичка
 tags: [з-птицею, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }

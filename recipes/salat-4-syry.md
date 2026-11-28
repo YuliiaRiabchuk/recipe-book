@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 2
   ref: "с. 27"
 category: салати
+subcategory: легкі овочеві й сирні
 tags: [раціон-1550, вегетаріанське, швидко, високобілкове]
 servings: 1
 time: { prep: null, cook: null }

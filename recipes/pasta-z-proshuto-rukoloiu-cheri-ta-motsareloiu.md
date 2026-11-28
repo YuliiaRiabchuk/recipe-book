@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 125"
 category: основні
-subcategory: паста й локшина
+subcategory: паста й локшина з білком
 tags: [з-мʼясом, швидко, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 15 }

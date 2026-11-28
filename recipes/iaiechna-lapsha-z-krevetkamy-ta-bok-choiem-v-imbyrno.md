@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 139"
 category: основні
-subcategory: паста й локшина
+subcategory: wok і азійська локшина
 tags: [з-рибою, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }

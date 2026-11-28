@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 89"
 category: основні
-subcategory: "крупи, рис і боули"
+subcategory: wok і азійська локшина
 tags: [вегетаріанське, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }

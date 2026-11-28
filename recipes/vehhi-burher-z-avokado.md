@@ -6,7 +6,7 @@ source:
   name: Корисна випічка і десерти (оновлення листопад) (Андрій Маковецький)
   ref: "с. 41"
 category: основні
-subcategory: млинці й роли
+subcategory: млинці, роли й бургери
 tags: [вегетаріанське, гриль, хелзі]
 servings: 1
 time: { prep: null, cook: 19 }

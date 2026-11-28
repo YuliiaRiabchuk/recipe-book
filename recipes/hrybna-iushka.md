@@ -6,6 +6,7 @@ source:
   name: Святкові страви в хелзі виконанні (Андрій Маковецький)
   ref: "с. 26"
 category: супи
+subcategory: білкові супи
 tags: [святкове, хелзі, пісне]
 servings: 1
 cooked_g: 590

@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 1
   ref: "с. 26"
 category: супи
+subcategory: крем-супи
 tags: [раціон-1550, з-птицею, в-духовці, високобілкове]
 servings: 1
 time: { prep: null, cook: null }

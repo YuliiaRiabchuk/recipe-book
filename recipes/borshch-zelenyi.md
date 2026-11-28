@@ -6,6 +6,7 @@ source:
   name: тестовий рецепт
   ref: ""
 category: супи
+subcategory: супи й рагу
 tags: [вегетаріанське, на-вихідні]
 servings: 4
 time: { prep: 15, cook: 40 }

@@ -6,6 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 44"
 category: салати
+subcategory: з рибою й морепродуктами
 tags: [з-рибою, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 45 }

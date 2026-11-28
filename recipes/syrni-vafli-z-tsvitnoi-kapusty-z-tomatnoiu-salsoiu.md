@@ -6,7 +6,7 @@ source:
   name: Кращі перекуси дієтолога (Андрій Маковецький)
   ref: "с. 105"
 category: основні
-subcategory: "котлети, фарш і запіканки"
+subcategory: ситні перекуси
 tags: [перекус, вегетаріанське, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }

@@ -6,7 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 2
   ref: "с. 20"
 category: основні
-subcategory: котлети, фарш і запіканки
+subcategory: ситні запечені обіди
 tags: [раціон-1550, з-птицею, в-духовці, без-глютену]
 servings: 1
 time: { prep: null, cook: null }

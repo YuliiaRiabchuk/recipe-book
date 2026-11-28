@@ -6,6 +6,7 @@ source:
   name: Корисні та смачні вечері. Великий збірник (Андрій Маковецький)
   ref: "с. 130"
 category: супи
+subcategory: крем-супи
 tags: [з-птицею, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 22 }

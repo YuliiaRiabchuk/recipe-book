@@ -6,7 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 3
   ref: "с. 24"
 category: основні
-subcategory: мʼясо й птиця
+subcategory: курка та індичка
 tags: [раціон-1550, з-птицею, на-сковороді, високобілкове]
 servings: 1
 time: { prep: null, cook: null }

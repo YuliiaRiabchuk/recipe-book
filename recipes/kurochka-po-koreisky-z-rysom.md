@@ -6,7 +6,7 @@ source:
   name: ArtDiet, раціон дні 11–14 (картки)
   ref: "Обід 11–12 день"
 category: основні
-subcategory: крупи, рис і боули
+subcategory: wok і азійська локшина
 tags: [раціон-artdiet, з-птицею, на-сковороді]
 servings: 2
 time: { prep: 10, cook: 25 }

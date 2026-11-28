@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 21"
 category: основні
-subcategory: мʼясо й птиця
+subcategory: курка та індичка
 tags: [з-птицею, в-духовці, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 45 }

@@ -6,7 +6,7 @@ source:
   name: "слайди з чату, 15.11 (Андрій Маковецький)"
   ref: "photo_2026-08-15_08-30-16.jpg"
 category: основні
-subcategory: млинці й роли
+subcategory: млинці, роли й бургери
 tags: [вегетаріанське, на-сковороді, перекус, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }

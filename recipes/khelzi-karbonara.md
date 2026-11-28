@@ -6,7 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 4
   ref: "с. 22"
 category: основні
-subcategory: паста й локшина
+subcategory: паста й локшина з білком
 tags: [раціон-1550, хелзі, з-птицею, на-сковороді]
 servings: 1
 time: { prep: null, cook: null }

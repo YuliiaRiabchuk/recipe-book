@@ -6,7 +6,7 @@ source:
   name: Кращі перекуси дієтолога (Андрій Маковецький)
   ref: "с. 206"
 category: основні
-subcategory: млинці й роли
+subcategory: wok і азійська локшина
 tags: [перекус, з-птицею, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }

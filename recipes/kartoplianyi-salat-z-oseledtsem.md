@@ -6,6 +6,7 @@ source:
   name: Vika Korolivska, korolivska1 (Instagram)
   ref: "https://www.instagram.com/p/De10yLvI9_t/"
 category: салати
+subcategory: класичні й шарові
 tags: [з-рибою, легке]
 servings: 2
 time: { prep: null, cook: null }

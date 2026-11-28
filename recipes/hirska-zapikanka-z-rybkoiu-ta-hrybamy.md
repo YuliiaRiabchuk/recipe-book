@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 173"
 category: основні
-subcategory: риба й морепродукти
+subcategory: ситні запечені обіди
 tags: [з-рибою, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 35 }

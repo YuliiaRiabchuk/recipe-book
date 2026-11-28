@@ -6,7 +6,7 @@ source:
   name: Кращі перекуси дієтолога (Андрій Маковецький)
   ref: "с. 26"
 category: основні
-subcategory: мʼясо й птиця
+subcategory: ситні перекуси
 tags: [перекус, з-птицею, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }

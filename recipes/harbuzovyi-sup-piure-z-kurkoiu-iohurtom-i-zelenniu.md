@@ -6,6 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 97"
 category: супи
+subcategory: крем-супи
 tags: [з-птицею, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 40 }

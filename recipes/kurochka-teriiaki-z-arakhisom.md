@@ -6,7 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 1
   ref: "с. 28"
 category: основні
-subcategory: мʼясо й птиця
+subcategory: wok і азійська локшина
 tags: [раціон-1550, з-птицею, на-сковороді, швидко]
 servings: 1
 time: { prep: null, cook: null }

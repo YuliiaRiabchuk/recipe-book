@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 150"
 category: основні
-subcategory: мʼясо й птиця
+subcategory: овочеві запіканки з білком
 tags: [з-птицею, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 35 }

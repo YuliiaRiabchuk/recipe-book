@@ -6,7 +6,7 @@ source:
   name: Кращі перекуси дієтолога (Андрій Маковецький)
   ref: "с. 75"
 category: основні
-subcategory: млинці й роли
+subcategory: ситні перекуси
 tags: [вегетаріанське, в-духовці, перекус, хелзі]
 servings: 1
 time: { prep: null, cook: 35 }

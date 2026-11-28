@@ -6,6 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 104"
 category: супи
+subcategory: крем-супи
 tags: [вегетаріанське, високобілкове, без-лактози, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }

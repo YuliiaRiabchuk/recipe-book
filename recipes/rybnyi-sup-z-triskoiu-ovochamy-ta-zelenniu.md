@@ -6,6 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 101"
 category: супи
+subcategory: білкові супи
 tags: [з-рибою, високобілкове, легке, без-лактози, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }

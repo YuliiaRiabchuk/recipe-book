@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 4
   ref: "с. 19"
 category: супи
+subcategory: білкові супи
 tags: [раціон-1550, з-птицею]
 servings: 1
 time: { prep: null, cook: null }

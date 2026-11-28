@@ -6,7 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 3
   ref: "с. 27"
 category: основні
-subcategory: паста й локшина
+subcategory: wok і азійська локшина
 tags: [раціон-1550, з-мʼясом, на-сковороді]
 servings: 1
 time: { prep: null, cook: null }

@@ -6,7 +6,7 @@ source:
   name: Кращі перекуси дієтолога (Андрій Маковецький)
   ref: "с. 207"
 category: основні
-subcategory: млинці й роли
+subcategory: млинці, роли й бургери
 tags: [перекус, вегетаріанське, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 20 }

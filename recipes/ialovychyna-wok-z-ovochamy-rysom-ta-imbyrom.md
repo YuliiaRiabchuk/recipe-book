@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 26"
 category: основні
-subcategory: мʼясо й птиця
+subcategory: яловичина, телятина й свинина
 tags: [з-мʼясом, на-сковороді, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 35 }

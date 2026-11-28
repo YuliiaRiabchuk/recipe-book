@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 118"
 category: основні
-subcategory: мʼясо й птиця
+subcategory: середземноморські та «кафешні»
 tags: [з-мʼясом, високобілкове, без-лактози, хелзі]
 servings: 1
 time: { prep: null, cook: 75 }

@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 1
   ref: "с. 23"
 category: салати
+subcategory: з рибою й морепродуктами
 tags: [раціон-1550, з-рибою, швидко]
 servings: 1
 time: { prep: null, cook: null }

@@ -6,6 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 144"
 category: супи
+subcategory: крем-супи
 tags: [вегетаріанське, веганське, пісне, легке, на-сковороді, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }

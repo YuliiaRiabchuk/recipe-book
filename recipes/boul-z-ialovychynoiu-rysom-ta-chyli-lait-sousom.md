@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 79"
 category: основні
-subcategory: "крупи, рис і боули"
+subcategory: салати-боули
 tags: [з-мʼясом, на-сковороді, високобілкове, без-лактози, хелзі]
 servings: 1
 time: { prep: null, cook: 30 }

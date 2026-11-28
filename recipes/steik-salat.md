@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 3
   ref: "с. 19"
 category: салати
+subcategory: з птицею
 tags: [раціон-1550, з-птицею, високобілкове]
 servings: 1
 time: { prep: null, cook: null }

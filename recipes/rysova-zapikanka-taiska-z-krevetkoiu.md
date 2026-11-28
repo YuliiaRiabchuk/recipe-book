@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 168"
 category: основні
-subcategory: "крупи, рис і боули"
+subcategory: ситні запечені обіди
 tags: [з-рибою, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 45 }

@@ -6,6 +6,7 @@ source:
   name: ArtDiet, раціон дні 11–14 (картки)
   ref: "Вечеря 11–12 день"
 category: салати
+subcategory: з птицею
 tags: [раціон-artdiet, швидко, з-птицею, легке]
 servings: 1
 time: { prep: 20, cook: null }

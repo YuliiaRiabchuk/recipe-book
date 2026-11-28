@@ -6,6 +6,7 @@ source:
   name: Кращі перекуси дієтолога (Андрій Маковецький)
   ref: "с. 107"
 category: салати
+subcategory: боули й салатні човники
 tags: [перекус, вегетаріанське, хелзі]
 servings: 1
 time: { prep: null, cook: 12 }

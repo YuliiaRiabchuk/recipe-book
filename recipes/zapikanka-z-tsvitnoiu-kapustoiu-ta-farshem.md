@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 159"
 category: основні
-subcategory: "котлети, фарш і запіканки"
+subcategory: овочеві запіканки з білком
 tags: [з-птицею, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 45 }

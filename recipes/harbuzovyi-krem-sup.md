@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 4
   ref: "с. 24"
 category: супи
+subcategory: крем-супи
 tags: [раціон-1550, вегетаріанське, святкове, хелзі]
 servings: 1
 cooked_g: 590

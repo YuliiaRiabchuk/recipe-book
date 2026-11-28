@@ -6,6 +6,7 @@ source:
   name: Раціон 1550 ккал, тиждень 3
   ref: "с. 14"
 category: салати
+subcategory: теплі салати
 tags: [раціон-1550, вегетаріанське]
 servings: 1
 time: { prep: null, cook: null }

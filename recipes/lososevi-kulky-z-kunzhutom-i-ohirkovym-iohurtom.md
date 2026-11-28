@@ -6,7 +6,7 @@ source:
   name: "слайди з чату, 15.11 (Андрій Маковецький)"
   ref: "photo_2026-08-15_08-30-16 (2).jpg"
 category: основні
-subcategory: риба й морепродукти
+subcategory: риба та морепродукти
 tags: [з-рибою, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 25 }

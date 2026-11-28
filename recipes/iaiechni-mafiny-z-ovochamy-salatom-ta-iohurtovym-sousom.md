@@ -6,7 +6,7 @@ source:
   name: Книга обідів (Андрій Маковецький)
   ref: "с. 57"
 category: основні
-subcategory: "котлети, фарш і запіканки"
+subcategory: курка та індичка
 tags: [вегетаріанське, в-духовці, високобілкове, хелзі]
 servings: 1
 time: { prep: null, cook: 40 }
