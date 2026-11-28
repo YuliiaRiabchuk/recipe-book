@@ -141,6 +141,36 @@ a.chip { color: var(--text); }
 .sub-title::after { content: ''; flex: 1; height: 1px; background: var(--line); }
 .sub-title span { font-weight: 600; font-size: 13px; color: var(--muted); background: var(--surface-2); border-radius: 999px; padding: 2px 9px; }
 .sec-head + .sub-title, .sec-head + .group-hint + .sub-title { margin-top: 16px; }
+/* згортання розділів і підрозділів: клік по плашці чи назві підрозділу */
+.sec-head[data-fold], .sub-title[data-fold] { cursor: pointer; user-select: none; }
+.fold-ico { flex: none; width: 30px; height: 30px; border: 0; border-radius: 8px; background: none; color: var(--muted); font-size: 14px; cursor: pointer; transition: transform .2s; display: flex; align-items: center; justify-content: center; padding: 0; }
+.fold-ico:hover { color: var(--accent); }
+.sec-head .fold-ico { margin-left: 4px; }
+.sec-head:not(:has(.sec-up)) .fold-ico { margin-left: auto; }
+.sub-title .fold-ico { order: 3; }
+.folded > .fold-body { display: none; }
+.folded > .sec-head .fold-ico, .folded > .sub-title .fold-ico { transform: rotate(-90deg); }
+.group.sec.folded { margin-bottom: 0; }
+.sub.folded > .sub-title { margin-bottom: 4px; }
+/* кнопка навігації та панель розділів */
+.nav-fab { position: fixed; right: 20px; bottom: calc(24px + env(safe-area-inset-bottom)); z-index: 15; width: 56px; height: 56px; border-radius: 50%; border: 0; background: var(--accent); color: var(--accent-text); font-size: 24px; box-shadow: 0 6px 18px rgba(0, 0, 0, .22); cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.nav-fab:hover { filter: brightness(1.08); }
+.nav-ov { position: fixed; inset: 0; z-index: 44; background: rgba(20, 15, 10, .45); display: flex; justify-content: flex-end; align-items: flex-end; padding: 16px; }
+.nav-ov[hidden] { display: none; }
+.nav-panel { width: min(380px, 100%); max-height: min(78vh, 720px); overflow-y: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); padding: 14px; margin-bottom: 70px; }
+.nav-top { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+.nav-top button { min-height: 40px; white-space: nowrap; border: 1px solid var(--line); background: var(--bg); color: var(--text); border-radius: 10px; font: inherit; font-size: 14px; cursor: pointer; }
+.nav-top button:hover, .nav-sub:hover { border-color: var(--accent); color: var(--accent); }
+.nav-sec { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 44px; padding: 6px 8px; border: 0; background: none; border-radius: 10px; font: inherit; font-size: 16px; font-weight: 700; color: var(--text); text-align: left; cursor: pointer; }
+.nav-sec:hover { background: var(--accent-soft); }
+.nav-sec .n { margin-left: auto; font-size: 13px; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; }
+.nav-subs { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 8px 10px 42px; }
+.nav-sub { border: 1px solid var(--line); background: var(--bg); color: var(--text); border-radius: 999px; padding: 3px 10px; font: inherit; font-size: 13px; min-height: 30px; cursor: pointer; }
+.nav-sub span { color: var(--muted); }
+@media (max-width: 719px) {
+  .nav-fab { right: 14px; bottom: calc(70px + env(safe-area-inset-bottom)); width: 52px; height: 52px; }
+  .nav-ov { padding: 10px; padding-bottom: calc(66px + env(safe-area-inset-bottom)); }
+}
 .guide-list { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 .guide-link { display: flex; gap: 10px; align-items: baseline; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); color: var(--text); text-decoration: none; }
 .guide-link:hover { border-color: var(--accent); }
@@ -273,6 +303,13 @@ b.sq { font-weight: 700; font-variant-numeric: tabular-nums; }
 .qv-body .section { margin-top: 16px; }
 .qv-body .section:first-of-type { margin-top: 12px; }
 .qv-foot { display: flex; gap: 8px; padding: 12px 16px 14px; border-top: 1px solid var(--line); }
+.qv-plan { margin: 0 0 12px; padding: 10px 12px; border-radius: 12px; background: var(--accent-soft); color: var(--text); font-size: 14px; }
+.qv-rep { margin: -4px 0 14px; }
+.qv-rep .lbl3 { font-size: 13px; color: var(--muted); margin: 0 0 6px; }
+.qv-rep .days7 { display: flex; flex-wrap: wrap; gap: 6px; }
+.qv-rep .chip { min-width: 44px; min-height: 40px; justify-content: center; }
+.qv-rep .chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.qv-rep .chip:disabled { opacity: 1; cursor: default; }
 .qv-foot .primary { flex: 1; }
 .qv-foot .icon-btn[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
 @media (min-width: 720px) {
@@ -439,7 +476,17 @@ ul.log li:first-child { border-top: 0; }
 .goal .goal-hint .off { color: var(--warn); }
 .day.today h3 > span:first-child { color: var(--accent); }
 ul.mday { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
-ul.mday > li { display: grid; grid-template-columns: 70px minmax(0, 1fr) 44px; gap: 4px 8px; align-items: center; padding: 8px 4px 8px 14px; border-top: 1px solid var(--line); min-height: 60px; }
+ul.mday > li { display: grid; grid-template-columns: 64px minmax(0, 1fr) 44px; gap: 4px 10px; align-items: center; padding: 8px 6px 8px 10px; border-top: 1px solid var(--line); height: 112px; overflow: hidden; }
+.mthumb { width: 64px; height: 64px; border-radius: 10px; object-fit: cover; display: block; background: var(--surface-2); cursor: pointer; }
+.mthumb-ph { width: 64px; height: 64px; border-radius: 10px; background: var(--surface-2); display: flex; align-items: center; justify-content: center; font-size: 26px; }
+.mbody .meal { display: block; font-size: 12px; margin-bottom: 2px; }
+.mbody .mtitle { all: unset; cursor: pointer; font-weight: 600; line-height: 1.3; color: var(--text); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.mbody .mtitle:hover { color: var(--accent); }
+.mbody .mtitle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.mbody .mnut { margin-top: 4px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mbody .mnut b { color: var(--text); font-weight: 600; }
+.mswap { border: 1px solid var(--line); background: var(--surface); width: 40px; height: 40px; border-radius: 10px; font-size: 18px; color: var(--text); padding: 0; }
+.mswap:hover { border-color: var(--accent); color: var(--accent); }
 ul.mday > li:first-child { border-top: 0; }
 ul.mday > li.open { background: var(--bg); }
 ul.mday > li:first-child.open { border-radius: var(--radius) var(--radius) 0 0; }
@@ -579,6 +626,9 @@ ul.ings li > span:first-child { min-width: 0; }
   <a class="tab" href="#menu" data-tab="menu"><span class="ico" aria-hidden="true">📅</span>Меню</a>
   <a class="tab" href="#cart" data-tab="cart"><span class="ico" aria-hidden="true">🛒</span>Кошик <span class="cart-n" id="cartN2" hidden></span></a>
 </nav>
+
+<button type="button" class="nav-fab" id="navFab" aria-label="Навігація по розділах" aria-expanded="false" aria-controls="navOv" title="Розділи">☰</button>
+<div class="nav-ov" id="navOv" hidden><div class="nav-panel" role="dialog" aria-label="Навігація по розділах" id="navPanel"></div></div>
 
 <div class="sheet" id="sheet" role="dialog" aria-modal="true"></div>
 <div class="cook" id="cook" role="dialog" aria-modal="true"></div>
@@ -861,23 +911,97 @@ ul.ings li > span:first-child { min-width: 0; }
     $('grid').innerHTML = (filtered ? '' : tocHtml(list)) + CATEGORIES.map(function (c) {
       var items = list.filter(function (r) { return r.category === c; });
       if (!items.length) return '';
-      return '<section class="group sec" id="sec-' + CATEGORIES.indexOf(c) + '">' +
-        secHead(TOC_EMOJI[c] || '🍴', cap(c), items.length, !filtered) +
+      // згортання діє лише без пошуку й фільтрів, щоб результати не ховались
+      var sid = 'sec-' + CATEGORIES.indexOf(c);
+      return '<section class="group sec' + (!filtered && isFolded(sid) ? ' folded' : '') + '" id="' + sid + '">' +
+        secHead(TOC_EMOJI[c] || '🍴', cap(c), items.length, !filtered, null, filtered ? null : sid) +
+        '<div class="fold-body">' +
         (CATEGORY_HINTS[c] ? '<p class="group-hint">' + CATEGORY_HINTS[c] + '</p>' : '') +
         subGroups(c, items).map(function (g) {
-          return (g.name ? '<h3 class="sub-title" id="' + g.anchor + '">' + esc(cap(g.name)) + ' <span>' + g.items.length + '</span></h3>' : '') +
-            '<div class="grid">' + g.items.map(card).join('') + '</div>';
-        }).join('') + '</section>';
+          if (!g.name) return '<div class="grid">' + g.items.map(card).join('') + '</div>';
+          return '<div class="sub' + (!filtered && isFolded(g.anchor) ? ' folded' : '') + '">' +
+            '<h3 class="sub-title" id="' + g.anchor + '"' + (filtered ? '' : ' data-fold="' + g.anchor + '"') + '>' + esc(cap(g.name)) + ' <span>' + g.items.length + '</span>' +
+            (filtered ? '' : foldBtn(g.anchor, cap(g.name))) + '</h3>' +
+            '<div class="grid fold-body">' + g.items.map(card).join('') + '</div></div>';
+        }).join('') + '</div></section>';
     }).join('') + guidesListHtml(q, !filtered);
+    syncNavFab();
   }
 
+  // згорнуті розділи й підрозділи (id якоря), памʼятаються між відвідинами
+  var folded = loadKey('folded', [], function (v) { return Array.isArray(v); });
+  function isFolded(id) { return folded.indexOf(id) !== -1; }
+  function foldBtn(id, title) {
+    return '<button type="button" class="fold-ico" data-fold-btn aria-expanded="' + !isFolded(id) + '" aria-label="Згорнути або розгорнути: ' + esc(title) + '">▾</button>';
+  }
+  function setFolded(id, on) {
+    var i = folded.indexOf(id);
+    if (on && i === -1) folded.push(id); else if (!on && i !== -1) folded.splice(i, 1);
+    store('folded', JSON.stringify(folded));
+    var el = $(id), box = el && (el.classList.contains('sub-title') ? el.parentNode : el);
+    if (box) {
+      box.classList.toggle('folded', on);
+      var b = box.querySelector('.fold-ico'); if (b) b.setAttribute('aria-expanded', String(!on));
+    }
+  }
+  // перехід до розділу чи підрозділу: спершу розгорнути його й батьківський розділ
+  function jumpTo(id) {
+    var t = $(id); if (!t) return;
+    var sec = t.closest('section.sec');
+    if (sec && sec.classList.contains('folded')) setFolded(sec.id, false);
+    if (t.classList.contains('sub-title') && isFolded(id)) setFolded(id, false);
+    t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // кнопка навігації: панель зі списком розділів і підрозділів, що зараз на сторінці
+  function syncNavFab() { $('navFab').hidden = !$('grid').querySelector('section.sec'); }
+  function openNav() {
+    var secs = Array.prototype.slice.call($('grid').querySelectorAll('section.sec'));
+    $('navPanel').innerHTML = '<div class="nav-top"><button type="button" data-nav="top">↑ На початок</button>' +
+      ($('toc') ? '<button type="button" data-nav="toc">Зміст</button>' : '') +
+      (secs.some(function (s) { return s.querySelector('[data-fold]'); })
+        ? '<button type="button" data-nav="fold">Згорнути все</button><button type="button" data-nav="unfold">Розгорнути все</button>' : '') + '</div>' +
+      secs.map(function (s) {
+        var h = s.querySelector('.sec-head'), subs = s.querySelectorAll('.sub-title');
+        return '<button type="button" class="nav-sec" data-nav-go="' + s.id + '">' + h.querySelector('.sec-emoji').textContent + ' ' +
+          esc(h.querySelector('.group-title').textContent) + '<span class="n">' + esc(h.querySelector('.sec-count').textContent.split(' ')[0]) + '</span></button>' +
+          (subs.length ? '<div class="nav-subs">' + Array.prototype.map.call(subs, function (t) {
+            var n = t.querySelector('span');
+            return '<button type="button" class="nav-sub" data-nav-go="' + t.id + '">' + esc(t.firstChild.textContent.trim()) + ' <span>' + (n ? n.textContent : '') + '</span></button>';
+          }).join('') + '</div>' : '');
+      }).join('');
+    $('navOv').hidden = false; $('navFab').setAttribute('aria-expanded', 'true');
+    var f = $('navPanel').querySelector('button'); if (f) f.focus({ preventScroll: true });
+  }
+  function closeNav(restore) {
+    if ($('navOv').hidden) return;
+    $('navOv').hidden = true; $('navFab').setAttribute('aria-expanded', 'false');
+    if (restore) $('navFab').focus({ preventScroll: true });
+  }
+  $('navFab').addEventListener('click', function () { $('navOv').hidden ? openNav() : closeNav(true); });
+  $('navOv').addEventListener('click', function (e) {
+    if (e.target === this) { closeNav(true); return; }
+    var go = e.target.closest('[data-nav-go]'), b = e.target.closest('[data-nav]');
+    if (go) { closeNav(); jumpTo(go.getAttribute('data-nav-go')); return; }
+    if (!b) return;
+    var a = b.getAttribute('data-nav');
+    if (a === 'top') { closeNav(); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    else if (a === 'toc') { closeNav(); jumpTo('toc'); }
+    else {
+      $('grid').querySelectorAll('[data-fold]').forEach(function (el) { setFolded(el.getAttribute('data-fold'), a === 'fold'); });
+      closeNav(); if (a === 'fold' && $('toc')) jumpTo('toc');
+    }
+  });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !$('navOv').hidden) closeNav(true); });
+
   // заголовок розділу: плашка з емодзі, назвою й кількістю; «↑ Зміст» лише коли зміст показано
-  function secHead(emoji, title, n, withUp, forms) {
+  function secHead(emoji, title, n, withUp, forms, foldId) {
     forms = forms || ['рецепт', 'рецепти', 'рецептів'];
-    return '<header class="sec-head"><span class="sec-emoji" aria-hidden="true">' + emoji + '</span>' +
+    return '<header class="sec-head"' + (foldId ? ' data-fold="' + foldId + '"' : '') + '><span class="sec-emoji" aria-hidden="true">' + emoji + '</span>' +
       '<h2 class="group-title">' + esc(title) + '</h2>' +
       '<span class="sec-count">' + n + ' ' + plural(n, forms[0], forms[1], forms[2]) + '</span>' +
       (withUp ? '<button type="button" class="sec-up" data-jump="toc" aria-label="Повернутися до змісту">↑ <span>Зміст</span></button>' : '') +
+      (foldId ? foldBtn(foldId, title) : '') +
       '</header>';
   }
 
@@ -974,7 +1098,9 @@ ul.ings li > span:first-child { min-width: 0; }
       return;
     }
     var j = e.target.closest('[data-jump]');
-    if (j) { var t = $(j.getAttribute('data-jump')); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
+    if (j) { jumpTo(j.getAttribute('data-jump')); return; }
+    var fd = e.target.closest('[data-fold]');
+    if (fd) { var fid = fd.getAttribute('data-fold'); setFolded(fid, !isFolded(fid)); return; }
     var b = e.target.closest('[data-cart]');
     if (b) { toggleCart(b.getAttribute('data-cart')); syncCartChips(); return; }
     var qv = e.target.closest('[data-qv]');
@@ -1020,7 +1146,8 @@ ul.ings li > span:first-child { min-width: 0; }
       (r.stages ? '<div class="meta" style="margin-top:4px">Етапи: ' + r.stages.map(function (s) { return esc(s.title); }).join(' → ') + '</div>' : '') +
       '<div class="section"><h4>Інгредієнти' + (hasParts(r) ? ' · усього' : '') + '</h4>' + ((r.ingredients || []).length ? (hasParts(r) ? ingTotalHtml(r, 1) : ingListHtml(r, 1, false)) : '<p class="meta">Інгредієнтів у рецепті немає.</p>') + '</div>';
   }
-  function openQuick(id, trigger) {
+  var qvHook = null;  // обробник кнопок, які додає меню у вікно перегляду
+  function openQuick(id, trigger, extra) {
     var r = BY_ID[id]; if (!r) return;
     var p = $('qv');
     if (!p) {
@@ -1029,6 +1156,7 @@ ul.ings li > span:first-child { min-width: 0; }
       document.body.appendChild(p);
       p.addEventListener('click', function (e) {
         if (e.target === p || e.target.closest('#qvClose')) { closeQuick(true); return; }
+        if (qvHook && qvHook(e)) return;
         var b = e.target.closest('#qvCart');
         if (b) { toggleCart(p.getAttribute('data-id')); syncCartChips(); fillQuickCart(); return; }
         if (e.target.closest('#qvOpen')) { var rid = p.getAttribute('data-id'); closeQuick(true); location.hash = encodeURIComponent(rid); }
@@ -1038,12 +1166,12 @@ ul.ings li > span:first-child { min-width: 0; }
     p.setAttribute('data-id', id);
     p.innerHTML = '<div class="qv-box"><div class="qv-head"><h3 id="qvTitle">' + esc(r.title) + '</h3>' +
       '<button type="button" class="icon-btn" id="qvClose" aria-label="Закрити швидкий перегляд">✕</button></div>' +
-      '<div class="qv-body">' + quickHtml(r) + '</div>' +
+      '<div class="qv-body">' + (extra || '') + quickHtml(r) + '</div>' +
       '<div class="qv-foot"><button type="button" class="icon-btn" id="qvCart"></button><button type="button" class="primary" id="qvOpen">Відкрити рецепт</button></div></div>';
     fillQuickCart();
     p.hidden = false;
     document.body.style.overflow = 'hidden';
-    document.querySelector('header.top').inert = true; document.querySelector('main').inert = true; document.querySelector('.tabbar').inert = true;
+    document.querySelector('header.top').inert = true; document.querySelector('main').inert = true; document.querySelector('.tabbar').inert = true; $('sheet').inert = true;
     $('qvOpen').focus({ preventScroll: true });
   }
   function fillQuickCart() {
@@ -1053,10 +1181,10 @@ ul.ings li > span:first-child { min-width: 0; }
   function closeQuick(restore) {
     var p = $('qv'); if (!p || p.hidden) return;
     p.hidden = true;
-    document.body.style.overflow = '';
-    document.querySelector('header.top').inert = false; document.querySelector('main').inert = false; document.querySelector('.tabbar').inert = false;
+    document.body.style.overflow = $('sheet').classList.contains('open') ? 'hidden' : '';
+    document.querySelector('header.top').inert = false; document.querySelector('main').inert = false; document.querySelector('.tabbar').inert = false; $('sheet').inert = false;
     if (restore && qvReturn && document.contains(qvReturn)) qvReturn.focus({ preventScroll: true });
-    qvReturn = null;
+    qvReturn = null; qvHook = null;
   }
 
   /* ---------- картка ---------- */
@@ -1880,78 +2008,69 @@ ul.ings li > span:first-child { min-width: 0; }
       ? a.getDate() + '–' + b.getDate() + ' ' + MONTHS_GEN[b.getMonth()]
       : a.getDate() + ' ' + MONTHS_GEN[a.getMonth()] + ' – ' + b.getDate() + ' ' + MONTHS_GEN[b.getMonth()];
   }
-  function searchResults(d, m) {
-    var q = norm(menuUi.q), used = menuIds();
-    var list = RECIPES.filter(function (r) {
-      if (used.indexOf(r.id) !== -1) return false;
-      if (!q) return fitsSlot(r, d, m);
-      return norm(r.title).indexOf(q) !== -1 || (r.ingredients || []).some(function (i) { return norm(i.name).indexOf(q) !== -1; });
-    });
-    list.sort(function (a, b) { return (fitsSlot(b, d, m) ? 1 : 0) - (fitsSlot(a, d, m) ? 1 : 0) || a.title.localeCompare(b.title, 'uk'); });
-    if (!list.length) return '<li class="meta">Нічого не знайдено</li>';
-    return list.slice(0, 8).map(function (r) {
-      return '<li><button type="button" data-pick="' + esc(r.id) + '">' + esc(r.title) +
-        '<span class="meta">' + esc(r.category) + (totalTime(r) ? ' · ⏱ ' + fmtTime(totalTime(r)) : '') + (isTry(r) ? ' · нове' : '') + '</span></button></li>';
-    }).join('');
+  // дні тижня, де ця страва стоїть у тому самому прийомі їжі
+  function repeatDays(id, m) {
+    var out = [];
+    menu.cells.forEach(function (day, t) { if (day[m] && day[m].id === id) out.push(t); });
+    return out;
+  }
+  // перегляд страви з меню: що й скільки накласти + «готую на кілька днів» (та сама страва в той самий прийом їжі; закріплюється, щоб не змінилась при перескладанні)
+  function openMenuQuick(d, m, trigger) {
+    var c = menu.cells[d][m]; if (!c || !BY_ID[c.id]) return;
+    var id = c.id, gr = serveGrams(BY_ID[id], c.portion), cn = cellNut(c), days = repeatDays(id, m);
+    var extra = '<p class="qv-plan">У меню: ' + DAYS[d].toLowerCase() + ', ' + MEALS[m].toLowerCase() + ' · ' + fmtPortion(c.portion || 1) + ' порції на людину' +
+      (gr ? ' · накласти ≈ ' + gr + ' г' : '') + (cn ? ' · ' + Math.round(cn.kcal) + ' ккал, Б ' + Math.round(cn.protein) + ' · Ж ' + Math.round(cn.fat) + ' · В ' + Math.round(cn.carbs) : '') + '</p>' +
+      '<div class="qv-rep"><p class="lbl3">Готую на кілька днів (' + MEALS[m].toLowerCase() + '):</p><div class="days7">' +
+      DAYS_SHORT.map(function (n, t) {
+        var on = days.indexOf(t) !== -1;
+        return '<button type="button" class="chip" data-rep="' + t + '" aria-pressed="' + on + '"' + (t === d ? ' disabled title="цей день"' : '') + ' aria-label="' + DAYS[t] + '">' + n + '</button>';
+      }).join('') + '</div></div>';
+    openQuick(id, trigger, extra);
+    qvHook = function (e) {
+      var b = e.target.closest('[data-rep]'); if (!b || b.disabled) return false;
+      var t = +b.getAttribute('data-rep'), cur = menu.cells[t][m], src = menu.cells[d][m];
+      if (cur && cur.id === id) {  // зняти повтор: день отримує нову страву
+        menu.cells[t][m] = null; regenCell(t, m);
+        if (repeatDays(id, m).length < 2) src.pinned = false;
+      } else {
+        src.pinned = true;
+        menu.cells[t][m] = { id: id, portion: src.portion, servings: src.servings, pinned: true };
+      }
+      saveMenu(); renderMenu(); openMenuQuick(d, m, trigger);
+      return true;
+    };
+  }
+  // скільки накласти готової страви на одну людину: вага готової страви / порції × порція
+  function serveGrams(r, portion) {
+    var g = r.cooked_g || r.cooked_g_est;
+    if (!g || !r.servings) return null;
+    return Math.round(g / r.servings * (portion || 1) / 10) * 10;
   }
   function cellHtml(d, m) {
-    var c = menu.cells[d][m], key = d + '-' + m, open = menuUi.open === key, r = c && BY_ID[c.id];
-    var body;
+    var c = menu.cells[d][m], key = d + '-' + m, r = c && BY_ID[c.id];
+    var body, swap = '<button type="button" class="mswap" data-act="regen" title="Замінити страву" aria-label="Замінити: ' + DAYS[d].toLowerCase() + ', ' + MEALS[m].toLowerCase() + '">↻</button>';
     if (r) {
-      var t = totalTime(r), bits = [];
-      if (t) bits.push('<span' + (d < 5 && t > WEEKDAY_MAX ? ' class="tlong" title="Довше за 40 хв для буднього дня"' : '') + '>⏱ ' + fmtTime(t) + '</span>');
-      var cn = cellNut(c);
-      bits.push(fmtPortion(c.portion || 1) + ' порц. на людину');
-      bits.push(cn ? Math.round(cn.kcal) + ' ккал · Б ' + Math.round(cn.protein) + (cn.part ? '<span class="nokcal" title="КБЖВ неповне">*</span>' : '') : '<span class="nokcal">без КБЖВ</span>');
-      if (isTry(r)) bits.push('<span class="badge new">нове</span>');
-      if (c.pinned) bits.push('📌');
-      body = '<a href="#' + esc(r.id) + '">' + esc(r.title) + '</a><div class="meta">' + bits.join('<span>·</span>') + '</div>';
+      var cn = cellNut(c), gr = serveGrams(r, c.portion), t = totalTime(r);
+      var rep = repeatDays(c.id, m).length;
+      var line1 = (gr ? 'накласти <b>≈ ' + gr + ' г</b>' : fmtPortion(c.portion || 1) + ' порц.') + (rep > 1 ? ' · 🔁 ' + rep + ' ' + plural(rep, 'день', 'дні', 'днів') : t ? ' · ⏱ ' + fmtTime(t) : '');
+      var line2 = cn ? '<b>' + Math.round(cn.kcal) + '</b> ккал · Б ' + Math.round(cn.protein) + ' · Ж ' + Math.round(cn.fat) + ' · В ' + Math.round(cn.carbs) : 'без КБЖВ';
+      body = '<span class="meal">' + MEALS[m] + '</span><button type="button" class="mtitle" data-view="' + esc(r.id) + '">' + esc(r.title) + '</button>' +
+        '<div class="mnut">' + line1 + '</div><div class="mnut">' + line2 + '</div>';
     } else if (c) {
-      body = '<span class="gone">Рецепт видалено</span><div class="meta">його вже немає в книзі · <button type="button" class="link-btn" data-act="clear" style="min-height:0;padding:0;color:var(--accent)">прибрати</button></div>';
-    } else body = '<span class="mempty">порожньо</span>';
-    var acts = '';
-    if (open) {
-      if (menuUi.mode === 'search') {
-        acts = '<div class="msearch"><input id="mSearch" type="search" placeholder="Назва або інгредієнт" autocomplete="off" value="' + esc(menuUi.q) + '">' +
-          '<ul class="mres" id="mRes">' + searchResults(d, m) + '</ul></div>' +
-          '<button type="button" class="link-btn" data-act="back">← Назад до дій</button>';
-      } else if (menuUi.mode === 'move') {
-        acts = '<p class="meta" style="margin:0;width:100%">Помінятися місцями з «' + MEALS[m].toLowerCase() + '» іншого дня:</p><div class="days7">' +
-          DAYS_SHORT.map(function (n, t) {
-            return '<button type="button" class="chip" data-move="' + t + '"' + (t === d ? ' disabled' : '') + ' aria-label="' + DAYS[t] + '">' + n + '</button>';
-          }).join('') + '</div><button type="button" class="link-btn" data-act="back">← Назад до дій</button>';
-      } else if (c && !r) {
-        acts = '<button type="button" class="icon-btn" data-act="clear">✕ Прибрати</button>' +
-          '<button type="button" class="icon-btn" data-act="regen">↻ Підібрати іншу</button>' +
-          '<button type="button" class="icon-btn" data-act="search">🔍 Знайти</button>';
-      } else if (r) {
-        acts = '<div class="mgrp"><span class="mlbl">Замінити</span>' +
-          '<button type="button" class="icon-btn" data-act="regen">↻ Підібрати іншу</button>' +
-          '<button type="button" class="icon-btn" data-act="search">🔍 Знайти в книзі</button></div>' +
-          '<div class="mgrp"><span class="mlbl">Порція на людину</span>' +
-          '<span class="servings"><button type="button" data-act="minus" aria-label="Менша порція"' + ((c.portion || 1) <= 0.5 ? ' disabled' : '') + '>−</button><output>' + fmtPortion(c.portion || 1) + '</output>' +
-          '<button type="button" data-act="plus" aria-label="Більша порція"' + ((c.portion || 1) >= 2 ? ' disabled' : '') + '>+</button></span></div>' +
-          '<div class="mgrp mgrp-links">' +
-          '<button type="button" class="link-btn" data-act="move">⇄ Інший день</button>' +
-          '<button type="button" class="link-btn" data-act="pin" aria-pressed="' + c.pinned + '">📌 ' + (c.pinned ? 'Закріплено' : 'Закріпити') + '</button>' +
-          '<button type="button" class="link-btn danger" data-act="clear">✕ Прибрати</button></div>';
-      } else {
-        acts = '<button type="button" class="icon-btn" data-act="regen">↻ Підібрати</button>' +
-          '<button type="button" class="icon-btn" data-act="search">🔍 Знайти</button>';
-      }
-      if (menuUi.msg) acts += '<p class="mmsg">' + esc(menuUi.msg) + '</p>';
-      acts = '<div class="macts">' + acts + '</div>';
-    }
-    return '<li class="' + (open ? 'open' : '') + '" data-cell="' + key + '"><span class="meal">' + MEALS[m] + '</span>' +
-      '<div class="mbody">' + body + '</div>' +
-      '<button type="button" class="mmore" data-act="toggle" aria-expanded="' + open + '" aria-label="Дії: ' + DAYS[d].toLowerCase() + ', ' + MEALS[m].toLowerCase() + '">⋯</button>' + acts + '</li>';
+      body = '<span class="meal">' + MEALS[m] + '</span><span class="gone">Рецепт видалено</span><div class="mnut">натисни ↻, щоб замінити</div>';
+    } else body = '<span class="meal">' + MEALS[m] + '</span><span class="mempty">порожньо</span>';
+    // мініфото теж відкриває перегляд; без фото — значок прийому їжі
+    var thumb = r && r.photo ? '<img class="mthumb" loading="lazy" alt="" src="' + esc(r.photo) + '" data-view-img="1">'
+      : '<span class="mthumb-ph" aria-hidden="true">' + ['🍳', '🍲', '🍽️'][m] + '</span>';
+    var msg = menuUi.open === key && menuUi.msg ? '<div class="mnut" style="color:var(--warn)">' + esc(menuUi.msg) + '</div>' : '';
+    return '<li data-cell="' + key + '">' + thumb +
+      '<div class="mbody">' + body + msg + '</div>' + swap + '</li>';
   }
   function renderMenu() {
     var n = menuIds().length, nAll = menuFilled(), today = isoDate(new Date()), sig = focusSig();
     var empty = 21 - nAll;
     var bar = '<div class="bar"><div class="wrap row"><button class="icon-btn" id="backBtn">← Назад</button><span style="flex:1"></span>' +
-      (n ? '<button class="icon-btn" id="menuShop" aria-pressed="' + cartMenu + '">' + (cartMenu ? '✓ У покупках' : '🛒 Покупки') + '</button>' : '') +
-      '<button class="primary" id="menuGen">' + (n ? 'Перескласти' : 'Скласти') + '</button></div></div>';
+      (n ? '<button class="icon-btn" id="menuShop" aria-pressed="' + cartMenu + '">' + (cartMenu ? '✓ Додано в покупки' : '🛒 Додати в покупки') + '</button>' : '') + '</div></div>';
     var g = menu.goal, mk = g.protein * 4 + g.fat * 9 + g.carbs * 4, fatPct = g.kcal ? Math.round(g.fat * 9 / g.kcal * 100) : 0;
     var goalHtml = '<div class="goal" id="goal">' +
       '<label>Калорії на день<input type="number" inputmode="numeric" min="800" max="5000" step="50" data-goal="kcal" value="' + g.kcal + '"></label>' +
@@ -1959,19 +2078,19 @@ ul.ings li > span:first-child { min-width: 0; }
       '<label>Жири, г<input type="number" inputmode="numeric" min="0" max="300" data-goal="fat" value="' + g.fat + '"></label>' +
       '<label>Вуглеводи, г<input type="number" inputmode="numeric" min="0" max="800" data-goal="carbs" value="' + g.carbs + '"></label>' +
       '<label>Людей<input type="number" inputmode="numeric" min="1" max="20" id="goalPeople" value="' + menu.people + '"></label>' +
-      '<button type="button" class="primary goal-go" id="goalGen">' + (menuIds().length ? '↻ Перескласти меню' : 'Сформувати меню') + '</button>' +
+      '<button type="button" class="primary goal-go" id="goalGen">' + (menuIds().length ? '↻ Підібрати заново' : 'Підібрати меню') + '</button>' +
       '<p class="goal-hint">Ціль на одну людину. Б·Ж·В дають ' + Math.round(mk) + ' ккал' +
       (Math.abs(mk - g.kcal) > g.kcal * 0.05 ? ' <span class="off">(не збігається з калоріями більш ніж на 5 %)</span>' : '') +
       ' · жири ' + fatPct + ' % калорій' + (fatPct > 30 ? ' <span class="off">(ВООЗ радить до 30 %)</span>' : '') +
-      ' · <button type="button" class="link-btn" id="goalCarbs" style="padding:0;min-height:0">вуглеводи як залишок</button></p></div>';
+      ' · <button type="button" class="link-btn" id="goalCarbs" style="padding:0;min-height:0" title="Вуглеводи = (калорії − білки×4 − жири×9) / 4">розрахувати вуглеводи</button></p></div>';
     var html = '<article style="max-width:1100px"><h2>Меню на тиждень</h2>' + goalHtml;
     if (!nAll) {
-      html += '<div class="menu-empty"><p style="margin:0">Меню ще не складене. Під ціль вище підберуться прості щоденні страви з книги: сніданок, обід і вечеря на 7 днів, з масштабуванням порцій.</p>' +
+      html += '<div class="menu-empty"><p style="margin:0">Меню ще не складене. Вкажи ціль вище й натисни «Підібрати меню»: прості щоденні страви з книги, сніданок, обід і вечеря на 7 днів, порції підганяються під ціль.</p>' +
         '<p class="menu-note">Тільки страви з повним КБЖВ, без святкових і багатоетапних; у будні до 40 хв, у вихідні до 90. Білок рівномірно (від 20 г у кожному прийомі), риба 2–3 рази на тиждень, без повторів за тиждень; улюблене й приготоване мають перевагу, «не сподобалось» не потрапляє.</p>' +
-        '<button class="primary" id="menuGen2">Скласти меню</button></div>';
+        '</div>';
     } else {
       html += '<div class="meta">' + weekRange() + ' · ' + n + ' ' + plural(n, 'страва', 'страви', 'страв') + '</div>' +
-        '<p class="menu-note">«⋯» біля страви: інша страва, пошук, перенесення на інший день, порції. Закріплене 📌 лишається, коли меню перескладаєш.</p>' +
+        '<p class="menu-note">Натисни на страву, щоб переглянути рецепт і вибрати, на які дні її готуєш; ↻ — замінити страву. Страви на кілька днів лишаються, коли підбираєш меню заново.</p>' +
         (menu.short && empty ? '<p class="menu-note warn">' + menu.short + ' ' + plural(menu.short, 'клітинка лишилася', 'клітинки лишилися', 'клітинок лишилося') +
           ' порожніми: у книзі бракує рецептів, що підходять (у будні до 40 хв, без повторів за тиждень). Додай страву вручну: «⋯» → «Знайти».</p>' : '') +
         (nAll > n ? '<p class="menu-note warn">Страв, яких уже немає в книзі: ' + (nAll - n) + '. Вони позначені «Рецепт видалено»: прибери або заміни.</p>' : '') +
@@ -1989,10 +2108,9 @@ ul.ings li > span:first-child { min-width: 0; }
       var free = 0;
       menu.cells.forEach(function (day) { day.forEach(function (c) { if (!c || !c.pinned || !BY_ID[c.id]) free++; }); });
       if (!free) { toast('Усі страви закріплені, перескладати нічого. Зніми 📌 з тих, які хочеш замінити.'); return; }
-      if (menuIds().length && !confirm('Перескласти меню? Закріплені 📌 страви лишаться.')) return;
+      if (menuIds().length && !confirm('Підібрати меню заново? Страви, які готуєш на кілька днів, лишаться.')) return;
       generateMenu(); menuUi = { open: null, mode: null, q: '', msg: '' }; renderMenu();
     };
-    $('menuGen').onclick = gen;
     $('goalGen').onclick = gen;
     // ціль і кількість людей зберігаються одразу; підсумки днів перераховуються, страви лишаються
     $('goal').onchange = function (e) {
@@ -2007,7 +2125,6 @@ ul.ings li > span:first-child { min-width: 0; }
     $('goalCarbs').onclick = function () {
       var g = menu.goal; g.carbs = Math.max(0, Math.round((g.kcal - g.protein * 4 - g.fat * 9) / 4)); saveMenu(); renderMenu();
     };
-    if ($('menuGen2')) $('menuGen2').onclick = gen;
     if ($('menuShop')) $('menuShop').onclick = function () {
       cartMenu = !cartMenu; saveCart();
       if (cartMenu) location.hash = 'cart'; else renderMenu();
@@ -2016,45 +2133,17 @@ ul.ings li > span:first-child { min-width: 0; }
     var days = $('sheet').querySelector('.days');
     days.onclick = function (e) {
       var b = e.target.closest('button'), li = e.target.closest('li[data-cell]');
-      if (!b || !li) return;
-      var dm = li.getAttribute('data-cell').split('-'), d = +dm[0], m = +dm[1], key = d + '-' + m, c = menu.cells[d][m];
-      var act = b.getAttribute('data-act'), v;
-      if ((v = b.getAttribute('data-pick'))) {
-        var pr = BY_ID[v], nc = pr && pr.nutrition_per_serving && pr.nutrition_per_serving.kcal ? makeCell(pr, m, c && c.pinned) : { id: v, portion: 1, servings: menu.people, pinned: c ? c.pinned : false };
-        menu.cells[d][m] = nc;
-        menuUi.mode = null; menuUi.q = ''; saveMenu(); renderMenu(); return;
+      if (!li) return;
+      var dm = li.getAttribute('data-cell').split('-'), d = +dm[0], m = +dm[1], c = menu.cells[d][m], v;
+      if (!b && e.target.closest('[data-view-img]')) { openMenuQuick(d, m, li.querySelector('.mtitle')); return; }
+      if (!b) return;
+      if ((v = b.getAttribute('data-view'))) { openMenuQuick(d, m, b); return; }
+      if (b.getAttribute('data-act') === 'regen') {
+        menuUi = { open: d + '-' + m, mode: null, q: '', msg: '' };
+        if (c && !BY_ID[c.id]) menu.cells[d][m] = null;
+        regenCell(d, m); renderMenu();
+        var again = $('sheet').querySelector('li[data-cell="' + d + '-' + m + '"] .mswap'); if (again) again.focus({ preventScroll: true });
       }
-      if ((v = b.getAttribute('data-move')) != null && v !== '') {
-        var t = +v, tmp = menu.cells[t][m];
-        menu.cells[t][m] = c; menu.cells[d][m] = tmp;
-        menuUi = { open: t + '-' + m, mode: null, q: '', msg: '' }; saveMenu(); renderMenu();
-        var moved = $('sheet').querySelector('li[data-cell="' + t + '-' + m + '"]');
-        if (moved) moved.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        return;
-      }
-      if (act === 'toggle') { menuUi = { open: menuUi.open === key ? null : key, mode: null, q: '', msg: '' }; renderMenu(); return; }
-      if (act === 'clear') { menu.cells[d][m] = null; saveMenu(); menuUi.mode = null; renderMenu(); var mm = $('sheet').querySelector('li[data-cell="' + key + '"] .mmore'); if (mm) mm.focus(); return; }
-      if (act === 'back') { menuUi.mode = null; menuUi.q = ''; renderMenu(); return; }
-      if (act === 'search' || act === 'move') {
-        menuUi.mode = act; menuUi.msg = ''; renderMenu();
-        if (act === 'search' && $('mSearch')) $('mSearch').focus();
-        return;
-      }
-      if (act === 'regen') regenCell(d, m);
-      else if (act === 'pin' && c) { c.pinned = !c.pinned; saveMenu(); }
-      else if ((act === 'minus' || act === 'plus') && c) {
-        c.portion = Math.min(2, Math.max(0.5, (c.portion || 1) + (act === 'plus' ? 0.25 : -0.25)));
-        c.servings = Math.max(1, Math.round(menu.people * c.portion)); saveMenu();
-      }
-      else if (act === 'clear') { menu.cells[d][m] = null; saveMenu(); }
-      else return;
-      renderMenu();
-    };
-    var s = $('mSearch');
-    if (s) s.oninput = function () {
-      menuUi.q = this.value;
-      var dm = menuUi.open.split('-');
-      $('mRes').innerHTML = searchResults(+dm[0], +dm[1]);
     };
   }
   $('menuBtn').addEventListener('click', function () { location.hash = 'menu'; });
