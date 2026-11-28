@@ -432,10 +432,10 @@ ul.log li:first-child { border-top: 0; }
 .day h3 .k b { font-weight: 600; color: var(--text); }
 .day h3 .k .ok { color: var(--ok); }
 .day h3 .k .off { color: var(--warn); font-weight: 600; }
-.goal { display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 10px; margin-top: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
-.goal label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
+.goal { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px; margin-top: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; }
+.goal label { flex: 1 1 104px; display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
 .goal input { height: 40px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); padding: 0 10px; font-size: 16px; min-width: 0; font-variant-numeric: tabular-nums; }
-.goal .goal-hint { grid-column: 1 / -1; font-size: 13px; color: var(--muted); margin: 0; }
+.goal .goal-hint { flex-basis: 100%; font-size: 13px; color: var(--muted); margin: 0; }
 .goal .goal-hint .off { color: var(--warn); }
 .day.today h3 > span:first-child { color: var(--accent); }
 ul.mday { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
@@ -461,6 +461,17 @@ ul.mday > li:last-child.open { border-radius: 0 0 var(--radius) var(--radius); }
 .macts .days7 .chip { min-width: 44px; min-height: 44px; justify-content: center; }
 .macts .days7 .chip:disabled { opacity: .35; }
 .macts .mmsg { width: 100%; color: var(--warn); font-size: 13px; margin: 0; }
+.mgrp { width: 100%; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.mgrp + .mgrp { padding-top: 8px; border-top: 1px dashed var(--line); }
+.mlbl { flex: 0 0 auto; min-width: 128px; font-size: 13px; color: var(--muted); }
+.mgrp-links { gap: 4px 18px; }
+.mgrp-links .link-btn { padding: 8px 0; min-height: 0; color: var(--text); font-size: 14px; }
+.mgrp-links .link-btn:hover { color: var(--accent); }
+.mgrp-links .link-btn[aria-pressed="true"] { color: var(--accent); font-weight: 600; }
+.mgrp-links .link-btn.danger { margin-left: auto; color: var(--muted); }
+.goal .goal-go { flex: 0 0 auto; height: 40px; white-space: nowrap; }
+@media (max-width: 520px) { .goal .goal-go { flex: 1 1 100%; } }
+@media (max-width: 520px) { .mlbl { min-width: 0; width: 100%; } .mgrp-links .link-btn.danger { margin-left: 0; } }
 .msearch { width: 100%; }
 .msearch input {
   width: 100%; height: 44px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); padding: 0 12px; outline: none;
@@ -1914,13 +1925,16 @@ ul.ings li > span:first-child { min-width: 0; }
           '<button type="button" class="icon-btn" data-act="regen">↻ Підібрати іншу</button>' +
           '<button type="button" class="icon-btn" data-act="search">🔍 Знайти</button>';
       } else if (r) {
-        acts = '<button type="button" class="icon-btn" data-act="regen">↻ Інша страва</button>' +
-          '<button type="button" class="icon-btn" data-act="search">🔍 Знайти</button>' +
-          '<button type="button" class="icon-btn" data-act="move">⇄ Інший день</button>' +
-          '<button type="button" class="icon-btn" data-act="pin" aria-pressed="' + c.pinned + '">📌 ' + (c.pinned ? 'Закріплено' : 'Закріпити') + '</button>' +
-          '<span class="servings"><button type="button" data-act="minus" aria-label="Менша порція"' + ((c.portion || 1) <= 0.5 ? ' disabled' : '') + '>−</button><output>' + fmtPortion(c.portion || 1) + ' на людину' + '</output>' +
-          '<button type="button" data-act="plus" aria-label="Більша порція"' + ((c.portion || 1) >= 2 ? ' disabled' : '') + '>+</button></span>' +
-          '<button type="button" class="icon-btn" data-act="clear">✕ Очистити</button>';
+        acts = '<div class="mgrp"><span class="mlbl">Замінити</span>' +
+          '<button type="button" class="icon-btn" data-act="regen">↻ Підібрати іншу</button>' +
+          '<button type="button" class="icon-btn" data-act="search">🔍 Знайти в книзі</button></div>' +
+          '<div class="mgrp"><span class="mlbl">Порція на людину</span>' +
+          '<span class="servings"><button type="button" data-act="minus" aria-label="Менша порція"' + ((c.portion || 1) <= 0.5 ? ' disabled' : '') + '>−</button><output>' + fmtPortion(c.portion || 1) + '</output>' +
+          '<button type="button" data-act="plus" aria-label="Більша порція"' + ((c.portion || 1) >= 2 ? ' disabled' : '') + '>+</button></span></div>' +
+          '<div class="mgrp mgrp-links">' +
+          '<button type="button" class="link-btn" data-act="move">⇄ Інший день</button>' +
+          '<button type="button" class="link-btn" data-act="pin" aria-pressed="' + c.pinned + '">📌 ' + (c.pinned ? 'Закріплено' : 'Закріпити') + '</button>' +
+          '<button type="button" class="link-btn danger" data-act="clear">✕ Прибрати</button></div>';
       } else {
         acts = '<button type="button" class="icon-btn" data-act="regen">↻ Підібрати</button>' +
           '<button type="button" class="icon-btn" data-act="search">🔍 Знайти</button>';
@@ -1945,6 +1959,7 @@ ul.ings li > span:first-child { min-width: 0; }
       '<label>Жири, г<input type="number" inputmode="numeric" min="0" max="300" data-goal="fat" value="' + g.fat + '"></label>' +
       '<label>Вуглеводи, г<input type="number" inputmode="numeric" min="0" max="800" data-goal="carbs" value="' + g.carbs + '"></label>' +
       '<label>Людей<input type="number" inputmode="numeric" min="1" max="20" id="goalPeople" value="' + menu.people + '"></label>' +
+      '<button type="button" class="primary goal-go" id="goalGen">' + (menuIds().length ? '↻ Перескласти меню' : 'Сформувати меню') + '</button>' +
       '<p class="goal-hint">Ціль на одну людину. Б·Ж·В дають ' + Math.round(mk) + ' ккал' +
       (Math.abs(mk - g.kcal) > g.kcal * 0.05 ? ' <span class="off">(не збігається з калоріями більш ніж на 5 %)</span>' : '') +
       ' · жири ' + fatPct + ' % калорій' + (fatPct > 30 ? ' <span class="off">(ВООЗ радить до 30 %)</span>' : '') +
@@ -1978,6 +1993,7 @@ ul.ings li > span:first-child { min-width: 0; }
       generateMenu(); menuUi = { open: null, mode: null, q: '', msg: '' }; renderMenu();
     };
     $('menuGen').onclick = gen;
+    $('goalGen').onclick = gen;
     // ціль і кількість людей зберігаються одразу; підсумки днів перераховуються, страви лишаються
     $('goal').onchange = function (e) {
       var el = e.target, k = el.getAttribute('data-goal');
