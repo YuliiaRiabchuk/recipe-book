@@ -502,7 +502,10 @@ ul.log li:first-child { border-top: 0; }
 .menu-tools .lbl2 { color: var(--muted); font-size: 14px; }
 .menu-note { color: var(--muted); font-size: 14px; margin: 10px 0 0; max-width: 68ch; }
 .menu-note.warn { background: var(--warn-soft); color: var(--text); padding: 10px 12px; border-radius: 12px; }
-.days { display: grid; gap: 18px 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); margin-top: 18px; }
+.days { display: grid; gap: 18px 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); margin-top: 18px; align-items: start; }
+/* однакова висота рядків страв (з двома рядками назви), щоб дні стояли рівно; відкрита панель додає висоту лише своєму рядку */
+ul.mday > li { min-height: 172px; }
+.goal .goal-start { flex: 1 1 150px; }
 .day h3 { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 8px; margin: 0 2px 8px; font-size: 17px; }
 .day h3 .d { color: var(--muted); font-weight: 400; font-size: 14px; }
 .day h3 .k { margin-left: auto; font-weight: 400; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -516,17 +519,32 @@ ul.log li:first-child { border-top: 0; }
 .goal .goal-hint .off { color: var(--warn); }
 .day.today h3 > span:first-child { color: var(--accent); }
 ul.mday { list-style: none; padding: 0; margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
-ul.mday > li { display: grid; grid-template-columns: 64px minmax(0, 1fr) 44px; gap: 4px 10px; align-items: center; padding: 8px 6px 8px 10px; border-top: 1px solid var(--line); height: 112px; overflow: hidden; }
-.mthumb { width: 64px; height: 64px; border-radius: 10px; object-fit: cover; display: block; background: var(--surface-2); cursor: pointer; }
-.mthumb-ph { width: 64px; height: 64px; border-radius: 10px; background: var(--surface-2); display: flex; align-items: center; justify-content: center; font-size: 26px; }
-.mbody .meal { display: block; font-size: 12px; margin-bottom: 2px; }
-.mbody .mtitle { all: unset; cursor: pointer; font-weight: 600; line-height: 1.3; color: var(--text); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+ul.mday > li { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 6px 14px; align-items: center; padding: 14px 14px; border-top: 1px solid var(--line); }
+.mthumb { width: 76px; height: 76px; border-radius: 12px; object-fit: cover; display: block; background: var(--surface-2); cursor: pointer; }
+.mthumb-ph { width: 76px; height: 76px; border-radius: 12px; background: var(--surface-2); display: block; }
+.mbody { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.mbody .meal { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.mbody .mtitle { all: unset; cursor: pointer; font-weight: 600; font-size: 15.5px; line-height: 1.3; color: var(--text); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .mbody .mtitle:hover { color: var(--accent); }
 .mbody .mtitle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
-.mbody .mnut { margin-top: 4px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mbody .mnut { font-size: 12.5px; line-height: 1.45; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .mbody .mnut b { color: var(--text); font-weight: 600; }
-.mswap { border: 1px solid var(--line); background: var(--surface); width: 40px; height: 40px; border-radius: 10px; font-size: 18px; color: var(--text); padding: 0; }
-.mswap:hover { border-color: var(--accent); color: var(--accent); }
+.macts-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.mact { border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 8px; padding: 3px 10px; min-height: 30px; font: inherit; font-size: 12.5px; cursor: pointer; }
+.mact:hover, .mact[aria-expanded="true"] { border-color: var(--accent); color: var(--accent); }
+.mpanel { grid-column: 1 / -1; padding: 10px 0 2px; }
+.mpanel .mp-lbl { margin: 0 0 8px; font-size: 13px; color: var(--muted); }
+.mpanel .days7 { display: flex; flex-wrap: wrap; gap: 6px; }
+.mpanel .days7 .chip { min-width: 44px; min-height: 36px; justify-content: center; }
+.mpanel .days7 .chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); }
+.mpanel input { width: 100%; min-height: 38px; border: 1px solid var(--line); border-radius: 10px; padding: 6px 12px; font: inherit; background: var(--surface); color: var(--text); }
+.mpanel .mres { list-style: none; margin: 8px 0 0; padding: 0; max-height: 300px; overflow-y: auto; border: 1px solid var(--line); border-radius: 10px; }
+.mpanel .mres li + li { border-top: 1px solid var(--line); }
+.mpanel .mres button { display: flex; flex-direction: column; gap: 2px; width: 100%; text-align: left; border: 0; background: var(--surface); padding: 8px 12px; font: inherit; cursor: pointer; }
+.mpanel .mres button:hover { background: var(--accent-soft); }
+.mpanel .mres .t { font-size: 14px; color: var(--text); }
+.mpanel .mres .meta { font-size: 12px; }
+.mpanel .mres li.meta { padding: 10px 12px; }
 ul.mday > li:first-child { border-top: 0; }
 ul.mday > li.open { background: var(--bg); }
 ul.mday > li:first-child.open { border-radius: var(--radius) var(--radius) 0 0; }
@@ -1956,6 +1974,11 @@ ul.ings li > span:first-child { min-width: 0; }
     return isoDate(x);
   }
   function emptyCells() { return DAYS.map(function () { return [null, null, null]; }); }
+  // день плану d → день тижня (0 = понеділок): план може починатися з будь-якої дати
+  function wdOf(d) { var p = addDays(menu.start, d).split('-'); return (new Date(+p[0], p[1] - 1, +p[2]).getDay() + 6) % 7; }
+  function dayName(d) { return DAYS[wdOf(d)]; }
+  function dayShort(d) { var dp = addDays(menu.start, d).split('-'); return DAYS_SHORT[wdOf(d)] + ' ' + dp[2] + '.' + dp[1]; }
+  var DAYS_ACC = ['понеділок', 'вівторок', 'середу', 'четвер', 'пʼятницю', 'суботу', 'неділю'];
   var menu = loadKey('weekMenu', null, function (v) { return isObj(v) && Array.isArray(v.cells) && v.cells.length === 7; });
   if (!menu) menu = { start: mondayOf(new Date()), people: 2, cells: emptyCells(), fallback: 0, short: 0 };
   // ціль на одну людину на день; за замовчуванням — SPEC.md (60 кг, 1500 ккал, білок 1,2–1,4 г/кг)
@@ -1992,7 +2015,7 @@ ul.ings li > span:first-child { min-width: 0; }
   function fitsSlot(r, d, m) {
     var n = r.nutrition_per_serving;
     return MEAL_CATS[m].indexOf(r.category) !== -1 && effStatus(r) !== 'не-сподобалось' &&
-      totalTime(r) <= (d >= 5 ? WEEKEND_MAX : WEEKDAY_MAX) &&
+      totalTime(r) <= (wdOf(d) >= 5 ? WEEKEND_MAX : WEEKDAY_MAX) &&
       !(r.tags || []).some(function (x) { return PLAN_SKIP_TAGS.indexOf(x) !== -1; }) && !r.stages &&
       r.nutrition_status === 'повний' && n && n.kcal > 80 && typeof n.protein === 'number';
   }
@@ -2076,7 +2099,6 @@ ul.ings li > span:first-child { min-width: 0; }
       });
     });
     menu.fallback = 0; menu.short = short;
-    menu.start = mondayOf(new Date());
     saveMenu();
   }
   // заміна однієї страви: найкраща під ціль разом з іншими двома стравами дня
@@ -2130,12 +2152,12 @@ ul.ings li > span:first-child { min-width: 0; }
   function openMenuQuick(d, m, trigger) {
     var c = menu.cells[d][m]; if (!c || !BY_ID[c.id]) return;
     var id = c.id, gr = serveGrams(BY_ID[id], c.portion), cn = cellNut(c), days = repeatDays(id, m);
-    var extra = '<p class="qv-plan">У меню: ' + DAYS[d].toLowerCase() + ', ' + MEALS[m].toLowerCase() + ' · ' + fmtPortion(c.portion || 1) + ' порції на людину' +
+    var extra = '<p class="qv-plan">У меню: ' + dayName(d).toLowerCase() + ' ' + dayShort(d).split(' ')[1] + ', ' + MEALS[m].toLowerCase() + ' · ' + fmtPortion(c.portion || 1) + ' порції на людину' +
       (gr ? ' · накласти ≈ ' + gr + ' г' : '') + (cn ? ' · ' + Math.round(cn.kcal) + ' ккал, Б ' + Math.round(cn.protein) + ' · Ж ' + Math.round(cn.fat) + ' · В ' + Math.round(cn.carbs) : '') + '</p>' +
       '<div class="qv-rep"><p class="lbl3">Готую на кілька днів (' + MEALS[m].toLowerCase() + '):</p><div class="days7">' +
-      DAYS_SHORT.map(function (n, t) {
-        var on = days.indexOf(t) !== -1;
-        return '<button type="button" class="chip" data-rep="' + t + '" aria-pressed="' + on + '"' + (t === d ? ' disabled title="цей день"' : '') + ' aria-label="' + DAYS[t] + '">' + n + '</button>';
+      DAYS.map(function (x, t) {
+        var on = days.indexOf(t) !== -1, n = dayShort(t);
+        return '<button type="button" class="chip" data-rep="' + t + '" aria-pressed="' + on + '"' + (t === d ? ' disabled title="цей день"' : '') + ' aria-label="' + dayName(t) + '">' + n + '</button>';
       }).join('') + '</div></div>';
     openQuick(id, trigger, extra);
     qvHook = function (e) {
@@ -2159,24 +2181,54 @@ ul.ings li > span:first-child { min-width: 0; }
     return Math.round(g / r.servings * (portion || 1) / 10) * 10;
   }
   function cellHtml(d, m) {
-    var c = menu.cells[d][m], key = d + '-' + m, r = c && BY_ID[c.id];
-    var body, swap = '<button type="button" class="mswap" data-act="regen" title="Замінити страву" aria-label="Замінити: ' + DAYS[d].toLowerCase() + ', ' + MEALS[m].toLowerCase() + '">↻</button>';
+    var c = menu.cells[d][m], key = d + '-' + m, r = c && BY_ID[c.id], open = menuUi.open === key;
+    var body;
     if (r) {
       var cn = cellNut(c), gr = serveGrams(r, c.portion), t = totalTime(r);
       var rep = repeatDays(c.id, m).length;
-      var line1 = (gr ? 'накласти <b>≈ ' + gr + ' г</b>' : fmtPortion(c.portion || 1) + ' порц.') + (rep > 1 ? ' · 🔁 ' + rep + ' ' + plural(rep, 'день', 'дні', 'днів') : t ? ' · ⏱ ' + fmtTime(t) : '');
-      var line2 = cn ? '<b>' + Math.round(cn.kcal) + '</b> ккал · Б ' + Math.round(cn.protein) + ' · Ж ' + Math.round(cn.fat) + ' · В ' + Math.round(cn.carbs) : 'без КБЖВ';
-      body = '<span class="meal">' + MEALS[m] + '</span><button type="button" class="mtitle" data-view="' + esc(r.id) + '">' + esc(r.title) + '</button>' +
+      var line1 = (gr ? 'накласти <b>≈ ' + gr + ' г</b>' : fmtPortion(c.portion || 1) + ' порц.') + (t ? ' · ' + fmtTime(t) : '') + (rep > 1 ? ' · ' + rep + ' ' + plural(rep, 'день', 'дні', 'днів') : '');
+      var line2 = cn ? '<b>' + Math.round(cn.kcal) + ' ккал</b> · Б ' + Math.round(cn.protein) + ' · Ж ' + Math.round(cn.fat) + ' · В ' + Math.round(cn.carbs) : 'без КБЖВ';
+      body = '<button type="button" class="mtitle" data-view="' + esc(r.id) + '">' + esc(r.title) + '</button>' +
         '<div class="mnut">' + line1 + '</div><div class="mnut">' + line2 + '</div>';
     } else if (c) {
-      body = '<span class="meal">' + MEALS[m] + '</span><span class="gone">Рецепт видалено</span><div class="mnut">натисни ↻, щоб замінити</div>';
-    } else body = '<span class="meal">' + MEALS[m] + '</span><span class="mempty">порожньо</span>';
-    // мініфото теж відкриває перегляд; без фото — значок прийому їжі
-    var thumb = r && r.photo ? '<img class="mthumb" loading="lazy" alt="" src="' + esc(r.photo) + '" data-view-img="1">'
-      : '<span class="mthumb-ph" aria-hidden="true">' + ['🍳', '🍲', '🍽️'][m] + '</span>';
-    var msg = menuUi.open === key && menuUi.msg ? '<div class="mnut" style="color:var(--warn)">' + esc(menuUi.msg) + '</div>' : '';
-    return '<li data-cell="' + key + '">' + thumb +
-      '<div class="mbody">' + body + msg + '</div>' + swap + '</li>';
+      body = '<span class="gone">Рецепт видалено</span><div class="mnut">заміни його або обери іншу страву</div>';
+    } else body = '<span class="mempty">порожньо</span>';
+    // дії під стравою: інша страва з підбору, будь-яка страва з книги, копія на інший день
+    var acts = '<div class="macts-row">' +
+      '<button type="button" class="mact" data-act="regen" aria-label="Інша страва: ' + dayName(d).toLowerCase() + ', ' + MEALS[m].toLowerCase() + '">↻ Інша</button>' +
+      '<button type="button" class="mact" data-act="pick" aria-expanded="' + (open && menuUi.mode === 'pick') + '">Обрати</button>' +
+      (r ? '<button type="button" class="mact" data-act="copy" aria-expanded="' + (open && menuUi.mode === 'copy') + '">На інший день</button>' : '') + '</div>';
+    var panel = '';
+    if (open && menuUi.mode === 'copy' && r) {
+      panel = '<div class="mpanel"><p class="mp-lbl">Скопіювати «' + esc(r.title) + '» на ' + MEALS[m].toLowerCase() + ':</p><div class="days7">' +
+        DAYS.map(function (x, t) {
+          var same = menu.cells[t][m] && menu.cells[t][m].id === c.id, n = dayShort(t);
+          return '<button type="button" class="chip" data-copy="' + t + '" aria-pressed="' + same + '"' + (t === d ? ' disabled title="цей день"' : '') + ' aria-label="' + dayName(t) + '">' + n + '</button>';
+        }).join('') + '</div></div>';
+    } else if (open && menuUi.mode === 'pick') {
+      panel = '<div class="mpanel"><input id="mSearch" type="search" placeholder="Назва або інгредієнт" autocomplete="off" value="' + esc(menuUi.q) + '">' +
+        '<ul class="mres" id="mRes">' + pickResults(d, m) + '</ul></div>';
+    }
+    // мініфото теж відкриває перегляд; без фото — спокійна плашка
+    var thumb = r && r.photo ? '<img class="mthumb" loading="lazy" alt="" src="' + esc(r.photo) + '" data-view-img="1">' : '<span class="mthumb-ph" aria-hidden="true"></span>';
+    var msg = open && menuUi.msg ? '<div class="mnut" style="color:var(--warn)">' + esc(menuUi.msg) + '</div>' : '';
+    return '<li data-cell="' + key + '"' + (open && menuUi.mode ? ' class="open"' : '') + '>' + thumb +
+      '<div class="mbody"><span class="meal">' + MEALS[m] + '</span>' + body + msg + acts + '</div>' + panel + '</li>';
+  }
+  // ручний вибір: спершу страви, що підходять сюди, далі решта книги за пошуком
+  function pickResults(d, m) {
+    var q = norm(menuUi.q);
+    var list = RECIPES.filter(function (r) {
+      if (!q) return fitsSlot(r, d, m);
+      return norm(r.title).indexOf(q) !== -1 || (r.ingredients || []).some(function (i) { return norm(i.name).indexOf(q) !== -1; });
+    });
+    list.sort(function (a, b) { return (fitsSlot(b, d, m) ? 1 : 0) - (fitsSlot(a, d, m) ? 1 : 0) || a.title.localeCompare(b.title, 'uk'); });
+    if (!list.length) return '<li class="meta">Нічого не знайдено</li>';
+    return list.slice(0, 10).map(function (r) {
+      var h = r.nutrition_per_100g, t = totalTime(r);
+      return '<li><button type="button" data-pick="' + esc(r.id) + '"><span class="t">' + esc(r.title) + '</span><span class="meta">' + esc(r.category) +
+        (t ? ' · ' + fmtTime(t) : '') + (h && h.kcal != null ? ' · ' + Math.round(h.kcal) + ' ккал/100 г' : '') + '</span></button></li>';
+    }).join('');
   }
   function renderMenu() {
     var n = menuIds().length, nAll = menuFilled(), today = isoDate(new Date()), sig = focusSig();
@@ -2191,6 +2243,7 @@ ul.ings li > span:first-child { min-width: 0; }
       '<label>Вуглеводи, г<input type="number" inputmode="numeric" min="0" max="800" data-goal="carbs" value="' + g.carbs + '"></label>' +
       '<label>Вага, кг<input type="number" inputmode="numeric" min="30" max="250" data-goal="weight" value="' + g.weight + '"></label>' +
       '<label>Людей<input type="number" inputmode="numeric" min="1" max="20" id="goalPeople" value="' + menu.people + '"></label>' +
+      '<label class="goal-start">Починаю з<input type="date" id="goalStart" value="' + menu.start + '"></label>' +
       '<button type="button" class="primary goal-go" id="goalGen">' + (menuIds().length ? '↻ Підібрати заново' : 'Підібрати меню') + '</button>' +
       '<p class="goal-hint">Ціль на одну людину. Б·Ж·В дають ' + Math.round(mk) + ' ккал' +
       (Math.abs(mk - g.kcal) > g.kcal * 0.05 ? ' <span class="off">(не збігається з калоріями більш ніж на 5 %)</span>' : '') +
@@ -2205,12 +2258,12 @@ ul.ings li > span:first-child { min-width: 0; }
         '</div>';
     } else {
       html += '<div class="meta">' + weekRange() + ' · ' + n + ' ' + plural(n, 'страва', 'страви', 'страв') + '</div>' +
-        '<p class="menu-note">Натисни на страву, щоб переглянути рецепт і вибрати, на які дні її готуєш; ↻ — замінити страву. Страви на кілька днів лишаються, коли підбираєш меню заново.</p>' +
+        '<p class="menu-note">Натисни на страву, щоб переглянути рецепт. Під кожною: «Інша» — підібрати іншу, «Обрати» — будь-яка страва з книги, «На інший день» — готуєш раз, їси двічі. Обрані й скопійовані страви лишаються, коли підбираєш меню заново.</p>' +
         (menu.short && empty ? '<p class="menu-note warn">' + menu.short + ' ' + plural(menu.short, 'клітинка лишилася', 'клітинки лишилися', 'клітинок лишилося') +
-          ' порожніми: у книзі бракує рецептів, що підходять (у будні до 40 хв, без повторів за тиждень). Додай страву вручну: «⋯» → «Знайти».</p>' : '') +
+          ' порожніми: у книзі бракує рецептів, що підходять (у будні до 40 хв, без повторів за тиждень). Додай страву вручну кнопкою «Обрати».</p>' : '') +
         (nAll > n ? '<p class="menu-note warn">Страв, яких уже немає в книзі: ' + (nAll - n) + '. Вони позначені «Рецепт видалено»: прибери або заміни.</p>' : '') +
-        '<div class="days">' + DAYS.map(function (name, d) {
-          var date = addDays(menu.start, d), dp = date.split('-');
+        '<div class="days">' + DAYS.map(function (x, d) {
+          var date = addDays(menu.start, d), dp = date.split('-'), name = dayName(d);
           return '<section class="day' + (date === today ? ' today' : '') + '"><h3><span>' + name + '</span><span class="d">' + dp[2] + '.' + dp[1] +
             (date === today ? ' · сьогодні' : '') + '</span><span class="k">' + dayKcal(menu.cells[d]) + '</span></h3>' +
             '<ul class="mday">' + [0, 1, 2].map(function (m) { return cellHtml(d, m); }).join('') + '</ul></section>';
@@ -2231,6 +2284,10 @@ ul.ings li > span:first-child { min-width: 0; }
     $('goal').onchange = function (e) {
       var el = e.target, k = el.getAttribute('data-goal');
       if (k) menu.goal[k] = clampInt(el.value, k === 'kcal' ? 800 : 0, 9999, menu.goal[k]);
+      else if (el.id === 'goalStart') {
+        // страви лишаються на своїх місцях; змінюються дати й дні тижня
+        if (ISO_RE.test(el.value)) menu.start = el.value;
+      }
       else if (el.id === 'goalPeople') {
         menu.people = clampInt(el.value, 1, 20, menu.people);
         menu.cells.forEach(function (day) { day.forEach(function (c) { if (c) c.servings = Math.max(1, Math.round(menu.people * (c.portion || 1))); }); });
@@ -2249,16 +2306,39 @@ ul.ings li > span:first-child { min-width: 0; }
     days.onclick = function (e) {
       var b = e.target.closest('button'), li = e.target.closest('li[data-cell]');
       if (!li) return;
-      var dm = li.getAttribute('data-cell').split('-'), d = +dm[0], m = +dm[1], c = menu.cells[d][m], v;
+      var dm = li.getAttribute('data-cell').split('-'), d = +dm[0], m = +dm[1], key = d + '-' + m, c = menu.cells[d][m], v;
       if (!b && e.target.closest('[data-view-img]')) { openMenuQuick(d, m, li.querySelector('.mtitle')); return; }
       if (!b) return;
       if ((v = b.getAttribute('data-view'))) { openMenuQuick(d, m, b); return; }
-      if (b.getAttribute('data-act') === 'regen') {
-        menuUi = { open: d + '-' + m, mode: null, q: '', msg: '' };
+      if ((v = b.getAttribute('data-pick'))) {
+        var pr = BY_ID[v];
+        menu.cells[d][m] = pr.nutrition_per_serving && pr.nutrition_per_serving.kcal ? makeCell(pr, m, true) : { id: v, portion: 1, servings: menu.people, pinned: true };
+        menuUi = { open: null, mode: null, q: '', msg: '' }; saveMenu(); renderMenu(); return;
+      }
+      if ((v = b.getAttribute('data-copy')) != null && !b.disabled) {
+        var t = +v, src = menu.cells[d][m];
+        // копія закріплена: «Підібрати заново» її не замінить
+        src.pinned = true;
+        menu.cells[t][m] = { id: src.id, portion: src.portion, servings: src.servings, pinned: true };
+        saveMenu(); toast('«' + BY_ID[src.id].title + '» — ще й на ' + DAYS_ACC[wdOf(t)] + ', ' + dayShort(t).split(' ')[1]); renderMenu(); return;
+      }
+      var act = b.getAttribute('data-act');
+      if (act === 'regen') {
+        menuUi = { open: key, mode: null, q: '', msg: '' };
         if (c && !BY_ID[c.id]) menu.cells[d][m] = null;
         regenCell(d, m); renderMenu();
-        var again = $('sheet').querySelector('li[data-cell="' + d + '-' + m + '"] .mswap'); if (again) again.focus({ preventScroll: true });
+        var again = $('sheet').querySelector('li[data-cell="' + key + '"] [data-act="regen"]'); if (again) again.focus({ preventScroll: true });
+      } else if (act === 'pick' || act === 'copy') {
+        var same = menuUi.open === key && menuUi.mode === act;
+        menuUi = { open: same ? null : key, mode: same ? null : act, q: '', msg: '' }; renderMenu();
+        if (!same && act === 'pick' && $('mSearch')) $('mSearch').focus();
       }
+    };
+    var s = $('mSearch');
+    if (s) s.oninput = function () {
+      menuUi.q = this.value;
+      var dm = menuUi.open.split('-');
+      $('mRes').innerHTML = pickResults(+dm[0], +dm[1]);
     };
   }
   $('menuBtn').addEventListener('click', function () { location.hash = 'menu'; });
@@ -2717,7 +2797,7 @@ ul.ings li > span:first-child { min-width: 0; }
       // спершу закривається відкрита панель дій у меню, потім уся панель
       if (location.hash === '#menu' && menuUi.open) {
         var key = menuUi.open; menuUi = { open: null, mode: null, q: '', msg: '' }; renderMenu();
-        var mm = $('sheet').querySelector('li[data-cell="' + key + '"] .mmore'); if (mm) mm.focus();
+        var mm = $('sheet').querySelector('li[data-cell="' + key + '"] .mact'); if (mm) mm.focus();
         return;
       }
       location.hash = '';
