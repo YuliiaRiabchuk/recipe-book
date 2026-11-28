@@ -345,6 +345,13 @@ b.sq { font-weight: 700; font-variant-numeric: tabular-nums; }
 .qv-foot { display: flex; gap: 8px; padding: 12px 16px 14px; border-top: 1px solid var(--line); }
 .qv-plan { margin: 0 0 12px; padding: 10px 12px; border-radius: 12px; background: var(--accent-soft); color: var(--text); font-size: 14px; }
 .qv-rep { margin: -4px 0 14px; }
+.qv-plate { margin: -4px 0 14px; }
+.qv-plate .lbl3 { font-size: 13px; color: var(--muted); margin: 0 0 6px; }
+.qv-plate ul { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.qv-plate li { display: flex; justify-content: space-between; gap: 10px; padding: 7px 12px; border-top: 1px solid var(--line); font-size: 14px; }
+.qv-plate li:first-child { border-top: 0; }
+.qv-plate li b { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.qv-plate > .meta { margin: 6px 2px 0; font-size: 12px; }
 .qv-rep .lbl3 { font-size: 13px; color: var(--muted); margin: 0 0 6px; }
 .qv-rep .days7 { display: flex; flex-wrap: wrap; gap: 6px; }
 .qv-rep .chip { min-width: 44px; min-height: 40px; justify-content: center; }
@@ -2151,9 +2158,9 @@ ul.ings li > span:first-child { min-width: 0; }
   // перегляд страви з меню: що й скільки накласти + «готую на кілька днів» (та сама страва в той самий прийом їжі; закріплюється, щоб не змінилась при перескладанні)
   function openMenuQuick(d, m, trigger) {
     var c = menu.cells[d][m]; if (!c || !BY_ID[c.id]) return;
-    var id = c.id, gr = serveGrams(BY_ID[id], c.portion), cn = cellNut(c), days = repeatDays(id, m);
-    var extra = '<p class="qv-plan">У меню: ' + dayName(d).toLowerCase() + ' ' + dayShort(d).split(' ')[1] + ', ' + MEALS[m].toLowerCase() + ' · ' + fmtPortion(c.portion || 1) + ' порції на людину' +
-      (gr ? ' · накласти ≈ ' + gr + ' г' : '') + (cn ? ' · ' + Math.round(cn.kcal) + ' ккал, Б ' + Math.round(cn.protein) + ' · Ж ' + Math.round(cn.fat) + ' · В ' + Math.round(cn.carbs) : '') + '</p>' +
+    var id = c.id, pl = plateFor(BY_ID[id], c.portion), cn = cellNut(c), days = repeatDays(id, m);
+    var extra = '<p class="qv-plan">У меню: ' + dayName(d).toLowerCase() + ' ' + dayShort(d).split(' ')[1] + ', ' + MEALS[m].toLowerCase() + ' · ' + fmtPortion(c.portion || 1) + ((c.portion || 1) === 1 ? ' порція' : ' порції') + ' на людину' +
+      (pl ? ' · ' + plateLine(pl).replace(/<\/?b>/g, '') : '') + (cn ? ' · ' + Math.round(cn.kcal) + ' ккал, Б ' + Math.round(cn.protein) + ' · Ж ' + Math.round(cn.fat) + ' · В ' + Math.round(cn.carbs) : '') + '</p>' + plateList(pl) +
       '<div class="qv-rep"><p class="lbl3">Готую на кілька днів (' + MEALS[m].toLowerCase() + '):</p><div class="days7">' +
       DAYS.map(function (x, t) {
         var on = days.indexOf(t) !== -1, n = dayShort(t);
@@ -2174,19 +2181,67 @@ ul.ings li > span:first-child { min-width: 0; }
       return true;
     };
   }
-  // скільки накласти готової страви на одну людину: вага готової страви / порції × порція
-  function serveGrams(r, portion) {
-    var g = r.cooked_g || r.cooked_g_est;
-    if (!g || !r.servings) return null;
-    return Math.round(g / r.servings * (portion || 1) / 10) * 10;
+  // що лягає на тарілку одній людині: кожен продукт у готовому вигляді. Коефіцієнти ті самі, що в scripts/cooking.py
+  // (USDA Cooking Yields, Bognár 2002): крупи вбирають воду, мʼясо й риба втрачають вагу; овочі й решта — як є
+  var PLATE_YIELD = [
+    [/рис/, 2.8], [/булгур|гречк|кіноа|пшон|перлов|ячн|крупа|манк/, 3], [/кускус/, 2.5],
+    [/паст|спагет|макарон|локшин|лапш|фунчоз/, 2.3], [/^(?!.*(стручков|зелен|консерв|варен))(.*(сочевиц|нут|квасол|горох))/, 2.5]
+  ];
+  var PLATE_SHRINK = [
+    [/креветк|кальмар|мідії|морепродукт/, 0.85], [/лосос|скумбр|тріск|тілапі|хек|минтай|судак|форел|риб|філе білої/, 0.82],
+    [/фарш|курк|куряч|індич|ялович|телят|свин|кролик|печінк|стейк/, 0.75]
+  ];
+  // типова вага однієї штуки, коли в рецепті немає грамів (середні значення USDA для середнього розміру)
+  var PIECE_G = [[/яйц|яйце/, 50], [/жовток/, 18], [/білок/, 33], [/черрі|чері/, 15], [/помідор|томат/, 120], [/огір/, 120], [/болгарськ|перець солодк/, 150],
+    [/цибул/, 80], [/морк/, 80], [/кабач|цукіні/, 250], [/баклажан/, 300], [/картопл/, 120], [/батат/, 200], [/буряк/, 150], [/авокадо/, 150],
+    [/банан/, 120], [/яблук|груш|персик/, 150], [/апельсин/, 180], [/лимон|лайм/, 80], [/лаваш|тортиль|піта/, 60], [/хліб|тост|скибк/, 35]];
+  function pieceGrams(name) { for (var k = 0; k < PIECE_G.length; k++) if (PIECE_G[k][0].test(name)) return PIECE_G[k][1]; return 0; }
+  function ingGrams(i) {
+    if (!i || typeof i.qty !== 'number') return 0;
+    var u = { 'г': 1, 'кг': 1000, 'мл': 1, 'л': 1000 }[i.unit];
+    if (u) return i.qty * u;
+    var m = String(i.note || '').match(/(\d+(?:[.,]\d+)?)\s*(г|мл)(?![а-яіїєґa-z])/i);  // «0,5 шт» з приміткою «100 г»
+    if (m) return parseFloat(m[1].replace(',', '.'));
+    if (i.unit === 'шт') return i.qty * pieceGrams(norm(i.name));
+    if (i.unit === 'зубчик') return i.qty * 5;
+    return 0;
+  }
+  function platePart(i) {
+    var n = norm(i.name), note = norm(i.note), g = ingGrams(i), how = '';
+    if (!g || PANTRY.indexOf(n) !== -1 || isSpice(n)) return null;
+    var cooked = /варен|відварен|готов|запечен|консерв|у власному соку/.test(n + ' ' + note);
+    if (!cooked) {
+      for (var k = 0; k < PLATE_YIELD.length; k++) if (PLATE_YIELD[k][0].test(n) && !/борошн|пластівц|хлібц/.test(n)) { g *= PLATE_YIELD[k][1]; how = 'після варіння'; break; }
+      if (!how) for (k = 0; k < PLATE_SHRINK.length; k++) if (PLATE_SHRINK[k][0].test(n) && !/консерв/.test(n)) { g *= PLATE_SHRINK[k][1]; how = 'після готування'; break; }
+    }
+    return { name: i.name, g: g, how: how, veg: deptOf(n) === 'Овочі, фрукти, зелень' };
+  }
+  // тарілка на одну людину з урахуванням порції в меню
+  function plateFor(r, portion) {
+    var k = (portion || 1) / (r.servings || 1), parts = [];
+    (r.ingredients || []).forEach(function (i) { var p = platePart(i); if (p) { p.g *= k; parts.push(p); } });
+    var total = parts.reduce(function (s, p) { return s + p.g; }, 0), veg = parts.reduce(function (s, p) { return s + (p.veg ? p.g : 0); }, 0);
+    var r10 = function (x) { return Math.round(x / 10) * 10; };
+    return total ? { total: r10(total), veg: r10(veg), parts: parts.sort(function (a, b) { return b.g - a.g; }) } : null;
+  }
+  function plateLine(pl) {
+    if (!pl) return '';
+    return 'тарілка <b>≈ ' + pl.total + ' г</b>' + (pl.veg >= 40 && pl.veg < pl.total ? ', з них овочі ≈ ' + pl.veg + ' г' : '');
+  }
+  function plateList(pl) {
+    if (!pl) return '';
+    var big = pl.parts.filter(function (p) { return p.g >= 15; }), small = pl.parts.filter(function (p) { return p.g < 15; });
+    return '<div class="qv-plate"><p class="lbl3">Накласти одній людині (готові продукти):</p><ul>' + big.map(function (p) {
+      return '<li><span>' + esc(p.name) + (p.how ? ' <span class="meta">' + p.how + '</span>' : '') + '</span><b>≈ ' + (p.g >= 100 ? Math.round(p.g / 10) * 10 : Math.round(p.g)) + ' г</b></li>';
+    }).join('') + '</ul>' + (small.length ? '<p class="meta">+ ' + esc(small.map(function (p) { return p.name; }).join(', ')) + ' — для смаку й заправки</p>' : '') + '</div>';
   }
   function cellHtml(d, m) {
     var c = menu.cells[d][m], key = d + '-' + m, r = c && BY_ID[c.id], open = menuUi.open === key;
     var body;
     if (r) {
-      var cn = cellNut(c), gr = serveGrams(r, c.portion), t = totalTime(r);
+      var cn = cellNut(c), pl = plateFor(r, c.portion), t = totalTime(r);
       var rep = repeatDays(c.id, m).length;
-      var line1 = (gr ? 'накласти <b>≈ ' + gr + ' г</b>' : fmtPortion(c.portion || 1) + ' порц.') + (t ? ' · ' + fmtTime(t) : '') + (rep > 1 ? ' · ' + rep + ' ' + plural(rep, 'день', 'дні', 'днів') : '');
+      var line1 = (pl ? plateLine(pl) : fmtPortion(c.portion || 1) + ' порц.') + (t ? ' · ' + fmtTime(t) : '') + (rep > 1 ? ' · ' + rep + ' ' + plural(rep, 'день', 'дні', 'днів') : '');
       var line2 = cn ? '<b>' + Math.round(cn.kcal) + ' ккал</b> · Б ' + Math.round(cn.protein) + ' · Ж ' + Math.round(cn.fat) + ' · В ' + Math.round(cn.carbs) : 'без КБЖВ';
       body = '<button type="button" class="mtitle" data-view="' + esc(r.id) + '">' + esc(r.title) + '</button>' +
         '<div class="mnut">' + line1 + '</div><div class="mnut">' + line2 + '</div>';
