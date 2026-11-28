@@ -1717,7 +1717,7 @@ ul.ings li > span:first-child { min-width: 0; }
   if (!menu.goal.kcal) menu.goal.kcal = GOAL_DEF.kcal;
   if (!ISO_RE.test(menu.start)) menu.start = mondayOf(new Date());
   menu.people = clampInt(menu.people, 1, SERV_MAX, 2);
-  menu.fallback = clampInt(menu.fallback, 0, 21, 0); menu.short = clampInt(menu.short, 0, 21, 0);
+  menu.fallback = 0; menu.short = clampInt(menu.short, 0, 21, 0);  // fallback був у старому випадковому підборі
   // страви, яких уже немає в книзі, лишаються з позначкою «рецепт видалено», щоб їх можна було прибрати
   menu.cells = menu.cells.map(function (day) {
     return [0, 1, 2].map(function (m) {
@@ -1807,11 +1807,9 @@ ul.ings li > span:first-child { min-width: 0; }
     return best || [null, null, null];
   }
   function randomOf(list) { return list[Math.floor(Math.random() * list.length)]; }
-  function pickWeighted(list) {  // улюблене втричі частіше
-    var w = list.map(function (r) { return effStatus(r) === 'улюблене' ? 3 : 1; });
-    var x = Math.random() * w.reduce(function (a, b) { return a + b; }, 0);
-    for (var i = 0; i < list.length; i++) { x -= w[i]; if (x < 0) return list[i]; }
-    return list[list.length - 1];
+  function shuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; }
+    return a;
   }
   function generateMenu() {
     var used = [], fish = 0, short = 0;
@@ -1959,8 +1957,6 @@ ul.ings li > span:first-child { min-width: 0; }
     } else {
       html += '<div class="meta">' + weekRange() + ' · ' + n + ' ' + plural(n, 'страва', 'страви', 'страв') + '</div>' +
         '<p class="menu-note">«⋯» біля страви: інша страва, пошук, перенесення на інший день, порції. Закріплене 📌 лишається, коли меню перескладаєш.</p>' +
-        (menu.fallback ? '<p class="menu-note warn">Перевірених рецептів поки мало, тому нових у меню більше, ніж 1–2: ' +
-          triesInMenu(-1, -1) + ' з ' + n + '. Відмічай «готувала» під рецептами, і меню поступово складатиметься з перевіреного.</p>' : '') +
         (menu.short && empty ? '<p class="menu-note warn">' + menu.short + ' ' + plural(menu.short, 'клітинка лишилася', 'клітинки лишилися', 'клітинок лишилося') +
           ' порожніми: у книзі бракує рецептів, що підходять (у будні до 40 хв, без повторів за тиждень). Додай страву вручну: «⋯» → «Знайти».</p>' : '') +
         (nAll > n ? '<p class="menu-note warn">Страв, яких уже немає в книзі: ' + (nAll - n) + '. Вони позначені «Рецепт видалено»: прибери або заміни.</p>' : '') +
