@@ -1850,9 +1850,9 @@ ul.ings li > span:first-child { min-width: 0; }
   var menu = loadKey('weekMenu', null, function (v) { return isObj(v) && Array.isArray(v.cells) && v.cells.length === 7; });
   if (!menu) menu = { start: mondayOf(new Date()), people: 2, cells: emptyCells(), fallback: 0, short: 0 };
   // ціль на одну людину на день; за замовчуванням — SPEC.md (60 кг, 1500 ккал, білок 1,2–1,4 г/кг)
-  var GOAL_DEF = { kcal: 1500, protein: 78, fat: 55, carbs: 170 };
+  var GOAL_DEF = { kcal: 1500, protein: 100, fat: 50, carbs: 162, weight: 60 };
   if (!isObj(menu.goal)) menu.goal = {};
-  ['kcal', 'protein', 'fat', 'carbs'].forEach(function (k) { menu.goal[k] = clampInt(menu.goal[k], 0, 9999, GOAL_DEF[k]); });
+  ['kcal', 'protein', 'fat', 'carbs', 'weight'].forEach(function (k) { menu.goal[k] = clampInt(menu.goal[k], 0, 9999, GOAL_DEF[k]); });
   if (!menu.goal.kcal) menu.goal.kcal = GOAL_DEF.kcal;
   if (!ISO_RE.test(menu.start)) menu.start = mondayOf(new Date());
   menu.people = clampInt(menu.people, 1, SERV_MAX, 2);
@@ -1909,7 +1909,10 @@ ul.ings li > span:first-child { min-width: 0; }
     cells.forEach(function (c) {
       var n = cellNut(c); if (!n) return;
       T.kcal += n.kcal; T.protein += n.protein; T.fat += n.fat; T.carbs += n.carbs;
-      if (n.protein < 20) s += 0.15;
+      // білок від 25 г у кожному прийомі (тренування 2–3 рази на тиждень); ситість: менше ккал на 100 г — більший обʼєм за ті самі калорії
+      if (n.protein < 25) s += 0.15 + (25 - n.protein) / 100;
+      var ed = BY_ID[c.id].nutrition_per_100g && BY_ID[c.id].nutrition_per_100g.kcal;
+      if (ed) s += Math.max(-0.08, Math.min(0.3, (ed - 140) / 400));
       var r = BY_ID[c.id];
       if ((r.tags || []).indexOf('хелзі') !== -1) s -= 0.03;
       if (effStatus(r) === 'улюблене') s -= 0.08; else if (effStatus(r) === 'приготовано') s -= 0.04;
@@ -2077,11 +2080,14 @@ ul.ings li > span:first-child { min-width: 0; }
       '<label>Білки, г<input type="number" inputmode="numeric" min="0" max="400" data-goal="protein" value="' + g.protein + '"></label>' +
       '<label>Жири, г<input type="number" inputmode="numeric" min="0" max="300" data-goal="fat" value="' + g.fat + '"></label>' +
       '<label>Вуглеводи, г<input type="number" inputmode="numeric" min="0" max="800" data-goal="carbs" value="' + g.carbs + '"></label>' +
+      '<label>Вага, кг<input type="number" inputmode="numeric" min="30" max="250" data-goal="weight" value="' + g.weight + '"></label>' +
       '<label>Людей<input type="number" inputmode="numeric" min="1" max="20" id="goalPeople" value="' + menu.people + '"></label>' +
       '<button type="button" class="primary goal-go" id="goalGen">' + (menuIds().length ? '↻ Підібрати заново' : 'Підібрати меню') + '</button>' +
       '<p class="goal-hint">Ціль на одну людину. Б·Ж·В дають ' + Math.round(mk) + ' ккал' +
       (Math.abs(mk - g.kcal) > g.kcal * 0.05 ? ' <span class="off">(не збігається з калоріями більш ніж на 5 %)</span>' : '') +
       ' · жири ' + fatPct + ' % калорій' + (fatPct > 30 ? ' <span class="off">(ВООЗ радить до 30 %)</span>' : '') +
+      (g.weight ? ' · білок ' + (Math.round(g.protein / g.weight * 10) / 10).toString().replace('.', ',') + ' г/кг' +
+        (g.protein < g.weight * 1.6 ? ' <span class="off">(для силових тренувань у дефіциті радять 1,6–2,2 г/кг: ' + Math.round(g.weight * 1.6) + '–' + Math.round(g.weight * 2.2) + ' г)</span>' : '') : '') +
       ' · <button type="button" class="link-btn" id="goalCarbs" style="padding:0;min-height:0" title="Вуглеводи = (калорії − білки×4 − жири×9) / 4">розрахувати вуглеводи</button></p></div>';
     var html = '<article style="max-width:1100px"><h2>Меню на тиждень</h2>' + goalHtml;
     if (!nAll) {
